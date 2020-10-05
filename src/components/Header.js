@@ -5,8 +5,8 @@ const Header = () => {
   const appDescription = "A collection of recipes + their nutritional info.";
 
   return (
-    <div className="header">
-      <div className="app-name">{appName}</div>
+    <div className="app-header">
+      <div className="app-title">{appName}</div>
       <div className="app-description">{appDescription}</div>
     </div>
   );

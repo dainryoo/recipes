@@ -1,6 +1,6 @@
 [
   {
-    "recipe_category": "breakfast",
+    "category_name": "breakfast",
     "recipes": [
       {
         "name": "syrniki",
@@ -114,7 +114,7 @@
     ]
   },
   {
-    "recipe_category": "desserts",
+    "category_name": "desserts",
     "recipes": [
       {
         "name": "chai_latte",
@@ -282,7 +282,7 @@
     ]
   },
   {
-    "recipe_category": "misc",
+    "category_name": "misc",
     "recipes": [
       {
         "name": "vegan_mac_n_cheese",

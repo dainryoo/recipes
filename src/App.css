@@ -3,27 +3,42 @@ html, body, #root, #root>div {
   width: 100%;
 }
 
-/* .header */
-.header {
+/* .header: Header with app title and description */
+.app-header {
   background-color: lightblue;
   height: 10%;
 }
-.app-name {
+.app-title {
   font-size: 2rem;
 }
 .app-description {
   font-size: 1.5rem;
 }
 
-/* .content */
-.content {
+/* .app-body: Everything below header; split into sidebar and content */
+.app-body {
   height: 90%;
+  width: 100%;
+  display: flex;
+}
+.app-body>div {
+  height: 100%;
+}
+
+/* .sidebar: List of content for navigation */
+.sidebar {
+  width: 10%;
+}
+
+/* .content: The main content of the app */
+.content {
+  width: 100%;
   background-color: lavender;
   display: flex;
 }
 .content>div {
   height: 100%;
-  width: 50%;
+  width: 90%;
 }
 
 /* .recipe-section */
