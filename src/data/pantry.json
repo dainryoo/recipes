@@ -1,0 +1,258 @@
+[
+  {
+    "ingredient_category": "spices",
+    "items": [
+      {
+        "name": "cinnamon",
+        "nutrition_per_100_gram": {
+          "tsp": 38.462,
+          "tbsp": 12.821,
+          "cup": 0.801,
+          "calories": 246.923,
+          "protein": 4
+        }
+      },
+      {
+        "name": "garlic",
+        "nutrition": {
+          "calories": 4.47,
+          "protein": 0.191
+        }
+      },
+      {
+        "name": "ginger_ground",
+        "nutrition_per_100_gram": {
+          "tsp": 55.556,
+          "tbsp": 19.231,
+          "calories": 335,
+          "protein": 8.98
+        }
+      },
+      {
+        "name": "parsley",
+        "nutrition_per_100_gram": {
+          "tsp": 38.462,
+          "tbsp": 200,
+          "calories": 292,
+          "protein": 27
+        }
+      },
+      {
+        "name": "pepper",
+        "nutrition_per_100_gram": {
+          "tsp": 43.478,
+          "tbsp": 14.493,
+          "calories": 251,
+          "protein": 10
+        }
+      },
+      {
+        "name": "thyme",
+        "nutrition_per_100_gram": {
+          "tsp": 71.429,
+          "tbsp": 23.256,
+          "calories": 276,
+          "protein": 9.1
+        }
+      },
+      {
+        "name": "vanilla",
+        "nutrition_per_100_gram": {
+          "tsp": 23.810,
+          "tbsp": 7.692,
+          "cup": 0.481,
+          "calories": 288,
+          "protein": 0.1
+        }
+      }
+    ]
+  },
+  {
+    "ingredient_category": "dairy_and_meat",
+    "items": [
+      {
+        "name": "butter",
+        "nutrition_per_100_gram": {
+          "tsp": 21.429,
+          "tbsp": 7.143,
+          "cup": 0.446,
+          "calories": 714.286,
+          "protein": 0
+        }
+      },
+      {
+        "name": "buttermilk",
+        "nutrition_per_100_gram": {
+          "tsp": 20,
+          "tbsp": 6.667,
+          "cup": 0.417,
+          "calories": 11.719,
+          "protein": 0
+        }
+      },
+      {
+        "name": "cheese_farmers",
+        "nutrition_per_100_gram": {
+          "tsp": 21.820,
+          "tbsp": 7.273,
+          "cup": 0.455,
+          "calories": 145.455,
+          "protein": 10.909
+        }
+      },
+      {
+        "name": "egg",
+        "nutrition": {
+          "calories": 60,
+          "protein": 6
+        }
+      },
+      {
+        "name": "egg_large",
+        "nutrition": {
+          "calories": 70,
+          "protein": 6
+        }
+      },
+      {
+        "name": "egg_small",
+        "nutrition": {
+          "calories": 50,
+          "protein": 6
+        }
+      },
+      {
+        "name": "milk_almond",
+        "nutrition_per_100_gram": {
+          "tsp": 20,
+          "tbsp": 6.667,
+          "cup": 0.417,
+          "calories": 12.5,
+          "protein": 0
+        }
+      }
+    ]
+  },
+  {
+    "ingredient_category": "produce",
+    "items": [
+      {
+        "name": "banana",
+        "nutrition": {
+          "calories": 112,
+          "protein": 1.4
+        },
+        "nutrition_per_100_gram": {
+          "cup": 0.801,
+          "calories": 89,
+          "protein": 1.1
+        }
+      }
+    ]
+  },
+  {
+    "ingredient_category": "kitchen_basics",
+    "items": [
+      {
+        "name": "baking_powder",
+        "nutrition_per_100_gram": {
+          "tsp": 21.739,
+          "tbsp": 8.333,
+          "cup": 0.521,
+          "calories": 53,
+          "protein": 0
+        }
+      },
+      {
+        "name": "baking_soda",
+        "nutrition_per_100_gram": {
+          "tsp": 25,
+          "tbsp": 8.333,
+          "cup": 0.521,
+          "calories": 0,
+          "protein": 0
+        }
+      },
+      {
+        "name": "flour",
+        "nutrition_per_100_gram": {
+          "tsp": 40,
+          "tbsp": 13.333,
+          "cup": 0.833,
+          "calories": 366.667,
+          "protein": 7
+        }
+      },
+      {
+        "name": "oil",
+        "nutrition_per_100_gram": {
+          "tsp": 21.429,
+          "tbsp": 7.143,
+          "cup": 0.417,
+          "calories": 857.143,
+          "protein": 0
+        }
+      },
+      {
+        "name": "oil_olive",
+        "nutrition_per_100_gram": {
+          "tsp": 20,
+          "tbsp": 6.667,
+          "cup": 0.417,
+          "calories": 800,
+          "protein": 0
+        }
+      },
+      {
+        "name": "salt",
+        "nutrition_per_100_gram": {
+          "tsp": 16.667,
+          "tbsp": 5.556,
+          "cup": 0.342,
+          "calories": 0,
+          "protein": 0
+        }
+      },
+      {
+        "name": "sugar",
+        "nutrition_per_100_gram": {
+          "tsp": 25,
+          "tbsp": 8.333,
+          "cup": 0.5,
+          "calories": 375,
+          "protein": 0
+        }
+      },
+      {
+        "name": "vinegar_apple_cider",
+        "nutrition_per_100_gram": {
+          "tsp": 20,
+          "tbsp": 6.667,
+          "cup": 0.417,
+          "calories": 0,
+          "protein": 0
+        }
+      },
+      {
+        "name": "water",
+        "nutrition_per_100_gram": {
+          "tsp": 20,
+          "tbsp": 6.667,
+          "cup": 0.417,
+          "calories": 0,
+          "protein": 0
+        }
+      },
+      {
+        "name": "yeast",
+        "nutrition_per_100_gram": {
+          "tsp": 10.753,
+          "tbsp": 8.333,
+          "cup": 0.672,
+          "calories": 390,
+          "protein": 50
+        }
+      }
+    ]
+  }
+]
