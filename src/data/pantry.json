@@ -1,6 +1,6 @@
 [
   {
-    "ingredient_category": "spices",
+    "category_name": "spices",
     "items": [
       {
         "name": "cinnamon",
@@ -68,7 +68,7 @@
     ]
   },
   {
-    "ingredient_category": "dairy_and_meat",
+    "category_name": "dairy_and_meat",
     "items": [
       {
         "name": "butter",
@@ -134,7 +134,7 @@
     ]
   },
   {
-    "ingredient_category": "produce",
+    "category_name": "produce",
     "items": [
       {
         "name": "banana",
@@ -151,7 +151,7 @@
     ]
   },
   {
-    "ingredient_category": "kitchen_basics",
+    "category_name": "kitchen_basics",
     "items": [
       {
         "name": "baking_powder",

@@ -3,21 +3,25 @@ html, body, #root, #root>div {
   width: 100%;
 }
 
-/* .header: Header with app title and description */
+/* .App: the entire app; made up of .app-header and .app-body */
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+/* .app-header: Header with the app's title and description */
 .app-header {
   background-color: lightblue;
-  height: 10%;
 }
-.app-title {
+.app-header .title {
   font-size: 2rem;
 }
-.app-description {
+.app-header .description {
   font-size: 1.5rem;
 }
 
-/* .app-body: Everything below header; split into sidebar and content */
+/* .app-body: Everything below header */
 .app-body {
-  height: 90%;
   width: 100%;
   display: flex;
 }
@@ -25,28 +29,30 @@ html, body, #root, #root>div {
   height: 100%;
 }
 
-/* .sidebar: List of content for navigation */
+/* .sidebar: List of items for navigation */
 .sidebar {
-  width: 10%;
 }
-
-/* .content: The main content of the app */
+/* .content: The main content of the page; either shows recipe or pantry info  */
 .content {
-  width: 100%;
-  background-color: lavender;
-  display: flex;
-}
-.content>div {
-  height: 100%;
-  width: 90%;
 }
 
-/* .recipe-section */
-.recipe-section {
+/* .recipe.content: The content of the page when showing a recipe */
+.recipe.content {
   background-color: blanchedalmond;
 }
+/* .recipe .heading: The text for the name of a recipe */
+.recipe .heading {
+  font-size: 2.5rem;
+}
+/* .recipe .subheading: The text for Ingredients and Directions */
+.recipe .subheading {
+  font-size: 1.5rem;
+}
 
-/* .pantry-section */
-.pantry-section {
+/* .pantry.content The content of the page when showing a pantry item */
+.pantry.content {
   background-color: mistyrose;
+}
+.pantry .heading {
+  font-size: 3rem;
 }

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import { connect } from "react-redux";
 import recipesData from '../data/recipes.json';
 
-import { connect } from "react-redux";
-
-class Sidebar extends Component {
+class RecipeSidebar extends Component {
   render() {
     return (
-      <div className="sidebar">
+      <div className="recipe sidebar">
+        Recipe Nav:
         <ul>
           {recipesData.map((curr_category, category_index) => (
           <li key={category_index}>
@@ -14,7 +14,7 @@ class Sidebar extends Component {
             <ul>
               {curr_category.recipes.map((curr_recipe, recipe_index) => (
                 <li key={recipe_index}>
-                  <button onClick={this.props.setRecipe}>{curr_recipe.name}</button>
+                  <button onClick={() => this.props.updateSelectedRecipe(curr_recipe)}>{curr_recipe.name}</button>
                 </li>
               ))}
             </ul>
@@ -34,9 +34,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    setRecipe: () => dispatch({ type:'updateSelectedRecipe', payload: "sdlfksldkjf" }),
     updateSelectedRecipe: (selectedRecipe) => dispatch({ type:'updateSelectedRecipe', payload: selectedRecipe }),
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Sidebar);
+export default connect(mapStateToProps, mapDispatchToProps)(RecipeSidebar);
