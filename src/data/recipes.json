@@ -96,10 +96,10 @@
       {
         "name": "banana_pancakes",
         "ingredients": [
-          { "name": "flour", "amount": 120, "unit": "g" },
-          { "name": "sugar", "amount": 12, "unit": "g" },
-          { "name": "baking_powder", "amount": 8, "unit": "g" },
-          { "name": "salt", "amount": 2, "unit": "g" },
+          { "name": "flour", "amount": 1, "unit": "cup" },
+          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "baking_powder", "amount": 2, "unit": "tsp" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
           { "name": "egg", "note": "beaten", "amount": 1, "unit": "" },
           { "name": "milk_almond", "amount": 220, "unit": "ml" },
           { "name": "oil", "amount": 1, "unit": "tbsp" },

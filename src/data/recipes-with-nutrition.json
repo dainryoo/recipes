@@ -365,32 +365,36 @@
         ], 
         "ingredients": [
           {
-            "amount": 120, 
-            "calories": 440.00039999999996, 
+            "amount": 1, 
+            "amount_in_grams": 120.04801920768308, 
+            "calories": 440.1764705882353, 
             "name": "flour", 
-            "protein": 8.4, 
-            "unit": "g"
+            "protein": 8.403361344537815, 
+            "unit": "cup"
           }, 
           {
-            "amount": 12, 
-            "calories": 45.0, 
+            "amount": 1, 
+            "amount_in_grams": 12.000480019200769, 
+            "calories": 45.00180007200288, 
             "name": "sugar", 
             "protein": 0.0, 
-            "unit": "g"
-          }, 
-          {
-            "amount": 8, 
-            "calories": 4.24, 
-            "name": "baking_powder", 
-            "protein": 0.0, 
-            "unit": "g"
+            "unit": "tbsp"
           }, 
           {
             "amount": 2, 
+            "amount_in_grams": 9.200055200331201, 
+            "calories": 4.876029256175537, 
+            "name": "baking_powder", 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 1.4999700005999879, 
             "calories": 0.0, 
             "name": "salt", 
             "protein": 0.0, 
-            "unit": "g"
+            "unit": "tsp"
           }, 
           {
             "amount": 1, 
@@ -442,8 +446,8 @@
         ], 
         "name": "banana_pancakes", 
         "nutrition": {
-          "calories": 1126.7819791684165, 
-          "protein": 17.20209995800084
+          "calories": 1127.5958790848304, 
+          "protein": 17.205461302538655
         }
       }
     ]
