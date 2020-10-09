@@ -6,15 +6,14 @@ class PantrySidebar extends Component {
   render() {
     return (
       <div className="pantry sidebar">
-        Pantry Nav:
-        <ul>
+        <ul className="category-list">
           {pantryData.map((curr_category, category_index) => (
-          <li key={category_index}>
+          <li className="category-item" key={category_index}>
             {curr_category.category_name}
-            <ul>
+            <ul className="sub-list">
               {curr_category.items.map((item, item_index) => (
                 <li key={item_index}>
-                  <button onClick={() => this.props.updateSelectedPantryItem(item)}>{item.name}</button>
+                  <div onClick={() => this.props.updateSelectedPantryItem(item)}>{item.name}</div>
                 </li>
               ))}
             </ul>

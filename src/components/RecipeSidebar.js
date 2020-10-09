@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
-import recipesData from '../data/recipes.json';
+import recipesData from '../data/recipes-with-nutrition.json';
 
 class RecipeSidebar extends Component {
   render() {
     return (
       <div className="recipe sidebar">
-        Recipe Nav:
-        <ul>
+        <ul className="category-list">
           {recipesData.map((curr_category, category_index) => (
-          <li key={category_index}>
+          <li className="category-item" key={category_index}>
             {curr_category.category_name}
-            <ul>
+            <ul className="sub-list">
               {curr_category.recipes.map((curr_recipe, recipe_index) => (
                 <li key={recipe_index}>
-                  <button onClick={() => this.props.updateSelectedRecipe(curr_recipe)}>{curr_recipe.name}</button>
+                  <div onClick={() => this.props.updateSelectedRecipe(curr_recipe)}>{curr_recipe.name}</div>
                 </li>
               ))}
             </ul>

@@ -1,6 +1,6 @@
 [
   {
-    "recipe_category": "breakfast", 
+    "category_name": "breakfast", 
     "recipes": [
       {
         "directions": [
@@ -34,10 +34,10 @@
           }, 
           {
             "amount": 5, 
-            "amount_in_grams": 37.50093752343809, 
-            "calories": 137.50356258906473, 
+            "amount_in_grams": 37.50093752343808, 
+            "calories": 137.5035625890647, 
             "name": "flour", 
-            "protein": 2.6250656266406662, 
+            "protein": 2.625065626640666, 
             "unit": "tbsp"
           }, 
           {
@@ -86,7 +86,7 @@
           }, 
           {
             "amount": 1.5, 
-            "amount_in_grams": 6.9000414002484005, 
+            "amount_in_grams": 6.900041400248401, 
             "calories": 3.6570219421316525, 
             "name": "baking_powder", 
             "protein": 0.0, 
@@ -110,7 +110,7 @@
           }, 
           {
             "amount": 2, 
-            "amount_in_grams": 0.0, 
+            "amount_in_grams": 10.0, 
             "calories": 0.0, 
             "name": "vinegar_apple_cider", 
             "protein": 0.0, 
@@ -247,8 +247,8 @@
           }, 
           {
             "amount": 0.75, 
-            "amount_in_grams": 179.8561151079137, 
-            "calories": 21.077338129496408, 
+            "amount_in_grams": 179.85611510791367, 
+            "calories": 21.0773381294964, 
             "name": "buttermilk", 
             "note": "try 1/2 cup", 
             "protein": 0.0, 
@@ -256,7 +256,7 @@
           }, 
           {
             "amount": 0.5, 
-            "amount_in_grams": 112.10762331838563, 
+            "amount_in_grams": 112.10762331838565, 
             "calories": 800.769058295964, 
             "name": "butter", 
             "note": "frozen (7 tbsp ok?)", 
@@ -449,7 +449,7 @@
     ]
   }, 
   {
-    "recipe_category": "desserts", 
+    "category_name": "desserts", 
     "recipes": [
       {
         "directions": [
@@ -488,7 +488,7 @@
           }, 
           {
             "amount": 1.5, 
-            "amount_in_grams": 359.7122302158274, 
+            "amount_in_grams": 359.71223021582733, 
             "calories": 0.0, 
             "name": "water", 
             "protein": 0.0, 
@@ -514,16 +514,16 @@
           }, 
           {
             "amount": 1.5, 
-            "amount_in_grams": 359.7122302158274, 
-            "calories": 44.964028776978424, 
+            "amount_in_grams": 359.71223021582733, 
+            "calories": 44.96402877697842, 
             "name": "milk_almond", 
             "protein": 0.0, 
             "unit": "cup"
           }, 
           {
             "amount": 2, 
-            "amount_in_grams": 0.0, 
-            "calories": 0.0, 
+            "amount_in_grams": 8.0, 
+            "calories": 30.0, 
             "name": "sugar", 
             "protein": 0.0, 
             "unit": "tsp"
@@ -531,7 +531,7 @@
         ], 
         "name": "chai_latte", 
         "nutrition": {
-          "calories": 48.07649695731202, 
+          "calories": 78.076496957312, 
           "protein": 0.06640936472633018
         }
       }, 
@@ -550,8 +550,8 @@
           }, 
           {
             "amount": 2, 
-            "amount_in_grams": 0.0, 
-            "calories": 0.0, 
+            "amount_in_grams": 8.0, 
+            "calories": 30.0, 
             "name": "sugar", 
             "protein": 0.0, 
             "unit": "tsp"
@@ -597,7 +597,7 @@
         ], 
         "name": "golden_milk", 
         "nutrition": {
-          "calories": 75.16026463447646, 
+          "calories": 105.16026463447646, 
           "protein": 0.07060928072801015
         }
       }, 
@@ -794,10 +794,10 @@
         "ingredients": [
           {
             "amount": 1.25, 
-            "amount_in_grams": 150.06002400960386, 
-            "calories": 550.2205882352941, 
+            "amount_in_grams": 150.06002400960384, 
+            "calories": 550.220588235294, 
             "name": "flour", 
-            "protein": 10.50420168067227, 
+            "protein": 10.504201680672269, 
             "unit": "cup"
           }, 
           {
@@ -837,8 +837,8 @@
         ], 
         "name": "pie_crust", 
         "nutrition": {
-          "calories": 1357.704908548888, 
-          "protein": 10.50420168067227
+          "calories": 1357.7049085488877, 
+          "protein": 10.504201680672269
         }
       }, 
       {
@@ -989,8 +989,8 @@
           }, 
           {
             "amount": 2, 
-            "amount_in_grams": 0.0, 
-            "calories": 0.0, 
+            "amount_in_grams": 8.0, 
+            "calories": 30.0, 
             "name": "sugar", 
             "protein": 0.0, 
             "unit": "tsp"
@@ -998,7 +998,7 @@
         ], 
         "name": "chocolate_chili_cookies", 
         "nutrition": {
-          "calories": 297.26538794178026, 
+          "calories": 327.26538794178026, 
           "protein": 2.8934590317304942
         }
       }, 
@@ -1045,7 +1045,7 @@
     ]
   }, 
   {
-    "recipe_category": "misc", 
+    "category_name": "misc", 
     "recipes": [
       {
         "directions": [
@@ -1061,7 +1061,7 @@
           }, 
           {
             "amount": 0.75, 
-            "amount_in_grams": 179.8561151079137, 
+            "amount_in_grams": 179.85611510791367, 
             "calories": 0.0, 
             "name": "water", 
             "protein": 0.0, 
@@ -1155,8 +1155,8 @@
           }, 
           {
             "amount": 2, 
-            "amount_in_grams": 0.0, 
-            "calories": 0.0, 
+            "amount_in_grams": 10.0, 
+            "calories": 80.0, 
             "name": "oil_olive", 
             "protein": 0.0, 
             "unit": "tsp"
@@ -1200,7 +1200,7 @@
         ], 
         "name": "refried_beans", 
         "nutrition": {
-          "calories": 4.47, 
+          "calories": 84.47, 
           "protein": 0.191
         }
       }, 
@@ -1218,9 +1218,10 @@
         ], 
         "ingredients": [
           {
-            "amount": 200, 
+            "amount": 150, 
             "calories": 0.0, 
             "name": "water", 
+            "note": "up to 200ml", 
             "protein": 0.0, 
             "unit": "ml"
           }, 
@@ -1324,7 +1325,7 @@
             "ingredients": [
               {
                 "amount": 2, 
-                "amount_in_grams": 29.998500074996247, 
+                "amount_in_grams": 29.99850007499625, 
                 "calories": 239.98800059996998, 
                 "name": "oil_olive", 
                 "protein": 0.0, 
@@ -1369,10 +1370,10 @@
               }, 
               {
                 "amount": 1, 
-                "amount_in_grams": 1.3999916000503998, 
-                "calories": 3.863976816139103, 
+                "amount_in_grams": 1.3999916000503996, 
+                "calories": 3.8639768161391026, 
                 "name": "thyme", 
-                "protein": 0.12739923560458638, 
+                "protein": 0.12739923560458635, 
                 "unit": "tsp"
               }, 
               {
@@ -1415,10 +1416,10 @@
               }, 
               {
                 "amount": 2, 
-                "amount_in_grams": 15.000375009375233, 
-                "calories": 55.00142503562588, 
+                "amount_in_grams": 15.000375009375235, 
+                "calories": 55.00142503562589, 
                 "name": "flour", 
-                "protein": 1.0500262506562663, 
+                "protein": 1.0500262506562665, 
                 "unit": "tbsp"
               }, 
               {

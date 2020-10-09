@@ -3,14 +3,12 @@ import { connect } from "react-redux";
 
 class Header extends Component {
   render() {
-    const appName = "Recipes";
-    const appDescription = "A collection of recipes + their nutritional info.";
 
     return (
       <div className="app-header">
-      <button onClick={() => this.props.updateView(this.props.view ? 0 : 1)}>change view</button>
-        <div className="title">{appName}</div>
-        <div className="description">{appDescription}</div>
+        <div className={"recipe " + (this.props.view === 1 ? "" : "button")} onClick={() => this.props.updateView(1)}>Recipes</div>
+        <div className="plus-sign">+</div>
+        <div className={"pantry " + (this.props.view === 0 ? "" : "button")}onClick={() => this.props.updateView(0)}>Pantry</div>
       </div>
     );
   }

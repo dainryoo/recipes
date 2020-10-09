@@ -7,38 +7,84 @@ html, body, #root, #root>div {
 .App {
   display: flex;
   flex-direction: column;
+  background-color: #f9f9f9;
 }
 
-/* .app-header: Header with the app's title and description */
+/* .app-header: Header with the app's title and app content toggle */
 .app-header {
-  background-color: lightblue;
+  padding: 2.5rem 1rem;
+  display: flex;
+  font-size: 3rem;
+  font-weight: 100 !important;
+  cursor: default;
+  align-self: start;
 }
-.app-header .title {
-  font-size: 2rem;
+/* .plus-sign: The plus sign text between Recipe and Pantry */
+.app-header>.plus-sign {
+  padding: 0 1rem;
+  transition: 0.15s;
+  color: lightgrey;
 }
-.app-header .description {
-  font-size: 1.5rem;
+/* .app-header .button: The toggle button */
+.app-header .button {
+  cursor: pointer;
+  box-shadow: inset 0 -3px white, inset 0 -4px lightgrey;
+  transition: 0.15s;
+  color: lightgrey;
+}
+/* .recipe.button: Button to view recipes */
+.app-header .recipe.button {
+  text-shadow: 1px 1px white, 2px 1px white, -1px 1px white, -2px 1px white;
+}
+/* .pantry.button: Button to view pantry */
+.app-header .pantry.button {
+  text-shadow: 3px -1px white, -2px -1px white, -2px -2px white, 0px -1px white;
 }
 
 /* .app-body: Everything below header */
 .app-body {
-  width: 100%;
   display: flex;
+  flex: 1;
+  overflow: hidden;
 }
 .app-body>div {
-  height: 100%;
+  padding: 1rem;
 }
 
 /* .sidebar: List of items for navigation */
 .sidebar {
+  overflow-y: scroll;
+}
+.sidebar .category-list {
+  padding-inline-start: 20px;
+}
+.sidebar .category-item {
+  text-transform: uppercase;
+}
+.sidebar .sub-list {
+  padding-inline-start: 20px;
+}
+.sidebar .sub-list li>div {
+  text-transform: none;
+  cursor: pointer;
+  text-decoration: underline;
 }
 /* .content: The main content of the page; either shows recipe or pantry info  */
 .content {
+  flex: 1;
+  padding-left: 3rem !important;
+  overflow-y: scroll;
+}
+
+/* .message: The text that shows when no options have been selected for the content to display */
+.content .message {
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding-top: 0.5rem;
 }
 
 /* .recipe.content: The content of the page when showing a recipe */
 .recipe.content {
-  background-color: blanchedalmond;
 }
 /* .recipe .heading: The text for the name of a recipe */
 .recipe .heading {
@@ -51,8 +97,12 @@ html, body, #root, #root>div {
 
 /* .pantry.content The content of the page when showing a pantry item */
 .pantry.content {
-  background-color: mistyrose;
 }
+/* .pantry .heading: The text for the name of the pantry item */
 .pantry .heading {
   font-size: 3rem;
+}
+/* .pantry .subheading: The text for Nutrition per unit or per 100 grams */
+.pantry .subheading {
+  font-size: 1.5rem;
 }

@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 class Recipe extends Component {
   render() {
-    const noPantrySelectedMsg = "Select a pantry item to view info";
+    const noPantrySelectedMessage = (<div className="message">Select a pantry item to view</div>);
 
     const pantryItem = this.props.selectedPantryItem;
     let nutrition = null;
@@ -30,7 +30,7 @@ class Recipe extends Component {
 
     return (
       <div className="pantry content">
-        <div className="heading">{pantryItem ? pantryItem.name : noPantrySelectedMsg}</div>
+        {pantryItem ? <div className="heading">{pantryItem.name}</div> : noPantrySelectedMessage}
         {nutrition &&
           <div>
             <div className="subheading">Nutrition per unit:</div>
