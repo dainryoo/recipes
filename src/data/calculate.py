@@ -47,6 +47,7 @@ def calculate_recipe_nutrition(recipe, pantry):
     ingredients = recipe["ingredients"]
     total_calories = 0.0
     total_protein = 0.0
+    total_price = 0.0
 
     for i in range(len(ingredients)):
         # get nutrition info for each ingredient in the recipe
@@ -54,10 +55,12 @@ def calculate_recipe_nutrition(recipe, pantry):
         calculate_ingredient_nutrition(curr_ingredient, pantry)
         total_calories += curr_ingredient["calories"]
         total_protein += curr_ingredient["protein"]
+        total_price += curr_ingredient["price"]
 
     recipe["nutrition"] = {
         "calories": total_calories,
-        "protein": total_protein
+        "protein": total_protein,
+        "price": total_price
     }
 
 # calculate the nutrition of a recipe with ingredient subcategories
@@ -65,12 +68,14 @@ def calculate_nutrition_with_categories(recipe, ingredient_category, pantry):
     ingredients = ingredient_category["ingredients"]
 
     # if the recipe already has existing nutrition info
-    if (recipe.has_key("nutrition")):
-        total_calories = recipe["nutrition"]["calories"]
-        total_protein = recipe["nutrition"]["protein"]
+    if (recipe.has_key("per_unit")):
+        total_calories = recipe["per_unit"]["calories"]
+        total_protein = recipe["per_unit"]["protein"]
+        total_price = recipe["per_unit"]["price"]
     else:
         total_calories = 0.0
         total_protein = 0.0
+        total_price = 0.0
 
     for i in range(len(ingredients)):
         # get nutrition info for each ingredient in the recipe
@@ -78,10 +83,12 @@ def calculate_nutrition_with_categories(recipe, ingredient_category, pantry):
         calculate_ingredient_nutrition(curr_ingredient, pantry)
         total_calories += curr_ingredient["calories"]
         total_protein += curr_ingredient["protein"]
+        total_price += curr_ingredient["price"]
 
     recipe["nutrition"] = {
         "calories": total_calories,
-        "protein": total_protein
+        "protein": total_protein,
+        "price": total_price
     }
 
 
@@ -93,6 +100,7 @@ def calculate_ingredient_nutrition(ingredient, pantry):
     if (ingredient_info == None):
         ingredient["calories"] = 0.0
         ingredient["protein"] = 0.0
+        ingredient["price"] = 0.0
         print("ERROR: " + ingredient['name'] + " was not found in pantry information.\n")
         return
 
@@ -100,12 +108,14 @@ def calculate_ingredient_nutrition(ingredient, pantry):
 
     if ("unit" not in ingredient or ingredient["unit"] == ""):
         # if no unit is defined/used in the amount for this ingredient
-        calories_per_unit = ingredient_info["nutrition"]["calories"]
-        protein_per_unit = ingredient_info["nutrition"]["protein"]
+        calories_per_unit = ingredient_info["per_unit"]["calories"]
+        protein_per_unit = ingredient_info["per_unit"]["protein"]
+        price_per_unit = ingredient_info["per_unit"]["price"]
         number_of_units = ingredient["amount"]
 
         ingredient["calories"] = calories_per_unit * number_of_units
         ingredient["protein"] = protein_per_unit * number_of_units
+        ingredient["price"] = price_per_unit * number_of_units
     else:
         # figure out which unit is used
         unit = ingredient["unit"]
@@ -127,12 +137,13 @@ def calculate_ingredient_nutrition(ingredient, pantry):
             elif unit in ["c", "cup", "cups"]:
                 unit_name = "cup"
             # calculate the value in grams
-            amount = ingredient["amount"] * 100.0 / ingredient_info["nutrition_per_100_gram"][unit_name]
+            amount = ingredient["amount"] * 100.0 / ingredient_info["per_100_gram"][unit_name]
             # save amount in grams into recipe for reference
             ingredient["amount_in_grams"] = amount
 
-        ingredient["calories"] = amount / 100.0 * ingredient_info["nutrition_per_100_gram"]["calories"]
-        ingredient["protein"] = amount / 100.0 * ingredient_info["nutrition_per_100_gram"]["protein"]
+        ingredient["calories"] = amount / 100.0 * ingredient_info["per_100_gram"]["calories"]
+        ingredient["protein"] = amount / 100.0 * ingredient_info["per_100_gram"]["protein"]
+        ingredient["price"] = amount / 100.0 * ingredient_info["per_100_gram"]["price"]
 
 
 

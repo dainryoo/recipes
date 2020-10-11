@@ -269,15 +269,6 @@
         "directions": [
           "Heat treat flour (bake at 350F for 7 min)"
         ]
-      },
-      {
-        "name": "template",
-        "ingredients": [
-          { "name": "flour", "amount": 0.25, "unit": "cup" }
-        ],
-        "directions": [
-          "Heat treat flour (bake at 350F for 7 min)"
-        ]
       }
     ]
   },
