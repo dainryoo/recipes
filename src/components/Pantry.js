@@ -1,55 +1,65 @@
 import React, { Component } from 'react';
-import { connect } from "react-redux";
 
-class Recipe extends Component {
+class Pantry extends Component {
   render() {
-    const noPantrySelectedMessage = (<div className="message">Select a pantry item to view</div>);
 
-    const pantryItem = this.props.selectedPantryItem;
+    const item = this.props.item;
     let nutrition = null;
     let nutrition_per_100_gram = null;
 
-    if (pantryItem) {
-      if (pantryItem.nutrition) {
-        let nutrition_arr = [];
-        for (const [unit, value] of Object.entries(pantryItem.nutrition)) {
-          nutrition_arr.push({unit, value});
+    if (item.per_unit) {
+      let nutrition_arr = [];
+      for (const [unit, value] of Object.entries(item.per_unit)) {
+        if (unit === "calories") {
+          nutrition_arr.push(parseFloat(value).toFixed(2) + " calories");
+        } else if (unit === "protein") {
+          nutrition_arr.push(parseFloat(value).toFixed(2) + " g protein");
+        } else if (unit === "price") {
+          nutrition_arr.push("$" + parseFloat(value).toFixed(2));
+        } else if (unit === "avg_grams") {
+          nutrition_arr.push("~" + parseFloat(value).toFixed(2) + " g");
         }
-        nutrition = nutrition_arr;
       }
-      if (pantryItem.nutrition_per_100_gram) {
-        let nutrition_100_arr = [];
-        for (const [unit, value] of Object.entries(pantryItem.nutrition_per_100_gram)) {
-          if (unit === "calories" || unit === "protein") {
-              nutrition_100_arr.push({unit, value});
-          }
-        }
-        nutrition_per_100_gram = nutrition_100_arr;
-      }
+      nutrition = nutrition_arr;
     }
+
+    if (item.per_100_gram) {
+      let nutrition_100_arr = [];
+      for (const [unit, value] of Object.entries(item.per_100_gram)) {
+        if (unit === "calories") {
+          nutrition_100_arr.push(parseFloat(value).toFixed(2) + " calories");
+        } else if (unit === "protein") {
+          nutrition_100_arr.push(parseFloat(value).toFixed(2) + " g protein");
+        } else if (unit === "price") {
+          nutrition_100_arr.push("$" + parseFloat(value).toFixed(2));
+        }
+      }
+      nutrition_per_100_gram = nutrition_100_arr;
+    }
+
 
     return (
       <div className="pantry content">
-        {pantryItem ? <div className="heading">{pantryItem.name}</div> : noPantrySelectedMessage}
+        <div className="heading">{item.label}</div>
         {nutrition &&
-          <div>
-            <div className="subheading">Nutrition per unit:</div>
+          <div className="subcontent">
+            <div className="subheading">Per unit:</div>
             <ul>
             {nutrition.map((info, index) => (
               <li key={index}>
-                {info.unit}: {info.value}
+                {info}
               </li>
             ))}
             </ul>
           </div>
         }
         {nutrition_per_100_gram &&
-          <div>
-            <div className="subheading">Nutrition per 100 grams:</div>
+          <div className="subcontent">
+            <div className="subheading">Per 100 grams:</div>
             <ul>
             {nutrition_per_100_gram.map((info, index) => (
               <li key={index}>
-                {info.unit}: {info.value}
+                {info}
               </li>
             ))}
             </ul>
@@ -59,11 +69,4 @@ class Recipe extends Component {
     );
   }
 }
-
-const mapStateToProps = state => {
-	return {
-    selectedPantryItem: state.selectedPantryItem
-  }
-}
-
-export default connect(mapStateToProps)(Recipe);
+export default Pantry;

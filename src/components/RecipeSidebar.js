@@ -9,11 +9,12 @@ class RecipeSidebar extends Component {
         <ul className="category-list">
           {recipesData.map((curr_category, category_index) => (
           <li className="category-item" key={category_index}>
-            {curr_category.category_name}
+            <div>{curr_category.category_name}</div>
             <ul className="sub-list">
               {curr_category.recipes.map((curr_recipe, recipe_index) => (
-                <li key={recipe_index}>
-                  <div onClick={() => this.props.updateSelectedRecipe(curr_recipe)}>{curr_recipe.name}</div>
+                <li key={recipe_index}
+                  className={"sub-list-item " + (this.props.selectedRecipe?.name === curr_recipe.name ? "selected" : "")}>
+                  <div onClick={() => this.props.updateSelectedRecipe(curr_recipe)}>{curr_recipe.label}</div>
                 </li>
               ))}
             </ul>

@@ -7,10 +7,18 @@ import PantrySidebar from "./PantrySidebar.js";
 
 class Body extends Component {
   render() {
+    const sidebar = this.props.view ? <RecipeSidebar/> : <PantrySidebar/>
+    let content = "";
+    if (this.props.view === 1) {
+      content = this.props.selectedRecipe ? <Recipe recipe={this.props.selectedRecipe}/> : <div className="message">pick a recipe</div>;
+    } else {
+      content = this.props.selectedPantryItem ? <Pantry item={this.props.selectedPantryItem}/> : <div className="message">pick a pantry item</div>;
+    }
+
     return (
       <div className="app-body">
-        {this.props.view ? <RecipeSidebar/> : <PantrySidebar/>}
-        {this.props.view ? <Recipe/> : <Pantry/>}
+        {sidebar}
+        {content}
       </div>
     );
   }
@@ -18,7 +26,9 @@ class Body extends Component {
 
 const mapStateToProps = state => {
 	return {
-    view: state.view
+    view: state.view,
+    selectedRecipe: state.selectedRecipe,
+    selectedPantryItem: state.selectedPantryItem
   }
 }
 export default connect(mapStateToProps)(Body);

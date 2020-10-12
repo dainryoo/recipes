@@ -9,11 +9,12 @@ class PantrySidebar extends Component {
         <ul className="category-list">
           {pantryData.map((curr_category, category_index) => (
           <li className="category-item" key={category_index}>
-            {curr_category.category_name}
+            <div>{curr_category.category_name}</div>
             <ul className="sub-list">
               {curr_category.items.map((item, item_index) => (
-                <li key={item_index}>
-                  <div onClick={() => this.props.updateSelectedPantryItem(item)}>{item.name}</div>
+                <li key={item_index}
+                    className={"sub-list-item " + (this.props.selectedPantryItem?.name === item.name ? "selected" : "")}>
+                  <div onClick={() => this.props.updateSelectedPantryItem(item)}>{item.label}</div>
                 </li>
               ))}
             </ul>
