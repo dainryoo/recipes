@@ -4,10 +4,11 @@
     "recipes": [
       {
         "name": "syrniki",
+        "label": "syrniki",
         "ingredients": [
           { "name": "egg", "amount": 1, "unit": "" },
           { "name": "sugar", "amount": 3, "unit": "tbsp" },
-          { "name": "cheese_farmers", "amount": 1, "unit": "cup" },
+          { "name": "farmers_cheese", "amount": 1, "unit": "cup" },
           { "name": "flour", "amount": 5, "unit": "tbsp" },
           { "name": "salt", "amount": 0.25, "unit": "tsp" },
           { "name": "oil", "amount": 1, "unit": "tsp" }
@@ -20,6 +21,7 @@
       },
       {
         "name": "vegan_pancakes",
+        "label": "vegan pancakes",
         "ingredients": [
           { "name": "flour", "amount": 80, "unit": "g" },
           { "name": "sugar", "amount": 22, "unit": "g" },
@@ -27,7 +29,7 @@
           { "name": "salt", "amount": 0.5, "unit": "tsp" },
           { "name": "milk_almond", "note": "(nice thick batter, could try even more milk?)", "amount": 140, "unit": "ml" },
           { "name": "vinegar_apple_cider", "amount": 2, "unit": "tsp" },
-          { "name": "vanilla", "amount": 1, "unit": "tsp" },
+          { "name": "vanilla_extract", "amount": 1, "unit": "tsp" },
           { "name": "butter", "note": "(1 tsp per pancake)", "amount": 2, "unit": "tbsp" }
         ],
         "directions": [
@@ -38,6 +40,7 @@
       },
       {
         "name": "dutch_baby",
+        "label": "dutch baby",
         "ingredients": [
           { "name": "egg", "amount": 3, "unit": "" },
           { "name": "flour", "amount": 0.5, "unit": "cup" },
@@ -45,7 +48,7 @@
           { "name": "sugar", "amount": 1, "unit": "tbsp" },
           { "name": "butter", "amount": 1, "unit": "tbsp" },
           { "name": "cinnamon", "amount": 0.25, "unit": "tsp" },
-          { "name": "vanilla", "amount": 0.25, "unit": "tsp" }
+          { "name": "vanilla_extract", "amount": 0.25, "unit": "tsp" }
         ],
         "directions": [
           "Preheat oven 425 and put skillet inside. (9x5 pan works)",
@@ -56,6 +59,7 @@
       },
       {
         "name": "biscuits",
+        "label": "biscuits",
         "ingredients": [
           { "name": "flour", "amount": 2, "unit": "cup" },
           { "name": "baking_powder", "amount": 1, "unit": "tbsp" },
@@ -75,6 +79,7 @@
       },
       {
         "name": "fluffy_pancakes",
+        "label": "fluffy pancakes",
         "ingredients": [
           { "name": "flour", "amount": 90, "unit": "g" },
           { "name": "sugar", "amount": 18, "unit": "g" },
@@ -84,17 +89,18 @@
           { "name": "egg", "amount": 1, "unit": "" },
           { "name": "milk_almond", "amount": 120, "unit": "ml" },
           { "name": "butter", "note": "melted", "amount": 1, "unit": "tbsp" },
-          { "name": "vanilla", "amount": 0.5, "unit": "tsp" },
+          { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
           { "name": "butter", "note": "to cook", "amount": 1, "unit": "tbsp" }
         ],
         "directions": [
           "Mix flour, sugar, baking powder, salt, baking soda.",
-          "Separate bowl, whisk egg, milk, melted butter, vanilla.",
+          "Separate bowl, whisk egg, milk, melted butter, vanilla extract.",
           "Combine, gently stir."
         ]
       },
       {
         "name": "banana_pancakes",
+        "label": "banana pancakes",
         "ingredients": [
           { "name": "flour", "amount": 1, "unit": "cup" },
           { "name": "sugar", "amount": 1, "unit": "tbsp" },
@@ -104,7 +110,7 @@
           { "name": "milk_almond", "amount": 220, "unit": "ml" },
           { "name": "oil", "amount": 1, "unit": "tbsp" },
           { "name": "banana", "amount": 2, "unit": "" },
-          { "name": "vanilla", "amount": 0.5, "unit": "tsp" },
+          { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
           { "name": "butter", "note": "(1 tsp per pancake)", "amount": 6, "unit": "tsp" }
         ],
         "directions": [
@@ -118,6 +124,7 @@
     "recipes": [
       {
         "name": "chai_latte",
+        "label": "chai latte",
         "ingredients": [
           { "name": "cardamom", "note": "(10 pods = 10 pinches of seeds = 1.5 tsp of powder?)", "amount": 10, "unit": "" },
           { "name": "cloves", "note": "whole", "amount": 6, "unit": "" },
@@ -135,11 +142,12 @@
       },
       {
         "name": "golden_milk",
+        "label": "golden milk",
         "ingredients": [
           { "name": "milk_almond", "amount": 2, "unit": "cup" },
           { "name": "sugar", "amount": 2, "unit": "tsp" },
           { "name": "turmeric", "amount": 1, "unit": "tsp" },
-          { "name": "vanilla", "amount": 1, "unit": "tsp" },
+          { "name": "vanilla_extract", "amount": 1, "unit": "tsp" },
           { "name": "cinnamon", "amount": 0.25, "unit": "tsp" },
           { "name": "ginger_ground", "amount": 0.25, "unit": "tsp" },
           { "name": "pepper, cloves, cardamom, nutmeg", "amount": 1, "unit": "" }
@@ -150,6 +158,7 @@
       },
       {
         "name": "banana_bread",
+        "label": "banana bread",
         "ingredients": [
           { "name": "banana", "amount": 5, "unit": "" },
           { "name": "butter", "note": "melted and cooled slightly", "amount": 8, "unit": "tbsp" },
@@ -166,11 +175,12 @@
       },
       {
         "name": "macaroons",
+        "label": "macaroons",
         "ingredients": [
           { "name": "egg_white", "amount": 1, "unit": "" },
           { "name": "coconut_flakes", "amount": 7, "unit": "oz" },
           { "name": "condensed_milk", "amount": 179, "unit": "g" },
-          { "name": "vanilla", "amount": 0.5, "unit": "tsp" },
+          { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
           { "name": "salt", "amount": 0.25, "unit": "tsp" }
         ],
         "directions": [
@@ -182,12 +192,13 @@
       },
       {
         "name": "edible_cookie_dough",
+        "label": "edible cookie dough",
         "ingredients": [
           { "name": "flour", "amount": 0.25, "unit": "cup" },
           { "name": "butter", "amount": 1.5, "unit": "tbsp" },
           { "name": "salt", "note": "pinch", "amount": 0.125, "unit": "tsp" },
           { "name": "sugar_brown", "amount": 18, "unit": "g" },
-          { "name": "vanilla", "amount": 0.125, "unit": "tsp" }
+          { "name": "vanilla_extract", "amount": 0.125, "unit": "tsp" }
         ],
         "directions": [
           "Heat treat flour (bake at 350F for 7 min)",
@@ -198,6 +209,7 @@
       },
       {
         "name": "pie_crust",
+        "label": "pie crust",
         "ingredients": [
           { "name": "flour", "amount": 1.25, "unit": "cup" },
           { "name": "salt", "amount": 0.5, "unit": "tsp" },
@@ -221,6 +233,7 @@
       },
       {
         "name": "marzipan",
+        "label": "marzipan",
         "ingredients": [
           { "name": "almond", "amount": 90, "unit": "g" },
           { "name": "sugar_powdered", "amount": 70, "unit": "g" },
@@ -236,6 +249,7 @@
       },
       {
         "name": "chocolate_chili_cookies",
+        "label": "chocolate chili cookies",
         "ingredients": [
           { "name": "flour", "amount": 40, "unit": "g" },
           { "name": "cocoa_powder", "amount": 1, "unit": "tbsp" },
@@ -243,12 +257,12 @@
           { "name": "ginger_ground", "amount": 0.25, "unit": "tsp" },
           { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
           { "name": "clove_ground", "amount": 0.125, "unit": "tsp" },
-          { "name": "cayenne", "amount": 0.25, "unit": "tsp" },
+          { "name": "cayenne_pepper", "amount": 0.25, "unit": "tsp" },
           { "name": "water", "note": "warm", "amount": 0.5, "unit": "tsp" },
           { "name": "baking_soda", "amount": 0.25, "unit": "tsp" },
           { "name": "butter", "amount": 20, "unit": "g" },
           { "name": "honey", "amount": 19, "unit": "g" },
-          { "name": "vanilla", "amount": 0.25, "unit": "tsp" },
+          { "name": "vanilla_extract", "amount": 0.25, "unit": "tsp" },
           { "name": "sugar", "amount": 2, "unit": "tsp" }
         ],
         "directions": [
@@ -263,6 +277,7 @@
       },
       {
         "name": "template",
+        "label": "template",
         "ingredients": [
           { "name": "flour", "amount": 0.25, "unit": "cup" }
         ],
@@ -277,6 +292,7 @@
     "recipes": [
       {
         "name": "vegan_mac_n_cheese",
+        "label": "vegan mac & cheese",
         "ingredients": [
           { "name": "cashew", "amount": 126, "unit": "g" },
           { "name": "water", "amount": 0.75, "unit": "cup" },
@@ -287,7 +303,7 @@
           { "name": "turmeric", "amount": 0.125, "unit": "tsp" },
           { "name": "mustard", "amount": 0.75, "unit": "tsp" },
           { "name": "pasta", "amount": 16, "unit": "oz" },
-          { "name": "pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
           { "name": "broccoli", "amount": 180, "unit": "g" }
         ],
         "directions": [
@@ -296,6 +312,7 @@
       },
       {
         "name": "refried_beans",
+        "label": "refried beans",
         "ingredients": [
           { "name": "canned_beans", "amount": 1, "unit": "" },
           { "name": "oil_olive", "amount": 2, "unit": "tsp" },
@@ -313,6 +330,7 @@
       },
       {
         "name": "pizza_crust",
+        "label": "pizza crust",
         "ingredients": [
           { "name": "water", "note": "up to 200ml", "amount": 150, "unit": "ml" },
           { "name": "flour", "amount": 306, "unit": "g" },
@@ -334,29 +352,32 @@
       },
       {
         "name": "shepherds_pie",
+        "label": "shepherd's pie",
         "ingredient_categories": [
           {
             "name": "potato_filling",
+            "label": "potato filling",
             "ingredients": [
               { "name": "potato", "note": "peeled", "amount": 3, "unit": "" },
               { "name": "butter", "amount": 4, "unit": "tbsp" },
               { "name": "milk_almond", "amount": 64, "unit": "ml" },
               { "name": "cheese_parmesan", "amount": 7, "unit": "g" },
-              { "name": "salt, pepper, parsley, rosemary", "amount": 1, "unit": "" }
+              { "name": "salt, pepper, parsley_dried, rosemary", "amount": 1, "unit": "" }
             ]
           },
           {
             "name": "meat_filling",
+            "label": "meat filling",
             "ingredients": [
               { "name": "oil_olive", "amount": 2, "unit": "tbsp" },
               { "name": "onion", "note": "(1-2), chopped", "amount": 1, "unit": "" },
               { "name": "carrot", "amount": 3, "unit": "" },
               { "name": "beef_ground", "amount": 1, "unit": "lb" },
-              { "name": "parsley", "amount": 2, "unit": "tsp" },
+              { "name": "parsley_dried", "amount": 2, "unit": "tsp" },
               { "name": "rosemary", "amount": 1, "unit": "tsp" },
-              { "name": "thyme", "amount": 1, "unit": "tsp" },
+              { "name": "thyme_dried", "amount": 1, "unit": "tsp" },
               { "name": "salt", "amount": 0.5, "unit": "tsp" },
-              { "name": "pepper", "amount": 0.5, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
               { "name": "soy_sauce", "amount": 0.5, "unit": "tbsp" },
               { "name": "ketchup", "amount": 0.5, "unit": "tbsp" },
               { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
@@ -386,6 +407,7 @@
       },
       {
         "name": "tortillas",
+        "label": "tortillas",
         "ingredients": [
           { "name": "flour", "amount": 1.5, "unit": "cup" },
           { "name": "salt", "amount": 0.5, "unit": "tsp" },

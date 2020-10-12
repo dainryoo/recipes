@@ -101,10 +101,12 @@ def calculate_ingredient_nutrition(ingredient, pantry):
         ingredient["calories"] = 0.0
         ingredient["protein"] = 0.0
         ingredient["price"] = 0.0
+        ingredient["label"] = ingredient["name"]
         print("ERROR: " + ingredient['name'] + " was not found in pantry information.\n")
         return
 
     # if we found the ingredient, proceed with nutrition calculation
+    ingredient["label"] = ingredient_info["label"] if ingredient_info["label"] != None else ingredient_info["name"]
 
     if ("unit" not in ingredient or ingredient["unit"] == ""):
         # if no unit is defined/used in the amount for this ingredient
