@@ -5,12 +5,9 @@ import Nutrition from "./recipe/Nutrition.js";
 
 class Recipe extends Component {
   render() {
-    let recipe = this.props.recipe;
-    let ingredients = recipe.ingredients;
-    let ingredientCategories = recipe.ingredient_categories;
-    let directions = recipe.directions;
-    let nutrition = recipe.nutrition;
+    const {name, label, ingredients, directions, nutrition} = this.props.recipe;
 
+    let ingredientCategories = this.props.recipe.ingredient_categories;
     if (ingredientCategories) {
       let categoriesFlattened = []; // need to turn the nested array into a "flat" one
       ingredientCategories.forEach((category) => {
@@ -27,9 +24,8 @@ class Recipe extends Component {
 
     return (
       <div className="recipe content">
-        <div className="heading">{recipe.label}</div>
-        {ingredients && <Ingredients ingredients={ingredients}/>}
-        {ingredientCategories && <Ingredients ingredients={ingredientCategories}/>}
+        <div className="heading">{label ? label : name}</div>
+        <Ingredients ingredients={ingredients ? ingredients : ingredientCategories}/>
         {directions && <Directions directions={directions}/>}
         {nutrition && <Nutrition nutrition={nutrition}/>}
       </div>
