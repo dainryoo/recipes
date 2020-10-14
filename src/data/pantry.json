@@ -5,10 +5,11 @@
       {
         "name": "almond_extract",
         "label": "almond extract",
+        "conversion_to_grams": {
+          "tsp": 4.333,
+          "tbsp": 13
+        },
         "per_100_gram": {
-          "tsp": 23.810,
-          "tbsp": 7.937,
-          "cup": 0.496,
           "calories": 285.714,
           "protein": 0.0,
           "price": 7.610
@@ -17,9 +18,11 @@
       {
         "name": "cayenne_pepper",
         "label": "cayenne pepper",
+        "conversion_to_grams": {
+          "tsp": 1.8,
+          "tbsp": 5.3
+        },
         "per_100_gram": {
-          "tsp": 55.556,
-          "tbsp": 18.868,
           "calories": 318,
           "protein": 12.01,
           "price": 5.98
@@ -28,9 +31,11 @@
       {
         "name": "cinnamon",
         "label": "cinnamon",
+        "conversion_to_grams": {
+          "tsp": 2.6,
+          "tbsp": 7.8
+        },
         "per_100_gram": {
-          "tsp": 38.462,
-          "tbsp": 12.821,
           "calories": 246.923,
           "protein": 4,
           "price": 5.246
@@ -39,9 +44,11 @@
       {
         "name": "clove_ground",
         "label": "ground clove",
+        "conversion_to_grams": {
+          "tsp": 2.1,
+          "tbsp": 6.5
+        },
         "per_100_gram": {
-          "tsp": 47.619,
-          "tbsp": 15.385,
           "calories": 274,
           "protein": 5.97,
           "price": 11.302
@@ -55,9 +62,11 @@
           "protein": 0.0,
           "price": 0.0
         },
+        "conversion_to_grams": {
+          "tsp": 2,
+          "tbsp": 6
+        },
         "per_100_gram": {
-          "tsp": 47.619,
-          "tbsp": 15.873,
           "calories": 286,
           "protein": 4.76,
           "price": 15.594
@@ -66,6 +75,10 @@
       {
         "name": "cumin",
         "label": "cumin",
+        "conversion_to_grams": {
+          "tsp": 2.8,
+          "tbsp": 8.4
+        },
         "per_100_gram": {
           "tsp": 50,
           "tbsp": 16.667,
@@ -86,9 +99,11 @@
       {
         "name": "ginger_ground",
         "label": "ground ginger",
+        "conversion_to_grams": {
+          "tsp": 1.8,
+          "tbsp": 5.2
+        },
         "per_100_gram": {
-          "tsp": 55.556,
-          "tbsp": 19.231,
           "calories": 335,
           "protein": 8.98,
           "price": 7.868
@@ -97,9 +112,12 @@
       {
         "name": "nutritional_yeast",
         "label": "nutritional yeast",
+        "conversion_to_grams": {
+          "tsp": 1.66666667,
+          "tbsp": 5,
+          "cup": 80
+        },
         "per_100_gram": {
-          "tsp": 60,
-          "tbsp": 20,
           "calories": 500,
           "protein": 40,
           "price": 5.110
@@ -108,9 +126,11 @@
       {
         "name": "parsley_dried",
         "label": "dried parsley",
+        "conversion_to_grams": {
+          "tsp": 0.5,
+          "tbsp": 1.6
+        },
         "per_100_gram": {
-          "tsp": 38.462,
-          "tbsp": 200,
           "calories": 292,
           "protein": 27,
           "price": 42.714
@@ -119,9 +139,11 @@
       {
         "name": "pepper_black",
         "label": "black pepper",
+        "conversion_to_grams": {
+          "tsp": 2.3,
+          "tbsp": 6.9
+        },
         "per_100_gram": {
-          "tsp": 43.478,
-          "tbsp": 14.493,
           "calories": 251,
           "protein": 10,
           "price": 3.741
@@ -135,10 +157,12 @@
           "protein": 0,
           "price": 0.0
         },
+        "conversion_to_grams": {
+          "tsp": 2.9,
+          "tbsp": 8.7
+        },
         "per_100_gram": {
-          "tsp": 27.778,
-          "tbsp": 9.259,
-          "calories": 0,
+          "calories": 250,
           "protein": 0,
           "price": 3.741
         }
@@ -146,9 +170,11 @@
       {
         "name": "rosemary_dried",
         "label": "dried rosemary",
+        "conversion_to_grams": {
+          "tsp": 1.2,
+          "tbsp": 3.3
+        },
         "per_100_gram": {
-          "tsp": 83.333,
-          "tbsp": 30.303,
           "calories": 331,
           "protein": 4.88,
           "price": 24.938
@@ -157,9 +183,11 @@
       {
         "name": "thyme_dried",
         "label": "dried thyme",
+        "conversion_to_grams": {
+          "tsp": 1,
+          "tbsp": 2.7
+        },
         "per_100_gram": {
-          "tsp": 71.429,
-          "tbsp": 23.256,
           "calories": 276,
           "protein": 9.1,
           "price": 27.722
@@ -168,9 +196,11 @@
       {
         "name": "turmeric",
         "label": "turmeric",
+        "conversion_to_grams": {
+          "tsp": 3,
+          "tbsp": 9.4
+        },
         "per_100_gram": {
-          "tsp": 33.333,
-          "tbsp": 10.638,
           "calories": 312,
           "protein": 9.68,
           "price": 6.362
@@ -179,10 +209,12 @@
       {
         "name": "vanilla_extract",
         "label": "vanilla extract",
+        "conversion_to_grams": {
+          "tsp": 4.333,
+          "tbsp": 13,
+          "cup": 208
+        },
         "per_100_gram": {
-          "tsp": 23.810,
-          "tbsp": 7.692,
-          "cup": 0.481,
           "calories": 288,
           "protein": 0.1,
           "price": 15.237
@@ -246,10 +278,12 @@
       {
         "name": "butter",
         "label": "butter",
+        "conversion_to_grams": {
+          "tsp": 4.66666667,
+          "tbsp": 14,
+          "cup": 224
+        },
         "per_100_gram": {
-          "tsp": 21.429,
-          "tbsp": 7.143,
-          "cup": 0.446,
           "calories": 714.286,
           "protein": 0,
           "price": 2.912
@@ -258,10 +292,12 @@
       {
         "name": "buttermilk",
         "label": "buttermilk",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
         "per_100_gram": {
-          "tsp": 20,
-          "tbsp": 6.667,
-          "cup": 0.417,
           "calories": 11.719,
           "protein": 0,
           "price": 0
@@ -270,6 +306,11 @@
       {
         "name": "farmers_cheese",
         "label": "farmers cheese",
+        "conversion_to_grams": {
+          "tsp": 4.58333333,
+          "tbsp": 13.75,
+          "cup": 220
+        },
         "per_100_gram": {
           "tsp": 21.820,
           "tbsp": 7.273,
@@ -282,10 +323,12 @@
       {
         "name": "milk_almond",
         "label": "almond milk",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
         "per_100_gram": {
-          "tsp": 20,
-          "tbsp": 6.667,
-          "cup": 0.417,
           "calories": 12.5,
           "protein": 0,
           "price": 0.210
@@ -431,10 +474,12 @@
       {
         "name": "condensed_milk",
         "label": "condensed milk",
+        "conversion_to_grams": {
+          "tsp": 6.5,
+          "tbsp": 19.5,
+          "cup": 312
+        },
         "per_100_gram": {
-          "tsp": 15.385,
-          "tbsp": 5.128,
-          "cup": 0.321,
           "calories": 333.333,
           "protein": 7.692,
           "price": 0.879
@@ -448,8 +493,10 @@
       {
         "name": "almond",
         "label": "almond",
+        "conversion_to_grams": {
+          "cup": 112
+        },
         "per_100_gram": {
-          "cup": 0.893,
           "calories": 571.429,
           "protein": 21.429,
           "price": 1.540
@@ -458,11 +505,25 @@
       {
         "name": "cashew",
         "label": "cashew",
+        "conversion_to_grams": {
+          "cup": 112
+        },
         "per_100_gram": {
-          "cup": 0.893,
           "calories": 571.429,
           "protein": 17.857,
           "price": 2.05735294
+        }
+      },
+      {
+        "name": "walnut",
+        "label": "walnut",
+        "conversion_to_grams": {
+          "cup": 112
+        },
+        "per_100_gram": {
+          "calories": 678.571429,
+          "protein": 14.2857143,
+          "price": 1.75991189
         }
       }
     ]
@@ -488,10 +549,12 @@
       {
         "name": "baking_powder",
         "label": "baking powder",
+        "conversion_to_grams": {
+          "tsp": 4.8,
+          "tbsp": 14.4,
+          "cup": 230.4
+        },
         "per_100_gram": {
-          "tsp": 21.739,
-          "tbsp": 8.333,
-          "cup": 0.521,
           "calories": 53,
           "protein": 0,
           "price": 0.703
@@ -500,10 +563,12 @@
       {
         "name": "baking_soda",
         "label": "baking soda",
+        "conversion_to_grams": {
+          "tsp": 4,
+          "tbsp": 12,
+          "cup": 192
+        },
         "per_100_gram": {
-          "tsp": 25,
-          "tbsp": 8.333,
-          "cup": 0.521,
           "calories": 0,
           "protein": 0,
           "price": 0.181
@@ -512,11 +577,13 @@
       {
         "name": "cocoa_powder",
         "label": "cocoa powder",
+        "conversion_to_grams": {
+          "tsp": 2,
+          "tbsp": 6,
+          "cup": 96
+        },
         "per_100_gram": {
-          "tsp": 50,
-          "tbsp": 16.667,
-          "cup": 1.042,
-          "calories": 166.667,
+          "calories": 250,
           "protein": 16.667,
           "price": 2.639
         }
@@ -524,10 +591,12 @@
       {
         "name": "flour",
         "label": "flour",
+        "conversion_to_grams": {
+          "tsp": 2.5,
+          "tbsp": 7.5,
+          "cup": 120
+        },
         "per_100_gram": {
-          "tsp": 40,
-          "tbsp": 13.333,
-          "cup": 0.833,
           "calories": 366.667,
           "protein": 7,
           "price": 0.220
@@ -536,10 +605,12 @@
       {
         "name": "oil",
         "label": "oil",
+        "conversion_to_grams": {
+          "tsp": 4.66666667,
+          "tbsp": 14,
+          "cup": 224
+        },
         "per_100_gram": {
-          "tsp": 21.429,
-          "tbsp": 7.143,
-          "cup": 0.417,
           "calories": 857.143,
           "protein": 0,
           "price": 0.316
@@ -548,10 +619,12 @@
       {
         "name": "oil_olive",
         "label": "olive oil",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
         "per_100_gram": {
-          "tsp": 20,
-          "tbsp": 6.667,
-          "cup": 0.417,
           "calories": 800,
           "protein": 0,
           "price": 1.106
@@ -560,10 +633,12 @@
       {
         "name": "salt",
         "label": "salt",
+        "conversion_to_grams": {
+          "tsp": 6,
+          "tbsp": 18,
+          "cup": 288
+        },
         "per_100_gram": {
-          "tsp": 16.667,
-          "tbsp": 5.556,
-          "cup": 0.342,
           "calories": 0,
           "protein": 0,
           "price": 0.271
@@ -572,6 +647,11 @@
       {
         "name": "sugar",
         "label": "sugar",
+        "conversion_to_grams": {
+          "tsp": 4,
+          "tbsp": 12,
+          "cup": 192
+        },
         "per_100_gram": {
           "tsp": 25,
           "tbsp": 8.333,
@@ -584,10 +664,12 @@
       {
         "name": "sugar_brown",
         "label": "brown sugar",
+        "conversion_to_grams": {
+          "tsp": 4,
+          "tbsp": 12,
+          "cup": 192
+        },
         "per_100_gram": {
-          "tsp": 25,
-          "tbsp": 8.333,
-          "cup": 0.521,
           "calories": 375,
           "protein": 0,
           "price": 0.557
@@ -596,10 +678,12 @@
       {
         "name": "sugar_powdered",
         "label": "powdered sugar",
+        "conversion_to_grams": {
+          "tsp": 2.5,
+          "tbsp": 7.5,
+          "cup": 120
+        },
         "per_100_gram": {
-          "tsp": 40,
-          "tbsp": 13.333,
-          "cup": 0.833,
           "calories": 400,
           "protein": 0,
           "price": 1.375
@@ -608,10 +692,12 @@
       {
         "name": "vinegar_apple_cider",
         "label": "apple cider vinegar",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
         "per_100_gram": {
-          "tsp": 20,
-          "tbsp": 6.667,
-          "cup": 0.417,
           "calories": 0,
           "protein": 0,
           "price": 0.633
@@ -620,10 +706,12 @@
       {
         "name": "water",
         "label": "water",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
         "per_100_gram": {
-          "tsp": 20,
-          "tbsp": 6.667,
-          "cup": 0.417,
           "calories": 0.0,
           "protein": 0.0,
           "price": 0.0
@@ -649,10 +737,12 @@
       {
         "name": "gochugaru",
         "label": "gochugaru",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
         "per_100_gram": {
-          "tsp": 16,
-          "tbsp": 5.33333333,
-          "cup": 0.333,
           "calories": 400,
           "protein": 80,
           "price": 2.154
@@ -661,10 +751,12 @@
       {
         "name": "gochujang",
         "label": "gochujang",
+        "conversion_to_grams": {
+          "tsp": 6,
+          "tbsp": 18,
+          "cup": 288
+        },
         "per_100_gram": {
-          "tsp": 16.667,
-          "tbsp": 5.556,
-          "cup": 0.347,
           "calories": 166.667,
           "protein": 0.0,
           "price": 1.698
@@ -673,10 +765,12 @@
       {
         "name": "honey",
         "label": "honey",
+        "conversion_to_grams": {
+          "tsp": 7,
+          "tbsp": 21,
+          "cup": 336
+        },
         "per_100_gram": {
-          "tsp": 14.286,
-          "tbsp": 4.762,
-          "cup": 0.298,
           "calories": 285.714,
           "protein": 0.0,
           "price": 1.615
@@ -685,10 +779,12 @@
       {
         "name": "ketchup",
         "label": "ketchup",
+        "conversion_to_grams": {
+          "tsp": 5.66666667,
+          "tbsp": 17,
+          "cup": 272
+        },
         "per_100_gram": {
-          "tsp": 17.647,
-          "tbsp": 5.882,
-          "cup": 0.368,
           "calories": 117.647,
           "protein": 0.0,
           "price": 0.587
@@ -697,10 +793,12 @@
       {
         "name": "soy_sauce_light",
         "label": "light soy sauce",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
         "per_100_gram": {
-          "tsp": 20,
-          "tbsp": 6.667,
-          "cup": 0.417,
           "calories": 33.333,
           "protein": 6.667,
           "price": 0.997
@@ -709,10 +807,12 @@
       {
         "name": "tomato_paste",
         "label": "tomato paste",
+        "conversion_to_grams": {
+          "tsp": 5.5,
+          "tbsp": 16.5,
+          "cup": 264
+        },
         "per_100_gram": {
-          "tsp": 18.182,
-          "tbsp": 6.061,
-          "cup": 0.379,
           "calories": 106.061,
           "protein": 3.030,
           "price": 0.424

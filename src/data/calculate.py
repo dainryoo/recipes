@@ -139,7 +139,10 @@ def calculate_ingredient_nutrition(ingredient, pantry):
             elif unit in ["c", "cup", "cups"]:
                 unit_name = "cup"
             # calculate the value in grams
-            amount = ingredient["amount"] * 100.0 / ingredient_info["per_100_gram"][unit_name]
+            if ("conversion_to_grams" in ingredient_info):
+                amount = ingredient["amount"] * ingredient_info["conversion_to_grams"][unit_name]
+            else:
+                amount = ingredient["amount"] * 100.0 / ingredient_info["per_100_gram"][unit_name]
             # save amount in grams into recipe for reference
             ingredient["amount_in_grams"] = amount
 
