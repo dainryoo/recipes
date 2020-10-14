@@ -1,22 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Directions extends Component {
-  render() {
-    const directions = this.props.directions;
+const Directions = (props) => {
 
-    return (
-      <div className="subcontent">
-        <div className="subheading">Directions:</div>
-        <ul>
-          {directions && directions.map((step, index) => (
-            <li key={index}>
-              {step}
-            </li>
-          ))}
-        </ul>
-      </div>
-    );
-  }
+  const directions = props.directions;
+
+  return (
+    <div className="subcontent">
+      <div className="subheading">Directions:</div>
+      <ul>
+        {directions && directions.map((step, index) => (
+          <li key={index}>
+            {step}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 export default Directions;

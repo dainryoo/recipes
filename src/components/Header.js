@@ -1,17 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from "react-redux";
 
-class Header extends Component {
-  render() {
 
-    return (
-      <div className="app-header">
-        <div className={"recipe " + (this.props.view === 1 ? "" : "button")} onClick={() => this.props.updateView(1)}>Recipes</div>
-        <div className="plus-sign">+</div>
-        <div className={"pantry " + (this.props.view === 0 ? "" : "button")}onClick={() => this.props.updateView(0)}>Pantry</div>
-      </div>
-    );
-  }
+const Header = (props) => {
+
+  const { view, updateView } = props;
+
+  return (
+    <div className="app-header">
+      <div className={"recipe " + (view === 1 ? "" : "button")} onClick={() => updateView(1)}>Recipes</div>
+      <div className="plus-sign">+</div>
+      <div className={"pantry " + (view === 0 ? "" : "button")}onClick={() => updateView(0)}>Pantry</div>
+    </div>
+  );
 }
 
 const mapStateToProps = state => {

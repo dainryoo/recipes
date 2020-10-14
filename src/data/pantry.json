@@ -1,5 +1,130 @@
 [
   {
+    "category_name": "fruits",
+    "items": [
+      {
+        "name": "banana",
+        "label": "banana",
+        "per_unit": {
+          "avg_grams": 118,
+          "calories": 112,
+          "protein": 1.4,
+          "price": 0.19
+        },
+        "per_100_gram": {
+          "cup": 0.801,
+          "calories": 89,
+          "protein": 1.1,
+          "price": 0.151
+        }
+      }
+    ]
+  },
+  {
+    "category_name": "vegetables",
+    "items": [
+      {
+        "name": "broccoli",
+        "label": "broccoli",
+        "per_100_gram": {
+          "cup": 1.333,
+          "calories": 34,
+          "protein": 2.82,
+          "price": 0.732
+        }
+      },
+      {
+        "name": "carrot",
+        "label": "carrot",
+        "per_unit": {
+          "avg_grams": 50,
+          "calories": 20.5,
+          "protein": 0.465,
+          "price": 0.109
+        },
+        "per_100_gram": {
+          "cup": 0.833,
+          "calories": 41,
+          "protein": 0.93,
+          "price": 0.218
+        }
+      },
+      {
+        "name": "onion",
+        "label": "onion",
+        "per_unit": {
+          "avg_grams": 143,
+          "calories": 54.3,
+          "protein": 1.19,
+          "price": 0.61
+        },
+        "per_100_gram": {
+          "cup": 1.923,
+          "calories": 40,
+          "protein": 0.83,
+          "price": 0.198
+        }
+      },
+      {
+        "name": "potato",
+        "label": "potato",
+        "per_unit": {
+          "avg_grams": 213,
+          "calories": 163,
+          "protein": 4.3,
+          "price": 0.48
+        },
+        "per_100_gram": {
+          "cup": 0.667,
+          "calories": 79,
+          "protein": 2,
+          "price": 0.331
+        }
+      }
+    ]
+  },
+  {
+    "category_name": "nuts",
+    "items": [
+      {
+        "name": "almond",
+        "label": "almond",
+        "conversion_to_grams": {
+          "cup": 112
+        },
+        "per_100_gram": {
+          "calories": 571.429,
+          "protein": 21.429,
+          "price": 1.540
+        }
+      },
+      {
+        "name": "cashew",
+        "label": "cashew",
+        "conversion_to_grams": {
+          "cup": 112
+        },
+        "per_100_gram": {
+          "calories": 571.429,
+          "protein": 17.857,
+          "price": 2.05735294
+        }
+      },
+      {
+        "name": "walnut",
+        "label": "walnut",
+        "conversion_to_grams": {
+          "cup": 112
+        },
+        "per_100_gram": {
+          "calories": 678.571429,
+          "protein": 14.2857143,
+          "price": 1.75991189
+        }
+      }
+    ]
+  },
+  {
     "category_name": "spices",
     "items": [
       {
@@ -336,90 +461,7 @@
       }
     ]
   },
-  {
-    "category_name": "fruits",
-    "items": [
-      {
-        "name": "banana",
-        "label": "banana",
-        "per_unit": {
-          "avg_grams": 118,
-          "calories": 112,
-          "protein": 1.4,
-          "price": 0.19
-        },
-        "per_100_gram": {
-          "cup": 0.801,
-          "calories": 89,
-          "protein": 1.1,
-          "price": 0.151
-        }
-      }
-    ]
-  },
-  {
-    "category_name": "vegetables",
-    "items": [
-      {
-        "name": "broccoli",
-        "label": "broccoli",
-        "per_100_gram": {
-          "cup": 1.333,
-          "calories": 34,
-          "protein": 2.82,
-          "price": 0.732
-        }
-      },
-      {
-        "name": "carrot",
-        "label": "carrot",
-        "per_unit": {
-          "avg_grams": 50,
-          "calories": 20.5,
-          "protein": 0.465,
-          "price": 0.109
-        },
-        "per_100_gram": {
-          "cup": 0.833,
-          "calories": 41,
-          "protein": 0.93,
-          "price": 0.218
-        }
-      },
-      {
-        "name": "onion",
-        "label": "onion",
-        "per_unit": {
-          "avg_grams": 143,
-          "calories": 54.3,
-          "protein": 1.19,
-          "price": 0.61
-        },
-        "per_100_gram": {
-          "cup": 1.923,
-          "calories": 40,
-          "protein": 0.83,
-          "price": 0.198
-        }
-      },
-      {
-        "name": "potato",
-        "label": "potato",
-        "per_unit": {
-          "avg_grams": 213,
-          "calories": 163,
-          "protein": 4.3,
-          "price": 0.48
-        },
-        "per_100_gram": {
-          "cup": 0.667,
-          "calories": 79,
-          "protein": 2,
-          "price": 0.331
-        }
-      }
-    ]
-  },
+
   {
     "category_name": "canned",
     "items": [
@@ -483,47 +525,6 @@
           "calories": 333.333,
           "protein": 7.692,
           "price": 0.879
-        }
-      }
-    ]
-  },
-  {
-    "category_name": "nuts",
-    "items": [
-      {
-        "name": "almond",
-        "label": "almond",
-        "conversion_to_grams": {
-          "cup": 112
-        },
-        "per_100_gram": {
-          "calories": 571.429,
-          "protein": 21.429,
-          "price": 1.540
-        }
-      },
-      {
-        "name": "cashew",
-        "label": "cashew",
-        "conversion_to_grams": {
-          "cup": 112
-        },
-        "per_100_gram": {
-          "calories": 571.429,
-          "protein": 17.857,
-          "price": 2.05735294
-        }
-      },
-      {
-        "name": "walnut",
-        "label": "walnut",
-        "conversion_to_grams": {
-          "cup": 112
-        },
-        "per_100_gram": {
-          "calories": 678.571429,
-          "protein": 14.2857143,
-          "price": 1.75991189
         }
       }
     ]

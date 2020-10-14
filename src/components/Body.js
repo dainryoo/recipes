@@ -1,27 +1,26 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { connect } from "react-redux";
 import Recipe from "./Recipe.js";
-import RecipeSidebar from "./RecipeSidebar.js";
 import Pantry from "./Pantry.js";
-import PantrySidebar from "./PantrySidebar.js";
+import Sidebar from "./Sidebar.js";
 
-class Body extends Component {
-  render() {
-    const sidebar = this.props.view ? <RecipeSidebar/> : <PantrySidebar/>
-    let content = "";
-    if (this.props.view === 1) {
-      content = this.props.selectedRecipe ? <Recipe recipe={this.props.selectedRecipe}/> : <div className="message">pick a recipe</div>;
-    } else {
-      content = this.props.selectedPantryItem ? <Pantry item={this.props.selectedPantryItem}/> : <div className="message">pick a pantry item</div>;
-    }
+const Body = (props) => {
 
-    return (
-      <div className="app-body">
-        {sidebar}
-        {content}
-      </div>
-    );
+  const { view, selectedRecipe, selectedPantryItem } = props;
+
+  let content = "";
+  if (view === 1) {
+    content = selectedRecipe ? <Recipe recipe={selectedRecipe}/> : <div className="message">pick a recipe</div>;
+  } else {
+    content = selectedPantryItem ? <Pantry item={selectedPantryItem}/> : <div className="message">pick a pantry item</div>;
   }
+
+  return (
+    <div className="app-body">
+      <Sidebar/>
+      {content}
+    </div>
+  );
 }
 
 const mapStateToProps = state => {
