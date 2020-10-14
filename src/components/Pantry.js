@@ -5,42 +5,63 @@ class Pantry extends Component {
 
     const item = this.props.item;
     let nutrition = null;
-    let nutrition_per_100_gram = null;
+    let nutritionPer100Gram = null;
+    let measurements = null;
+
+    if (item.conversion_to_grams) {
+      let measurementsArr = [];
+      for (const [unit, value] of Object.entries(item.conversion_to_grams)) {
+        measurementsArr.push("1 " + unit + " = " + parseFloat(value).toFixed(2) + " g");
+      }
+      measurements = measurementsArr;
+    }
 
     if (item.per_unit) {
-      let nutrition_arr = [];
+      let nutritionArr = [];
       for (const [unit, value] of Object.entries(item.per_unit)) {
         if (unit === "calories") {
-          nutrition_arr.push(parseFloat(value).toFixed(2) + " calories");
+          nutritionArr.push(parseFloat(value).toFixed(2) + " calories");
         } else if (unit === "protein") {
-          nutrition_arr.push(parseFloat(value).toFixed(2) + " g protein");
+          nutritionArr.push(parseFloat(value).toFixed(2) + " g protein");
         } else if (unit === "price") {
-          nutrition_arr.push("$" + parseFloat(value).toFixed(2));
+          nutritionArr.push("$" + parseFloat(value).toFixed(2));
         } else if (unit === "avg_grams") {
-          nutrition_arr.push("~" + parseFloat(value).toFixed(2) + " g");
+          nutritionArr.push("~" + parseFloat(value).toFixed(2) + " g");
         }
       }
-      nutrition = nutrition_arr;
+      nutrition = nutritionArr;
     }
 
     if (item.per_100_gram) {
-      let nutrition_100_arr = [];
+      let nutrition100Arr = [];
       for (const [unit, value] of Object.entries(item.per_100_gram)) {
         if (unit === "calories") {
-          nutrition_100_arr.push(parseFloat(value).toFixed(2) + " calories");
+          nutrition100Arr.push(parseFloat(value).toFixed(2) + " calories");
         } else if (unit === "protein") {
-          nutrition_100_arr.push(parseFloat(value).toFixed(2) + " g protein");
+          nutrition100Arr.push(parseFloat(value).toFixed(2) + " g protein");
         } else if (unit === "price") {
-          nutrition_100_arr.push("$" + parseFloat(value).toFixed(2));
+          nutrition100Arr.push("$" + parseFloat(value).toFixed(2));
         }
       }
-      nutrition_per_100_gram = nutrition_100_arr;
+      nutritionPer100Gram = nutrition100Arr;
     }
 
 
     return (
       <div className="pantry content">
         <div className="heading">{item.label}</div>
+        {measurements &&
+          <div className="subcontent">
+            <div className="subheading">Grams conversions:</div>
+            <ul>
+            {measurements.map((info, index) => (
+              <li key={index}>
+                {info}
+              </li>
+            ))}
+            </ul>
+          </div>
+        }
         {nutrition &&
           <div className="subcontent">
             <div className="subheading">Per unit:</div>
@@ -53,11 +74,11 @@ class Pantry extends Component {
             </ul>
           </div>
         }
-        {nutrition_per_100_gram &&
+        {nutritionPer100Gram &&
           <div className="subcontent">
             <div className="subheading">Per 100 grams:</div>
             <ul>
-            {nutrition_per_100_gram.map((info, index) => (
+            {nutritionPer100Gram.map((info, index) => (
               <li key={index}>
                 {info}
               </li>
