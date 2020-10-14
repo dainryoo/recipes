@@ -561,106 +561,136 @@
     "recipes": [
       {
         "directions": [
-          "Boil spices and water. Let sit for a bit. Add milk and sweetener and heat til simmering."
+          "Grind spices.", 
+          "Bring water to boil med high. Add spices, boil for 10 min on med low heat.", 
+          "Add tea, sugar, milk. Bring to boil, take off heat, serve."
         ], 
-        "ingredients": [
+        "ingredient_categories": [
           {
-            "amount": 10, 
-            "calories": 0.0, 
-            "label": "cardamom", 
-            "name": "cardamom", 
-            "note": "(10 pods = 10 pinches of seeds = 1.5 tsp of powder?)", 
-            "price": 0.0, 
-            "protein": 0.0, 
-            "unit": ""
+            "ingredients": [
+              {
+                "amount": 2, 
+                "amount_in_grams": 4.2000042000042, 
+                "calories": 12.012012012012011, 
+                "label": "whole clove", 
+                "name": "clove_whole", 
+                "price": 0.6549486549486548, 
+                "protein": 0.19992019992019988, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "calories": 0.0, 
+                "label": "cardamom", 
+                "name": "cardamom", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 7.199942400460797, 
+                "calories": 0.0, 
+                "label": "peppercorns", 
+                "name": "peppercorn", 
+                "price": 0.26934984520123845, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 5.1999376007487905, 
+                "calories": 12.839841921896936, 
+                "label": "cinnamon", 
+                "name": "cinnamon", 
+                "price": 0.2727887265352816, 
+                "protein": 0.20799750402995162, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "ginger", 
+                "name": "ginger", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "bit of nutmeg and anise", 
+                "name": "bit of nutmeg and anise", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }
+            ], 
+            "label": "spice mix", 
+            "name": "spice_mix"
           }, 
           {
-            "amount": 6, 
-            "calories": 0.0, 
-            "label": "cloves", 
-            "name": "cloves", 
-            "note": "whole", 
-            "price": 0.0, 
-            "protein": 0.0, 
-            "unit": ""
-          }, 
-          {
-            "amount": 2, 
-            "calories": 0.0, 
-            "label": "star_anise", 
-            "name": "star_anise", 
-            "price": 0.0, 
-            "protein": 0.0, 
-            "unit": ""
-          }, 
-          {
-            "amount": 10, 
-            "calories": 0, 
-            "label": "peppercorns", 
-            "name": "peppercorn", 
-            "price": 0.0, 
-            "protein": 0, 
-            "unit": ""
-          }, 
-          {
-            "amount": 1.5, 
-            "amount_in_grams": 359.71223021582733, 
-            "calories": 0.0, 
-            "label": "water", 
-            "name": "water", 
-            "price": 0.0, 
-            "protein": 0.0, 
-            "unit": "cup"
-          }, 
-          {
-            "amount": 0.25, 
-            "amount_in_grams": 0.6499922000935988, 
-            "calories": 1.604980240237117, 
-            "label": "cinnamon", 
-            "name": "cinnamon", 
-            "note": "or 1 stick", 
-            "price": 0.0340985908169102, 
-            "protein": 0.025999688003743953, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 0.25, 
-            "amount_in_grams": 0.4499964000287998, 
-            "calories": 1.5074879400964794, 
-            "label": "ground ginger", 
-            "name": "ginger_ground", 
-            "note": "or 2-3 slices", 
-            "price": 0.03540571675426597, 
-            "protein": 0.040409676722586226, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 1.5, 
-            "amount_in_grams": 359.71223021582733, 
-            "calories": 44.96402877697842, 
-            "label": "almond milk", 
-            "name": "milk_almond", 
-            "price": 0.7553956834532374, 
-            "protein": 0.0, 
-            "unit": "cup"
-          }, 
-          {
-            "amount": 2, 
-            "amount_in_grams": 8.0, 
-            "calories": 30.0, 
-            "label": "sugar", 
-            "name": "sugar", 
-            "price": 0.03344, 
-            "protein": 0.0, 
-            "unit": "tsp"
+            "ingredients": [
+              {
+                "amount": 1, 
+                "amount_in_grams": 239.80815347721824, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.5, 
+                "calories": 0.0, 
+                "label": "chai spice mix", 
+                "name": "chai spice mix", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 239.80815347721824, 
+                "calories": 29.97601918465228, 
+                "label": "almond milk", 
+                "name": "milk_almond", 
+                "price": 0.5035971223021583, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 2, 
+                "calories": 0.0, 
+                "label": "black tea bags", 
+                "name": "black tea bags", 
+                "note": "or 2 tsp loose leaf", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 8.0, 
+                "calories": 30.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.03344, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "chai", 
+            "name": "chai"
           }
         ], 
         "label": "chai latte", 
         "name": "chai_latte", 
         "nutrition": {
-          "calories": 78.076496957312, 
-          "price": 0.8583399910244136, 
-          "protein": 0.06640936472633018
+          "calories": 59.97601918465228, 
+          "price": 0.5370371223021583, 
+          "protein": 0.0
         }
       }, 
       {
@@ -784,11 +814,12 @@
           }, 
           {
             "amount": 0.75, 
-            "calories": 0.0, 
-            "label": "sugar_brown", 
+            "amount_in_grams": 143.95393474088291, 
+            "calories": 539.827255278311, 
+            "label": "brown sugar", 
             "name": "sugar_brown", 
             "note": "packed", 
-            "price": 0.0, 
+            "price": 0.801823416506718, 
             "protein": 0.0, 
             "unit": "cup"
           }, 
@@ -826,8 +857,8 @@
         "label": "banana bread", 
         "name": "banana_bread", 
         "nutrition": {
-          "calories": 2253.50310432348, 
-          "price": 5.2453768280879505, 
+          "calories": 2793.330359601791, 
+          "price": 6.047200244594668, 
           "protein": 33.75788172894866
         }
       }, 
@@ -841,11 +872,11 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 0.0, 
-            "label": "egg_white", 
+            "calories": 18.7, 
+            "label": "egg white", 
             "name": "egg_white", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 0.25, 
+            "protein": 3.64, 
             "unit": ""
           }, 
           {
@@ -859,11 +890,11 @@
           }, 
           {
             "amount": 179, 
-            "calories": 0.0, 
-            "label": "condensed_milk", 
+            "calories": 596.6660700000001, 
+            "label": "condensed milk", 
             "name": "condensed_milk", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 1.57341, 
+            "protein": 13.76868, 
             "unit": "g"
           }, 
           {
@@ -890,9 +921,9 @@
         "label": "macaroons", 
         "name": "macaroons", 
         "nutrition": {
-          "calories": 6.047879042419152, 
-          "price": 0.3240355192896142, 
-          "protein": 0.0020999580008399833
+          "calories": 621.4139490424193, 
+          "price": 2.1474455192896142, 
+          "protein": 17.41077995800084
         }
       }, 
       {
@@ -936,10 +967,10 @@
           }, 
           {
             "amount": 18, 
-            "calories": 0.0, 
-            "label": "sugar_brown", 
+            "calories": 67.5, 
+            "label": "brown sugar", 
             "name": "sugar_brown", 
-            "price": 0.0, 
+            "price": 0.10026, 
             "protein": 0.0, 
             "unit": "g"
           }, 
@@ -957,8 +988,8 @@
         "label": "edible cookie dough", 
         "name": "edible_cookie_dough", 
         "nutrition": {
-          "calories": 261.55314746646246, 
-          "price": 0.7595592899066389, 
+          "calories": 329.05314746646246, 
+          "price": 0.8598192899066389, 
           "protein": 2.101365325634664
         }
       }, 
@@ -1076,10 +1107,11 @@
           }, 
           {
             "amount": 0.5, 
-            "calories": 0.0, 
-            "label": "almond_extract", 
+            "amount_in_grams": 2.099958000839983, 
+            "calories": 5.99987400251995, 
+            "label": "almond extract", 
             "name": "almond_extract", 
-            "price": 0.0, 
+            "price": 0.15980680386392274, 
             "protein": 0.0, 
             "unit": "tsp"
           }
@@ -1087,9 +1119,186 @@
         "label": "marzipan", 
         "name": "marzipan", 
         "nutrition": {
-          "calories": 794.2861, 
-          "price": 2.3485, 
+          "calories": 800.28597400252, 
+          "price": 2.5083068038639227, 
           "protein": 19.286099999999998
+        }
+      }, 
+      {
+        "directions": [
+          "Makes about 17 cookies.", 
+          "Cream sugar + butter til light and fluffy.", 
+          "Add egg, vanilla, zest. Beat til well mixed.", 
+          "Sift in flour and salt. Mix until crumbly dough.", 
+          "Knead and add water (tsp at a time) til dough is smooth and slightly tacky (not sticky), with consistency that is right for rolling out.", 
+          "Form dough into disk, wrap, chill for 3+ hours. Let rest room temp for 30 min before rolling.", 
+          "Prepare filling and preheat to 350F. ", 
+          "Roll dough to 1/4 inch thin. Lift dough, lightly flour bottom, flip, roll out to 1/8 inch. (Can keep at 1/4 if you like it Thick..)", 
+          "Cut out ideally 17 circles total. 3 inch in diameter", 
+          "Egg wash the outside/rims of the top of the circles. Teaspoon of filling each.", 
+          "Fold into a pinwheel triangle shape: each of the three flaps should overlap and underlap its neighbor!! Pinch corners to seal.", 
+          "Bake for 10-25 min, probably more like 15-20 min."
+        ], 
+        "ingredients": [
+          {
+            "amount": 5, 
+            "amount_in_grams": 69.99860002799944, 
+            "calories": 499.99020019599607, 
+            "label": "butter", 
+            "name": "butter", 
+            "price": 2.0383592328153437, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 64, 
+            "calories": 240.0, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "price": 0.26752, 
+            "protein": 0.0, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 60, 
+            "label": "egg", 
+            "name": "egg", 
+            "note": "whisked (use half for dough, half for wash)", 
+            "price": 0.25, 
+            "protein": 6, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 2.099958000839983, 
+            "calories": 6.047879042419152, 
+            "label": "vanilla extract", 
+            "name": "vanilla_extract", 
+            "price": 0.31997060058798826, 
+            "protein": 0.0020999580008399833, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 0.0, 
+            "label": "lemon_zest", 
+            "name": "lemon_zest", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 166, 
+            "calories": 608.6672199999999, 
+            "label": "flour", 
+            "name": "flour", 
+            "note": "start with 135g...", 
+            "price": 0.36519999999999997, 
+            "protein": 11.62, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.7499850002999939, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0020324593508129836, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 2.5, 
+            "calories": 0.0, 
+            "label": "water", 
+            "name": "water", 
+            "note": "as needed, up to 2 tsp", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "hamantaschen", 
+        "name": "hamantaschen", 
+        "nutrition": {
+          "calories": 1414.7052992384151, 
+          "price": 3.2430822927541456, 
+          "protein": 17.622099958000838
+        }
+      }, 
+      {
+        "directions": [
+          "Blend in food processor."
+        ], 
+        "ingredients": [
+          {
+            "amount": 1, 
+            "calories": 385, 
+            "label": "canned black beans", 
+            "name": "canned_black_beans", 
+            "price": 0.79, 
+            "protein": 24.5, 
+            "unit": ""
+          }, 
+          {
+            "amount": 4, 
+            "amount_in_grams": 23.999520009599806, 
+            "calories": 39.99928001439971, 
+            "label": "cocoa powder", 
+            "name": "cocoa_powder", 
+            "price": 0.6333473330533388, 
+            "protein": 4.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 30, 
+            "calories": 112.5, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "price": 0.12539999999999998, 
+            "protein": 0.0, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 2.099958000839983, 
+            "calories": 6.047879042419152, 
+            "label": "vanilla extract", 
+            "name": "vanilla_extract", 
+            "price": 0.31997060058798826, 
+            "protein": 0.0020999580008399833, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 1.4999700005999879, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.004064918701625967, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 29.99850007499625, 
+            "calories": 0.0, 
+            "label": "water", 
+            "name": "water", 
+            "note": "if needed", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }
+        ], 
+        "label": "chocolate hummus", 
+        "name": "chocolate_hummus", 
+        "nutrition": {
+          "calories": 543.5471590568188, 
+          "price": 1.872782852342953, 
+          "protein": 28.50209995800084
         }
       }, 
       {
@@ -1204,10 +1413,10 @@
           }, 
           {
             "amount": 19, 
-            "calories": 0.0, 
+            "calories": 54.28566, 
             "label": "honey", 
             "name": "honey", 
-            "price": 0.0, 
+            "price": 0.30685, 
             "protein": 0.0, 
             "unit": "g"
           }, 
@@ -1235,8 +1444,8 @@
         "label": "chocolate chili cookies", 
         "name": "chocolate_chili_cookies", 
         "nutrition": {
-          "calories": 339.4154472167225, 
-          "price": 1.188217515036543, 
+          "calories": 393.7011072167225, 
+          "price": 1.4950675150365431, 
           "protein": 3.9631748650452185
         }
       }, 
@@ -1315,11 +1524,12 @@
           }, 
           {
             "amount": 0.75, 
-            "calories": 0.0, 
-            "label": "chili_powder", 
-            "name": "chili_powder", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "amount_in_grams": 4.6875, 
+            "calories": 18.75, 
+            "label": "gochugaru", 
+            "name": "gochugaru", 
+            "price": 0.10096875, 
+            "protein": 3.75, 
             "unit": "tsp"
           }, 
           {
@@ -1371,20 +1581,20 @@
           }, 
           {
             "amount": 180, 
-            "calories": 0.0, 
+            "calories": 61.2, 
             "label": "broccoli", 
             "name": "broccoli", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 1.3176, 
+            "protein": 5.076, 
             "unit": "g"
           }
         ], 
         "label": "vegan mac & cheese", 
         "name": "vegan_mac_n_cheese", 
         "nutrition": {
-          "calories": 2421.334257589893, 
-          "price": 5.452305598614901, 
-          "protein": 77.35371741550466
+          "calories": 2501.2842575898926, 
+          "price": 6.870874348614901, 
+          "protein": 86.17971741550467
         }
       }, 
       {
@@ -1396,11 +1606,11 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 0.0, 
-            "label": "canned_beans", 
-            "name": "canned_beans", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "calories": 385, 
+            "label": "canned pinto beans", 
+            "name": "canned_pinto_beans", 
+            "price": 0.99, 
+            "protein": 24.5, 
             "unit": ""
           }, 
           {
@@ -1434,11 +1644,12 @@
           }, 
           {
             "amount": 0.5, 
-            "calories": 0.0, 
+            "amount_in_grams": 3.125, 
+            "calories": 12.5, 
             "label": "gochugaru", 
             "name": "gochugaru", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 0.0673125, 
+            "protein": 2.5, 
             "unit": "tsp"
           }, 
           {
@@ -1464,9 +1675,9 @@
         "label": "refried beans", 
         "name": "refried_beans", 
         "nutrition": {
-          "calories": 84.47, 
-          "price": 0.24216245935081301, 
-          "protein": 0.191
+          "calories": 481.97, 
+          "price": 1.2994749593508133, 
+          "protein": 27.191
         }
       }, 
       {
@@ -1535,6 +1746,87 @@
           "calories": 1161.8010199999999, 
           "price": 0.77414, 
           "protein": 22.42
+        }
+      }, 
+      {
+        "directions": [
+          "Put everything in food processor, puree til smooth.", 
+          "Store covered in fridge for up to a week."
+        ], 
+        "ingredients": [
+          {
+            "amount": 1, 
+            "calories": 385, 
+            "label": "canned chickpeas", 
+            "name": "canned_chickpeas", 
+            "price": 1.08, 
+            "protein": 21, 
+            "unit": ""
+          }, 
+          {
+            "amount": 3, 
+            "calories": 0.0, 
+            "label": "lemon_juice", 
+            "name": "lemon_juice", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 2, 
+            "calories": 0.0, 
+            "label": "tahini", 
+            "name": "tahini", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 4.47, 
+            "label": "garlic", 
+            "name": "garlic", 
+            "note": "dry roasted", 
+            "price": 0.06, 
+            "protein": 0.191, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 2.9999400011999757, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.008129837403251934, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 2, 
+            "calories": 0.0, 
+            "label": "ice_cube", 
+            "name": "ice_cube", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 14.999250037498125, 
+            "calories": 119.99400029998499, 
+            "label": "olive oil", 
+            "name": "oil_olive", 
+            "price": 0.16589170541472928, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }
+        ], 
+        "label": "hummus", 
+        "name": "hummus", 
+        "nutrition": {
+          "calories": 509.464000299985, 
+          "price": 1.3140215428179813, 
+          "protein": 21.191
         }
       }, 
       {
@@ -1633,11 +1925,11 @@
               }, 
               {
                 "amount": 3, 
-                "calories": 0.0, 
+                "calories": 61.5, 
                 "label": "carrot", 
                 "name": "carrot", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "price": 0.327, 
+                "protein": 1.395, 
                 "unit": ""
               }, 
               {
@@ -1661,11 +1953,12 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 0.0, 
-                "label": "rosemary", 
-                "name": "rosemary", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "amount_in_grams": 1.2000048000192, 
+                "calories": 3.972015888063552, 
+                "label": "dried rosemary", 
+                "name": "rosemary_dried", 
+                "price": 0.2992571970287881, 
+                "protein": 0.05856023424093696, 
                 "unit": "tsp"
               }, 
               {
@@ -1700,19 +1993,21 @@
               }, 
               {
                 "amount": 0.5, 
-                "calories": 0.0, 
-                "label": "soy_sauce", 
-                "name": "soy_sauce", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "amount_in_grams": 7.499625018749063, 
+                "calories": 2.499850007499625, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "price": 0.07477126143692815, 
+                "protein": 0.49999999999999994, 
                 "unit": "tbsp"
               }, 
               {
                 "amount": 0.5, 
-                "calories": 0.0, 
+                "amount_in_grams": 8.500510030601836, 
+                "calories": 10.000595035702142, 
                 "label": "ketchup", 
                 "name": "ketchup", 
-                "price": 0.0, 
+                "price": 0.04989799387963278, 
                 "protein": 0.0, 
                 "unit": "tbsp"
               }, 
@@ -1738,11 +2033,12 @@
               }, 
               {
                 "amount": 2, 
-                "calories": 0.0, 
-                "label": "tomato_paste", 
+                "amount_in_grams": 32.99785513941594, 
+                "calories": 34.99785513941594, 
+                "label": "tomato paste", 
                 "name": "tomato_paste", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "price": 0.13991090579112359, 
+                "protein": 0.9998350107243028, 
                 "unit": "tbsp"
               }, 
               {
@@ -1763,9 +2059,9 @@
         "label": "shepherd's pie", 
         "name": "shepherds_pie", 
         "nutrition": {
-          "calories": 380.1637375650254, 
-          "price": 3.755142849533695, 
-          "protein": 4.2684093284671665
+          "calories": 493.1340536357066, 
+          "price": 4.645980207670168, 
+          "protein": 7.221804573432406
         }
       }, 
       {

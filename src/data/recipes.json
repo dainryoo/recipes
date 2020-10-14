@@ -125,19 +125,35 @@
       {
         "name": "chai_latte",
         "label": "chai latte",
-        "ingredients": [
-          { "name": "cardamom", "note": "(10 pods = 10 pinches of seeds = 1.5 tsp of powder?)", "amount": 10, "unit": "" },
-          { "name": "cloves", "note": "whole", "amount": 6, "unit": "" },
-          { "name": "star_anise", "amount": 2, "unit": "" },
-          { "name": "peppercorn", "amount": 10, "unit": "" },
-          { "name": "water", "amount": 1.5, "unit": "cup" },
-          { "name": "cinnamon", "note": "or 1 stick", "amount": 0.25, "unit": "tsp" },
-          { "name": "ginger_ground", "note": "or 2-3 slices", "amount": 0.25, "unit": "tsp" },
-          { "name": "milk_almond", "amount": 1.5, "unit": "cup" },
-          { "name": "sugar", "amount": 2, "unit": "tsp" }
+        "ingredient_categories": [
+          {
+            "name": "spice_mix",
+            "label": "spice mix",
+            "ingredients": [
+              { "name": "clove_whole", "amount": 2, "unit": "tsp" },
+              { "name": "cardamom", "amount": 2, "unit": "tsp" },
+              { "name": "peppercorn", "amount": 2, "unit": "tsp" },
+              { "name": "cinnamon", "amount": 2, "unit": "tsp" },
+              { "name": "ginger", "amount": 1, "unit": "tsp" },
+              { "name": "bit of nutmeg and anise", "amount": 1, "unit": "" }
+            ]
+          },
+          {
+            "name": "chai",
+            "label": "chai",
+            "ingredients": [
+              { "name": "water", "amount": 1, "unit": "cup" },
+              { "name": "chai spice mix", "amount": 0.5, "unit": "tsp" },
+              { "name": "milk_almond", "amount": 1, "unit": "cup" },
+              { "name": "black tea bags", "note": "or 2 tsp loose leaf", "amount": 2, "unit": "" },
+              { "name": "sugar", "amount": 2, "unit": "tsp" }
+            ]
+          }
         ],
         "directions": [
-          "Boil spices and water. Let sit for a bit. Add milk and sweetener and heat til simmering."
+          "Grind spices.",
+          "Bring water to boil med high. Add spices, boil for 10 min on med low heat.",
+          "Add tea, sugar, milk. Bring to boil, take off heat, serve."
         ]
       },
       {
@@ -248,6 +264,49 @@
         ]
       },
       {
+        "name": "hamantaschen",
+        "label": "hamantaschen",
+        "ingredients": [
+          { "name": "butter", "amount": 5, "unit": "tbsp" },
+          { "name": "sugar", "amount": 64, "unit": "g" },
+          { "name": "egg", "note": "whisked (use half for dough, half for wash)", "amount": 1, "unit": "" },
+          { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
+          { "name": "lemon_zest", "amount": 0.5, "unit": "tsp" },
+          { "name": "flour", "note": "start with 135g...", "amount": 166, "unit": "g" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "water", "note": "as needed, up to 2 tsp", "amount": 0.5, "unit": "tsp" }
+        ],
+        "directions": [
+          "Makes about 17 cookies.",
+          "Cream sugar + butter til light and fluffy.",
+          "Add egg, vanilla, zest. Beat til well mixed.",
+          "Sift in flour and salt. Mix until crumbly dough.",
+          "Knead and add water (tsp at a time) til dough is smooth and slightly tacky (not sticky), with consistency that is right for rolling out.",
+          "Form dough into disk, wrap, chill for 3+ hours. Let rest room temp for 30 min before rolling.",
+          "Prepare filling and preheat to 350F. ",
+          "Roll dough to 1/4 inch thin. Lift dough, lightly flour bottom, flip, roll out to 1/8 inch. (Can keep at 1/4 if you like it Thick..)",
+          "Cut out ideally 17 circles total. 3 inch in diameter",
+          "Egg wash the outside/rims of the top of the circles. Teaspoon of filling each.",
+          "Fold into a pinwheel triangle shape: each of the three flaps should overlap and underlap its neighbor!! Pinch corners to seal.",
+          "Bake for 10-25 min, probably more like 15-20 min."
+        ]
+      },
+      {
+        "name": "chocolate_hummus",
+        "label": "chocolate hummus",
+        "ingredients": [
+          { "name": "canned_black_beans", "amount": 1, "unit": "" },
+          { "name": "cocoa_powder", "amount": 4, "unit": "tbsp" },
+          { "name": "sugar", "amount": 30, "unit": "g" },
+          { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "water", "note": "if needed", "amount": 2, "unit": "tbsp" }
+        ],
+        "directions": [
+          "Blend in food processor."
+        ]
+      },
+      {
         "name": "chocolate_chili_cookies",
         "label": "chocolate chili cookies",
         "ingredients": [
@@ -298,7 +357,7 @@
           { "name": "water", "amount": 0.75, "unit": "cup" },
           { "name": "salt", "amount": 0.75, "unit": "tsp" },
           { "name": "nutritional_yeast", "amount": 3, "unit": "tbsp" },
-          { "name": "chili_powder", "amount": 0.75, "unit": "tsp" },
+          { "name": "gochugaru", "amount": 0.75, "unit": "tsp" },
           { "name": "garlic", "amount": 1, "unit": "" },
           { "name": "turmeric", "amount": 0.125, "unit": "tsp" },
           { "name": "mustard", "amount": 0.75, "unit": "tsp" },
@@ -314,7 +373,7 @@
         "name": "refried_beans",
         "label": "refried beans",
         "ingredients": [
-          { "name": "canned_beans", "amount": 1, "unit": "" },
+          { "name": "canned_pinto_beans", "amount": 1, "unit": "" },
           { "name": "oil_olive", "amount": 2, "unit": "tsp" },
           { "name": "garlic", "amount": 1, "unit": "" },
           { "name": "cumin", "amount": 0.5, "unit": "tsp" },
@@ -351,6 +410,23 @@
         ]
       },
       {
+        "name": "hummus",
+        "label": "hummus",
+        "ingredients": [
+          { "name": "canned_chickpeas", "amount": 1, "unit": "" },
+          { "name": "lemon_juice", "amount": 3, "unit": "tbsp" },
+          { "name": "tahini", "amount": 2, "unit": "tbsp" },
+          { "name": "garlic", "note": "dry roasted", "amount": 1, "unit": "" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "ice_cube", "amount": 2, "unit": "" },
+          { "name": "oil_olive", "amount": 1, "unit": "tbsp" }
+        ],
+        "directions": [
+          "Put everything in food processor, puree til smooth.",
+          "Store covered in fridge for up to a week."
+        ]
+      },
+      {
         "name": "shepherds_pie",
         "label": "shepherd's pie",
         "ingredient_categories": [
@@ -374,11 +450,11 @@
               { "name": "carrot", "amount": 3, "unit": "" },
               { "name": "beef_ground", "amount": 1, "unit": "lb" },
               { "name": "parsley_dried", "amount": 2, "unit": "tsp" },
-              { "name": "rosemary", "amount": 1, "unit": "tsp" },
+              { "name": "rosemary_dried", "amount": 1, "unit": "tsp" },
               { "name": "thyme_dried", "amount": 1, "unit": "tsp" },
               { "name": "salt", "amount": 0.5, "unit": "tsp" },
               { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
-              { "name": "soy_sauce", "amount": 0.5, "unit": "tbsp" },
+              { "name": "soy_sauce_light", "amount": 0.5, "unit": "tbsp" },
               { "name": "ketchup", "amount": 0.5, "unit": "tbsp" },
               { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
               { "name": "flour", "amount": 2, "unit": "tbsp" },

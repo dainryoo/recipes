@@ -3,6 +3,18 @@
     "category_name": "spices",
     "items": [
       {
+        "name": "almond_extract",
+        "label": "almond extract",
+        "per_100_gram": {
+          "tsp": 23.810,
+          "tbsp": 7.937,
+          "cup": 0.496,
+          "calories": 285.714,
+          "protein": 0.0,
+          "price": 7.610
+        }
+      },
+      {
         "name": "cayenne_pepper",
         "label": "cayenne pepper",
         "per_100_gram": {
@@ -33,6 +45,22 @@
           "calories": 274,
           "protein": 5.97,
           "price": 11.302
+        }
+      },
+      {
+        "name": "clove_whole",
+        "label": "whole clove",
+        "per_unit": {
+          "calories": 0.0,
+          "protein": 0.0,
+          "price": 0.0
+        },
+        "per_100_gram": {
+          "tsp": 47.619,
+          "tbsp": 15.873,
+          "calories": 286,
+          "protein": 4.76,
+          "price": 15.594
         }
       },
       {
@@ -116,6 +144,17 @@
         }
       },
       {
+        "name": "rosemary_dried",
+        "label": "dried rosemary",
+        "per_100_gram": {
+          "tsp": 83.333,
+          "tbsp": 30.303,
+          "calories": 331,
+          "protein": 4.88,
+          "price": 24.938
+        }
+      },
+      {
         "name": "thyme_dried",
         "label": "dried thyme",
         "per_100_gram": {
@@ -152,7 +191,57 @@
     ]
   },
   {
-    "category_name": "dairy_and_meat",
+    "category_name": "meat",
+    "items": [
+      {
+        "name": "egg",
+        "label": "egg",
+        "per_unit": {
+          "calories": 60,
+          "protein": 6,
+          "price": 0.25
+        }
+      },
+      {
+        "name": "egg_white",
+        "label": "egg white",
+        "per_unit": {
+          "calories": 18.7,
+          "protein": 3.64,
+          "price": 0.25
+        }
+      },
+      {
+        "name": "egg_yolk",
+        "label": "egg yolk",
+        "per_unit": {
+          "calories": 48.3,
+          "protein": 2.38,
+          "price": 0.25
+        }
+      },
+      {
+        "name": "egg_large",
+        "label": "large egg",
+        "per_unit": {
+          "calories": 70,
+          "protein": 6,
+          "price": 0.25
+        }
+      },
+      {
+        "name": "egg_small",
+        "label": "small egg",
+        "per_unit": {
+          "calories": 50,
+          "protein": 6,
+          "price": 0.22
+        }
+      }
+    ]
+  },
+  {
+    "category_name": "dairy",
     "items": [
       {
         "name": "butter",
@@ -188,34 +277,6 @@
           "calories": 145.455,
           "protein": 10.909,
           "price": 1.209
-        }
-      },
-      {
-        "name": "egg",
-        "label": "egg",
-        "per_unit": {
-          "calories": 60,
-          "protein": 6,
-          "price": 0.22,
-          "price": 0.25
-        }
-      },
-      {
-        "name": "egg_large",
-        "label": "large egg",
-        "per_unit": {
-          "calories": 70,
-          "protein": 6,
-          "price": 0.25
-        }
-      },
-      {
-        "name": "egg_small",
-        "label": "small egg",
-        "per_unit": {
-          "calories": 50,
-          "protein": 6,
-          "price": 0.22
         }
       },
       {
@@ -257,6 +318,32 @@
     "category_name": "vegetables",
     "items": [
       {
+        "name": "broccoli",
+        "label": "broccoli",
+        "per_100_gram": {
+          "cup": 1.333,
+          "calories": 34,
+          "protein": 2.82,
+          "price": 0.732
+        }
+      },
+      {
+        "name": "carrot",
+        "label": "carrot",
+        "per_unit": {
+          "avg_grams": 50,
+          "calories": 20.5,
+          "protein": 0.465,
+          "price": 0.109
+        },
+        "per_100_gram": {
+          "cup": 0.833,
+          "calories": 41,
+          "protein": 0.93,
+          "price": 0.218
+        }
+      },
+      {
         "name": "onion",
         "label": "onion",
         "per_unit": {
@@ -286,6 +373,71 @@
           "calories": 79,
           "protein": 2,
           "price": 0.331
+        }
+      }
+    ]
+  },
+  {
+    "category_name": "canned",
+    "items": [
+      {
+        "name": "canned_black_beans",
+        "label": "canned black beans",
+        "per_unit": {
+          "avg_grams": 425,
+          "calories": 385,
+          "protein": 24.5,
+          "price": 0.79
+        },
+        "per_100_gram": {
+          "cup": 0.385,
+          "calories": 84.615,
+          "protein": 5.385,
+          "price": 0.186
+        }
+      },
+      {
+        "name": "canned_chickpeas",
+        "label": "canned chickpeas",
+        "per_unit": {
+          "avg_grams": 427,
+          "calories": 385,
+          "protein": 21,
+          "price": 1.08
+        },
+        "per_100_gram": {
+          "cup": 0.410,
+          "calories": 90.164,
+          "protein": 4.918,
+          "price": 0.253
+        }
+      },
+      {
+        "name": "canned_pinto_beans",
+        "label": "canned pinto beans",
+        "per_unit": {
+          "avg_grams": 439,
+          "calories": 385,
+          "protein": 24.5,
+          "price": 0.99
+        },
+        "per_100_gram": {
+          "cup": 0.385,
+          "calories": 84.615,
+          "protein": 5.385,
+          "price": 0.226
+        }
+      },
+      {
+        "name": "condensed_milk",
+        "label": "condensed milk",
+        "per_100_gram": {
+          "tsp": 15.385,
+          "tbsp": 5.128,
+          "cup": 0.321,
+          "calories": 333.333,
+          "protein": 7.692,
+          "price": 0.879
         }
       }
     ]
@@ -423,10 +575,22 @@
         "per_100_gram": {
           "tsp": 25,
           "tbsp": 8.333,
-          "cup": 0.5,
+          "cup": 0.521,
           "calories": 375,
           "protein": 0,
           "price": 0.418
+        }
+      },
+      {
+        "name": "sugar_brown",
+        "label": "brown sugar",
+        "per_100_gram": {
+          "tsp": 25,
+          "tbsp": 8.333,
+          "cup": 0.521,
+          "calories": 375,
+          "protein": 0,
+          "price": 0.557
         }
       },
       {
@@ -475,6 +639,83 @@
           "calories": 390,
           "protein": 50,
           "price": 1.751
+        }
+      }
+    ]
+  },
+  {
+    "category_name": "sauces",
+    "items": [
+      {
+        "name": "gochugaru",
+        "label": "gochugaru",
+        "per_100_gram": {
+          "tsp": 16,
+          "tbsp": 5.33333333,
+          "cup": 0.333,
+          "calories": 400,
+          "protein": 80,
+          "price": 2.154
+        }
+      },
+      {
+        "name": "gochujang",
+        "label": "gochujang",
+        "per_100_gram": {
+          "tsp": 16.667,
+          "tbsp": 5.556,
+          "cup": 0.347,
+          "calories": 166.667,
+          "protein": 0.0,
+          "price": 1.698
+        }
+      },
+      {
+        "name": "honey",
+        "label": "honey",
+        "per_100_gram": {
+          "tsp": 14.286,
+          "tbsp": 4.762,
+          "cup": 0.298,
+          "calories": 285.714,
+          "protein": 0.0,
+          "price": 1.615
+        }
+      },
+      {
+        "name": "ketchup",
+        "label": "ketchup",
+        "per_100_gram": {
+          "tsp": 17.647,
+          "tbsp": 5.882,
+          "cup": 0.368,
+          "calories": 117.647,
+          "protein": 0.0,
+          "price": 0.587
+        }
+      },
+      {
+        "name": "soy_sauce_light",
+        "label": "light soy sauce",
+        "per_100_gram": {
+          "tsp": 20,
+          "tbsp": 6.667,
+          "cup": 0.417,
+          "calories": 33.333,
+          "protein": 6.667,
+          "price": 0.997
+        }
+      },
+      {
+        "name": "tomato_paste",
+        "label": "tomato paste",
+        "per_100_gram": {
+          "tsp": 18.182,
+          "tbsp": 6.061,
+          "cup": 0.379,
+          "calories": 106.061,
+          "protein": 3.030,
+          "price": 0.424
         }
       }
     ]
