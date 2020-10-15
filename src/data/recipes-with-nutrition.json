@@ -517,11 +517,11 @@
           }, 
           {
             "amount": 2, 
-            "calories": 224, 
+            "calories": 210, 
             "label": "banana", 
             "name": "banana", 
             "price": 0.38, 
-            "protein": 2.8, 
+            "protein": 2.58, 
             "unit": ""
           }, 
           {
@@ -549,9 +549,9 @@
         "label": "banana pancakes", 
         "name": "banana_pancakes", 
         "nutrition": {
-          "calories": 1127.8280201428572, 
+          "calories": 1113.8280201428572, 
           "price": 2.6674226055824, 
-          "protein": 17.2021665
+          "protein": 16.9821665
         }
       }
     ]
@@ -688,9 +688,9 @@
         "label": "chai latte", 
         "name": "chai_latte", 
         "nutrition": {
-          "calories": 60.0, 
-          "price": 0.53744, 
-          "protein": 0.0
+          "calories": 98.779996, 
+          "price": 1.6509699999999998, 
+          "protein": 0.3984
         }
       }, 
       {
@@ -784,11 +784,11 @@
         "ingredients": [
           {
             "amount": 5, 
-            "calories": 560, 
+            "calories": 525, 
             "label": "banana", 
             "name": "banana", 
             "price": 0.95, 
-            "protein": 7.0, 
+            "protein": 6.45, 
             "unit": ""
           }, 
           {
@@ -857,9 +857,9 @@
         "label": "banana bread", 
         "name": "banana_bread", 
         "nutrition": {
-          "calories": 2793.2110190000003, 
+          "calories": 2758.2110190000003, 
           "price": 6.047338, 
-          "protein": 33.752
+          "protein": 33.202
         }
       }, 
       {
@@ -881,11 +881,11 @@
           }, 
           {
             "amount": 7, 
-            "calories": 0.0, 
-            "label": "coconut_flakes", 
-            "name": "coconut_flakes", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "calories": 1322.976667328155, 
+            "label": "shredded coconut", 
+            "name": "coconut_shredded", 
+            "price": 2.2237681416916, 
+            "protein": 13.22976667328155, 
             "unit": "oz"
           }, 
           {
@@ -921,9 +921,124 @@
         "label": "macaroons", 
         "name": "macaroons", 
         "nutrition": {
-          "calories": 621.6055900000001, 
-          "price": 2.1575846050000003, 
-          "protein": 17.4108465
+          "calories": 1944.5822573281553, 
+          "price": 4.381352746691599, 
+          "protein": 30.64061317328155
+        }
+      }, 
+      {
+        "directions": [
+          "Add butter and sugars to bowl and cream until light and fluffy.", 
+          "Add egg and vanilla and mix. Add dry ingredients and mix. It's okay that it's crumbly.", 
+          "Add chocolate chips. Mold onto baking sheet and refrigerate for 30 minutes.", 
+          "Bake for 16-18 minutes at 375F.", 
+          "Let cookies cool on baking sheet for 5 minutes, then transfer them and let cool to room temperature."
+        ], 
+        "ingredients": [
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 112.0, 
+            "calories": 800.00032, 
+            "label": "butter", 
+            "name": "butter", 
+            "price": 3.2614400000000003, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 132, 
+            "calories": 495.0, 
+            "label": "brown sugar", 
+            "name": "sugar_brown", 
+            "price": 0.7352400000000001, 
+            "protein": 0.0, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 48, 
+            "calories": 180.0, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "note": "could try less?", 
+            "price": 0.20063999999999999, 
+            "protein": 0.0, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 60, 
+            "label": "egg", 
+            "name": "egg", 
+            "price": 0.25, 
+            "protein": 6, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 4.333, 
+            "calories": 12.47904, 
+            "label": "vanilla extract", 
+            "name": "vanilla_extract", 
+            "price": 0.6602192100000001, 
+            "protein": 0.004333, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 240, 
+            "calories": 880.0007999999999, 
+            "label": "flour", 
+            "name": "flour", 
+            "price": 0.528, 
+            "protein": 16.8, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 30.0, 
+            "calories": 110.00009999999999, 
+            "label": "flour", 
+            "name": "flour", 
+            "price": 0.066, 
+            "protein": 2.1, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 3.0, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.00813, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 2.4, 
+            "calories": 1.272, 
+            "label": "baking powder", 
+            "name": "baking_powder", 
+            "price": 0.016871999999999998, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 30, 
+            "calories": 0.0, 
+            "label": "chocolate_dark", 
+            "name": "chocolate_dark", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "g"
+          }
+        ], 
+        "label": "thick texas cookies", 
+        "name": "thick_texas_cookies", 
+        "nutrition": {
+          "calories": 2538.75226, 
+          "price": 5.7265412100000015, 
+          "protein": 24.904333
         }
       }, 
       {
@@ -1071,6 +1186,195 @@
       }, 
       {
         "directions": [
+          "Makes 5-6 cupcakes, or 1/4 a 9x13 cake pan", 
+          "Grate carrots.", 
+          "Mix flour, baking soda, salt, spices.", 
+          "Whisk oil, sugars, vanilla. Whisk egg one at a time.", 
+          "Combine dry and wet. Add carrots and nuts.", 
+          "Bake at 350F 30-40 min. Cool in pan for 15 min, then cool on rack. (If cupcake, bake for 14-18 min)", 
+          "Frosting: whisk cream cheese and butter til smooth. Mix sugar, vanilla, and salt til smooth."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 60.0, 
+                "calories": 220.00019999999998, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.132, 
+                "protein": 4.2, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 2.0, 
+                "calories": 0.0, 
+                "label": "baking soda", 
+                "name": "baking_soda", 
+                "price": 0.00362, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.75, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.0020325, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 1.3, 
+                "calories": 3.2099990000000003, 
+                "label": "cinnamon", 
+                "name": "cinnamon", 
+                "note": "also try nutmeg and ginger", 
+                "price": 0.06819800000000001, 
+                "protein": 0.052000000000000005, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 50, 
+                "calories": 428.5715, 
+                "label": "oil", 
+                "name": "oil", 
+                "note": "try lowering", 
+                "price": 0.158, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }, 
+              {
+                "amount": 25, 
+                "calories": 93.75, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.1045, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 25, 
+                "calories": 93.75, 
+                "label": "brown sugar", 
+                "name": "sugar_brown", 
+                "price": 0.13925, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.08325, 
+                "calories": 3.11976, 
+                "label": "vanilla extract", 
+                "name": "vanilla_extract", 
+                "price": 0.16505480250000001, 
+                "protein": 0.00108325, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 60, 
+                "label": "egg", 
+                "name": "egg", 
+                "price": 0.25, 
+                "protein": 6, 
+                "unit": ""
+              }, 
+              {
+                "amount": 75, 
+                "calories": 30.75, 
+                "label": "carrot", 
+                "name": "carrot", 
+                "note": "grated", 
+                "price": 0.1635, 
+                "protein": 0.6975, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 20, 
+                "calories": 135.7142858, 
+                "label": "walnut", 
+                "name": "walnut", 
+                "note": "chopped", 
+                "price": 0.351982378, 
+                "protein": 2.85714286, 
+                "unit": "g"
+              }
+            ], 
+            "label": "cake", 
+            "name": "cake"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 2, 
+                "calories": 199.99999992000002, 
+                "label": "cream cheese", 
+                "name": "cream_cheese", 
+                "price": 0.6636123368000001, 
+                "protein": 3.9999999984000003, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 14, 
+                "calories": 100.00004, 
+                "label": "butter", 
+                "name": "butter", 
+                "note": "softened", 
+                "price": 0.40768000000000004, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 30, 
+                "calories": 120.0, 
+                "label": "powdered sugar", 
+                "name": "sugar_powdered", 
+                "price": 0.4125, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.08325, 
+                "calories": 3.11976, 
+                "label": "vanilla extract", 
+                "name": "vanilla_extract", 
+                "price": 0.16505480250000001, 
+                "protein": 0.00108325, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.75, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.0020325, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "frosting", 
+            "name": "frosting"
+          }
+        ], 
+        "label": "carrot cake", 
+        "name": "carrot_cake", 
+        "nutrition": {
+          "calories": 1491.98554472, 
+          "price": 3.1890173198, 
+          "protein": 17.8088093584
+        }
+      }, 
+      {
+        "directions": [
           "Cover almonds in boiling water until water becomes lukewarm. Slip off almond skins and dry very very well.", 
           "Process almonds in food processor. Process almond meal and sugar until combined.", 
           "Add water, extract, pulse a few times until dough holds together. (If too dry, add more water)", 
@@ -1181,11 +1485,12 @@
           }, 
           {
             "amount": 0.5, 
-            "calories": 0.0, 
-            "label": "lemon_zest", 
+            "amount_in_grams": 1.0, 
+            "calories": 0.47000000000000003, 
+            "label": "lemon zest", 
             "name": "lemon_zest", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 0.13166666700000001, 
+            "protein": 0.015, 
             "unit": "tsp"
           }, 
           {
@@ -1223,9 +1528,9 @@
         "label": "hamantaschen", 
         "name": "hamantaschen", 
         "nutrition": {
-          "calories": 1414.9069399999998, 
-          "price": 3.2532621049999997, 
-          "protein": 17.6221665
+          "calories": 1415.3769399999999, 
+          "price": 3.384928772, 
+          "protein": 17.6371665
         }
       }, 
       {
@@ -1476,6 +1781,176 @@
     ]
   }, 
   {
+    "category_name": "chinese", 
+    "recipes": [
+      {
+        "directions": [
+          "cut eggplants. soak fully submerged in salt water for 15 min.drain and pat dry.", 
+          "coat eggplants in cornstarch by hand.", 
+          "1 tbsp oil in nonstick skillet med high heat. spread eggplants without overlap. (if at any point, too smokey, turn to med heat)", 
+          "cook eggplants one side at a time til charred and soft (~8-10min total). transfer eggplants to plate.", 
+          "remaining oil, add pork with the ginger and garlic. stir fry until pork changes color", 
+          "add all eggplants back, pour sauce over, quickly stir a few times til all coated and sauce is thick."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 2, 
+                "calories": 0.0, 
+                "label": "eggplant", 
+                "name": "eggplant", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 6, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.01626, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 8, 
+                "calories": 30.0, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.03506607928, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 14, 
+                "calories": 120.00002000000002, 
+                "label": "oil", 
+                "name": "oil", 
+                "note": "to cook eggplant", 
+                "price": 0.04424, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "eggplant", 
+            "name": "eggplant"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "amount_in_grams": 15, 
+                "calories": 4.999949999999999, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "price": 0.14955, 
+                "protein": 1.0000499999999999, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "calories": 0.0, 
+                "label": "soy_sauce_dark", 
+                "name": "soy_sauce_dark", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4, 
+                "calories": 15.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "note": "originally 2 tsp", 
+                "price": 0.01672, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 2.66666667, 
+                "calories": 10.000000012500001, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.0116886931079442, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "sauce", 
+            "name": "sauce"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "ginger", 
+                "name": "ginger", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 3, 
+                "calories": 13.41, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "price": 0.18, 
+                "protein": 0.573, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.25, 
+                "calories": 0.0, 
+                "label": "pork_ground", 
+                "name": "pork_ground", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "lb"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 7.0, 
+                "calories": 60.00001000000001, 
+                "label": "oil", 
+                "name": "oil", 
+                "note": "to cook fillings", 
+                "price": 0.02212, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "fillings", 
+            "name": "fillings"
+          }
+        ], 
+        "label": "eggplant with garlic sauce", 
+        "name": "eggplant_with_garlic_sauce", 
+        "nutrition": {
+          "calories": 253.40998001250003, 
+          "price": 0.4756447723879442, 
+          "protein": 1.5730499999999998
+        }
+      }
+    ]
+  }, 
+  {
     "category_name": "misc", 
     "recipes": [
       {
@@ -1553,10 +2028,11 @@
           }, 
           {
             "amount": 0.75, 
+            "amount_in_grams": 3.75, 
             "calories": 0.0, 
-            "label": "mustard", 
-            "name": "mustard", 
-            "price": 0.0, 
+            "label": "dijon mustard", 
+            "name": "mustard_dijon", 
+            "price": 0.032874449325, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -1593,7 +2069,7 @@
         "name": "vegan_mac_n_cheese", 
         "nutrition": {
           "calories": 2497.53424156, 
-          "price": 6.850680539399999, 
+          "price": 6.883554988724999, 
           "protein": 85.42971688
         }
       }, 
@@ -1664,20 +2140,21 @@
           }, 
           {
             "amount": 1, 
-            "calories": 0.0, 
-            "label": "lime_juice", 
+            "amount_in_grams": 5, 
+            "calories": 1.25, 
+            "label": "lime juice", 
             "name": "lime_juice", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 0.014204545450000002, 
+            "protein": 0.021, 
             "unit": "tsp"
           }
         ], 
         "label": "refried beans", 
         "name": "refried_beans", 
         "nutrition": {
-          "calories": 479.47, 
-          "price": 1.3138245000000002, 
-          "protein": 26.691
+          "calories": 480.72, 
+          "price": 1.3280290454500001, 
+          "protein": 26.712
         }
       }, 
       {
@@ -1765,20 +2242,22 @@
           }, 
           {
             "amount": 3, 
-            "calories": 0.0, 
-            "label": "lemon_juice", 
+            "amount_in_grams": 45, 
+            "calories": 9.9, 
+            "label": "lemon juice", 
             "name": "lemon_juice", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 0.7406249985000001, 
+            "protein": 0.1575, 
             "unit": "tbsp"
           }, 
           {
             "amount": 2, 
-            "calories": 0.0, 
+            "amount_in_grams": 30, 
+            "calories": 210.0, 
             "label": "tahini", 
             "name": "tahini", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 0.6601321589999999, 
+            "protein": 6.0, 
             "unit": "tbsp"
           }, 
           {
@@ -1824,9 +2303,9 @@
         "label": "hummus", 
         "name": "hummus", 
         "nutrition": {
-          "calories": 509.47, 
-          "price": 1.31403, 
-          "protein": 21.191
+          "calories": 729.37, 
+          "price": 2.7147871575, 
+          "protein": 27.348499999999998
         }
       }, 
       {
@@ -2059,9 +2538,9 @@
         "label": "shepherd's pie", 
         "name": "shepherds_pie", 
         "nutrition": {
-          "calories": 479.77865, 
-          "price": 2.7411574999999995, 
-          "protein": 6.051485
+          "calories": 1376.77881, 
+          "price": 5.9462775, 
+          "protein": 18.951484999999998
         }
       }, 
       {

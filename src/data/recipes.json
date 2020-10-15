@@ -194,7 +194,7 @@
         "label": "macaroons",
         "ingredients": [
           { "name": "egg_white", "amount": 1, "unit": "" },
-          { "name": "coconut_flakes", "amount": 7, "unit": "oz" },
+          { "name": "coconut_shredded", "amount": 7, "unit": "oz" },
           { "name": "condensed_milk", "amount": 179, "unit": "g" },
           { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
           { "name": "salt", "amount": 0.25, "unit": "tsp" }
@@ -204,6 +204,29 @@
           "Beat egg whites and salt into soft peaks. Gently fold egg whites into coconut mix.",
           "Scoop ~2 tbsp at a time (makes 16). Bake at 325F for 25 min or until golden brown.",
           "Immediately remove from baking sheet to cool. Dip in chocolate and set for 1-2 hours once cool."
+        ]
+      },
+      {
+        "name": "thick_texas_cookies",
+        "label": "thick texas cookies",
+        "ingredients": [
+          { "name": "butter", "amount": 0.5, "unit": "cup" },
+          { "name": "sugar_brown", "amount": 132, "unit": "g" },
+          { "name": "sugar", "note": "could try less?", "amount": 48, "unit": "g" },
+          { "name": "egg", "amount": 1, "unit": "" },
+          { "name": "vanilla_extract", "amount": 1, "unit": "tsp" },
+          { "name": "flour", "amount": 2, "unit": "cup" },
+          { "name": "flour", "amount": 0.25, "unit": "cup" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "baking_powder", "amount": 0.5, "unit": "tsp" },
+          { "name": "chocolate_dark", "amount": 30, "unit": "g" }
+        ],
+        "directions": [
+          "Add butter and sugars to bowl and cream until light and fluffy.",
+          "Add egg and vanilla and mix. Add dry ingredients and mix. It's okay that it's crumbly.",
+          "Add chocolate chips. Mold onto baking sheet and refrigerate for 30 minutes.",
+          "Bake for 16-18 minutes at 375F.",
+          "Let cookies cool on baking sheet for 5 minutes, then transfer them and let cool to room temperature."
         ]
       },
       {
@@ -245,6 +268,49 @@
           "To blindbake: ",
           "Freeze the un-cooked pie crust for at least 30 minutes, preferably an hour, before blind-baking.",
           "Bake at 350°F for 45-50 minutes if making a crust for a pie that you will cook further, like a quiche. Bake for 60 to 75 minutes if making a crust for a pie that will need no further baking."
+        ]
+      },
+      {
+        "name": "carrot_cake",
+        "label": "carrot cake",
+        "ingredient_categories": [
+          {
+            "name": "cake",
+            "label": "cake",
+            "ingredients": [
+              { "name": "flour", "amount": 0.5, "unit": "cup" },
+              { "name": "baking_soda", "amount": 0.5, "unit": "tsp" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" },
+              { "name": "cinnamon", "note": "also try nutmeg and ginger", "amount": 0.5, "unit": "tsp" },
+              { "name": "oil", "note": "try lowering", "amount": 50, "unit": "ml" },
+              { "name": "sugar", "amount": 25, "unit": "g" },
+              { "name": "sugar_brown", "amount": 25, "unit": "g" },
+              { "name": "vanilla_extract", "amount": 0.25, "unit": "tsp" },
+              { "name": "egg", "amount": 1, "unit": "" },
+              { "name": "carrot", "note": "grated", "amount": 75, "unit": "g" },
+              { "name": "walnut", "note": "chopped", "amount": 20, "unit": "g" }
+            ]
+          },
+          {
+            "name": "frosting",
+            "label": "frosting",
+            "ingredients": [
+              { "name": "cream_cheese", "amount": 2, "unit": "oz" },
+              { "name": "butter", "note": "softened", "amount": 1, "unit": "tbsp" },
+              { "name": "sugar_powdered", "amount": 30, "unit": "g" },
+              { "name": "vanilla_extract", "amount": 0.25, "unit": "tsp" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Makes 5-6 cupcakes, or 1/4 a 9x13 cake pan",
+          "Grate carrots.",
+          "Mix flour, baking soda, salt, spices.",
+          "Whisk oil, sugars, vanilla. Whisk egg one at a time.",
+          "Combine dry and wet. Add carrots and nuts.",
+          "Bake at 350F 30-40 min. Cool in pan for 15 min, then cool on rack. (If cupcake, bake for 14-18 min)",
+          "Frosting: whisk cream cheese and butter til smooth. Mix sugar, vanilla, and salt til smooth."
         ]
       },
       {
@@ -347,6 +413,56 @@
     ]
   },
   {
+    "category_name": "chinese",
+    "recipes": [
+      {
+        "name": "eggplant_with_garlic_sauce",
+        "label": "eggplant with garlic sauce",
+        "ingredient_categories": [
+          {
+            "name": "eggplant",
+            "label": "eggplant",
+            "ingredients": [
+              { "name": "eggplant", "amount": 2, "unit": "" },
+              { "name": "salt", "amount": 1, "unit": "tsp" },
+              { "name": "cornstarch", "amount": 1, "unit": "tbsp" },
+              { "name": "oil", "note": "to cook eggplant", "amount": 1, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
+              { "name": "water", "amount": 1, "unit": "tbsp" },
+              { "name": "soy_sauce_dark", "amount": 0.5, "unit": "tsp" },
+              { "name": "sugar", "note": "originally 2 tsp", "amount": 1, "unit": "tsp" },
+              { "name": "cornstarch", "amount": 1, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "fillings",
+            "label": "fillings",
+            "ingredients": [
+              { "name": "ginger", "amount": 1, "unit": "tsp" },
+              { "name": "garlic", "amount": 3, "unit": "" },
+              { "name": "pork_ground", "amount": 0.25, "unit": "lb" },
+              { "name": "oil", "note": "to cook fillings", "amount": 0.5, "unit": "tbsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "cut eggplants. soak fully submerged in salt water for 15 min.drain and pat dry.",
+          "coat eggplants in cornstarch by hand.",
+          "1 tbsp oil in nonstick skillet med high heat. spread eggplants without overlap. (if at any point, too smokey, turn to med heat)",
+          "cook eggplants one side at a time til charred and soft (~8-10min total). transfer eggplants to plate.",
+          "remaining oil, add pork with the ginger and garlic. stir fry until pork changes color",
+          "add all eggplants back, pour sauce over, quickly stir a few times til all coated and sauce is thick."
+        ]
+      }
+    ]
+  },
+  {
     "category_name": "misc",
     "recipes": [
       {
@@ -360,7 +476,7 @@
           { "name": "gochugaru", "amount": 0.75, "unit": "tsp" },
           { "name": "garlic", "amount": 1, "unit": "" },
           { "name": "turmeric", "amount": 0.125, "unit": "tsp" },
-          { "name": "mustard", "amount": 0.75, "unit": "tsp" },
+          { "name": "mustard_dijon", "amount": 0.75, "unit": "tsp" },
           { "name": "pasta", "amount": 16, "unit": "oz" },
           { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
           { "name": "broccoli", "amount": 180, "unit": "g" }

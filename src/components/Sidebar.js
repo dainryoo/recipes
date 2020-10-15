@@ -8,10 +8,10 @@ const Sidebar = (props) => {
   const { selectedRecipe, updateSelectedRecipe, selectedPantryItem, updateSelectedPantryItem, view } = props;
 
   return (
-    <div className={(view ? "recipe" : "pantry") + " sidebar"}>
+    <div className="sidebar">
       <ul className="category-list">
         {
-          view === 1 &&
+          view === 1 ? (
           recipesData.map((curr_category, category_index) => (
           <li className="category-item" key={category_index}>
             <div>{curr_category.category_name}</div>
@@ -25,9 +25,7 @@ const Sidebar = (props) => {
             </ul>
           </li>
           ))
-        }
-        {
-          view === 0 &&
+        ) : (
           pantryData.map((curr_category, category_index) => (
           <li className="category-item" key={category_index}>
             <div>{curr_category.category_name}</div>
@@ -41,6 +39,7 @@ const Sidebar = (props) => {
             </ul>
           </li>
           ))
+        )
         }
       </ul>
     </div>

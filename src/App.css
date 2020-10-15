@@ -108,6 +108,10 @@ html, body, #root, #root>div {
   overflow-y: scroll;
   color: #4e4e4e;
 }
+/* .hidden.content: The content of the page that should not be shown */
+.hidden.content {
+  display: none;
+}
 /* .content .heading: The text for the name of a recipe or pantry item */
 .content .heading {
   font-size: 2.5rem;

@@ -68,10 +68,10 @@ def calculate_nutrition_with_categories(recipe, ingredient_category, pantry):
     ingredients = ingredient_category["ingredients"]
 
     # if the recipe already has existing nutrition info
-    if (recipe.has_key("per_unit")):
-        total_calories = recipe["per_unit"]["calories"]
-        total_protein = recipe["per_unit"]["protein"]
-        total_price = recipe["per_unit"]["price"]
+    if (recipe.has_key("nutrition")):
+        total_calories = recipe["nutrition"]["calories"]
+        total_protein = recipe["nutrition"]["protein"]
+        total_price = recipe["nutrition"]["price"]
     else:
         total_calories = 0.0
         total_protein = 0.0
@@ -129,7 +129,10 @@ def calculate_ingredient_nutrition(ingredient, pantry):
             amount = ingredient["amount"] * 453.592
         elif unit in ["oz", "ounce", "ounces"]:
             # if unit is ounces, convert weight to grams
-            amount = ingredient["amount"] * 28.3495
+            if ("conversion_to_grams" in ingredient_info and "oz" in ingredient_info["conversion_to_grams"]):
+                amount = ingredient["amount"] * ingredient_info["conversion_to_grams"]["oz"]
+            else:
+                amount = ingredient["amount"] * 28.3495
         else:
             # if unit is anything else, handle special case abbreviations
             if unit in ["t", "tsp", "teaspoon", "teaspoons"]:

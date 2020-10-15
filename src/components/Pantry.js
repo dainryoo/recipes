@@ -1,10 +1,12 @@
 import React from 'react';
+import { connect } from "react-redux";
 import InfoList from "./pantry/InfoList.js";
+import Calculator from "./pantry/Calculator.js";
 
 
 const Pantry = (props) => {
 
-  const { item } = props;
+  const { item, view } = props;
   let nutrition = null;
   let nutritionPer100Gram = null;
   let measurements = null;
@@ -48,8 +50,9 @@ const Pantry = (props) => {
   }
 
   return (
-    <div className="pantry content">
+    <div className={"pantry content" + (view === 1 ? " hidden" : "")}>
       <div className="heading">{item.label}</div>
+      <Calculator item={item}/>
       {measurements && <InfoList title="Grams conversions:" list={measurements}/>}
       {nutrition && <InfoList title="Per unit:" list={nutrition}/>}
       {nutritionPer100Gram && <InfoList title="Per 100 grams:" list={nutritionPer100Gram}/>}
@@ -57,4 +60,9 @@ const Pantry = (props) => {
   );
 }
 
-export default Pantry;
+const mapStateToProps = state => {
+	return {
+    view: state.view
+  }
+}
+export default connect(mapStateToProps)(Pantry);

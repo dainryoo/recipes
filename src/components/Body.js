@@ -8,17 +8,28 @@ const Body = (props) => {
 
   const { view, selectedRecipe, selectedPantryItem } = props;
 
-  let content = "";
-  if (view === 1) {
-    content = selectedRecipe ? <Recipe recipe={selectedRecipe}/> : <div className="message">pick a recipe</div>;
-  } else {
-    content = selectedPantryItem ? <Pantry item={selectedPantryItem}/> : <div className="message">pick a pantry item</div>;
+  const recipe = () => {
+    return selectedRecipe ? <Recipe recipe={selectedRecipe}/> : "";
+  }
+
+  const pantryItem = () => {
+    return selectedPantryItem ? <Pantry item={selectedPantryItem}/> : "";
+  }
+
+  const message = () => {
+    if (view === 1 && !selectedRecipe) {
+      return <div className="message">pick a recipe</div>
+    } else if (view === 0 && !selectedPantryItem) {
+      return <div className="message">pick a pantry item</div>
+    }
   }
 
   return (
     <div className="app-body">
       <Sidebar/>
-      {content}
+      {message()}
+      {recipe()}
+      {pantryItem()}
     </div>
   );
 }
