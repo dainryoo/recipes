@@ -446,7 +446,7 @@
             "ingredients": [
               { "name": "ginger", "amount": 1, "unit": "tsp" },
               { "name": "garlic", "amount": 3, "unit": "" },
-              { "name": "pork_ground", "amount": 0.25, "unit": "lb" },
+              { "name": "pork_ground_84", "amount": 0.25, "unit": "lb" },
               { "name": "oil", "note": "to cook fillings", "amount": 0.5, "unit": "tbsp" }
             ]
           }
@@ -564,7 +564,7 @@
               { "name": "oil_olive", "amount": 2, "unit": "tbsp" },
               { "name": "onion", "note": "(1-2), chopped", "amount": 1, "unit": "" },
               { "name": "carrot", "amount": 3, "unit": "" },
-              { "name": "beef_ground", "amount": 1, "unit": "lb" },
+              { "name": "beef_ground_85", "amount": 1, "unit": "lb" },
               { "name": "parsley_dried", "amount": 2, "unit": "tsp" },
               { "name": "rosemary_dried", "amount": 1, "unit": "tsp" },
               { "name": "thyme_dried", "amount": 1, "unit": "tsp" },

@@ -231,6 +231,24 @@
         }
       },
       {
+        "name": "eggplant",
+        "label": "eggplant",
+        "conversion_to_grams": {
+          "cup": 82
+        },
+        "per_unit": {
+          "avg_grams": 300,
+          "calories": 75,
+          "protein": 2.94,
+          "price": 0.911428571
+        },
+        "per_100_gram": {
+          "calories": 25,
+          "protein": 0.98,
+          "price": 0.284396318
+        }
+      },
+      {
         "name": "onion",
         "label": "onion",
         "conversion_to_grams": {
@@ -536,6 +554,42 @@
     "category_name": "meat",
     "items": [
       {
+        "name": "beef_ground_80",
+        "label": "ground beef (80% lean)",
+        "conversion_to_grams": {
+          "oz": 28.25
+        },
+        "per_100_gram": {
+          "calories": 254,
+          "protein": 17.17,
+          "price": 1.1039823
+        }
+      },
+      {
+        "name": "beef_ground_85",
+        "label": "ground beef (85% lean)",
+        "conversion_to_grams": {
+          "oz": 28.25
+        },
+        "per_100_gram": {
+          "calories": 215,
+          "protein": 18.59,
+          "price": 1.21460177
+        }
+      },
+      {
+        "name": "beef_ground_90",
+        "label": "ground beef (90% lean)",
+        "conversion_to_grams": {
+          "oz": 28.25
+        },
+        "per_100_gram": {
+          "calories": 176,
+          "protein": 20,
+          "price": 1.54646018
+        }
+      },
+      {
         "name": "egg",
         "label": "egg",
         "per_unit": {
@@ -578,6 +632,30 @@
           "calories": 50,
           "protein": 6,
           "price": 0.22
+        }
+      },
+      {
+        "name": "pork_ground_84",
+        "label": "ground pork (84% lean)",
+        "conversion_to_grams": {
+          "oz": 28.25
+        },
+        "per_100_gram": {
+          "calories": 218,
+          "protein": 18,
+          "price": 1.54646018
+        }
+      },
+      {
+        "name": "pork_ground_96",
+        "label": "ground pork (96% lean)",
+        "conversion_to_grams": {
+          "oz": 28.25
+        },
+        "per_100_gram": {
+          "calories": 121,
+          "protein": 21.1,
+          "price": 1.54646018
         }
       }
     ]
@@ -661,7 +739,6 @@
       }
     ]
   },
-
   {
     "category_name": "canned",
     "items": [

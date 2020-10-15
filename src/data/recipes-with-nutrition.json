@@ -1797,11 +1797,11 @@
             "ingredients": [
               {
                 "amount": 2, 
-                "calories": 0.0, 
+                "calories": 150, 
                 "label": "eggplant", 
                 "name": "eggplant", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "price": 1.822857142, 
+                "protein": 5.88, 
                 "unit": ""
               }, 
               {
@@ -1917,11 +1917,11 @@
               }, 
               {
                 "amount": 0.25, 
-                "calories": 0.0, 
-                "label": "pork_ground", 
-                "name": "pork_ground", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "calories": 247.20764, 
+                "label": "ground pork (84% lean)", 
+                "name": "pork_ground_84", 
+                "price": 1.7536549149164, 
+                "protein": 20.41164, 
                 "unit": "lb"
               }, 
               {
@@ -1943,9 +1943,9 @@
         "label": "eggplant with garlic sauce", 
         "name": "eggplant_with_garlic_sauce", 
         "nutrition": {
-          "calories": 253.40998001250003, 
-          "price": 0.4756447723879442, 
-          "protein": 1.5730499999999998
+          "calories": 650.6176200125, 
+          "price": 4.052156829304344, 
+          "protein": 27.864689999999996
         }
       }
     ]
@@ -2413,11 +2413,11 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 0.0, 
-                "label": "beef_ground", 
-                "name": "beef_ground", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "calories": 975.2228, 
+                "label": "ground beef (85% lean)", 
+                "name": "beef_ground_85", 
+                "price": 5.5093364605784, 
+                "protein": 84.3227528, 
                 "unit": "lb"
               }, 
               {
@@ -2538,9 +2538,9 @@
         "label": "shepherd's pie", 
         "name": "shepherds_pie", 
         "nutrition": {
-          "calories": 1376.77881, 
-          "price": 5.9462775, 
-          "protein": 18.951484999999998
+          "calories": 2352.001610000001, 
+          "price": 11.455613960578397, 
+          "protein": 103.27423779999998
         }
       }, 
       {
