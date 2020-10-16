@@ -2360,11 +2360,11 @@
               }, 
               {
                 "amount": 7, 
-                "calories": 0.0, 
-                "label": "cheese_parmesan", 
+                "calories": 27.500000010000004, 
+                "label": "parmesan", 
                 "name": "cheese_parmesan", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "price": 0.3567857146000001, 
+                "protein": 2.249999997, 
                 "unit": "g"
               }, 
               {
@@ -2538,9 +2538,9 @@
         "label": "shepherd's pie", 
         "name": "shepherds_pie", 
         "nutrition": {
-          "calories": 2352.001610000001, 
-          "price": 11.455613960578397, 
-          "protein": 103.27423779999998
+          "calories": 2379.501610010001, 
+          "price": 11.812399675178398, 
+          "protein": 105.52423779699998
         }
       }, 
       {

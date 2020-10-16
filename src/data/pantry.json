@@ -71,6 +71,42 @@
         }
       },
       {
+        "name": "coconut_meat",
+        "label": "coconut meat",
+        "conversion_to_grams": {
+          "cup": 200
+        },
+        "per_unit": {
+          "avg_grams": 0,
+          "calories": 0,
+          "protein": 0,
+          "price": 1.79
+        },
+        "per_100_gram": {
+          "calories": 90,
+          "protein": 2,
+          "price": 0
+        }
+      },
+      {
+        "name": "coconut_water",
+        "label": "coconut water",
+        "conversion_to_grams": {
+          "cup": 240
+        },
+        "per_unit": {
+          "avg_grams": 0,
+          "calories": 0,
+          "protein": 0,
+          "price": 1.79
+        },
+        "per_100_gram": {
+          "calories": 40.5797101,
+          "protein": 0.289855072,
+          "price": 0
+        }
+      },
+      {
         "name": "lemon",
         "label": "lemon",
         "per_unit": {
@@ -213,6 +249,24 @@
         }
       },
       {
+        "name": "cabbage",
+        "label": "cabbage",
+        "conversion_to_grams": {
+          "cup": 89
+        },
+        "per_unit": {
+          "avg_grams": 1248,
+          "calories": 312,
+          "protein": 16,
+          "price": 1.95
+        },
+        "per_100_gram": {
+          "calories": 25,
+          "protein": 1.28,
+          "price": 0.174165187
+        }
+      },
+      {
         "name": "carrot",
         "label": "carrot",
         "conversion_to_grams": {
@@ -231,6 +285,24 @@
         }
       },
       {
+        "name": "cucumber",
+        "label": "cucumber",
+        "conversion_to_grams": {
+          "cup": 119
+        },
+        "per_unit": {
+          "avg_grams": 280,
+          "calories": 33.6,
+          "protein": 1.65,
+          "price": 0.79
+        },
+        "per_100_gram": {
+          "calories": 15,
+          "protein": 0.65,
+          "price": 0.317465658
+        }
+      },
+      {
         "name": "eggplant",
         "label": "eggplant",
         "conversion_to_grams": {
@@ -246,6 +318,24 @@
           "calories": 25,
           "protein": 0.98,
           "price": 0.284396318
+        }
+      },
+      {
+        "name": "jalapeno",
+        "label": "jalapeno",
+        "conversion_to_grams": {
+          "cup": 90
+        },
+        "per_unit": {
+          "avg_grams": 14,
+          "calories": 4.06,
+          "protein": 0.127,
+          "price": 0.133333333
+        },
+        "per_100_gram": {
+          "calories": 29,
+          "protein": 0.91,
+          "price": 0.440924524
         }
       },
       {
@@ -692,6 +782,30 @@
         }
       },
       {
+        "name": "cheese_mozzarella",
+        "label": "mozzarella",
+        "conversion_to_grams": {
+          "oz": 28
+        },
+        "per_100_gram": {
+          "calories": 300,
+          "protein": 22.17,
+          "price": 1.54103121
+        }
+      },
+      {
+        "name": "cheese_parmesan",
+        "label": "parmesan",
+        "conversion_to_grams": {
+          "oz": 28
+        },
+        "per_100_gram": {
+          "calories": 392.857143,
+          "protein": 32.1428571,
+          "price": 5.09693878
+        }
+      },
+      {
         "name": "cream_cheese",
         "label": "cream cheese",
         "conversion_to_grams": {
@@ -820,6 +934,52 @@
         }
       },
       {
+        "name": "rice_white",
+        "label": "white rice",
+        "conversion_to_grams": {
+          "cup": 180
+        },
+        "per_100_gram": {
+          "calories": 355.555556,
+          "protein": 6.66666667,
+          "price": 0.352794118
+        }
+      },
+      {
+        "name": "rice_flakes",
+        "label": "rice flakes",
+        "per_100_gram": {
+          "calories": 345.454545,
+          "protein": 7.27272727,
+          "price": 1.71365639
+        }
+      },
+      {
+        "name": "rice_vermicelli",
+        "label": "rice vermicelli (Jiangxi)",
+        "conversion_to_grams": {
+          "cup": 56
+        },
+        "per_100_gram": {
+          "calories": 357.142857,
+          "protein": 7.14285714,
+          "price": 0.299
+        }
+      },
+      {
+        "name": "rolled_oats",
+        "label": "rolled oats (365)",
+        "conversion_to_grams": {
+          "tbsp": 5,
+          "cup": 80
+        },
+        "per_100_gram": {
+          "calories": 375,
+          "protein": 12.5,
+          "price": 0.58627451
+        }
+      },
+      {
         "name": "sesame_seeds",
         "label": "sesame seeds",
         "conversion_to_grams": {
@@ -864,6 +1024,19 @@
           "calories": 0,
           "protein": 0,
           "price": 0.181
+        }
+      },
+      {
+        "name": "cacao_nibs",
+        "label": "cacao nibs (Alovitox)",
+        "conversion_to_grams": {
+          "tsp": 2,
+          "tbsp": 6
+        },
+        "per_100_gram": {
+          "calories": 400,
+          "protein": 6.66666667,
+          "price": 7.4845815
         }
       },
       {
