@@ -194,6 +194,72 @@
           "protein": 0.42,
           "price": 0.284090909
         }
+      },
+      {
+        "name": "tomato",
+        "label": "tomato",
+        "conversion_to_grams": {
+          "cup": 180
+        },
+        "per_unit": {
+          "avg_grams": 182,
+          "calories": 32.8,
+          "protein": 1.6,
+          "price": 1.15
+        },
+        "per_100_gram": {
+          "calories": 18,
+          "protein": 0.88,
+          "price": 0.438719902
+        }
+      },
+      {
+        "name": "tomato_cherry",
+        "label": "cherry tomato",
+        "conversion_to_grams": {
+          "cup": 149
+        },
+        "per_unit": {
+          "avg_grams": 17,
+          "calories": 3.06,
+          "protein": 0.15,
+          "price": 0.166333333
+        },
+        "per_100_gram": {
+          "calories": 18,
+          "protein": 0.88,
+          "price": 0.8803793
+        }
+      },
+      {
+        "name": "tomato_grape",
+        "label": "grape tomato",
+        "per_unit": {
+          "avg_grams": 7.9,
+          "calories": 1.42,
+          "protein": 0.07,
+          "price": 0.0694919097
+        },
+        "per_100_gram": {
+          "calories": 18,
+          "protein": 0.88,
+          "price": 0.879644426
+        }
+      },
+      {
+        "name": "tomato_plum",
+        "label": "plum (roma) tomato",
+        "per_unit": {
+          "avg_grams": 62,
+          "calories": 11.2,
+          "protein":0.546,
+          "price": 0.44
+        },
+        "per_100_gram": {
+          "calories": 18,
+          "protein": 0.88,
+          "price": 0.438719902
+        }
       }
     ]
   },
@@ -372,6 +438,24 @@
           "calories": 79,
           "protein": 2,
           "price": 0.331
+        }
+      },
+      {
+        "name": "zucchini",
+        "label": "zucchini",
+        "conversion_to_grams": {
+          "cup": 124
+        },
+        "per_unit": {
+          "avg_grams": 323,
+          "calories": 54.9,
+          "protein": 3.91,
+          "price": 1.48
+        },
+        "per_100_gram": {
+          "calories": 17,
+          "protein": 1.21,
+          "price": 0.615089711
         }
       }
     ]
@@ -926,6 +1010,9 @@
       {
         "name": "pasta",
         "label": "pasta",
+        "conversion_to_grams": {
+          "oz": 28
+        },
         "per_100_gram": {
           "cup": 0.801,
           "calories": 357.143,

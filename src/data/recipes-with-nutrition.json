@@ -2038,11 +2038,11 @@
           }, 
           {
             "amount": 16, 
-            "calories": 1619.9720765599998, 
+            "calories": 1600.00064, 
             "label": "pasta", 
             "name": "pasta", 
-            "price": 1.9867329599999999, 
-            "protein": 48.59784688, 
+            "price": 1.9622400000000002, 
+            "protein": 47.998720000000006, 
             "unit": "oz"
           }, 
           {
@@ -2068,9 +2068,9 @@
         "label": "vegan mac & cheese", 
         "name": "vegan_mac_n_cheese", 
         "nutrition": {
-          "calories": 2497.53424156, 
-          "price": 6.883554988724999, 
-          "protein": 85.42971688
+          "calories": 2477.562805, 
+          "price": 6.859062028725001, 
+          "protein": 84.83059
         }
       }, 
       {
