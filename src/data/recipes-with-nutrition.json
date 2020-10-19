@@ -553,6 +553,102 @@
           "price": 2.6674226055824, 
           "protein": 16.9821665
         }
+      }, 
+      {
+        "directions": [
+          "Mix all spices. Add spices to pork. Nice to let sit for a few hours to marinate.", 
+          "Med heat non stick 5 min each side."
+        ], 
+        "ingredients": [
+          {
+            "amount": 1, 
+            "calories": 988.83056, 
+            "label": "ground pork (84% lean)", 
+            "name": "pork_ground_84", 
+            "price": 7.0146196596656, 
+            "protein": 81.64656, 
+            "unit": "lb"
+          }, 
+          {
+            "amount": 2, 
+            "calories": 0.0, 
+            "label": "sage_ground", 
+            "name": "sage_ground", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 6, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "note": "bit salty..", 
+            "price": 0.01626, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 1.15, 
+            "calories": 2.8865, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.0430215, 
+            "protein": 0.11499999999999999, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "calories": 0.0, 
+            "label": "oregano", 
+            "name": "oregano", 
+            "note": "or thyme or rosemary", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 4, 
+            "calories": 15.0, 
+            "label": "brown sugar", 
+            "name": "sugar_brown", 
+            "price": 0.02228, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.625, 
+            "calories": 2.5, 
+            "label": "gochugaru", 
+            "name": "gochugaru", 
+            "note": "or cayenne", 
+            "price": 0.0134625, 
+            "protein": 0.5, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.2625, 
+            "calories": 0.7192500000000001, 
+            "label": "ground clove", 
+            "name": "clove_ground", 
+            "note": "or nutmeg. just a pinch", 
+            "price": 0.02966775, 
+            "protein": 0.01567125, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "breakfast patties", 
+        "name": "breakfast_patties", 
+        "nutrition": {
+          "calories": 1009.9363099999999, 
+          "price": 7.1393114096656, 
+          "protein": 82.27723124999999
+        }
       }
     ]
   }, 
@@ -1776,6 +1872,137 @@
           "calories": 110.00009999999999, 
           "price": 0.066, 
           "protein": 2.1
+        }
+      }
+    ]
+  }, 
+  {
+    "category_name": "korean", 
+    "recipes": [
+      {
+        "directions": [
+          "Put meat in cold water to let blood out for 15-30min (variable depending on how bloody). (Soak in fridge if too hot) (Change water out if needed).", 
+          "Strain meat afterwards.", 
+          "While waiting for meat, make marinade:", 
+          "Pulverize garlic, onion, ginger, jalapeno, kiwi.", 
+          "Mix pulverized ingredients and saucy ingredients to make marinade.", 
+          "Marinate meat for 3-5 ish hours. Can freeze and defrost in fridge night before the day you want to cook.", 
+          "Cook meat (stainless or nonstick, but either way dont use oil) on high heat."
+        ], 
+        "ingredients": [
+          {
+            "amount": 2, 
+            "calories": 2177.2416, 
+            "label": "beef lateral rib", 
+            "name": "beef_short_rib_choice_boneless", 
+            "price": 21.148960327724797, 
+            "protein": 156.03564799999998, 
+            "unit": "lb"
+          }, 
+          {
+            "amount": 8, 
+            "calories": 35.76, 
+            "label": "garlic", 
+            "name": "garlic", 
+            "price": 0.48, 
+            "protein": 1.528, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 54.3, 
+            "label": "onion", 
+            "name": "onion", 
+            "price": 0.61, 
+            "protein": 1.19, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 0.0, 
+            "label": "ginger", 
+            "name": "ginger", 
+            "note": "(the size of a garlic clove)", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 4.06, 
+            "label": "jalapeno", 
+            "name": "jalapeno", 
+            "note": "optional", 
+            "price": 0.133333333, 
+            "protein": 0.127, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 0.0, 
+            "label": "kiwi", 
+            "name": "kiwi", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 20, 
+            "calories": 0.0, 
+            "label": "soy_sauce_dark", 
+            "name": "soy_sauce_dark", 
+            "note": "Sempio's jin-ganjang; eyeball this... approx 16 cal", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "ml"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 0.0, 
+            "label": "mirin", 
+            "name": "mirin", 
+            "note": "mirim/miyang in korean; approx cal 18", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 7, 
+            "calories": 19.99998, 
+            "label": "honey", 
+            "name": "honey", 
+            "note": "or corn syrup; tiny variable splash", 
+            "price": 0.11305000000000001, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 0.0, 
+            "label": "sesame_oil", 
+            "name": "sesame_oil", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.2875, 
+            "calories": 0.721625, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.010755375, 
+            "protein": 0.028749999999999998, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "LA galbi (LA \uac08\ube44)", 
+        "name": "la_galbi", 
+        "nutrition": {
+          "calories": 2292.0832050000004, 
+          "price": 22.496099035724797, 
+          "protein": 158.90939799999998
         }
       }
     ]

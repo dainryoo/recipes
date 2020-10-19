@@ -116,6 +116,24 @@
         "directions": [
           "Mix dry, mix wet. About 1/2c batter per pancake on med heat."
         ]
+      },
+      {
+        "name": "breakfast_patties",
+        "label": "breakfast patties",
+        "ingredients": [
+          { "name": "pork_ground_84", "amount": 1, "unit": "lb" },
+          { "name": "sage_ground", "amount": 2, "unit": "tsp" },
+          { "name": "salt", "note": "bit salty..", "amount": 1, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
+          { "name": "oregano", "note": "or thyme or rosemary", "amount": 0.25, "unit": "tsp" },
+          { "name": "sugar_brown", "amount": 1, "unit": "tsp" },
+          { "name": "gochugaru", "note": "or cayenne", "amount": 0.125, "unit": "tsp" },
+          { "name": "clove_ground", "note": "or nutmeg. just a pinch", "amount": 0.125, "unit": "tsp" }
+        ],
+        "directions": [
+          "Mix all spices. Add spices to pork. Nice to let sit for a few hours to marinate.",
+          "Med heat non stick 5 min each side."
+        ]
       }
     ]
   },
@@ -408,6 +426,37 @@
         ],
         "directions": [
           "Heat treat flour (bake at 350F for 7 min)"
+        ]
+      }
+    ]
+  },
+  {
+    "category_name": "korean",
+    "recipes": [
+      {
+        "name": "la_galbi",
+        "label": "LA galbi (LA 갈비)",
+        "ingredients": [
+          { "name": "beef_short_rib_choice_boneless", "amount": 2, "unit": "lb" },
+          { "name": "garlic", "amount": 8, "unit": "" },
+          { "name": "onion", "amount": 1, "unit": "" },
+          { "name": "ginger", "note": "(the size of a garlic clove)", "amount": 1, "unit": "tbsp" },
+          { "name": "jalapeno", "note": "optional", "amount": 1, "unit": "" },
+          { "name": "kiwi", "amount": 0.5, "unit": "" },
+          { "name": "soy_sauce_dark", "note": "Sempio's jin-ganjang; eyeball this... approx 16 cal", "amount": 20, "unit": "ml" },
+          { "name": "mirin", "note": "mirim/miyang in korean; approx cal 18", "amount": 1, "unit": "tbsp" },
+          { "name": "honey", "note": "or corn syrup; tiny variable splash", "amount": 1, "unit": "tsp" },
+          { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
+        ],
+        "directions": [
+          "Put meat in cold water to let blood out for 15-30min (variable depending on how bloody). (Soak in fridge if too hot) (Change water out if needed).",
+          "Strain meat afterwards.",
+          "While waiting for meat, make marinade:",
+          "Pulverize garlic, onion, ginger, jalapeno, kiwi.",
+          "Mix pulverized ingredients and saucy ingredients to make marinade.",
+          "Marinate meat for 3-5 ish hours. Can freeze and defrost in fridge night before the day you want to cook.",
+          "Cook meat (stainless or nonstick, but either way dont use oil) on high heat."
         ]
       }
     ]

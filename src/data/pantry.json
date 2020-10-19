@@ -39,24 +39,6 @@
         }
       },
       {
-        "name": "butternut_squash",
-        "label": "butternut squash",
-        "conversion_to_grams": {
-          "cup": 140
-        },
-        "per_unit": {
-          "avg_grams": 1133.98093,
-          "calories": 510.291418,
-          "protein": 11.3398093,
-          "price": 3.92
-        },
-        "per_100_gram": {
-          "calories": 45,
-          "protein": 1,
-          "price": 0.372505201
-        }
-      },
-      {
         "name": "coconut_shredded",
         "label": "shredded coconut",
         "conversion_to_grams": {
@@ -193,6 +175,60 @@
           "calories": 25,
           "protein": 0.42,
           "price": 0.284090909
+        }
+      },
+      {
+        "name": "squash_butternut",
+        "label": "butternut squash",
+        "conversion_to_grams": {
+          "cup": 140
+        },
+        "per_unit": {
+          "avg_grams": 1133.98093,
+          "calories": 510.291418,
+          "protein": 11.3398093,
+          "price": 3.92
+        },
+        "per_100_gram": {
+          "calories": 45,
+          "protein": 1,
+          "price": 0.372505201
+        }
+      },
+      {
+        "name": "squash_delicata",
+        "label": "delicata squash",
+        "conversion_to_grams": {
+          "cup": 170
+        },
+        "per_unit": {
+          "avg_grams": 1133.98093,
+          "calories": 176.220636,
+          "protein": 5.94115287,
+          "price": 1.88
+        },
+        "per_100_gram": {
+          "calories": 35,
+          "protein": 1.18,
+          "price": 0.372581223
+        }
+      },
+      {
+        "name": "squash_kabocha",
+        "label": "kabocha squash",
+        "conversion_to_grams": {
+          "cup": 127.5
+        },
+        "per_unit": {
+          "avg_grams": 1487.78297,
+          "calories": 520.72404,
+          "protein": 17.555839,
+          "price": 4.87
+        },
+        "per_100_gram": {
+          "calories": 35,
+          "protein": 1.18,
+          "price": 0.372581223
         }
       },
       {
@@ -761,6 +797,18 @@
           "calories": 176,
           "protein": 20,
           "price": 1.54646018
+        }
+      },
+      {
+        "name": "beef_short_rib_choice_boneless",
+        "label": "beef lateral rib",
+        "conversion_to_grams": {
+          "oz": 28.25
+        },
+        "per_100_gram": {
+          "calories": 240,
+          "protein": 17.2,
+          "price": 2.33127572
         }
       },
       {
