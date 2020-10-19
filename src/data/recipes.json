@@ -153,7 +153,8 @@
               { "name": "peppercorn", "amount": 2, "unit": "tsp" },
               { "name": "cinnamon", "amount": 2, "unit": "tsp" },
               { "name": "ginger", "amount": 1, "unit": "tsp" },
-              { "name": "bit of nutmeg and anise", "amount": 1, "unit": "" }
+              { "name": "nutmeg", "amount": 0.25, "unit": "" },
+              { "name": "star_anise", "amount": 0.25, "unit": "" }
             ]
           },
           {
@@ -465,6 +466,121 @@
     "category_name": "chinese",
     "recipes": [
       {
+        "name": "broccoli_tofu_stirfry",
+        "label": "broccoli tofu stirfry",
+        "ingredient_categories": [
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "soy_sauce_light", "amount": 2, "unit": "tbsp" },
+              { "name": "soy_sauce_dark", "amount": 1, "unit": "tsp" },
+              { "name": "vinegar_rice", "amount": 1.5, "unit": "tsp" },
+              { "name": "sugar", "amount": 2, "unit": "tsp" },
+              { "name": "water", "amount": 0.33, "unit": "cup" },
+              { "name": "sesame_oil", "amount": 0.5, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "tofu_marinade",
+            "label": "tofu marinade",
+            "ingredients": [
+              { "name": "soy_sauce_light", "amount": 1, "unit": "tsp" },
+              { "name": "cornstarch", "amount": 1, "unit": "tsp" },
+              { "name": "oil", "amount": 1, "unit": "tsp" },
+              { "name": "tofu_firm", "amount": 1, "unit": "" },
+              { "name": "oil", "note": "to cook", "amount": 2, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "rest_of_dish",
+            "label": "rest of dish",
+            "ingredients": [
+              { "name": "broccoli", "amount": 200, "unit": "g" },
+              { "name": "oil", "amount": 1, "unit": "tsp" },
+              { "name": "shaoxing_wine", "amount": 1, "unit": "tbsp" },
+              { "name": "garlic", "amount": 3, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "tba......."
+        ]
+      },
+      {
+        "name": "chili_oil",
+        "label": "chili oil",
+        "ingredients": [
+          { "name": "oil", "amount": 1.5, "unit": "cup" },
+          { "name": "star_anise", "amount": 5, "unit": "" },
+          { "name": "cinnamon_stick", "amount": 1, "unit": "" },
+          { "name": "bay_leaf", "amount": 2, "unit": "" },
+          { "name": "sichuan_peppercorn", "amount": 3, "unit": "tbsp" },
+          { "name": "gochugaru", "amount": 75, "unit": "g" }
+        ],
+        "directions": [
+          "Keep at 225-250F for 30 min. Pour over gochugaru.",
+          "Makes 1.5 cups of oil? Store in fridge for 6 months.",
+          "Makes 393g of oil (7-8g per tbsp. ~50 tbsp total)"
+        ]
+      },
+      {
+        "name": "dan_bing",
+        "label": "dan bing",
+        "ingredient_categories": [
+          {
+            "name": "pancake",
+            "label": "pancake",
+            "ingredients": [
+              { "name": "flour", "amount": 85, "unit": "g" },
+              { "name": "eggs", "amount": 2, "unit": "" },
+              { "name": "oil", "note": "on dough", "amount": 0.5, "unit": "tsp" },
+              { "name": "oil", "note": "1 tsp per pancake", "amount": 2, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "green_onion", "amount": 1, "unit": "" },
+              { "name": "chili_oil", "amount": 1, "unit": "tsp" },
+              { "name": "doubanjiang", "amount": 4, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Makes 2 pancakes. tba.."
+        ]
+      },
+      {
+        "name": "mapo_tofu",
+        "label": "mapo tofu",
+        "ingredients": [
+          { "name": "oil", "amount": 2, "unit": "tbsp" },
+          { "name": "sichuan_peppercorn_ground", "note": "should be 3g?", "amount": 1.5, "unit": "tsp" },
+          { "name": "ginger", "note": "minced", "amount": 3, "unit": "tbsp" },
+          { "name": "garlic", "amount": 3, "unit": "" },
+          { "name": "pork_ground_84", "amount": 8, "unit": "oz" },
+          { "name": "doubanjiang", "amount": 1, "unit": "tbsp" },
+          { "name": "fermented_black_beans", "amount": 1, "unit": "cup" },
+          { "name": "water", "amount": 0.67, "unit": "cup" },
+          { "name": "cornstarch", "amount": 2, "unit": "tsp" },
+          { "name": "chili_oil", "amount": 4, "unit": "tbsp" },
+          { "name": "tofu_silken", "amount": 1, "unit": "" }
+        ],
+        "directions": [
+          "Heat veg oil on wok, med heat.",
+          "Add ground peppercorns and stir occasionally for 30 sec.",
+          "Add ginger. After 1 min, add garlic. ",
+          "After 1 min, turn heat to high and add ground pork. Fry til cooked thru.",
+          "Add spicy bean sauce, stir in well. Add beans and cook for 30 sec. ",
+          "Add 2/3 c water and stir. Simmer for 1 min.",
+          "Mix cornstarch with 1/4 c water. Add mix to sauce and stir.",
+          "Add chili oil, stir, and add tofu. Cook for 3-5 min."
+        ]
+      },
+      {
         "name": "eggplant_with_garlic_sauce",
         "label": "eggplant with garlic sauce",
         "ingredient_categories": [
@@ -507,6 +623,189 @@
           "cook eggplants one side at a time til charred and soft (~8-10min total). transfer eggplants to plate.",
           "remaining oil, add pork with the ginger and garlic. stir fry until pork changes color",
           "add all eggplants back, pour sauce over, quickly stir a few times til all coated and sauce is thick."
+        ]
+      }
+    ]
+  },
+  {
+    "category_name": "asian",
+    "recipes": [
+      {
+        "name": "pad_see_ew",
+        "label": "pad see ew",
+        "ingredient_categories": [
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "soy_sauce_sweet", "amount": 2, "unit": "tbsp" },
+              { "name": "soy_sauce_light", "amount": 4, "unit": "tsp" },
+              { "name": "fish_sauce", "amount": 2, "unit": "tsp" },
+              { "name": "oyster_sauce", "amount": 2, "unit": "tbsp" },
+              { "name": "sugar", "amount": 1, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "protein_and_marinade",
+            "label": "protein and marinade",
+            "ingredients": [
+              { "name": "soy_sauce_light", "amount": 1, "unit": "tsp" },
+              { "name": "cornstarch", "amount": 1, "unit": "tsp" },
+              { "name": "oil", "amount": 1, "unit": "tsp" },
+              { "name": "tofu_firm", "amount": 1, "unit": "" },
+              { "name": "oil", "note": "to cook", "amount": 2, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "rest_of_dish",
+            "label": "rest of the dish",
+            "ingredients": [
+              { "name": "rice_flakes", "amount": 4, "unit": "oz" },
+              { "name": "egg", "amount": 1, "unit": "" },
+              { "name": "oil", "amount": 1, "unit": "tbsp" },
+              { "name": "garlic", "amount": 1, "unit": "" },
+              { "name": "broccoli", "amount": 150, "unit": "g" }
+            ]
+          }
+        ],
+        "directions": [
+          "Soak noodles. Marinate tofu and fry tofu.",
+          "Put in 2 tsp oil. Cook garlic 15 sec. Add meat, and cook. Add veg, and cook.",
+          "Move everything to one side and crack egg. Mix egg in. ",
+          "Take off heat, put 1 tsp oil on wok, add noodles and sauce. Let noodles boil in sauce.",
+          "Add everything else back in, mix everything, and take off."
+        ]
+      },
+      {
+        "name": "pad_thai",
+        "label": "pad thai",
+        "ingredients": [
+          { "name": "noodle", "amount": 4, "unit": "oz" },
+          { "name": "garlic", "amount": 1, "unit": "" },
+          { "name": "oil", "amount": 1, "unit": "tbsp" },
+          { "name": "egg", "amount": 1, "unit": "" },
+          { "name": "peanut", "amount": 18, "unit": "g" },
+          { "name": "tofu_firm", "amount": 1, "unit": "" },
+          { "name": "fish_sauce", "amount": 1.5, "unit": "tbsp" },
+          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
+          { "name": "water", "amount": 2, "unit": "tbsp" },
+          { "name": "gochugaru", "amount": 0.5, "unit": "tsp" }
+        ],
+        "directions": [
+          "Boil noodles. Rinse under cold water.",
+          "AMix fish sauce, sugar, rice vinegar, water, chili powder.",
+          "Heat skillet, add oil, cook garlic.",
+          "Cook tofu, add noodles, cook for 30 seconds.",
+          "Cook egg, add sauce.",
+          "Stir in peanut."
+        ]
+      },
+      {
+        "name": "vague_thai_curry",
+        "label": "vague thai curry",
+        "ingredients": [
+          { "name": "oil", "amount": 1, "unit": "tbsp" },
+          { "name": "thai_curry_paste_red", "amount": 55, "unit": "g" },
+          { "name": "coconut_milk_canned", "amount": 400, "unit": "ml" },
+          { "name": "cornstarch", "amount": 1, "unit": "tsp" }
+        ],
+        "directions": [
+          "Stir fry paste in oil. Add 2/3rds of can of coconut milk.",
+          "Add meat and cook. Add rest of coconut milk.",
+          "Add vegetables, wait until cooked.",
+          "Add cornstarch to thicken and serve over rice."
+        ]
+      },
+      {
+        "name": "chicken_adobo",
+        "label": "chicken adobo",
+        "ingredient_categories": [
+          {
+            "name": "marinade",
+            "label": "marinade",
+            "ingredients": [
+              { "name": "chicken_thigh", "amount": 1.3, "unit": "lb" },
+              { "name": "garlic", "amount": 3, "unit": "" },
+              { "name": "soy_sauce_light", "amount": 0.33, "unit": "cup" },
+              { "name": "vinegar", "amount": 90, "unit": "ml" },
+              { "name": "bay_leaf", "amount": 3, "unit": "" }
+            ]
+          },
+          {
+            "name": "rest_of_dish",
+            "label": "rest of dish",
+            "ingredients": [
+              { "name": "oil", "amount": 2, "unit": "tbsp" },
+              { "name": "garlic", "amount": 3, "unit": "" },
+              { "name": "onion", "note": "diced", "amount": 1, "unit": "" },
+              { "name": "water", "amount": 1.5, "unit": "cup" },
+              { "name": "sugar_brown", "amount": 2, "unit": "tbsp" },
+              { "name": "peppercorn", "amount": 1, "unit": "tbsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Marinate chicken for at least 20 min (up to overnight).",
+          "Heat 1 tbsp oil on skillet over high heat. ",
+          "Remove chicken from marinade (reserve marinade) and onto pan.",
+          "Sear both sides til brown (~1 min per side). Don't cook all the way through. Put chicken aside.",
+          "Heat remaining oil (or use chicken grease!), cook garlic and onion for 1.5 min.",
+          "Add marinade, water, sugar, black pepper. Bring it to simmer then turn heat down to med high. Simmer 5 min.",
+          "Add chicken smooth side down.",
+          "Simmer uncovered for 20~25 min (no need to stir), turning chicken at ~15 min, until sauce reduces down to thick jam-like syrup."
+        ]
+      },
+      {
+        "name": "vietnamese_bun",
+        "label": "vietnamese bun",
+        "ingredient_categories": [
+          {
+            "name": "chicken",
+            "label": "chicken",
+            "ingredients": [
+              { "name": "chicken_thigh", "amount": 1.5, "unit": "lb" },
+              { "name": "garlic", "note": "minced", "amount": 4, "unit": "" },
+              { "name": "lime_juice", "amount": 2, "unit": "tbsp" },
+              { "name": "fish_sauce", "amount": 2, "unit": "tbsp" },
+              { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
+              { "name": "sugar_brown", "amount": 2, "unit": "tbsp" },
+              { "name": "oil", "amount": 1, "unit": "tbsp" },
+              { "name": "oil", "note": "to cook", "amount": 2, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "nuoc_cham_sauce",
+            "label": "nuoc cham sauce",
+            "ingredients": [
+              { "name": "lime_juice", "amount": 2, "unit": "tbsp" },
+              { "name": "vinegar_rice", "note": "or white vinegar", "amount": 2, "unit": "tbsp" },
+              { "name": "fish_sauce", "amount": 0.25, "unit": "cup" },
+              { "name": "sugar", "amount": 3, "unit": "tbsp" },
+              { "name": "sriracha", "amount": 2, "unit": "tsp" },
+              { "name": "water", "amount": 0.5, "unit": "cup" }
+            ]
+          },
+          {
+            "name": "salad",
+            "label": "salad",
+            "ingredients": [
+              { "name": "rice_vermicelli", "amount": 200, "unit": "g" },
+              { "name": "bean_sprouts", "amount": 2, "unit": "cup" },
+              { "name": "carrot", "note": "juilienned", "amount": 1, "unit": "" },
+              { "name": "cucumber", "note": "juilienned", "amount": 1, "unit": "" },
+              { "name": "romaine", "amount": 7, "unit": "oz" },
+              { "name": "cilantro", "amount": 1, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "Marinate chicken for 30min-1hr.",
+          "Combine nuoc cham ingredients and stir until sugar completely dissolved. Adjust if desired.",
+          "Boil, drain, rinse vermicelli.",
+          "2 tbsp oil med high heat. Sear chicken for ~4min per side, or til cooked thru. Set aside.",
+          "Slice chicken thighs and add to salad.",
+          "Combine all ingredients. Serve with nuoc cham sauce."
         ]
       }
     ]
@@ -592,6 +891,24 @@
         ]
       },
       {
+        "name": "pesto",
+        "label": "pesto",
+        "ingredients": [
+          { "name": "pine_nut", "amount": 0.33, "unit": "cup" },
+          { "name": "basil", "note": "1.6oz ok...", "amount": 3, "unit": "oz" },
+          { "name": "cheese_parmesan", "note": "grated", "amount": 0.25, "unit": "cup" },
+          { "name": "lemon_juice", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "amount": 2, "unit": "" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "oil_olive", "amount": 0.5, "unit": "cup" }
+        ],
+        "directions": [
+          "Makes 1 cup pesto (good for use with 12oz pasta)",
+          "Blend. Store covered in fridge up to a week.",
+          "For pesto pasta: Cook pasta. Cook chicken. Combine."
+        ]
+      },
+      {
         "name": "shepherds_pie",
         "label": "shepherd's pie",
         "ingredient_categories": [
@@ -603,7 +920,10 @@
               { "name": "butter", "amount": 4, "unit": "tbsp" },
               { "name": "milk_almond", "amount": 64, "unit": "ml" },
               { "name": "cheese_parmesan", "amount": 7, "unit": "g" },
-              { "name": "salt, pepper, parsley_dried, rosemary", "amount": 1, "unit": "" }
+              { "name": "salt", "amount": 0.125, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+              { "name": "parsley_dried", "amount": 0.125, "unit": "tsp" },
+              { "name": "rosemary_dried", "amount": 0.125, "unit": "tsp" }
             ]
           },
           {

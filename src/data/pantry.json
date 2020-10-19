@@ -524,6 +524,31 @@
         }
       },
       {
+        "name": "peanut",
+        "label": "peanut",
+        "conversion_to_grams": {
+          "oz": 28,
+          "cup": 112
+        },
+        "per_100_gram": {
+          "calories": 571.428571,
+          "protein": 25,
+          "price": 0.658590308
+        }
+      },
+      {
+        "name": "pine_nut",
+        "label": "pine nut",
+        "conversion_to_grams": {
+          "cup": 112
+        },
+        "per_100_gram": {
+          "calories": 678.571429,
+          "protein": 14.2857143,
+          "price": 5.72246696
+        }
+      },
+      {
         "name": "walnut",
         "label": "walnut",
         "conversion_to_grams": {
@@ -551,6 +576,19 @@
           "calories": 285.714,
           "protein": 0.0,
           "price": 7.610
+        }
+      },
+      {
+        "name": "basil",
+        "label": "basil",
+        "conversion_to_grams": {
+          "tbsp": 2.6,
+          "cup": 24
+        },
+        "per_100_gram": {
+          "calories": 23,
+          "protein": 3.15,
+          "price": 6.22916667
         }
       },
       {
@@ -635,6 +673,19 @@
         }
       },
       {
+        "name": "ginger",
+        "label": "ginger",
+        "conversion_to_grams": {
+          "tsp": 2,
+          "tbsp": 6
+        },
+        "per_100_gram": {
+          "calories": 80,
+          "protein": 1.82,
+          "price": 0.879644426
+        }
+      },
+      {
         "name": "ginger_ground",
         "label": "ground ginger",
         "conversion_to_grams": {
@@ -716,6 +767,19 @@
           "calories": 331,
           "protein": 4.88,
           "price": 24.938
+        }
+      },
+      {
+        "name": "sage_ground",
+        "label": "ground sage",
+        "conversion_to_grams": {
+          "tsp": 0.7,
+          "tbsp": 2
+        },
+        "per_100_gram": {
+          "calories": 315,
+          "protein": 10.63,
+          "price": 11.4
         }
       },
       {
@@ -929,7 +993,9 @@
         "name": "cheese_parmesan",
         "label": "parmesan",
         "conversion_to_grams": {
-          "oz": 28
+          "oz": 28,
+          "tbsp": 7.6,
+          "cup": 121.6
         },
         "per_100_gram": {
           "calories": 392.857143,
@@ -1083,6 +1149,9 @@
       {
         "name": "rice_flakes",
         "label": "rice flakes",
+        "conversion_to_grams": {
+          "oz": 27.5
+        },
         "per_100_gram": {
           "calories": 345.454545,
           "protein": 7.27272727,
@@ -1405,6 +1474,20 @@
         }
       },
       {
+        "name": "mirin",
+        "label": "mirin",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
+        "per_100_gram": {
+          "calories": 200,
+          "protein": 0,
+          "price": 4.86666667
+        }
+      },
+      {
         "name": "mustard_dijon",
         "label": "dijon mustard",
         "conversion_to_grams": {
@@ -1419,6 +1502,34 @@
         }
       },
       {
+        "name": "sesame_oil",
+        "label": "sesame oil",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
+        "per_100_gram": {
+          "calories": 866.666667,
+          "protein": 0,
+          "price": 3.38140225
+        }
+      },
+      {
+        "name": "soy_sauce_dark",
+        "label": "dark soy sauce",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
+        "per_100_gram": {
+          "calories": 66.6666667,
+          "protein": 6.66666667,
+          "price": 1.20287463
+        }
+      },
+      {
         "name": "soy_sauce_light",
         "label": "light soy sauce",
         "conversion_to_grams": {
@@ -1430,6 +1541,20 @@
           "calories": 33.333,
           "protein": 6.667,
           "price": 0.997
+        }
+      },
+      {
+        "name": "soy_sauce_sweet",
+        "label": "sweet soy sauce",
+        "conversion_to_grams": {
+          "tsp": 6.66666667,
+          "tbsp": 20,
+          "cup": 320
+        },
+        "per_100_gram": {
+          "calories": 300,
+          "protein": 0,
+          "price": 2.9925
         }
       },
       {
@@ -1458,6 +1583,20 @@
           "calories": 106.061,
           "protein": 3.030,
           "price": 0.424
+        }
+      },
+      {
+        "name": "vinegar_rice",
+        "label": "rice (wine) vinegar",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
+        "per_100_gram": {
+          "calories": 0,
+          "protein": 0,
+          "price": 0.873239437
         }
       }
     ]
