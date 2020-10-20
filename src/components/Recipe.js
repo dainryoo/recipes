@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { connect } from "react-redux";
 import Ingredients from "./recipe/Ingredients.js";
 import Directions from "./recipe/Directions.js";
@@ -22,59 +22,39 @@ const Recipe = (props) => {
     ingredientCategories = categoriesFlattened;
   }
 
+  let testObj = {test: {multiplier: 1}, another_test: {multiplier:2}};
 
-
-  const [recipeMultipler, setRecipeMultipler] = useState(1);
-
-  // todo: save "metadata": if i have multiplied a recipe,
-  // save it in the state with the recipe name attached.
-  // on useEffect, check if we have the recipe name saved, if it does, load that info
+  const [currRecipeMultipler, setRecipeMultipler] = useState(1);
+  const [modifiedRecipes, setModifiedRecipe] = useState(testObj);
 
   // triggered when item prop changes:
-  // useEffect(() => {
-  //   setCalculatedCal(0); // reset calculatedCal
-  //   setInputtedGrams(0); // reset number in input box
-  // }, [item]);
+  useEffect(() => {
+    setRecipeMultipler(1); // reset currRecipeMultipler
+  }, []);
 
-  const handleChange = event => {
+  const handleMultiplierChange = event => {
     const inputNum = event.target.value;
+    editRecipeModifier(inputNum);
+
     setRecipeMultipler(inputNum);
   }
-  //
-  // {
-  //   recipeName: { ... }
-  //   { recipe }
-  //   { recipe }
-  //   ...
-  // }
-  //
-  // key = recipeName
-  // value = {
-  //   recipeMultipler: 0,
-  //   ingredientsMultiplers: {
-  //     ingredientName: 1,
-  //     anotherName: 0.25,
-  //     ...
-  //   }
-  // }
-  //
-  // key = recipeName
-  // value = {
-  //   recipeMultipler: 0,
-  //   originalIngredientsMultiplers: [ 0, 1, ,1,1,1,1],
-  //   newIngredients: {
-  //     ingredientName: 1,
-  //     anotherName: 0.25
-  //   }
-  // }
+
+  const editRecipeModifier = (inputNum) => {
+    modifiedRecipes[name] = {
+      recipeMultipler: inputNum,
+      originalIngredients: ingredients,
+      newIngredients: {}
+    };
+    console.log(modifiedRecipes);
+  }
 
 
   return (
     <div className={"recipe content" + (view === 0 ? " hidden" : "")}>
       <div className="heading">{label ? label : name}</div>
-      <Ingredients ingredients={ingredients ? ingredients : ingredientCategories} onMultiplerChange={handleChange}/>
+      <Ingredients ingredients={ingredients ? ingredients : ingredientCategories} onMultiplerChange={handleMultiplierChange} recipeMultipler={currRecipeMultipler}/>
       {directions && <Directions directions={directions}/>}
-      {nutrition && <Nutrition nutrition={nutrition} recipeMultipler={recipeMultipler}/>}
+      {nutrition && <Nutrition nutrition={nutrition} recipeMultipler={currRecipeMultipler}/>}
     </div>
   );
 }

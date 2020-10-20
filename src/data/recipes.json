@@ -290,6 +290,23 @@
         ]
       },
       {
+        "name": "mini_cheesecake",
+        "label": "mini cheesecake",
+        "ingredients": [
+          { "name": "cream_cheese", "note": "softened", "amount": 5, "unit": "oz" },
+          { "name": "sugar", "amount": 2, "unit": "tbsp" },
+          { "name": "egg_yolk", "note": "room temp", "amount": 1, "unit": "" },
+          { "name": "vanilla_extract", "amount": 0.25, "unit": "tsp" }
+        ],
+        "directions": [
+          "Mix cream cheese and sugar til smooth and creamy.",
+          "Beat egg yolk til incorporated. Beat in vanilla (and melted chocolate, if using)",
+          "Divide batter into two 6-oz or three 4-oz ramekins.",
+          "Bake 18-20 min at 350F. Ok if they jiggle.",
+          "Cool completely. Chill overnight, or 4+ hours."
+        ]
+      },
+      {
         "name": "carrot_cake",
         "label": "carrot cake",
         "ingredient_categories": [
@@ -434,6 +451,57 @@
   {
     "category_name": "korean",
     "recipes": [
+      {
+        "name": "hotteok",
+        "label": "hotteok (호뗙)",
+        "ingredients": [
+          { "name": "frozen_dinner_roll", "amount": 6, "unit": "" },
+          { "name": "walnut", "amount": 12, "unit": "g" },
+          { "name": "cinnamon", "amount": 4, "unit": "g" },
+          { "name": "sugar_brown", "amount": 32, "unit": "g" },
+          { "name": "oil", "amount": 2, "unit": "tsp" }
+        ],
+        "directions": [
+          "Defrost and let dinner rolls rise (on a lightly greased plate and covered with plastic wrap, sealing the whole plate) for ~3-5 hrs.",
+          "For each roll, flatten and spoon 8g of filling. Pinch up into smooth ball.",
+          "Fry on med heat, pressing gently to flatten."
+        ]
+      },
+      {
+        "name": "steamed_egg",
+        "label": "steamed egg (계란찜)",
+        "ingredients": [
+          { "name": "egg", "amount": 2, "unit": "" },
+          { "name": "water", "amount": 0.5, "unit": "cup" },
+          { "name": "salted_shrimp", "amount": 0.75, "unit": "tsp" },
+          { "name": "gochugaru", "amount": 0.5, "unit": "tsp" }
+        ],
+        "directions": [
+          "Whisk egg, water, shrimp. Pour into ramekins",
+          "Fill water up to half ramekin height. Bring to boil.",
+          "Put in ramekins, set to med low heat for 8 min.",
+          "Stir, add gochugaru, and keep on for 5ish more min (until set)"
+        ]
+      },
+      {
+        "name": "rolled_egg",
+        "label": "rolled egg (계란마리)",
+        "ingredients": [
+          { "name": "egg", "amount": 3, "unit": "" },
+          { "name": "green_onion", "amount": 2, "unit": "tbsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tbsp" },
+          { "name": "pepper", "amount": 0.125, "unit": "tbsp" },
+          { "name": "oil", "amount": 1, "unit": "tsp" }
+        ],
+        "directions": [
+          "Beat eggs, add filling.",
+          "On med low heat (smaller pan for thicker roll!), add oil, add 1/2 of egg mix and swirl to cover pan.",
+          "Cook until bottom is done, until top is set but wet.",
+          "Fold over a bit of one side (~1 inch). Fold over again.",
+          "Move the folded side to the edge, add rest of egg mix to open space on pan.",
+          "Fold over again once the newly added mix is similarly set but wet. Remove from heat, let cool, then slice."
+        ]
+      },
       {
         "name": "la_galbi",
         "label": "LA galbi (LA 갈비)",
@@ -623,6 +691,81 @@
           "cook eggplants one side at a time til charred and soft (~8-10min total). transfer eggplants to plate.",
           "remaining oil, add pork with the ginger and garlic. stir fry until pork changes color",
           "add all eggplants back, pour sauce over, quickly stir a few times til all coated and sauce is thick."
+        ]
+      },
+      {
+        "name": "mongolian_beef",
+        "label": "mongolian beef",
+        "ingredient_categories": [
+          {
+            "name": "meat_marinade",
+            "label": "meat marinade",
+            "ingredients": [
+              { "name": "beef_flank_steak", "amount": 1, "unit": "lb" },
+              { "name": "oil", "amount": 2, "unit": "tsp" },
+              { "name": "soy_sauce_light", "amount": 2, "unit": "tsp" },
+              { "name": "cornstarch", "amount": 2, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "for_meat_cooking",
+            "label": "for meat cooking",
+            "ingredients": [
+              { "name": "cornstarch", "amount": 0.5, "unit": "cup" },
+              { "name": "oil", "amount": 3, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "misc",
+            "label": "misc",
+            "ingredients": [
+              { "name": "ginger", "note": "minced", "amount": 1, "unit": "tsp" },
+              { "name": "dried_red_peppers", "note": "optional", "amount": 10, "unit": "" },
+              { "name": "garlic", "note": "chopped", "amount": 4, "unit": "" },
+              { "name": "soy_sauce_light", "amount": 0.5, "unit": "cup" },
+              { "name": "water", "amount": 0.5, "unit": "cup" },
+              { "name": "sugar_brown", "amount": 4, "unit": "tbsp" },
+              { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
+              { "name": "scallions", "note": "cut to 1 inch", "amount": 4, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "Marinate beef for 1hr in oil, soy sauce, cornstarch. If dry after marinating, add 1tbsp water.",
+          "Lightly coat beef in cornstarch.",
+          "Wok high heat, sear beef for 1 min, then 30 sec on other side. Set to side, try to let oil drain.",
+          "Drain oil from wok, leave 1 tbsp behind. Turn heat to med-high. Add ginger and dried peppers, if using, and garlic after 15 sec. After 10 sec, and add soy sauce and water.",
+          "Bring sauce to a simmer, add the brown sugar, and stir until dissolved.",
+          "Let simmer for ~2min and slowly stir in cornstarch slurry until the sauce coats back of spoon.",
+          "Add beef and scallions. Toss everything together for 30 sec. Should be almost no liquid, sauce should be clinging to the beef. If you still have sauce, increase the heat slightly and stir until thickened."
+        ]
+      },
+      {
+        "name": "tomato_egg",
+        "label": "tomato egg",
+        "ingredients": [
+          { "name": "egg", "amount": 4, "unit": "" },
+          { "name": "salt", "note": "for eggs", "amount": 0.25, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
+          { "name": "sesame_oil", "amount": 0.5, "unit": "tsp" },
+          { "name": "shaoxing_wine", "amount": 2, "unit": "tsp" },
+          { "name": "oil", "note": "to cook eggs", "amount": 2, "unit": "tbsp" },
+          { "name": "tomato", "amount": 500, "unit": "g" },
+          { "name": "green_onion", "amount": 1, "unit": "" },
+          { "name": "sugar", "amount": 1, "unit": "tsp" },
+          { "name": "salt", "note": "for tomatoes", "amount": 0.5, "unit": "tsp" },
+          { "name": "water", "note": "1/2 c, if needed", "amount": 0.25, "unit": "cup" },
+          { "name": "oil", "note": "to cook tomatoes", "amount": 1, "unit": "tbsp" }
+        ],
+        "directions": [
+          "Cut tomatoes into small wedges. Chop scallion.",
+          "Whisk egg with salt, pepper, sesame oil, shaoxing.",
+          "Wok on med heat til just smoking. ",
+          "2 tbsp oil and immediately add egg. Scramble and immediately remove. Set aside.",
+          "1 tbsp oil, wok to high heat, add tomatoes and scallions. Stir fry for a min.",
+          "Add sugar, salt, water. Add more water if stove usually gets too hot and liquids get cook down.",
+          "Add cooked eggs, mix everything, cover and cook 1-2 min til tomatoes soft.",
+          "Uncover, stir fry til sauce is thickened to liking."
         ]
       }
     ]

@@ -828,6 +828,18 @@
     "category_name": "meat",
     "items": [
       {
+        "name": "beef_flank_steak",
+        "label": "beef flank steak",
+        "conversion_to_grams": {
+          "oz": 28.35
+        },
+        "per_100_gram": {
+          "calories": 165,
+          "protein": 21.22,
+          "price": 3.30472931
+        }
+      },
+      {
         "name": "beef_ground_80",
         "label": "ground beef (80% lean)",
         "conversion_to_grams": {

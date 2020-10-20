@@ -1293,6 +1293,64 @@
       }, 
       {
         "directions": [
+          "Mix cream cheese and sugar til smooth and creamy.", 
+          "Beat egg yolk til incorporated. Beat in vanilla (and melted chocolate, if using)", 
+          "Divide batter into two 6-oz or three 4-oz ramekins.", 
+          "Bake 18-20 min at 350F. Ok if they jiggle.", 
+          "Cool completely. Chill overnight, or 4+ hours."
+        ], 
+        "ingredients": [
+          {
+            "amount": 5, 
+            "calories": 499.99999979999996, 
+            "label": "cream cheese", 
+            "name": "cream_cheese", 
+            "note": "softened", 
+            "price": 1.659030842, 
+            "protein": 9.999999996, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 24, 
+            "calories": 90.0, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "price": 0.10031999999999999, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 48.3, 
+            "label": "egg yolk", 
+            "name": "egg_yolk", 
+            "note": "room temp", 
+            "price": 0.25, 
+            "protein": 2.38, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 1.08325, 
+            "calories": 3.11976, 
+            "label": "vanilla extract", 
+            "name": "vanilla_extract", 
+            "price": 0.16505480250000001, 
+            "protein": 0.00108325, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "mini cheesecake", 
+        "name": "mini_cheesecake", 
+        "nutrition": {
+          "calories": 641.4197598, 
+          "price": 2.1744056444999997, 
+          "protein": 12.381083246
+        }
+      }, 
+      {
+        "directions": [
           "Makes 5-6 cupcakes, or 1/4 a 9x13 cake pan", 
           "Grate carrots.", 
           "Mix flour, baking soda, salt, spices.", 
@@ -1890,6 +1948,189 @@
   {
     "category_name": "korean", 
     "recipes": [
+      {
+        "directions": [
+          "Defrost and let dinner rolls rise (on a lightly greased plate and covered with plastic wrap, sealing the whole plate) for ~3-5 hrs.", 
+          "For each roll, flatten and spoon 8g of filling. Pinch up into smooth ball.", 
+          "Fry on med heat, pressing gently to flatten."
+        ], 
+        "ingredients": [
+          {
+            "amount": 6, 
+            "calories": 0.0, 
+            "label": "frozen_dinner_roll", 
+            "name": "frozen_dinner_roll", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 12, 
+            "calories": 81.42857147999999, 
+            "label": "walnut", 
+            "name": "walnut", 
+            "price": 0.2111894268, 
+            "protein": 1.714285716, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 4, 
+            "calories": 9.87692, 
+            "label": "cinnamon", 
+            "name": "cinnamon", 
+            "price": 0.20984000000000003, 
+            "protein": 0.16, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 32, 
+            "calories": 120.0, 
+            "label": "brown sugar", 
+            "name": "sugar_brown", 
+            "price": 0.17824, 
+            "protein": 0.0, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 9.33333334, 
+            "calories": 80.0000133904762, 
+            "label": "oil", 
+            "name": "oil", 
+            "price": 0.0294933333544, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "hotteok (\ud638\ub5d9)", 
+        "name": "hotteok", 
+        "nutrition": {
+          "calories": 291.30550487047617, 
+          "price": 0.6287627601544, 
+          "protein": 1.874285716
+        }
+      }, 
+      {
+        "directions": [
+          "Whisk egg, water, shrimp. Pour into ramekins", 
+          "Fill water up to half ramekin height. Bring to boil.", 
+          "Put in ramekins, set to med low heat for 8 min.", 
+          "Stir, add gochugaru, and keep on for 5ish more min (until set)"
+        ], 
+        "ingredients": [
+          {
+            "amount": 2, 
+            "calories": 120, 
+            "label": "egg", 
+            "name": "egg", 
+            "price": 0.5, 
+            "protein": 12, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 120.0, 
+            "calories": 0.0, 
+            "label": "water", 
+            "name": "water", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 0.75, 
+            "calories": 0.0, 
+            "label": "salted_shrimp", 
+            "name": "salted_shrimp", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 2.5, 
+            "calories": 10.0, 
+            "label": "gochugaru", 
+            "name": "gochugaru", 
+            "price": 0.05385, 
+            "protein": 2.0, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "steamed egg (\uacc4\ub780\ucc1c)", 
+        "name": "steamed_egg", 
+        "nutrition": {
+          "calories": 130.0, 
+          "price": 0.55385, 
+          "protein": 14.0
+        }
+      }, 
+      {
+        "directions": [
+          "Beat eggs, add filling.", 
+          "On med low heat (smaller pan for thicker roll!), add oil, add 1/2 of egg mix and swirl to cover pan.", 
+          "Cook until bottom is done, until top is set but wet.", 
+          "Fold over a bit of one side (~1 inch). Fold over again.", 
+          "Move the folded side to the edge, add rest of egg mix to open space on pan.", 
+          "Fold over again once the newly added mix is similarly set but wet. Remove from heat, let cool, then slice."
+        ], 
+        "ingredients": [
+          {
+            "amount": 3, 
+            "calories": 180, 
+            "label": "egg", 
+            "name": "egg", 
+            "price": 0.75, 
+            "protein": 18, 
+            "unit": ""
+          }, 
+          {
+            "amount": 2, 
+            "calories": 0.0, 
+            "label": "green_onion", 
+            "name": "green_onion", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 2.25, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0060975000000000005, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "calories": 0.0, 
+            "label": "pepper", 
+            "name": "pepper", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 4.66666667, 
+            "calories": 40.0000066952381, 
+            "label": "oil", 
+            "name": "oil", 
+            "price": 0.0147466666772, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "rolled egg (\uacc4\ub780\ub9c8\ub9ac)", 
+        "name": "rolled_egg", 
+        "nutrition": {
+          "calories": 220.00000669523808, 
+          "price": 0.7708441666772, 
+          "protein": 18.0
+        }
+      }, 
       {
         "directions": [
           "Put meat in cold water to let blood out for 15-30min (variable depending on how bloody). (Soak in fridge if too hot) (Change water out if needed).", 
@@ -2668,6 +2909,326 @@
           "calories": 653.8842866800001, 
           "price": 4.099821583574344, 
           "protein": 28.06775666675
+        }
+      }, 
+      {
+        "directions": [
+          "Marinate beef for 1hr in oil, soy sauce, cornstarch. If dry after marinating, add 1tbsp water.", 
+          "Lightly coat beef in cornstarch.", 
+          "Wok high heat, sear beef for 1 min, then 30 sec on other side. Set to side, try to let oil drain.", 
+          "Drain oil from wok, leave 1 tbsp behind. Turn heat to med-high. Add ginger and dried peppers, if using, and garlic after 15 sec. After 10 sec, and add soy sauce and water.", 
+          "Bring sauce to a simmer, add the brown sugar, and stir until dissolved.", 
+          "Let simmer for ~2min and slowly stir in cornstarch slurry until the sauce coats back of spoon.", 
+          "Add beef and scallions. Toss everything together for 30 sec. Should be almost no liquid, sauce should be clinging to the beef. If you still have sauce, increase the heat slightly and stir until thickened."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "calories": 748.4268, 
+                "label": "beef flank steak", 
+                "name": "beef_flank_steak", 
+                "price": 14.9899877718152, 
+                "protein": 96.2522224, 
+                "unit": "lb"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 9.33333334, 
+                "calories": 80.0000133904762, 
+                "label": "oil", 
+                "name": "oil", 
+                "price": 0.0294933333544, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 10, 
+                "calories": 3.3333, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "price": 0.09970000000000001, 
+                "protein": 0.6667000000000001, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 16, 
+                "calories": 60.0, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.07013215856, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "meat marinade", 
+            "name": "meat_marinade"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 64.0, 
+                "calories": 240.0, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.28052863424, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 3, 
+                "amount_in_grams": 42, 
+                "calories": 360.00006, 
+                "label": "oil", 
+                "name": "oil", 
+                "price": 0.13272, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "for meat cooking", 
+            "name": "for_meat_cooking"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "amount_in_grams": 2, 
+                "calories": 1.6, 
+                "label": "ginger", 
+                "name": "ginger", 
+                "note": "minced", 
+                "price": 0.017592888520000002, 
+                "protein": 0.0364, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 10, 
+                "calories": 0.0, 
+                "label": "dried_red_peppers", 
+                "name": "dried_red_peppers", 
+                "note": "optional", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 4, 
+                "calories": 17.88, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "note": "chopped", 
+                "price": 0.24, 
+                "protein": 0.764, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 120.0, 
+                "calories": 39.999599999999994, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "price": 1.1964, 
+                "protein": 8.000399999999999, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 120.0, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 4, 
+                "amount_in_grams": 48, 
+                "calories": 180.0, 
+                "label": "brown sugar", 
+                "name": "sugar_brown", 
+                "price": 0.26736000000000004, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 16, 
+                "calories": 60.0, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.07013215856, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 4, 
+                "calories": 0.0, 
+                "label": "scallions", 
+                "name": "scallions", 
+                "note": "cut to 1 inch", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }
+            ], 
+            "label": "misc", 
+            "name": "misc"
+          }
+        ], 
+        "label": "mongolian beef", 
+        "name": "mongolian_beef", 
+        "nutrition": {
+          "calories": 1791.2397733904763, 
+          "price": 17.3940469450496, 
+          "protein": 105.7197224
+        }
+      }, 
+      {
+        "directions": [
+          "Cut tomatoes into small wedges. Chop scallion.", 
+          "Whisk egg with salt, pepper, sesame oil, shaoxing.", 
+          "Wok on med heat til just smoking. ", 
+          "2 tbsp oil and immediately add egg. Scramble and immediately remove. Set aside.", 
+          "1 tbsp oil, wok to high heat, add tomatoes and scallions. Stir fry for a min.", 
+          "Add sugar, salt, water. Add more water if stove usually gets too hot and liquids get cook down.", 
+          "Add cooked eggs, mix everything, cover and cook 1-2 min til tomatoes soft.", 
+          "Uncover, stir fry til sauce is thickened to liking."
+        ], 
+        "ingredients": [
+          {
+            "amount": 4, 
+            "calories": 240, 
+            "label": "egg", 
+            "name": "egg", 
+            "price": 1.0, 
+            "protein": 24, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 1.5, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "note": "for eggs", 
+            "price": 0.004065, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 0.575, 
+            "calories": 1.44325, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.02151075, 
+            "protein": 0.057499999999999996, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 2.5, 
+            "calories": 21.666666675000002, 
+            "label": "sesame oil", 
+            "name": "sesame_oil", 
+            "price": 0.08453505625, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 2, 
+            "calories": 0.0, 
+            "label": "shaoxing_wine", 
+            "name": "shaoxing_wine", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 28, 
+            "calories": 240.00004000000004, 
+            "label": "oil", 
+            "name": "oil", 
+            "note": "to cook eggs", 
+            "price": 0.08848, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 500, 
+            "calories": 90.0, 
+            "label": "tomato", 
+            "name": "tomato", 
+            "price": 2.19359951, 
+            "protein": 4.4, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 0.0, 
+            "label": "green_onion", 
+            "name": "green_onion", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 4, 
+            "calories": 15.0, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "price": 0.01672, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 3.0, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "note": "for tomatoes", 
+            "price": 0.00813, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 60.0, 
+            "calories": 0.0, 
+            "label": "water", 
+            "name": "water", 
+            "note": "1/2 c, if needed", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 14, 
+            "calories": 120.00002000000002, 
+            "label": "oil", 
+            "name": "oil", 
+            "note": "to cook tomatoes", 
+            "price": 0.04424, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }
+        ], 
+        "label": "tomato egg", 
+        "name": "tomato_egg", 
+        "nutrition": {
+          "calories": 728.1099766750001, 
+          "price": 3.4612803162499994, 
+          "protein": 28.457500000000003
         }
       }
     ]

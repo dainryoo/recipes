@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { connect } from "react-redux";
 import InfoList from "./pantry/InfoList.js";
-import Calculator from "./pantry/Calculator.js";
+import Calculators from "./pantry/Calculators.js";
 
 
 const Pantry = (props) => {
@@ -10,6 +10,47 @@ const Pantry = (props) => {
   let nutrition = null;
   let nutritionPer100Gram = null;
   let measurements = null;
+
+
+  const [calculatorInfo, setCalculatorInfo] = useState({ grams: { input: 0, calories: 0}});
+
+  useEffect(() => {
+    const newState = { grams: { input: 0, calories: 0}};
+    if (item.conversion_to_grams) {
+      for (const unit of Object.keys(item.conversion_to_grams)) {
+        newState[unit] = { input: 0, toGrams: 0, calories: 0 };
+      }
+    }
+    setCalculatorInfo(newState);
+  }, [item]);
+
+  const handleCalculatorChange = (event, unitName) => {
+    const input = +event.target.value;
+    const toGrams = (unitName === "grams" ? input : input * item.conversion_to_grams[unitName]);
+    const calories = item.per_100_gram.calories / 100.0 * toGrams;
+
+    const prevState = calculatorInfo;
+    if (unitName === "grams") {
+      setCalculatorInfo(prevState => ({
+        ...prevState,
+        [unitName]: {
+          input: input,
+          calories: calories
+        }
+      }));
+    } else {
+      setCalculatorInfo(prevState => ({
+        ...prevState,
+        [unitName]: {
+          input: input,
+          toGrams: toGrams,
+          calories: calories
+        }
+      }));
+    }
+  }
+
+
 
   if (item.conversion_to_grams) {
     let measurementsArr = [];
@@ -49,10 +90,12 @@ const Pantry = (props) => {
     nutritionPer100Gram = nutrition100Arr;
   }
 
+
+
   return (
     <div className={"pantry content" + (view === 1 ? " hidden" : "")}>
       <div className="heading">{item.label}</div>
-      <Calculator item={item}/>
+      <Calculators info={calculatorInfo} updateCalculator={handleCalculatorChange}/>
       {measurements && <InfoList title="Grams conversions:" list={measurements}/>}
       {nutrition && <InfoList title="Per unit:" list={nutrition}/>}
       {nutritionPer100Gram && <InfoList title="Per 100 grams:" list={nutritionPer100Gram}/>}
