@@ -842,6 +842,18 @@
     "category_name": "meat",
     "items": [
       {
+        "name": "beef_chuck_roast",
+        "label": "beef chuck roast",
+        "conversion_to_grams": {
+          "oz": 28.3333333333
+        },
+        "per_100_gram": {
+          "calories": 295.294117647,
+          "protein": 30.5882352941,
+          "price": 1.54103121
+        }
+      },
+      {
         "name": "beef_flank_steak",
         "label": "beef flank steak",
         "conversion_to_grams": {

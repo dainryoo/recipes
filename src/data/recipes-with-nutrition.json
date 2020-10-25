@@ -2514,13 +2514,13 @@
             "unit": ""
           }, 
           {
-            "amount": 40, 
-            "calories": 26.66666668, 
+            "amount": 30, 
+            "calories": 20.000000009999997, 
             "label": "dark soy sauce", 
             "name": "soy_sauce_dark", 
             "note": "Sempio's jin-ganjang; eyeball this... approx 16 cal", 
-            "price": 0.481149852, 
-            "protein": 2.666666668, 
+            "price": 0.36086238899999995, 
+            "protein": 2.0000000009999996, 
             "unit": "ml"
           }, 
           {
@@ -2569,9 +2569,9 @@
         "label": "LA galbi (LA \uac08\ube44)", 
         "name": "la_galbi", 
         "nutrition": {
-          "calories": 2396.8832050300007, 
-          "price": 23.929097666284797, 
-          "protein": 161.68526466799997
+          "calories": 2390.2165383600004, 
+          "price": 23.808810203284796, 
+          "protein": 161.01859800099996
         }
       }, 
       {
@@ -5253,14 +5253,13 @@
           }, 
           {
             "amount": 1, 
-            "amount_in_grams": 259.7402597402597, 
-            "calories": 219.77922077922076, 
+            "calories": 385, 
             "label": "canned black beans", 
             "name": "canned_black_beans", 
             "note": "don't drain", 
-            "price": 0.4831168831168831, 
-            "protein": 13.987012987012987, 
-            "unit": "cup"
+            "price": 0.79, 
+            "protein": 24.5, 
+            "unit": ""
           }, 
           {
             "amount": 1.5, 
@@ -5324,9 +5323,179 @@
         "label": "arroz congr\u00ed", 
         "name": "arroz_congri", 
         "nutrition": {
-          "calories": 1041.7358465792208, 
-          "price": 2.856578834456883, 
-          "protein": 28.966012993012985
+          "calories": 1206.9566258, 
+          "price": 3.16346195134, 
+          "protein": 39.47900000600001
+        }
+      }, 
+      {
+        "directions": [
+          "Season beef with salt and pepper.", 
+          "Heat olive oil in a pot over high heat. Add the beef and brown on all sides. Then transfer to a plate.", 
+          "Add onion and peppers to pot and cook over med heat for 15-20 minutes til caramelized.", 
+          "Add garlic, oregano, cumin, paprika. Cook for another min. Add white wine and bring to boil, scraping the bottom of the pan with the flat edge of a spatula to deglaze.", 
+          "Add beef broth and crushed tomatoes. Bring to a simmer.", 
+          "Return beef to the pot. Bring to a simmer and cover for 2-3 hours or til beef is fork-tender.", 
+          "Transfer the beef to a plate and shred. Return shredded beef to sauce.", 
+          "Stir in the olives (1 c pimiento or manzanilla Spanish olives, rinsed/drained; optional).", 
+          "Simmer uncovered for 30 minutes to thicken.", 
+          "Stir in parsley and season with salt and pepper to taste. Serve."
+        ], 
+        "ingredients": [
+          {
+            "amount": 2, 
+            "calories": 2678.8609882347605, 
+            "label": "beef chuck roast", 
+            "name": "beef_chuck_roast", 
+            "price": 13.9799885721264, 
+            "protein": 277.49157647042813, 
+            "unit": "lb"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.75, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0020325, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.2875, 
+            "calories": 0.721625, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.010755375, 
+            "protein": 0.028749999999999998, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 60.0, 
+            "calories": 480.0, 
+            "label": "olive oil", 
+            "name": "oil_olive", 
+            "price": 0.6636000000000001, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 54.3, 
+            "label": "onion", 
+            "name": "onion", 
+            "note": "thinly sliced", 
+            "price": 0.61, 
+            "protein": 1.19, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 23.8, 
+            "label": "green bell pepper", 
+            "name": "bell_pepper_green", 
+            "note": "thinly sliced", 
+            "price": 0.88, 
+            "protein": 1.02, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 36.9, 
+            "label": "red bell pepper", 
+            "name": "bell_pepper_red", 
+            "note": "thinly sliced", 
+            "price": 1.41, 
+            "protein": 1.18, 
+            "unit": ""
+          }, 
+          {
+            "amount": 6, 
+            "calories": 26.82, 
+            "label": "garlic", 
+            "name": "garlic", 
+            "note": "chopped", 
+            "price": 0.36, 
+            "protein": 1.146, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 0.0, 
+            "label": "oregano", 
+            "name": "oregano", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 5.6, 
+            "calories": 0.0, 
+            "label": "cumin", 
+            "name": "cumin", 
+            "price": 0.389368, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 10, 
+            "calories": 40.0, 
+            "label": "gochugaru", 
+            "name": "gochugaru", 
+            "note": "to sub sweet paprika", 
+            "price": 0.2154, 
+            "protein": 8.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 0.0, 
+            "label": "dry_white_wine", 
+            "name": "dry_white_wine", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 0.0, 
+            "label": "broth_beef", 
+            "name": "broth_beef", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 0.0, 
+            "label": "canned_crushed_tomato", 
+            "name": "canned_crushed_tomato", 
+            "note": "16 oz", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.25, 
+            "calories": 0.0, 
+            "label": "parsley", 
+            "name": "parsley", 
+            "note": "chopped", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }
+        ], 
+        "label": "ropa vieja", 
+        "name": "ropa_vieja", 
+        "nutrition": {
+          "calories": 3341.4026132347612, 
+          "price": 18.5211444471264, 
+          "protein": 290.05632647042813
         }
       }
     ]

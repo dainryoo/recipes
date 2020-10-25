@@ -1243,6 +1243,39 @@
           "Cover, reduce heat to low/med low, and cook 30-40 min. (keep covered, rice needs the steam to cook).",
           "Take off heat, leave covered 5-10 min. Fluff, serve with chopped bacon, if using."
         ]
+      },
+      {
+        "name": "ropa_vieja",
+        "label": "ropa vieja",
+        "ingredients": [
+          { "name": "beef_chuck_roast", "amount": 2, "unit": "lb" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "oil_olive", "amount": 0.25, "unit": "cup" },
+          { "name": "onion", "note": "thinly sliced", "amount": 1, "unit": "" },
+          { "name": "bell_pepper_green", "note": "thinly sliced", "amount": 1, "unit": "" },
+          { "name": "bell_pepper_red", "note": "thinly sliced", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "chopped", "amount": 6, "unit": "" },
+          { "name": "oregano", "amount": 1, "unit": "tsp" },
+          { "name": "cumin", "amount": 2, "unit": "tsp" },
+          { "name": "gochugaru", "note": "to sub sweet paprika", "amount": 2, "unit": "tsp" },
+          { "name": "dry_white_wine", "amount": 0.5, "unit": "cup" },
+          { "name": "broth_beef", "amount": 1, "unit": "cup" },
+          { "name": "canned_crushed_tomato", "note": "16 oz", "amount": 1, "unit": "" },
+          { "name": "parsley", "note": "chopped", "amount": 0.25, "unit": "cup" }
+        ],
+        "directions": [
+          "Season beef with salt and pepper.",
+          "Heat olive oil in a pot over high heat. Add the beef and brown on all sides. Then transfer to a plate.",
+          "Add onion and peppers to pot and cook over med heat for 15-20 minutes til caramelized.",
+          "Add garlic, oregano, cumin, paprika. Cook for another min. Add white wine and bring to boil, scraping the bottom of the pan with the flat edge of a spatula to deglaze.",
+          "Add beef broth and crushed tomatoes. Bring to a simmer.",
+          "Return beef to the pot. Bring to a simmer and cover for 2-3 hours or til beef is fork-tender.",
+          "Transfer the beef to a plate and shred. Return shredded beef to sauce.",
+          "Stir in the olives (1 c pimiento or manzanilla Spanish olives, rinsed/drained; optional).",
+          "Simmer uncovered for 30 minutes to thicken.",
+          "Stir in parsley and season with salt and pepper to taste. Serve."
+        ]
       }
     ]
   }
