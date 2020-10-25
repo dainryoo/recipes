@@ -493,6 +493,18 @@
           "protein": 1.21,
           "price": 0.615089711
         }
+      },
+      {
+        "name": "zucchini_shredded",
+        "label": "shredded zucchini",
+        "conversion_to_grams": {
+          "cup": 160
+        },
+        "per_100_gram": {
+          "calories": 17,
+          "protein": 1.21,
+          "price": 0.615089711
+        }
       }
     ]
   },
