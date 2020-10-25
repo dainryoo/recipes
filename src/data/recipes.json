@@ -437,6 +437,52 @@
         ]
       },
       {
+        "name": "cheesecake_cookies",
+        "label": "cheesecake cookies",
+        "ingredients": [
+          { "name": "butter", "note": "softened. try less", "amount": 4, "unit": "tbsp" },
+          { "name": "cream_cheese", "note": "room temp", "amount": 2, "unit": "oz" },
+          { "name": "sugar", "note": "definitely can try less", "amount": 86, "unit": "g" },
+          { "name": "vanilla_extract", "amount": 0.25, "unit": "tsp" },
+          { "name": "flour", "amount": 60, "unit": "g" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" }
+        ],
+        "directions": [
+          "Beat butter, cream cheese, sugar, vanilla til smooth and creamy.",
+          "Beat flour, salt, 2 tbsp optional graham cracker crumbs. Don't overmix.",
+          "Make 8 balls, roll in 1 tbsp optional graham cracker crumbs.",
+          "Bake 12-15 min at 375F, cool for 5 min. Cookies can be frozen if needed."
+        ]
+      },
+      {
+        "name": "zucchini_bread",
+        "label": "zucchini bread",
+        "ingredients": [
+          { "name": "flour", "amount": 1.5, "unit": "cup" },
+          { "name": "baking_powder", "amount": 0.5, "unit": "tsp" },
+          { "name": "baking_soda", "amount": 0.5, "unit": "tsp" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "cinnamon", "amount": 2, "unit": "tsp" },
+          { "name": "nutmeg", "amount": 0.25, "unit": "tsp" },
+          { "name": "oil", "note": "originally 1/2c", "amount": 0.25, "unit": "cup" },
+          { "name": "sugar_brown", "note": "originally 1/2c", "amount": 0.25, "unit": "cup" },
+          { "name": "sugar", "note": "originally 1/2c", "amount": 0.25, "unit": "cup" },
+          { "name": "egg", "amount": 1, "unit": "" },
+          { "name": "vanilla_extract", "amount": 2, "unit": "tsp" },
+          { "name": "zucchini", "note": "shredded; don't squeeze moisture out!", "amount": 1, "unit": "cup" }
+        ],
+        "directions": [
+          "One 8x4 loaf or 12 muffins (fill muffins all the way to top). Grease tins.",
+          "Optional 1 cup of fillings (nuts, chocolate, raisins...)",
+          "Whisk flour, baking powder, baking soda, spices, and filling in large bowl til thoroughly combined.",
+          "Separate medium bowl, whisk oil, sugars, egg, vanilla, and zucchini til combined.",
+          "Pour wet ingredients into dry, gently whisk til just combined, don't overmix.",
+          "Bake 45-55 min at 375F. Toothpick should come out mostly clean. Let cool before slicing.",
+          "If muffins: Bake at 425F for 5 min, reduce to 350F with muffins still in oven for 13-16 min or until toothpick clean. Cool in tin for 5 min, then wire rack.",
+          "Room temp 3-4 days, fridge 1 week, freezer up to 3 month."
+        ]
+      },
+      {
         "name": "template",
         "label": "template",
         "ingredients": [
@@ -503,6 +549,26 @@
         ]
       },
       {
+        "name": "soybean_paste_soup",
+        "label": "soybean paste soup (된장국)",
+        "ingredients": [
+          { "name": "water", "note": "or anchovy stock", "amount": 2.5, "unit": "cup" },
+          { "name": "soybean_paste", "amount": 3, "unit": "tbsp" },
+          { "name": "gochujang", "amount": 1, "unit": "tsp" },
+          { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+          { "name": "mushroom", "amount": 3, "unit": "" },
+          { "name": "onion", "amount": 0.25, "unit": "" },
+          { "name": "zucchini", "amount": 0.5, "unit": "" },
+          { "name": "potato", "amount": 1, "unit": "" }
+        ],
+        "directions": [
+          "Bring water/stock, soybean paste, gochujang, garlic to boil, med high-high heat.",
+          "Once boiling, reduce to medium. Add potatoes (note, will take 8-10 min to soften).",
+          "Add onion and zucchini, cook for 2-3 min.",
+          "Add tofu, 1-2 more min. Add mushroom, 1-2 more min."
+        ]
+      },
+      {
         "name": "la_galbi",
         "label": "LA galbi (LA 갈비)",
         "ingredients": [
@@ -512,7 +578,7 @@
           { "name": "ginger", "note": "(the size of a garlic clove)", "amount": 1, "unit": "tbsp" },
           { "name": "jalapeno", "note": "optional", "amount": 1, "unit": "" },
           { "name": "kiwi", "amount": 0.5, "unit": "" },
-          { "name": "soy_sauce_dark", "note": "Sempio's jin-ganjang; eyeball this... approx 16 cal", "amount": 20, "unit": "ml" },
+          { "name": "soy_sauce_dark", "note": "Sempio's jin-ganjang; eyeball this... approx 16 cal", "amount": 30, "unit": "ml" },
           { "name": "mirin", "note": "mirim/miyang in korean; approx cal 18", "amount": 1, "unit": "tbsp" },
           { "name": "honey", "note": "or corn syrup; tiny variable splash", "amount": 1, "unit": "tsp" },
           { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
@@ -526,6 +592,30 @@
           "Mix pulverized ingredients and saucy ingredients to make marinade.",
           "Marinate meat for 3-5 ish hours. Can freeze and defrost in fridge night before the day you want to cook.",
           "Cook meat (stainless or nonstick, but either way dont use oil) on high heat."
+        ]
+      },
+      {
+        "name": "spicy_pork_stirfry",
+        "label": "spicy pork stirfry (제육볶음)",
+        "ingredients": [
+          { "name": "pork_belly", "note": "or pork shoulder/loin", "amount": 1, "unit": "lb" },
+          { "name": "gochujang", "amount": 0.25, "unit": "cup" },
+          { "name": "soy_sauce_dark", "amount": 1, "unit": "tbsp" },
+          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "gochugaru", "amount": 2, "unit": "tbsp" },
+          { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
+          { "name": "sesame_oil", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 5, "unit": "" },
+          { "name": "onion", "note": "sliced", "amount": 1, "unit": "" },
+          { "name": "green_onion", "note": "sliced", "amount": 4, "unit": "" },
+          { "name": "sesame_seed", "note": "optional garnish", "amount": 1, "unit": "tsp" }
+        ],
+        "directions": [
+          "Heat large skillet/pan med high heat.",
+          "Add pork, gochujang, soy sauce, sugar, gochugaru, pepper, and sesame oil.",
+          "Stir to mix well. Cook for a few min, until pork is covered well with seasonings.",
+          "Add garlic, ginger, onion, green onion.",
+          "Stir and cook for 12-15 min, til pork is fully cooked and juicy and a little crispy."
         ]
       }
     ]
@@ -722,8 +812,8 @@
               { "name": "ginger", "note": "minced", "amount": 1, "unit": "tsp" },
               { "name": "dried_red_peppers", "note": "optional", "amount": 10, "unit": "" },
               { "name": "garlic", "note": "chopped", "amount": 4, "unit": "" },
-              { "name": "soy_sauce_light", "amount": 0.5, "unit": "cup" },
-              { "name": "water", "amount": 0.5, "unit": "cup" },
+              { "name": "soy_sauce_light", "amount": 0.33, "unit": "cup" },
+              { "name": "water", "amount": 0.7, "unit": "cup" },
               { "name": "sugar_brown", "amount": 4, "unit": "tbsp" },
               { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
               { "name": "scallions", "note": "cut to 1 inch", "amount": 4, "unit": "" }
@@ -733,7 +823,7 @@
         "directions": [
           "Marinate beef for 1hr in oil, soy sauce, cornstarch. If dry after marinating, add 1tbsp water.",
           "Lightly coat beef in cornstarch.",
-          "Wok high heat, sear beef for 1 min, then 30 sec on other side. Set to side, try to let oil drain.",
+          "Wok high heat, sear beef for 1 min, then 30 sec on other side. Set to side, try to let oil drain. (Cook in batches if 1+ lb of meat)",
           "Drain oil from wok, leave 1 tbsp behind. Turn heat to med-high. Add ginger and dried peppers, if using, and garlic after 15 sec. After 10 sec, and add soy sauce and water.",
           "Bring sauce to a simmer, add the brown sugar, and stir until dissolved.",
           "Let simmer for ~2min and slowly stir in cornstarch slurry until the sauce coats back of spoon.",
@@ -1025,11 +1115,10 @@
           { "name": "tahini", "amount": 2, "unit": "tbsp" },
           { "name": "garlic", "note": "dry roasted", "amount": 1, "unit": "" },
           { "name": "salt", "amount": 0.5, "unit": "tsp" },
-          { "name": "ice_cube", "amount": 2, "unit": "" },
           { "name": "oil_olive", "amount": 1, "unit": "tbsp" }
         ],
         "directions": [
-          "Put everything in food processor, puree til smooth.",
+          "Put everything in food processor, puree til smooth. Blend with 2 ice cubes, optional.",
           "Store covered in fridge for up to a week."
         ]
       },
@@ -1126,6 +1215,33 @@
           "Flatten each ball with rolling pin. Should be pretty thin and translucent!",
           "Heat each tortilla. First side for 1 min (should have lightly browned spots. if not, heat is too low. if it takes less than 1 min, heat is too high). Other side for 15-30 sec. ",
           "Keep warm til ready to serve. Store room temp for 24hrs or fridge for up to 1 week."
+        ]
+      },
+      {
+        "name": "arroz_congri",
+        "label": "arroz congrí",
+        "ingredients": [
+          { "name": "oil_olive", "note": "(if not using bacon)", "amount": 2, "unit": "tsp" },
+          { "name": "bell_pepper_green", "note": "chopped", "amount": 0.5, "unit": "cup" },
+          { "name": "bell_pepper_red", "note": "chopped", "amount": 0.5, "unit": "cup" },
+          { "name": "onion", "note": "chopped", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "(2-4?)", "amount": 2, "unit": "" },
+          { "name": "rice_white", "note": "should be long grained..", "amount": 1, "unit": "cup" },
+          { "name": "canned_black_beans", "note": "don't drain", "amount": 1, "unit": "" },
+          { "name": "water", "amount": 1.5, "unit": "cup" },
+          { "name": "cumin", "amount": 0.5, "unit": "tsp" },
+          { "name": "oregano", "amount": 0.5, "unit": "tsp" },
+          { "name": "bay_leaf", "amount": 1, "unit": "" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
+        ],
+        "directions": [
+          "If using bacon: in dutch oven, fry 3 thick slices of bacon til fully cooked and crispy. Set bacon aside but leave the grease in.",
+          "Just use olive oil if not using bacon.",
+          "Med heat dutch oven. Saute onion, garlic, peppers til soft (3-5 min).",
+          "Add rice, beans with can liquid, water, and spices.",
+          "Cover, reduce heat to low/med low, and cook 30-40 min. (keep covered, rice needs the steam to cook).",
+          "Take off heat, leave covered 5-10 min. Fluff, serve with chopped bacon, if using."
         ]
       }
     ]

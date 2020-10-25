@@ -783,6 +783,20 @@
         }
       },
       {
+        "name": "salt",
+        "label": "salt",
+        "conversion_to_grams": {
+          "tsp": 6,
+          "tbsp": 18,
+          "cup": 288
+        },
+        "per_100_gram": {
+          "calories": 0,
+          "protein": 0,
+          "price": 0.271
+        }
+      },
+      {
         "name": "thyme_dried",
         "label": "dried thyme",
         "conversion_to_grams": {
@@ -878,6 +892,7 @@
       {
         "name": "beef_short_rib_choice_boneless",
         "label": "beef lateral rib",
+        "note": "8.6oz bone/41.08 oz total raw meat",
         "conversion_to_grams": {
           "oz": 28.25
         },
@@ -930,6 +945,19 @@
           "calories": 50,
           "protein": 6,
           "price": 0.22
+        }
+      },
+      {
+        "name": "pork_belly",
+        "label": "pork belly",
+        "conversion_to_grams": {
+          "oz": 28.25,
+          "lb": 453.6
+        },
+        "per_100_gram": {
+          "calories": 518,
+          "protein": 9.34,
+          "price": 1.32056895
         }
       },
       {
@@ -1134,6 +1162,20 @@
     "category_name": "grains",
     "items": [
       {
+        "name": "flour",
+        "label": "flour",
+        "conversion_to_grams": {
+          "tsp": 2.5,
+          "tbsp": 7.5,
+          "cup": 120
+        },
+        "per_100_gram": {
+          "calories": 366.667,
+          "protein": 7,
+          "price": 0.220
+        }
+      },
+      {
         "name": "pasta",
         "label": "pasta",
         "conversion_to_grams": {
@@ -1212,7 +1254,7 @@
     ]
   },
   {
-    "category_name": "kitchen_basics",
+    "category_name": "baking",
     "items": [
       {
         "name": "baking_powder",
@@ -1284,62 +1326,6 @@
         }
       },
       {
-        "name": "flour",
-        "label": "flour",
-        "conversion_to_grams": {
-          "tsp": 2.5,
-          "tbsp": 7.5,
-          "cup": 120
-        },
-        "per_100_gram": {
-          "calories": 366.667,
-          "protein": 7,
-          "price": 0.220
-        }
-      },
-      {
-        "name": "oil",
-        "label": "oil",
-        "conversion_to_grams": {
-          "tsp": 4.66666667,
-          "tbsp": 14,
-          "cup": 224
-        },
-        "per_100_gram": {
-          "calories": 857.143,
-          "protein": 0,
-          "price": 0.316
-        }
-      },
-      {
-        "name": "oil_olive",
-        "label": "olive oil",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
-        },
-        "per_100_gram": {
-          "calories": 800,
-          "protein": 0,
-          "price": 1.106
-        }
-      },
-      {
-        "name": "salt",
-        "label": "salt",
-        "conversion_to_grams": {
-          "tsp": 6,
-          "tbsp": 18,
-          "cup": 288
-        },
-        "per_100_gram": {
-          "calories": 0,
-          "protein": 0,
-          "price": 0.271
-        }
-      },
-      {
         "name": "sugar",
         "label": "sugar",
         "conversion_to_grams": {
@@ -1399,20 +1385,6 @@
         }
       },
       {
-        "name": "water",
-        "label": "water",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
-        },
-        "per_100_gram": {
-          "calories": 0.0,
-          "protein": 0.0,
-          "price": 0.0
-        }
-      },
-      {
         "name": "yeast",
         "label": "yeast",
         "per_100_gram": {
@@ -1427,36 +1399,55 @@
     ]
   },
   {
-    "category_name": "sauces",
+    "category_name": "oils",
     "items": [
       {
-        "name": "gochugaru",
-        "label": "gochugaru",
+        "name": "oil",
+        "label": "oil",
+        "conversion_to_grams": {
+          "tsp": 4.66666667,
+          "tbsp": 14,
+          "cup": 224
+        },
+        "per_100_gram": {
+          "calories": 857.143,
+          "protein": 0,
+          "price": 0.316
+        }
+      },
+      {
+        "name": "oil_olive",
+        "label": "olive oil",
         "conversion_to_grams": {
           "tsp": 5,
           "tbsp": 15,
           "cup": 240
         },
         "per_100_gram": {
-          "calories": 400,
-          "protein": 80,
-          "price": 2.154
+          "calories": 800,
+          "protein": 0,
+          "price": 1.106
         }
       },
       {
-        "name": "gochujang",
-        "label": "gochujang",
+        "name": "sesame_oil",
+        "label": "sesame oil",
         "conversion_to_grams": {
-          "tsp": 6,
-          "tbsp": 18,
-          "cup": 288
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
         },
         "per_100_gram": {
-          "calories": 166.667,
-          "protein": 0.0,
-          "price": 1.698
+          "calories": 866.666667,
+          "protein": 0,
+          "price": 3.38140225
         }
-      },
+      }
+    ]
+  },
+  {
+    "category_name": "sauces",
+    "items": [
       {
         "name": "honey",
         "label": "honey",
@@ -1486,20 +1477,6 @@
         }
       },
       {
-        "name": "mirin",
-        "label": "mirin",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
-        },
-        "per_100_gram": {
-          "calories": 200,
-          "protein": 0,
-          "price": 4.86666667
-        }
-      },
-      {
         "name": "mustard_dijon",
         "label": "dijon mustard",
         "conversion_to_grams": {
@@ -1514,17 +1491,106 @@
         }
       },
       {
-        "name": "sesame_oil",
-        "label": "sesame oil",
+        "name": "tahini",
+        "label": "tahini",
         "conversion_to_grams": {
           "tsp": 5,
           "tbsp": 15,
           "cup": 240
         },
         "per_100_gram": {
-          "calories": 866.666667,
+          "calories": 700,
+          "protein": 20,
+          "price": 2.20044053
+        }
+      },
+      {
+        "name": "tomato_paste",
+        "label": "tomato paste",
+        "conversion_to_grams": {
+          "tsp": 5.5,
+          "tbsp": 16.5,
+          "cup": 264
+        },
+        "per_100_gram": {
+          "calories": 106.061,
+          "protein": 3.030,
+          "price": 0.424
+        }
+      }
+    ]
+  },
+  {
+    "category_name": "asian_sauces",
+    "items": [
+      {
+        "name": "curry_powder_korean",
+        "label": "korean curry powder",
+        "conversion_to_grams": {
+          "tsp": 6.66666667,
+          "tbsp": 20,
+          "cup": 320
+        },
+        "per_100_gram": {
+          "calories": 400,
+          "protein": 5,
+          "price": 1.97200
+        }
+      },
+      {
+        "name": "gochugaru",
+        "label": "gochugaru",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
+        "per_100_gram": {
+          "calories": 400,
+          "protein": 80,
+          "price": 2.154
+        }
+      },
+      {
+        "name": "gochujang",
+        "label": "gochujang",
+        "conversion_to_grams": {
+          "tsp": 6,
+          "tbsp": 18,
+          "cup": 288
+        },
+        "per_100_gram": {
+          "calories": 166.667,
+          "protein": 0.0,
+          "price": 1.698
+        }
+      },
+      {
+        "name": "mirin",
+        "label": "mirin",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
+        "per_100_gram": {
+          "calories": 200,
           "protein": 0,
-          "price": 3.38140225
+          "price": 4.86666667
+        }
+      },
+      {
+        "name": "soybean_paste",
+        "label": "soybean paste",
+        "conversion_to_grams": {
+          "tsp": 6.33333333,
+          "tbsp": 19,
+          "cup": 304
+        },
+        "per_100_gram": {
+          "calories": 184.210526,
+          "protein": 10.5263158,
+          "price": 2.99800
         }
       },
       {
@@ -1570,34 +1636,6 @@
         }
       },
       {
-        "name": "tahini",
-        "label": "tahini",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
-        },
-        "per_100_gram": {
-          "calories": 700,
-          "protein": 20,
-          "price": 2.20044053
-        }
-      },
-      {
-        "name": "tomato_paste",
-        "label": "tomato paste",
-        "conversion_to_grams": {
-          "tsp": 5.5,
-          "tbsp": 16.5,
-          "cup": 264
-        },
-        "per_100_gram": {
-          "calories": 106.061,
-          "protein": 3.030,
-          "price": 0.424
-        }
-      },
-      {
         "name": "vinegar_rice",
         "label": "rice (wine) vinegar",
         "conversion_to_grams": {
@@ -1609,6 +1647,25 @@
           "calories": 0,
           "protein": 0,
           "price": 0.873239437
+        }
+      }
+    ]
+  },
+  {
+    "category_name": "misc",
+    "items": [
+      {
+        "name": "water",
+        "label": "water",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
+        "per_100_gram": {
+          "calories": 0.0,
+          "protein": 0.0,
+          "price": 0.0
         }
       }
     ]
