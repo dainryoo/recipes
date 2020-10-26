@@ -1217,6 +1217,467 @@
       }, 
       {
         "directions": [
+          "For pastry:", 
+          "Combine flour, salt, sugar. Add butter and break up roughly with fingers. Make sure butter chunks are visible in dough.", 
+          "Add water and bring dough together. Cover dough and refrigerate for 20 min.", 
+          "Knead dough into a rectangle on floured surface. Roll dough away from body (not back and forth) into a 8x20 inch rectangle. Don't overwork! Butter should still be visible.", 
+          "Fold top third of dough down to center, then the bottom third up and over that. Give the dough a 90deg turn and roll out to 3x the length. Do the same folding.", 
+          "Cover and chill for 30 min.", 
+          "", 
+          "For custard:", 
+          "To make evaporated milk: get normal milk + 60% more of desired amount. Gently boil down to the desired amount.", 
+          "Dissolve sugar in hot water and bring to room temp.", 
+          "Whisk egg and milk, then thoroughly whisk sugar water and vanilla. Strain to get a smooth texture (ideally no bubbles on surface!)", 
+          "", 
+          "Preheat oven to 390F. Make sure there is a rack near the bottom of the oven.", 
+          "Press dough into tins. Refrigerate tin if possible. Fill each with custard until just reaching edge of crust. (23ml of filling per tart?) (1/4 inch thick pastry?)", 
+          "Bake for 15 min on lower rack.", 
+          "Reduce temp to 355F and bake another 10-12 min. Crack open oven door if tarts start to puff up."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 100, 
+                "calories": 366.667, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.22, 
+                "protein": 7.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.75, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.0020325, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 6.0, 
+                "calories": 22.5, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.025079999999999998, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 100, 
+                "calories": 714.286, 
+                "label": "butter", 
+                "name": "butter", 
+                "price": 2.912, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "note": "ice water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "pastry", 
+            "name": "pastry"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 48.0, 
+                "calories": 180.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.20063999999999999, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 80, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "note": "hot", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 60, 
+                "label": "egg", 
+                "name": "egg", 
+                "price": 0.25, 
+                "protein": 6, 
+                "unit": ""
+              }, 
+              {
+                "amount": 64, 
+                "calories": 8.0, 
+                "label": "almond milk", 
+                "name": "milk_almond", 
+                "note": "to make 40 ml", 
+                "price": 0.1344, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.08325, 
+                "calories": 3.11976, 
+                "label": "vanilla extract", 
+                "name": "vanilla_extract", 
+                "price": 0.16505480250000001, 
+                "protein": 0.00108325, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "custard", 
+            "name": "custard"
+          }
+        ], 
+        "label": "hong kong egg tart", 
+        "name": "hong_kong_egg_tart", 
+        "nutrition": {
+          "calories": 1354.57276, 
+          "price": 3.9092073024999996, 
+          "protein": 13.00108325
+        }
+      }, 
+      {
+        "directions": [
+          "For custard:", 
+          "Microwave water + sugar til dissolved.", 
+          "Whisk egg, milk, vanilla. Mix water in little bits at a time. Strain.", 
+          "425F for 15 min. If it starts bubbling up, crack open oven."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 93, 
+                "calories": 341.00031, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.2046, 
+                "protein": 6.510000000000001, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.75, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.0020325, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 6, 
+                "calories": 22.5, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.025079999999999998, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 89, 
+                "calories": 635.7145399999999, 
+                "label": "butter", 
+                "name": "butter", 
+                "price": 2.5916799999999998, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 13, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "note": "cold water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }
+            ], 
+            "label": "pastry", 
+            "name": "pastry"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 30, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }, 
+              {
+                "amount": 24, 
+                "calories": 90.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.10031999999999999, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 60, 
+                "label": "egg", 
+                "name": "egg", 
+                "price": 0.25, 
+                "protein": 6, 
+                "unit": ""
+              }, 
+              {
+                "amount": 60, 
+                "calories": 7.5, 
+                "label": "almond milk", 
+                "name": "milk_almond", 
+                "price": 0.126, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4.333, 
+                "calories": 12.47904, 
+                "label": "vanilla extract", 
+                "name": "vanilla_extract", 
+                "price": 0.6602192100000001, 
+                "protein": 0.004333, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "custard", 
+            "name": "custard"
+          }
+        ], 
+        "label": "easier egg tart", 
+        "name": "easier_egg_tart", 
+        "nutrition": {
+          "calories": 1169.1938899999998, 
+          "price": 3.9599317099999998, 
+          "protein": 12.514333000000002
+        }
+      }, 
+      {
+        "directions": [
+          "Makes 10 cookies", 
+          "Beat eggs + sugar until pale yellow. Add zest.", 
+          "Whisk together dry ingredients add to the egg mixture gently, until just combined. Then add melted butter.", 
+          "Refrigerate batter at least 1 hour (or overnight).", 
+          "Preheat oven to 350F. Grease madeleine pan. Spoon 1 tbsp or ~16.7g of batter into the center of the well and don\u2019t touch it.", 
+          "Bake 8 mins until slightly golden around edges and centers look set and slight hump has appeared.", 
+          "Allow to cool slightly and remove from the tin and allow to cool.", 
+          "Batter can be made 2 days ahead, baked ones last in fridge 2-3 days."
+        ], 
+        "ingredients": [
+          {
+            "amount": 1, 
+            "calories": 60, 
+            "label": "egg", 
+            "name": "egg", 
+            "price": 0.25, 
+            "protein": 6, 
+            "unit": ""
+          }, 
+          {
+            "amount": 43, 
+            "calories": 161.25, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "price": 0.17973999999999998, 
+            "protein": 0.0, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 1.0, 
+            "calories": 0.47000000000000003, 
+            "label": "lemon zest", 
+            "name": "lemon_zest", 
+            "price": 0.13166666700000001, 
+            "protein": 0.015, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 40, 
+            "calories": 146.6668, 
+            "label": "flour", 
+            "name": "flour", 
+            "price": 0.08800000000000001, 
+            "protein": 2.8000000000000003, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 0.333, 
+            "amount_in_grams": 1.5984, 
+            "calories": 0.8471520000000001, 
+            "label": "baking powder", 
+            "name": "baking_powder", 
+            "price": 0.011236752000000001, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.75, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0020325, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 28, 
+            "calories": 200.00008, 
+            "label": "butter", 
+            "name": "butter", 
+            "note": "melted", 
+            "price": 0.8153600000000001, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }
+        ], 
+        "label": "easy madeleines", 
+        "name": "easy_madeleines", 
+        "nutrition": {
+          "calories": 569.234032, 
+          "price": 1.4780359189999999, 
+          "protein": 8.815
+        }
+      }, 
+      {
+        "directions": [
+          "Makes 9-10 cookies", 
+          "Melt butter, then cool to room temp for 8 min.", 
+          "During those 8 min, beat egg and sugar until thick, pale, and forms ribbons. Beat in zest and vanilla until combined.", 
+          "Whisk flour, baking powder, salt in small bowl. Gently fold into egg mix. Tip: fold in half first, then the rest. Be careful and delicate!!", 
+          "Stir 1/4c of batter into butter, will take about a min to incorporate. Stir that into the rest of the batter.", 
+          "Chill for 30-60 min.", 
+          "Grease up pan with melted butter.", 
+          "Preheat oven to 350F.", 
+          "Spoon about 1 tbsp (~21.7g) batter into each scallop. Bake for 10 min, maybe less.", 
+          "Note: easy madeleines look less saturated in color slightly. This one: airier, more buttery, lighter, crispier. Difference is barely noticeable."
+        ], 
+        "ingredients": [
+          {
+            "amount": 4, 
+            "amount_in_grams": 56, 
+            "calories": 400.00016, 
+            "label": "butter", 
+            "name": "butter", 
+            "price": 1.6307200000000002, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 60, 
+            "label": "egg", 
+            "name": "egg", 
+            "price": 0.25, 
+            "protein": 6, 
+            "unit": ""
+          }, 
+          {
+            "amount": 50, 
+            "calories": 187.5, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "price": 0.209, 
+            "protein": 0.0, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 2, 
+            "calories": 0.9400000000000001, 
+            "label": "lemon zest", 
+            "name": "lemon_zest", 
+            "price": 0.26333333400000003, 
+            "protein": 0.03, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 2.1665, 
+            "calories": 6.23952, 
+            "label": "vanilla extract", 
+            "name": "vanilla_extract", 
+            "price": 0.33010960500000003, 
+            "protein": 0.0021665, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 57.5, 
+            "calories": 210.83352499999998, 
+            "label": "flour", 
+            "name": "flour", 
+            "price": 0.1265, 
+            "protein": 4.0249999999999995, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 1.2, 
+            "calories": 0.636, 
+            "label": "baking powder", 
+            "name": "baking_powder", 
+            "price": 0.008435999999999999, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.75, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0020325, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 14, 
+            "calories": 100.00004, 
+            "label": "butter", 
+            "name": "butter", 
+            "note": "for greasing pan", 
+            "price": 0.40768000000000004, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }
+        ], 
+        "label": "madeleines", 
+        "name": "madeleines", 
+        "nutrition": {
+          "calories": 966.1492450000001, 
+          "price": 3.2278114390000003, 
+          "protein": 10.057166500000001
+        }
+      }, 
+      {
+        "directions": [
           "For one 9-inch pie crust:", 
           "Combine flour, salt, sugar. (Food processor: pulse til well combined)", 
           "Add the butter, half at a time. (Pulse 8 times, add, then pulse 6 times)", 
@@ -1347,6 +1808,168 @@
           "calories": 641.4197598, 
           "price": 2.1744056444999997, 
           "protein": 12.381083246
+        }
+      }, 
+      {
+        "directions": [
+          "Combine flour + salt. Add butter and cut in with knife.", 
+          "When butter is the size of peas, use hands to squeeze dough for a few min.", 
+          "When dough stays in a clump after you squeeze it, place in fridge for 10 min.", 
+          "Add vinegar and 2 tbsp of water. Stir with fork til mixture comes together. Add more water as needed, but dont use more than 5 tbsp water total.", 
+          "Shape dough into flat disk, wrap, and fridge for 30 min.", 
+          "Toss apples in spices + sugar.", 
+          "Roll out crust. Press down apples when adding to prevent air gaps.", 
+          "Bake at 425F on lowest rack for 20 min. Lower temp to 350F and bake on middle rack for 15-20 min til filling is bubbling. Cool for 2 hours."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 5, 
+                "calories": 519.7413058249999, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.3118445, 
+                "protein": 9.922325, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.5, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.004065, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 4, 
+                "amount_in_grams": 56, 
+                "calories": 400.00016, 
+                "label": "butter", 
+                "name": "butter", 
+                "price": 1.6307200000000002, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.25, 
+                "calories": 0.0, 
+                "label": "apple cider vinegar", 
+                "name": "vinegar_apple_cider", 
+                "price": 0.007912500000000001, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 3, 
+                "amount_in_grams": 45, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "note": "ice water; 4 tbsp if needed", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "pastry", 
+            "name": "pastry"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 48.0, 
+                "calories": 180.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.20063999999999999, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 2, 
+                "calories": 0.0, 
+                "label": "apple", 
+                "name": "apple", 
+                "noted": "thinly sliced, 2\" length pieces", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.75, 
+                "amount_in_grams": 1.5, 
+                "calories": 0.705, 
+                "label": "lemon zest", 
+                "name": "lemon_zest", 
+                "price": 0.1975000005, 
+                "protein": 0.0225, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 0.65, 
+                "calories": 1.6049995000000001, 
+                "label": "cinnamon", 
+                "name": "cinnamon", 
+                "price": 0.034099000000000004, 
+                "protein": 0.026000000000000002, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "calories": 0.0, 
+                "label": "nutmeg", 
+                "name": "nutmeg", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.2625, 
+                "calories": 0.7192500000000001, 
+                "label": "ground clove", 
+                "name": "clove_ground", 
+                "price": 0.02966775, 
+                "protein": 0.01567125, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.2875, 
+                "calories": 0.721625, 
+                "label": "black pepper", 
+                "name": "pepper_black", 
+                "price": 0.010755375, 
+                "protein": 0.028749999999999998, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 10, 
+                "calories": 1.25, 
+                "label": "almond milk", 
+                "name": "milk_almond", 
+                "price": 0.021, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "filling", 
+            "name": "filling"
+          }
+        ], 
+        "label": "apple pie", 
+        "name": "apple_pie", 
+        "nutrition": {
+          "calories": 1104.742340325, 
+          "price": 2.4482041255, 
+          "protein": 10.015246250000002
         }
       }, 
       {
@@ -1536,6 +2159,149 @@
           "calories": 1491.98554472, 
           "price": 3.1890173198, 
           "protein": 17.8088093584
+        }
+      }, 
+      {
+        "directions": [
+          "Beat eggs. Mix in sugars and spices. Mix in pumpkin, stir in milk + cornstarch mix, then beat til well mixed.", 
+          "Pour into shell.", 
+          "Bake at 425F for 15 min, then at 350F for 45-60 min. Cool for 2 hrs."
+        ], 
+        "ingredients": [
+          {
+            "amount": 2, 
+            "calories": 120, 
+            "label": "egg", 
+            "name": "egg", 
+            "price": 0.5, 
+            "protein": 12, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 96.0, 
+            "calories": 360.0, 
+            "label": "brown sugar", 
+            "name": "sugar_brown", 
+            "price": 0.5347200000000001, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 48.0, 
+            "calories": 180.0, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "note": "try not using", 
+            "price": 0.20063999999999999, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 5.2, 
+            "calories": 12.839996000000001, 
+            "label": "cinnamon", 
+            "name": "cinnamon", 
+            "price": 0.27279200000000003, 
+            "protein": 0.20800000000000002, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 1.8, 
+            "calories": 6.030000000000001, 
+            "label": "ground ginger", 
+            "name": "ginger_ground", 
+            "price": 0.14162400000000003, 
+            "protein": 0.16164000000000003, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "calories": 0.0, 
+            "label": "nutmeg", 
+            "name": "nutmeg", 
+            "note": "try 1/2 tsp", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "calories": 0.0, 
+            "label": "cloves", 
+            "name": "cloves", 
+            "note": "try 1/2 tsp", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "calories": 0.0, 
+            "label": "cardamom", 
+            "name": "cardamom", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.2875, 
+            "calories": 0.721625, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.010755375, 
+            "protein": 0.028749999999999998, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 0.0, 
+            "label": "vanilla", 
+            "name": "vanilla", 
+            "note": "optional", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 15, 
+            "calories": 0.0, 
+            "label": "pumpkin_puree", 
+            "name": "pumpkin_puree", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 1.25, 
+            "calories": 0.0, 
+            "label": "milk", 
+            "name": "milk", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 5.33333334, 
+            "calories": 20.000000025000002, 
+            "label": "cornstarch", 
+            "name": "cornstarch", 
+            "price": 0.0233773862158884, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "pumpkin pie filling", 
+        "name": "pumpkin_pie_filling", 
+        "nutrition": {
+          "calories": 699.591621025, 
+          "price": 1.6839087612158883, 
+          "protein": 12.398390000000001
         }
       }, 
       {
@@ -2121,22 +2887,147 @@
           }, 
           {
             "amount": 1, 
-            "amount_in_grams": 124, 
-            "calories": 21.08, 
-            "label": "zucchini", 
-            "name": "zucchini", 
-            "note": "shredded; don't squeeze moisture out!", 
-            "price": 0.7627112416399999, 
-            "protein": 1.5004, 
+            "amount_in_grams": 160, 
+            "calories": 27.200000000000003, 
+            "label": "shredded zucchini", 
+            "name": "zucchini_shredded", 
+            "note": "don't squeeze moisture out!", 
+            "price": 0.9841435376000001, 
+            "protein": 1.936, 
             "unit": "cup"
           }
         ], 
         "label": "zucchini bread", 
         "name": "zucchini_bread", 
         "nutrition": {
-          "calories": 1620.1507560000002, 
-          "price": 3.6755236616399998, 
-          "protein": 20.317066
+          "calories": 1626.2707560000003, 
+          "price": 3.8969559576, 
+          "protein": 20.752666
+        }
+      }, 
+      {
+        "directions": [
+          "Large bowl, mix flour, sugar, salt.", 
+          "While stirring, add boiling water.", 
+          "Microwave cold milk for 30 sec. Dissolve the yeast.", 
+          "Add milk into dough. Add 2 eggs. Mix well. Dough will be very wet, soft, and scraggly, and no elasticity.", 
+          "Cover and rest for 20 min.", 
+          "", 
+          "Add oil to dough and mix in with hand. There should now be elasticity. Knead by pulling dough from against the dough, stretching towards the center, and pushing down the piece down gently.", 
+          "Once dough is smoother, you can even pick it up and smack it down into the bowl.", 
+          "After a while, all the oil will be absorbed and the dough will become very sticky again (~5 min after kneading).", 
+          "Cover and rest for 1 hr.", 
+          "", 
+          "Dough will be elastic-y again. Sprinkle top with flour, flour hands, and punch out the air in the bowl.", 
+          "Pull dough away from edge of bowl, rotating bowl to get all the edges off.", 
+          "Keep removing air from dough; purpose is NOT to knead again!", 
+          "Divide into 3 pieces.", 
+          "", 
+          "For each piece: put on floured surface. ", 
+          "Create a smooth top by folding the edges back into a center on the \"bottom\" of the dough.", 
+          "Put ball, smooth side down. Press down gently.", 
+          "Flour dough ball. Use rolling pin to gently remove more air and stretch dough out, thinner on the \"top\" and \"bottom\" of the stretched shape.", 
+          "Fold the top third down, then fold the bottom third up. Rotate 90 degrees, then roll out again, same thinner top and bottoms.", 
+          "Roll up from the top; roll a little bit to the bottom, press down, keep rolling.", 
+          "Put in floured bread pan, smooth side up."
+        ], 
+        "ingredients": [
+          {
+            "amount": 400, 
+            "calories": 1466.668, 
+            "label": "flour", 
+            "name": "flour", 
+            "price": 0.88, 
+            "protein": 28.0, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 12, 
+            "calories": 45.0, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "price": 0.050159999999999996, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.75, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0020325, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.333, 
+            "amount_in_grams": 79.92, 
+            "calories": 0.0, 
+            "label": "water", 
+            "name": "water", 
+            "note": "boiling", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 0.667, 
+            "calories": 0.0, 
+            "label": "milk", 
+            "name": "milk", 
+            "note": "warm (~95C), reduce by 15-30g if humid", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 9.299730307821074, 
+            "calories": 36.26894820050219, 
+            "label": "yeast", 
+            "name": "yeast", 
+            "price": 0.162838277689947, 
+            "protein": 4.649865153910537, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 2, 
+            "calories": 120, 
+            "label": "egg", 
+            "name": "egg", 
+            "price": 0.5, 
+            "protein": 12, 
+            "unit": ""
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 28, 
+            "calories": 240.00004000000004, 
+            "label": "oil", 
+            "name": "oil", 
+            "price": 0.08848, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 60, 
+            "label": "egg", 
+            "name": "egg", 
+            "note": "for egg wash", 
+            "price": 0.25, 
+            "protein": 6, 
+            "unit": ""
+          }
+        ], 
+        "label": "milk bread", 
+        "name": "milk_bread", 
+        "nutrition": {
+          "calories": 1967.9369882005021, 
+          "price": 1.9335107776899472, 
+          "protein": 50.64986515391054
         }
       }, 
       {
@@ -2709,6 +3600,352 @@
     "recipes": [
       {
         "directions": [
+          "Marinate, cook high heat, and set aside protein.", 
+          "1 tsp oil into wok, cook scallions, ginger, and garlic with the peppercorn powder on low. Cook for 1-2 min.", 
+          "Add protein back in. Turn heat up and stir fry with the sauce for 1 min. Add peanuts, stir quick, and serve."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "tofu_firm", 
+                "name": "tofu_firm", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 2.66666667, 
+                "calories": 10.000000012500001, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.0116886931079442, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4.66666667, 
+                "calories": 40.0000066952381, 
+                "label": "oil", 
+                "name": "oil", 
+                "price": 0.0147466666772, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "shaoxing_wine", 
+                "name": "shaoxing_wine", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "protein + marinade", 
+            "name": "protein_and_marinade"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "amount_in_grams": 15, 
+                "calories": 4.999949999999999, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "price": 0.14955, 
+                "protein": 1.0000499999999999, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 2.5, 
+                "calories": 1.6666666675, 
+                "label": "dark soy sauce", 
+                "name": "soy_sauce_dark", 
+                "price": 0.03007186575, 
+                "protein": 0.16666666675, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15, 
+                "calories": 0.0, 
+                "label": "rice (wine) vinegar", 
+                "name": "vinegar_rice", 
+                "price": 0.13098591555, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4, 
+                "calories": 15.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.01672, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 3, 
+                "amount_in_grams": 45, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 2.66666667, 
+                "calories": 10.000000012500001, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.0116886931079442, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "sauce", 
+            "name": "sauce"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 0.5, 
+                "calories": 0.0, 
+                "label": "sichuan_peppercorn_ground", 
+                "name": "sichuan_peppercorn_ground", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 2, 
+                "calories": 1.6, 
+                "label": "ginger", 
+                "name": "ginger", 
+                "price": 0.017592888520000002, 
+                "protein": 0.0364, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 3, 
+                "calories": 13.41, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "price": 0.18, 
+                "protein": 0.573, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "green_onion", 
+                "name": "green_onion", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 18, 
+                "calories": 102.85714278, 
+                "label": "peanut", 
+                "name": "peanut", 
+                "price": 0.11854625543999998, 
+                "protein": 4.5, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 9.33333334, 
+                "calories": 80.0000133904762, 
+                "label": "oil", 
+                "name": "oil", 
+                "note": "to cook protein", 
+                "price": 0.0294933333544, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4.66666667, 
+                "calories": 40.0000066952381, 
+                "label": "oil", 
+                "name": "oil", 
+                "note": "to cook the rest", 
+                "price": 0.0147466666772, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "misc", 
+            "name": "misc"
+          }
+        ], 
+        "label": "kung pao", 
+        "name": "kung_pao", 
+        "nutrition": {
+          "calories": 319.5337862534524, 
+          "price": 0.7258309781846883, 
+          "protein": 6.27611666675
+        }
+      }, 
+      {
+        "directions": [
+          "Heat a wok on high heat, add oil. Add beef, break up large chunks, cook until slightly browned.", 
+          "Add onion, garlic, carrots, Shaoxing wine, and turn heat down to med. Cook until the onion is translucent, and then add chicken stock.", 
+          "Bring to boil and lower heat to a simmer. Add sauces, sesame oil, pepper. Cover and simmer for 10 minutes.", 
+          "Stir cornstarch + water mix and drizzle in while mixing. Simmer til thick enough to coat spoon."
+        ], 
+        "ingredients": [
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 7.0, 
+            "calories": 60.00001000000001, 
+            "label": "oil", 
+            "name": "oil", 
+            "price": 0.02212, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 487.6114, 
+            "label": "ground beef (85% lean)", 
+            "name": "beef_ground_85", 
+            "price": 2.7546682302892, 
+            "protein": 42.1613764, 
+            "unit": "lb"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 27.15, 
+            "label": "onion", 
+            "name": "onion", 
+            "note": "diced", 
+            "price": 0.305, 
+            "protein": 0.595, 
+            "unit": ""
+          }, 
+          {
+            "amount": 2, 
+            "calories": 8.94, 
+            "label": "garlic", 
+            "name": "garlic", 
+            "note": "diced", 
+            "price": 0.12, 
+            "protein": 0.382, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 0.0, 
+            "label": "shaoxing_wine", 
+            "name": "shaoxing_wine", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 240, 
+            "calories": 0.0, 
+            "label": "water", 
+            "name": "water", 
+            "note": "sub for chicken stock", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 1.5, 
+            "calories": 0.0, 
+            "label": "oyster_sauce", 
+            "name": "oyster_sauce", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 15, 
+            "calories": 4.999949999999999, 
+            "label": "light soy sauce", 
+            "name": "soy_sauce_light", 
+            "price": 0.14955, 
+            "protein": 1.0000499999999999, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 2.5, 
+            "calories": 1.6666666675, 
+            "label": "dark soy sauce", 
+            "name": "soy_sauce_dark", 
+            "price": 0.03007186575, 
+            "protein": 0.16666666675, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 2.5, 
+            "calories": 21.666666675000002, 
+            "label": "sesame oil", 
+            "name": "sesame_oil", 
+            "price": 0.08453505625, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.2875, 
+            "calories": 0.721625, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.010755375, 
+            "protein": 0.028749999999999998, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 20.5, 
+            "label": "carrot", 
+            "name": "carrot", 
+            "note": "or peas", 
+            "price": 0.109, 
+            "protein": 0.465, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 8, 
+            "calories": 30.0, 
+            "label": "cornstarch", 
+            "name": "cornstarch", 
+            "note": "mixed with 1 tbsp water", 
+            "price": 0.03506607928, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }
+        ], 
+        "label": "beef rice bowl", 
+        "name": "beef_rice_bowl", 
+        "nutrition": {
+          "calories": 663.2563183425, 
+          "price": 3.6207666065692004, 
+          "protein": 44.79884306675
+        }
+      }, 
+      {
+        "directions": [
           "tba......."
         ], 
         "ingredient_categories": [
@@ -2898,6 +4135,187 @@
       }, 
       {
         "directions": [
+          "For the skins:", 
+          "Flour + hot water in center. Mix center area until combined. Add room temp water around sides of bowl. Knead until one piece.", 
+          "Remove and knead for 5-15 min on flat surface until smooth. Rest covered for 1 hour. Split into 40 balls (approx 16 g each ball).", 
+          "For the filling:", 
+          "Mix meat and seasonings (except veg and sesame oil). Marinate for 1 hour. Add veg and sesame oil."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 3, 
+                "amount_in_grams": 360, 
+                "calories": 1320.0012, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.792, 
+                "protein": 25.2, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 240, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "note": "hot", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 60.0, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "note": "room temp", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }
+            ], 
+            "label": "dumpling skin", 
+            "name": "dumpling_skin"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 0.5, 
+                "calories": 487.6114, 
+                "label": "ground beef (85% lean)", 
+                "name": "beef_ground_85", 
+                "price": 2.7546682302892, 
+                "protein": 42.1613764, 
+                "unit": "lb"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 60.0, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15, 
+                "calories": 4.999949999999999, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "price": 0.14955, 
+                "protein": 1.0000499999999999, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "shaoxing_wine", 
+                "name": "shaoxing_wine", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 4, 
+                "calories": 3.2, 
+                "label": "ginger", 
+                "name": "ginger", 
+                "note": "grated", 
+                "price": 0.035185777040000005, 
+                "protein": 0.0728, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4, 
+                "calories": 15.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.01672, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 6, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.01626, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 2.5, 
+                "calories": 10.0, 
+                "label": "gochugaru", 
+                "name": "gochugaru", 
+                "price": 0.05385, 
+                "protein": 2.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.2875, 
+                "calories": 0.721625, 
+                "label": "black pepper", 
+                "name": "pepper_black", 
+                "price": 0.010755375, 
+                "protein": 0.028749999999999998, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 4, 
+                "calories": 0.0, 
+                "label": "green_onion", 
+                "name": "green_onion", 
+                "note": "chopped", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 20.5, 
+                "label": "carrot", 
+                "name": "carrot", 
+                "noted": "chopped", 
+                "price": 0.109, 
+                "protein": 0.465, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15, 
+                "calories": 130.00000004999998, 
+                "label": "sesame oil", 
+                "name": "sesame_oil", 
+                "price": 0.5072103375, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "dumpling filling", 
+            "name": "dumpling_filling"
+          }
+        ], 
+        "label": "dumplings", 
+        "name": "dumplings", 
+        "nutrition": {
+          "calories": 1992.0341750499997, 
+          "price": 4.4451997198291995, 
+          "protein": 70.9279764
+        }
+      }, 
+      {
+        "directions": [
           "Keep at 225-250F for 30 min. Pour over gochugaru.", 
           "Makes 1.5 cups of oil? Store in fridge for 6 months.", 
           "Makes 393g of oil (7-8g per tbsp. ~50 tbsp total)"
@@ -3062,6 +4480,516 @@
       }, 
       {
         "directions": [
+          "Combine flour, water, salt. Knead for 20 min til you can stretch noodle to several inches without breaking. Rest for 1-2 hours.", 
+          "Marinate lamb.", 
+          "Toast cumin seeds, grind, and mix spices into rest of sauce.", 
+          "Prepare ginger + scallions. Prepare garlic + serrano. Prepare cut cabbage. Prepare onions.", 
+          "Roll out noodle dough into 10 inch rect and cut into one-inch pieces. Should be spaghettic thickness (shouldnt be transparent).", 
+          "Pull each piece lengthwise and slap/pound onto flat surface.", 
+          "On med heat wok, 3 tbsp veg oil with ginger + scallions for 1 min.", 
+          "Then add garlic + serrano and cook for 30 sec.", 
+          "Add lamb til it browns.", 
+          "Add onion and sauce. At this point, put noodles + cabbage in boiling water for 90 sec to 2 min.", 
+          "Add noodles + cabbage to wok and mix til combined."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 1.5, 
+                "amount_in_grams": 180.0, 
+                "calories": 660.0006, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.396, 
+                "protein": 12.6, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 120.0, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.5, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.004065, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "noodles", 
+            "name": "noodles"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 0.5, 
+                "calories": 0.0, 
+                "label": "lamb_shoulder", 
+                "name": "lamb_shoulder", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "lb"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15, 
+                "calories": 0.0, 
+                "label": "rice (wine) vinegar", 
+                "name": "vinegar_rice", 
+                "price": 0.13098591555, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 2.66666667, 
+                "calories": 10.000000012500001, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.0116886931079442, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 14, 
+                "calories": 120.00002000000002, 
+                "label": "oil", 
+                "name": "oil", 
+                "price": 0.04424, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "lamb marinade", 
+            "name": "lamb_marinade"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "amount_in_grams": 6, 
+                "calories": 4.8, 
+                "label": "ginger", 
+                "name": "ginger", 
+                "note": "minced", 
+                "price": 0.05277866556, 
+                "protein": 0.1092, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 2, 
+                "calories": 0.0, 
+                "label": "green_onion", 
+                "name": "green_onion", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 5, 
+                "calories": 22.349999999999998, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "note": "minced", 
+                "price": 0.3, 
+                "protein": 0.9550000000000001, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "serrano", 
+                "name": "serrano", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 206, 
+                "calories": 51.5, 
+                "label": "cabbage", 
+                "name": "cabbage", 
+                "note": "cut", 
+                "price": 0.35878028522, 
+                "protein": 2.6368, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 0.5, 
+                "calories": 27.15, 
+                "label": "onion", 
+                "name": "onion", 
+                "price": 0.305, 
+                "protein": 0.595, 
+                "unit": ""
+              }, 
+              {
+                "amount": 3, 
+                "amount_in_grams": 42, 
+                "calories": 360.00006, 
+                "label": "oil", 
+                "name": "oil", 
+                "price": 0.13272, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "fillings", 
+            "name": "fillings"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1.5, 
+                "calories": 0.0, 
+                "label": "coriander", 
+                "name": "coriander", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1.5, 
+                "calories": 0.0, 
+                "label": "cumin_seed", 
+                "name": "cumin_seed", 
+                "note": "toasted and ground", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 3, 
+                "calories": 0.0, 
+                "label": "chili_oil", 
+                "name": "chili_oil", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 30, 
+                "calories": 0.0, 
+                "label": "rice (wine) vinegar", 
+                "name": "vinegar_rice", 
+                "price": 0.2619718311, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15, 
+                "calories": 4.999949999999999, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "price": 0.14955, 
+                "protein": 1.0000499999999999, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4, 
+                "calories": 15.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.01672, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.75, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.0020325, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "sauce", 
+            "name": "sauce"
+          }
+        ], 
+        "label": "lamb cumin noodles", 
+        "name": "lamb_cumin_noodles", 
+        "nutrition": {
+          "calories": 1275.8006300124998, 
+          "price": 2.166532890537944, 
+          "protein": 17.896049999999995
+        }
+      }, 
+      {
+        "directions": [
+          "Soak noodles in boiling water for 3-4 min. Drain and cut into thirds.", 
+          "Heat oil on wok on med heat. Add salt (pepper too if wanted) and mix. Cook chicken/tofu until browned, then put onto plate.", 
+          "Cook onion on med-high heat 3 min. Add all other veg, cook for couple min til wilted. ", 
+          "Make well in center of veg, add egg and scramble. Mix everything, then put onto plate.", 
+          "Add oil, cook noodles on med heat 2-3 min.", 
+          "Spread out noodles, add veg, add chicken/tofu, sprinkle dry spices. Stir until all combined.", 
+          "Pour sauces in, toss and cook for 1-2 min."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 9, 
+                "calories": 0.0, 
+                "label": "chicken_thigh", 
+                "name": "chicken_thigh", 
+                "note": "or a block of tofu", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.5, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.004065, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 9.33333334, 
+                "calories": 80.0000133904762, 
+                "label": "oil", 
+                "name": "oil", 
+                "note": "to cook protein", 
+                "price": 0.0294933333544, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "protein", 
+            "name": "protein"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 0.5, 
+                "calories": 27.15, 
+                "label": "onion", 
+                "name": "onion", 
+                "note": "sliced thin", 
+                "price": 0.305, 
+                "protein": 0.595, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.5, 
+                "calories": 11.9, 
+                "label": "green bell pepper", 
+                "name": "bell_pepper_green", 
+                "note": "sliced thin", 
+                "price": 0.44, 
+                "protein": 0.51, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 20.5, 
+                "label": "carrot", 
+                "name": "carrot", 
+                "note": "matchstick", 
+                "price": 0.109, 
+                "protein": 0.465, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.25, 
+                "calories": 78.0, 
+                "label": "cabbage", 
+                "name": "cabbage", 
+                "price": 0.4875, 
+                "protein": 4.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 4, 
+                "calories": 17.88, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "price": 0.24, 
+                "protein": 0.764, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4.66666667, 
+                "calories": 40.0000066952381, 
+                "label": "oil", 
+                "name": "oil", 
+                "note": "to cook vegetables, if needed", 
+                "price": 0.0147466666772, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "vegetables", 
+            "name": "vegetables"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 2, 
+                "calories": 120, 
+                "label": "egg", 
+                "name": "egg", 
+                "note": "whisked with a pinch of salt", 
+                "price": 0.5, 
+                "protein": 12, 
+                "unit": ""
+              }, 
+              {
+                "amount": 4, 
+                "calories": 404.99285698086, 
+                "label": "rice vermicelli (Jiangxi)", 
+                "name": "rice_vermicelli", 
+                "price": 0.33906001999999996, 
+                "protein": 8.0998571396172, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4.66666667, 
+                "calories": 40.0000066952381, 
+                "label": "oil", 
+                "name": "oil", 
+                "note": "to cook noodles", 
+                "price": 0.0147466666772, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "filling", 
+            "name": "filling"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 10, 
+                "calories": 40.0, 
+                "label": "korean curry powder", 
+                "name": "curry_powder_korean", 
+                "price": 0.19720000000000001, 
+                "protein": 0.5, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 5, 
+                "calories": 20.0, 
+                "label": "gochugaru", 
+                "name": "gochugaru", 
+                "price": 0.1077, 
+                "protein": 4.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 1.5, 
+                "calories": 4.68, 
+                "label": "turmeric", 
+                "name": "turmeric", 
+                "price": 0.09543, 
+                "protein": 0.1452, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 3.0, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.00813, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "dry spices", 
+            "name": "dry_spices"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "shaoxing_wine", 
+                "name": "shaoxing_wine", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 5, 
+                "calories": 43.333333350000004, 
+                "label": "sesame oil", 
+                "name": "sesame_oil", 
+                "price": 0.1690701125, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 5, 
+                "calories": 1.66665, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "price": 0.049850000000000005, 
+                "protein": 0.33335000000000004, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "fish_sauce", 
+                "name": "fish_sauce", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4, 
+                "calories": 15.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.01672, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "sauce", 
+            "name": "sauce"
+          }
+        ], 
+        "label": "singapore noodles", 
+        "name": "singapore_noodles", 
+        "nutrition": {
+          "calories": 965.1028671118123, 
+          "price": 3.1277117992087993, 
+          "protein": 31.412407139617198
+        }
+      }, 
+      {
+        "directions": [
           "Heat veg oil on wok, med heat.", 
           "Add ground peppercorns and stir occasionally for 30 sec.", 
           "Add ginger. After 1 min, add garlic. ", 
@@ -3131,13 +5059,14 @@
             "unit": "tbsp"
           }, 
           {
-            "amount": 1, 
-            "calories": 0.0, 
-            "label": "fermented_black_beans", 
+            "amount": 2, 
+            "amount_in_grams": 30, 
+            "calories": 68.00000000009999, 
+            "label": "fermented black beans (douchi)", 
             "name": "fermented_black_beans", 
-            "price": 0.0, 
-            "protein": 0.0, 
-            "unit": "cup"
+            "price": 0.512114538, 
+            "protein": 8.4, 
+            "unit": "tbsp"
           }, 
           {
             "amount": 0.67, 
@@ -3181,9 +5110,395 @@
         "label": "mapo tofu", 
         "name": "mapo_tofu", 
         "nutrition": {
-          "calories": 780.490040025, 
-          "price": 3.9451933896958886, 
-          "protein": 41.58059999999999
+          "calories": 848.4900400250999, 
+          "price": 4.457307927695888, 
+          "protein": 49.98059999999999
+        }
+      }, 
+      {
+        "directions": [
+          "Marinate chicken.", 
+          "2 tbsp oil on med heat. Cook beans, garlic, chicken til chicken is opaque.", 
+          "Add veg and stir fry for 1 min.", 
+          "Add sugar, ginger powder, wine, salt. Stir fry."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 12, 
+                "calories": 0.0, 
+                "label": "chicken_thigh", 
+                "name": "chicken_thigh", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 3, 
+                "amount_in_grams": 45, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 8, 
+                "calories": 30.0, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.03506607928, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4.66666667, 
+                "calories": 40.0000066952381, 
+                "label": "oil", 
+                "name": "oil", 
+                "price": 0.0147466666772, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 10, 
+                "calories": 3.3333, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "price": 0.09970000000000001, 
+                "protein": 0.6667000000000001, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 28, 
+                "calories": 240.00004000000004, 
+                "label": "oil", 
+                "name": "oil", 
+                "note": "to cook chicken", 
+                "price": 0.08848, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "chicken", 
+            "name": "chicken"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "amount_in_grams": 6, 
+                "calories": 4.8, 
+                "label": "ginger", 
+                "name": "ginger", 
+                "note": "juilienned", 
+                "price": 0.05277866556, 
+                "protein": 0.1092, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 3, 
+                "calories": 13.41, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "note": "smashed and chopped", 
+                "price": 0.18, 
+                "protein": 0.573, 
+                "unit": ""
+              }, 
+              {
+                "amount": 3, 
+                "calories": 0.0, 
+                "label": "green_onion", 
+                "name": "green_onion", 
+                "note": "chopped, green and white separated", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 3, 
+                "amount_in_grams": 45, 
+                "calories": 102.00000000015, 
+                "label": "fermented black beans (douchi)", 
+                "name": "fermented_black_beans", 
+                "price": 0.768171807, 
+                "protein": 12.6, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "seasonings", 
+            "name": "seasonings"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "calories": 23.8, 
+                "label": "green bell pepper", 
+                "name": "bell_pepper_green", 
+                "price": 0.88, 
+                "protein": 1.02, 
+                "unit": ""
+              }, 
+              {
+                "amount": 84, 
+                "calories": 0.0, 
+                "label": "mushroom", 
+                "name": "mushroom", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 0.5, 
+                "calories": 156.0, 
+                "label": "cabbage", 
+                "name": "cabbage", 
+                "price": 0.975, 
+                "protein": 8.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 20.5, 
+                "label": "carrot", 
+                "name": "carrot", 
+                "price": 0.109, 
+                "protein": 0.465, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 54.3, 
+                "label": "onion", 
+                "name": "onion", 
+                "price": 0.61, 
+                "protein": 1.19, 
+                "unit": ""
+              }
+            ], 
+            "label": "vegetables", 
+            "name": "vegetables"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 2.0, 
+                "calories": 7.5, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.00836, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "shaoxing_wine", 
+                "name": "shaoxing_wine", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.5, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.004065, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 30, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "sauce", 
+            "name": "sauce"
+          }
+        ], 
+        "label": "chicken black bean stirfry", 
+        "name": "chicken_black_bean_stirfry", 
+        "nutrition": {
+          "calories": 695.6433466953881, 
+          "price": 3.8253682185172004, 
+          "protein": 24.6239
+        }
+      }, 
+      {
+        "directions": [
+          "Cut lamb. Marinate for 30min.", 
+          "Dry toast cumin seeds on med heat. Set aside.", 
+          "High heat wok. Once hot, 2 tbsp oil and lamb.", 
+          "Sear meat until crispy and brown.", 
+          "Add rest of ingredients and toss til just combined (greens will be wilted). Serve."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "lamb_shoulder", 
+                "name": "lamb_shoulder", 
+                "note": "0.5\"x2\" pieces", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "lb"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 8.4, 
+                "calories": 0.0, 
+                "label": "cumin", 
+                "name": "cumin", 
+                "price": 0.584052, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1.5, 
+                "amount_in_grams": 4.000000005, 
+                "calories": 15.000000018750002, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.017533039661916303, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 14, 
+                "calories": 120.00002000000002, 
+                "label": "oil", 
+                "name": "oil", 
+                "note": "optional if lamb is a fattier cut", 
+                "price": 0.04424, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15, 
+                "calories": 4.999949999999999, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "price": 0.14955, 
+                "protein": 1.0000499999999999, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "shaoxing_wine", 
+                "name": "shaoxing_wine", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 28, 
+                "calories": 240.00004000000004, 
+                "label": "oil", 
+                "name": "oil", 
+                "note": "to cook lamb", 
+                "price": 0.08848, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "lamb", 
+            "name": "lamb"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 2, 
+                "calories": 0.0, 
+                "label": "cumin_seed", 
+                "name": "cumin_seed", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 2, 
+                "calories": 0.0, 
+                "label": "red_chili_pepper", 
+                "name": "red_chili_pepper", 
+                "note": "chopped", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 2.5, 
+                "calories": 10.0, 
+                "label": "gochugaru", 
+                "name": "gochugaru", 
+                "price": 0.05385, 
+                "protein": 2.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.0, 
+                "calories": 3.75, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.00418, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "calories": 0.0, 
+                "label": "green_onion", 
+                "name": "green_onion", 
+                "note": "chopped", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.25, 
+                "calories": 0.0, 
+                "label": "cilantro", 
+                "name": "cilantro", 
+                "note": "chopped", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }
+            ], 
+            "label": "seasonings", 
+            "name": "seasonings"
+          }
+        ], 
+        "label": "cumin lamb", 
+        "name": "cumin_lamb", 
+        "nutrition": {
+          "calories": 393.7500100187501, 
+          "price": 0.9418850396619162, 
+          "protein": 3.00005
         }
       }, 
       {
@@ -3361,7 +5676,7 @@
           "Drain oil from wok, leave 1 tbsp behind. Turn heat to med-high. Add ginger and dried peppers, if using, and garlic after 15 sec. After 10 sec, and add soy sauce and water.", 
           "Bring sauce to a simmer, add the brown sugar, and stir until dissolved.", 
           "Let simmer for ~2min and slowly stir in cornstarch slurry until the sauce coats back of spoon.", 
-          "Add beef and scallions. Toss everything together for 30 sec. Should be almost no liquid, sauce should be clinging to the beef. If you still have sauce, increase the heat slightly and stir until thickened."
+          "Add beef and green onions. Toss everything together for 30 sec. Should be almost no liquid, sauce should be clinging to the beef. If you still have sauce, increase the heat slightly and stir until thickened."
         ], 
         "ingredient_categories": [
           {
@@ -3511,8 +5826,8 @@
               {
                 "amount": 4, 
                 "calories": 0.0, 
-                "label": "scallions", 
-                "name": "scallions", 
+                "label": "green_onion", 
+                "name": "green_onion", 
                 "note": "cut to 1 inch", 
                 "price": 0.0, 
                 "protein": 0.0, 

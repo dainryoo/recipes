@@ -1562,6 +1562,20 @@
         }
       },
       {
+        "name": "fermented_black_beans",
+        "label": "fermented black beans (douchi)",
+        "conversion_to_grams": {
+          "tsp": 5,
+          "tbsp": 15,
+          "cup": 240
+        },
+        "per_100_gram": {
+          "calories": 226.666666667,
+          "protein": 28,
+          "price": 1.70704846
+        }
+      },
+      {
         "name": "gochugaru",
         "label": "gochugaru",
         "conversion_to_grams": {

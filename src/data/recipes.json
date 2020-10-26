@@ -266,6 +266,136 @@
         ]
       },
       {
+        "name": "hong_kong_egg_tart",
+        "label": "hong kong egg tart",
+        "ingredient_categories": [
+          {
+            "name": "pastry",
+            "label": "pastry",
+            "ingredients": [
+              { "name": "flour", "amount": 100, "unit": "g" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" },
+              { "name": "sugar", "amount": 0.5, "unit": "tbsp" },
+              { "name": "butter", "amount": 100, "unit": "g" },
+              { "name": "water", "note": "ice water", "amount": 1, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "custard",
+            "label": "custard",
+            "ingredients": [
+              { "name": "sugar", "amount": 0.25, "unit": "cup" },
+              { "name": "water", "note": "hot", "amount": 80, "unit": "ml" },
+              { "name": "egg", "amount": 1, "unit": "" },
+              { "name": "milk_almond", "note": "to make 40 ml", "amount": 64, "unit": "ml" },
+              { "name": "vanilla_extract", "amount": 0.25, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "For pastry:",
+          "Combine flour, salt, sugar. Add butter and break up roughly with fingers. Make sure butter chunks are visible in dough.",
+          "Add water and bring dough together. Cover dough and refrigerate for 20 min.",
+          "Knead dough into a rectangle on floured surface. Roll dough away from body (not back and forth) into a 8x20 inch rectangle. Don't overwork! Butter should still be visible.",
+          "Fold top third of dough down to center, then the bottom third up and over that. Give the dough a 90deg turn and roll out to 3x the length. Do the same folding.",
+          "Cover and chill for 30 min.",
+          "",
+          "For custard:",
+          "To make evaporated milk: get normal milk + 60% more of desired amount. Gently boil down to the desired amount.",
+          "Dissolve sugar in hot water and bring to room temp.",
+          "Whisk egg and milk, then thoroughly whisk sugar water and vanilla. Strain to get a smooth texture (ideally no bubbles on surface!)",
+          "",
+          "Preheat oven to 390F. Make sure there is a rack near the bottom of the oven.",
+          "Press dough into tins. Refrigerate tin if possible. Fill each with custard until just reaching edge of crust. (23ml of filling per tart?) (1/4 inch thick pastry?)",
+          "Bake for 15 min on lower rack.",
+          "Reduce temp to 355F and bake another 10-12 min. Crack open oven door if tarts start to puff up."
+        ]
+      },
+      {
+        "name": "easier_egg_tart",
+        "label": "easier egg tart",
+        "ingredient_categories": [
+          {
+            "name": "pastry",
+            "label": "pastry",
+            "ingredients": [
+              { "name": "flour", "amount": 93, "unit": "g" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" },
+              { "name": "sugar", "amount": 6, "unit": "g" },
+              { "name": "butter", "amount": 89, "unit": "g" },
+              { "name": "water", "note": "cold water", "amount": 13, "unit": "ml" }
+            ]
+          },
+          {
+            "name": "custard",
+            "label": "custard",
+            "ingredients": [
+              { "name": "water", "amount": 30, "unit": "ml" },
+              { "name": "sugar", "amount": 24, "unit": "g" },
+              { "name": "egg", "amount": 1, "unit": "" },
+              { "name": "milk_almond", "amount": 60, "unit": "ml" },
+              { "name": "vanilla_extract", "amount": 1, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "For custard:",
+          "Microwave water + sugar til dissolved.",
+          "Whisk egg, milk, vanilla. Mix water in little bits at a time. Strain.",
+          "425F for 15 min. If it starts bubbling up, crack open oven."
+        ]
+      },
+      {
+        "name": "easy_madeleines",
+        "label": "easy madeleines",
+        "ingredients": [
+          { "name": "egg", "amount": 1, "unit": "" },
+          { "name": "sugar", "amount": 43, "unit": "g" },
+          { "name": "lemon_zest", "amount": 0.5, "unit": "tsp" },
+          { "name": "flour", "amount": 40, "unit": "g" },
+          { "name": "baking_powder", "amount": 0.333, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "butter", "note": "melted", "amount": 2, "unit": "tbsp" }
+        ],
+        "directions": [
+          "Makes 10 cookies",
+          "Beat eggs + sugar until pale yellow. Add zest.",
+          "Whisk together dry ingredients add to the egg mixture gently, until just combined. Then add melted butter.",
+          "Refrigerate batter at least 1 hour (or overnight).",
+          "Preheat oven to 350F. Grease madeleine pan. Spoon 1 tbsp or ~16.7g of batter into the center of the well and don’t touch it.",
+          "Bake 8 mins until slightly golden around edges and centers look set and slight hump has appeared.",
+          "Allow to cool slightly and remove from the tin and allow to cool.",
+          "Batter can be made 2 days ahead, baked ones last in fridge 2-3 days."
+        ]
+      },
+      {
+        "name": "madeleines",
+        "label": "madeleines",
+        "ingredients": [
+          { "name": "butter", "amount": 4, "unit": "tbsp" },
+          { "name": "egg", "amount": 1, "unit": "" },
+          { "name": "sugar", "amount": 50, "unit": "g" },
+          { "name": "lemon_zest", "amount": 1, "unit": "tsp" },
+          { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
+          { "name": "flour", "amount": 57.5, "unit": "g" },
+          { "name": "baking_powder", "amount": 0.25, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "butter", "note": "for greasing pan", "amount": 1, "unit": "tbsp" }
+        ],
+        "directions": [
+          "Makes 9-10 cookies",
+          "Melt butter, then cool to room temp for 8 min.",
+          "During those 8 min, beat egg and sugar until thick, pale, and forms ribbons. Beat in zest and vanilla until combined.",
+          "Whisk flour, baking powder, salt in small bowl. Gently fold into egg mix. Tip: fold in half first, then the rest. Be careful and delicate!!",
+          "Stir 1/4c of batter into butter, will take about a min to incorporate. Stir that into the rest of the batter.",
+          "Chill for 30-60 min.",
+          "Grease up pan with melted butter.",
+          "Preheat oven to 350F.",
+          "Spoon about 1 tbsp (~21.7g) batter into each scallop. Bake for 10 min, maybe less.",
+          "Note: easy madeleines look less saturated in color slightly. This one: airier, more buttery, lighter, crispier. Difference is barely noticeable."
+        ]
+      },
+      {
         "name": "pie_crust",
         "label": "pie crust",
         "ingredients": [
@@ -304,6 +434,47 @@
           "Divide batter into two 6-oz or three 4-oz ramekins.",
           "Bake 18-20 min at 350F. Ok if they jiggle.",
           "Cool completely. Chill overnight, or 4+ hours."
+        ]
+      },
+      {
+        "name": "apple_pie",
+        "label": "apple pie",
+        "ingredient_categories": [
+          {
+            "name": "pastry",
+            "label": "pastry",
+            "ingredients": [
+              { "name": "flour", "amount": 5, "unit": "oz" },
+              { "name": "salt", "amount": 0.25, "unit": "tsp" },
+              { "name": "butter", "amount": 4, "unit": "tbsp" },
+              { "name": "vinegar_apple_cider", "amount": 0.25, "unit": "tsp" },
+              { "name": "water", "note": "ice water; 4 tbsp if needed", "amount": 3, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "filling",
+            "label": "filling",
+            "ingredients": [
+              { "name": "sugar", "amount": 0.25, "unit": "cup" },
+              { "name": "apple", "noted": "thinly sliced, 2\" length pieces", "amount": 2, "unit": "" },
+              { "name": "lemon_zest", "amount": 0.75, "unit": "tsp" },
+              { "name": "cinnamon", "amount": 0.25, "unit": "tsp" },
+              { "name": "nutmeg", "amount": 0.125, "unit": "tsp" },
+              { "name": "clove_ground", "amount": 0.125, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+              { "name": "milk_almond", "amount": 2, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Combine flour + salt. Add butter and cut in with knife.",
+          "When butter is the size of peas, use hands to squeeze dough for a few min.",
+          "When dough stays in a clump after you squeeze it, place in fridge for 10 min.",
+          "Add vinegar and 2 tbsp of water. Stir with fork til mixture comes together. Add more water as needed, but dont use more than 5 tbsp water total.",
+          "Shape dough into flat disk, wrap, and fridge for 30 min.",
+          "Toss apples in spices + sugar.",
+          "Roll out crust. Press down apples when adding to prevent air gaps.",
+          "Bake at 425F on lowest rack for 20 min. Lower temp to 350F and bake on middle rack for 15-20 min til filling is bubbling. Cool for 2 hours."
         ]
       },
       {
@@ -347,6 +518,30 @@
           "Combine dry and wet. Add carrots and nuts.",
           "Bake at 350F 30-40 min. Cool in pan for 15 min, then cool on rack. (If cupcake, bake for 14-18 min)",
           "Frosting: whisk cream cheese and butter til smooth. Mix sugar, vanilla, and salt til smooth."
+        ]
+      },
+      {
+        "name": "pumpkin_pie_filling",
+        "label": "pumpkin pie filling",
+        "ingredients": [
+          { "name": "egg", "amount": 2, "unit": "" },
+          { "name": "sugar_brown", "amount": 0.5, "unit": "cup" },
+          { "name": "sugar", "note": "try not using", "amount": 0.25, "unit": "cup" },
+          { "name": "cinnamon", "amount": 2, "unit": "tsp" },
+          { "name": "ginger_ground", "amount": 1, "unit": "tsp" },
+          { "name": "nutmeg", "note": "try 1/2 tsp", "amount": 0.25, "unit": "tsp" },
+          { "name": "cloves", "note": "try 1/2 tsp", "amount": 0.25, "unit": "tsp" },
+          { "name": "cardamom", "amount": 0.125, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "vanilla", "note": "optional", "amount": 1, "unit": "tsp" },
+          { "name": "pumpkin_puree", "amount": 15, "unit": "oz" },
+          { "name": "milk", "amount": 1.25, "unit": "cup" },
+          { "name": "cornstarch", "amount": 2, "unit": "tsp" }
+        ],
+        "directions": [
+          "Beat eggs. Mix in sugars and spices. Mix in pumpkin, stir in milk + cornstarch mix, then beat til well mixed.",
+          "Pour into shell.",
+          "Bake at 425F for 15 min, then at 350F for 45-60 min. Cool for 2 hrs."
         ]
       },
       {
@@ -469,7 +664,7 @@
           { "name": "sugar", "note": "originally 1/2c", "amount": 0.25, "unit": "cup" },
           { "name": "egg", "amount": 1, "unit": "" },
           { "name": "vanilla_extract", "amount": 2, "unit": "tsp" },
-          { "name": "zucchini", "note": "shredded; don't squeeze moisture out!", "amount": 1, "unit": "cup" }
+          { "name": "zucchini_shredded", "note": "don't squeeze moisture out!", "amount": 1, "unit": "cup" }
         ],
         "directions": [
           "One 8x4 loaf or 12 muffins (fill muffins all the way to top). Grease tins.",
@@ -480,6 +675,46 @@
           "Bake 45-55 min at 375F. Toothpick should come out mostly clean. Let cool before slicing.",
           "If muffins: Bake at 425F for 5 min, reduce to 350F with muffins still in oven for 13-16 min or until toothpick clean. Cool in tin for 5 min, then wire rack.",
           "Room temp 3-4 days, fridge 1 week, freezer up to 3 month."
+        ]
+      },
+      {
+        "name": "milk_bread",
+        "label": "milk bread",
+        "ingredients": [
+          { "name": "flour", "amount": 400, "unit": "g" },
+          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "water", "note": "boiling", "amount": 0.333, "unit": "cup" },
+          { "name": "milk", "note": "warm (~95C), reduce by 15-30g if humid", "amount": 0.667, "unit": "cup" },
+          { "name": "yeast", "amount": 1, "unit": "tsp" },
+          { "name": "egg", "amount": 2, "unit": "" },
+          { "name": "oil", "amount": 2, "unit": "tbsp" },
+          { "name": "egg", "note": "for egg wash", "amount": 1, "unit": "" }
+        ],
+        "directions": [
+          "Large bowl, mix flour, sugar, salt.",
+          "While stirring, add boiling water.",
+          "Microwave cold milk for 30 sec. Dissolve the yeast.",
+          "Add milk into dough. Add 2 eggs. Mix well. Dough will be very wet, soft, and scraggly, and no elasticity.",
+          "Cover and rest for 20 min.",
+          "",
+          "Add oil to dough and mix in with hand. There should now be elasticity. Knead by pulling dough from against the dough, stretching towards the center, and pushing down the piece down gently.",
+          "Once dough is smoother, you can even pick it up and smack it down into the bowl.",
+          "After a while, all the oil will be absorbed and the dough will become very sticky again (~5 min after kneading).",
+          "Cover and rest for 1 hr.",
+          "",
+          "Dough will be elastic-y again. Sprinkle top with flour, flour hands, and punch out the air in the bowl.",
+          "Pull dough away from edge of bowl, rotating bowl to get all the edges off.",
+          "Keep removing air from dough; purpose is NOT to knead again!",
+          "Divide into 3 pieces.",
+          "",
+          "For each piece: put on floured surface. ",
+          "Create a smooth top by folding the edges back into a center on the \"bottom\" of the dough.",
+          "Put ball, smooth side down. Press down gently.",
+          "Flour dough ball. Use rolling pin to gently remove more air and stretch dough out, thinner on the \"top\" and \"bottom\" of the stretched shape.",
+          "Fold the top third down, then fold the bottom third up. Rotate 90 degrees, then roll out again, same thinner top and bottoms.",
+          "Roll up from the top; roll a little bit to the bottom, press down, keep rolling.",
+          "Put in floured bread pan, smooth side up."
         ]
       },
       {
@@ -624,6 +859,77 @@
     "category_name": "chinese",
     "recipes": [
       {
+        "name": "kung_pao",
+        "label": "kung pao",
+        "ingredient_categories": [
+          {
+            "name": "protein_and_marinade",
+            "label": "protein + marinade",
+            "ingredients": [
+              { "name": "tofu_firm", "amount": 1, "unit": "" },
+              { "name": "cornstarch", "amount": 1, "unit": "tsp" },
+              { "name": "oil", "amount": 1, "unit": "tsp" },
+              { "name": "shaoxing_wine", "amount": 1, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
+              { "name": "soy_sauce_dark", "amount": 0.5, "unit": "tsp" },
+              { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
+              { "name": "sugar", "amount": 1, "unit": "tsp" },
+              { "name": "water", "amount": 3, "unit": "tbsp" },
+              { "name": "cornstarch", "amount": 1, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "misc",
+            "label": "misc",
+            "ingredients": [
+              { "name": "sichuan_peppercorn_ground", "amount": 0.5, "unit": "tsp" },
+              { "name": "ginger", "amount": 1, "unit": "tsp" },
+              { "name": "garlic", "amount": 3, "unit": "" },
+              { "name": "green_onion", "amount": 1, "unit": "" },
+              { "name": "peanut", "amount": 18, "unit": "g" },
+              { "name": "oil", "note": "to cook protein", "amount": 2, "unit": "tsp" },
+              { "name": "oil", "note": "to cook the rest", "amount": 1, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Marinate, cook high heat, and set aside protein.",
+          "1 tsp oil into wok, cook scallions, ginger, and garlic with the peppercorn powder on low. Cook for 1-2 min.",
+          "Add protein back in. Turn heat up and stir fry with the sauce for 1 min. Add peanuts, stir quick, and serve."
+        ]
+      },
+      {
+        "name": "beef_rice_bowl",
+        "label": "beef rice bowl",
+        "ingredients": [
+          { "name": "oil", "amount": 0.5, "unit": "tbsp" },
+          { "name": "beef_ground_85", "amount": 0.5, "unit": "lb" },
+          { "name": "onion", "note": "diced", "amount": 0.5, "unit": "" },
+          { "name": "garlic", "note": "diced", "amount": 2, "unit": "" },
+          { "name": "shaoxing_wine", "amount": 0.5, "unit": "tbsp" },
+          { "name": "water", "note": "sub for chicken stock", "amount": 1, "unit": "cup" },
+          { "name": "oyster_sauce", "amount": 1.5, "unit": "tbsp" },
+          { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
+          { "name": "soy_sauce_dark", "amount": 0.5, "unit": "tsp" },
+          { "name": "sesame_oil", "amount": 0.5, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "carrot", "note": "or peas", "amount": 1, "unit": "" },
+          { "name": "cornstarch", "note": "mixed with 1 tbsp water", "amount": 1, "unit": "tbsp" }
+        ],
+        "directions": [
+          "Heat a wok on high heat, add oil. Add beef, break up large chunks, cook until slightly browned.",
+          "Add onion, garlic, carrots, Shaoxing wine, and turn heat down to med. Cook until the onion is translucent, and then add chicken stock.",
+          "Bring to boil and lower heat to a simmer. Add sauces, sesame oil, pepper. Cover and simmer for 10 minutes.",
+          "Stir cornstarch + water mix and drizzle in while mixing. Simmer til thick enough to coat spoon."
+        ]
+      },
+      {
         "name": "broccoli_tofu_stirfry",
         "label": "broccoli tofu stirfry",
         "ingredient_categories": [
@@ -664,6 +970,46 @@
         ],
         "directions": [
           "tba......."
+        ]
+      },
+      {
+        "name": "dumplings",
+        "label": "dumplings",
+        "ingredient_categories": [
+          {
+            "name": "dumpling_skin",
+            "label": "dumpling skin",
+            "ingredients": [
+              { "name": "flour", "amount": 3, "unit": "cup" },
+              { "name": "water", "note": "hot", "amount": 1, "unit": "cup" },
+              { "name": "water", "note": "room temp", "amount": 0.25, "unit": "cup" }
+            ]
+          },
+          {
+            "name": "dumpling_filling",
+            "label": "dumpling filling",
+            "ingredients": [
+              { "name": "beef_ground_85", "amount": 0.5, "unit": "lb" },
+              { "name": "water", "amount": 0.25, "unit": "cup" },
+              { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
+              { "name": "shaoxing_wine", "amount": 1, "unit": "tbsp" },
+              { "name": "ginger", "note": "grated", "amount": 2, "unit": "tsp" },
+              { "name": "sugar", "amount": 1, "unit": "tsp" },
+              { "name": "salt", "amount": 1, "unit": "tsp" },
+              { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+              { "name": "green_onion", "note": "chopped", "amount": 4, "unit": "" },
+              { "name": "carrot", "noted": "chopped", "amount": 1, "unit": "" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tbsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "For the skins:",
+          "Flour + hot water in center. Mix center area until combined. Add room temp water around sides of bowl. Knead until one piece.",
+          "Remove and knead for 5-15 min on flat surface until smooth. Rest covered for 1 hour. Split into 40 balls (approx 16 g each ball).",
+          "For the filling:",
+          "Mix meat and seasonings (except veg and sesame oil). Marinate for 1 hour. Add veg and sesame oil."
         ]
       },
       {
@@ -712,6 +1058,136 @@
         ]
       },
       {
+        "name": "lamb_cumin_noodles",
+        "label": "lamb cumin noodles",
+        "ingredient_categories": [
+          {
+            "name": "noodles",
+            "label": "noodles",
+            "ingredients": [
+              { "name": "flour", "amount": 1.5, "unit": "cup" },
+              { "name": "water", "amount": 0.5, "unit": "cup" },
+              { "name": "salt", "amount": 0.25, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "lamb_marinade",
+            "label": "lamb marinade",
+            "ingredients": [
+              { "name": "lamb_shoulder", "amount": 0.5, "unit": "lb" },
+              { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
+              { "name": "cornstarch", "amount": 1, "unit": "tsp" },
+              { "name": "oil", "amount": 1, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "fillings",
+            "label": "fillings",
+            "ingredients": [
+              { "name": "ginger", "note": "minced", "amount": 1, "unit": "tbsp" },
+              { "name": "green_onion", "amount": 2, "unit": "" },
+              { "name": "garlic", "note": "minced", "amount": 5, "unit": "" },
+              { "name": "serrano", "amount": 1, "unit": "" },
+              { "name": "cabbage", "note": "cut", "amount": 206, "unit": "g" },
+              { "name": "onion", "amount": 0.5, "unit": "" },
+              { "name": "oil", "amount": 3, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "coriander", "amount": 1.5, "unit": "tbsp" },
+              { "name": "cumin_seed", "note": "toasted and ground", "amount": 1.5, "unit": "tbsp" },
+              { "name": "chili_oil", "amount": 3, "unit": "tbsp" },
+              { "name": "vinegar_rice", "amount": 2, "unit": "tbsp" },
+              { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
+              { "name": "sugar", "amount": 1, "unit": "tsp" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Combine flour, water, salt. Knead for 20 min til you can stretch noodle to several inches without breaking. Rest for 1-2 hours.",
+          "Marinate lamb.",
+          "Toast cumin seeds, grind, and mix spices into rest of sauce.",
+          "Prepare ginger + scallions. Prepare garlic + serrano. Prepare cut cabbage. Prepare onions.",
+          "Roll out noodle dough into 10 inch rect and cut into one-inch pieces. Should be spaghettic thickness (shouldnt be transparent).",
+          "Pull each piece lengthwise and slap/pound onto flat surface.",
+          "On med heat wok, 3 tbsp veg oil with ginger + scallions for 1 min.",
+          "Then add garlic + serrano and cook for 30 sec.",
+          "Add lamb til it browns.",
+          "Add onion and sauce. At this point, put noodles + cabbage in boiling water for 90 sec to 2 min.",
+          "Add noodles + cabbage to wok and mix til combined."
+        ]
+      },
+      {
+        "name": "singapore_noodles",
+        "label": "singapore noodles",
+        "ingredient_categories": [
+          {
+            "name": "protein",
+            "label": "protein",
+            "ingredients": [
+              { "name": "chicken_thigh", "note": "or a block of tofu", "amount": 9, "unit": "oz" },
+              { "name": "salt", "amount": 0.25, "unit": "tsp" },
+              { "name": "oil", "note": "to cook protein", "amount": 2, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "vegetables",
+            "label": "vegetables",
+            "ingredients": [
+              { "name": "onion", "note": "sliced thin", "amount": 0.5, "unit": "" },
+              { "name": "bell_pepper_green", "note": "sliced thin", "amount": 0.5, "unit": "" },
+              { "name": "carrot", "note": "matchstick", "amount": 1, "unit": "" },
+              { "name": "cabbage", "amount": 0.25, "unit": "" },
+              { "name": "garlic", "amount": 4, "unit": "" },
+              { "name": "oil", "note": "to cook vegetables, if needed", "amount": 1, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "filling",
+            "label": "filling",
+            "ingredients": [
+              { "name": "egg", "note": "whisked with a pinch of salt", "amount": 2, "unit": "" },
+              { "name": "rice_vermicelli", "amount": 4, "unit": "oz" },
+              { "name": "oil", "note": "to cook noodles", "amount": 1, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "dry_spices",
+            "label": "dry spices",
+            "ingredients": [
+              { "name": "curry_powder_korean", "amount": 10, "unit": "g" },
+              { "name": "gochugaru", "amount": 1, "unit": "tsp" },
+              { "name": "turmeric", "amount": 0.5, "unit": "tsp" },
+              { "name": "salt", "amount": 0.5, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "shaoxing_wine", "amount": 1, "unit": "tbsp" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
+              { "name": "soy_sauce_light", "amount": 1, "unit": "tsp" },
+              { "name": "fish_sauce", "amount": 1, "unit": "tsp" },
+              { "name": "sugar", "amount": 1, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Soak noodles in boiling water for 3-4 min. Drain and cut into thirds.",
+          "Heat oil on wok on med heat. Add salt (pepper too if wanted) and mix. Cook chicken/tofu until browned, then put onto plate.",
+          "Cook onion on med-high heat 3 min. Add all other veg, cook for couple min til wilted. ",
+          "Make well in center of veg, add egg and scramble. Mix everything, then put onto plate.",
+          "Add oil, cook noodles on med heat 2-3 min.",
+          "Spread out noodles, add veg, add chicken/tofu, sprinkle dry spices. Stir until all combined.",
+          "Pour sauces in, toss and cook for 1-2 min."
+        ]
+      },
+      {
         "name": "mapo_tofu",
         "label": "mapo tofu",
         "ingredients": [
@@ -721,7 +1197,7 @@
           { "name": "garlic", "amount": 3, "unit": "" },
           { "name": "pork_ground_84", "amount": 8, "unit": "oz" },
           { "name": "doubanjiang", "amount": 1, "unit": "tbsp" },
-          { "name": "fermented_black_beans", "amount": 1, "unit": "cup" },
+          { "name": "fermented_black_beans", "amount": 2, "unit": "tbsp" },
           { "name": "water", "amount": 0.67, "unit": "cup" },
           { "name": "cornstarch", "amount": 2, "unit": "tsp" },
           { "name": "chili_oil", "amount": 4, "unit": "tbsp" },
@@ -736,6 +1212,99 @@
           "Add 2/3 c water and stir. Simmer for 1 min.",
           "Mix cornstarch with 1/4 c water. Add mix to sauce and stir.",
           "Add chili oil, stir, and add tofu. Cook for 3-5 min."
+        ]
+      },
+      {
+        "name": "chicken_black_bean_stirfry",
+        "label": "chicken black bean stirfry",
+        "ingredient_categories": [
+          {
+            "name": "chicken",
+            "label": "chicken",
+            "ingredients": [
+              { "name": "chicken_thigh", "amount": 12, "unit": "oz" },
+              { "name": "water", "amount": 3, "unit": "tbsp" },
+              { "name": "cornstarch", "amount": 1, "unit": "tbsp" },
+              { "name": "oil", "amount": 1, "unit": "tsp" },
+              { "name": "soy_sauce_light", "amount": 2, "unit": "tsp" },
+              { "name": "oil", "note": "to cook chicken", "amount": 2, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "seasonings",
+            "label": "seasonings",
+            "ingredients": [
+              { "name": "ginger", "note": "juilienned", "amount": 1, "unit": "tbsp" },
+              { "name": "garlic", "note": "smashed and chopped", "amount": 3, "unit": "" },
+              { "name": "green_onion", "note": "chopped, green and white separated", "amount": 3, "unit": "" },
+              { "name": "fermented_black_beans", "amount": 3, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "vegetables",
+            "label": "vegetables",
+            "ingredients": [
+              { "name": "bell_pepper_green", "amount": 1, "unit": "" },
+              { "name": "mushroom", "amount": 84, "unit": "g" },
+              { "name": "cabbage", "amount": 0.5, "unit": "" },
+              { "name": "carrot", "amount": 1, "unit": "" },
+              { "name": "onion", "amount": 1, "unit": "" }
+            ]
+          },
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "sugar", "amount": 0.5, "unit": "tsp" },
+              { "name": "shaoxing_wine", "amount": 1, "unit": "tbsp" },
+              { "name": "salt", "amount": 0.25, "unit": "tsp" },
+              { "name": "water", "amount": 2, "unit": "tbsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Marinate chicken.",
+          "2 tbsp oil on med heat. Cook beans, garlic, chicken til chicken is opaque.",
+          "Add veg and stir fry for 1 min.",
+          "Add sugar, ginger powder, wine, salt. Stir fry."
+        ]
+      },
+      {
+        "name": "cumin_lamb",
+        "label": "cumin lamb",
+        "ingredient_categories": [
+          {
+            "name": "lamb",
+            "label": "lamb",
+            "ingredients": [
+              { "name": "lamb_shoulder", "note": "0.5\"x2\" pieces", "amount": 1, "unit": "lb" },
+              { "name": "cumin", "amount": 1, "unit": "tbsp" },
+              { "name": "cornstarch", "amount": 1.5, "unit": "tsp" },
+              { "name": "oil", "note": "optional if lamb is a fattier cut", "amount": 1, "unit": "tbsp" },
+              { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
+              { "name": "shaoxing_wine", "amount": 1, "unit": "tbsp" },
+              { "name": "oil", "note": "to cook lamb", "amount": 2, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "seasonings",
+            "label": "seasonings",
+            "ingredients": [
+              { "name": "cumin_seed", "amount": 2, "unit": "tbsp" },
+              { "name": "red_chili_pepper", "note": "chopped", "amount": 2, "unit": "" },
+              { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
+              { "name": "sugar", "amount": 0.25, "unit": "tsp" },
+              { "name": "green_onion", "note": "chopped", "amount": 2, "unit": "" },
+              { "name": "cilantro", "note": "chopped", "amount": 0.25, "unit": "cup" }
+            ]
+          }
+        ],
+        "directions": [
+          "Cut lamb. Marinate for 30min.",
+          "Dry toast cumin seeds on med heat. Set aside.",
+          "High heat wok. Once hot, 2 tbsp oil and lamb.",
+          "Sear meat until crispy and brown.",
+          "Add rest of ingredients and toss til just combined (greens will be wilted). Serve."
         ]
       },
       {
@@ -816,7 +1385,7 @@
               { "name": "water", "amount": 0.7, "unit": "cup" },
               { "name": "sugar_brown", "amount": 4, "unit": "tbsp" },
               { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
-              { "name": "scallions", "note": "cut to 1 inch", "amount": 4, "unit": "" }
+              { "name": "green_onion", "note": "cut to 1 inch", "amount": 4, "unit": "" }
             ]
           }
         ],
@@ -827,7 +1396,7 @@
           "Drain oil from wok, leave 1 tbsp behind. Turn heat to med-high. Add ginger and dried peppers, if using, and garlic after 15 sec. After 10 sec, and add soy sauce and water.",
           "Bring sauce to a simmer, add the brown sugar, and stir until dissolved.",
           "Let simmer for ~2min and slowly stir in cornstarch slurry until the sauce coats back of spoon.",
-          "Add beef and scallions. Toss everything together for 30 sec. Should be almost no liquid, sauce should be clinging to the beef. If you still have sauce, increase the heat slightly and stir until thickened."
+          "Add beef and green onions. Toss everything together for 30 sec. Should be almost no liquid, sauce should be clinging to the beef. If you still have sauce, increase the heat slightly and stir until thickened."
         ]
       },
       {
