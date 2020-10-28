@@ -1,27 +1,124 @@
 import json
 
+gram_names = ["g", "gram", "grams"]
+ml_names = ["ml", "mL", "milliliter", "milliliters"]
+oz_names = ["oz", "ounce", "ounces"]
+lb_names = ["lb", "lbs", "pound", "pounds"]
+tsp_names = ["t", "tsp", "teaspoon", "teaspoons"]
+tbsp_names = ["T", "tbsp", "Tbsp", "tablespoon", "tablespoons"]
+cup_names = ["c", "cup", "cups"]
+
 # fill in recipes array with nutrition info
 def process_recipe_file():
     recipes_file_name = "recipes.json"
     recipes_with_nutrition_file_name = "recipes-with-nutrition.json"
     pantry_file_name = "pantry.json"
+    generated_pantry_file_name = "generated-pantry.json"
 
-    print("Opening recipes file");
-    recipes_file = open(recipes_file_name, "r")
-    recipes = json.load(recipes_file)
-    recipes_file.close()
-
-    print("Opening pantry file");
+    print("Opening pantry file")
     pantry_file = open(pantry_file_name, "r")
     pantry = json.load(pantry_file)
     pantry_file.close()
 
-    calculate_nutrition(recipes, pantry);
+    fill_out_pantry(pantry)
 
-    print("Writing into recipes file");
+    print("Writing into new pantry file")
+    generated_pantry_file = open(generated_pantry_file_name, "w")
+    json.dump(pantry, generated_pantry_file, sort_keys=True, indent=2)
+    generated_pantry_file.close()
+
+    print("Opening recipes file")
+    recipes_file = open(recipes_file_name, "r")
+    recipes = json.load(recipes_file)
+    recipes_file.close()
+
+    calculate_nutrition(recipes, pantry)
+
+    print("Writing into recipes file")
     recipes_with_nutrition_file = open(recipes_with_nutrition_file_name, "w")
     json.dump(recipes, recipes_with_nutrition_file, sort_keys=True, indent=2)
     recipes_with_nutrition_file.close()
+
+# goes through pantry and calculates data based on inputted data
+def fill_out_pantry(pantry):
+    print("Calculating data for extra pantry information")
+    # for each pantry item category in the list of pantry categories:
+    for i in range(len(pantry)):
+        curr_pantry_category = pantry[i]["items"]
+        # for each item in this pantry category:
+        for j in range(len(curr_pantry_category)):
+            # fill out extra pantry item nutrition info
+            curr_item = curr_pantry_category[j]
+            fill_out_pantry_item_info(curr_item)
+
+# calculate extra data for a pantry item based on inputted data
+def fill_out_pantry_item_info(item):
+    if "serving_nutrition" in item:
+        serving = item["serving_nutrition"]
+        unit = serving["unit"]
+
+        if unit == "":
+            item["per_unit"] = {
+                "calories": serving["calories"],
+                "protein": serving["protein"],
+                "price": item["price_per_unit"]["price"]
+            }
+        else:
+            grams = serving["grams"]*1.0
+            amount = serving["amount"]*1.0
+
+            if unit in gram_names:
+                item["conversion_to_grams"] = {
+                    "oz": 28.34952,
+                    "lb": 453.59237
+                }
+            elif unit in tsp_names:
+                item["conversion_to_grams"] = {
+                    "tsp": grams/amount,
+                    "tbsp": grams/amount*3.0,
+                    "cup": grams/amount*48.0,
+                    "oz": 28.34952,
+                    "lb": 453.59237
+                }
+            elif unit in tbsp_names:
+                item["conversion_to_grams"] = {
+                    "tsp": grams/amount/3.0,
+                    "tbsp": grams/amount,
+                    "cup": grams/amount*16.0,
+                    "oz": 28.34952,
+                    "lb": 453.59237
+                }
+            elif unit in cup_names:
+                item["conversion_to_grams"] = {
+                    "tsp": grams/amount/48.0,
+                    "tbsp": grams/amount/16.0,
+                    "cup": grams/amount,
+                    "oz": 28.34952,
+                    "lb": 453.59237
+                }
+            elif unit in oz_names:
+                item["conversion_to_grams"] = {
+                    "oz": grams/amount,
+                    "lb": grams/amount*16.0
+                }
+            elif unit in lb_names:
+                item["conversion_to_grams"] = {
+                    "oz": grams/amount/16.0,
+                    "lb": grams/amount
+                }
+
+            price = item["price_per_unit"]["price"]
+            price_unit = item["price_per_unit"]["unit"]
+            calculated_price = 0.0
+            if price_unit in item["conversion_to_grams"]:
+                calculated_price = 100.0/item["conversion_to_grams"][price_unit] * price
+
+            item["per_100_gram"] = {
+                "calories": 100.0/grams*serving["calories"],
+                "protein": 100.0/grams*serving["protein"],
+                "price": calculated_price
+            }
+
 
 # calculates nutrition info of all the recipes
 def calculate_nutrition(all_recipes, pantry):
@@ -68,7 +165,7 @@ def calculate_nutrition_with_categories(recipe, ingredient_category, pantry):
     ingredients = ingredient_category["ingredients"]
 
     # if the recipe already has existing nutrition info
-    if (recipe.has_key("nutrition")):
+    if recipe.has_key("nutrition"):
         total_calories = recipe["nutrition"]["calories"]
         total_protein = recipe["nutrition"]["protein"]
         total_price = recipe["nutrition"]["price"]
@@ -90,7 +187,6 @@ def calculate_nutrition_with_categories(recipe, ingredient_category, pantry):
         "protein": total_protein,
         "price": total_price
     }
-
 
 # calculate the nutrition of a single ingredient from a recipe
 def calculate_ingredient_nutrition(ingredient, pantry):

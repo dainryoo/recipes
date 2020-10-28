@@ -423,6 +423,21 @@
         }
       },
       {
+        "name": "green_onion",
+        "label": "green onion",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 25,
+          "calories": 8,
+          "protein": 0.458
+        },
+        "price_per_unit": {
+          "price": 0.2,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "jalapeno",
         "label": "jalapeno",
         "conversion_to_grams": {
@@ -474,6 +489,21 @@
           "calories": 79,
           "protein": 2,
           "price": 0.331
+        }
+      },
+      {
+        "name": "romaine",
+        "label": "romaine",
+        "serving_nutrition": {
+          "amount": 85,
+          "unit": "g",
+          "grams": 85,
+          "calories": 15,
+          "protein": 1
+        },
+        "price_per_unit": {
+          "price": 9.12,
+          "unit": "lb"
         }
       },
       {
@@ -580,272 +610,511 @@
       {
         "name": "almond_extract",
         "label": "almond extract",
-        "conversion_to_grams": {
-          "tsp": 4.333,
-          "tbsp": 13
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 5,
+          "calories": 12,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 285.714,
-          "protein": 0.0,
-          "price": 7.610
+        "price_per_unit": {
+          "price": 2.25,
+          "unit": "oz"
         }
       },
       {
-        "name": "basil",
-        "label": "basil",
-        "conversion_to_grams": {
-          "tbsp": 2.6,
-          "cup": 24
+        "name": "basil_dried",
+        "label": "basil dried",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 2.1,
+          "calories": 4.89,
+          "protein": 0.483
         },
-        "per_100_gram": {
+        "price_per_unit": {
+          "price": 11.39,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "basil_fresh",
+        "label": "basil fresh",
+        "serving_nutrition": {
+          "amount": 0.25,
+          "unit": "cup",
+          "grams": 6,
+          "calories": 1.38,
+          "protein": 0.189
+        },
+        "price_per_unit": {
+          "price": 4.98,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "basil_ground",
+        "label": "basil ground",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 4.5,
+          "calories": 10.5,
+          "protein": 1.03
+        },
+        "price_per_unit": {
+          "price": 1.17,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "bay_leaf",
+        "label": "bay leaf",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 0.5,
+          "calories": 0,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 19.93,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "cardamom_ground",
+        "label": "cardamom ground",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 5.8,
+          "calories": 18,
+          "protein": 0.624
+        },
+        "price_per_unit": {
+          "price": 2.94,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "cardamom_pod",
+        "label": "cardamom pod (green)",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 7.4,
           "calories": 23,
-          "protein": 3.15,
-          "price": 6.22916667
+          "protein": 0.8
+        },
+        "price_per_unit": {
+          "price": 5.99,
+          "unit": "oz"
         }
       },
       {
         "name": "cayenne_pepper",
         "label": "cayenne pepper",
-        "conversion_to_grams": {
-          "tsp": 1.8,
-          "tbsp": 5.3
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 5.3,
+          "calories": 16.9,
+          "protein": 0.637
         },
-        "per_100_gram": {
-          "calories": 318,
-          "protein": 12.01,
-          "price": 5.98
+        "price_per_unit": {
+          "price": 1.90,
+          "unit": "oz"
         }
       },
       {
-        "name": "cinnamon",
-        "label": "cinnamon",
-        "conversion_to_grams": {
-          "tsp": 2.6,
-          "tbsp": 7.8
+        "name": "cilantro_fresh",
+        "label": "cilantro fresh",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 16,
+          "calories": 3.68,
+          "protein": 0.341
         },
-        "per_100_gram": {
-          "calories": 246.923,
-          "protein": 4,
-          "price": 5.246
+        "price_per_unit": {
+          "price": 9.93333333,
+          "unit": "lb"
         }
       },
       {
-        "name": "clove_ground",
-        "label": "ground clove",
-        "conversion_to_grams": {
-          "tsp": 2.1,
-          "tbsp": 6.5
+        "name": "cinnamon_ground",
+        "label": "cinnamon ground",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 7.8,
+          "calories": 19.3,
+          "protein": 0.311
         },
-        "per_100_gram": {
-          "calories": 274,
-          "protein": 5.97,
-          "price": 11.302
+        "price_per_unit": {
+          "price": 1.49,
+          "unit": "oz"
         }
       },
       {
-        "name": "clove_whole",
-        "label": "whole clove",
-        "per_unit": {
-          "calories": 0.0,
-          "protein": 0.0,
-          "price": 0.0
+        "name": "cinnamon_stick",
+        "label": "cinnamon stick",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 1.3,
+          "calories": 3.2,
+          "protein": 0.1
         },
-        "conversion_to_grams": {
-          "tsp": 2,
-          "tbsp": 6
-        },
-        "per_100_gram": {
-          "calories": 286,
-          "protein": 4.76,
-          "price": 15.594
+        "price_per_unit": {
+          "price": 1.26,
+          "unit": "oz"
         }
       },
       {
-        "name": "cumin",
-        "label": "cumin",
-        "conversion_to_grams": {
-          "tsp": 2.8,
-          "tbsp": 8.4
+        "name": "cloves_ground",
+        "label": "ground cloves",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 6.5,
+          "calories": 17.8,
+          "protein": 0.388
         },
-        "per_100_gram": {
-          "tsp": 50,
-          "tbsp": 16.667,
-          "calories": 0,
-          "protein": 0,
-          "price": 6.953
+        "price_per_unit": {
+          "price": 3.51,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "cloves_whole",
+        "label": "whole cloves",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 2.1,
+          "calories": 6.01,
+          "protein": 0.1
+        },
+        "price_per_unit": {
+          "price": 5.65,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "coriander_ground",
+        "label": "coriander ground",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 1.8,
+          "calories": 5.4,
+          "protein": 0.2
+        },
+        "price_per_unit": {
+          "price": 4.11,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "cumin_ground",
+        "label": "cumin ground",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 6,
+          "calories": 10,
+          "protein": 0.4
+        },
+        "price_per_unit": {
+          "price": 2.59,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "cumin_seed",
+        "label": "cumin seed",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 6,
+          "calories": 22.5,
+          "protein": 1.07
+        },
+        "price_per_unit": {
+          "price": 2.40,
+          "unit": "lb"
         }
       },
       {
         "name": "garlic",
         "label": "garlic",
-        "per_unit": {
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 3,
           "calories": 4.47,
-          "protein": 0.191,
-          "price": 0.06
+          "protein": 0.191
+        },
+        "price_per_unit": {
+          "price": 3.99,
+          "unit": "lb"
         }
       },
       {
         "name": "ginger",
         "label": "ginger",
-        "conversion_to_grams": {
-          "tsp": 2,
-          "tbsp": 6
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 2,
+          "calories": 1.6,
+          "protein": 0.036
         },
-        "per_100_gram": {
-          "calories": 80,
-          "protein": 1.82,
-          "price": 0.879644426
+        "price_per_unit": {
+          "price": 3.99,
+          "unit": "lb"
         }
       },
       {
         "name": "ginger_ground",
         "label": "ground ginger",
-        "conversion_to_grams": {
-          "tsp": 1.8,
-          "tbsp": 5.2
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 5.2,
+          "calories": 17.4,
+          "protein": 0.467
         },
-        "per_100_gram": {
-          "calories": 335,
-          "protein": 8.98,
-          "price": 7.868
+        "price_per_unit": {
+          "price": 2.23,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "nutmeg",
+        "label": "nutmeg ground",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 7,
+          "calories": 36.8,
+          "protein": 0.409
+        },
+        "price_per_unit": {
+          "price": 2.16,
+          "unit": "oz"
         }
       },
       {
         "name": "nutritional_yeast",
         "label": "nutritional yeast",
-        "conversion_to_grams": {
-          "tsp": 1.66666667,
-          "tbsp": 5,
-          "cup": 80
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 9,
+          "calories": 35,
+          "protein": 5
         },
-        "per_100_gram": {
-          "calories": 500,
-          "protein": 40,
-          "price": 5.110
+        "price_per_unit": {
+          "price": 2.00,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "oregano",
+        "label": "oregano dried",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 1,
+          "calories": 2.65,
+          "protein": 0.09
+        },
+        "price_per_unit": {
+          "price": 8.54,
+          "unit": "oz"
         }
       },
       {
         "name": "parsley_dried",
         "label": "dried parsley",
-        "conversion_to_grams": {
-          "tsp": 0.5,
-          "tbsp": 1.6
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 1.6,
+          "calories": 4.67,
+          "protein": 0.426
         },
-        "per_100_gram": {
-          "calories": 292,
-          "protein": 27,
-          "price": 42.714
+        "price_per_unit": {
+          "price": 16.63,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "parsley_fresh",
+        "label": "fresh parsley",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 60,
+          "calories": 21.6,
+          "protein": 1.78
+        },
+        "price_per_unit": {
+          "price": 4.95,
+          "unit": "lb"
         }
       },
       {
         "name": "pepper_black",
         "label": "black pepper",
-        "conversion_to_grams": {
-          "tsp": 2.3,
-          "tbsp": 6.9
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 6.9,
+          "calories": 17.3,
+          "protein": 0.717
         },
-        "per_100_gram": {
-          "calories": 251,
-          "protein": 10,
-          "price": 3.741
+        "price_per_unit": {
+          "price": 2.62,
+          "unit": "oz"
         }
       },
       {
         "name": "peppercorn",
         "label": "peppercorns",
-        "per_unit": {
-          "calories": 0,
-          "protein": 0,
-          "price": 0.0
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 2.9,
+          "calories": 7.28,
+          "protein": 0.301
         },
-        "conversion_to_grams": {
-          "tsp": 2.9,
-          "tbsp": 8.7
+        "price_per_unit": {
+          "price": 2.67,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "rosemary",
+        "label": "rosemary",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 1.7,
+          "calories": 2.23,
+          "protein": 0.056
         },
-        "per_100_gram": {
-          "calories": 250,
-          "protein": 0,
-          "price": 3.741
+        "price_per_unit": {
+          "price": 4.98,
+          "unit": "oz"
         }
       },
       {
         "name": "rosemary_dried",
         "label": "dried rosemary",
-        "conversion_to_grams": {
-          "tsp": 1.2,
-          "tbsp": 3.3
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 3.3,
+          "calories": 10.9,
+          "protein": 0.161
         },
-        "per_100_gram": {
-          "calories": 331,
-          "protein": 4.88,
-          "price": 24.938
+        "price_per_unit": {
+          "price": 7.13,
+          "unit": "oz"
         }
       },
       {
         "name": "sage_ground",
         "label": "ground sage",
-        "conversion_to_grams": {
-          "tsp": 0.7,
-          "tbsp": 2
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 2,
+          "calories": 6.3,
+          "protein": 0.213
         },
-        "per_100_gram": {
-          "calories": 315,
-          "protein": 10.63,
-          "price": 11.4
+        "price_per_unit": {
+          "price": 6.14,
+          "unit": "oz"
         }
       },
       {
         "name": "salt",
         "label": "salt",
-        "conversion_to_grams": {
-          "tsp": 6,
-          "tbsp": 18,
-          "cup": 288
-        },
-        "per_100_gram": {
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 18,
           "calories": 0,
-          "protein": 0,
-          "price": 0.271
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.08,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "star_anise",
+        "label": "star anise",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 0.2,
+          "calories": 0.7,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 1.75,
+          "unit": "oz"
         }
       },
       {
         "name": "thyme_dried",
         "label": "dried thyme",
-        "conversion_to_grams": {
-          "tsp": 1,
-          "tbsp": 2.7
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 2.7,
+          "calories": 7.45,
+          "protein": 0.246
         },
-        "per_100_gram": {
-          "calories": 276,
-          "protein": 9.1,
-          "price": 27.722
+        "price_per_unit": {
+          "price": 7.04,
+          "unit": "oz"
         }
       },
       {
         "name": "turmeric",
         "label": "turmeric",
-        "conversion_to_grams": {
-          "tsp": 3,
-          "tbsp": 9.4
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 9.4,
+          "calories": 29.3,
+          "protein": 0.91
         },
-        "per_100_gram": {
-          "calories": 312,
-          "protein": 9.68,
-          "price": 6.362
+        "price_per_unit": {
+          "price": 1.80,
+          "unit": "oz"
         }
       },
       {
         "name": "vanilla_extract",
         "label": "vanilla extract",
-        "conversion_to_grams": {
-          "tsp": 4.333,
-          "tbsp": 13,
-          "cup": 208
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 13,
+          "calories": 38,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 288,
-          "protein": 0.1,
-          "price": 15.237
+        "price_per_unit": {
+          "price": 3.75,
+          "unit": "oz"
         }
       }
     ]
@@ -863,6 +1132,17 @@
           "calories": 295.294117647,
           "protein": 30.5882352941,
           "price": 1.54103121
+        },
+        "serving_nutrition": {
+          "amount": 3,
+          "unit": "oz",
+          "grams": 85,
+          "calories": 251,
+          "protein": 26
+        },
+        "price_per_unit": {
+          "price": 5.99,
+          "unit": "lb"
         }
       },
       {
@@ -880,25 +1160,31 @@
       {
         "name": "beef_ground_80",
         "label": "ground beef (80% lean)",
-        "conversion_to_grams": {
-          "oz": 28.25
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 112,
+          "calories": 280,
+          "protein": 19
         },
-        "per_100_gram": {
-          "calories": 254,
-          "protein": 17.17,
-          "price": 1.1039823
+        "price_per_unit": {
+          "price": 4.99,
+          "unit": "lb"
         }
       },
       {
         "name": "beef_ground_85",
         "label": "ground beef (85% lean)",
-        "conversion_to_grams": {
-          "oz": 28.25
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 112,
+          "calories": 240,
+          "protein": 21
         },
-        "per_100_gram": {
-          "calories": 215,
-          "protein": 18.59,
-          "price": 1.21460177
+        "price_per_unit": {
+          "price": 5.49,
+          "unit": "lb"
         }
       },
       {
@@ -927,12 +1213,32 @@
         }
       },
       {
+        "name": "chicken_thigh",
+        "label": "chicken thigh",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 112,
+          "calories": 150,
+          "protein": 20
+        },
+        "price_per_unit": {
+          "price": 4.99,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "egg",
         "label": "egg",
-        "per_unit": {
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
           "calories": 60,
-          "protein": 6,
-          "price": 0.25
+          "protein": 6
+        },
+        "price_per_unit": {
+          "price": 0.25,
+          "unit": ""
         }
       },
       {
@@ -956,19 +1262,16 @@
       {
         "name": "egg_large",
         "label": "large egg",
-        "per_unit": {
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 50,
           "calories": 70,
-          "protein": 6,
-          "price": 0.25
-        }
-      },
-      {
-        "name": "egg_small",
-        "label": "small egg",
-        "per_unit": {
-          "calories": 50,
-          "protein": 6,
-          "price": 0.22
+          "protein": 6
+        },
+        "price_per_unit": {
+          "price": 0.25,
+          "unit": ""
         }
       },
       {
@@ -1011,106 +1314,161 @@
     ]
   },
   {
+    "category_name": "protein",
+    "items": [
+      {
+        "name": "tofu_firm",
+        "label": "tofu firm",
+        "serving_nutrition": {
+          "amount": 3,
+          "unit": "oz",
+          "grams": 85,
+          "calories": 70,
+          "protein": 7
+        },
+        "price_per_unit": {
+          "price": 0.16,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "tofu_silken",
+        "label": "tofu silken",
+        "serving_nutrition": {
+          "amount": 3,
+          "unit": "oz",
+          "grams": 85,
+          "calories": 60,
+          "protein": 5
+        },
+        "price_per_unit": {
+          "price": 0.17,
+          "unit": "oz"
+        }
+      }
+    ]
+  },
+  {
     "category_name": "dairy",
     "items": [
       {
         "name": "butter",
         "label": "butter",
-        "conversion_to_grams": {
-          "tsp": 4.66666667,
-          "tbsp": 14,
-          "cup": 224
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 14,
+          "calories": 100,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 714.286,
-          "protein": 0,
-          "price": 2.912
+        "price_per_unit": {
+          "price": 0.37,
+          "unit": "oz"
         }
       },
       {
         "name": "buttermilk",
-        "label": "buttermilk",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "label": "buttermilk (from almond milk)",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 240,
+          "calories": 30,
+          "protein": 1
         },
-        "per_100_gram": {
-          "calories": 11.719,
-          "protein": 0,
-          "price": 0
+        "price_per_unit": {
+          "price": 0.055,
+          "unit": "oz"
         }
       },
       {
         "name": "cheese_mozzarella",
-        "label": "mozzarella",
-        "conversion_to_grams": {
-          "oz": 28
-        },
-        "per_100_gram": {
+        "label": "mozzarella (whole millk)",
+        "serving_nutrition": {
+          "amount": 100,
+          "unit": "g",
+          "grams": 100,
           "calories": 300,
-          "protein": 22.17,
-          "price": 1.54103121
+          "protein": 22.17
+        },
+        "price_per_unit": {
+          "price": 6.99,
+          "unit": "lb"
         }
       },
       {
         "name": "cheese_parmesan",
         "label": "parmesan",
-        "conversion_to_grams": {
-          "oz": 28,
-          "tbsp": 7.6,
-          "cup": 121.6
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 5,
+          "calories": 22,
+          "protein": 1.9
         },
-        "per_100_gram": {
-          "calories": 392.857143,
-          "protein": 32.1428571,
-          "price": 5.09693878
+        "price_per_unit": {
+          "price": 20.99,
+          "unit": "lb"
         }
       },
       {
         "name": "cream_cheese",
         "label": "cream cheese",
-        "conversion_to_grams": {
-          "tsp": 4.66666667,
-          "tbsp": 14,
-          "cup": 224,
-          "oz": 28
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tbsp",
+          "grams": 28,
+          "calories": 100,
+          "protein": 2
         },
-        "per_100_gram": {
-          "calories": 357.142857,
-          "protein": 7.14285714,
-          "price": 1.18502203
+        "price_per_unit": {
+          "price": 0.34,
+          "unit": "oz"
         }
       },
       {
         "name": "farmers_cheese",
         "label": "farmers cheese",
-        "conversion_to_grams": {
-          "tsp": 4.58333333,
-          "tbsp": 13.75,
-          "cup": 220
+        "serving_nutrition": {
+          "amount": 0.25,
+          "unit": "cup",
+          "grams": 55,
+          "calories": 80,
+          "protein": 6
         },
-        "per_100_gram": {
-          "tsp": 21.820,
-          "tbsp": 7.273,
-          "cup": 0.441,
-          "calories": 145.455,
-          "protein": 10.909,
-          "price": 1.209
+        "price_per_unit": {
+          "price": 0.34,
+          "unit": "oz"
         }
       },
       {
         "name": "milk_almond",
         "label": "almond milk",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 240,
+          "calories": 30,
+          "protein": 1
         },
-        "per_100_gram": {
-          "calories": 12.5,
-          "protein": 0,
-          "price": 0.210
+        "price_per_unit": {
+          "price": 0.04,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "milk_oat",
+        "label": "oat milk (365)",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 240,
+          "calories": 120,
+          "protein": 3
+        },
+        "price_per_unit": {
+          "price": 0.05,
+          "unit": "oz"
         }
       }
     ]
@@ -1121,63 +1479,91 @@
       {
         "name": "canned_black_beans",
         "label": "canned black beans",
-        "per_unit": {
-          "avg_grams": 425,
-          "calories": 385,
-          "protein": 24.5,
-          "price": 0.79
+        "serving_nutrition": {
+          "amount": 0.5,
+          "unit": "cup",
+          "grams": 130,
+          "calories": 120,
+          "protein": 8
         },
-        "per_100_gram": {
-          "cup": 0.385,
-          "calories": 84.615,
-          "protein": 5.385,
-          "price": 0.186
+        "price_per_unit": {
+          "price": 0.07,
+          "unit": "oz"
         }
       },
       {
         "name": "canned_chickpeas",
         "label": "canned chickpeas",
-        "per_unit": {
-          "avg_grams": 427,
-          "calories": 385,
-          "protein": 21,
-          "price": 1.08
+        "serving_nutrition": {
+          "amount": 0.5,
+          "unit": "cup",
+          "grams": 122,
+          "calories": 110,
+          "protein": 6
         },
-        "per_100_gram": {
-          "cup": 0.410,
-          "calories": 90.164,
-          "protein": 4.918,
-          "price": 0.253
+        "price_per_unit": {
+          "price": 0.08,
+          "unit": "oz"
         }
       },
       {
         "name": "canned_pinto_beans",
         "label": "canned pinto beans",
-        "per_unit": {
-          "avg_grams": 439,
-          "calories": 385,
-          "protein": 24.5,
-          "price": 0.99
+        "serving_nutrition": {
+          "amount": 0.5,
+          "unit": "cup",
+          "grams": 130,
+          "calories": 110,
+          "protein": 7
         },
-        "per_100_gram": {
-          "cup": 0.385,
-          "calories": 84.615,
-          "protein": 5.385,
-          "price": 0.226
+        "price_per_unit": {
+          "price": 0.07,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "coconut_milk_canned",
+        "label": "coconut milk canned (light)",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 240,
+          "calories": 135,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.14,
+          "unit": "oz"
         }
       },
       {
         "name": "condensed_milk",
         "label": "condensed milk",
-        "conversion_to_grams": {
-          "tsp": 6.5,
-          "tbsp": 19.5,
-          "cup": 312
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tbsp",
+          "grams": 39,
+          "calories": 130,
+          "protein": 3
         },
-        "per_100_gram": {
-          "calories": 333.333,
-          "protein": 7.692,
-          "price": 0.879
+        "price_per_unit": {
+          "price": 0.25,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "pupmkin_puree",
+        "label": "pupmkin puree",
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tbsp",
+          "grams": 39,
+          "calories": 130,
+          "protein": 3
+        },
+        "price_per_unit": {
+          "price": 0.25,
+          "unit": "oz"
         }
       }
     ]
@@ -1188,91 +1574,106 @@
       {
         "name": "flour",
         "label": "flour",
-        "conversion_to_grams": {
-          "tsp": 2.5,
-          "tbsp": 7.5,
-          "cup": 120
+        "serving_nutrition": {
+          "amount": 0.25,
+          "unit": "cup",
+          "grams": 30,
+          "calories": 110,
+          "protein": 3
         },
-        "per_100_gram": {
-          "calories": 366.667,
-          "protein": 7,
-          "price": 0.220
+        "price_per_unit": {
+          "price": 0.06,
+          "unit": "oz"
         }
       },
       {
         "name": "pasta",
         "label": "pasta",
-        "conversion_to_grams": {
-          "oz": 28
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 56,
+          "calories": 200,
+          "protein": 6
         },
-        "per_100_gram": {
-          "cup": 0.801,
-          "calories": 357.143,
-          "protein": 10.714,
-          "price": 0.438
+        "price_per_unit": {
+          "price": 0.09,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "rice_vermicelli",
+        "label": "rice vermicelli noodles (jiangxi)",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 56,
+          "calories": 200,
+          "protein": 4
+        },
+        "price_per_unit": {
+          "price": 0.0849431818,
+          "unit": "oz"
         }
       },
       {
         "name": "rice_white",
         "label": "white rice",
-        "conversion_to_grams": {
-          "cup": 180
+        "serving_nutrition": {
+          "amount": 0.25,
+          "unit": "cup",
+          "grams": 45,
+          "calories": 150,
+          "protein": 3
         },
-        "per_100_gram": {
-          "calories": 355.555556,
-          "protein": 6.66666667,
-          "price": 0.352794118
+        "price_per_unit": {
+          "price": 0.10,
+          "unit": "oz"
         }
       },
       {
         "name": "rice_flakes",
         "label": "rice flakes",
-        "conversion_to_grams": {
-          "oz": 27.5
+        "serving_nutrition": {
+          "amount": 55,
+          "unit": "g",
+          "grams": 55,
+          "calories": 190,
+          "protein": 4
         },
-        "per_100_gram": {
-          "calories": 345.454545,
-          "protein": 7.27272727,
-          "price": 1.71365639
-        }
-      },
-      {
-        "name": "rice_vermicelli",
-        "label": "rice vermicelli (Jiangxi)",
-        "conversion_to_grams": {
-          "cup": 56
-        },
-        "per_100_gram": {
-          "calories": 357.142857,
-          "protein": 7.14285714,
-          "price": 0.299
+        "price_per_unit": {
+          "price": 0.48625,
+          "unit": "oz"
         }
       },
       {
         "name": "rolled_oats",
         "label": "rolled oats (365)",
-        "conversion_to_grams": {
-          "tbsp": 5,
-          "cup": 80
+        "serving_nutrition": {
+          "amount": 0.5,
+          "unit": "cup",
+          "grams": 40,
+          "calories": 150,
+          "protein": 5
         },
-        "per_100_gram": {
-          "calories": 375,
-          "protein": 12.5,
-          "price": 0.58627451
+        "price_per_unit": {
+          "price": 0.13,
+          "unit": "oz"
         }
       },
       {
-        "name": "sesame_seeds",
-        "label": "sesame seeds",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "name": "sesame_seed",
+        "label": "sesame seed",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 5,
+          "calories": 35,
+          "protein": 1
         },
-        "per_100_gram": {
-          "calories": 700,
-          "protein": 20,
-          "price": 2.66225166
+        "price_per_unit": {
+          "price": 0.75,
+          "unit": "oz"
         }
       }
     ]
@@ -1283,141 +1684,166 @@
       {
         "name": "baking_powder",
         "label": "baking powder",
-        "conversion_to_grams": {
-          "tsp": 4.8,
-          "tbsp": 14.4,
-          "cup": 230.4
+        "serving_nutrition": {
+          "amount": 0.125,
+          "unit": "tsp",
+          "grams": 0.6,
+          "calories": 0,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 53,
-          "protein": 0,
-          "price": 0.703
+        "price_per_unit": {
+          "price": 0.99,
+          "unit": "oz"
         }
       },
       {
         "name": "baking_soda",
         "label": "baking soda",
-        "conversion_to_grams": {
-          "tsp": 4,
-          "tbsp": 12,
-          "cup": 192
-        },
-        "per_100_gram": {
+        "serving_nutrition": {
+          "amount": 0.125,
+          "unit": "tsp",
+          "grams": 0.6,
           "calories": 0,
-          "protein": 0,
-          "price": 0.181
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.05,
+          "unit": "oz"
         }
       },
       {
         "name": "cacao_nibs",
         "label": "cacao nibs (Alovitox)",
-        "conversion_to_grams": {
-          "tsp": 2,
-          "tbsp": 6
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 5,
+          "calories": 35,
+          "protein": 1
         },
-        "per_100_gram": {
-          "calories": 400,
-          "protein": 6.66666667,
-          "price": 7.4845815
+        "price_per_unit": {
+          "price": 1.5,
+          "unit": "oz"
         }
       },
       {
         "name": "cocoa_powder",
-        "label": "cocoa powder",
-        "conversion_to_grams": {
-          "tsp": 2,
-          "tbsp": 6,
-          "cup": 96
+        "label": "cocoa powder (Rodelle, Dutch Processed)",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 6,
+          "calories": 20,
+          "protein": 1
         },
-        "per_100_gram": {
-          "calories": 250,
-          "protein": 16.667,
-          "price": 2.639
+        "price_per_unit": {
+          "price": 0.85,
+          "unit": "oz"
         }
       },
       {
         "name": "cornstarch",
         "label": "cornstarch",
-        "conversion_to_grams": {
-          "tsp": 2.66666667,
-          "tbsp": 8,
-          "cup": 128
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 8,
+          "calories": 30,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 375,
-          "protein": 0,
-          "price": 0.438325991
+        "price_per_unit": {
+          "price": 0.12,
+          "unit": "oz"
         }
       },
       {
         "name": "sugar",
         "label": "sugar",
-        "conversion_to_grams": {
-          "tsp": 4,
-          "tbsp": 12,
-          "cup": 192
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tsp",
+          "grams": 8,
+          "calories": 30,
+          "protein": 0
         },
-        "per_100_gram": {
-          "tsp": 25,
-          "tbsp": 8.333,
-          "cup": 0.521,
-          "calories": 375,
-          "protein": 0,
-          "price": 0.418
+        "price_per_unit": {
+          "price": 0.05,
+          "unit": "oz"
         }
       },
       {
         "name": "sugar_brown",
         "label": "brown sugar",
-        "conversion_to_grams": {
-          "tsp": 4,
-          "tbsp": 12,
-          "cup": 192
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tsp",
+          "grams": 8,
+          "calories": 30,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 375,
-          "protein": 0,
-          "price": 0.557
+        "price_per_unit": {
+          "price": 0.16,
+          "unit": "oz"
         }
       },
       {
         "name": "sugar_powdered",
         "label": "powdered sugar",
-        "conversion_to_grams": {
-          "tsp": 2.5,
-          "tbsp": 7.5,
-          "cup": 120
+        "serving_nutrition": {
+          "amount": 0.25,
+          "unit": "cup",
+          "grams": 30,
+          "calories": 120,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 400,
-          "protein": 0,
-          "price": 1.375
+        "price_per_unit": {
+          "price": 0.47,
+          "unit": "oz"
         }
       },
       {
         "name": "vinegar_apple_cider",
         "label": "apple cider vinegar",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
-        },
-        "per_100_gram": {
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
           "calories": 0,
-          "protein": 0,
-          "price": 0.633
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.28,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "vinegar_white",
+        "label": "white vinegar",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
+          "calories": 0,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.09,
+          "unit": "oz"
         }
       },
       {
         "name": "yeast",
         "label": "yeast",
-        "per_100_gram": {
-          "tsp": 10.753,
-          "tbsp": 8.333,
-          "cup": 0.672,
-          "calories": 390,
-          "protein": 50,
-          "price": 1.751
+        "serving_nutrition": {
+          "amount": 0.25,
+          "unit": "tsp",
+          "grams": 0.8,
+          "calories": 0,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.57,
+          "unit": "oz"
         }
       }
     ]
@@ -1427,44 +1853,47 @@
     "items": [
       {
         "name": "oil",
-        "label": "oil",
-        "conversion_to_grams": {
-          "tsp": 4.66666667,
-          "tbsp": 14,
-          "cup": 224
+        "label": "canola oil",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 14,
+          "calories": 120,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 857.143,
-          "protein": 0,
-          "price": 0.316
+        "price_per_unit": {
+          "price": 0.11,
+          "unit": "oz"
         }
       },
       {
         "name": "oil_olive",
         "label": "olive oil",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
+          "calories": 120,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 800,
-          "protein": 0,
-          "price": 1.106
+        "price_per_unit": {
+          "price": 0.33,
+          "unit": "oz"
         }
       },
       {
         "name": "sesame_oil",
         "label": "sesame oil",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
+          "calories": 120,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 866.666667,
-          "protein": 0,
-          "price": 3.38140225
+        "price_per_unit": {
+          "price": 0.62,
+          "unit": "oz"
         }
       }
     ]
@@ -1475,71 +1904,76 @@
       {
         "name": "honey",
         "label": "honey",
-        "conversion_to_grams": {
-          "tsp": 7,
-          "tbsp": 21,
-          "cup": 336
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 21,
+          "calories": 60,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 285.714,
-          "protein": 0.0,
-          "price": 1.615
+        "price_per_unit": {
+          "price": 0.46,
+          "unit": "oz"
         }
       },
       {
         "name": "ketchup",
         "label": "ketchup",
-        "conversion_to_grams": {
-          "tsp": 5.66666667,
-          "tbsp": 17,
-          "cup": 272
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 17,
+          "calories": 20,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 117.647,
-          "protein": 0.0,
-          "price": 0.587
+        "price_per_unit": {
+          "price": 0.23,
+          "unit": "oz"
         }
       },
       {
         "name": "mustard_dijon",
         "label": "dijon mustard",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
-        },
-        "per_100_gram": {
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 5,
           "calories": 0,
-          "protein": 0,
-          "price": 0.876651982
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.25,
+          "unit": "oz"
         }
       },
       {
         "name": "tahini",
         "label": "tahini",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tbsp",
+          "grams": 30,
+          "calories": 210,
+          "protein": 6
         },
-        "per_100_gram": {
-          "calories": 700,
-          "protein": 20,
-          "price": 2.20044053
+        "price_per_unit": {
+          "price": 0.61,
+          "unit": "oz"
         }
       },
       {
         "name": "tomato_paste",
         "label": "tomato paste",
-        "conversion_to_grams": {
-          "tsp": 5.5,
-          "tbsp": 16.5,
-          "cup": 264
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tbsp",
+          "grams": 33,
+          "calories": 25,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 106.061,
-          "protein": 3.030,
-          "price": 0.424
+        "price_per_unit": {
+          "price": 0.13,
+          "unit": "oz"
         }
       }
     ]
@@ -1548,143 +1982,258 @@
     "category_name": "asian_sauces",
     "items": [
       {
-        "name": "curry_powder_korean",
-        "label": "korean curry powder",
-        "conversion_to_grams": {
-          "tsp": 6.66666667,
-          "tbsp": 20,
-          "cup": 320
+        "name": "curry_paste_thai_green",
+        "label": "curry paste thai green",
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tsp",
+          "grams": 10,
+          "calories": 10,
+          "protein": 0.4
         },
-        "per_100_gram": {
-          "calories": 400,
-          "protein": 5,
-          "price": 1.97200
+        "price_per_unit": {
+          "price": 0.26,
+          "unit": "oz"
         }
       },
       {
-        "name": "fermented_black_beans",
-        "label": "fermented black beans (douchi)",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "name": "curry_paste_thai_red",
+        "label": "curry paste thai red",
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tsp",
+          "grams": 10,
+          "calories": 10,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 226.666666667,
-          "protein": 28,
-          "price": 1.70704846
+        "price_per_unit": {
+          "price": 0.24,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "curry_paste_thai_yellow",
+        "label": "curry paste thai yellow",
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tsp",
+          "grams": 10,
+          "calories": 10,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.24,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "curry_powder_korean",
+        "label": "korean curry powder",
+        "serving_nutrition": {
+          "amount": 15,
+          "unit": "tbsp",
+          "grams": 20,
+          "calories": 80,
+          "protein": 1
+        },
+        "price_per_unit": {
+          "price": 0.56,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "doubanjiang",
+        "label": "chili_bean_sauce (doubanjiang)",
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tsp",
+          "grams": 20,
+          "calories": 10,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.65,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "douchi",
+        "label": "fermented black beans (douchi)",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
+          "calories": 34,
+          "protein": 4.2
+        },
+        "price_per_unit": {
+          "price": 0.48,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "fish_sauce",
+        "label": "fish sauce",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
+          "calories": 10,
+          "protein": 2
+        },
+        "price_per_unit": {
+          "price": 1.87,
+          "unit": "oz"
         }
       },
       {
         "name": "gochugaru",
         "label": "gochugaru",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "serving_nutrition": {
+          "amount": 0.25,
+          "unit": "tsp",
+          "grams": 1.25,
+          "calories": 4,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 400,
-          "protein": 80,
-          "price": 2.154
+        "price_per_unit": {
+          "price": 0.37,
+          "unit": "oz"
         }
       },
       {
         "name": "gochujang",
         "label": "gochujang",
-        "conversion_to_grams": {
-          "tsp": 6,
-          "tbsp": 18,
-          "cup": 288
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 6,
+          "calories": 10,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 166.667,
-          "protein": 0.0,
-          "price": 1.698
+        "price_per_unit": {
+          "price": 0.48,
+          "unit": "oz"
         }
       },
       {
         "name": "mirin",
         "label": "mirin",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tbsp",
+          "grams": 30,
+          "calories": 60,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 200,
-          "protein": 0,
-          "price": 4.86666667
+        "price_per_unit": {
+          "price": 1.32,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "shaoxing_wine",
+        "label": "shaoxing wine",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 40,
+          "calories": 54,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.74,
+          "unit": "oz"
         }
       },
       {
         "name": "soybean_paste",
         "label": "soybean paste",
-        "conversion_to_grams": {
-          "tsp": 6.33333333,
-          "tbsp": 19,
-          "cup": 304
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 6,
+          "calories": 5,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 184.210526,
-          "protein": 10.5263158,
-          "price": 2.99800
+        "price_per_unit": {
+          "price": 0.45,
+          "unit": "oz"
         }
       },
       {
         "name": "soy_sauce_dark",
         "label": "dark soy sauce",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
+          "calories": 10,
+          "protein": 1
         },
-        "per_100_gram": {
-          "calories": 66.6666667,
-          "protein": 6.66666667,
-          "price": 1.20287463
+        "price_per_unit": {
+          "price": 0.33,
+          "unit": "oz"
         }
       },
       {
         "name": "soy_sauce_light",
         "label": "light soy sauce",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
+          "calories": 5,
+          "protein": 1
         },
-        "per_100_gram": {
-          "calories": 33.333,
-          "protein": 6.667,
-          "price": 0.997
+        "price_per_unit": {
+          "price": 0.90,
+          "unit": "oz"
         }
       },
       {
         "name": "soy_sauce_sweet",
         "label": "sweet soy sauce",
-        "conversion_to_grams": {
-          "tsp": 6.66666667,
-          "tbsp": 20,
-          "cup": 320
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 20,
+          "calories": 60,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 300,
-          "protein": 0,
-          "price": 2.9925
+        "price_per_unit": {
+          "price": 0.85,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "sriracha",
+        "label": "sriracha",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 5,
+          "calories": 0,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.29,
+          "unit": "oz"
         }
       },
       {
         "name": "vinegar_rice",
         "label": "rice (wine) vinegar",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
-        },
-        "per_100_gram": {
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
           "calories": 0,
-          "protein": 0,
-          "price": 0.873239437
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.41,
+          "unit": "oz"
         }
       }
     ]
@@ -1693,17 +2242,33 @@
     "category_name": "misc",
     "items": [
       {
+        "name": "frozen_dinner_roll",
+        "label": "frozen dinner roll",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 38,
+          "calories": 100,
+          "protein": 2
+        },
+        "price_per_unit": {
+          "price": 0.08,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "water",
         "label": "water",
-        "conversion_to_grams": {
-          "tsp": 5,
-          "tbsp": 15,
-          "cup": 240
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 240,
+          "calories": 0,
+          "protein": 0
         },
-        "per_100_gram": {
-          "calories": 0.0,
-          "protein": 0.0,
-          "price": 0.0
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "oz"
         }
       }
     ]

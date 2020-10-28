@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from "react-redux";
 import recipesData from '../data/recipes-with-nutrition.json';
-import pantryData from '../data/pantry.json';
+import pantryData from '../data/generated-pantry.json';
 
 const Sidebar = (props) => {
 

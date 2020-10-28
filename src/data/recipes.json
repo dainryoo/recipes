@@ -47,7 +47,7 @@
           { "name": "milk_almond", "amount": 0.5, "unit": "cup" },
           { "name": "sugar", "amount": 1, "unit": "tbsp" },
           { "name": "butter", "amount": 1, "unit": "tbsp" },
-          { "name": "cinnamon", "amount": 0.25, "unit": "tsp" },
+          { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
           { "name": "vanilla_extract", "amount": 0.25, "unit": "tsp" }
         ],
         "directions": [
@@ -128,7 +128,7 @@
           { "name": "oregano", "note": "or thyme or rosemary", "amount": 0.25, "unit": "tsp" },
           { "name": "sugar_brown", "amount": 1, "unit": "tsp" },
           { "name": "gochugaru", "note": "or cayenne", "amount": 0.125, "unit": "tsp" },
-          { "name": "clove_ground", "note": "or nutmeg. just a pinch", "amount": 0.125, "unit": "tsp" }
+          { "name": "cloves_ground", "note": "or nutmeg. just a pinch", "amount": 0.125, "unit": "tsp" }
         ],
         "directions": [
           "Mix all spices. Add spices to pork. Nice to let sit for a few hours to marinate.",
@@ -148,12 +148,12 @@
             "name": "spice_mix",
             "label": "spice mix",
             "ingredients": [
-              { "name": "clove_whole", "amount": 2, "unit": "tsp" },
-              { "name": "cardamom", "amount": 2, "unit": "tsp" },
+              { "name": "cloves_ground", "amount": 2, "unit": "tsp" },
+              { "name": "cardamom_ground", "amount": 2, "unit": "tsp" },
               { "name": "peppercorn", "amount": 2, "unit": "tsp" },
-              { "name": "cinnamon", "amount": 2, "unit": "tsp" },
-              { "name": "ginger", "amount": 1, "unit": "tsp" },
-              { "name": "nutmeg", "amount": 0.25, "unit": "" },
+              { "name": "cinnamon_ground", "amount": 2, "unit": "tsp" },
+              { "name": "ginger_ground", "amount": 1, "unit": "tsp" },
+              { "name": "nutmeg", "amount": 0.25, "unit": "tsp" },
               { "name": "star_anise", "amount": 0.25, "unit": "" }
             ]
           },
@@ -183,7 +183,7 @@
           { "name": "sugar", "amount": 2, "unit": "tsp" },
           { "name": "turmeric", "amount": 1, "unit": "tsp" },
           { "name": "vanilla_extract", "amount": 1, "unit": "tsp" },
-          { "name": "cinnamon", "amount": 0.25, "unit": "tsp" },
+          { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
           { "name": "ginger_ground", "amount": 0.25, "unit": "tsp" },
           { "name": "pepper, cloves, cardamom, nutmeg", "amount": 1, "unit": "" }
         ],
@@ -201,7 +201,7 @@
           { "name": "sugar_brown", "note": "packed", "amount": 0.75, "unit": "cup" },
           { "name": "flour", "amount": 1.75, "unit": "cup" },
           { "name": "baking_soda", "amount": 0.5, "unit": "tsp" },
-          { "name": "cinnamon", "amount": 0.5, "unit": "tsp" }
+          { "name": "cinnamon_ground", "amount": 0.5, "unit": "tsp" }
         ],
         "directions": [
           "https://fortheloveofcooking.net/2017/01/ultimate-banana-bread.html",
@@ -458,9 +458,9 @@
               { "name": "sugar", "amount": 0.25, "unit": "cup" },
               { "name": "apple", "noted": "thinly sliced, 2\" length pieces", "amount": 2, "unit": "" },
               { "name": "lemon_zest", "amount": 0.75, "unit": "tsp" },
-              { "name": "cinnamon", "amount": 0.25, "unit": "tsp" },
+              { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
               { "name": "nutmeg", "amount": 0.125, "unit": "tsp" },
-              { "name": "clove_ground", "amount": 0.125, "unit": "tsp" },
+              { "name": "cloves_ground", "amount": 0.125, "unit": "tsp" },
               { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
               { "name": "milk_almond", "amount": 2, "unit": "tsp" }
             ]
@@ -488,7 +488,7 @@
               { "name": "flour", "amount": 0.5, "unit": "cup" },
               { "name": "baking_soda", "amount": 0.5, "unit": "tsp" },
               { "name": "salt", "amount": 0.125, "unit": "tsp" },
-              { "name": "cinnamon", "note": "also try nutmeg and ginger", "amount": 0.5, "unit": "tsp" },
+              { "name": "cinnamon_ground", "note": "also try nutmeg and ginger", "amount": 0.5, "unit": "tsp" },
               { "name": "oil", "note": "try lowering", "amount": 50, "unit": "ml" },
               { "name": "sugar", "amount": 25, "unit": "g" },
               { "name": "sugar_brown", "amount": 25, "unit": "g" },
@@ -527,15 +527,15 @@
           { "name": "egg", "amount": 2, "unit": "" },
           { "name": "sugar_brown", "amount": 0.5, "unit": "cup" },
           { "name": "sugar", "note": "try not using", "amount": 0.25, "unit": "cup" },
-          { "name": "cinnamon", "amount": 2, "unit": "tsp" },
+          { "name": "cinnamon_ground", "amount": 2, "unit": "tsp" },
           { "name": "ginger_ground", "amount": 1, "unit": "tsp" },
           { "name": "nutmeg", "note": "try 1/2 tsp", "amount": 0.25, "unit": "tsp" },
-          { "name": "cloves", "note": "try 1/2 tsp", "amount": 0.25, "unit": "tsp" },
-          { "name": "cardamom", "amount": 0.125, "unit": "tsp" },
+          { "name": "cloves_ground", "note": "try 1/2 tsp", "amount": 0.25, "unit": "tsp" },
+          { "name": "cardamom_ground", "amount": 0.125, "unit": "tsp" },
           { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
-          { "name": "vanilla", "note": "optional", "amount": 1, "unit": "tsp" },
+          { "name": "vanilla_extract", "note": "optional", "amount": 1, "unit": "tsp" },
           { "name": "pumpkin_puree", "amount": 15, "unit": "oz" },
-          { "name": "milk", "amount": 1.25, "unit": "cup" },
+          { "name": "milk_almond", "amount": 1.25, "unit": "cup" },
           { "name": "cornstarch", "amount": 2, "unit": "tsp" }
         ],
         "directions": [
@@ -592,7 +592,7 @@
         "name": "chocolate_hummus",
         "label": "chocolate hummus",
         "ingredients": [
-          { "name": "canned_black_beans", "amount": 1, "unit": "" },
+          { "name": "canned_black_beans", "amount": 15, "unit": "oz" },
           { "name": "cocoa_powder", "amount": 4, "unit": "tbsp" },
           { "name": "sugar", "amount": 30, "unit": "g" },
           { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
@@ -611,8 +611,8 @@
           { "name": "cocoa_powder", "amount": 1, "unit": "tbsp" },
           { "name": "salt", "amount": 0.25, "unit": "tsp" },
           { "name": "ginger_ground", "amount": 0.25, "unit": "tsp" },
-          { "name": "cinnamon", "amount": 0.5, "unit": "tsp" },
-          { "name": "clove_ground", "amount": 0.125, "unit": "tsp" },
+          { "name": "cinnamon_ground", "amount": 0.5, "unit": "tsp" },
+          { "name": "cloves_ground", "amount": 0.125, "unit": "tsp" },
           { "name": "cayenne_pepper", "amount": 0.25, "unit": "tsp" },
           { "name": "water", "note": "warm", "amount": 0.5, "unit": "tsp" },
           { "name": "baking_soda", "amount": 0.25, "unit": "tsp" },
@@ -657,7 +657,7 @@
           { "name": "baking_powder", "amount": 0.5, "unit": "tsp" },
           { "name": "baking_soda", "amount": 0.5, "unit": "tsp" },
           { "name": "salt", "amount": 0.5, "unit": "tsp" },
-          { "name": "cinnamon", "amount": 2, "unit": "tsp" },
+          { "name": "cinnamon_ground", "amount": 2, "unit": "tsp" },
           { "name": "nutmeg", "amount": 0.25, "unit": "tsp" },
           { "name": "oil", "note": "originally 1/2c", "amount": 0.25, "unit": "cup" },
           { "name": "sugar_brown", "note": "originally 1/2c", "amount": 0.25, "unit": "cup" },
@@ -685,7 +685,7 @@
           { "name": "sugar", "amount": 1, "unit": "tbsp" },
           { "name": "salt", "amount": 0.125, "unit": "tsp" },
           { "name": "water", "note": "boiling", "amount": 0.333, "unit": "cup" },
-          { "name": "milk", "note": "warm (~95C), reduce by 15-30g if humid", "amount": 0.667, "unit": "cup" },
+          { "name": "milk_almond", "note": "warm (~95C), reduce by 15-30g if humid", "amount": 0.667, "unit": "cup" },
           { "name": "yeast", "amount": 1, "unit": "tsp" },
           { "name": "egg", "amount": 2, "unit": "" },
           { "name": "oil", "amount": 2, "unit": "tbsp" },
@@ -738,7 +738,7 @@
         "ingredients": [
           { "name": "frozen_dinner_roll", "amount": 6, "unit": "" },
           { "name": "walnut", "amount": 12, "unit": "g" },
-          { "name": "cinnamon", "amount": 4, "unit": "g" },
+          { "name": "cinnamon_ground", "amount": 4, "unit": "g" },
           { "name": "sugar_brown", "amount": 32, "unit": "g" },
           { "name": "oil", "amount": 2, "unit": "tsp" }
         ],
@@ -769,9 +769,9 @@
         "label": "rolled egg (계란마리)",
         "ingredients": [
           { "name": "egg", "amount": 3, "unit": "" },
-          { "name": "green_onion", "amount": 2, "unit": "tbsp" },
+          { "name": "green_onion", "amount": 1, "unit": "" },
           { "name": "salt", "amount": 0.125, "unit": "tbsp" },
-          { "name": "pepper", "amount": 0.125, "unit": "tbsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tbsp" },
           { "name": "oil", "amount": 1, "unit": "tsp" }
         ],
         "directions": [
@@ -866,7 +866,7 @@
             "name": "protein_and_marinade",
             "label": "protein + marinade",
             "ingredients": [
-              { "name": "tofu_firm", "amount": 1, "unit": "" },
+              { "name": "tofu_firm", "amount": 18, "unit": "oz" },
               { "name": "cornstarch", "amount": 1, "unit": "tsp" },
               { "name": "oil", "amount": 1, "unit": "tsp" },
               { "name": "shaoxing_wine", "amount": 1, "unit": "tsp" }
@@ -953,7 +953,7 @@
               { "name": "soy_sauce_light", "amount": 1, "unit": "tsp" },
               { "name": "cornstarch", "amount": 1, "unit": "tsp" },
               { "name": "oil", "amount": 1, "unit": "tsp" },
-              { "name": "tofu_firm", "amount": 1, "unit": "" },
+              { "name": "tofu_firm", "amount": 18, "unit": "oz" },
               { "name": "oil", "note": "to cook", "amount": 2, "unit": "tsp" }
             ]
           },
@@ -1038,7 +1038,7 @@
             "label": "pancake",
             "ingredients": [
               { "name": "flour", "amount": 85, "unit": "g" },
-              { "name": "eggs", "amount": 2, "unit": "" },
+              { "name": "egg", "amount": 2, "unit": "" },
               { "name": "oil", "note": "on dough", "amount": 0.5, "unit": "tsp" },
               { "name": "oil", "note": "1 tsp per pancake", "amount": 2, "unit": "tsp" }
             ]
@@ -1097,7 +1097,7 @@
             "name": "sauce",
             "label": "sauce",
             "ingredients": [
-              { "name": "coriander", "amount": 1.5, "unit": "tbsp" },
+              { "name": "coriander_ground", "amount": 1.5, "unit": "tbsp" },
               { "name": "cumin_seed", "note": "toasted and ground", "amount": 1.5, "unit": "tbsp" },
               { "name": "chili_oil", "amount": 3, "unit": "tbsp" },
               { "name": "vinegar_rice", "amount": 2, "unit": "tbsp" },
@@ -1197,11 +1197,11 @@
           { "name": "garlic", "amount": 3, "unit": "" },
           { "name": "pork_ground_84", "amount": 8, "unit": "oz" },
           { "name": "doubanjiang", "amount": 1, "unit": "tbsp" },
-          { "name": "fermented_black_beans", "amount": 2, "unit": "tbsp" },
+          { "name": "douchi", "amount": 2, "unit": "tbsp" },
           { "name": "water", "amount": 0.67, "unit": "cup" },
           { "name": "cornstarch", "amount": 2, "unit": "tsp" },
           { "name": "chili_oil", "amount": 4, "unit": "tbsp" },
-          { "name": "tofu_silken", "amount": 1, "unit": "" }
+          { "name": "tofu_silken", "amount": 18, "unit": "oz" }
         ],
         "directions": [
           "Heat veg oil on wok, med heat.",
@@ -1237,7 +1237,7 @@
               { "name": "ginger", "note": "juilienned", "amount": 1, "unit": "tbsp" },
               { "name": "garlic", "note": "smashed and chopped", "amount": 3, "unit": "" },
               { "name": "green_onion", "note": "chopped, green and white separated", "amount": 3, "unit": "" },
-              { "name": "fermented_black_beans", "amount": 3, "unit": "tbsp" }
+              { "name": "douchi", "amount": 3, "unit": "tbsp" }
             ]
           },
           {
@@ -1278,7 +1278,7 @@
             "label": "lamb",
             "ingredients": [
               { "name": "lamb_shoulder", "note": "0.5\"x2\" pieces", "amount": 1, "unit": "lb" },
-              { "name": "cumin", "amount": 1, "unit": "tbsp" },
+              { "name": "cumin_ground", "amount": 1, "unit": "tbsp" },
               { "name": "cornstarch", "amount": 1.5, "unit": "tsp" },
               { "name": "oil", "note": "optional if lamb is a fattier cut", "amount": 1, "unit": "tbsp" },
               { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
@@ -1295,7 +1295,7 @@
               { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
               { "name": "sugar", "amount": 0.25, "unit": "tsp" },
               { "name": "green_onion", "note": "chopped", "amount": 2, "unit": "" },
-              { "name": "cilantro", "note": "chopped", "amount": 0.25, "unit": "cup" }
+              { "name": "cilantro_fresh", "note": "chopped", "amount": 0.25, "unit": "cup" }
             ]
           }
         ],
@@ -1454,7 +1454,7 @@
               { "name": "soy_sauce_light", "amount": 1, "unit": "tsp" },
               { "name": "cornstarch", "amount": 1, "unit": "tsp" },
               { "name": "oil", "amount": 1, "unit": "tsp" },
-              { "name": "tofu_firm", "amount": 1, "unit": "" },
+              { "name": "tofu_firm", "amount": 18, "unit": "oz" },
               { "name": "oil", "note": "to cook", "amount": 2, "unit": "tsp" }
             ]
           },
@@ -1487,7 +1487,7 @@
           { "name": "oil", "amount": 1, "unit": "tbsp" },
           { "name": "egg", "amount": 1, "unit": "" },
           { "name": "peanut", "amount": 18, "unit": "g" },
-          { "name": "tofu_firm", "amount": 1, "unit": "" },
+          { "name": "tofu_firm", "amount": 18, "unit": "oz" },
           { "name": "fish_sauce", "amount": 1.5, "unit": "tbsp" },
           { "name": "sugar", "amount": 1, "unit": "tbsp" },
           { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
@@ -1508,7 +1508,7 @@
         "label": "vague thai curry",
         "ingredients": [
           { "name": "oil", "amount": 1, "unit": "tbsp" },
-          { "name": "thai_curry_paste_red", "amount": 55, "unit": "g" },
+          { "name": "curry_paste_thai_red", "amount": 55, "unit": "g" },
           { "name": "coconut_milk_canned", "amount": 400, "unit": "ml" },
           { "name": "cornstarch", "amount": 1, "unit": "tsp" }
         ],
@@ -1530,7 +1530,7 @@
               { "name": "chicken_thigh", "amount": 1.3, "unit": "lb" },
               { "name": "garlic", "amount": 3, "unit": "" },
               { "name": "soy_sauce_light", "amount": 0.33, "unit": "cup" },
-              { "name": "vinegar", "amount": 90, "unit": "ml" },
+              { "name": "vinegar_white", "amount": 90, "unit": "ml" },
               { "name": "bay_leaf", "amount": 3, "unit": "" }
             ]
           },
@@ -1597,7 +1597,7 @@
               { "name": "carrot", "note": "juilienned", "amount": 1, "unit": "" },
               { "name": "cucumber", "note": "juilienned", "amount": 1, "unit": "" },
               { "name": "romaine", "amount": 7, "unit": "oz" },
-              { "name": "cilantro", "amount": 1, "unit": "" }
+              { "name": "cilantro_fresh", "amount": 1, "unit": "tbsp" }
             ]
           }
         ],
@@ -1639,10 +1639,10 @@
         "name": "refried_beans",
         "label": "refried beans",
         "ingredients": [
-          { "name": "canned_pinto_beans", "amount": 1, "unit": "" },
+          { "name": "canned_pinto_beans", "amount": 15, "unit": "oz" },
           { "name": "oil_olive", "amount": 2, "unit": "tsp" },
           { "name": "garlic", "amount": 1, "unit": "" },
-          { "name": "cumin", "amount": 0.5, "unit": "tsp" },
+          { "name": "cumin_ground", "amount": 0.5, "unit": "tsp" },
           { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
           { "name": "salt", "amount": 0.125, "unit": "tsp" },
           { "name": "lime_juice", "amount": 1, "unit": "tsp" }
@@ -1679,7 +1679,7 @@
         "name": "hummus",
         "label": "hummus",
         "ingredients": [
-          { "name": "canned_chickpeas", "amount": 1, "unit": "" },
+          { "name": "canned_chickpeas", "amount": 15.5, "unit": "oz" },
           { "name": "lemon_juice", "amount": 3, "unit": "tbsp" },
           { "name": "tahini", "amount": 2, "unit": "tbsp" },
           { "name": "garlic", "note": "dry roasted", "amount": 1, "unit": "" },
@@ -1696,7 +1696,7 @@
         "label": "pesto",
         "ingredients": [
           { "name": "pine_nut", "amount": 0.33, "unit": "cup" },
-          { "name": "basil", "note": "1.6oz ok...", "amount": 3, "unit": "oz" },
+          { "name": "basil_fresh", "note": "1.6oz ok...", "amount": 3, "unit": "oz" },
           { "name": "cheese_parmesan", "note": "grated", "amount": 0.25, "unit": "cup" },
           { "name": "lemon_juice", "amount": 1, "unit": "tbsp" },
           { "name": "garlic", "amount": 2, "unit": "" },
@@ -1796,9 +1796,9 @@
           { "name": "onion", "note": "chopped", "amount": 1, "unit": "" },
           { "name": "garlic", "note": "(2-4?)", "amount": 2, "unit": "" },
           { "name": "rice_white", "note": "should be long grained..", "amount": 1, "unit": "cup" },
-          { "name": "canned_black_beans", "note": "don't drain", "amount": 1, "unit": "" },
+          { "name": "canned_black_beans", "note": "don't drain", "amount": 15, "unit": "oz" },
           { "name": "water", "amount": 1.5, "unit": "cup" },
-          { "name": "cumin", "amount": 0.5, "unit": "tsp" },
+          { "name": "cumin_ground", "amount": 0.5, "unit": "tsp" },
           { "name": "oregano", "amount": 0.5, "unit": "tsp" },
           { "name": "bay_leaf", "amount": 1, "unit": "" },
           { "name": "salt", "amount": 0.125, "unit": "tsp" },
@@ -1826,12 +1826,12 @@
           { "name": "bell_pepper_red", "note": "thinly sliced", "amount": 1, "unit": "" },
           { "name": "garlic", "note": "chopped", "amount": 6, "unit": "" },
           { "name": "oregano", "amount": 1, "unit": "tsp" },
-          { "name": "cumin", "amount": 2, "unit": "tsp" },
+          { "name": "cumin_ground", "amount": 2, "unit": "tsp" },
           { "name": "gochugaru", "note": "to sub sweet paprika", "amount": 2, "unit": "tsp" },
           { "name": "dry_white_wine", "amount": 0.5, "unit": "cup" },
-          { "name": "broth_beef", "amount": 1, "unit": "cup" },
-          { "name": "canned_crushed_tomato", "note": "16 oz", "amount": 1, "unit": "" },
-          { "name": "parsley", "note": "chopped", "amount": 0.25, "unit": "cup" }
+          { "name": "water", "note": "sub for beef broth", "amount": 1, "unit": "cup" },
+          { "name": "canned_crushed_tomato", "amount": 16, "unit": "oz" },
+          { "name": "parsley_fresh", "note": "chopped", "amount": 0.25, "unit": "cup" }
         ],
         "directions": [
           "Season beef with salt and pepper.",
