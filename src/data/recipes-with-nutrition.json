@@ -14,7 +14,7 @@
             "calories": 60, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.25, 
+            "price": 0.22, 
             "protein": 6, 
             "unit": ""
           }, 
@@ -73,7 +73,7 @@
         "name": "syrniki", 
         "nutrition": {
           "calories": 692.5, 
-          "price": 3.05369238468, 
+          "price": 3.0236923846800003, 
           "protein": 33.75
         }
       }, 
@@ -185,7 +185,7 @@
             "calories": 180, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.75, 
+            "price": 0.66, 
             "protein": 18, 
             "unit": ""
           }, 
@@ -233,7 +233,7 @@
             "amount": 0.25, 
             "amount_in_grams": 0.65, 
             "calories": 1.6083333333333336, 
-            "label": "cinnamon ground", 
+            "label": "ground cinnamon", 
             "name": "cinnamon_ground", 
             "price": 0.034162835913976675, 
             "protein": 0.025916666666666668, 
@@ -254,7 +254,7 @@
         "name": "dutch_baby", 
         "nutrition": {
           "calories": 564.775, 
-          "price": 1.427648157711312, 
+          "price": 1.3376481577113124, 
           "protein": 24.525916666666667
         }
       }, 
@@ -387,7 +387,7 @@
             "calories": 60, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.25, 
+            "price": 0.22, 
             "protein": 6, 
             "unit": ""
           }, 
@@ -437,7 +437,7 @@
         "name": "fluffy_pancakes", 
         "nutrition": {
           "calories": 678.8333333333334, 
-          "price": 1.4773576413286715, 
+          "price": 1.4473576413286713, 
           "protein": 15.5
         }
       }, 
@@ -492,7 +492,7 @@
             "label": "egg", 
             "name": "egg", 
             "note": "beaten", 
-            "price": 0.25, 
+            "price": 0.22, 
             "protein": 6, 
             "unit": ""
           }, 
@@ -550,7 +550,7 @@
         "name": "banana_pancakes", 
         "nutrition": {
           "calories": 1108.8333333333335, 
-          "price": 2.261385646035629, 
+          "price": 2.2313856460356294, 
           "protein": 21.49666666666667
         }
       }, 
@@ -562,11 +562,11 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 988.83056, 
+            "calories": 987.4657699115045, 
             "label": "ground pork (84% lean)", 
             "name": "pork_ground_84", 
-            "price": 7.0146196596656, 
-            "protein": 81.64656, 
+            "price": 7.0146196460176995, 
+            "protein": 81.485996460177, 
             "unit": "lb"
           }, 
           {
@@ -604,7 +604,7 @@
             "amount": 0.25, 
             "amount_in_grams": 0.25, 
             "calories": 0.6625, 
-            "label": "oregano dried", 
+            "label": "dried oregano", 
             "name": "oregano", 
             "note": "or thyme or rosemary", 
             "price": 0.07530991706385151, 
@@ -625,7 +625,7 @@
             "amount": 0.125, 
             "amount_in_grams": 0.625, 
             "calories": 2.0, 
-            "label": "gochugaru", 
+            "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "note": "or cayenne", 
             "price": 0.008157104600007337, 
@@ -647,9 +647,9 @@
         "label": "breakfast patties", 
         "name": "breakfast_patties", 
         "nutrition": {
-          "calories": 1014.3180600000001, 
-          "price": 7.5661824962380235, 
-          "protein": 81.94672666666665
+          "calories": 1012.9532699115045, 
+          "price": 7.566182482590123, 
+          "protein": 81.78616312684366
         }
       }
     ]
@@ -680,7 +680,7 @@
                 "amount": 2, 
                 "amount_in_grams": 3.8666666666666667, 
                 "calories": 12.000000000000002, 
-                "label": "cardamom ground", 
+                "label": "ground cardamom", 
                 "name": "cardamom_ground", 
                 "price": 0.4009944436449012, 
                 "protein": 0.41600000000000004, 
@@ -700,7 +700,7 @@
                 "amount": 2, 
                 "amount_in_grams": 5.2, 
                 "calories": 12.866666666666669, 
-                "label": "cinnamon ground", 
+                "label": "ground cinnamon", 
                 "name": "cinnamon_ground", 
                 "price": 0.2733026873118134, 
                 "protein": 0.20733333333333334, 
@@ -720,7 +720,7 @@
                 "amount": 0.25, 
                 "amount_in_grams": 0.5833333333333334, 
                 "calories": 3.0666666666666664, 
-                "label": "nutmeg ground", 
+                "label": "ground nutmeg", 
                 "name": "nutmeg", 
                 "price": 0.04444519695571565, 
                 "protein": 0.034083333333333334, 
@@ -852,7 +852,7 @@
             "amount": 0.25, 
             "amount_in_grams": 0.65, 
             "calories": 1.6083333333333336, 
-            "label": "cinnamon ground", 
+            "label": "ground cinnamon", 
             "name": "cinnamon_ground", 
             "price": 0.034162835913976675, 
             "protein": 0.025916666666666668, 
@@ -918,7 +918,7 @@
             "label": "egg", 
             "name": "egg", 
             "note": "beaten", 
-            "price": 0.5, 
+            "price": 0.44, 
             "protein": 12, 
             "unit": ""
           }, 
@@ -957,7 +957,7 @@
             "amount": 0.5, 
             "amount_in_grams": 1.3, 
             "calories": 3.2166666666666672, 
-            "label": "cinnamon ground", 
+            "label": "ground cinnamon", 
             "name": "cinnamon_ground", 
             "price": 0.06832567182795335, 
             "protein": 0.051833333333333335, 
@@ -968,7 +968,7 @@
         "name": "banana_bread", 
         "nutrition": {
           "calories": 2758.2166666666667, 
-          "price": 4.241475834511483, 
+          "price": 4.181475834511483, 
           "protein": 39.50183333333334
         }
       }, 
@@ -982,11 +982,11 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 18.7, 
+            "calories": 17, 
             "label": "egg white", 
             "name": "egg_white", 
             "price": 0.25, 
-            "protein": 3.64, 
+            "protein": 3.5, 
             "unit": ""
           }, 
           {
@@ -1031,9 +1031,9 @@
         "label": "macaroons", 
         "name": "macaroons", 
         "nutrition": {
-          "calories": 1944.676667328155, 
+          "calories": 1942.976667328155, 
           "price": 4.343111961269497, 
-          "protein": 30.63899744251232
+          "protein": 30.49899744251232
         }
       }, 
       {
@@ -1079,7 +1079,7 @@
             "calories": 60, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.25, 
+            "price": 0.22, 
             "protein": 6, 
             "unit": ""
           }, 
@@ -1147,7 +1147,7 @@
         "name": "thick_texas_cookies", 
         "nutrition": {
           "calories": 2537.666666666667, 
-          "price": 3.778313706898741, 
+          "price": 3.748313706898741, 
           "protein": 33.0
         }
       }, 
@@ -1320,7 +1320,7 @@
                 "calories": 60, 
                 "label": "egg", 
                 "name": "egg", 
-                "price": 0.25, 
+                "price": 0.22, 
                 "protein": 6, 
                 "unit": ""
               }, 
@@ -1353,7 +1353,7 @@
         "name": "hong_kong_egg_tart", 
         "nutrition": {
           "calories": 1354.6190476190477, 
-          "price": 2.0977385155022024, 
+          "price": 2.0677385155022026, 
           "protein": 16.266666666666666
         }
       }, 
@@ -1443,7 +1443,7 @@
                 "calories": 60, 
                 "label": "egg", 
                 "name": "egg", 
-                "price": 0.25, 
+                "price": 0.22, 
                 "protein": 6, 
                 "unit": ""
               }, 
@@ -1475,7 +1475,7 @@
         "name": "easier_egg_tart", 
         "nutrition": {
           "calories": 1169.3809523809525, 
-          "price": 2.3212872739997006, 
+          "price": 2.291287273999701, 
           "protein": 15.55
         }
       }, 
@@ -1496,7 +1496,7 @@
             "calories": 60, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.25, 
+            "price": 0.22, 
             "protein": 6, 
             "unit": ""
           }, 
@@ -1564,7 +1564,7 @@
         "name": "easy_madeleines", 
         "nutrition": {
           "calories": 568.3866666666667, 
-          "price": 0.9655360235182057, 
+          "price": 0.9355360235182056, 
           "protein": 10.015
         }
       }, 
@@ -1597,7 +1597,7 @@
             "calories": 60, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.25, 
+            "price": 0.22, 
             "protein": 6, 
             "unit": ""
           }, 
@@ -1675,7 +1675,7 @@
         "name": "madeleines", 
         "nutrition": {
           "calories": 965.6066666666668, 
-          "price": 1.967432027734497, 
+          "price": 1.9374320277344972, 
           "protein": 11.780000000000001
         }
       }, 
@@ -1786,12 +1786,12 @@
           }, 
           {
             "amount": 1, 
-            "calories": 48.3, 
+            "calories": 55, 
             "label": "egg yolk", 
             "name": "egg_yolk", 
             "note": "room temp", 
             "price": 0.25, 
-            "protein": 2.38, 
+            "protein": 2.7, 
             "unit": ""
           }, 
           {
@@ -1808,9 +1808,9 @@
         "label": "mini cheesecake", 
         "name": "mini_cheesecake", 
         "nutrition": {
-          "calories": 647.7080952380951, 
+          "calories": 654.4080952380951, 
           "price": 2.1356292452217884, 
-          "protein": 12.504828571428568
+          "protein": 12.824828571428569
         }
       }, 
       {
@@ -1917,7 +1917,7 @@
                 "amount": 0.25, 
                 "amount_in_grams": 0.65, 
                 "calories": 1.6083333333333336, 
-                "label": "cinnamon ground", 
+                "label": "ground cinnamon", 
                 "name": "cinnamon_ground", 
                 "price": 0.034162835913976675, 
                 "protein": 0.025916666666666668, 
@@ -1927,7 +1927,7 @@
                 "amount": 0.125, 
                 "amount_in_grams": 0.2916666666666667, 
                 "calories": 1.5333333333333332, 
-                "label": "nutmeg ground", 
+                "label": "ground nutmeg", 
                 "name": "nutmeg", 
                 "price": 0.022222598477857826, 
                 "protein": 0.017041666666666667, 
@@ -2023,7 +2023,7 @@
                 "amount": 0.5, 
                 "amount_in_grams": 1.3, 
                 "calories": 3.2166666666666672, 
-                "label": "cinnamon ground", 
+                "label": "ground cinnamon", 
                 "name": "cinnamon_ground", 
                 "note": "also try nutmeg and ginger", 
                 "price": 0.06832567182795335, 
@@ -2073,7 +2073,7 @@
                 "calories": 60, 
                 "label": "egg", 
                 "name": "egg", 
-                "price": 0.25, 
+                "price": 0.22, 
                 "protein": 6, 
                 "unit": ""
               }, 
@@ -2089,12 +2089,12 @@
               }, 
               {
                 "amount": 20, 
-                "calories": 135.7142858, 
+                "calories": 135.71428571428572, 
                 "label": "walnut", 
                 "name": "walnut", 
                 "note": "chopped", 
-                "price": 0.351982378, 
-                "protein": 2.85714286, 
+                "price": 0.3527396583786957, 
+                "protein": 2.8571428571428577, 
                 "unit": "g"
               }
             ], 
@@ -2160,9 +2160,9 @@
         "label": "carrot cake", 
         "name": "carrot_cake", 
         "nutrition": {
-          "calories": 1494.5822858000001, 
-          "price": 2.995138245189285, 
-          "protein": 19.656407621904762
+          "calories": 1494.582285714286, 
+          "price": 2.965895525567981, 
+          "protein": 19.65640761904762
         }
       }, 
       {
@@ -2177,7 +2177,7 @@
             "calories": 120, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.5, 
+            "price": 0.44, 
             "protein": 12, 
             "unit": ""
           }, 
@@ -2206,7 +2206,7 @@
             "amount": 2, 
             "amount_in_grams": 5.2, 
             "calories": 12.866666666666669, 
-            "label": "cinnamon ground", 
+            "label": "ground cinnamon", 
             "name": "cinnamon_ground", 
             "price": 0.2733026873118134, 
             "protein": 0.20733333333333334, 
@@ -2226,7 +2226,7 @@
             "amount": 0.25, 
             "amount_in_grams": 0.5833333333333334, 
             "calories": 3.0666666666666664, 
-            "label": "nutmeg ground", 
+            "label": "ground nutmeg", 
             "name": "nutmeg", 
             "note": "try 1/2 tsp", 
             "price": 0.04444519695571565, 
@@ -2248,7 +2248,7 @@
             "amount": 0.125, 
             "amount_in_grams": 0.24166666666666667, 
             "calories": 0.7500000000000001, 
-            "label": "cardamom ground", 
+            "label": "ground cardamom", 
             "name": "cardamom_ground", 
             "price": 0.025062152727806326, 
             "protein": 0.026000000000000002, 
@@ -2277,11 +2277,11 @@
           }, 
           {
             "amount": 15, 
-            "calories": 0.0, 
-            "label": "pumpkin_puree", 
+            "calories": 131.85823255813955, 
+            "label": "pumpkin puree", 
             "name": "pumpkin_puree", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 3.75, 
+            "protein": 3.2964558139534885, 
             "unit": "oz"
           }, 
           {
@@ -2308,9 +2308,9 @@
         "label": "pumpkin pie filling", 
         "name": "pumpkin_pie_filling", 
         "nutrition": {
-          "calories": 754.8541666666666, 
-          "price": 2.718320921600554, 
-          "protein": 13.735291666666667
+          "calories": 886.7123992248062, 
+          "price": 6.408320921600554, 
+          "protein": 17.031747480620155
         }
       }, 
       {
@@ -2323,11 +2323,11 @@
         "ingredients": [
           {
             "amount": 90, 
-            "calories": 514.2861, 
+            "calories": 514.2857142857143, 
             "label": "almond", 
             "name": "almond", 
-            "price": 1.3860000000000001, 
-            "protein": 19.286099999999998, 
+            "price": 1.3968490471796349, 
+            "protein": 19.28571428571429, 
             "unit": "g"
           }, 
           {
@@ -2363,9 +2363,9 @@
         "label": "marzipan", 
         "name": "marzipan", 
         "nutrition": {
-          "calories": 800.2861, 
-          "price": 2.7449295339039246, 
-          "protein": 19.286099999999998
+          "calories": 800.2857142857143, 
+          "price": 2.7557785810835593, 
+          "protein": 19.28571428571429
         }
       }, 
       {
@@ -2409,7 +2409,7 @@
             "label": "egg", 
             "name": "egg", 
             "note": "whisked (use half for dough, half for wash)", 
-            "price": 0.25, 
+            "price": 0.22, 
             "protein": 6, 
             "unit": ""
           }, 
@@ -2469,7 +2469,7 @@
         "name": "hamantaschen", 
         "nutrition": {
           "calories": 1415.47, 
-          "price": 2.048185183010147, 
+          "price": 2.0181851830101474, 
           "protein": 22.615
         }
       }, 
@@ -2600,7 +2600,7 @@
             "amount": 0.5, 
             "amount_in_grams": 1.3, 
             "calories": 3.2166666666666672, 
-            "label": "cinnamon ground", 
+            "label": "ground cinnamon", 
             "name": "cinnamon_ground", 
             "price": 0.06832567182795335, 
             "protein": 0.051833333333333335, 
@@ -2827,7 +2827,7 @@
             "amount": 2, 
             "amount_in_grams": 5.2, 
             "calories": 12.866666666666669, 
-            "label": "cinnamon ground", 
+            "label": "ground cinnamon", 
             "name": "cinnamon_ground", 
             "price": 0.2733026873118134, 
             "protein": 0.20733333333333334, 
@@ -2837,7 +2837,7 @@
             "amount": 0.25, 
             "amount_in_grams": 0.5833333333333334, 
             "calories": 3.0666666666666664, 
-            "label": "nutmeg ground", 
+            "label": "ground nutmeg", 
             "name": "nutmeg", 
             "price": 0.04444519695571565, 
             "protein": 0.034083333333333334, 
@@ -2881,7 +2881,7 @@
             "calories": 60, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.25, 
+            "price": 0.22, 
             "protein": 6, 
             "unit": ""
           }, 
@@ -2911,7 +2911,7 @@
         "name": "zucchini_bread", 
         "nutrition": {
           "calories": 1628.4666666666667, 
-          "price": 3.748612918386694, 
+          "price": 3.718612918386694, 
           "protein": 26.17741666666667
         }
       }, 
@@ -3008,7 +3008,7 @@
             "calories": 120, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.5, 
+            "price": 0.44, 
             "protein": 12, 
             "unit": ""
           }, 
@@ -3028,7 +3028,7 @@
             "label": "egg", 
             "name": "egg", 
             "note": "for egg wash", 
-            "price": 0.25, 
+            "price": 0.22, 
             "protein": 6, 
             "unit": ""
           }
@@ -3037,7 +3037,7 @@
         "name": "milk_bread", 
         "nutrition": {
           "calories": 1951.6766666666667, 
-          "price": 2.0187057840838225, 
+          "price": 1.9287057840838224, 
           "protein": 58.667
         }
       }, 
@@ -3088,17 +3088,17 @@
           }, 
           {
             "amount": 12, 
-            "calories": 81.42857147999999, 
+            "calories": 81.42857142857143, 
             "label": "walnut", 
             "name": "walnut", 
-            "price": 0.2111894268, 
-            "protein": 1.714285716, 
+            "price": 0.2116437950272174, 
+            "protein": 1.7142857142857144, 
             "unit": "g"
           }, 
           {
             "amount": 4, 
             "calories": 9.897435897435898, 
-            "label": "cinnamon ground", 
+            "label": "ground cinnamon", 
             "name": "cinnamon_ground", 
             "price": 0.2102328363937026, 
             "protein": 0.1594871794871795, 
@@ -3127,9 +3127,9 @@
         "label": "hotteok (\ud638\ub5d9)", 
         "name": "hotteok", 
         "nutrition": {
-          "calories": 891.3260073774359, 
-          "price": 1.1182395732104742, 
-          "protein": 13.873772895487178
+          "calories": 891.3260073260074, 
+          "price": 1.1186939414376915, 
+          "protein": 13.873772893772895
         }
       }, 
       {
@@ -3145,7 +3145,7 @@
             "calories": 120, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.5, 
+            "price": 0.44, 
             "protein": 12, 
             "unit": ""
           }, 
@@ -3160,19 +3160,19 @@
             "unit": "cup"
           }, 
           {
-            "amount": 0.75, 
-            "calories": 0.0, 
-            "label": "salted_shrimp", 
+            "amount": 2, 
+            "calories": 6.428571428571429, 
+            "label": "salted shrimp (\uc0c8\uc6b0\uc813)", 
             "name": "salted_shrimp", 
-            "price": 0.0, 
-            "protein": 0.0, 
-            "unit": "tsp"
+            "price": 0.020267857142857143, 
+            "protein": 1.2142857142857144, 
+            "unit": "g"
           }, 
           {
             "amount": 0.5, 
             "amount_in_grams": 2.5, 
             "calories": 8.0, 
-            "label": "gochugaru", 
+            "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "price": 0.03262841840002935, 
             "protein": 0.0, 
@@ -3182,9 +3182,9 @@
         "label": "steamed egg (\uacc4\ub780\ucc1c)", 
         "name": "steamed_egg", 
         "nutrition": {
-          "calories": 128.0, 
-          "price": 0.5326284184000294, 
-          "protein": 12.0
+          "calories": 134.42857142857144, 
+          "price": 0.49289627554288645, 
+          "protein": 13.214285714285715
         }
       }, 
       {
@@ -3202,7 +3202,7 @@
             "calories": 180, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.75, 
+            "price": 0.66, 
             "protein": 18, 
             "unit": ""
           }, 
@@ -3250,7 +3250,7 @@
         "name": "rolled_egg", 
         "nutrition": {
           "calories": 230.1625, 
-          "price": 1.054166960616382, 
+          "price": 0.9641669606163821, 
           "protein": 18.547625
         }
       }, 
@@ -3277,7 +3277,7 @@
             "amount": 3, 
             "amount_in_grams": 54.0, 
             "calories": 45.00000000000001, 
-            "label": "soybean paste", 
+            "label": "soybean paste (\ub41c\uc7a5)", 
             "name": "soybean_paste", 
             "price": 0.8571573698602305, 
             "protein": 0.0, 
@@ -3287,7 +3287,7 @@
             "amount": 1, 
             "amount_in_grams": 6.0, 
             "calories": 10.0, 
-            "label": "gochujang", 
+            "label": "gochujang (\uace0\ucd94\uc7a5)", 
             "name": "gochujang", 
             "price": 0.10158902161306434, 
             "protein": 0.0, 
@@ -3361,11 +3361,11 @@
         "ingredients": [
           {
             "amount": 2, 
-            "calories": 2177.2416, 
-            "label": "beef lateral rib", 
-            "name": "beef_short_rib_choice_boneless", 
-            "price": 21.148960327724797, 
-            "protein": 156.03564799999998, 
+            "calories": 2175.63596460177, 
+            "label": "beef lateral rib (choice)", 
+            "name": "beef_short_rib_boneless", 
+            "price": 28.08858424778761, 
+            "protein": 156.54945132743364, 
             "unit": "lb"
           }, 
           {
@@ -3472,9 +3472,9 @@
         "label": "LA galbi (LA \uac08\ube44)", 
         "name": "la_galbi", 
         "nutrition": {
-          "calories": 2386.8824333333337, 
-          "price": 55.1622106905393, 
-          "protein": 161.018523
+          "calories": 2385.276797935104, 
+          "price": 62.10183461060211, 
+          "protein": 161.53232632743365
         }
       }, 
       {
@@ -3488,19 +3488,19 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 2349.60656, 
+            "calories": 2348.2417699115044, 
             "label": "pork belly", 
             "name": "pork_belly", 
             "note": "or pork shoulder/loin", 
-            "price": 5.989995111683999, 
-            "protein": 42.3654928, 
+            "price": 6.011097522123894, 
+            "protein": 42.549338053097344, 
             "unit": "lb"
           }, 
           {
             "amount": 0.25, 
             "amount_in_grams": 72.0, 
             "calories": 120.00000000000001, 
-            "label": "gochujang", 
+            "label": "gochujang (\uace0\ucd94\uc7a5)", 
             "name": "gochujang", 
             "price": 1.219068259356772, 
             "protein": 0.0, 
@@ -3530,7 +3530,7 @@
             "amount": 2, 
             "amount_in_grams": 30.0, 
             "calories": 96.0, 
-            "label": "gochugaru", 
+            "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "price": 0.39154102080035214, 
             "protein": 0.0, 
@@ -3601,9 +3601,9 @@
         "label": "spicy pork stirfry (\uc81c\uc721\ubcf6\uc74c)", 
         "name": "spicy_pork_stirfry", 
         "nutrition": {
-          "calories": 2885.698226666667, 
-          "price": 29.669840385960253, 
-          "protein": 48.402242799999996
+          "calories": 2884.333436578171, 
+          "price": 29.690942796400147, 
+          "protein": 48.58608805309734
         }
       }
     ]
@@ -3623,7 +3623,7 @@
               {
                 "amount": 18, 
                 "calories": 420.0, 
-                "label": "tofu firm", 
+                "label": "firm tofu", 
                 "name": "tofu_firm", 
                 "price": 2.8800000000000003, 
                 "protein": 42.0, 
@@ -3690,7 +3690,7 @@
                 "amount_in_grams": 15.0, 
                 "calories": 0.0, 
                 "label": "rice (wine) vinegar", 
-                "name": "vinegar_rice", 
+                "name": "rice_vinegar", 
                 "price": 0.2169348899028978, 
                 "protein": 0.0, 
                 "unit": "tbsp"
@@ -3733,10 +3733,11 @@
             "ingredients": [
               {
                 "amount": 0.5, 
-                "calories": 0.0, 
-                "label": "sichuan_peppercorn_ground", 
+                "amount_in_grams": 1.1111111111111112, 
+                "calories": 0.6666666666666667, 
+                "label": "ground sichuan peppercorns", 
                 "name": "sichuan_peppercorn_ground", 
-                "price": 0.0, 
+                "price": 0.0685882669069686, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }, 
@@ -3770,11 +3771,11 @@
               }, 
               {
                 "amount": 18, 
-                "calories": 102.85714278, 
+                "calories": 109.28571428571429, 
                 "label": "peanut", 
                 "name": "peanut", 
-                "price": 0.11854625543999998, 
-                "protein": 4.5, 
+                "price": 0.13968490471796347, 
+                "protein": 5.142857142857143, 
                 "unit": "g"
               }, 
               {
@@ -3807,9 +3808,9 @@
         "label": "kung pao", 
         "name": "kung_pao", 
         "nutrition": {
-          "calories": 748.6588094466667, 
-          "price": 16.032185214583652, 
-          "protein": 48.733666666666664
+          "calories": 755.7540476190477, 
+          "price": 16.121912130768585, 
+          "protein": 49.37652380952381
         }
       }, 
       {
@@ -3991,7 +3992,7 @@
                 "amount_in_grams": 7.5, 
                 "calories": 0.0, 
                 "label": "rice (wine) vinegar", 
-                "name": "vinegar_rice", 
+                "name": "rice_vinegar", 
                 "price": 0.1084674449514489, 
                 "protein": 0.0, 
                 "unit": "tsp"
@@ -4075,7 +4076,7 @@
               {
                 "amount": 18, 
                 "calories": 420.0, 
-                "label": "tofu firm", 
+                "label": "firm tofu", 
                 "name": "tofu_firm", 
                 "price": 2.8800000000000003, 
                 "protein": 42.0, 
@@ -4272,7 +4273,7 @@
                 "amount": 0.5, 
                 "amount_in_grams": 2.5, 
                 "calories": 8.0, 
-                "label": "gochugaru", 
+                "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
                 "price": 0.03262841840002935, 
                 "protein": 0.0, 
@@ -4377,17 +4378,18 @@
           }, 
           {
             "amount": 3, 
-            "calories": 0.0, 
-            "label": "sichuan_peppercorn", 
+            "amount_in_grams": 30.0, 
+            "calories": 18.0, 
+            "label": "sichuan peppercorns", 
             "name": "sichuan_peppercorn", 
-            "price": 0.0, 
+            "price": 1.851883206488152, 
             "protein": 0.0, 
             "unit": "tbsp"
           }, 
           {
             "amount": 75, 
             "calories": 240.0, 
-            "label": "gochugaru", 
+            "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "price": 0.9788525520008804, 
             "protein": 0.0, 
@@ -4397,8 +4399,8 @@
         "label": "chili oil", 
         "name": "chili_oil", 
         "nutrition": {
-          "calories": 3126.7, 
-          "price": 52.15257832936854, 
+          "calories": 3144.7, 
+          "price": 54.00446153585669, 
           "protein": 0.1
         }
       }, 
@@ -4423,7 +4425,7 @@
                 "calories": 120, 
                 "label": "egg", 
                 "name": "egg", 
-                "price": 0.5, 
+                "price": 0.44, 
                 "protein": 12, 
                 "unit": ""
               }, 
@@ -4477,7 +4479,7 @@
                 "amount": 4, 
                 "amount_in_grams": 40.0, 
                 "calories": 20.0, 
-                "label": "chili_bean_sauce (doubanjiang)", 
+                "label": "doubanjiang (chili_bean_sauce)", 
                 "name": "doubanjiang", 
                 "price": 0.9171231117846088, 
                 "protein": 0.0, 
@@ -4492,7 +4494,7 @@
         "name": "dan_bing", 
         "nutrition": {
           "calories": 559.6666666666667, 
-          "price": 1.842288593716343, 
+          "price": 1.7822885937163429, 
           "protein": 20.958
         }
       }, 
@@ -4551,11 +4553,11 @@
             "ingredients": [
               {
                 "amount": 0.5, 
-                "calories": 0.0, 
-                "label": "lamb_shoulder", 
+                "calories": 598.099185840708, 
+                "label": "lamb shoulder (choice)", 
                 "name": "lamb_shoulder", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "price": 4.510831946902655, 
+                "protein": 37.53172743362832, 
                 "unit": "lb"
               }, 
               {
@@ -4563,7 +4565,7 @@
                 "amount_in_grams": 15.0, 
                 "calories": 0.0, 
                 "label": "rice (wine) vinegar", 
-                "name": "vinegar_rice", 
+                "name": "rice_vinegar", 
                 "price": 0.2169348899028978, 
                 "protein": 0.0, 
                 "unit": "tbsp"
@@ -4672,7 +4674,7 @@
                 "amount": 1.5, 
                 "amount_in_grams": 8.100000000000001, 
                 "calories": 24.300000000000004, 
-                "label": "coriander ground", 
+                "label": "ground coriander", 
                 "name": "coriander_ground", 
                 "price": 1.1743055967085159, 
                 "protein": 0.9000000000000002, 
@@ -4703,7 +4705,7 @@
                 "amount_in_grams": 30.0, 
                 "calories": 0.0, 
                 "label": "rice (wine) vinegar", 
-                "name": "vinegar_rice", 
+                "name": "rice_vinegar", 
                 "price": 0.4338697798057956, 
                 "protein": 0.0, 
                 "unit": "tbsp"
@@ -4746,9 +4748,9 @@
         "label": "lamb cumin noodles", 
         "name": "lamb_cumin_noodles", 
         "nutrition": {
-          "calories": 1349.85, 
-          "price": 24.038425841344218, 
-          "protein": 26.715799999999998
+          "calories": 1947.9491858407077, 
+          "price": 28.549257788246873, 
+          "protein": 64.2475274336283
         }
       }, 
       {
@@ -4872,7 +4874,7 @@
                 "label": "egg", 
                 "name": "egg", 
                 "note": "whisked with a pinch of salt", 
-                "price": 0.5, 
+                "price": 0.44, 
                 "protein": 12, 
                 "unit": ""
               }, 
@@ -4915,7 +4917,7 @@
                 "amount": 1, 
                 "amount_in_grams": 5.0, 
                 "calories": 16.0, 
-                "label": "gochugaru", 
+                "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
                 "price": 0.0652568368000587, 
                 "protein": 0.0, 
@@ -5006,7 +5008,7 @@
         "name": "singapore_noodles", 
         "nutrition": {
           "calories": 1302.1814761904764, 
-          "price": 22.065744544829837, 
+          "price": 22.005744544829838, 
           "protein": 73.08552952380953
         }
       }, 
@@ -5034,11 +5036,12 @@
           }, 
           {
             "amount": 1.5, 
-            "calories": 0.0, 
-            "label": "sichuan_peppercorn_ground", 
+            "amount_in_grams": 3.3333333333333335, 
+            "calories": 2.0, 
+            "label": "ground sichuan peppercorns", 
             "name": "sichuan_peppercorn_ground", 
             "note": "should be 3g?", 
-            "price": 0.0, 
+            "price": 0.2057648007209058, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -5064,18 +5067,18 @@
           }, 
           {
             "amount": 8, 
-            "calories": 492.67999999999995, 
+            "calories": 492.0, 
             "label": "ground pork (84% lean)", 
             "name": "pork_ground_84", 
-            "price": 3.4950000068, 
-            "protein": 40.67999999999999, 
+            "price": 3.495, 
+            "protein": 40.6, 
             "unit": "oz"
           }, 
           {
             "amount": 1, 
             "amount_in_grams": 30.0, 
             "calories": 15.0, 
-            "label": "chili_bean_sauce (doubanjiang)", 
+            "label": "doubanjiang (chili_bean_sauce)", 
             "name": "doubanjiang", 
             "price": 0.6878423338384565, 
             "protein": 0.0, 
@@ -5085,7 +5088,7 @@
             "amount": 2, 
             "amount_in_grams": 30.0, 
             "calories": 68.0, 
-            "label": "fermented black beans (douchi)", 
+            "label": "douchi (fermented black beans)", 
             "name": "douchi", 
             "price": 0.5079451080653217, 
             "protein": 8.4, 
@@ -5123,7 +5126,7 @@
           {
             "amount": 18, 
             "calories": 360.0, 
-            "label": "tofu silken", 
+            "label": "silken tofu", 
             "name": "tofu_silken", 
             "price": 3.06, 
             "protein": 30.0, 
@@ -5133,9 +5136,9 @@
         "label": "mapo tofu", 
         "name": "mapo_tofu", 
         "nutrition": {
-          "calories": 1223.49, 
-          "price": 20.01034259832183, 
-          "protein": 79.97699999999999
+          "calories": 1224.81, 
+          "price": 20.216107392242737, 
+          "protein": 79.89699999999999
         }
       }, 
       {
@@ -5249,7 +5252,7 @@
                 "amount": 3, 
                 "amount_in_grams": 45.0, 
                 "calories": 102.00000000000001, 
-                "label": "fermented black beans (douchi)", 
+                "label": "douchi (fermented black beans)", 
                 "name": "douchi", 
                 "price": 0.7619176620979826, 
                 "protein": 12.600000000000001, 
@@ -5378,19 +5381,19 @@
             "ingredients": [
               {
                 "amount": 1, 
-                "calories": 0.0, 
-                "label": "lamb_shoulder", 
+                "calories": 1196.198371681416, 
+                "label": "lamb shoulder (choice)", 
                 "name": "lamb_shoulder", 
                 "note": "0.5\"x2\" pieces", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "price": 9.02166389380531, 
+                "protein": 75.06345486725664, 
                 "unit": "lb"
               }, 
               {
                 "amount": 1, 
                 "amount_in_grams": 18.0, 
                 "calories": 30.000000000000004, 
-                "label": "cumin ground", 
+                "label": "ground cumin", 
                 "name": "cumin_ground", 
                 "price": 1.644472287361479, 
                 "protein": 1.2000000000000002, 
@@ -5478,7 +5481,7 @@
                 "amount": 0.5, 
                 "amount_in_grams": 2.5, 
                 "calories": 8.0, 
-                "label": "gochugaru", 
+                "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
                 "price": 0.03262841840002935, 
                 "protein": 0.0, 
@@ -5508,7 +5511,7 @@
                 "amount": 0.25, 
                 "amount_in_grams": 4.0, 
                 "calories": 0.92, 
-                "label": "cilantro fresh", 
+                "label": "fresh cilantro", 
                 "name": "cilantro_fresh", 
                 "note": "chopped", 
                 "price": 0.08759700547872973, 
@@ -5523,9 +5526,9 @@
         "label": "cumin lamb", 
         "name": "cumin_lamb", 
         "nutrition": {
-          "calories": 487.04500000000013, 
-          "price": 2.951307142425809, 
-          "protein": 5.3412500000000005
+          "calories": 1683.243371681416, 
+          "price": 11.972971036231122, 
+          "protein": 80.40470486725664
         }
       }, 
       {
@@ -5664,11 +5667,11 @@
               }, 
               {
                 "amount": 0.25, 
-                "calories": 247.20764, 
+                "calories": 246.86644247787612, 
                 "label": "ground pork (84% lean)", 
                 "name": "pork_ground_84", 
-                "price": 1.7536549149164, 
-                "protein": 20.41164, 
+                "price": 1.7536549115044249, 
+                "protein": 20.37149911504425, 
                 "unit": "lb"
               }, 
               {
@@ -5690,9 +5693,9 @@
         "label": "eggplant with garlic sauce", 
         "name": "eggplant_with_garlic_sauce", 
         "nutrition": {
-          "calories": 653.8843066666667, 
-          "price": 16.220024340193937, 
-          "protein": 28.067306666666667
+          "calories": 653.5431091445429, 
+          "price": 16.22002433678196, 
+          "protein": 28.02716578171092
         }
       }, 
       {
@@ -5710,11 +5713,11 @@
             "ingredients": [
               {
                 "amount": 1, 
-                "calories": 748.4268, 
-                "label": "beef flank steak", 
+                "calories": 662.3246017699115, 
+                "label": "beef flank steak (choice)", 
                 "name": "beef_flank_steak", 
-                "price": 14.9899877718152, 
-                "protein": 96.2522224, 
+                "price": 6.011097522123894, 
+                "protein": 85.1789578761062, 
                 "unit": "lb"
               }, 
               {
@@ -5868,9 +5871,9 @@
         "label": "mongolian beef", 
         "name": "mongolian_beef", 
         "nutrition": {
-          "calories": 1809.6401333333333, 
-          "price": 35.47581510898666, 
-          "protein": 104.83088906666666
+          "calories": 1723.537935103245, 
+          "price": 26.496924859295348, 
+          "protein": 93.75762454277286
         }
       }, 
       {
@@ -5890,7 +5893,7 @@
             "calories": 240, 
             "label": "egg", 
             "name": "egg", 
-            "price": 1.0, 
+            "price": 0.88, 
             "protein": 24, 
             "unit": ""
           }, 
@@ -6012,7 +6015,7 @@
         "name": "tomato_egg", 
         "nutrition": {
           "calories": 736.6916666666667, 
-          "price": 3.7276380874903188, 
+          "price": 3.6076380874903187, 
           "protein": 28.917749999999998
         }
       }
@@ -6120,7 +6123,7 @@
               {
                 "amount": 18, 
                 "calories": 420.0, 
-                "label": "tofu firm", 
+                "label": "firm tofu", 
                 "name": "tofu_firm", 
                 "price": 2.8800000000000003, 
                 "protein": 42.0, 
@@ -6146,7 +6149,7 @@
               {
                 "amount": 4, 
                 "calories": 391.7388218181818, 
-                "label": "rice flakes", 
+                "label": "thai rice flakes", 
                 "name": "rice_flakes", 
                 "price": 1.945, 
                 "protein": 8.24713309090909, 
@@ -6157,7 +6160,7 @@
                 "calories": 60, 
                 "label": "egg", 
                 "name": "egg", 
-                "price": 0.25, 
+                "price": 0.22, 
                 "protein": 6, 
                 "unit": ""
               }, 
@@ -6198,7 +6201,7 @@
         "name": "pad_see_ew", 
         "nutrition": {
           "calories": 1327.2088218181818, 
-          "price": 12.942588508024123, 
+          "price": 12.912588508024122, 
           "protein": 63.66813309090909
         }
       }, 
@@ -6245,23 +6248,23 @@
             "calories": 60, 
             "label": "egg", 
             "name": "egg", 
-            "price": 0.25, 
+            "price": 0.22, 
             "protein": 6, 
             "unit": ""
           }, 
           {
             "amount": 18, 
-            "calories": 102.85714278, 
+            "calories": 109.28571428571429, 
             "label": "peanut", 
             "name": "peanut", 
-            "price": 0.11854625543999998, 
-            "protein": 4.5, 
+            "price": 0.13968490471796347, 
+            "protein": 5.142857142857143, 
             "unit": "g"
           }, 
           {
             "amount": 18, 
             "calories": 420.0, 
-            "label": "tofu firm", 
+            "label": "firm tofu", 
             "name": "tofu_firm", 
             "price": 2.8800000000000003, 
             "protein": 42.0, 
@@ -6292,7 +6295,7 @@
             "amount_in_grams": 15.0, 
             "calories": 0.0, 
             "label": "rice (wine) vinegar", 
-            "name": "vinegar_rice", 
+            "name": "rice_vinegar", 
             "price": 0.2169348899028978, 
             "protein": 0.0, 
             "unit": "tbsp"
@@ -6311,7 +6314,7 @@
             "amount": 0.5, 
             "amount_in_grams": 2.5, 
             "calories": 8.0, 
-            "label": "gochugaru", 
+            "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "price": 0.03262841840002935, 
             "protein": 0.0, 
@@ -6321,9 +6324,9 @@
         "label": "pad thai", 
         "name": "pad_thai", 
         "nutrition": {
-          "calories": 775.32714278, 
-          "price": 9.047747963264332, 
-          "protein": 55.691
+          "calories": 781.7557142857142, 
+          "price": 9.038886612542294, 
+          "protein": 56.33385714285714
         }
       }, 
       {
@@ -6347,7 +6350,7 @@
           {
             "amount": 55, 
             "calories": 55.00000000000001, 
-            "label": "curry paste thai red", 
+            "label": "thai red curry paste", 
             "name": "curry_paste_thai_red", 
             "price": 0.4656163490598783, 
             "protein": 0.0, 
@@ -6356,7 +6359,7 @@
           {
             "amount": 400, 
             "calories": 225.0, 
-            "label": "coconut milk canned (light)", 
+            "label": "canned coconut milk (light)", 
             "name": "coconut_milk_canned", 
             "price": 1.975342086920696, 
             "protein": 0.0, 
@@ -6524,7 +6527,7 @@
           "Marinate chicken for 30min-1hr.", 
           "Combine nuoc cham ingredients and stir until sugar completely dissolved. Adjust if desired.", 
           "Boil, drain, rinse vermicelli.", 
-          "2 tbsp oil med high heat. Sear chicken for ~4min per side, or til cooked thru. Set aside.", 
+          "2 tbsp oil med high heat (7/10). Sear chicken for 3 min one side, 5 min other (or til cooked thru). Set aside.", 
           "Slice chicken thighs and add to salad.", 
           "Combine all ingredients. Serve with nuoc cham sauce."
         ], 
@@ -6632,7 +6635,7 @@
                 "amount_in_grams": 30.0, 
                 "calories": 0.0, 
                 "label": "rice (wine) vinegar", 
-                "name": "vinegar_rice", 
+                "name": "rice_vinegar", 
                 "note": "or white vinegar", 
                 "price": 0.4338697798057956, 
                 "protein": 0.0, 
@@ -6735,7 +6738,7 @@
                 "amount": 1, 
                 "amount_in_grams": 1.0, 
                 "calories": 0.23, 
-                "label": "cilantro fresh", 
+                "label": "fresh cilantro", 
                 "name": "cilantro_fresh", 
                 "price": 0.021899251369682432, 
                 "protein": 0.0213125, 
@@ -6766,11 +6769,11 @@
         "ingredients": [
           {
             "amount": 126, 
-            "calories": 720.00054, 
+            "calories": 720.0, 
             "label": "cashew", 
             "name": "cashew", 
-            "price": 2.5922647044, 
-            "protein": 22.49982, 
+            "price": 3.555615756457253, 
+            "protein": 22.5, 
             "unit": "g"
           }, 
           {
@@ -6807,7 +6810,7 @@
             "amount": 0.75, 
             "amount_in_grams": 3.75, 
             "calories": 12.0, 
-            "label": "gochugaru", 
+            "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "price": 0.04894262760004402, 
             "protein": 0.0, 
@@ -6874,9 +6877,9 @@
         "label": "vegan mac & cheese", 
         "name": "vegan_mac_n_cheese", 
         "nutrition": {
-          "calories": 2524.584778095238, 
-          "price": 11.39080771860271, 
-          "protein": 91.43378880952382
+          "calories": 2524.584238095238, 
+          "price": 12.354158770659962, 
+          "protein": 91.43396880952382
         }
       }, 
       {
@@ -6918,7 +6921,7 @@
             "amount": 0.5, 
             "amount_in_grams": 3.0, 
             "calories": 5.0, 
-            "label": "cumin ground", 
+            "label": "ground cumin", 
             "name": "cumin_ground", 
             "price": 0.2740787145602465, 
             "protein": 0.20000000000000004, 
@@ -6928,7 +6931,7 @@
             "amount": 0.5, 
             "amount_in_grams": 2.5, 
             "calories": 8.0, 
-            "label": "gochugaru", 
+            "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "price": 0.03262841840002935, 
             "protein": 0.0, 
@@ -7115,17 +7118,17 @@
           {
             "amount": 0.33, 
             "amount_in_grams": 36.96, 
-            "calories": 250.80000015839997, 
+            "calories": 250.79999999999998, 
             "label": "pine nut", 
             "name": "pine_nut", 
-            "price": 2.115023788416, 
-            "protein": 5.28000000528, 
+            "price": 2.112035759335608, 
+            "protein": 5.28, 
             "unit": "cup"
           }, 
           {
             "amount": 3, 
             "calories": 19.561168799999997, 
-            "label": "basil fresh", 
+            "label": "fresh basil", 
             "name": "basil_fresh", 
             "note": "1.6oz ok...", 
             "price": 14.94, 
@@ -7186,9 +7189,9 @@
         "label": "pesto", 
         "name": "pesto", 
         "nutrition": {
-          "calories": 1330.6011689584, 
-          "price": 27.612714163548844, 
-          "protein": 15.993529645279999
+          "calories": 1330.6011687999999, 
+          "price": 27.60972613446845, 
+          "protein": 15.993529640000002
         }
       }, 
       {
@@ -7624,7 +7627,7 @@
             "amount": 0.5, 
             "amount_in_grams": 3.0, 
             "calories": 5.0, 
-            "label": "cumin ground", 
+            "label": "ground cumin", 
             "name": "cumin_ground", 
             "price": 0.2740787145602465, 
             "protein": 0.20000000000000004, 
@@ -7634,7 +7637,7 @@
             "amount": 0.5, 
             "amount_in_grams": 0.5, 
             "calories": 1.325, 
-            "label": "oregano dried", 
+            "label": "dried oregano", 
             "name": "oregano", 
             "price": 0.15061983412770302, 
             "protein": 0.045, 
@@ -7697,7 +7700,7 @@
             "calories": 2678.8609882352944, 
             "label": "beef chuck roast", 
             "name": "beef_chuck_roast", 
-            "price": 11.986835647058825, 
+            "price": 13.987976823529415, 
             "protein": 277.49157647058826, 
             "unit": "lb"
           }, 
@@ -7775,7 +7778,7 @@
             "amount": 1, 
             "amount_in_grams": 1.0, 
             "calories": 2.65, 
-            "label": "oregano dried", 
+            "label": "dried oregano", 
             "name": "oregano", 
             "price": 0.30123966825540605, 
             "protein": 0.09, 
@@ -7785,7 +7788,7 @@
             "amount": 2, 
             "amount_in_grams": 12.0, 
             "calories": 20.0, 
-            "label": "cumin ground", 
+            "label": "ground cumin", 
             "name": "cumin_ground", 
             "price": 1.096314858240986, 
             "protein": 0.8000000000000002, 
@@ -7795,7 +7798,7 @@
             "amount": 2, 
             "amount_in_grams": 10.0, 
             "calories": 32.0, 
-            "label": "gochugaru", 
+            "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "note": "to sub sweet paprika", 
             "price": 0.1305136736001174, 
@@ -7847,7 +7850,7 @@
         "name": "ropa_vieja", 
         "nutrition": {
           "calories": 3361.4518215686285, 
-          "price": 41.24570815313508, 
+          "price": 43.24684932960566, 
           "protein": 283.39245147058824
         }
       }

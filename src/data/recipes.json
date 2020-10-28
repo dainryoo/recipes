@@ -754,7 +754,7 @@
         "ingredients": [
           { "name": "egg", "amount": 2, "unit": "" },
           { "name": "water", "amount": 0.5, "unit": "cup" },
-          { "name": "salted_shrimp", "amount": 0.75, "unit": "tsp" },
+          { "name": "salted_shrimp", "amount": 2, "unit": "g" },
           { "name": "gochugaru", "amount": 0.5, "unit": "tsp" }
         ],
         "directions": [
@@ -807,7 +807,7 @@
         "name": "la_galbi",
         "label": "LA galbi (LA 갈비)",
         "ingredients": [
-          { "name": "beef_short_rib_choice_boneless", "amount": 2, "unit": "lb" },
+          { "name": "beef_short_rib_boneless", "amount": 2, "unit": "lb" },
           { "name": "garlic", "amount": 8, "unit": "" },
           { "name": "onion", "amount": 1, "unit": "" },
           { "name": "ginger", "note": "(the size of a garlic clove)", "amount": 1, "unit": "tbsp" },
@@ -878,7 +878,7 @@
             "ingredients": [
               { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
               { "name": "soy_sauce_dark", "amount": 0.5, "unit": "tsp" },
-              { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
+              { "name": "rice_vinegar", "amount": 1, "unit": "tbsp" },
               { "name": "sugar", "amount": 1, "unit": "tsp" },
               { "name": "water", "amount": 3, "unit": "tbsp" },
               { "name": "cornstarch", "amount": 1, "unit": "tsp" }
@@ -939,7 +939,7 @@
             "ingredients": [
               { "name": "soy_sauce_light", "amount": 2, "unit": "tbsp" },
               { "name": "soy_sauce_dark", "amount": 1, "unit": "tsp" },
-              { "name": "vinegar_rice", "amount": 1.5, "unit": "tsp" },
+              { "name": "rice_vinegar", "amount": 1.5, "unit": "tsp" },
               { "name": "sugar", "amount": 2, "unit": "tsp" },
               { "name": "water", "amount": 0.33, "unit": "cup" },
               { "name": "sesame_oil", "amount": 0.5, "unit": "tsp" },
@@ -1075,7 +1075,7 @@
             "label": "lamb marinade",
             "ingredients": [
               { "name": "lamb_shoulder", "amount": 0.5, "unit": "lb" },
-              { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
+              { "name": "rice_vinegar", "amount": 1, "unit": "tbsp" },
               { "name": "cornstarch", "amount": 1, "unit": "tsp" },
               { "name": "oil", "amount": 1, "unit": "tbsp" }
             ]
@@ -1100,7 +1100,7 @@
               { "name": "coriander_ground", "amount": 1.5, "unit": "tbsp" },
               { "name": "cumin_seed", "note": "toasted and ground", "amount": 1.5, "unit": "tbsp" },
               { "name": "chili_oil", "amount": 3, "unit": "tbsp" },
-              { "name": "vinegar_rice", "amount": 2, "unit": "tbsp" },
+              { "name": "rice_vinegar", "amount": 2, "unit": "tbsp" },
               { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
               { "name": "sugar", "amount": 1, "unit": "tsp" },
               { "name": "salt", "amount": 0.125, "unit": "tsp" }
@@ -1490,7 +1490,7 @@
           { "name": "tofu_firm", "amount": 18, "unit": "oz" },
           { "name": "fish_sauce", "amount": 1.5, "unit": "tbsp" },
           { "name": "sugar", "amount": 1, "unit": "tbsp" },
-          { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
+          { "name": "rice_vinegar", "amount": 1, "unit": "tbsp" },
           { "name": "water", "amount": 2, "unit": "tbsp" },
           { "name": "gochugaru", "amount": 0.5, "unit": "tsp" }
         ],
@@ -1581,7 +1581,7 @@
             "label": "nuoc cham sauce",
             "ingredients": [
               { "name": "lime_juice", "amount": 2, "unit": "tbsp" },
-              { "name": "vinegar_rice", "note": "or white vinegar", "amount": 2, "unit": "tbsp" },
+              { "name": "rice_vinegar", "note": "or white vinegar", "amount": 2, "unit": "tbsp" },
               { "name": "fish_sauce", "amount": 0.25, "unit": "cup" },
               { "name": "sugar", "amount": 3, "unit": "tbsp" },
               { "name": "sriracha", "amount": 2, "unit": "tsp" },
@@ -1605,7 +1605,7 @@
           "Marinate chicken for 30min-1hr.",
           "Combine nuoc cham ingredients and stir until sugar completely dissolved. Adjust if desired.",
           "Boil, drain, rinse vermicelli.",
-          "2 tbsp oil med high heat. Sear chicken for ~4min per side, or til cooked thru. Set aside.",
+          "2 tbsp oil med high heat (7/10). Sear chicken for 3 min one side, 5 min other (or til cooked thru). Set aside.",
           "Slice chicken thighs and add to salad.",
           "Combine all ingredients. Serve with nuoc cham sauce."
         ]
