@@ -5,8 +5,8 @@ const CalculatorInput = (props) => {
   const { info, updateCalculator, unit } = props;
 
   const handleChange = (event) => {
-    if (+event.target.value === +event.target.value) {
-      // only update if input is a number
+    // only update the calculator if the input matches the decimal regex
+    if (event.target.value.match(/^\d*\.?\d*$/)) {
       updateCalculator(event, unit);
     }
   }
