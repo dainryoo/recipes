@@ -24,8 +24,7 @@ const Pantry = (props) => {
     setCalculatorInfo(newState);
   }, [item]);
 
-  const handleCalculatorChange = (event, unitName) => {
-    const input = event.target.value;
+  const handleCalculatorChange = (input, unitName) => {
     const toGrams = (unitName === "grams" ? input : input * item.conversion_to_grams[unitName]);
     const calories = item.per_100_gram.calories / 100.0 * toGrams;
 

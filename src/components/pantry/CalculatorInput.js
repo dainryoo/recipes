@@ -5,9 +5,18 @@ const CalculatorInput = (props) => {
   const { info, updateCalculator, unit } = props;
 
   const handleChange = (event) => {
-    // only update the calculator if the input matches the decimal regex
     if (event.target.value.match(/^\d*\.?\d*$/)) {
-      updateCalculator(event, unit);
+      // only update the calculator if the input matches the decimal regex
+      let input = event.target.value;
+      if (input.startsWith("0") && !input.startsWith("0.")) {
+        // remove leading zeros on non decimal numbers, if any
+        input = input.substring(1);
+      }
+      if (input.length === 0) {
+        // change empty inputs to a zero
+        input = 0;
+      }
+      updateCalculator(input, unit);
     }
   }
 
