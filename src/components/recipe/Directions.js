@@ -1,8 +1,6 @@
 import React from 'react';
 
-const Directions = (props) => {
-
-  const directions = props.directions;
+const Directions = ({directions}) => {
 
   return (
     <div className="subcontent">

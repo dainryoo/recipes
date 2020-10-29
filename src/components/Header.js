@@ -2,9 +2,7 @@ import React from 'react';
 import { connect } from "react-redux";
 
 
-const Header = (props) => {
-
-  const { view, updateView } = props;
+const Header = ({ view, updateView }) => {
 
   return (
     <div className="app-header">

@@ -684,8 +684,8 @@
           { "name": "flour", "amount": 400, "unit": "g" },
           { "name": "sugar", "amount": 1, "unit": "tbsp" },
           { "name": "salt", "amount": 0.125, "unit": "tsp" },
-          { "name": "water", "note": "boiling", "amount": 0.333, "unit": "cup" },
-          { "name": "milk_almond", "note": "warm (~95C), reduce by 15-30g if humid", "amount": 0.667, "unit": "cup" },
+          { "name": "water", "note": "boiling", "amount": 0.3333333, "unit": "cup" },
+          { "name": "milk_oat", "note": "warm (~95F), reduce by 15-30g if humid", "amount": 0.6666667, "unit": "cup" },
           { "name": "yeast", "amount": 1, "unit": "tsp" },
           { "name": "egg", "amount": 2, "unit": "" },
           { "name": "oil", "amount": 2, "unit": "tbsp" },
@@ -714,7 +714,10 @@
           "Flour dough ball. Use rolling pin to gently remove more air and stretch dough out, thinner on the \"top\" and \"bottom\" of the stretched shape.",
           "Fold the top third down, then fold the bottom third up. Rotate 90 degrees, then roll out again, same thinner top and bottoms.",
           "Roll up from the top; roll a little bit to the bottom, press down, keep rolling.",
-          "Put in floured bread pan, smooth side up."
+          "Put in floured bread pan, smooth side up.",
+          "Cover with plastic wrap. Final proof of 45-60min, until bread is 80-90% full.",
+          "Do a very thin layer of egg wash. If you'd like a darker color, brush a second layer after the first layer has dried.",
+          "Bake at 375F for 35min."
         ]
       },
       {

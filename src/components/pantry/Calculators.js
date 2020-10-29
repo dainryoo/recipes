@@ -1,9 +1,7 @@
 import React from 'react';
 import CalculatorInput from "./CalculatorInput.js";
 
-const Calculators = (props) => {
-
-  const { info, updateCalculator } = props;
+const Calculators = ({ info, updateCalculator }) => {
 
   return (
     <div className="subcontent">

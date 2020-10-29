@@ -1,8 +1,6 @@
 import React from 'react';
 
-const CalculatorInput = (props) => {
-
-  const { info, updateCalculator, unit } = props;
+const CalculatorInput = ({ info, updateCalculator, unit }) => {
 
   const handleChange = (event) => {
     if (event.target.value.match(/^\d*\.?\d*$/)) {

@@ -4,9 +4,7 @@ import Recipe from "./Recipe.js";
 import Pantry from "./Pantry.js";
 import Sidebar from "./Sidebar.js";
 
-const Body = (props) => {
-
-  const { view, selectedRecipe, selectedPantryItem } = props;
+const Body = ({ view, selectedRecipe, selectedPantryItem }) => {
 
   const recipe = () => {
     return selectedRecipe ? <Recipe recipe={selectedRecipe}/> : "";

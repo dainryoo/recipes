@@ -4,9 +4,8 @@ import InfoList from "./pantry/InfoList.js";
 import Calculators from "./pantry/Calculators.js";
 
 
-const Pantry = (props) => {
+const Pantry = ({ item, view }) => {
 
-  const { item, view } = props;
   let nutrition = null;
   let nutritionPer100Gram = null;
   let measurements = null;
