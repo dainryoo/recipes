@@ -235,7 +235,6 @@
           { "name": "egg", "amount": 1, "unit": "" },
           { "name": "vanilla_extract", "amount": 1, "unit": "tsp" },
           { "name": "flour", "amount": 2, "unit": "cup" },
-          { "name": "flour", "amount": 0.25, "unit": "cup" },
           { "name": "salt", "amount": 0.5, "unit": "tsp" },
           { "name": "baking_powder", "amount": 0.5, "unit": "tsp" },
           { "name": "chocolate_dark", "amount": 30, "unit": "g" }
@@ -682,8 +681,8 @@
         "label": "milk bread",
         "ingredients": [
           { "name": "flour", "amount": 400, "unit": "g" },
-          { "name": "sugar", "amount": 1, "unit": "tbsp" },
-          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "sugar", "note": "try more?", "amount": 1, "unit": "tbsp" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
           { "name": "water", "note": "boiling", "amount": 0.3333333, "unit": "cup" },
           { "name": "milk_oat", "note": "warm (~95F), reduce by 15-30g if humid", "amount": 0.6666667, "unit": "cup" },
           { "name": "yeast", "amount": 1, "unit": "tsp" },
@@ -768,6 +767,23 @@
         ]
       },
       {
+        "name": "soy_sauce_egg",
+        "label": "soy sauce egg",
+        "ingredients": [
+          { "name": "egg", "amount": 6, "unit": "" },
+          { "name": "soy_sauce_dark", "amount": 0.5, "unit": "cup" },
+          { "name": "water", "amount": 0.5, "unit": "cup" },
+          { "name": "sugar", "amount": 0.5, "unit": "tbsp" },
+          { "name": "onion", "amount": 0.25, "unit": "" },
+          { "name": "jalapeno", "amount": 1, "unit": "" },
+          { "name": "garlic", "amount": 1, "unit": "" }
+        ],
+        "directions": [
+          "Soft boil eggs. (Place in boiling water for 7-8ish min).",
+          "Put eggs in sauce, try to get all covered. Soak overnight. Eat within 5 days."
+        ]
+      },
+      {
         "name": "rolled_egg",
         "label": "rolled egg (계란마리)",
         "ingredients": [
@@ -784,6 +800,48 @@
           "Fold over a bit of one side (~1 inch). Fold over again.",
           "Move the folded side to the edge, add rest of egg mix to open space on pan.",
           "Fold over again once the newly added mix is similarly set but wet. Remove from heat, let cool, then slice."
+        ]
+      },
+      {
+        "name": "korean_curry",
+        "label": "korean curry",
+        "ingredients": [
+          { "name": "rice_white", "amount": 245, "unit": "g" },
+          { "name": "butter", "amount": 2, "unit": "tbsp" },
+          { "name": "onion", "amount": 0.5, "unit": "" },
+          { "name": "potato", "amount": 1, "unit": "" },
+          { "name": "carrot", "amount": 1, "unit": "" },
+          { "name": "water", "amount": 2.5, "unit": "cup" },
+          { "name": "curry_powder_korean", "amount": 100, "unit": "g" }
+        ],
+        "directions": [
+          "Makes 2 lunch servings. 4 oz protein optional",
+          "In pot, cook potato w butter on med heat til semi-translucent. Be patient.",
+          "Add carrot + potato, stir for few min. Add water and cover for 12-15 min.",
+          "Add curry powder + water slurry, cook few min."
+        ]
+      },
+      {
+        "name": "omurice",
+        "label": "omurice (오므라이스)",
+        "ingredients": [
+          { "name": "white_rice", "amount": 2, "unit": "cup" },
+          { "name": "spam", "note": "1/2 can", "amount": 0.5, "unit": "" },
+          { "name": "carrot", "amount": 4, "unit": "" },
+          { "name": "onion", "amount": 1, "unit": "" },
+          { "name": "green_onion", "amount": 1, "unit": "" },
+          { "name": "ketchup", "amount": 0.3333333, "unit": "cup" },
+          { "name": "gochugaru", "amount": 1, "unit": "tbsp" },
+          { "name": "soy_sauce_dark", "amount": 1, "unit": "tbsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "oil", "amount": 1, "unit": "tbsp" }
+        ],
+        "directions": [
+          "On med heat cook spam til almost brown. Add veg, cook til onion lightly changes color.",
+          "Add rice, ketchup, seasonings. Cook for few more minutes.",
+          "For each omelette, whisk 2-3 eggs. Cook on med low until bottom looks cooked and top is mostly cooked.",
+          "Add 1 cup of fried rice in the middle, fold over sides. Slide and flip onto plate."
         ]
       },
       {
@@ -804,6 +862,153 @@
           "Once boiling, reduce to medium. Add potatoes (note, will take 8-10 min to soften).",
           "Add onion and zucchini, cook for 2-3 min.",
           "Add tofu, 1-2 more min. Add mushroom, 1-2 more min."
+        ]
+      },
+      {
+        "name": "tteokbokki",
+        "label": "tteokbokki (떡볶기)",
+        "ingredients": [
+          { "name": "rice_cake", "amount": 0.625, "unit": "lb" },
+          { "name": "water", "amount": 300, "unit": "ml" },
+          { "name": "gochujang", "note": "try reducing?", "amount": 2, "unit": "tbsp" },
+          { "name": "gochugaru", "note": "try reducing?", "amount": 0.75, "unit": "tbsp" },
+          { "name": "sugar", "amount": 6, "unit": "g" },
+          { "name": "eggs", "note": "boiled", "amount": 3, "unit": "" },
+          { "name": "fish_cake_sheet", "amount": 1, "unit": "" }
+        ],
+        "directions": [
+          "Instead of water, can make anchovy stock: 2.5c water, 3-4 dried anchovies, dried kelp for 15min on med heat.",
+          "Mix gochujang, gochugaru, sugar in small bowl, then add to boiling water in pan. Mix, then add everything else.",
+          "Once it starts to boil, stir with wooden spoon until rice cakes are soft and sauce is shiny (~10-15 min)."
+        ]
+      },
+      {
+        "name": "hoppang",
+        "label": "hoppang (호빵)",
+        "ingredients": [
+          { "name": "butter", "amount": 1, "unit": "tbsp" },
+          { "name": "milk_oat", "amount": 140, "unit": "ml" },
+          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "yeast", "amount": 1, "unit": "tsp" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "flour", "amount": 210, "unit": "g" }
+        ],
+        "directions": [
+          "Heat the butter in a large heavy pot over medium high heat. Stir with a wooden spoon until well melted. Add sugar and stir well. Remove from the heat.",
+          "To cool it down so the yeast can work, add cold milk and mix it well. Then add the yeast and let it sit for 5 to 10 minutes until the yeast gets foamy.",
+          "Add the salt and stir it well with a wooden spoon. Add flour and mix well for about a minute.",
+          "Knead the dough by hand for a few minutes until smooth. Cover and let it sit on the kitchen counter for 1 hour until the dough doubles in size.",
+          "Deflate the dough and knead it again for a few minutes. Cover and let it sit for 30 minutes.",
+          "Deflate and knead the dough until smooth. Use the remaining 1/4 cup flour to dust your cutting board. ",
+          "",
+          "Divide dough into 6 pieces. Form into smooth balls and put them on the cutting board. Fill.",
+          "Used 36g red bean filling per bun, worked good, could maybe be filled more.",
+          "Buns spaced 1 inch apart on the steamer basket so they have room to expand. Let them rise for 30 minutes.",
+          "Heat water in steamer. Put buns in steamer. ",
+          "",
+          "Put a large cotton cloth under the lid so that the water doesn’t drip back down onto the buns. Cover and steam over medium hight heat for 12 minute",
+          "Turn the heat down to low and cook an additional 3 minutes."
+        ]
+      },
+      {
+        "name": "jjajangmyeon",
+        "label": "jjajangmyeon (짜장면)",
+        "ingredients": [
+          { "name": "jjajang", "amount": 0.25, "unit": "cup" },
+          { "name": "pork_ground_84", "amount": 0.5, "unit": "lb" },
+          { "name": "potato", "amount": 1, "unit": "" },
+          { "name": "zucchini", "amount": 1, "unit": "" },
+          { "name": "onion", "amount": 0.5, "unit": "" },
+          { "name": "oil", "amount": 1, "unit": "tbsp" },
+          { "name": "oyster_sauce", "amount": 1, "unit": "tsp" },
+          { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
+          { "name": "sugar", "amount": 1, "unit": "tsp" },
+          { "name": "cucumber", "amount": 1, "unit": "" },
+          { "name": "cabbage", "amount": 0.333333, "unit": "" },
+          { "name": "udon_noodle", "amount": 1, "unit": "" }
+        ],
+        "directions": [
+          "Wok on med heat, 1 tbsp veg oil + pork. Cook 4-5 min til browned.",
+          "Add potato, zucchini, onion. Cook 3-4 min til potato is translucent.",
+          "Make well in center of wok. Add black bean paste. Stir and cook for 1 min.",
+          "Add bit of water, stir, and put lid on wok. Cook covered for 10 min.",
+          "Uncover and stir in cornstarch + sugar + 1/4 cup water mix.",
+          "Serve over noodles!"
+        ]
+      },
+      {
+        "name": "japchae",
+        "label": "japchae (잡채)",
+        "ingredient_categories": [
+          {
+            "name": "egg",
+            "label": "egg",
+            "ingredients": [
+              { "name": "egg", "amount": 1, "unit": "" },
+              { "name": "oil", "amount": 0.5, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "vegetables",
+            "label": "vegetables",
+            "ingredients": [
+              { "name": "onion", "note": "cut long", "amount": 1, "unit": "" },
+              { "name": "carrot", "note": "cut long", "amount": 1, "unit": "" },
+              { "name": "spinach", "amount": 145, "unit": "g" },
+              { "name": "sesame_oil", "note": "for spinach", "amount": 0.5, "unit": "tsp" },
+              { "name": "oil", "note": "to cook vegetables", "amount": 1, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "meat",
+            "label": "meat",
+            "ingredients": [
+              { "name": "beef_flank_steak", "amount": 4, "unit": "oz" },
+              { "name": "soy_sauce_dark", "amount": 1, "unit": "tsp" },
+              { "name": "sesame_oil", "amount": 0.5, "unit": "tsp" },
+              { "name": "oil", "note": "to cook vegetables", "amount": 1, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "the_rest",
+            "label": "the rest",
+            "ingredients": [
+              { "name": "vermicelli", "amount": 1, "unit": "" },
+              { "name": "soy_sauce_dark", "amount": 2, "unit": "tbsp" },
+              { "name": "sesame_oil", "amount": 2, "unit": "tsp" },
+              { "name": "sugar", "amount": 2, "unit": "g" }
+            ]
+          }
+        ],
+        "directions": [
+          "cook vermicelli in boiling water 6 min. rinse in cold water, drain. set to side",
+          "stir fry onion, carrot, spinach for tiny bit in a little oil. set to side",
+          "cook beef with sauce. set to side",
+          "vermicelli in pan. a little sesame oil, a little soy sauce. ",
+          "add vegetables and meat and mix. maybe add a little sugar. done"
+        ]
+      },
+      {
+        "name": "kimchi",
+        "label": "kimchi (김치)",
+        "ingredients": [
+          { "name": "napa_cabbage", "note": "about 2 lb", "amount": 0.5, "unit": "" },
+          { "name": "salt", "note": "coarse sea salt", "amount": 0.333333, "unit": "cup" },
+          { "name": "water", "amount": 360, "unit": "ml" },
+          { "name": "gochugaru", "note": "try decreasing", "amount": 4, "unit": "tbsp" },
+          { "name": "salted_shrimp", "note": "try decreasing...", "amount": 18, "unit": "g" },
+          { "name": "fish_sauce_korean", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 3, "unit": "" },
+          { "name": "ginger", "amount": 0.5, "unit": "tsp" },
+          { "name": "sugar", "amount": 0.75, "unit": "tsp" },
+          { "name": "water", "amount": 0.25, "unit": "cup" },
+          { "name": "green_onion", "amount": 2, "unit": "" }
+        ],
+        "directions": [
+          "Chop napa into bite size pieces.",
+          "Soak in salt water for 2 hrs.",
+          "Drain and rinse cabbage a few times.",
+          "Toss with sauce."
         ]
       },
       {
@@ -1847,6 +2052,47 @@
           "Stir in the olives (1 c pimiento or manzanilla Spanish olives, rinsed/drained; optional).",
           "Simmer uncovered for 30 minutes to thicken.",
           "Stir in parsley and season with salt and pepper to taste. Serve."
+        ]
+      },
+      {
+        "name": "cheesy_garlic_rolls",
+        "label": "cheesy garlic rolls",
+        "ingredient_categories": [
+          {
+            "name": "bread",
+            "label": "bread",
+            "ingredients": [
+              { "name": "flour", "amount": 180, "unit": "g" },
+              { "name": "salt", "amount": 0.25, "unit": "tsp" },
+              { "name": "sugar", "amount": 2, "unit": "tbsp" },
+              { "name": "yeast", "amount": 4, "unit": "g" },
+              { "name": "milk_oat", "note": "warm", "amount": 100, "unit": "ml" },
+              { "name": "egg", "amount": 1, "unit": "" },
+              { "name": "butter", "note": "soften", "amount": 1, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "filling",
+            "label": "filling",
+            "ingredients": [
+              { "name": "butter", "note": "soften", "amount": 1, "unit": "tbsp" },
+              { "name": "green_onion", "amount": 2, "unit": "" },
+              { "name": "garlic", "amount": 2, "unit": "" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+              { "name": "cheese_mozzarella", "amount": 1.7, "unit": "oz" }
+            ]
+          }
+        ],
+        "directions": [
+          "Mix flour, salt, sugar, yeast well. Crack egg in and mix well.",
+          "Combine milk and butter, then add to dough. Mix dough well, then cover and rest til doubled (~30 min)",
+          "Make butter by mixing butter, green onion, black pepper, and mashed garlic.",
+          "Roll dough out. Fold it 2-3 times, then roll out into a rectangle.",
+          "Cut the rectangle in half, spread butter onto one half, then fold the halves together.",
+          "Spread most of the cheese on the top, and roll it like kimbap.",
+          "Slice like kimbap, put into a baking tray (sliced sides up), and let rise 10-12 min.",
+          "Top with green onions and rest of cheese.",
+          "355F for 18 min."
         ]
       }
     ]
