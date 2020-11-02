@@ -139,6 +139,13 @@ html, body, #root, #root>div {
 .content ul {
   padding-inline-start: 20px;
 }
+/* .recipe #clipboard-data: Dummy textarea used for copying to clipboard; make sure it's hidden */
+.recipe #clipboard-data {
+  opacity: 0.01;
+  height: 0;
+  position: absolute;
+  z-index: -1;
+}
 /* .recipe .ingredient-category: The names of the ingredient categories, if a recipe's ingredient list has categories */
 .recipe .ingredient-category {
   padding-top: 1rem;

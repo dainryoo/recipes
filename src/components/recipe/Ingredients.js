@@ -1,13 +1,43 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import IngredientInputBox from "./IngredientInputBox.js";
 
 const Ingredients = (props) => {
 
   const { ingredients, setAmountInput, saveIngredientEdit, cancelIngredientEdit, editingIngredientIndex, startEditingIngredient } = props;
 
+  // clipboard obj holds all ingredient info to copy when user presses Copy to Clipboard button
+  const [clipboard, setClipboard] = useState("");
+
+  // reset the clipboard data if the recipe (aka list of ingredients) changes
+  useEffect(() => {
+    let clipboardText = "";
+    ingredients.forEach((item) => {
+      const calories = item.calories != null ? (parseFloat(item.calories).toFixed(2)) : "";
+      const label = (item.ingredients != null && clipboardText !== "") ? ("\n\t" + item.label) : ("\t" + item.label);
+      const amount = item.amount != null
+                    ? (" (" + item.amount
+                      + ((item.unit != null && item.unit !== "") ? (" " + item.unit) : "")
+                      + (item.amount_in_grams != null ? (", " + parseFloat(item.amount_in_grams).toFixed(2) + " g") : "")
+                    + ")")
+                    : "";
+      clipboardText += calories + label + amount + "\n";
+    });
+    setClipboard(clipboardText);
+  }, [ingredients]);
+
+  const copyToClipboard = (event) => {
+    const clipboardData = document.getElementById("clipboard-data");
+    clipboardData.select();
+    document.execCommand("copy");
+  }
+
+
   return (
     <div className="subcontent">
-      <div className="subheading">Ingredients:</div>
+      <div className="subheading">Ingredients:
+        <button onClick={copyToClipboard}>Copy</button>
+        <textarea readonly id="clipboard-data" value={clipboard}/>
+      </div>
       <table>
         <tbody>
           {ingredients && ingredients.map((currItem, index) => (

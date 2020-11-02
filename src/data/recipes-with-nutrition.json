@@ -4509,19 +4509,19 @@
       {
         "directions": [
           "Marinate, cook high heat, and set aside protein.", 
-          "1 tsp oil into wok, cook scallions, ginger, and garlic with the peppercorn powder on low. Cook for 1-2 min.", 
+          "1 tsp oil into wok med heat, cook scallions, ginger, and garlic with the peppercorn powder on low. Cook for 1-2 min.", 
           "Add protein back in. Turn heat up and stir fry with the sauce for 1 min. Add peanuts, stir quick, and serve."
         ], 
         "ingredient_categories": [
           {
             "ingredients": [
               {
-                "amount": 18, 
-                "calories": 420.0, 
-                "label": "firm tofu", 
-                "name": "tofu_firm", 
-                "price": 2.8800000000000003, 
-                "protein": 42.0, 
+                "amount": 16, 
+                "calories": 600.0000000000001, 
+                "label": "chicken thigh", 
+                "name": "chicken_thigh", 
+                "price": 4.990000000000001, 
+                "protein": 80.00000000000001, 
                 "unit": "oz"
               }, 
               {
@@ -4665,12 +4665,12 @@
                 "unit": ""
               }, 
               {
-                "amount": 18, 
-                "calories": 109.28571428571429, 
+                "amount": 28, 
+                "calories": 170.00000000000003, 
                 "label": "peanut", 
                 "name": "peanut", 
-                "price": 0.13968490471796347, 
-                "protein": 5.142857142857143, 
+                "price": 0.21728762956127654, 
+                "protein": 8.000000000000002, 
                 "unit": "g"
               }, 
               {
@@ -4703,9 +4703,9 @@
         "label": "kung pao", 
         "name": "kung_pao", 
         "nutrition": {
-          "calories": 755.7540476190477, 
-          "price": 16.121912130768585, 
-          "protein": 49.37652380952381
+          "calories": 996.4683333333334, 
+          "price": 18.309514855611898, 
+          "protein": 90.23366666666668
         }
       }, 
       {

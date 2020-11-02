@@ -26,8 +26,6 @@ const Recipe = ({recipe, view}) => {
   const [modifiedRecipes, setModifiedRecipes] = useState(testObj);
   const [editingIngredientIndex, setIndex] = useState(-1);
 
-  const [calculatorInfo, setCalculatorInfo] = useState({ grams: { input: 0, calories: 0}});
-
   // useEffect(() => {
   //   const newState = { grams: { input: 0, calories: 0}};
   //   if (item.conversion_to_grams) {

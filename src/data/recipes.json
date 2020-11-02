@@ -1074,7 +1074,7 @@
             "name": "protein_and_marinade",
             "label": "protein + marinade",
             "ingredients": [
-              { "name": "tofu_firm", "amount": 18, "unit": "oz" },
+              { "name": "chicken_thigh", "amount": 16, "unit": "oz" },
               { "name": "cornstarch", "amount": 1, "unit": "tsp" },
               { "name": "oil", "amount": 1, "unit": "tsp" },
               { "name": "shaoxing_wine", "amount": 1, "unit": "tsp" }
@@ -1100,7 +1100,7 @@
               { "name": "ginger", "amount": 1, "unit": "tsp" },
               { "name": "garlic", "amount": 3, "unit": "" },
               { "name": "green_onion", "amount": 1, "unit": "" },
-              { "name": "peanut", "amount": 18, "unit": "g" },
+              { "name": "peanut", "amount": 28, "unit": "g" },
               { "name": "oil", "note": "to cook protein", "amount": 2, "unit": "tsp" },
               { "name": "oil", "note": "to cook the rest", "amount": 1, "unit": "tsp" }
             ]
@@ -1108,7 +1108,7 @@
         ],
         "directions": [
           "Marinate, cook high heat, and set aside protein.",
-          "1 tsp oil into wok, cook scallions, ginger, and garlic with the peppercorn powder on low. Cook for 1-2 min.",
+          "1 tsp oil into wok med heat, cook scallions, ginger, and garlic with the peppercorn powder on low. Cook for 1-2 min.",
           "Add protein back in. Turn heat up and stir fry with the sauce for 1 min. Add peanuts, stir quick, and serve."
         ]
       },
