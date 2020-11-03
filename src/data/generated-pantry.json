@@ -58,6 +58,7 @@
         }, 
         "label": "coconut meat", 
         "name": "coconut_meat", 
+        "note": "average amount research: 81g", 
         "per_100_gram": {
           "calories": 90, 
           "price": 0, 
@@ -76,6 +77,7 @@
         }, 
         "label": "coconut water", 
         "name": "coconut_water", 
+        "note": "average amount research: 381g", 
         "per_100_gram": {
           "calories": 40.5797101, 
           "price": 0, 
@@ -518,6 +520,22 @@
           "grams": 85, 
           "protein": 1, 
           "unit": "g"
+        }
+      }, 
+      {
+        "label": "asian sweet potato", 
+        "name": "sweet_potato_asian", 
+        "note": "45-55 min at 430F on baking pan. Turn halfway.", 
+        "per_100_gram": {
+          "calories": 111, 
+          "price": 0.438719902, 
+          "protein": 1
+        }, 
+        "per_unit": {
+          "avg_grams": 130, 
+          "calories": 113, 
+          "price": 0.570335873, 
+          "protein": 2
         }
       }, 
       {
@@ -1995,6 +2013,27 @@
     "category_name": "protein", 
     "items": [
       {
+        "label": "amy's california burgers", 
+        "name": "burger_amys_california", 
+        "note": "4 min each side", 
+        "per_unit": {
+          "calories": 150, 
+          "price": 0.56, 
+          "protein": 6
+        }, 
+        "price_per_unit": {
+          "price": 0.56, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 150, 
+          "grams": 71, 
+          "protein": 6, 
+          "unit": ""
+        }
+      }, 
+      {
         "conversion_to_grams": {
           "lb": 453.3333333333333, 
           "oz": 28.333333333333332
@@ -2434,6 +2473,60 @@
     "items": [
       {
         "conversion_to_grams": {
+          "cup": 160.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 10.0, 
+          "tsp": 3.3333333333333335
+        }, 
+        "label": "black chia seed", 
+        "name": "chia_seed_black", 
+        "per_100_gram": {
+          "calories": 533.3333333333334, 
+          "price": 2.5838177128067654, 
+          "protein": 20.0
+        }, 
+        "price_per_unit": {
+          "price": 11.72, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 3, 
+          "calories": 160, 
+          "grams": 30, 
+          "protein": 6, 
+          "unit": "tbsp"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "cup": 160.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 10.0, 
+          "tsp": 3.3333333333333335
+        }, 
+        "label": "white chia seed", 
+        "name": "chia_seed_white", 
+        "per_100_gram": {
+          "calories": 500.0, 
+          "price": 2.5838177128067654, 
+          "protein": 20.0
+        }, 
+        "price_per_unit": {
+          "price": 11.72, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 3, 
+          "calories": 150, 
+          "grams": 30, 
+          "protein": 6, 
+          "unit": "tbsp"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
           "cup": 120.0, 
           "lb": 453.59237, 
           "oz": 28.34952, 
@@ -2461,56 +2554,84 @@
       }, 
       {
         "conversion_to_grams": {
-          "cup": 56.0, 
+          "cup": 160.0, 
           "lb": 453.59237, 
           "oz": 28.34952, 
-          "tbsp": 3.5, 
-          "tsp": 1.1666666666666667
+          "tbsp": 10.0, 
+          "tsp": 3.3333333333333335
         }, 
-        "label": "pasta", 
-        "name": "pasta", 
+        "label": "brown rice flour", 
+        "name": "flour_brown_rice", 
         "per_100_gram": {
-          "calories": 357.14285714285717, 
-          "price": 0.31746569254082607, 
-          "protein": 10.714285714285715
+          "calories": 350.0, 
+          "price": 2.1164379502721737, 
+          "protein": 7.5
         }, 
         "price_per_unit": {
-          "price": 0.09, 
+          "price": 0.6, 
           "unit": "oz"
         }, 
         "serving_nutrition": {
-          "amount": 1, 
-          "calories": 200, 
-          "grams": 56, 
-          "protein": 6, 
+          "amount": 0.25, 
+          "calories": 140, 
+          "grams": 40, 
+          "protein": 3, 
           "unit": "cup"
         }
       }, 
       {
         "conversion_to_grams": {
-          "cup": 56.0, 
+          "cup": 160.0, 
           "lb": 453.59237, 
           "oz": 28.34952, 
-          "tbsp": 3.5, 
-          "tsp": 1.1666666666666667
+          "tbsp": 10.0, 
+          "tsp": 3.3333333333333335
         }, 
-        "label": "rice vermicelli noodles (jiangxi)", 
-        "name": "rice_vermicelli", 
+        "label": "misugaru", 
+        "name": "misugaru", 
+        "note": "50g powder for 200ml water", 
         "per_100_gram": {
-          "calories": 357.14285714285717, 
-          "price": 0.2996282892973144, 
-          "protein": 7.142857142857143
+          "calories": 412.5, 
+          "price": 1.3051367360011739, 
+          "protein": 0.0
         }, 
         "price_per_unit": {
-          "price": 0.0849431818, 
+          "price": 0.37, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 0.25, 
+          "calories": 165, 
+          "grams": 40, 
+          "protein": 0, 
+          "unit": "cup"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "cup": 240.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 15.0, 
+          "tsp": 5.0
+        }, 
+        "label": "perilla seed powder", 
+        "name": "perilla_seed_powder", 
+        "per_100_gram": {
+          "calories": 500.0, 
+          "price": 9.806162502927739, 
+          "protein": 0.0
+        }, 
+        "price_per_unit": {
+          "price": 2.78, 
           "unit": "oz"
         }, 
         "serving_nutrition": {
           "amount": 1, 
-          "calories": 200, 
-          "grams": 56, 
-          "protein": 4, 
-          "unit": "cup"
+          "calories": 25, 
+          "grams": 5, 
+          "protein": 0, 
+          "unit": "tsp"
         }
       }, 
       {
@@ -2538,30 +2659,6 @@
           "grams": 45, 
           "protein": 3, 
           "unit": "cup"
-        }
-      }, 
-      {
-        "conversion_to_grams": {
-          "lb": 453.59237, 
-          "oz": 28.34952
-        }, 
-        "label": "thai rice flakes", 
-        "name": "rice_flakes", 
-        "per_100_gram": {
-          "calories": 345.45454545454544, 
-          "price": 1.7151965888664076, 
-          "protein": 7.2727272727272725
-        }, 
-        "price_per_unit": {
-          "price": 0.48625, 
-          "unit": "oz"
-        }, 
-        "serving_nutrition": {
-          "amount": 55, 
-          "calories": 190, 
-          "grams": 55, 
-          "protein": 4, 
-          "unit": "g"
         }
       }, 
       {
@@ -2616,6 +2713,113 @@
           "grams": 5, 
           "protein": 1, 
           "unit": "tsp"
+        }
+      }
+    ]
+  }, 
+  {
+    "category_name": "noodles", 
+    "items": [
+      {
+        "conversion_to_grams": {
+          "lb": 400.0, 
+          "oz": 25.0
+        }, 
+        "label": "korean vermicelli", 
+        "name": "korean_vermicelli", 
+        "per_100_gram": {
+          "calories": 360.0, 
+          "price": 1.48, 
+          "protein": 0.0
+        }, 
+        "price_per_unit": {
+          "price": 0.37, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 90, 
+          "grams": 25, 
+          "protein": 0, 
+          "unit": "oz"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "cup": 56.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 3.5, 
+          "tsp": 1.1666666666666667
+        }, 
+        "label": "pasta", 
+        "name": "pasta", 
+        "per_100_gram": {
+          "calories": 357.14285714285717, 
+          "price": 0.31746569254082607, 
+          "protein": 10.714285714285715
+        }, 
+        "price_per_unit": {
+          "price": 0.09, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 200, 
+          "grams": 56, 
+          "protein": 6, 
+          "unit": "cup"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "lb": 453.59237, 
+          "oz": 28.34952
+        }, 
+        "label": "thai rice flakes", 
+        "name": "rice_flakes", 
+        "per_100_gram": {
+          "calories": 345.45454545454544, 
+          "price": 1.7151965888664076, 
+          "protein": 7.2727272727272725
+        }, 
+        "price_per_unit": {
+          "price": 0.48625, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 55, 
+          "calories": 190, 
+          "grams": 55, 
+          "protein": 4, 
+          "unit": "g"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "cup": 56.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 3.5, 
+          "tsp": 1.1666666666666667
+        }, 
+        "label": "rice vermicelli noodles (jiangxi)", 
+        "name": "rice_vermicelli", 
+        "per_100_gram": {
+          "calories": 357.14285714285717, 
+          "price": 0.2996282892973144, 
+          "protein": 7.142857142857143
+        }, 
+        "price_per_unit": {
+          "price": 0.0849431818, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 200, 
+          "grams": 56, 
+          "protein": 4, 
+          "unit": "cup"
         }
       }
     ]
@@ -3121,6 +3325,33 @@
       }, 
       {
         "conversion_to_grams": {
+          "cup": 256.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 16.0, 
+          "tsp": 5.333333333333333
+        }, 
+        "label": "peanut butter", 
+        "name": "peanut_butter", 
+        "per_100_gram": {
+          "calories": 656.25, 
+          "price": 0.811301214271, 
+          "protein": 21.875
+        }, 
+        "price_per_unit": {
+          "price": 0.23, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 2, 
+          "calories": 210, 
+          "grams": 32, 
+          "protein": 7, 
+          "unit": "tbsp"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
           "cup": 240.0, 
           "lb": 453.59237, 
           "oz": 28.34952, 
@@ -3294,7 +3525,7 @@
           "tbsp": 30.0, 
           "tsp": 10.0
         }, 
-        "label": "doubanjiang (chili_bean_sauce)", 
+        "label": "doubanjiang (chili bean sauce)", 
         "name": "doubanjiang", 
         "per_100_gram": {
           "calories": 50.0, 
@@ -3643,7 +3874,7 @@
           "tsp": 5.0
         }, 
         "label": "rice (wine) vinegar", 
-        "name": "rice_vinegar", 
+        "name": "vinegar_rice", 
         "per_100_gram": {
           "calories": 0.0, 
           "price": 1.4462325993526521, 

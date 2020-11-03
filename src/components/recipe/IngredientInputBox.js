@@ -26,7 +26,7 @@ const IngredientInputBox = (props) => {
     <div>
       {
         editingIngredientIndex !== itemIndex && <button onClick={() => startEditingIngredient(itemIndex)}>
-        {(currItem.amount + (currItem.unit.length > 0 && " " + currItem.unit)
+        {(parseFloat(currItem.amount).toFixed(2) + (currItem.unit.length > 0 ? " " + currItem.unit : "")
           + (currItem.amount_in_grams != null ? (" (" + parseFloat(currItem.amount_in_grams).toFixed(2) + " g)") : ""))}
         </button>
       }

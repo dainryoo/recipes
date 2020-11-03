@@ -39,6 +39,66 @@
         ]
       },
       {
+        "name": "chocolate_chia_pudding",
+        "label": "chocolate chia pudding",
+        "ingredient_categories": [
+          {
+            "name": "dain_serving",
+            "label": "Dain's serving",
+            "ingredients": [
+              { "name": "chia_seed_black", "amount": 25, "unit": "g" },
+              { "name": "milk_almond", "amount": 100, "unit": "ml" },
+              { "name": "water", "amount": 40, "unit": "ml" },
+              { "name": "cocoa_powder", "amount": 9, "unit": "g" },
+              { "name": "honey", "amount": 9, "unit": "g" }
+            ]
+          },
+          {
+            "name": "dune_serving",
+            "label": "Dune's serving",
+            "ingredients": [
+              { "name": "chia_seed_black", "amount": 30, "unit": "g" },
+              { "name": "milk_oat", "amount": 250, "unit": "ml" },
+              { "name": "cocoa_powder", "amount": 16, "unit": "g" },
+              { "name": "honey", "amount": 16, "unit": "g" }
+            ]
+          }
+        ],
+        "directions": [
+          "for thick chia: 2 tbsp for every 1/2 c (4g chia for every 20ml milk)",
+          "for thinner chia: 3 tbsp for every 1 c (3g chia for every 20ml milk)"
+        ]
+      },
+      {
+        "name": "pb_chia_pudding",
+        "label": "peanut butter chia pudding",
+        "ingredient_categories": [
+          {
+            "name": "dain_serving",
+            "label": "Dain's serving",
+            "ingredients": [
+              { "name": "chia_seed_black", "amount": 25, "unit": "g" },
+              { "name": "milk_almond", "amount": 100, "unit": "ml" },
+              { "name": "water", "amount": 40, "unit": "ml" },
+              { "name": "peanut_butter", "amount": 12, "unit": "g" }
+            ]
+          },
+          {
+            "name": "dune_serving",
+            "label": "Dune's serving",
+            "ingredients": [
+              { "name": "chia_seed_black", "amount": 37, "unit": "g" },
+              { "name": "milk_oat", "amount": 212, "unit": "ml" },
+              { "name": "peanut_butter", "amount": 22, "unit": "g" }
+            ]
+          }
+        ],
+        "directions": [
+          "for thick chia: 2 tbsp for every 1/2 c (4g chia for every 20ml milk)",
+          "for thinner chia: 3 tbsp for every 1 c (3g chia for every 20ml milk)"
+        ]
+      },
+      {
         "name": "dutch_baby",
         "label": "dutch baby",
         "ingredients": [
@@ -231,9 +291,9 @@
         "ingredients": [
           { "name": "butter", "amount": 0.5, "unit": "cup" },
           { "name": "sugar_brown", "amount": 132, "unit": "g" },
-          { "name": "sugar", "note": "could try less?", "amount": 48, "unit": "g" },
+          { "name": "sugar", "amount": 45, "unit": "g" },
           { "name": "egg", "amount": 1, "unit": "" },
-          { "name": "vanilla_extract", "amount": 1, "unit": "tsp" },
+          { "name": "vanilla_extract", "amount": 1.5, "unit": "tsp" },
           { "name": "flour", "amount": 2, "unit": "cup" },
           { "name": "salt", "amount": 0.5, "unit": "tsp" },
           { "name": "baking_powder", "amount": 0.5, "unit": "tsp" },
@@ -243,7 +303,7 @@
           "Add butter and sugars to bowl and cream until light and fluffy.",
           "Add egg and vanilla and mix. Add dry ingredients and mix. It's okay that it's crumbly.",
           "Add chocolate chips. Mold onto baking sheet and refrigerate for 30 minutes.",
-          "Bake for 16-18 minutes at 375F.",
+          "Bake for 18 minutes at 375F.",
           "Let cookies cool on baking sheet for 5 minutes, then transfer them and let cool to room temperature."
         ]
       },
@@ -687,7 +747,7 @@
           { "name": "milk_oat", "note": "warm (~95F), reduce by 15-30g if humid", "amount": 0.6666667, "unit": "cup" },
           { "name": "yeast", "amount": 1, "unit": "tsp" },
           { "name": "egg", "amount": 2, "unit": "" },
-          { "name": "oil", "amount": 2, "unit": "tbsp" },
+          { "name": "oil", "note": "try melted butter?", "amount": 2, "unit": "tbsp" },
           { "name": "egg", "note": "for egg wash", "amount": 1, "unit": "" }
         ],
         "directions": [
@@ -734,6 +794,41 @@
   {
     "category_name": "korean",
     "recipes": [
+      {
+        "name": "kimchi_pancakes",
+        "label": "kimchi pancakes (부침개)",
+        "ingredients": [
+          { "name": "kimchi", "amount": 280, "unit": "" },
+          { "name": "flour", "amount": 200, "unit": "g" },
+          { "name": "oil", "amount": 5, "unit": "tsp" }
+        ],
+        "directions": [
+          "Makes ~5 pancakes.",
+          "Med to med high heat, 1/2 generous cup of batter + 1 tsp oil per pancake."
+        ]
+      },
+      {
+        "name": "kimchi_fried_rice",
+        "label": "kimchi fried rice (볶음밥)",
+        "ingredients": [
+          { "name": "spam", "note": "or 1 can tuna", "amount": 1, "unit": "" },
+          { "name": "kimchi", "amount": 400, "unit": "g" },
+          { "name": "onion", "amount": 0.25, "unit": "" },
+          { "name": "carrot", "amount": 1, "unit": "" },
+          { "name": "garlic", "amount": 1, "unit": "" },
+          { "name": "green_onion", "amount": 1, "unit": "" },
+          { "name": "rice_white", "amount": 2.5, "unit": "cup" },
+          { "name": "sesame_oil", "amount": 2, "unit": "tsp" },
+          { "name": "gochugaru", "amount": 1, "unit": "tbsp" },
+          { "name": "soy_sauce", "amount": 2, "unit": "tbsp" },
+          { "name": "oil", "amount": 2, "unit": "tbsp" }
+        ],
+        "directions": [
+          "Dice all vegetables.",
+          "Med high 2 tsp oil, cook kimchi and spam until kimchi is softened and translucent.",
+          "Add vegetables, then add 1 tsp oil, cook for bit, then add rice. Season to taste with salt and pepper."
+        ]
+      },
       {
         "name": "hotteok",
         "label": "hotteok (호뗙)",
@@ -804,7 +899,7 @@
       },
       {
         "name": "korean_curry",
-        "label": "korean curry",
+        "label": "korean curry (카레라이스)",
         "ingredients": [
           { "name": "rice_white", "amount": 245, "unit": "g" },
           { "name": "butter", "amount": 2, "unit": "tbsp" },
@@ -825,7 +920,7 @@
         "name": "omurice",
         "label": "omurice (오므라이스)",
         "ingredients": [
-          { "name": "white_rice", "amount": 2, "unit": "cup" },
+          { "name": "rice_white", "amount": 2, "unit": "cup" },
           { "name": "spam", "note": "1/2 can", "amount": 0.5, "unit": "" },
           { "name": "carrot", "amount": 4, "unit": "" },
           { "name": "onion", "amount": 1, "unit": "" },
@@ -865,6 +960,25 @@
         ]
       },
       {
+        "name": "kimbap",
+        "label": "kimbap (김밥)",
+        "ingredients": [
+          { "name": "dried_seaweed_sheet", "amount": 5, "unit": "" },
+          { "name": "rice_white", "amount": 2, "unit": "cup" },
+          { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "egg", "amount": 2, "unit": "" },
+          { "name": "oil", "amount": 1, "unit": "tsp" },
+          { "name": "cucumber", "amount": 1, "unit": "" },
+          { "name": "carrot", "amount": 1, "unit": "" },
+          { "name": "spinach", "amount": 1, "unit": "" },
+          { "name": "imitation_crab", "amount": 1, "unit": "" }
+        ],
+        "directions": [
+          "Shiny side seaweed down!"
+        ]
+      },
+      {
         "name": "tteokbokki",
         "label": "tteokbokki (떡볶기)",
         "ingredients": [
@@ -873,7 +987,7 @@
           { "name": "gochujang", "note": "try reducing?", "amount": 2, "unit": "tbsp" },
           { "name": "gochugaru", "note": "try reducing?", "amount": 0.75, "unit": "tbsp" },
           { "name": "sugar", "amount": 6, "unit": "g" },
-          { "name": "eggs", "note": "boiled", "amount": 3, "unit": "" },
+          { "name": "egg", "note": "boiled", "amount": 3, "unit": "" },
           { "name": "fish_cake_sheet", "amount": 1, "unit": "" }
         ],
         "directions": [
@@ -937,6 +1051,28 @@
         ]
       },
       {
+        "name": "makgeolli_rice_cake",
+        "label": "makgeolli rice cake (술떡)",
+        "ingredients": [
+          { "name": "flour_rice", "amount": 4, "unit": "cup" },
+          { "name": "makgeolli", "amount": 72, "unit": "ml" },
+          { "name": "water", "note": "warm", "amount": 48, "unit": "g" },
+          { "name": "sugar", "amount": 48, "unit": "g" },
+          { "name": "salt", "amount": 2, "unit": "g" }
+        ],
+        "directions": [
+          "Mix warm water + sugar. Add makgeolli and mix.",
+          "Pour liquid mixture into flour. Mix well until gochujang consistency.",
+          "Cover with wrap and ferment at 30, 35, or 40C",
+          "3 step fermentation, mix after each rest to release the gases.",
+          "4 hours first, 2 hours second, 1 hour third",
+          "Fill greased molds 70%.",
+          "Get water to boiling, then turn off heat. Place molds on top for 5-15 min for extra rise.",
+          "After the rise, turn heat back on. ",
+          "Keep on low heat for 5 min, high heat for 10 min, low heat for 5 min"
+        ]
+      },
+      {
         "name": "japchae",
         "label": "japchae (잡채)",
         "ingredient_categories": [
@@ -973,7 +1109,7 @@
             "name": "the_rest",
             "label": "the rest",
             "ingredients": [
-              { "name": "vermicelli", "amount": 1, "unit": "" },
+              { "name": "korean_vermicelli", "amount": 500, "unit": "g" },
               { "name": "soy_sauce_dark", "amount": 2, "unit": "tbsp" },
               { "name": "sesame_oil", "amount": 2, "unit": "tsp" },
               { "name": "sugar", "amount": 2, "unit": "g" }
@@ -986,6 +1122,38 @@
           "cook beef with sauce. set to side",
           "vermicelli in pan. a little sesame oil, a little soy sauce. ",
           "add vegetables and meat and mix. maybe add a little sugar. done"
+        ]
+      },
+      {
+        "name": "bibim_guksu",
+        "label": "bibim guksu (비빔국수)",
+        "ingredient_categories": [
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "water", "note": "or kimchi juice", "amount": 0.25, "unit": "cup" },
+              { "name": "sugar", "amount": 1, "unit": "tsp" },
+              { "name": "gochujang", "amount": 2, "unit": "tbsp" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
+              { "name": "vinegar_rice", "amount": 2, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "filling",
+            "label": "filling",
+            "ingredients": [
+              { "name": "rice_vermicelli", "amount": 7, "unit": "oz" },
+              { "name": "kimchi", "note": "chopped", "amount": 0.5, "unit": "cup" },
+              { "name": "egg", "note": "boiled", "amount": 1, "unit": "" },
+              { "name": "sesame_seed", "amount": 1, "unit": "tbsp" },
+              { "name": "cucumber", "note": "matchstick", "amount": 0.5, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "Cook noodles and rinse in cold water.",
+          "Mix sauce. Put sauce, egg, cucumber on noodles."
         ]
       },
       {
@@ -1009,6 +1177,65 @@
           "Soak in salt water for 2 hrs.",
           "Drain and rinse cabbage a few times.",
           "Toss with sauce."
+        ]
+      },
+      {
+        "name": "gamjatang",
+        "label": "gamjatang (감자탕)",
+        "ingredient_categories": [
+          {
+            "name": "filling",
+            "label": "filling",
+            "ingredients": [
+              { "name": "pork_neck_bone", "note": "up to 3 lb. approx 9 bones, 85.5 cal each?", "amount": 2.5, "unit": "lb" },
+              { "name": "ginger", "note": "sliced", "amount": 1, "unit": "oz" },
+              { "name": "soybean_paste", "amount": 2, "unit": "tbsp" },
+              { "name": "onion", "note": "sliced", "amount": 1, "unit": "" },
+              { "name": "dried_red_peppers", "amount": 1, "unit": "" },
+              { "name": "napa_cabbage", "note": "cut off the core", "amount": 1, "unit": "lb" }
+            ]
+          },
+          {
+            "name": "vegetable",
+            "label": "vegetable",
+            "ingredients": [
+              { "name": "potato", "note": "peeled; up to 3", "amount": 2, "unit": "" },
+              { "name": "soybean_sprout", "note": "washed and drained", "amount": 8, "unit": "oz" },
+              { "name": "green_onion", "note": "cut to 2 inch", "amount": 4, "unit": "" },
+              { "name": "perilla_leaf", "note": "up to 12", "amount": 8, "unit": "" }
+            ]
+          },
+          {
+            "name": "seasoning",
+            "label": "seasoning",
+            "ingredients": [
+              { "name": "garlic", "note": "minced", "amount": 6, "unit": "" },
+              { "name": "gochugaru", "note": "originally 1/2 tbsp?", "amount": 0.25, "unit": "tbsp" },
+              { "name": "gochujang", "amount": 1, "unit": "tbsp" },
+              { "name": "fish_sauce_korean", "amount": 3, "unit": "tbsp" },
+              { "name": "perilla_seed_powder", "note": "should be 60g 300cal", "amount": 0.25, "unit": "cup" },
+              { "name": "pepper_black", "amount": 1, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Rinse the pork bones a couple of times and soak in cold water for 30+ min.",
+          "",
+          "Bring a large pot of water to a boil. Blanch cabbage for 1 min and then remove with tongs. Keep water boiling, will use later.",
+          "Rinse cabbage in cold water and strain. Tear leaves lengthwise once or twice to make long bite sized pieces.",
+          "Put the bones into the boiling water and cover. Cook for 7 min over med-high heat. The water will turn dark and some foam will come to the surface.",
+          "Strain and wash each bone in cold running water. Remove any extra fat, dark foamy stuff, and bone fragments. ",
+          "",
+          "Put the cleaned bones into a large pot.",
+          "Add ginger, soybean paste, onion, red pepper, and 11 c of water. ",
+          "Cover and cook for 90 min over med-high heat.",
+          "",
+          "After 90 min, add the cabbage, soy bean sprouts, 3 green onions, and the peeled potatoes.",
+          "Mix garlic, gochugaru, gochujang, fish sauce, perilla seed powder, black pepper, and 1/4 c water in a bowl.",
+          "Add this seasoning paste + 1/2 c water into pot.",
+          "",
+          "Cover and cook for 30-40 min over med-high heat until potatoes are fully cooked. ",
+          "Add the perilla leave, stir, and serve."
         ]
       },
       {
@@ -1045,7 +1272,7 @@
           { "name": "gochujang", "amount": 0.25, "unit": "cup" },
           { "name": "soy_sauce_dark", "amount": 1, "unit": "tbsp" },
           { "name": "sugar", "amount": 1, "unit": "tbsp" },
-          { "name": "gochugaru", "amount": 2, "unit": "tbsp" },
+          { "name": "gochugaru", "note": "originally 2 tbsp", "amount": 1, "unit": "tbsp" },
           { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
           { "name": "sesame_oil", "amount": 1, "unit": "tbsp" },
           { "name": "garlic", "note": "minced", "amount": 5, "unit": "" },
@@ -1059,6 +1286,28 @@
           "Stir to mix well. Cook for a few min, until pork is covered well with seasonings.",
           "Add garlic, ginger, onion, green onion.",
           "Stir and cook for 12-15 min, til pork is fully cooked and juicy and a little crispy."
+        ]
+      },
+      {
+        "name": "galbitang",
+        "label": "galbitang (갈비탕)",
+        "ingredients": [
+          { "name": "beef_rib", "amount": 1, "unit": "" },
+          { "name": "radish", "note": "cut into small pieces", "amount": 1, "unit": "" },
+          { "name": "onion", "note": "whole", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "(1 whole bulb)", "amount": 8, "unit": "" },
+          { "name": "ginger", "note": "peeled and whole", "amount": 1.5, "unit": "tbsp" },
+          { "name": "peppercorn", "note": "unsure about amount", "amount": 1, "unit": "tbsp" },
+          { "name": "bay_leaf", "note": "unsure about amount", "amount": 2, "unit": "" },
+          { "name": "jalapeno", "note": "optional", "amount": 1, "unit": "" },
+          { "name": "green_onion", "note": "including white part", "amount": 2, "unit": "" }
+        ],
+        "directions": [
+          "In cold water, soak meat for 30 min to let blood out. Rinse with cold water.",
+          "In a pot, cover the meat with water just enough to cover, turn heat on, and stop just when water boils.",
+          "Throw the gross water away and rinse.",
+          "Put all ingredients in a big pot, add water, and boil everything on high heat. Check occasionally to prevent overflow.",
+          "After 2+ hours (or whenever color looks right), remove onion and green onion, season with salt, add optional cooked glass noodles."
         ]
       }
     ]
@@ -1086,7 +1335,7 @@
             "ingredients": [
               { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
               { "name": "soy_sauce_dark", "amount": 0.5, "unit": "tsp" },
-              { "name": "rice_vinegar", "amount": 1, "unit": "tbsp" },
+              { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
               { "name": "sugar", "amount": 1, "unit": "tsp" },
               { "name": "water", "amount": 3, "unit": "tbsp" },
               { "name": "cornstarch", "amount": 1, "unit": "tsp" }
@@ -1147,7 +1396,7 @@
             "ingredients": [
               { "name": "soy_sauce_light", "amount": 2, "unit": "tbsp" },
               { "name": "soy_sauce_dark", "amount": 1, "unit": "tsp" },
-              { "name": "rice_vinegar", "amount": 1.5, "unit": "tsp" },
+              { "name": "vinegar_rice", "amount": 1.5, "unit": "tsp" },
               { "name": "sugar", "amount": 2, "unit": "tsp" },
               { "name": "water", "amount": 0.33, "unit": "cup" },
               { "name": "sesame_oil", "amount": 0.5, "unit": "tsp" },
@@ -1283,7 +1532,7 @@
             "label": "lamb marinade",
             "ingredients": [
               { "name": "lamb_shoulder", "amount": 0.5, "unit": "lb" },
-              { "name": "rice_vinegar", "amount": 1, "unit": "tbsp" },
+              { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
               { "name": "cornstarch", "amount": 1, "unit": "tsp" },
               { "name": "oil", "amount": 1, "unit": "tbsp" }
             ]
@@ -1308,7 +1557,7 @@
               { "name": "coriander_ground", "amount": 1.5, "unit": "tbsp" },
               { "name": "cumin_seed", "note": "toasted and ground", "amount": 1.5, "unit": "tbsp" },
               { "name": "chili_oil", "amount": 3, "unit": "tbsp" },
-              { "name": "rice_vinegar", "amount": 2, "unit": "tbsp" },
+              { "name": "vinegar_rice", "amount": 2, "unit": "tbsp" },
               { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
               { "name": "sugar", "amount": 1, "unit": "tsp" },
               { "name": "salt", "amount": 0.125, "unit": "tsp" }
@@ -1698,7 +1947,7 @@
           { "name": "tofu_firm", "amount": 18, "unit": "oz" },
           { "name": "fish_sauce", "amount": 1.5, "unit": "tbsp" },
           { "name": "sugar", "amount": 1, "unit": "tbsp" },
-          { "name": "rice_vinegar", "amount": 1, "unit": "tbsp" },
+          { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
           { "name": "water", "amount": 2, "unit": "tbsp" },
           { "name": "gochugaru", "amount": 0.5, "unit": "tsp" }
         ],
@@ -1789,7 +2038,7 @@
             "label": "nuoc cham sauce",
             "ingredients": [
               { "name": "lime_juice", "amount": 2, "unit": "tbsp" },
-              { "name": "rice_vinegar", "note": "or white vinegar", "amount": 2, "unit": "tbsp" },
+              { "name": "vinegar_rice", "note": "or white vinegar", "amount": 2, "unit": "tbsp" },
               { "name": "fish_sauce", "amount": 0.25, "unit": "cup" },
               { "name": "sugar", "amount": 3, "unit": "tbsp" },
               { "name": "sriracha", "amount": 2, "unit": "tsp" },
