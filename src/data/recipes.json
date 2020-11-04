@@ -46,9 +46,9 @@
             "name": "dain_serving",
             "label": "Dain's serving",
             "ingredients": [
-              { "name": "chia_seed_black", "amount": 25, "unit": "g" },
-              { "name": "milk_almond", "amount": 100, "unit": "ml" },
-              { "name": "water", "amount": 40, "unit": "ml" },
+              { "name": "chia_seed_black", "amount": 33, "unit": "g" },
+              { "name": "milk_oat", "amount": 20, "unit": "ml" },
+              { "name": "water", "amount": 166, "unit": "ml" },
               { "name": "cocoa_powder", "amount": 9, "unit": "g" },
               { "name": "honey", "amount": 9, "unit": "g" }
             ]
@@ -57,7 +57,7 @@
             "name": "dune_serving",
             "label": "Dune's serving",
             "ingredients": [
-              { "name": "chia_seed_black", "amount": 30, "unit": "g" },
+              { "name": "chia_seed_black", "amount": 44, "unit": "g" },
               { "name": "milk_oat", "amount": 250, "unit": "ml" },
               { "name": "cocoa_powder", "amount": 16, "unit": "g" },
               { "name": "honey", "amount": 16, "unit": "g" }
@@ -78,8 +78,8 @@
             "label": "Dain's serving",
             "ingredients": [
               { "name": "chia_seed_black", "amount": 25, "unit": "g" },
-              { "name": "milk_almond", "amount": 100, "unit": "ml" },
-              { "name": "water", "amount": 40, "unit": "ml" },
+              { "name": "milk_almond", "amount": 25, "unit": "ml" },
+              { "name": "water", "amount": 115, "unit": "ml" },
               { "name": "peanut_butter", "amount": 12, "unit": "g" }
             ]
           },
@@ -780,6 +780,110 @@
         ]
       },
       {
+        "name": "cinnamon_rolls",
+        "label": "cinnamon rolls",
+        "ingredient_categories": [
+          {
+            "name": "dough",
+            "label": "dough",
+            "ingredients": [
+              { "name": "milk_oat", "amount": 0.5, "unit": "cup" },
+              { "name": "butter", "amount": 3, "unit": "tbsp" },
+              { "name": "yeast", "note": "or 2.25 tsp", "amount": 2.5, "unit": "tsp" },
+              { "name": "flour", "amount": 2.25, "unit": "cup" },
+              { "name": "sugar", "note": "or 1.5 tsp for the less sweet danish version", "amount": 0.25, "unit": "cup" },
+              { "name": "salt", "amount": 0.5, "unit": "tsp" },
+              { "name": "egg", "note": "room temp", "amount": 1, "unit": "" },
+              { "name": "cardamom_ground", "note": "for danish version", "amount": 0.5, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "cinnamon_spread",
+            "label": "cinnamon spread",
+            "ingredients": [
+              { "name": "butter", "note": "softened", "amount": 3, "unit": "tbsp" },
+              { "name": "sugar_brown", "amount": 0.25, "unit": "cup" },
+              { "name": "cinnamon_ground", "amount": 1, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "icing",
+            "label": "icing",
+            "ingredients": [
+              { "name": "sugar_powdered", "amount": 0.5, "unit": "cup" },
+              { "name": "water", "note": "hot; up to 1 tbsp", "amount": 0.5, "unit": "tbsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Microwave milk and butter til 105-115F. Dissolve yeast in mix.",
+          "Whisk flour, sugar, salt (and cardamom). Add egg, mix til incorporated. Add milk mix, mix til incorporated.",
+          "Knead til dough is elastic and smooth, but still tacky.",
+          "Rise in greased covered bowl for 30min-1hr (or til doubled).",
+          "Roll dough out into rect, spread butter on top, sprinkle with sugar cinnamon mix.",
+          "Roll dough up tight, cut into 5-6 rolls ",
+          "Rise for 30min or 60-90 min or til doubled",
+          "Bake 20-22min or 25-28 min 375F."
+        ]
+      },
+      {
+        "name": "secret",
+        "label": "secret",
+        "ingredient_categories": [
+          {
+            "name": "dough",
+            "label": "dough",
+            "ingredients": [
+              { "name": "flour", "amount": 265, "unit": "g" },
+              { "name": "sugar", "note": "or 50g", "amount": 34, "unit": "g" },
+              { "name": "yeast", "amount": 5, "unit": "g" },
+              { "name": "egg", "amount": 2, "unit": "" },
+              { "name": "milk_oat", "amount": 0.25, "unit": "cup" },
+              { "name": "salt", "amount": 0.5, "unit": "tsp" },
+              { "name": "butter", "amount": 5, "unit": "tbsp" },
+              { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
+              { "name": "nutmeg", "amount": 0.25, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "spread",
+            "label": "spread",
+            "ingredients": [
+              { "name": "sugar_powdered", "amount": 0.25, "unit": "cup" },
+              { "name": "cocoa_powder", "amount": 0.16666667, "unit": "cup" },
+              { "name": "chocolate_dark", "note": "melted", "amount": 65, "unit": "g" },
+              { "name": "butter", "note": "melted", "amount": 0.25, "unit": "cup" },
+              { "name": "chocolate_chips", "amount": 60, "unit": "g" }
+            ]
+          },
+          {
+            "name": "extra",
+            "label": "extra",
+            "ingredients": [
+              { "name": "water", "amount": 0.25, "unit": "cup" },
+              { "name": "sugar", "amount": 0.25, "unit": "cup" }
+            ]
+          }
+        ],
+        "directions": [
+          "Flour, sugar, yeast, mix til combined.",
+          "Add egg and water and mix til dough comes together.",
+          "Add salt, butter, mix til incorporated.",
+          "Mix til dough is completely smooth, elastic, shiny, pulls away from sides.",
+          "Dough in greased cover bowl. Rest for half a day or overnight.",
+          "",
+          "Grease 9x4 in loaf pan. Line bottom with parchment paper.",
+          "Make filling by whisking everything into a paste.",
+          "Roll out dough into rect. Long side closest to you. Spread filling. Leave a 2cm border all around. Sprinkle choc chips on top.",
+          "Shape dough....",
+          "",
+          "Put dough in loaf pan. Cover loosely, rise for 1-1.5 hr. Optionally, rise overnight, then take out to get to room temp for an hour before baking.",
+          "Bake 25-30 min 375F.",
+          "Brush with sugar syrup immediatley after out of oven.",
+          "Cool til warm, remove from pans, cool completely before serving."
+        ]
+      },
+      {
         "name": "template",
         "label": "template",
         "ingredients": [
@@ -1034,9 +1138,9 @@
           { "name": "zucchini", "amount": 1, "unit": "" },
           { "name": "onion", "amount": 0.5, "unit": "" },
           { "name": "oil", "amount": 1, "unit": "tbsp" },
-          { "name": "oyster_sauce", "amount": 1, "unit": "tsp" },
+          { "name": "oyster_sauce", "note": "or sub sesame oil", "amount": 1, "unit": "tsp" },
           { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
-          { "name": "sugar", "amount": 1, "unit": "tsp" },
+          { "name": "sugar", "amount": 2, "unit": "tsp" },
           { "name": "cucumber", "amount": 1, "unit": "" },
           { "name": "cabbage", "amount": 0.333333, "unit": "" },
           { "name": "udon_noodle", "amount": 1, "unit": "" }
@@ -1269,13 +1373,14 @@
         "label": "spicy pork stirfry (제육볶음)",
         "ingredients": [
           { "name": "pork_belly", "note": "or pork shoulder/loin", "amount": 1, "unit": "lb" },
-          { "name": "gochujang", "amount": 0.25, "unit": "cup" },
+          { "name": "gochujang", "amount": 0.2, "unit": "cup" },
           { "name": "soy_sauce_dark", "amount": 1, "unit": "tbsp" },
-          { "name": "sugar", "amount": 1, "unit": "tbsp" },
-          { "name": "gochugaru", "note": "originally 2 tbsp", "amount": 1, "unit": "tbsp" },
+          { "name": "sugar", "amount": 1.5, "unit": "tsp" },
+          { "name": "gochugaru", "note": "originally 2 tbsp", "amount": 2, "unit": "tsp" },
           { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
           { "name": "sesame_oil", "amount": 1, "unit": "tbsp" },
           { "name": "garlic", "note": "minced", "amount": 5, "unit": "" },
+          { "name": "ginger", "note": "minced", "amount": 1, "unit": "tsp" },
           { "name": "onion", "note": "sliced", "amount": 1, "unit": "" },
           { "name": "green_onion", "note": "sliced", "amount": 4, "unit": "" },
           { "name": "sesame_seed", "note": "optional garnish", "amount": 1, "unit": "tsp" }

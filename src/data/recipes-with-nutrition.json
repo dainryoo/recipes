@@ -181,25 +181,25 @@
           {
             "ingredients": [
               {
-                "amount": 25, 
-                "calories": 133.33333333333334, 
+                "amount": 33, 
+                "calories": 176.00000000000003, 
                 "label": "black chia seed", 
                 "name": "chia_seed_black", 
-                "price": 0.6459544282016914, 
-                "protein": 5.0, 
+                "price": 0.8526598452262326, 
+                "protein": 6.6000000000000005, 
                 "unit": "g"
               }, 
               {
-                "amount": 100, 
-                "calories": 12.5, 
-                "label": "almond milk", 
-                "name": "milk_almond", 
-                "price": 0.14109586335147825, 
-                "protein": 0.4166666666666667, 
+                "amount": 20, 
+                "calories": 10.0, 
+                "label": "oat milk (365)", 
+                "name": "milk_oat", 
+                "price": 0.03527396583786957, 
+                "protein": 0.25, 
                 "unit": "ml"
               }, 
               {
-                "amount": 40, 
+                "amount": 166, 
                 "calories": 0.0, 
                 "label": "water", 
                 "name": "water", 
@@ -232,12 +232,12 @@
           {
             "ingredients": [
               {
-                "amount": 30, 
-                "calories": 160.0, 
+                "amount": 44, 
+                "calories": 234.66666666666669, 
                 "label": "black chia seed", 
                 "name": "chia_seed_black", 
-                "price": 0.7751453138420296, 
-                "protein": 6.0, 
+                "price": 1.1368797936349768, 
+                "protein": 8.8, 
                 "unit": "g"
               }, 
               {
@@ -275,9 +275,9 @@
         "label": "chocolate chia pudding", 
         "name": "chocolate_chia_pudding", 
         "nutrition": {
-          "calories": 585.5952380952381, 
-          "price": 3.158342559558797, 
-          "protein": 18.708333333333336
+          "calories": 700.4285714285714, 
+          "price": 3.6209605588626768, 
+          "protein": 22.94166666666667
         }
       }, 
       {
@@ -298,16 +298,16 @@
                 "unit": "g"
               }, 
               {
-                "amount": 100, 
-                "calories": 12.5, 
+                "amount": 25, 
+                "calories": 3.125, 
                 "label": "almond milk", 
                 "name": "milk_almond", 
-                "price": 0.14109586335147825, 
-                "protein": 0.4166666666666667, 
+                "price": 0.03527396583786956, 
+                "protein": 0.10416666666666667, 
                 "unit": "ml"
               }, 
               {
-                "amount": 40, 
+                "amount": 115, 
                 "calories": 0.0, 
                 "label": "water", 
                 "name": "water", 
@@ -365,9 +365,9 @@
         "label": "peanut butter chia pudding", 
         "name": "pb_chia_pudding", 
         "nutrition": {
-          "calories": 672.2916666666667, 
-          "price": 2.3928092960252307, 
-          "protein": 22.90416666666667
+          "calories": 662.9166666666667, 
+          "price": 2.286987398511622, 
+          "protein": 22.59166666666667
         }
       }, 
       {
@@ -3235,6 +3235,356 @@
       }, 
       {
         "directions": [
+          "Microwave milk and butter til 105-115F. Dissolve yeast in mix.", 
+          "Whisk flour, sugar, salt (and cardamom). Add egg, mix til incorporated. Add milk mix, mix til incorporated.", 
+          "Knead til dough is elastic and smooth, but still tacky.", 
+          "Rise in greased covered bowl for 30min-1hr (or til doubled).", 
+          "Roll dough out into rect, spread butter on top, sprinkle with sugar cinnamon mix.", 
+          "Roll dough up tight, cut into 5-6 rolls ", 
+          "Rise for 30min or 60-90 min or til doubled", 
+          "Bake 20-22min or 25-28 min 375F."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 120.0, 
+                "calories": 60.0, 
+                "label": "oat milk (365)", 
+                "name": "milk_oat", 
+                "price": 0.21164379502721742, 
+                "protein": 1.5, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 3, 
+                "amount_in_grams": 42.0, 
+                "calories": 300.0, 
+                "label": "butter", 
+                "name": "butter", 
+                "price": 0.548157429120493, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 2.5, 
+                "amount_in_grams": 8.0, 
+                "calories": 0.0, 
+                "label": "yeast", 
+                "name": "yeast", 
+                "note": "or 2.25 tsp", 
+                "price": 0.16084928422068523, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2.25, 
+                "amount_in_grams": 270.0, 
+                "calories": 990.0000000000001, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.571438246573487, 
+                "protein": 27.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 48.0, 
+                "calories": 180.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "note": "or 1.5 tsp for the less sweet danish version", 
+                "price": 0.08465751801088696, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 3.0, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.008465751801088694, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 60, 
+                "label": "egg", 
+                "name": "egg", 
+                "note": "room temp", 
+                "price": 0.22, 
+                "protein": 6, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 0.9666666666666667, 
+                "calories": 3.0000000000000004, 
+                "label": "ground cardamom", 
+                "name": "cardamom_ground", 
+                "note": "for danish version", 
+                "price": 0.1002486109112253, 
+                "protein": 0.10400000000000001, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "dough", 
+            "name": "dough"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 3, 
+                "amount_in_grams": 42.0, 
+                "calories": 300.0, 
+                "label": "butter", 
+                "name": "butter", 
+                "note": "softened", 
+                "price": 0.548157429120493, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 48.0, 
+                "calories": 180.0, 
+                "label": "brown sugar", 
+                "name": "sugar_brown", 
+                "price": 0.2709040576348382, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 7.8, 
+                "calories": 19.3, 
+                "label": "ground cinnamon", 
+                "name": "cinnamon_ground", 
+                "price": 0.40995403096772004, 
+                "protein": 0.311, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "cinnamon spread", 
+            "name": "cinnamon_spread"
+          }
+        ], 
+        "label": "cinnamon rolls", 
+        "name": "cinnamon_rolls", 
+        "nutrition": {
+          "calories": 2092.3, 
+          "price": 3.1344761533881345, 
+          "protein": 34.915
+        }
+      }, 
+      {
+        "directions": [
+          "Flour, sugar, yeast, mix til combined.", 
+          "Add egg and water and mix til dough comes together.", 
+          "Add salt, butter, mix til incorporated.", 
+          "Mix til dough is completely smooth, elastic, shiny, pulls away from sides.", 
+          "Dough in greased cover bowl. Rest for half a day or overnight.", 
+          "", 
+          "Grease 9x4 in loaf pan. Line bottom with parchment paper.", 
+          "Make filling by whisking everything into a paste.", 
+          "Roll out dough into rect. Long side closest to you. Spread filling. Leave a 2cm border all around. Sprinkle choc chips on top.", 
+          "Shape dough....", 
+          "", 
+          "Put dough in loaf pan. Cover loosely, rise for 1-1.5 hr. Optionally, rise overnight, then take out to get to room temp for an hour before baking.", 
+          "Bake 25-30 min 375F.", 
+          "Brush with sugar syrup immediatley after out of oven.", 
+          "Cool til warm, remove from pans, cool completely before serving."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 265, 
+                "calories": 971.6666666666666, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.560856056822126, 
+                "protein": 26.5, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 34, 
+                "calories": 127.50000000000001, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "note": "or 50g", 
+                "price": 0.05996574192437827, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 5, 
+                "calories": 0.0, 
+                "label": "yeast", 
+                "name": "yeast", 
+                "price": 0.10053080263792827, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 2, 
+                "calories": 120, 
+                "label": "egg", 
+                "name": "egg", 
+                "price": 0.44, 
+                "protein": 12, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 60.0, 
+                "calories": 30.0, 
+                "label": "oat milk (365)", 
+                "name": "milk_oat", 
+                "price": 0.10582189751360871, 
+                "protein": 0.75, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 3.0, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.008465751801088694, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 5, 
+                "amount_in_grams": 70.0, 
+                "calories": 500.0, 
+                "label": "butter", 
+                "name": "butter", 
+                "price": 0.9135957152008216, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 2.1666666666666665, 
+                "calories": 6.333333333333333, 
+                "label": "vanilla extract", 
+                "name": "vanilla_extract", 
+                "price": 0.28660097243269017, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 0.5833333333333334, 
+                "calories": 3.0666666666666664, 
+                "label": "ground nutmeg", 
+                "name": "nutmeg", 
+                "price": 0.04444519695571565, 
+                "protein": 0.034083333333333334, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "dough", 
+            "name": "dough"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 30.0, 
+                "calories": 120.0, 
+                "label": "powdered sugar", 
+                "name": "sugar_powdered", 
+                "price": 0.49736291831396084, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.16666667, 
+                "amount_in_grams": 16.000000319999998, 
+                "calories": 53.333334400000005, 
+                "label": "cocoa powder (Rodelle, Dutch Processed)", 
+                "name": "cocoa_powder", 
+                "price": 0.47972594498954474, 
+                "protein": 2.66666672, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 65, 
+                "calories": 0.0, 
+                "label": "chocolate_dark", 
+                "name": "chocolate_dark", 
+                "note": "melted", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 56.0, 
+                "calories": 400.00000000000006, 
+                "label": "butter", 
+                "name": "butter", 
+                "note": "melted", 
+                "price": 0.7308765721606574, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 60, 
+                "calories": 0.0, 
+                "label": "chocolate_chips", 
+                "name": "chocolate_chips", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "g"
+              }
+            ], 
+            "label": "spread", 
+            "name": "spread"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 60.0, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 48.0, 
+                "calories": 180.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.08465751801088696, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }
+            ], 
+            "label": "extra", 
+            "name": "extra"
+          }
+        ], 
+        "label": "secret", 
+        "name": "secret", 
+        "nutrition": {
+          "calories": 2511.900001066667, 
+          "price": 4.312905088763407, 
+          "protein": 41.95075005333334
+        }
+      }, 
+      {
+        "directions": [
           "Heat treat flour (bake at 350F for 7 min)"
         ], 
         "ingredients": [
@@ -4337,6 +4687,7 @@
             "calories": 0.0, 
             "label": "oyster_sauce", 
             "name": "oyster_sauce", 
+            "note": "or sub sesame oil", 
             "price": 0.0, 
             "protein": 0.0, 
             "unit": "tsp"
@@ -4352,12 +4703,12 @@
             "unit": "tbsp"
           }, 
           {
-            "amount": 1, 
-            "amount_in_grams": 4.0, 
-            "calories": 15.0, 
+            "amount": 2, 
+            "amount_in_grams": 8.0, 
+            "calories": 30.0, 
             "label": "sugar", 
             "name": "sugar", 
-            "price": 0.007054793167573914, 
+            "price": 0.014109586335147828, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -4392,8 +4743,8 @@
         "label": "jjajangmyeon (\uc9dc\uc7a5\uba74)", 
         "name": "jjajangmyeon", 
         "nutrition": {
-          "calories": 1071.3827809557522, 
-          "price": 7.341411887975451, 
+          "calories": 1086.3827809557522, 
+          "price": 7.348466681143026, 
           "protein": 56.531326230088496
         }
       }, 
@@ -5265,12 +5616,12 @@
             "unit": "lb"
           }, 
           {
-            "amount": 0.25, 
-            "amount_in_grams": 72.0, 
-            "calories": 120.00000000000001, 
+            "amount": 0.2, 
+            "amount_in_grams": 57.6, 
+            "calories": 96.00000000000003, 
             "label": "gochujang (\uace0\ucd94\uc7a5)", 
             "name": "gochujang", 
-            "price": 1.219068259356772, 
+            "price": 0.9752546074854178, 
             "protein": 0.0, 
             "unit": "cup"
           }, 
@@ -5285,25 +5636,25 @@
             "unit": "tbsp"
           }, 
           {
-            "amount": 1, 
-            "amount_in_grams": 12.0, 
-            "calories": 45.0, 
+            "amount": 1.5, 
+            "amount_in_grams": 6.0, 
+            "calories": 22.5, 
             "label": "sugar", 
             "name": "sugar", 
-            "price": 0.02116437950272174, 
+            "price": 0.01058218975136087, 
             "protein": 0.0, 
-            "unit": "tbsp"
+            "unit": "tsp"
           }, 
           {
-            "amount": 1, 
-            "amount_in_grams": 15.0, 
-            "calories": 48.0, 
+            "amount": 2, 
+            "amount_in_grams": 10.0, 
+            "calories": 32.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "note": "originally 2 tbsp", 
-            "price": 0.19577051040017607, 
+            "price": 0.1305136736001174, 
             "protein": 0.0, 
-            "unit": "tbsp"
+            "unit": "tsp"
           }, 
           {
             "amount": 0.25, 
@@ -5334,6 +5685,17 @@
             "price": 19.950000000000003, 
             "protein": 0.9550000000000001, 
             "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 2.0, 
+            "calories": 1.6, 
+            "label": "ginger", 
+            "name": "ginger", 
+            "note": "minced", 
+            "price": 0.01759288852235323, 
+            "protein": 0.036, 
+            "unit": "tsp"
           }, 
           {
             "amount": 1, 
@@ -5370,9 +5732,9 @@
         "label": "spicy pork stirfry (\uc81c\uc721\ubcf6\uc74c)", 
         "name": "spicy_pork_stirfry", 
         "nutrition": {
-          "calories": 2836.333436578171, 
-          "price": 29.49517228599997, 
-          "protein": 48.58608805309734
+          "calories": 2775.433436578171, 
+          "price": 29.193112496099552, 
+          "protein": 48.62208805309734
         }
       }, 
       {
