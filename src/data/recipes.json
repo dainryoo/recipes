@@ -1085,7 +1085,7 @@
           { "name": "cucumber", "amount": 1, "unit": "" },
           { "name": "carrot", "amount": 1, "unit": "" },
           { "name": "spinach", "amount": 100, "unit": "g" },
-          { "name": "imitation_crab", "amount": 1, "unit": "" }
+          { "name": "imitation_crab", "amount": 4, "unit": "oz" }
         ],
         "directions": [
           "Shiny side seaweed down!"
@@ -1355,7 +1355,7 @@
         "name": "la_galbi",
         "label": "LA galbi (LA 갈비)",
         "ingredients": [
-          { "name": "beef_short_rib_boneless", "amount": 2, "unit": "lb" },
+          { "name": "beef_lateral_rib", "amount": 2, "unit": "lb" },
           { "name": "garlic", "amount": 8, "unit": "" },
           { "name": "onion", "amount": 1, "unit": "" },
           { "name": "ginger", "note": "(the size of a garlic clove)", "amount": 1, "unit": "tbsp" },
@@ -1406,7 +1406,7 @@
         "name": "galbitang",
         "label": "galbitang (갈비탕)",
         "ingredients": [
-          { "name": "beef_rib", "amount": 1, "unit": "" },
+          { "name": "beef_short_rib", "amount": 1.5, "unit": "lb" },
           { "name": "radish_daikon", "note": "cut into small pieces", "amount": 1, "unit": "" },
           { "name": "onion", "note": "whole", "amount": 1, "unit": "" },
           { "name": "garlic", "note": "(1 whole bulb)", "amount": 8, "unit": "" },
@@ -2318,6 +2318,56 @@
           "Add carrot and cabbage. cook til wilted.",
           "Add noodle and sauce. Stir fry 1-2 min. Garnish with cilantro and crushed peanut."
         ]
+      },
+      {
+        "name": "banh_mi",
+        "label": "banh mi",
+        "ingredient_categories": [
+          {
+            "name": "pickled_carrot_and_radish",
+            "label": "pickled carrot and radish",
+            "ingredients": [
+              { "name": "carrot", "note": "julienned", "amount": 2, "unit": "" },
+              { "name": "radish_daikon", "note": "julienned", "amount": 2, "unit": "" },
+              { "name": "sugar", "amount": 1, "unit": "tbsp" },
+              { "name": "salt", "amount": 0.5, "unit": "tsp" },
+              { "name": "vinegar_rice", "amount": 3, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "chicken_marinade",
+            "label": "chicken_marinade",
+            "ingredients": [
+              { "name": "oil", "amount": 2, "unit": "tbsp" },
+              { "name": "chicken_thigh", "amount": 1.5, "unit": "lb" },
+              { "name": "fish_sauce", "amount": 2, "unit": "tbsp" },
+              { "name": "oyster_sauce", "amount": 1, "unit": "tbsp" },
+              { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
+              { "name": "sugar", "amount": 2, "unit": "tsp" },
+              { "name": "garlic", "note": "minced", "amount": 4, "unit": "" },
+              { "name": "lemon_zest", "amount": 2, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "misc",
+            "label": "misc",
+            "ingredients": [
+              { "name": "oil", "note": "to cook chicken", "amount": 2, "unit": "tbsp" },
+              { "name": "baguette", "note": "enough for 4 sandwiches", "amount": 1, "unit": "" },
+              { "name": "mayo_light", "amount": 2, "unit": "tbsp" },
+              { "name": "sriracha", "amount": 1, "unit": "tsp" },
+              { "name": "cilantro_fresh", "amount": 1, "unit": "cup" },
+              { "name": "jalapeno", "amount": 1, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "Toss carrot and radish with sugar, salt, vinegar, sesame oil. Set aside 1 hr, stir occasionally.",
+          "Marinate chicken 1-4 hrs.",
+          "Heat 2 tbps oil in skilllet, med high heat. ",
+          "Sear chicken 5 min each side (or til cooked through)",
+          "Mix sauce, assemble sandwich."
+        ]
       }
     ]
   },
@@ -2600,11 +2650,11 @@
         "name": "lamb_palov",
         "label": "lamb palov",
         "ingredients": [
-          { "name": "lamb_leg", "note": "up to 2lb", "amount": 1.5, "unit": "lb" },
+          { "name": "lamb_leg", "note": "cut into 1 in. cubes; up to 2lb", "amount": 1.5, "unit": "lb" },
           { "name": "rice_long_grain", "note": "up to 2 cup", "amount": 1.5, "unit": "cup" },
           { "name": "oil", "note": "or olive oil", "amount": 0.5, "unit": "cup" },
-          { "name": "onion", "note": "up to 2", "amount": 1, "unit": "" },
-          { "name": "carrot", "note": "cut into 2 in sticks", "amount": 4, "unit": "" },
+          { "name": "onion", "note": "diced; up to 2", "amount": 1, "unit": "" },
+          { "name": "carrot", "note": "cut into 2 in. sticks", "amount": 4, "unit": "" },
           { "name": "garlic", "note": "(a whole head)", "amount": 10, "unit": "" },
           { "name": "salt", "amount": 1, "unit": "tbsp" },
           { "name": "peppercorn", "amount": 1, "unit": "tsp" },
@@ -2612,7 +2662,93 @@
           { "name": "coriander_ground", "note": "or 1tbsp of seed", "amount": 1, "unit": "tsp" }
         ],
         "directions": [
-          "https://cooktoria.com/uzbek-plov/"
+          "Heat oil in dutch oven on high heat. ",
+          "Cook lamb til brown outside (~10min?)",
+          "Add onion and carrots and cook til softened (10 more min?)",
+          "Add cumin, coriander, salt, pepper and 4 c water. Bring to boil.",
+          "Peel some of skin off garlic head. Slice top off to expose the garlic cloves. Place garlic in pot.",
+          "Reduce heat to med-low, cover with lid and cook ~1 hr.",
+          "Wash rice thoroughly, add to pot by spreading it on top (don't mix!) evenly.",
+          "Add 3 c water. Reduce heat to low, cover with lid and cook 25-30min or until water absorbed fully.",
+          "Let rest 15 min before serving."
+        ]
+      },
+      {
+        "name": "jambalaya",
+        "label": "jambalaya",
+        "ingredient_categories": [
+          {
+            "name": "fillings",
+            "label": "fillings",
+            "ingredients": [
+              { "name": "oil", "note": "or olive oil", "amount": 2, "unit": "tbsp" },
+              { "name": "chicken_thigh", "note": "cut into 1\" pieces. can sub with equal amount shrimp", "amount": 1, "unit": "lb" },
+              { "name": "onion", "note": "diced", "amount": 1, "unit": "" },
+              { "name": "bell_pepper_green", "note": "diced; up to 2", "amount": 1, "unit": "" },
+              { "name": "celery", "note": "diced", "amount": 2, "unit": "" },
+              { "name": "andouille_sausage", "note": "sliced; up to 14 oz", "amount": 6, "unit": "oz" },
+              { "name": "garlic", "note": "minced", "amount": 3, "unit": "" },
+              { "name": "canned_crushed_tomato", "amount": 16, "unit": "oz" }
+            ]
+          },
+          {
+            "name": "spices",
+            "label": "spices",
+            "ingredients": [
+              { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
+              { "name": "salt", "amount": 1.5, "unit": "tsp" },
+              { "name": "garlic_powder", "amount": 0.5, "unit": "tsp" },
+              { "name": "paprika", "amount": 0.5, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
+              { "name": "onion_powder", "amount": 0.25, "unit": "tsp" },
+              { "name": "cayenne_pepper", "amount": 0.25, "unit": "tsp" },
+              { "name": "oregano", "amount": 0.25, "unit": "tsp" },
+              { "name": "thyme_dried", "amount": 0.25, "unit": "tsp" },
+              { "name": "worcestershire_sauce", "amount": 2, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "misc",
+            "label": "misc",
+            "ingredients": [
+              { "name": "rice_long_grain", "amount": 1, "unit": "cup" },
+              { "name": "water", "note": "sub for chicken stock", "amount": 2, "unit": "cup" }
+            ]
+          }
+        ],
+        "directions": [
+          "Heat oil over med heat in large pot or Dutch oven.",
+          "Add chicken if using, cook til golden (~5 min)",
+          "Add onion, bell pepper, celery, cook til tender (~5 min)",
+          "Add sausage, garlic, cook for ~1 min.",
+          "Add crushed tomatoes + seasonings, cook for 10 min, stirring occasionally.",
+          "Add broth and rice.",
+          "Reduce heat to med low, cover, and cook til rice is tender and liquid is almost absorbed, ~20-25 min",
+          "If using shrimp, add in last 7 min."
+        ]
+      },
+      {
+        "name": "quick_chicken_pot_pie_filling",
+        "label": "quick chicken pot pie filling",
+        "ingredients": [
+          { "name": "butter", "amount": 2, "unit": "tbsp" },
+          { "name": "flour", "amount": 20, "unit": "g" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "water", "note": "chicken broth.....", "amount": 1, "unit": "cup" },
+          { "name": "milk_oat", "amount": 0.25, "unit": "cup" },
+          { "name": "chicken_thigh", "note": "1 cup cooked and shredded", "amount": 6, "unit": "oz" },
+          { "name": "frozen_mixed_vegetables", "note": "thawed", "amount": 1, "unit": "cup" }
+        ],
+        "directions": [
+          "Pair with 1 9-inch pie crust.",
+          "Grease 8x4 loaf pan. Drape crust in pan (edges of crust should fall over outside of pan)",
+          "Melt butter in saucepan over med heat.",
+          "Stir in flour, salt, pepper, til well blended.",
+          "Gradually stir in broth and milk. Cook and stir til bubbly and thick.",
+          "Stir in chicken and veg. Remove from heat. ",
+          "Spoon filling into crust. Drape crust loosely over filling.",
+          "Bake at 400F for 40-45min or til filling is bubbly and crust is deep golden brown. Filling will be saucy. Let stand 10 min."
         ]
       }
     ]

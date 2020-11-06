@@ -780,6 +780,32 @@
         }
       }, 
       {
+        "label": "perilla leaf", 
+        "name": "perilla_leaf", 
+        "per_100_gram": {
+          "calories": 31.111111111214814, 
+          "price": 0.0, 
+          "protein": 3.577777777789704
+        }, 
+        "per_unit": {
+          "avg_grams": 12.8571428571, 
+          "calories": 4, 
+          "price": 0.0, 
+          "protein": 0.46
+        }, 
+        "price_per_unit": {
+          "price": 0.0, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 10, 
+          "calories": 4, 
+          "grams": 12.8571428571, 
+          "protein": 0.46, 
+          "unit": ""
+        }
+      }, 
+      {
         "label": "potato", 
         "name": "potato", 
         "per_100_gram": {
@@ -2260,9 +2286,33 @@
           "lb": 452.0, 
           "oz": 28.25
         }, 
-        "label": "beef lateral rib (choice)", 
-        "name": "beef_short_rib_boneless", 
-        "note": "8.6oz bone/41.08 oz total raw meat", 
+        "label": "beef short rib (choice)", 
+        "name": "beef_short_rib", 
+        "per_100_gram": {
+          "calories": 239.82300884955754, 
+          "price": 0.0, 
+          "protein": 17.256637168141594
+        }, 
+        "price_per_unit": {
+          "price": 0.0, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 4, 
+          "calories": 271, 
+          "grams": 113, 
+          "protein": 19.5, 
+          "unit": "oz"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "lb": 452.0, 
+          "oz": 28.25
+        }, 
+        "label": "beef lateral rib", 
+        "name": "beef_lateral_rib", 
+        "note": "Based off beef short rib chuck (choice). Research: 8.6oz bone per 41.08 oz total raw meat", 
         "per_100_gram": {
           "calories": 239.82300884955754, 
           "price": 3.0962389380530975, 
@@ -2586,6 +2636,33 @@
           "calories": 150, 
           "grams": 71, 
           "protein": 6, 
+          "unit": ""
+        }
+      }, 
+      {
+        "label": "imitation crab", 
+        "name": "imitation_crab", 
+        "note": "365 Stick Style Imitation Crab", 
+        "per_100_gram": {
+          "calories": 79.54545454545455, 
+          "price": 6.045454545454547, 
+          "protein": 10.227272727272728
+        }, 
+        "per_unit": {
+          "avg_grams": 88, 
+          "calories": 70, 
+          "price": 5.32, 
+          "protein": 9
+        }, 
+        "price_per_unit": {
+          "price": 5.32, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 2, 
+          "calories": 70, 
+          "grams": 88, 
+          "protein": 9, 
           "unit": ""
         }
       }, 
@@ -4758,6 +4835,30 @@
     "category_name": "misc", 
     "items": [
       {
+        "conversion_to_grams": {
+          "lb": 453.59237, 
+          "oz": 28.34952
+        }, 
+        "label": "makgeolli", 
+        "name": "makgeolli", 
+        "per_100_gram": {
+          "calories": 43.0, 
+          "price": 0.0, 
+          "protein": 0.0
+        }, 
+        "price_per_unit": {
+          "price": 0.0, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 100, 
+          "calories": 43, 
+          "grams": 100, 
+          "protein": 0, 
+          "unit": "g"
+        }
+      }, 
+      {
         "label": "frozen dinner roll", 
         "name": "frozen_dinner_roll", 
         "per_100_gram": {
@@ -4808,6 +4909,32 @@
           "grams": 240, 
           "protein": 0, 
           "unit": "cup"
+        }
+      }, 
+      {
+        "label": "baguette", 
+        "name": "baguette", 
+        "per_100_gram": {
+          "calories": 282.19137278264213, 
+          "price": 1.1718780619723612, 
+          "protein": 7.054784319566053
+        }, 
+        "per_unit": {
+          "avg_grams": 255.146, 
+          "calories": 720, 
+          "price": 2.99, 
+          "protein": 18
+        }, 
+        "price_per_unit": {
+          "price": 2.99, 
+          "unit": ""
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 720, 
+          "grams": 255.146, 
+          "protein": 18, 
+          "unit": ""
         }
       }
     ]
