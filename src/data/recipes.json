@@ -203,33 +203,17 @@
       {
         "name": "chai_latte",
         "label": "chai latte",
-        "ingredient_categories": [
-          {
-            "name": "spice_mix",
-            "label": "spice mix",
-            "ingredients": [
-              { "name": "cloves_ground", "amount": 2, "unit": "tsp" },
-              { "name": "cardamom_ground", "amount": 2, "unit": "tsp" },
-              { "name": "peppercorn", "amount": 2, "unit": "tsp" },
-              { "name": "cinnamon_ground", "amount": 2, "unit": "tsp" },
-              { "name": "ginger_ground", "amount": 1, "unit": "tsp" },
-              { "name": "nutmeg", "amount": 0.25, "unit": "tsp" },
-              { "name": "star_anise", "amount": 0.25, "unit": "" }
-            ]
-          },
-          {
-            "name": "chai",
-            "label": "chai",
-            "ingredients": [
-              { "name": "water", "amount": 1, "unit": "cup" },
-              { "name": "chai spice mix", "amount": 0.5, "unit": "tsp" },
-              { "name": "milk_almond", "amount": 1, "unit": "cup" },
-              { "name": "black tea bags", "note": "or 2 tsp loose leaf", "amount": 2, "unit": "" },
-              { "name": "sugar", "amount": 2, "unit": "tsp" }
-            ]
-          }
+        "ingredients": [
+          { "name": "cloves_ground", "amount": 2, "unit": "tsp" },
+          { "name": "cardamom_ground", "amount": 2, "unit": "tsp" },
+          { "name": "peppercorn", "amount": 2, "unit": "tsp" },
+          { "name": "cinnamon_ground", "amount": 2, "unit": "tsp" },
+          { "name": "ginger_ground", "amount": 1, "unit": "tsp" },
+          { "name": "nutmeg", "amount": 0.25, "unit": "tsp" },
+          { "name": "star_anise", "amount": 0.25, "unit": "" }
         ],
         "directions": [
+          "For 1 serving: 1 cup of water, 1/2 tsp of chai spice mix, 1 cup of milk, 2 tea bags (or 2 tsp of loose leaf), 2 tsp of sugar.",
           "Grind spices.",
           "Bring water to boil med high. Add spices, boil for 10 min on med low heat.",
           "Add tea, sugar, milk. Bring to boil, take off heat, serve."
@@ -244,11 +228,10 @@
           { "name": "turmeric", "amount": 1, "unit": "tsp" },
           { "name": "vanilla_extract", "amount": 1, "unit": "tsp" },
           { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
-          { "name": "ginger_ground", "amount": 0.25, "unit": "tsp" },
-          { "name": "pepper, cloves, cardamom, nutmeg", "amount": 1, "unit": "" }
+          { "name": "ginger_ground", "amount": 0.25, "unit": "tsp" }
         ],
         "directions": [
-          "Mix ingredients. Simmer on med heat for 10 min."
+          "Mix ingredients. Add pepper, cloves, cardamom, nutmeg if wanted. Simmer on med heat for 10 min."
         ]
       },
       {
@@ -297,7 +280,7 @@
           { "name": "flour", "amount": 2, "unit": "cup" },
           { "name": "salt", "amount": 0.5, "unit": "tsp" },
           { "name": "baking_powder", "amount": 0.5, "unit": "tsp" },
-          { "name": "chocolate_dark", "amount": 30, "unit": "g" }
+          { "name": "chocolate_dark_70", "amount": 30, "unit": "g" }
         ],
         "directions": [
           "Add butter and sugars to bowl and cream until light and fluffy.",
@@ -515,7 +498,7 @@
             "label": "filling",
             "ingredients": [
               { "name": "sugar", "amount": 0.25, "unit": "cup" },
-              { "name": "apple", "noted": "thinly sliced, 2\" length pieces", "amount": 2, "unit": "" },
+              { "name": "apple_granny_smith", "noted": "thinly sliced, 2\" length pieces", "amount": 2, "unit": "" },
               { "name": "lemon_zest", "amount": 0.75, "unit": "tsp" },
               { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
               { "name": "nutmeg", "amount": 0.125, "unit": "tsp" },
@@ -780,6 +763,32 @@
         ]
       },
       {
+        "name": "easier_milk_bread",
+        "label": "easier milk bread",
+        "ingredients": [
+          { "name": "water", "note": "warm", "amount": 80, "unit": "g" },
+          { "name": "milk_oat", "note": "warm (~95F)", "amount": 40, "unit": "g" },
+          { "name": "egg", "amount": 1, "unit": "" },
+          { "name": "yeast", "amount": 6, "unit": "g" },
+          { "name": "sugar", "amount": 24, "unit": "g" },
+          { "name": "butter", "note": "room temp", "amount": 20, "unit": "g" },
+          { "name": "flour", "amount": 270, "unit": "g" },
+          { "name": "salt", "amount": 5, "unit": "g" }
+        ],
+        "directions": [
+          "Large bowl, add water, milk, egg, yeast, sugar, butter, flour, and salt.",
+          "Mix til shaggy mass.",
+          "Knead til windowpane test passes (take piece about size of golf ball, stretch it out between fingers and thumbs. if stretches without breaking, good)",
+          "Dough will be very tacky. Shape into ball, place in lightly floured bowl, cover, rest til tripled in size (~1hr)",
+          "Punch down and divide into three pieces.",
+          "On a floured surface, roll each piece into a tall oval.",
+          "Fold the oval sides into the middle (kind of looks like a cannoli)",
+          "Roll up (from top to bottom)",
+          "Place in nonstick pan (9x5). Cover and let proof til doubled (40 min~1hr)",
+          "Bake at 355F 20-25 min."
+        ]
+      },
+      {
         "name": "cinnamon_rolls",
         "label": "cinnamon rolls",
         "ingredient_categories": [
@@ -827,8 +836,8 @@
         ]
       },
       {
-        "name": "secret",
-        "label": "secret",
+        "name": "chocolate_babka",
+        "label": "chocolate babka",
         "ingredient_categories": [
           {
             "name": "dough",
@@ -837,10 +846,10 @@
               { "name": "flour", "amount": 265, "unit": "g" },
               { "name": "sugar", "note": "or 50g", "amount": 34, "unit": "g" },
               { "name": "yeast", "amount": 5, "unit": "g" },
-              { "name": "egg", "amount": 2, "unit": "" },
-              { "name": "milk_oat", "amount": 0.25, "unit": "cup" },
+              { "name": "egg", "note": "room temp", "amount": 2, "unit": "" },
+              { "name": "milk_oat", "note": "or water; warm", "amount": 0.25, "unit": "cup" },
               { "name": "salt", "amount": 0.5, "unit": "tsp" },
-              { "name": "butter", "amount": 5, "unit": "tbsp" },
+              { "name": "butter", "note": "softened, cubed", "amount": 5, "unit": "tbsp" },
               { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
               { "name": "nutmeg", "amount": 0.25, "unit": "tsp" }
             ]
@@ -851,7 +860,7 @@
             "ingredients": [
               { "name": "sugar_powdered", "amount": 0.25, "unit": "cup" },
               { "name": "cocoa_powder", "amount": 0.16666667, "unit": "cup" },
-              { "name": "chocolate_dark", "note": "melted", "amount": 65, "unit": "g" },
+              { "name": "chocolate_dark_70", "note": "melted", "amount": 65, "unit": "g" },
               { "name": "butter", "note": "melted", "amount": 0.25, "unit": "cup" },
               { "name": "chocolate_chips", "amount": 60, "unit": "g" }
             ]
@@ -866,16 +875,16 @@
           }
         ],
         "directions": [
-          "Flour, sugar, yeast, mix til combined.",
-          "Add egg and water and mix til dough comes together.",
-          "Add salt, butter, mix til incorporated.",
+          "Flour, sugar, salt, yeast, mix til combined.",
+          "Add egg and water/milk + vanilla + nutmeg, and mix til dough comes together.",
+          "Add butter gradually, mix til incorporated.",
           "Mix til dough is completely smooth, elastic, shiny, pulls away from sides.",
           "Dough in greased cover bowl. Rest for half a day or overnight.",
           "",
           "Grease 9x4 in loaf pan. Line bottom with parchment paper.",
           "Make filling by whisking everything into a paste.",
-          "Roll out dough into rect. Long side closest to you. Spread filling. Leave a 2cm border all around. Sprinkle choc chips on top.",
-          "Shape dough....",
+          "Roll out dough into rect (15x11?). Long side closest to you. Spread filling. Leave a 2cm border all around. Sprinkle opt. choc chips on top.",
+          "Shape dough.... (Roll tight. Fridge for 10 min. Cut in half lengthwise. Braid from center.)",
           "",
           "Put dough in loaf pan. Cover loosely, rise for 1-1.5 hr. Optionally, rise overnight, then take out to get to room temp for an hour before baking.",
           "Bake 25-30 min 375F.",
@@ -915,7 +924,7 @@
         "name": "kimchi_fried_rice",
         "label": "kimchi fried rice (볶음밥)",
         "ingredients": [
-          { "name": "spam", "note": "or 1 can tuna", "amount": 1, "unit": "" },
+          { "name": "spam_lite", "note": "or 1 can tuna", "amount": 12, "unit": "oz" },
           { "name": "kimchi", "amount": 400, "unit": "g" },
           { "name": "onion", "amount": 0.25, "unit": "" },
           { "name": "carrot", "amount": 1, "unit": "" },
@@ -924,7 +933,7 @@
           { "name": "rice_white", "amount": 2.5, "unit": "cup" },
           { "name": "sesame_oil", "amount": 2, "unit": "tsp" },
           { "name": "gochugaru", "amount": 1, "unit": "tbsp" },
-          { "name": "soy_sauce", "amount": 2, "unit": "tbsp" },
+          { "name": "soy_sauce_dark", "amount": 2, "unit": "tbsp" },
           { "name": "oil", "amount": 2, "unit": "tbsp" }
         ],
         "directions": [
@@ -1025,7 +1034,7 @@
         "label": "omurice (오므라이스)",
         "ingredients": [
           { "name": "rice_white", "amount": 2, "unit": "cup" },
-          { "name": "spam", "note": "1/2 can", "amount": 0.5, "unit": "" },
+          { "name": "spam_lite", "note": "1/2 can", "amount": 6, "unit": "oz" },
           { "name": "carrot", "amount": 4, "unit": "" },
           { "name": "onion", "amount": 1, "unit": "" },
           { "name": "green_onion", "amount": 1, "unit": "" },
@@ -1051,7 +1060,7 @@
           { "name": "soybean_paste", "amount": 3, "unit": "tbsp" },
           { "name": "gochujang", "amount": 1, "unit": "tsp" },
           { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
-          { "name": "mushroom", "amount": 3, "unit": "" },
+          { "name": "mushroom_white", "amount": 3, "unit": "" },
           { "name": "onion", "amount": 0.25, "unit": "" },
           { "name": "zucchini", "amount": 0.5, "unit": "" },
           { "name": "potato", "amount": 1, "unit": "" }
@@ -1075,7 +1084,7 @@
           { "name": "oil", "amount": 1, "unit": "tsp" },
           { "name": "cucumber", "amount": 1, "unit": "" },
           { "name": "carrot", "amount": 1, "unit": "" },
-          { "name": "spinach", "amount": 1, "unit": "" },
+          { "name": "spinach", "amount": 100, "unit": "g" },
           { "name": "imitation_crab", "amount": 1, "unit": "" }
         ],
         "directions": [
@@ -1264,7 +1273,7 @@
         "name": "kimchi",
         "label": "kimchi (김치)",
         "ingredients": [
-          { "name": "napa_cabbage", "note": "about 2 lb", "amount": 0.5, "unit": "" },
+          { "name": "cabbage_napa", "note": "about 2 lb", "amount": 0.5, "unit": "" },
           { "name": "salt", "note": "coarse sea salt", "amount": 0.333333, "unit": "cup" },
           { "name": "water", "amount": 360, "unit": "ml" },
           { "name": "gochugaru", "note": "try decreasing", "amount": 4, "unit": "tbsp" },
@@ -1296,7 +1305,7 @@
               { "name": "soybean_paste", "amount": 2, "unit": "tbsp" },
               { "name": "onion", "note": "sliced", "amount": 1, "unit": "" },
               { "name": "dried_red_peppers", "amount": 1, "unit": "" },
-              { "name": "napa_cabbage", "note": "cut off the core", "amount": 1, "unit": "lb" }
+              { "name": "cabbage_napa", "note": "cut off the core", "amount": 1, "unit": "lb" }
             ]
           },
           {
@@ -1398,7 +1407,7 @@
         "label": "galbitang (갈비탕)",
         "ingredients": [
           { "name": "beef_rib", "amount": 1, "unit": "" },
-          { "name": "radish", "note": "cut into small pieces", "amount": 1, "unit": "" },
+          { "name": "radish_daikon", "note": "cut into small pieces", "amount": 1, "unit": "" },
           { "name": "onion", "note": "whole", "amount": 1, "unit": "" },
           { "name": "garlic", "note": "(1 whole bulb)", "amount": 8, "unit": "" },
           { "name": "ginger", "note": "peeled and whole", "amount": 1.5, "unit": "tbsp" },
@@ -1413,6 +1422,44 @@
           "Throw the gross water away and rinse.",
           "Put all ingredients in a big pot, add water, and boil everything on high heat. Check occasionally to prevent overflow.",
           "After 2+ hours (or whenever color looks right), remove onion and green onion, season with salt, add optional cooked glass noodles."
+        ]
+      },
+      {
+        "name": "chicken_porridge",
+        "label": "chicken porridge (닭죽)",
+        "ingredient_categories": [
+          {
+            "name": "broth",
+            "label": "broth",
+            "ingredients": [
+              { "name": "chicken_whole", "note": "approx 4 pieces of chicken breast?", "amount": 3, "unit": "lb" },
+              { "name": "water", "amount": 12, "unit": "cup" },
+              { "name": "garlic", "amount": 10, "unit": "" },
+              { "name": "peppercorn", "note": "about 10 peppercorns", "amount": 1.5, "unit": "tsp" },
+              { "name": "bay_leaf", "amount": 1, "unit": "" },
+              { "name": "onion", "note": "for mom version", "amount": 1, "unit": "" },
+              { "name": "ginger", "note": "for mom version", "amount": 1, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "porridge",
+            "label": "porridge",
+            "ingredients": [
+              { "name": "rice_white", "amount": 1, "unit": "cup" },
+              { "name": "garlic", "note": "whole", "amount": 5, "unit": "" },
+              { "name": "salt", "amount": 2, "unit": "tsp" },
+              { "name": "green_onion", "amount": 1, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "Soak rice for 3 hours.",
+          "Make broth: water, chicken, garlic, ginger, bay leaf, peppercorns. Boil for 45min-1hr.",
+          "Remove chicken from broth. Drain broth (should be ~6 cups of broth)",
+          "Remove bones from chicken. Shred meat.",
+          "In a pot, put in chicken, garlic, drained rice, and salt.",
+          "Cook 25-30 min til rice cooked. First 20 min on med high, the rest of time on simmer. Stir occasionally. ",
+          "Garnish with green onion."
         ]
       }
     ]
@@ -1649,7 +1696,7 @@
               { "name": "ginger", "note": "minced", "amount": 1, "unit": "tbsp" },
               { "name": "green_onion", "amount": 2, "unit": "" },
               { "name": "garlic", "note": "minced", "amount": 5, "unit": "" },
-              { "name": "serrano", "amount": 1, "unit": "" },
+              { "name": "jalapeno", "amount": 1, "unit": "" },
               { "name": "cabbage", "note": "cut", "amount": 206, "unit": "g" },
               { "name": "onion", "amount": 0.5, "unit": "" },
               { "name": "oil", "amount": 3, "unit": "tbsp" }
@@ -1673,11 +1720,11 @@
           "Combine flour, water, salt. Knead for 20 min til you can stretch noodle to several inches without breaking. Rest for 1-2 hours.",
           "Marinate lamb.",
           "Toast cumin seeds, grind, and mix spices into rest of sauce.",
-          "Prepare ginger + scallions. Prepare garlic + serrano. Prepare cut cabbage. Prepare onions.",
+          "Prepare ginger + scallions. Prepare garlic + jalapeno. Prepare cut cabbage. Prepare onions.",
           "Roll out noodle dough into 10 inch rect and cut into one-inch pieces. Should be spaghettic thickness (shouldnt be transparent).",
           "Pull each piece lengthwise and slap/pound onto flat surface.",
           "On med heat wok, 3 tbsp veg oil with ginger + scallions for 1 min.",
-          "Then add garlic + serrano and cook for 30 sec.",
+          "Then add garlic + jalapeno and cook for 30 sec.",
           "Add lamb til it browns.",
           "Add onion and sauce. At this point, put noodles + cabbage in boiling water for 90 sec to 2 min.",
           "Add noodles + cabbage to wok and mix til combined."
@@ -1807,7 +1854,7 @@
             "label": "vegetables",
             "ingredients": [
               { "name": "bell_pepper_green", "amount": 1, "unit": "" },
-              { "name": "mushroom", "amount": 84, "unit": "g" },
+              { "name": "mushroom_white", "amount": 84, "unit": "g" },
               { "name": "cabbage", "amount": 0.5, "unit": "" },
               { "name": "carrot", "amount": 1, "unit": "" },
               { "name": "onion", "amount": 1, "unit": "" }
@@ -1971,7 +2018,7 @@
           { "name": "sesame_oil", "amount": 0.5, "unit": "tsp" },
           { "name": "shaoxing_wine", "amount": 2, "unit": "tsp" },
           { "name": "oil", "note": "to cook eggs", "amount": 2, "unit": "tbsp" },
-          { "name": "tomato", "amount": 500, "unit": "g" },
+          { "name": "tomato_cherry", "amount": 500, "unit": "g" },
           { "name": "green_onion", "amount": 1, "unit": "" },
           { "name": "sugar", "amount": 1, "unit": "tsp" },
           { "name": "salt", "note": "for tomatoes", "amount": 0.5, "unit": "tsp" },
@@ -1987,6 +2034,56 @@
           "Add sugar, salt, water. Add more water if stove usually gets too hot and liquids get cook down.",
           "Add cooked eggs, mix everything, cover and cook 1-2 min til tomatoes soft.",
           "Uncover, stir fry til sauce is thickened to liking."
+        ]
+      },
+      {
+        "name": "ginger_chicken",
+        "label": "ginger chicken",
+        "ingredient_categories": [
+          {
+            "name": "aromatics",
+            "label": "aromatics",
+            "ingredients": [
+              { "name": "ginger", "note": "1/4\" slices", "amount": 2, "unit": "tbsp" },
+              { "name": "green_onion", "note": "2 in pieces", "amount": 3, "unit": "" },
+              { "name": "garlic", "note": "cut in half", "amount": 4, "unit": "" },
+              { "name": "shallot", "note": "cut in quarters", "amount": 3, "unit": "" }
+            ]
+          },
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "water", "note": "sub chicken stock", "amount": 1.5, "unit": "cup" },
+              { "name": "sugar_brown", "amount": 1, "unit": "tsp" },
+              { "name": "soy_sauce_light", "note": "originally 2 tbsp", "amount": 1, "unit": "tbsp" },
+              { "name": "soy_sauce_dark", "amount": 1, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
+              { "name": "oyster_sauce", "note": "originally 2 tsp", "amount": 1, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "misc",
+            "label": "misc",
+            "ingredients": [
+              { "name": "oil", "amount": 1, "unit": "tbsp" },
+              { "name": "chicken_thigh", "note": "cut to 1 in. pieces", "amount": 24, "unit": "oz" },
+              { "name": "shaoxing_wine", "amount": 0.25, "unit": "cup" },
+              { "name": "cornstarch", "note": "mixed with 1 tbsp water", "amount": 1, "unit": "tbsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "SMASH garlic, ginger, and white parts of scallions.",
+          "Spread oil around perimeter of wok. Heat it til it just starts smoking. ",
+          "Add smashed ginger slices, fry for 15 sec.",
+          "Spread the chicken pieces in a single layer in the wok. Sear for 45 sec. ",
+          "Flip them and fry other side for another 30 sec.",
+          "Add in white parts of scallions, garlic, and shallots. Stir-fry over high heat, mix everything another 30 sec.",
+          "Add Shaoxing, and stir fry another 20 sec. Add in chicken stock, sugar, soy sauces, pepper, and oyster sauce. ",
+          "Cover and continue to cook on high heat for 5 minutes.",
+          "Remove cover, and cook another 7 min to reduce liquid. ",
+          "Mix in green parts of scallions, and then immediately stir in cornstarch water mix to thicken sauce."
         ]
       }
     ]
@@ -2155,10 +2252,10 @@
             "label": "salad",
             "ingredients": [
               { "name": "rice_vermicelli", "amount": 200, "unit": "g" },
-              { "name": "bean_sprouts", "amount": 2, "unit": "cup" },
+              { "name": "soybean_sprout", "amount": 2, "unit": "cup" },
               { "name": "carrot", "note": "juilienned", "amount": 1, "unit": "" },
               { "name": "cucumber", "note": "juilienned", "amount": 1, "unit": "" },
-              { "name": "romaine", "amount": 7, "unit": "oz" },
+              { "name": "romaine_leaf", "amount": 15, "unit": "" },
               { "name": "cilantro_fresh", "amount": 1, "unit": "tbsp" }
             ]
           }
@@ -2170,6 +2267,56 @@
           "2 tbsp oil med high heat (7/10). Sear chicken for 3 min one side, 5 min other (or til cooked thru). Set aside.",
           "Slice chicken thighs and add to salad.",
           "Combine all ingredients. Serve with nuoc cham sauce."
+        ]
+      },
+      {
+        "name": "vague_peanut_butter_noodle",
+        "label": "vague peanut butter noodle",
+        "ingredient_categories": [
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "peanut_butter", "amount": 0.25, "unit": "cup" },
+              { "name": "fish_sauce", "amount": 1.5, "unit": "tbsp" },
+              { "name": "soy_sauce_dark", "amount": 1.5, "unit": "tbsp" },
+              { "name": "sugar", "amount": 2, "unit": "tsp" },
+              { "name": "cornstarch", "amount": 2, "unit": "tsp" },
+              { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+              { "name": "ginger_ground", "note": "or 2 tsp fresh grated", "amount": 0.25, "unit": "tsp" },
+              { "name": "curry_powder_korean", "amount": 1.5, "unit": "tsp" },
+              { "name": "water", "amount": 0.25, "unit": "cup" }
+            ]
+          },
+          {
+            "name": "filling",
+            "label": "filling",
+            "ingredients": [
+              { "name": "oil", "amount": 2, "unit": "tbsp" },
+              { "name": "rice_vermicelli",  "amount": 3.5, "unit": "oz" },
+              { "name": "garlic", "note": "finely chopped", "amount": 1, "unit": "" },
+              { "name": "onion", "note": "sliced", "amount": 0.5, "unit": "" },
+              { "name": "carrot", "note": "shredded", "amount": 1, "unit": "" },
+              { "name": "cabbage", "note": "shredded", "amount": 0.25, "unit": "" },
+              { "name": "chicken_thigh", "note": "thinly sliced", "amount": 6, "unit": "oz" }
+            ]
+          },
+          {
+            "name": "garnish",
+            "label": "garnish",
+            "ingredients": [
+              { "name": "cilantro_fresh", "amount": 0.25, "unit": "cup" },
+              { "name": "peanut", "amount": 0.25, "unit": "cup" }
+            ]
+          }
+        ],
+        "directions": [
+          "Mix sauce ingredients. Heat up in microwave if needed.",
+          "Cook noodle.",
+          "Heat oil in skillet, high heat. Stir fry garlic and onion 30 sec.",
+          "Add chicken til outside turns pink to white. ",
+          "Add carrot and cabbage. cook til wilted.",
+          "Add noodle and sauce. Stir fry 1-2 min. Garnish with cilantro and crushed peanut."
         ]
       }
     ]
@@ -2353,8 +2500,8 @@
         "label": "arroz congrí",
         "ingredients": [
           { "name": "oil_olive", "note": "(if not using bacon)", "amount": 2, "unit": "tsp" },
-          { "name": "bell_pepper_green", "note": "chopped", "amount": 0.5, "unit": "cup" },
-          { "name": "bell_pepper_red", "note": "chopped", "amount": 0.5, "unit": "cup" },
+          { "name": "bell_pepper_green", "note": "chopped", "amount": 0.5, "unit": "" },
+          { "name": "bell_pepper_red", "note": "chopped", "amount": 0.5, "unit": "" },
           { "name": "onion", "note": "chopped", "amount": 1, "unit": "" },
           { "name": "garlic", "note": "(2-4?)", "amount": 2, "unit": "" },
           { "name": "rice_white", "note": "should be long grained..", "amount": 1, "unit": "cup" },
@@ -2390,7 +2537,7 @@
           { "name": "oregano", "amount": 1, "unit": "tsp" },
           { "name": "cumin_ground", "amount": 2, "unit": "tsp" },
           { "name": "gochugaru", "note": "to sub sweet paprika", "amount": 2, "unit": "tsp" },
-          { "name": "dry_white_wine", "amount": 0.5, "unit": "cup" },
+          { "name": "vinegar_white_wine", "note": "to sub for dry white wine", "amount": 0.5, "unit": "cup" },
           { "name": "water", "note": "sub for beef broth", "amount": 1, "unit": "cup" },
           { "name": "canned_crushed_tomato", "amount": 16, "unit": "oz" },
           { "name": "parsley_fresh", "note": "chopped", "amount": 0.25, "unit": "cup" }
@@ -2447,6 +2594,25 @@
           "Slice like kimbap, put into a baking tray (sliced sides up), and let rise 10-12 min.",
           "Top with green onions and rest of cheese.",
           "355F for 18 min."
+        ]
+      },
+      {
+        "name": "lamb_palov",
+        "label": "lamb palov",
+        "ingredients": [
+          { "name": "lamb_leg", "note": "up to 2lb", "amount": 1.5, "unit": "lb" },
+          { "name": "rice_long_grain", "note": "up to 2 cup", "amount": 1.5, "unit": "cup" },
+          { "name": "oil", "note": "or olive oil", "amount": 0.5, "unit": "cup" },
+          { "name": "onion", "note": "up to 2", "amount": 1, "unit": "" },
+          { "name": "carrot", "note": "cut into 2 in sticks", "amount": 4, "unit": "" },
+          { "name": "garlic", "note": "(a whole head)", "amount": 10, "unit": "" },
+          { "name": "salt", "amount": 1, "unit": "tbsp" },
+          { "name": "peppercorn", "amount": 1, "unit": "tsp" },
+          { "name": "cumin_seed", "note": "or powder; up to 1.5tbsp", "amount": 1, "unit": "tbsp" },
+          { "name": "coriander_ground", "note": "or 1tbsp of seed", "amount": 1, "unit": "tsp" }
+        ],
+        "directions": [
+          "https://cooktoria.com/uzbek-plov/"
         ]
       }
     ]

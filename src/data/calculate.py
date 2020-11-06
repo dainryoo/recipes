@@ -57,11 +57,23 @@ def fill_out_pantry_item_info(item):
         serving = item["serving_nutrition"]
         unit = serving["unit"]
 
+        # TODO FIX THIS!!!!!!!
+
         if unit == "":
             item["per_unit"] = {
                 "calories": serving["calories"],
                 "protein": serving["protein"],
+                "avg_grams": serving["grams"],
                 "price": item["price_per_unit"]["price"]
+            }
+
+            grams = serving["grams"]*1.0
+            price = item["price_per_unit"]["price"]
+
+            item["per_100_gram"] = {
+                "calories": 100.0/grams*serving["calories"],
+                "protein": 100.0/grams*serving["protein"],
+                "price": 100.0/grams * price
             }
         else:
             grams = serving["grams"]*1.0
@@ -141,6 +153,7 @@ def calculate_nutrition(all_recipes, pantry):
 
 # calculate the nutrition of a recipe
 def calculate_recipe_nutrition(recipe, pantry):
+
     ingredients = recipe["ingredients"]
     total_calories = 0.0
     total_protein = 0.0
