@@ -442,18 +442,19 @@
         "label": "pie crust",
         "ingredients": [
           { "name": "flour", "amount": 1.25, "unit": "cup" },
-          { "name": "salt", "amount": 0.5, "unit": "tsp" },
-          { "name": "sugar", "amount": 0.5, "unit": "tsp" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "sugar", "note": "optional", "amount": 0.5, "unit": "tsp" },
           { "name": "butter", "note": "chilled, cubed", "amount": 8, "unit": "tbsp" },
-          { "name": "water", "note": "ice cold. up to 4 tbsp", "amount": 3, "unit": "tbsp" }
+          { "name": "water", "note": "ice cold. up to 3.5 tbsp", "amount": 3, "unit": "tbsp" },
+          { "name": "vinegar_apple_cider", "amount": 0.5, "unit": "tbsp" }
         ],
         "directions": [
           "For one 9-inch pie crust:",
           "Combine flour, salt, sugar. (Food processor: pulse til well combined)",
           "Add the butter, half at a time. (Pulse 8 times, add, then pulse 6 times)",
-          "Slowly add ice water. (Pulse several times each time you add.)",
+          "Slowly add ice water + vinegar mix. (Pulse several times each time you add.)",
           "Should be crumbly dough that holds together when you squish it.",
-          "Form dough into a disk, wrap and chill in fridge for at least 1 hour.. Work dough just enough to bring together, too much will make it tough.",
+          "Form dough into a disk, wrap and chill in fridge for at least 30min-1 hour.. Work dough just enough to bring together, too much will make it tough.",
           "Remove from fridge and let sit for 10-15 min. Roll out once soft.",
           "Freeze til ready to cook.",
           "To blindbake: ",
@@ -890,6 +891,31 @@
           "Bake 25-30 min 375F.",
           "Brush with sugar syrup immediatley after out of oven.",
           "Cool til warm, remove from pans, cool completely before serving."
+        ]
+      },
+      {
+        "name": "sliced_sweet_potato_pie",
+        "label": "sliced sweet potato pie",
+        "ingredients": [
+          { "name": "sweet_potato", "note": "about 2 lb", "amount": 3, "unit": "" },
+          { "name": "sugar_brown", "amount": 120, "unit": "g" },
+          { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
+          { "name": "ginger_ground", "amount": 0.25, "unit": "tsp" },
+          { "name": "nutmeg", "amount": 0.25, "unit": "tsp" },
+          { "name": "cloves_ground", "amount": 0.125, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "flour", "amount": 7, "unit": "g" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "butter", "amount": 20, "unit": "g" }
+        ],
+        "directions": [
+          "Pair with 1 9-inch pie crust.",
+          "Put sweet potatoes in pot, covered with water. Bring water to boil on high heat.",
+          "Once boiling, reduce to med heat. Boil til tender but not falling apart (~30min?)",
+          "Peel and slice sweet potatoes (1/4 in thick). Let cool.",
+          "Mix sugar, flour, salt, spices together. Toss sweet potatoes in spices.",
+          "Place sweet potatoes in crust. Dot butter on top of sweet potatoes.",
+          "Bake 350F for 1hr. Let cool completely."
         ]
       },
       {
@@ -1801,7 +1827,7 @@
         "label": "mapo tofu",
         "ingredients": [
           { "name": "oil", "amount": 2, "unit": "tbsp" },
-          { "name": "sichuan_peppercorn_ground", "note": "should be 3g?", "amount": 1.5, "unit": "tsp" },
+          { "name": "sichuan_peppercorn_ground", "amount": 2, "unit": "tsp" },
           { "name": "ginger", "note": "minced", "amount": 3, "unit": "tbsp" },
           { "name": "garlic", "amount": 3, "unit": "" },
           { "name": "pork_ground_84", "amount": 8, "unit": "oz" },
@@ -1809,7 +1835,7 @@
           { "name": "douchi", "amount": 2, "unit": "tbsp" },
           { "name": "water", "amount": 0.67, "unit": "cup" },
           { "name": "cornstarch", "amount": 2, "unit": "tsp" },
-          { "name": "chili_oil", "amount": 4, "unit": "tbsp" },
+          { "name": "chili_oil", "amount": 3, "unit": "tbsp" },
           { "name": "tofu_silken", "amount": 18, "unit": "oz" }
         ],
         "directions": [
@@ -2668,9 +2694,8 @@
           "Add cumin, coriander, salt, pepper and 4 c water. Bring to boil.",
           "Peel some of skin off garlic head. Slice top off to expose the garlic cloves. Place garlic in pot.",
           "Reduce heat to med-low, cover with lid and cook ~1 hr.",
-          "Wash rice thoroughly, add to pot by spreading it on top (don't mix!) evenly.",
-          "Add 3 c water. Reduce heat to low, cover with lid and cook 25-30min or until water absorbed fully.",
-          "Let rest 15 min before serving."
+          "Wash rice thoroughly, add to pot by spreading it on top (don't mix!!) evenly.",
+          "Add 2 c water. Reduce heat to med low, cover with lid and cook until water absorbed fully (about 20 min)."
         ]
       },
       {
