@@ -1572,39 +1572,45 @@
             "name": "sauce",
             "label": "sauce",
             "ingredients": [
-              { "name": "soy_sauce_light", "amount": 2, "unit": "tbsp" },
-              { "name": "soy_sauce_dark", "amount": 1, "unit": "tsp" },
-              { "name": "vinegar_rice", "amount": 1.5, "unit": "tsp" },
-              { "name": "sugar", "amount": 2, "unit": "tsp" },
-              { "name": "water", "amount": 0.33, "unit": "cup" },
-              { "name": "sesame_oil", "amount": 0.5, "unit": "tsp" },
-              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
+              { "name": "soy_sauce_light", "amount": 3, "unit": "tbsp" },
+              { "name": "soy_sauce_dark", "amount": 2, "unit": "tsp" },
+              { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
+              { "name": "sugar", "amount": 4, "unit": "tsp" },
+              { "name": "water", "amount": 0.333333333, "unit": "cup" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.25, "unit": "tsp" }
             ]
           },
           {
             "name": "tofu_marinade",
             "label": "tofu marinade",
             "ingredients": [
-              { "name": "soy_sauce_light", "amount": 1, "unit": "tsp" },
-              { "name": "cornstarch", "amount": 1, "unit": "tsp" },
-              { "name": "oil", "amount": 1, "unit": "tsp" },
+              { "name": "soy_sauce_light", "amount": 2, "unit": "tsp" },
+              { "name": "cornstarch", "amount": 2, "unit": "tsp" },
+              { "name": "oil", "amount": 2, "unit": "tsp" },
               { "name": "tofu_firm", "amount": 18, "unit": "oz" },
-              { "name": "oil", "note": "to cook", "amount": 2, "unit": "tsp" }
+              { "name": "oil", "note": "to cook", "amount": 1, "unit": "tbsp" }
             ]
           },
           {
             "name": "rest_of_dish",
             "label": "rest of dish",
             "ingredients": [
-              { "name": "broccoli", "amount": 200, "unit": "g" },
+              { "name": "broccoli", "amount": 300, "unit": "g" },
               { "name": "oil", "amount": 1, "unit": "tsp" },
               { "name": "shaoxing_wine", "amount": 1, "unit": "tbsp" },
-              { "name": "garlic", "amount": 3, "unit": "" }
+              { "name": "garlic", "amount": 3, "unit": "" },
+              { "name": "walnuts", "amount": 50, "unit": "g" },
+              { "name": "cornstarch", "note": "mixed with water", "amount": 1, "unit": "tbsp" }
             ]
           }
         ],
         "directions": [
-          "tba......."
+          "Marinate protein.",
+          "Fry tofu if using: Med heat, 1 tbsp oil, about 5 min per side. Set aside.",
+          "Wok med heat, cook garlic in 1 tsp oil for 30 sec.",
+          "Add broccoli, cook for 30 sec. Add wine around edge of wok.",
+          "Add tofu and sauce and walnuts. "
         ]
       },
       {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { connect } from "react-redux";
-import InfoList from "./pantry/InfoList.js";
+import PantrySubcontent from "./pantry/PantrySubcontent.js";
 import Calculators from "./pantry/Calculators.js";
 
 
@@ -93,10 +93,11 @@ const Pantry = ({ item, view }) => {
   return (
     <div className={"pantry content" + (view === 1 ? " hidden" : "")}>
       <div className="heading">{item.label}</div>
+      {item.note && <PantrySubcontent title="Notes:" info={item.note}/>}
       <Calculators info={calculatorInfo} updateCalculator={handleCalculatorChange}/>
-      {measurements && <InfoList title="Grams conversions:" list={measurements}/>}
-      {nutrition && <InfoList title="Per unit:" list={nutrition}/>}
-      {nutritionPer100Gram && <InfoList title="Per 100 grams:" list={nutritionPer100Gram}/>}
+      {measurements && <PantrySubcontent title="Grams conversions:" list={measurements}/>}
+      {nutrition && <PantrySubcontent title="Per unit:" list={nutrition}/>}
+      {nutritionPer100Gram && <PantrySubcontent title="Per 100 grams:" list={nutritionPer100Gram}/>}
     </div>
   );
 }

@@ -56,29 +56,20 @@ def fill_out_pantry_item_info(item):
     if "serving_nutrition" in item:
         serving = item["serving_nutrition"]
         unit = serving["unit"]
-
-        # TODO FIX THIS!!!!!!!
+        grams = serving["grams"]*1.0
+        amount = serving["amount"]*1.0
 
         if unit == "":
             item["per_unit"] = {
                 "calories": serving["calories"],
                 "protein": serving["protein"],
-                "avg_grams": serving["grams"],
-                "price": item["price_per_unit"]["price"]
+                "avg_grams": grams
             }
-
-            grams = serving["grams"]*1.0
-            price = item["price_per_unit"]["price"]
-
-            item["per_100_gram"] = {
-                "calories": 100.0/grams*serving["calories"],
-                "protein": 100.0/grams*serving["protein"],
-                "price": 100.0/grams * price
+            item["conversion_to_grams"] = {
+                "oz": 28.34952,
+                "lb": 453.59237
             }
         else:
-            grams = serving["grams"]*1.0
-            amount = serving["amount"]*1.0
-
             if unit in gram_names:
                 item["conversion_to_grams"] = {
                     "oz": 28.34952,
@@ -119,17 +110,27 @@ def fill_out_pantry_item_info(item):
                     "lb": grams/amount
                 }
 
-            price = item["price_per_unit"]["price"]
-            price_unit = item["price_per_unit"]["unit"]
-            calculated_price = 0.0
-            if price_unit in item["conversion_to_grams"]:
-                calculated_price = 100.0/item["conversion_to_grams"][price_unit] * price
+        item["per_100_gram"] = {
+            "calories": 100.0/grams*serving["calories"],
+            "protein": 100.0/grams*serving["protein"],
+        }
 
-            item["per_100_gram"] = {
-                "calories": 100.0/grams*serving["calories"],
-                "protein": 100.0/grams*serving["protein"],
-                "price": calculated_price
-            }
+        price = item["price_per_unit"]["price"]
+        price_unit = item["price_per_unit"]["unit"]
+
+        if price_unit == "":
+            calculated_price = 100.0/grams*price
+            item["per_100_gram"]["price"] = calculated_price
+            item["per_unit"]["price"] = price*1.0/amount
+        elif price_unit in item["conversion_to_grams"]:
+            calculated_price = 100.0/item["conversion_to_grams"][price_unit] * price
+            item["per_100_gram"]["price"] = calculated_price
+            if "per_unit" in item:
+                calculated_price = grams * price / item["conversion_to_grams"][price_unit]
+                item["per_unit"]["price"] = calculated_price
+        elif price_unit == "g":
+            item["per_100_gram"]["price"] = 100.0*price
+
 
 
 # calculates nutrition info of all the recipes

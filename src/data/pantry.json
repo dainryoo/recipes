@@ -65,7 +65,7 @@
       {
         "name": "coconut_meat",
         "label": "coconut meat",
-        "note": "average amount research: 81g",
+        "note": "average amount research: 81g, 129g",
         "conversion_to_grams": {
           "cup": 200
         },
@@ -84,7 +84,7 @@
       {
         "name": "coconut_water",
         "label": "coconut water",
-        "note": "average amount research: 381g",
+        "note": "average amount research: 381g, 300g",
         "conversion_to_grams": {
           "cup": 240
         },
@@ -178,6 +178,7 @@
       {
         "name": "squash_delicata",
         "label": "delicata squash",
+        "note": "bake at 350F for 50min",
         "serving_nutrition": {
           "amount": 1,
           "unit": "",
@@ -1264,7 +1265,8 @@
       },
       {
         "name": "beef_flank_steak",
-        "label": "beef flank steak (choice)",
+        "label": "beef flank steak",
+        "note": "(choice)",
         "serving_nutrition": {
           "amount": 4,
           "unit": "oz",
@@ -1278,53 +1280,9 @@
         }
       },
       {
-        "name": "beef_ground_80",
-        "label": "ground beef (80% lean)",
-        "serving_nutrition": {
-          "amount": 4,
-          "unit": "oz",
-          "grams": 112,
-          "calories": 280,
-          "protein": 19
-        },
-        "price_per_unit": {
-          "price": 4.99,
-          "unit": "lb"
-        }
-      },
-      {
-        "name": "beef_ground_85",
-        "label": "ground beef (85% lean)",
-        "serving_nutrition": {
-          "amount": 4,
-          "unit": "oz",
-          "grams": 112,
-          "calories": 240,
-          "protein": 21
-        },
-        "price_per_unit": {
-          "price": 5.49,
-          "unit": "lb"
-        }
-      },
-      {
-        "name": "beef_ground_90",
-        "label": "ground beef (90% lean)",
-        "serving_nutrition": {
-          "amount": 4,
-          "unit": "oz",
-          "grams": 112,
-          "calories": 200,
-          "protein": 23
-        },
-        "price_per_unit": {
-          "price": 6.99,
-          "unit": "lb"
-        }
-      },
-      {
         "name": "beef_short_rib",
-        "label": "beef short rib (choice)",
+        "label": "beef short rib",
+        "note": "(choice)",
         "serving_nutrition": {
           "amount": 4,
           "unit": "oz",
@@ -1355,7 +1313,8 @@
       },
       {
         "name": "lamb_shoulder",
-        "label": "lamb shoulder (choice)",
+        "label": "lamb shoulder",
+        "note": "(choice)",
         "serving_nutrition": {
           "amount": 4,
           "unit": "oz",
@@ -1370,7 +1329,8 @@
       },
       {
         "name": "lamb_leg",
-        "label": "lamb leg (choice)",
+        "label": "lamb leg",
+        "note": "(choice)",
         "serving_nutrition": {
           "amount": 1,
           "unit": "lb",
@@ -1397,10 +1357,64 @@
           "price": 5.99,
           "unit": "lb"
         }
+      }
+    ]
+  },
+  {
+    "category_name": "ground_meat",
+    "items": [
+      {
+        "name": "beef_ground_80",
+        "label": "ground beef (80%)",
+        "note": "80% lean",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 112,
+          "calories": 280,
+          "protein": 19
+        },
+        "price_per_unit": {
+          "price": 4.99,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "beef_ground_85",
+        "label": "ground beef (85%)",
+        "note": "85% lean",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 112,
+          "calories": 240,
+          "protein": 21
+        },
+        "price_per_unit": {
+          "price": 5.49,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "beef_ground_90",
+        "label": "ground beef (90%)",
+        "note": "90% lean",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 112,
+          "calories": 200,
+          "protein": 23
+        },
+        "price_per_unit": {
+          "price": 6.99,
+          "unit": "lb"
+        }
       },
       {
         "name": "pork_ground_84",
-        "label": "ground pork (84% lean)",
+        "label": "ground pork (84%)",
+        "note": "(84% lean)",
         "serving_nutrition": {
           "amount": 4,
           "unit": "oz",
@@ -1415,7 +1429,8 @@
       },
       {
         "name": "pork_ground_96",
-        "label": "ground pork (96% lean)",
+        "label": "ground pork (96%)",
+        "note": "96% lean",
         "serving_nutrition": {
           "amount": 4,
           "unit": "oz",
@@ -1530,8 +1545,8 @@
     "items": [
       {
         "name": "burger_amys_california",
-        "label": "amy's california burgers",
-        "note": "4 min each side",
+        "label": "amy's burgers",
+        "note": "Amy's California burgers; Cook for 4 min on each side",
         "serving_nutrition": {
           "amount": 1,
           "unit": "",
@@ -1627,7 +1642,8 @@
       },
       {
         "name": "buttermilk",
-        "label": "buttermilk (from almond milk)",
+        "label": "buttermilk",
+        "note": "(made from almond milk)",
         "serving_nutrition": {
           "amount": 1,
           "unit": "cup",
@@ -1642,7 +1658,8 @@
       },
       {
         "name": "cheese_mozzarella",
-        "label": "mozzarella (whole millk)",
+        "label": "mozzarella",
+        "note": "(whole millk)",
         "serving_nutrition": {
           "amount": 100,
           "unit": "g",
@@ -1717,7 +1734,8 @@
       },
       {
         "name": "milk_oat",
-        "label": "oat milk (365)",
+        "label": "oat milk",
+        "note": "365 oat milk",
         "serving_nutrition": {
           "amount": 1,
           "unit": "cup",
@@ -1797,7 +1815,8 @@
       },
       {
         "name": "coconut_milk_canned",
-        "label": "canned coconut milk (light)",
+        "label": "canned coconut milk",
+        "note": "(light)",
         "serving_nutrition": {
           "amount": 1,
           "unit": "cup",
@@ -1968,7 +1987,8 @@
       },
       {
         "name": "rolled_oats",
-        "label": "rolled oats (365)",
+        "label": "rolled oats",
+        "note": "(365)",
         "serving_nutrition": {
           "amount": 0.5,
           "unit": "cup",
@@ -2048,7 +2068,8 @@
       },
       {
         "name": "rice_vermicelli",
-        "label": "rice vermicelli noodles (jiangxi)",
+        "label": "rice vermicelli noodles",
+        "note": "Jiangxi noodles",
         "serving_nutrition": {
           "amount": 1,
           "unit": "cup",
@@ -2098,7 +2119,8 @@
       },
       {
         "name": "cacao_nibs",
-        "label": "cacao nibs (Alovitox)",
+        "label": "cacao nibs",
+        "note": "Alovitox cacao nibs",
         "serving_nutrition": {
           "amount": 1,
           "unit": "tsp",
@@ -2113,7 +2135,8 @@
       },
       {
         "name": "chocolate_dark_70",
-        "label": "70% dark chocolate (Dar)",
+        "label": "70% dark chocolate",
+        "note": "Dar dark chocolate",
         "serving_nutrition": {
           "amount": 0.125,
           "unit": "cup",
@@ -2128,7 +2151,8 @@
       },
       {
         "name": "cocoa_powder",
-        "label": "cocoa powder (Rodelle, Dutch Processed)",
+        "label": "cocoa powder",
+        "note": "Rodelle, Dutch Processed",
         "serving_nutrition": {
           "amount": 1,
           "unit": "tbsp",
@@ -2504,7 +2528,8 @@
       },
       {
         "name": "doubanjiang",
-        "label": "doubanjiang (chili bean sauce)",
+        "label": "doubanjiang",
+        "note": "(chili bean sauce)",
         "serving_nutrition": {
           "amount": 2,
           "unit": "tsp",
@@ -2519,7 +2544,8 @@
       },
       {
         "name": "douchi",
-        "label": "douchi (fermented black beans)",
+        "label": "douchi",
+        "note": "(fermented black beans)",
         "serving_nutrition": {
           "amount": 1,
           "unit": "tbsp",
@@ -2722,8 +2748,8 @@
       },
       {
         "name": "jjajang",
-        "label": "jjajang (black bean paste)",
-        "note": "wang jjajang",
+        "label": "jjajang",
+        "note": "wang jjajang (black bean paste)",
         "serving_nutrition": {
           "amount": 1,
           "unit": "tbsp",
