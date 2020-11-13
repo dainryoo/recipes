@@ -718,7 +718,7 @@
             "calories": 224, 
             "label": "banana", 
             "name": "banana", 
-            "price": 0.0, 
+            "price": 0.27222680134588684, 
             "protein": 2.74, 
             "unit": ""
           }, 
@@ -748,7 +748,7 @@
         "name": "banana_pancakes", 
         "nutrition": {
           "calories": 1122.8333333333335, 
-          "price": 1.8513856460356295, 
+          "price": 2.1236124473815163, 
           "protein": 21.656666666666666
         }
       }, 
@@ -1026,7 +1026,7 @@
             "calories": 560, 
             "label": "banana", 
             "name": "banana", 
-            "price": 0.0, 
+            "price": 0.6805670033647171, 
             "protein": 6.8500000000000005, 
             "unit": ""
           }, 
@@ -1097,7 +1097,7 @@
         "name": "banana_bread", 
         "nutrition": {
           "calories": 2793.2166666666667, 
-          "price": 3.231475834511484, 
+          "price": 3.9120428378762013, 
           "protein": 39.901833333333336
         }
       }, 
@@ -1633,7 +1633,7 @@
             "calories": 0.5, 
             "label": "lemon zest", 
             "name": "lemon_zest", 
-            "price": 0.0, 
+            "price": 0.13166666666666668, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -1682,7 +1682,7 @@
         "name": "easy_madeleines", 
         "nutrition": {
           "calories": 568.4166666666667, 
-          "price": 0.8038693565182056, 
+          "price": 0.9355360231848723, 
           "protein": 10.0
         }
       }, 
@@ -1734,7 +1734,7 @@
             "calories": 1.0, 
             "label": "lemon zest", 
             "name": "lemon_zest", 
-            "price": 0.0, 
+            "price": 0.26333333333333336, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -1793,7 +1793,7 @@
         "name": "madeleines", 
         "nutrition": {
           "calories": 965.6666666666667, 
-          "price": 1.6740986937344973, 
+          "price": 1.9374320270678305, 
           "protein": 11.75
         }
       }, 
@@ -2028,7 +2028,7 @@
                 "label": "granny smith apple", 
                 "name": "apple_granny_smith", 
                 "noted": "thinly sliced, 2\" length pieces", 
-                "price": 0.8818490487395103, 
+                "price": 2.1958041313613808, 
                 "protein": 1.08, 
                 "unit": ""
               }, 
@@ -2038,7 +2038,7 @@
                 "calories": 0.75, 
                 "label": "lemon zest", 
                 "name": "lemon_zest", 
-                "price": 0.0, 
+                "price": 0.1975, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }, 
@@ -2101,7 +2101,7 @@
         "name": "apple_pie", 
         "nutrition": {
           "calories": 1342.3453666666665, 
-          "price": 2.144559352123835, 
+          "price": 3.656014434745706, 
           "protein": 15.385426666666666
         }
       }, 
@@ -2212,7 +2212,7 @@
                 "label": "carrot", 
                 "name": "carrot", 
                 "note": "grated", 
-                "price": 0.0, 
+                "price": 0.1636932296722716, 
                 "protein": 0.6979166666666667, 
                 "unit": "g"
               }, 
@@ -2290,7 +2290,7 @@
         "name": "carrot_cake", 
         "nutrition": {
           "calories": 1494.5614523809525, 
-          "price": 2.802395525567981, 
+          "price": 2.9660887552402526, 
           "protein": 19.656824285714286
         }
       }, 
@@ -2558,7 +2558,7 @@
             "calories": 0.5, 
             "label": "lemon zest", 
             "name": "lemon_zest", 
-            "price": 0.0, 
+            "price": 0.13166666666666668, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -2598,7 +2598,7 @@
         "name": "hamantaschen", 
         "nutrition": {
           "calories": 1415.5, 
-          "price": 1.8865185160101474, 
+          "price": 2.018185182676814, 
           "protein": 22.599999999999998
         }
       }, 
@@ -3279,7 +3279,7 @@
           "Whisk flour, sugar, salt (and cardamom). Add egg, mix til incorporated. Add milk mix, mix til incorporated.", 
           "Knead til dough is elastic and smooth, but still tacky.", 
           "Rise in greased covered bowl for 30min-1hr (or til doubled).", 
-          "Roll dough out into rect, spread butter on top, sprinkle with sugar cinnamon mix.", 
+          "Roll dough out into rect, spread cinnamon butter mix on top.", 
           "Roll dough up tight, cut into 5-6 rolls ", 
           "Rise for 30min or 60-90 min or til doubled", 
           "Bake 20-22min or 25-28 min 375F."
@@ -3319,13 +3319,14 @@
                 "unit": "tsp"
               }, 
               {
-                "amount": 2.25, 
-                "amount_in_grams": 270.0, 
-                "calories": 990.0000000000001, 
+                "amount": 2.125, 
+                "amount_in_grams": 255.0, 
+                "calories": 935.0, 
                 "label": "flour", 
                 "name": "flour", 
-                "price": 0.571438246573487, 
-                "protein": 27.0, 
+                "note": "originally 2.25 cup. try a little less", 
+                "price": 0.5396916773194043, 
+                "protein": 25.5, 
                 "unit": "cup"
               }, 
               {
@@ -3382,7 +3383,7 @@
                 "calories": 300.0, 
                 "label": "butter", 
                 "name": "butter", 
-                "note": "softened", 
+                "note": "softened; have tried 2 tbsp", 
                 "price": 0.548157429120493, 
                 "protein": 0.0, 
                 "unit": "tbsp"
@@ -3442,9 +3443,9 @@
         "label": "cinnamon rolls", 
         "name": "cinnamon_rolls", 
         "nutrition": {
-          "calories": 2332.3, 
-          "price": 4.129201990016056, 
-          "protein": 34.915
+          "calories": 2277.3, 
+          "price": 4.097455420761974, 
+          "protein": 33.415
         }
       }, 
       {
@@ -3607,11 +3608,11 @@
               }, 
               {
                 "amount": 60, 
-                "calories": 0.0, 
-                "label": "chocolate_chips", 
+                "calories": 280.0, 
+                "label": "chocolate chips", 
                 "name": "chocolate_chips", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "price": 0.6772601440870956, 
+                "protein": 4.0, 
                 "unit": "g"
               }
             ], 
@@ -3648,9 +3649,9 @@
         "label": "chocolate babka", 
         "name": "chocolate_babka", 
         "nutrition": {
-          "calories": 2817.782354007843, 
-          "price": 13.484136206609495, 
-          "protein": 49.59780887686275
+          "calories": 3097.782354007843, 
+          "price": 14.16139635069659, 
+          "protein": 53.59780887686275
         }
       }, 
       {
@@ -3666,12 +3667,12 @@
         "ingredients": [
           {
             "amount": 3, 
-            "calories": 0.0, 
-            "label": "sweet_potato", 
+            "calories": 336, 
+            "label": "sweet potato", 
             "name": "sweet_potato", 
             "note": "about 2 lb", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 1.7110076168168347, 
+            "protein": 6.12, 
             "unit": ""
           }, 
           {
@@ -3765,9 +3766,9 @@
         "label": "sliced sweet potato pie", 
         "name": "sliced_sweet_potato_pie", 
         "nutrition": {
-          "calories": 626.1113095238096, 
-          "price": 1.130132303239467, 
-          "protein": 0.8449583333333335
+          "calories": 962.1113095238096, 
+          "price": 2.841139920056301, 
+          "protein": 6.964958333333333
         }
       }, 
       {
@@ -3807,12 +3808,12 @@
         "ingredients": [
           {
             "amount": 280, 
-            "calories": 0.0, 
+            "calories": 42.0, 
             "label": "kimchi", 
             "name": "kimchi", 
             "price": 0.0, 
-            "protein": 0.0, 
-            "unit": ""
+            "protein": 3.0799999999999996, 
+            "unit": "g"
           }, 
           {
             "amount": 200, 
@@ -3837,9 +3838,9 @@
         "label": "kimchi pancakes (\ubd80\uce68\uac1c)", 
         "name": "kimchi_pancakes", 
         "nutrition": {
-          "calories": 933.3333333333335, 
+          "calories": 975.3333333333335, 
           "price": 0.5138241023716333, 
-          "protein": 20.0
+          "protein": 23.08
         }
       }, 
       {
@@ -3861,11 +3862,11 @@
           }, 
           {
             "amount": 400, 
-            "calories": 0.0, 
+            "calories": 60.0, 
             "label": "kimchi", 
             "name": "kimchi", 
             "price": 0.0, 
-            "protein": 0.0, 
+            "protein": 4.3999999999999995, 
             "unit": "g"
           }, 
           {
@@ -3882,7 +3883,7 @@
             "calories": 29.5, 
             "label": "carrot", 
             "name": "carrot", 
-            "price": 0.0, 
+            "price": 0.15714550048538073, 
             "protein": 0.67, 
             "unit": ""
           }, 
@@ -3900,7 +3901,7 @@
             "calories": 4.8, 
             "label": "green onion", 
             "name": "green_onion", 
-            "price": 0.03306933932773164, 
+            "price": 0.184285714, 
             "protein": 0.275, 
             "unit": ""
           }, 
@@ -3958,9 +3959,9 @@
         "label": "kimchi fried rice (\ubcf6\uc74c\ubc25)", 
         "name": "kimchi_fried_rice", 
         "nutrition": {
-          "calories": 2601.7700000000004, 
-          "price": 5.481785658305236, 
-          "protein": 87.5485
+          "calories": 2661.7700000000004, 
+          "price": 5.790147533462885, 
+          "protein": 91.9485
         }
       }, 
       {
@@ -4017,7 +4018,7 @@
             "unit": "tsp"
           }
         ], 
-        "label": "hotteok (\ud638\ub5d9)", 
+        "label": "hotteok (\ud638\ub5a1)", 
         "name": "hotteok", 
         "nutrition": {
           "calories": 891.3260073260074, 
@@ -4139,7 +4140,7 @@
             "calories": 4.06, 
             "label": "jalapeno", 
             "name": "jalapeno", 
-            "price": 0.03086471670588286, 
+            "price": 0.06142078624470689, 
             "protein": 0.127, 
             "unit": ""
           }, 
@@ -4157,7 +4158,7 @@
         "name": "soy_sauce_egg", 
         "nutrition": {
           "calories": 486.03000000000003, 
-          "price": 2.867358634739738, 
+          "price": 2.897914704278562, 
           "protein": 44.730500000000006
         }
       }, 
@@ -4185,7 +4186,7 @@
             "calories": 4.8, 
             "label": "green onion", 
             "name": "green_onion", 
-            "price": 0.03306933932773164, 
+            "price": 0.184285714, 
             "protein": 0.275, 
             "unit": ""
           }, 
@@ -4224,7 +4225,7 @@
         "name": "rolled_egg", 
         "nutrition": {
           "calories": 226.9625, 
-          "price": 0.7972362999441136, 
+          "price": 0.9484526746163819, 
           "protein": 18.364625
         }
       }, 
@@ -4278,7 +4279,7 @@
             "calories": 29.5, 
             "label": "carrot", 
             "name": "carrot", 
-            "price": 0.0, 
+            "price": 0.15714550048538073, 
             "protein": 0.67, 
             "unit": ""
           }, 
@@ -4306,7 +4307,7 @@
         "name": "korean_curry", 
         "nutrition": {
           "calories": 1760.166666666667, 
-          "price": 4.1838449801296855, 
+          "price": 4.340990480615066, 
           "protein": 30.388333333333335
         }
       }, 
@@ -4343,7 +4344,7 @@
             "calories": 118.0, 
             "label": "carrot", 
             "name": "carrot", 
-            "price": 0.0, 
+            "price": 0.6285820019415229, 
             "protein": 2.68, 
             "unit": ""
           }, 
@@ -4361,7 +4362,7 @@
             "calories": 4.8, 
             "label": "green onion", 
             "name": "green_onion", 
-            "price": 0.03306933932773164, 
+            "price": 0.184285714, 
             "protein": 0.275, 
             "unit": ""
           }, 
@@ -4430,7 +4431,7 @@
         "name": "omurice", 
         "nutrition": {
           "calories": 1998.1874893333334, 
-          "price": 4.26259029822168, 
+          "price": 5.042388674835471, 
           "protein": 56.634874999999994
         }
       }, 
@@ -4486,9 +4487,9 @@
           {
             "amount": 3, 
             "calories": 15.18, 
-            "label": "mushroom (white)", 
-            "name": "mushroom_white", 
-            "price": 0.15211896090756552, 
+            "label": "mushroom", 
+            "name": "mushroom", 
+            "price": 0.85186627498455, 
             "protein": 2.133, 
             "unit": ""
           }, 
@@ -4524,7 +4525,7 @@
         "name": "soybean_paste_soup", 
         "nutrition": {
           "calories": 401.1, 
-          "price": 2.389480334374495, 
+          "price": 3.0892276484514793, 
           "protein": 12.2515
         }
       }, 
@@ -4535,11 +4536,11 @@
         "ingredients": [
           {
             "amount": 5, 
-            "calories": 0.0, 
-            "label": "dried_seaweed_sheet", 
+            "calories": 355.5, 
+            "label": "dried seaweed sheet", 
             "name": "dried_seaweed_sheet", 
             "price": 0.0, 
-            "protein": 0.0, 
+            "protein": 10, 
             "unit": ""
           }, 
           {
@@ -4596,7 +4597,7 @@
             "calories": 30, 
             "label": "cucumber", 
             "name": "cucumber", 
-            "price": 0.0, 
+            "price": 0.9523969726386711, 
             "protein": 1.3, 
             "unit": ""
           }, 
@@ -4605,7 +4606,7 @@
             "calories": 29.5, 
             "label": "carrot", 
             "name": "carrot", 
-            "price": 0.0, 
+            "price": 0.15714550048538073, 
             "protein": 0.67, 
             "unit": ""
           }, 
@@ -4631,9 +4632,9 @@
         "label": "kimbap (\uae40\ubc25)", 
         "name": "kimbap", 
         "nutrition": {
-          "calories": 1572.7030181818184, 
-          "price": 4.57589670613495, 
-          "protein": 52.427530909090905
+          "calories": 1928.2030181818184, 
+          "price": 5.685439179259002, 
+          "protein": 62.427530909090905
         }
       }, 
       {
@@ -4703,21 +4704,21 @@
             "unit": ""
           }, 
           {
-            "amount": 1, 
-            "calories": 0.0, 
-            "label": "fish_cake_sheet", 
+            "amount": 45, 
+            "calories": 84.70588235294119, 
+            "label": "fish cake sheet", 
             "name": "fish_cake_sheet", 
             "price": 0.0, 
-            "protein": 0.0, 
-            "unit": ""
+            "protein": 4.235294117647059, 
+            "unit": "g"
           }
         ], 
         "label": "tteokbokki (\ub5a1\ubcf6\uae30)", 
         "name": "tteokbokki", 
         "nutrition": {
-          "calories": 298.5, 
+          "calories": 383.2058823529412, 
           "price": 1.4269442022298788, 
-          "protein": 18.0
+          "protein": 22.235294117647058
         }
       }, 
       {
@@ -4907,7 +4908,7 @@
             "calories": 30, 
             "label": "cucumber", 
             "name": "cucumber", 
-            "price": 0.0, 
+            "price": 0.9523969726386711, 
             "protein": 1.3, 
             "unit": ""
           }, 
@@ -4916,26 +4917,26 @@
             "calories": 74.999925, 
             "label": "cabbage", 
             "name": "cabbage", 
-            "price": 0.0, 
+            "price": 0.6547722639161677, 
             "protein": 3.8333295, 
             "unit": ""
           }, 
           {
             "amount": 1, 
-            "calories": 0.0, 
-            "label": "udon_noodle", 
+            "calories": 330, 
+            "label": "udon noodles", 
             "name": "udon_noodle", 
             "price": 0.0, 
-            "protein": 0.0, 
+            "protein": 10, 
             "unit": ""
           }
         ], 
         "label": "jjajangmyeon (\uc9dc\uc7a5\uba74)", 
         "name": "jjajangmyeon", 
         "nutrition": {
-          "calories": 1329.2994766224192, 
-          "price": 5.334412882101037, 
-          "protein": 66.1713277300885
+          "calories": 1659.2994766224192, 
+          "price": 6.941582118655876, 
+          "protein": 76.1713277300885
         }
       }, 
       {
@@ -5058,7 +5059,7 @@
                 "label": "carrot", 
                 "name": "carrot", 
                 "note": "cut long", 
-                "price": 0.0, 
+                "price": 0.15714550048538073, 
                 "protein": 0.67, 
                 "unit": ""
               }, 
@@ -5192,7 +5193,7 @@
         "name": "japchae", 
         "nutrition": {
           "calories": 2398.6833333333334, 
-          "price": 12.268750918409904, 
+          "price": 12.425896418895285, 
           "protein": 36.02033333333333
         }
       }, 
@@ -5272,12 +5273,13 @@
               }, 
               {
                 "amount": 0.5, 
-                "calories": 0.0, 
+                "amount_in_grams": 75.0, 
+                "calories": 11.25, 
                 "label": "kimchi", 
                 "name": "kimchi", 
                 "note": "chopped", 
                 "price": 0.0, 
-                "protein": 0.0, 
+                "protein": 0.825, 
                 "unit": "cup"
               }, 
               {
@@ -5306,7 +5308,7 @@
                 "label": "cucumber", 
                 "name": "cucumber", 
                 "note": "matchstick", 
-                "price": 0.0, 
+                "price": 0.47619848631933553, 
                 "protein": 0.65, 
                 "unit": ""
               }
@@ -5318,9 +5320,9 @@
         "label": "bibim guksu (\ube44\ube54\uad6d\uc218)", 
         "name": "bibim_guksu", 
         "nutrition": {
-          "calories": 1003.738, 
-          "price": 2.0819958651546537, 
-          "protein": 23.824759999999998
+          "calories": 1014.988, 
+          "price": 2.5581943514739893, 
+          "protein": 24.64976
         }
       }, 
       {
@@ -5437,7 +5439,7 @@
             "calories": 9.6, 
             "label": "green onion", 
             "name": "green_onion", 
-            "price": 0.06613867865546327, 
+            "price": 0.368571428, 
             "protein": 0.55, 
             "unit": ""
           }
@@ -5446,7 +5448,7 @@
         "name": "kimchi", 
         "nutrition": {
           "calories": 534.8575428571428, 
-          "price": 1.3957907587601088, 
+          "price": 1.6982235081046455, 
           "protein": 37.35949442857143
         }
       }, 
@@ -5475,12 +5477,12 @@
             "ingredients": [
               {
                 "amount": 2.5, 
-                "calories": 0.0, 
-                "label": "pork_neck_bone", 
+                "calories": 2083.68825, 
+                "label": "pork neck bone", 
                 "name": "pork_neck_bone", 
-                "note": "up to 3 lb. approx 9 bones, 85.5 cal each?", 
+                "note": "up to 3 lb", 
                 "price": 0.0, 
-                "protein": 0.0, 
+                "protein": 293.41732499999995, 
                 "unit": "lb"
               }, 
               {
@@ -5514,13 +5516,14 @@
                 "unit": ""
               }, 
               {
-                "amount": 1, 
-                "calories": 0.0, 
-                "label": "dried_red_peppers", 
-                "name": "dried_red_peppers", 
+                "amount": 0.125, 
+                "amount_in_grams": 4.625, 
+                "calories": 15.0, 
+                "label": "dried chili pepper", 
+                "name": "chili_pepper_dried", 
                 "price": 0.0, 
-                "protein": 0.0, 
-                "unit": ""
+                "protein": 0.4875, 
+                "unit": "cup"
               }, 
               {
                 "amount": 1, 
@@ -5564,7 +5567,7 @@
                 "label": "green onion", 
                 "name": "green_onion", 
                 "note": "cut to 2 inch", 
-                "price": 0.13227735731092655, 
+                "price": 0.737142856, 
                 "protein": 1.1, 
                 "unit": ""
               }, 
@@ -5654,9 +5657,9 @@
         "label": "gamjatang (\uac10\uc790\ud0d5)", 
         "name": "gamjatang", 
         "nutrition": {
-          "calories": 1551.5784144313725, 
-          "price": 9.519099573633298, 
-          "protein": 71.98861705411765
+          "calories": 3650.2666644313726, 
+          "price": 10.123965072322374, 
+          "protein": 365.8934420541176
         }
       }, 
       {
@@ -5714,7 +5717,7 @@
             "label": "jalapeno", 
             "name": "jalapeno", 
             "note": "optional", 
-            "price": 0.03086471670588286, 
+            "price": 0.06142078624470689, 
             "protein": 0.127, 
             "unit": ""
           }, 
@@ -5723,7 +5726,7 @@
             "calories": 29.0, 
             "label": "kiwi", 
             "name": "kiwi", 
-            "price": 0.0, 
+            "price": 0.4100598528652337, 
             "protein": 0.53, 
             "unit": ""
           }, 
@@ -5784,7 +5787,7 @@
         "name": "la_galbi", 
         "nutrition": {
           "calories": 2419.9767979351036, 
-          "price": 30.011174049853544, 
+          "price": 30.451789972257604, 
           "protein": 162.52232632743366
         }
       }, 
@@ -5905,7 +5908,7 @@
             "label": "green onion", 
             "name": "green_onion", 
             "note": "sliced", 
-            "price": 0.13227735731092655, 
+            "price": 0.737142856, 
             "protein": 1.1, 
             "unit": ""
           }, 
@@ -5925,7 +5928,7 @@
         "name": "spicy_pork_stirfry", 
         "nutrition": {
           "calories": 2768.3334365781707, 
-          "price": 8.428029910605437, 
+          "price": 9.032895409294511, 
           "protein": 48.350088053097345
         }
       }, 
@@ -6015,7 +6018,7 @@
             "label": "jalapeno", 
             "name": "jalapeno", 
             "note": "optional", 
-            "price": 0.03086471670588286, 
+            "price": 0.06142078624470689, 
             "protein": 0.127, 
             "unit": ""
           }, 
@@ -6025,7 +6028,7 @@
             "label": "green onion", 
             "name": "green_onion", 
             "note": "including white part", 
-            "price": 0.06613867865546327, 
+            "price": 0.368571428, 
             "protein": 0.55, 
             "unit": ""
           }
@@ -6034,18 +6037,18 @@
         "name": "galbitang", 
         "nutrition": {
           "calories": 1830.9869734513272, 
-          "price": 2.2403685408541034, 
+          "price": 2.573357359737464, 
           "protein": 124.36208849557524
         }
       }, 
       {
         "directions": [
           "Soak rice for 3 hours.", 
-          "Make broth: water, chicken, garlic, ginger, bay leaf, peppercorns. Boil for 45min-1hr.", 
-          "Remove chicken from broth. Drain broth (should be ~6 cups of broth)", 
+          "Make broth: water, chicken, garlic, ginger, bay leaf, peppercorns. Boil for 45min-1hr med high.", 
+          "Remove chicken from broth. Remove onion from broth. Should be ~6 cups of broth", 
           "Remove bones from chicken. Shred meat.", 
           "In a pot, put in chicken, garlic, drained rice, and salt.", 
-          "Cook 25-30 min til rice cooked. First 20 min on med high, the rest of time on simmer. Stir occasionally. ", 
+          "Cook 25-30 min til water is mostly absorbed (potentially up to 1hr). First 20 min on med high, the rest of time on simmer. Stir occasionally.", 
           "Garnish with green onion."
         ], 
         "ingredient_categories": [
@@ -6148,12 +6151,12 @@
                 "unit": ""
               }, 
               {
-                "amount": 2, 
-                "amount_in_grams": 12.0, 
+                "amount": 1, 
+                "amount_in_grams": 6.0, 
                 "calories": 0.0, 
                 "label": "salt", 
                 "name": "salt", 
-                "price": 0.03386300720435478, 
+                "price": 0.01693150360217739, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }, 
@@ -6162,7 +6165,7 @@
                 "calories": 4.8, 
                 "label": "green onion", 
                 "name": "green_onion", 
-                "price": 0.03306933932773164, 
+                "price": 0.184285714, 
                 "protein": 0.275, 
                 "unit": ""
               }
@@ -6175,7 +6178,7 @@
         "name": "chicken_porridge", 
         "nutrition": {
           "calories": 1598.0549999999998, 
-          "price": 6.48062057800937, 
+          "price": 6.614905449079461, 
           "protein": 136.41740000000001
         }
       }
@@ -6338,7 +6341,7 @@
                 "calories": 4.8, 
                 "label": "green onion", 
                 "name": "green_onion", 
-                "price": 0.03306933932773164, 
+                "price": 0.184285714, 
                 "protein": 0.275, 
                 "unit": ""
               }, 
@@ -6382,7 +6385,7 @@
         "name": "kung_pao", 
         "nutrition": {
           "calories": 998.8933333333333, 
-          "price": 6.360513587956987, 
+          "price": 6.511729962629255, 
           "protein": 90.05066666666669
         }
       }, 
@@ -6510,7 +6513,7 @@
             "label": "carrot", 
             "name": "carrot", 
             "note": "or peas", 
-            "price": 0.0, 
+            "price": 0.15714550048538073, 
             "protein": 0.67, 
             "unit": ""
           }, 
@@ -6530,14 +6533,14 @@
         "name": "beef_rice_bowl", 
         "nutrition": {
           "calories": 734.4439285714286, 
-          "price": 3.8407276380918196, 
+          "price": 3.9978731385772, 
           "protein": 45.597791666666666
         }
       }, 
       {
         "directions": [
           "Marinate protein.", 
-          "Fry tofu if using: Med heat, 1 tbsp oil, about 5 min per side. Set aside.", 
+          "Fry tofu if using: Med heat, 1 tbsp oil, about 5 min per side. Set aside. (Don't really need to make too crispy.. it'll get soaked in sauce anyway)", 
           "Wok med heat, cook garlic in 1 tsp oil for 30 sec.", 
           "Add broccoli, cook for 30 sec. Add wine around edge of wok.", 
           "Add tofu and sauce and walnuts. "
@@ -6682,7 +6685,7 @@
                 "calories": 102.0, 
                 "label": "broccoli", 
                 "name": "broccoli", 
-                "price": 0.0, 
+                "price": 2.1958041313613808, 
                 "protein": 8.466666666666667, 
                 "unit": "g"
               }, 
@@ -6717,11 +6720,11 @@
               }, 
               {
                 "amount": 50, 
-                "calories": 0.0, 
-                "label": "walnuts", 
-                "name": "walnuts", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "calories": 339.2857142857143, 
+                "label": "walnut", 
+                "name": "walnut", 
+                "price": 0.8818491459467391, 
+                "protein": 7.142857142857143, 
                 "unit": "g"
               }, 
               {
@@ -6743,9 +6746,9 @@
         "label": "broccoli tofu stirfry", 
         "name": "broccoli_tofu_stirfry", 
         "nutrition": {
-          "calories": 972.1016666666666, 
-          "price": 5.7859001617170245, 
-          "protein": 55.432750000000006
+          "calories": 1311.387380952381, 
+          "price": 8.863553439025145, 
+          "protein": 62.57560714285715
         }
       }, 
       {
@@ -6893,7 +6896,7 @@
                 "label": "green onion", 
                 "name": "green_onion", 
                 "note": "chopped", 
-                "price": 0.13227735731092655, 
+                "price": 0.737142856, 
                 "protein": 1.1, 
                 "unit": ""
               }, 
@@ -6903,7 +6906,7 @@
                 "label": "carrot", 
                 "name": "carrot", 
                 "noted": "chopped", 
-                "price": 0.0, 
+                "price": 0.15714550048538073, 
                 "protein": 0.67, 
                 "unit": ""
               }, 
@@ -6926,7 +6929,7 @@
         "name": "dumplings", 
         "nutrition": {
           "calories": 2026.862261904762, 
-          "price": 4.987616550437406, 
+          "price": 5.74962754961186, 
           "protein": 81.396125
         }
       }, 
@@ -7060,7 +7063,7 @@
                 "calories": 4.8, 
                 "label": "green onion", 
                 "name": "green_onion", 
-                "price": 0.03306933932773164, 
+                "price": 0.184285714, 
                 "protein": 0.275, 
                 "unit": ""
               }, 
@@ -7093,7 +7096,7 @@
         "name": "dan_bing", 
         "nutrition": {
           "calories": 577.4313333333333, 
-          "price": 1.9753579326440744, 
+          "price": 2.126574307316343, 
           "protein": 20.775666666666666
         }
       }, 
@@ -7211,7 +7214,7 @@
                 "calories": 9.6, 
                 "label": "green onion", 
                 "name": "green_onion", 
-                "price": 0.06613867865546327, 
+                "price": 0.368571428, 
                 "protein": 0.55, 
                 "unit": ""
               }, 
@@ -7230,7 +7233,7 @@
                 "calories": 4.06, 
                 "label": "jalapeno", 
                 "name": "jalapeno", 
-                "price": 0.03086471670588286, 
+                "price": 0.06142078624470689, 
                 "protein": 0.127, 
                 "unit": ""
               }, 
@@ -7240,7 +7243,7 @@
                 "label": "cabbage", 
                 "name": "cabbage", 
                 "note": "cut", 
-                "price": 0.0, 
+                "price": 0.4496107374998393, 
                 "protein": 2.632222222222222, 
                 "unit": "g"
               }, 
@@ -7349,7 +7352,7 @@
         "name": "lamb_cumin_noodles", 
         "nutrition": {
           "calories": 2137.1411858407073, 
-          "price": 11.16977425534453, 
+          "price": 11.952373811727732, 
           "protein": 64.23994965585054
         }
       }, 
@@ -7419,7 +7422,7 @@
                 "label": "green bell pepper", 
                 "name": "bell_pepper_green", 
                 "note": "sliced thin", 
-                "price": 0.0, 
+                "price": 0.2367764695865585, 
                 "protein": 0.515, 
                 "unit": ""
               }, 
@@ -7429,7 +7432,7 @@
                 "label": "carrot", 
                 "name": "carrot", 
                 "note": "matchstick", 
-                "price": 0.0, 
+                "price": 0.15714550048538073, 
                 "protein": 0.67, 
                 "unit": ""
               }, 
@@ -7438,7 +7441,7 @@
                 "calories": 56.25, 
                 "label": "cabbage", 
                 "name": "cabbage", 
-                "price": 0.0, 
+                "price": 0.4910796890168148, 
                 "protein": 2.875, 
                 "unit": ""
               }, 
@@ -7608,7 +7611,7 @@
         "name": "singapore_noodles", 
         "nutrition": {
           "calories": 1309.2564761904764, 
-          "price": 5.301432756602906, 
+          "price": 6.18643441569166, 
           "protein": 72.40052952380954
         }
       }, 
@@ -7844,7 +7847,7 @@
                 "label": "green onion", 
                 "name": "green_onion", 
                 "note": "chopped, green and white separated", 
-                "price": 0.09920801798319491, 
+                "price": 0.5528571419999999, 
                 "protein": 0.8250000000000001, 
                 "unit": ""
               }, 
@@ -7869,16 +7872,16 @@
                 "calories": 24, 
                 "label": "green bell pepper", 
                 "name": "bell_pepper_green", 
-                "price": 0.0, 
+                "price": 0.473552939173117, 
                 "protein": 1.03, 
                 "unit": ""
               }, 
               {
                 "amount": 84, 
                 "calories": 18.479999999999997, 
-                "label": "mushroom (white)", 
-                "name": "mushroom_white", 
-                "price": 0.18518830023529717, 
+                "label": "mushroom", 
+                "name": "mushroom", 
+                "price": 1.0370545956333652, 
                 "protein": 2.5966956521739126, 
                 "unit": "g"
               }, 
@@ -7887,7 +7890,7 @@
                 "calories": 112.5, 
                 "label": "cabbage", 
                 "name": "cabbage", 
-                "price": 0.0, 
+                "price": 0.9821593780336296, 
                 "protein": 5.75, 
                 "unit": ""
               }, 
@@ -7896,7 +7899,7 @@
                 "calories": 29.5, 
                 "label": "carrot", 
                 "name": "carrot", 
-                "price": 0.0, 
+                "price": 0.15714550048538073, 
                 "protein": 0.67, 
                 "unit": ""
               }, 
@@ -7964,7 +7967,7 @@
         "name": "chicken_black_bean_stirfry", 
         "nutrition": {
           "calories": 1170.1733333333334, 
-          "price": 6.1288351477853835, 
+          "price": 9.047208384892384, 
           "protein": 86.46936231884058
         }
       }, 
@@ -8069,12 +8072,12 @@
               }, 
               {
                 "amount": 2, 
-                "calories": 0.0, 
-                "label": "red_chili_pepper", 
-                "name": "red_chili_pepper", 
+                "calories": 12, 
+                "label": "red chili pepper", 
+                "name": "chili_pepper_red", 
                 "note": "chopped", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "price": 0.39617068514622505, 
+                "protein": 0.6, 
                 "unit": ""
               }, 
               {
@@ -8103,7 +8106,7 @@
                 "label": "green onion", 
                 "name": "green_onion", 
                 "note": "chopped", 
-                "price": 0.06613867865546327, 
+                "price": 0.368571428, 
                 "protein": 0.55, 
                 "unit": ""
               }, 
@@ -8126,9 +8129,9 @@
         "label": "cumin lamb", 
         "name": "cumin_lamb", 
         "nutrition": {
-          "calories": 1693.7183716814159, 
-          "price": 11.965393898886878, 
-          "protein": 80.03870486725664
+          "calories": 1705.7183716814159, 
+          "price": 12.66399733337764, 
+          "protein": 80.63870486725664
         }
       }, 
       {
@@ -8394,14 +8397,15 @@
                 "unit": "tsp"
               }, 
               {
-                "amount": 10, 
-                "calories": 0.0, 
-                "label": "dried_red_peppers", 
-                "name": "dried_red_peppers", 
+                "amount": 0.25, 
+                "amount_in_grams": 9.25, 
+                "calories": 30.0, 
+                "label": "dried chili pepper", 
+                "name": "chili_pepper_dried", 
                 "note": "optional", 
                 "price": 0.0, 
-                "protein": 0.0, 
-                "unit": ""
+                "protein": 0.975, 
+                "unit": "cup"
               }, 
               {
                 "amount": 4, 
@@ -8459,7 +8463,7 @@
                 "label": "green onion", 
                 "name": "green_onion", 
                 "note": "cut to 1 inch", 
-                "price": 0.13227735731092655, 
+                "price": 0.737142856, 
                 "protein": 1.1, 
                 "unit": ""
               }
@@ -8471,9 +8475,9 @@
         "label": "mongolian beef", 
         "name": "mongolian_beef", 
         "nutrition": {
-          "calories": 1710.737935103245, 
-          "price": 9.974759547740392, 
-          "protein": 93.02562454277286
+          "calories": 1740.737935103245, 
+          "price": 10.579625046429467, 
+          "protein": 94.00062454277285
         }
       }, 
       {
@@ -8554,7 +8558,7 @@
             "calories": 90.0, 
             "label": "cherry tomato", 
             "name": "tomato_cherry", 
-            "price": 0.0, 
+            "price": 4.398222130588308, 
             "protein": 4.411764705882353, 
             "unit": "g"
           }, 
@@ -8563,7 +8567,7 @@
             "calories": 4.8, 
             "label": "green onion", 
             "name": "green_onion", 
-            "price": 0.03306933932773164, 
+            "price": 0.184285714, 
             "protein": 0.275, 
             "unit": ""
           }, 
@@ -8615,7 +8619,7 @@
         "name": "tomato_egg", 
         "nutrition": {
           "calories": 744.7416666666667, 
-          "price": 1.4646307061515793, 
+          "price": 6.014069211412155, 
           "protein": 28.746514705882355
         }
       }, 
@@ -8652,7 +8656,7 @@
                 "label": "green onion", 
                 "name": "green_onion", 
                 "note": "2 in pieces", 
-                "price": 0.09920801798319491, 
+                "price": 0.5528571419999999, 
                 "protein": 0.8250000000000001, 
                 "unit": ""
               }, 
@@ -8801,7 +8805,7 @@
         "name": "ginger_chicken", 
         "nutrition": {
           "calories": 1252.5216666666668, 
-          "price": 10.192065185473155, 
+          "price": 10.645714309489959, 
           "protein": 124.69808333333333
         }
       }
@@ -8975,7 +8979,7 @@
                 "calories": 51.0, 
                 "label": "broccoli", 
                 "name": "broccoli", 
-                "price": 0.0, 
+                "price": 1.0979020656806904, 
                 "protein": 4.233333333333333, 
                 "unit": "g"
               }
@@ -8988,7 +8992,7 @@
         "name": "pad_see_ew", 
         "nutrition": {
           "calories": 1397.2088218181818, 
-          "price": 7.850977840807651, 
+          "price": 8.948879906488342, 
           "protein": 63.671466424242425
         }
       }, 
@@ -9346,7 +9350,7 @@
                 "calories": 7.5625, 
                 "label": "lime juice", 
                 "name": "lime_juice", 
-                "price": 0.0, 
+                "price": 0.5, 
                 "protein": 0.1275, 
                 "unit": "tbsp"
               }, 
@@ -9413,7 +9417,7 @@
                 "calories": 7.5625, 
                 "label": "lime juice", 
                 "name": "lime_juice", 
-                "price": 0.0, 
+                "price": 0.5, 
                 "protein": 0.1275, 
                 "unit": "tbsp"
               }, 
@@ -9499,7 +9503,7 @@
                 "label": "carrot", 
                 "name": "carrot", 
                 "note": "juilienned", 
-                "price": 0.0, 
+                "price": 0.15714550048538073, 
                 "protein": 0.67, 
                 "unit": ""
               }, 
@@ -9509,7 +9513,7 @@
                 "label": "cucumber", 
                 "name": "cucumber", 
                 "note": "juilienned", 
-                "price": 0.0, 
+                "price": 0.9523969726386711, 
                 "protein": 1.3, 
                 "unit": ""
               }, 
@@ -9541,7 +9545,7 @@
         "name": "vietnamese_bun", 
         "nutrition": {
           "calories": 2597.5046428571427, 
-          "price": 16.0459255712015, 
+          "price": 18.155468044325556, 
           "protein": 176.4488839285714
         }
       }, 
@@ -9699,7 +9703,7 @@
                 "label": "carrot", 
                 "name": "carrot", 
                 "note": "shredded", 
-                "price": 0.0, 
+                "price": 0.15714550048538073, 
                 "protein": 0.67, 
                 "unit": ""
               }, 
@@ -9709,7 +9713,7 @@
                 "label": "cabbage", 
                 "name": "cabbage", 
                 "note": "shredded", 
-                "price": 0.0, 
+                "price": 0.4910796890168148, 
                 "protein": 2.875, 
                 "unit": ""
               }, 
@@ -9758,7 +9762,7 @@
         "name": "vague_peanut_butter_noodle", 
         "nutrition": {
           "calories": 1660.8990000000001, 
-          "price": 5.360193909369325, 
+          "price": 6.008419098871521, 
           "protein": 69.15454666666668
         }
       }, 
@@ -9779,7 +9783,7 @@
                 "label": "carrot", 
                 "name": "carrot", 
                 "note": "julienned", 
-                "price": 0.0, 
+                "price": 0.31429100097076146, 
                 "protein": 1.34, 
                 "unit": ""
               }, 
@@ -9904,7 +9908,7 @@
                 "calories": 2.0, 
                 "label": "lemon zest", 
                 "name": "lemon_zest", 
-                "price": 0.0, 
+                "price": 0.5266666666666667, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }
@@ -9970,7 +9974,7 @@
                 "calories": 4.06, 
                 "label": "jalapeno", 
                 "name": "jalapeno", 
-                "price": 0.03086471670588286, 
+                "price": 0.06142078624470689, 
                 "protein": 0.127, 
                 "unit": ""
               }
@@ -9983,7 +9987,7 @@
         "name": "banh_mi", 
         "nutrition": {
           "calories": 2557.4539285714286, 
-          "price": 14.029716078318987, 
+          "price": 14.90122981549524, 
           "protein": 150.1298571428572
         }
       }
@@ -10099,7 +10103,7 @@
             "calories": 61.2, 
             "label": "broccoli", 
             "name": "broccoli", 
-            "price": 0.0, 
+            "price": 1.3174824788168285, 
             "protein": 5.08, 
             "unit": "g"
           }
@@ -10108,7 +10112,7 @@
         "name": "vegan_mac_n_cheese", 
         "nutrition": {
           "calories": 2524.584238095238, 
-          "price": 7.072948103443492, 
+          "price": 8.39043058226032, 
           "protein": 91.43796880952382
         }
       }, 
@@ -10183,7 +10187,7 @@
             "calories": 1.2604166666666667, 
             "label": "lime juice", 
             "name": "lime_juice", 
-            "price": 0.0, 
+            "price": 0.08333333333333334, 
             "protein": 0.021250000000000005, 
             "unit": "tsp"
           }
@@ -10192,7 +10196,7 @@
         "name": "refried_beans", 
         "nutrition": {
           "calories": 458.5512474358975, 
-          "price": 1.5016169909590478, 
+          "price": 1.584950324292381, 
           "protein": 23.30993923076923
         }
       }, 
@@ -10285,7 +10289,7 @@
             "calories": 9.937500000000002, 
             "label": "lemon juice", 
             "name": "lemon_juice", 
-            "price": 0.0, 
+            "price": 0.5925, 
             "protein": 0.16875, 
             "unit": "tbsp"
           }, 
@@ -10334,7 +10338,7 @@
         "name": "hummus", 
         "nutrition": {
           "calories": 740.6036606557377, 
-          "price": 2.0949747903150855, 
+          "price": 2.687474790315086, 
           "protein": 27.970449672131146
         }
       }, 
@@ -10382,7 +10386,7 @@
             "calories": 3.3125, 
             "label": "lemon juice", 
             "name": "lemon_juice", 
-            "price": 0.0, 
+            "price": 0.1975, 
             "protein": 0.05625, 
             "unit": "tbsp"
           }, 
@@ -10420,7 +10424,7 @@
         "name": "pesto", 
         "nutrition": {
           "calories": 1330.6136688, 
-          "price": 19.43562980053551, 
+          "price": 19.63312980053551, 
           "protein": 15.997279640000002
         }
       }, 
@@ -10554,7 +10558,7 @@
                 "calories": 88.5, 
                 "label": "carrot", 
                 "name": "carrot", 
-                "price": 0.0, 
+                "price": 0.4714365014561422, 
                 "protein": 2.0100000000000002, 
                 "unit": ""
               }, 
@@ -10686,7 +10690,7 @@
         "name": "shepherds_pie", 
         "nutrition": {
           "calories": 2766.205773809523, 
-          "price": 11.709947640759266, 
+          "price": 12.181384142215407, 
           "protein": 117.29066666666668
         }
       }, 
@@ -10786,7 +10790,7 @@
             "label": "green bell pepper", 
             "name": "bell_pepper_green", 
             "note": "chopped", 
-            "price": 0.0, 
+            "price": 0.2367764695865585, 
             "protein": 0.515, 
             "unit": ""
           }, 
@@ -10796,7 +10800,7 @@
             "label": "red bell pepper", 
             "name": "bell_pepper_red", 
             "note": "chopped", 
-            "price": 0.0, 
+            "price": 0.39550929835967036, 
             "protein": 0.595, 
             "unit": ""
           }, 
@@ -10905,7 +10909,7 @@
         "name": "arroz_congri", 
         "nutrition": {
           "calories": 1176.117648717949, 
-          "price": 2.989697702170965, 
+          "price": 3.621983470117194, 
           "protein": 41.5856626923077
         }
       }, 
@@ -10978,7 +10982,7 @@
             "label": "green bell pepper", 
             "name": "bell_pepper_green", 
             "note": "thinly sliced", 
-            "price": 0.0, 
+            "price": 0.473552939173117, 
             "protein": 1.03, 
             "unit": ""
           }, 
@@ -10988,7 +10992,7 @@
             "label": "red bell pepper", 
             "name": "bell_pepper_red", 
             "note": "thinly sliced", 
-            "price": 0.0, 
+            "price": 0.7910185967193407, 
             "protein": 1.19, 
             "unit": ""
           }, 
@@ -11080,7 +11084,7 @@
         "name": "ropa_vieja", 
         "nutrition": {
           "calories": 3510.3706150112507, 
-          "price": 19.455878719584156, 
+          "price": 20.720450255476617, 
           "protein": 291.30839114271936
         }
       }, 
@@ -11189,7 +11193,7 @@
                 "calories": 9.6, 
                 "label": "green onion", 
                 "name": "green_onion", 
-                "price": 0.06613867865546327, 
+                "price": 0.368571428, 
                 "protein": 0.55, 
                 "unit": ""
               }, 
@@ -11230,7 +11234,7 @@
         "name": "cheesy_garlic_rolls", 
         "nutrition": {
           "calories": 1223.8433853333333, 
-          "price": 2.157928100457613, 
+          "price": 2.46036084980215, 
           "protein": 36.8965255928
         }
       }, 
@@ -11294,7 +11298,7 @@
             "label": "carrot", 
             "name": "carrot", 
             "note": "cut into 2 in. sticks", 
-            "price": 0.0, 
+            "price": 0.6285820019415229, 
             "protein": 2.68, 
             "unit": ""
           }, 
@@ -11355,7 +11359,7 @@
         "name": "lamb_palov", 
         "nutrition": {
           "calories": 3737.8524867724873, 
-          "price": 18.892413094904747, 
+          "price": 19.52099509684627, 
           "protein": 147.60885185185182
         }
       }, 
@@ -11410,18 +11414,18 @@
                 "label": "green bell pepper", 
                 "name": "bell_pepper_green", 
                 "note": "diced; up to 2", 
-                "price": 0.0, 
+                "price": 0.473552939173117, 
                 "protein": 1.03, 
                 "unit": ""
               }, 
               {
                 "amount": 2, 
-                "calories": 0.0, 
+                "calories": 11.2, 
                 "label": "celery", 
                 "name": "celery", 
                 "note": "diced", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "price": 0.05996573531428671, 
+                "protein": 0.552, 
                 "unit": ""
               }, 
               {
@@ -11481,20 +11485,22 @@
               }, 
               {
                 "amount": 0.5, 
-                "calories": 0.0, 
-                "label": "garlic_powder", 
+                "amount_in_grams": 1.6166666666666665, 
+                "calories": 5.3500000000000005, 
+                "label": "garlic powder", 
                 "name": "garlic_powder", 
                 "price": 0.0, 
-                "protein": 0.0, 
+                "protein": 0.26666666666666666, 
                 "unit": "tsp"
               }, 
               {
                 "amount": 0.5, 
-                "calories": 0.0, 
+                "amount_in_grams": 1.1333333333333333, 
+                "calories": 3.2, 
                 "label": "paprika", 
                 "name": "paprika", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "price": 0.6648201921349403, 
+                "protein": 0.16033333333333333, 
                 "unit": "tsp"
               }, 
               {
@@ -11509,11 +11515,12 @@
               }, 
               {
                 "amount": 0.25, 
-                "calories": 0.0, 
-                "label": "onion_powder", 
+                "amount_in_grams": 0.5750000000000001, 
+                "calories": 1.9583333333333335, 
+                "label": "onion powder", 
                 "name": "onion_powder", 
                 "price": 0.0, 
-                "protein": 0.0, 
+                "protein": 0.05983333333333333, 
                 "unit": "tsp"
               }, 
               {
@@ -11590,9 +11597,9 @@
         "label": "jambalaya", 
         "name": "jambalaya", 
         "nutrition": {
-          "calories": 1747.1930791569089, 
-          "price": 8.963826955487121, 
-          "protein": 103.90309443403589
+          "calories": 1768.9014124902421, 
+          "price": 10.162165822109465, 
+          "protein": 104.94192776736922
         }
       }, 
       {
@@ -11679,21 +11686,22 @@
           }, 
           {
             "amount": 1, 
-            "calories": 0.0, 
-            "label": "frozen_mixed_vegetables", 
+            "amount_in_grams": 127.49999362500033, 
+            "calories": 89.99999550000024, 
+            "label": "frozen mixed vegetables", 
             "name": "frozen_mixed_vegetables", 
             "note": "thawed", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 0.49471734614025337, 
+            "protein": 4.499999775000012, 
             "unit": "cup"
           }
         ], 
         "label": "quick chicken pot pie filling", 
         "name": "quick_chicken_pot_pie_filling", 
         "nutrition": {
-          "calories": 529.0541666666668, 
-          "price": 2.4156419332673007, 
-          "protein": 32.779875
+          "calories": 619.0541621666671, 
+          "price": 2.910359279407554, 
+          "protein": 37.27987477500001
         }
       }
     ]

@@ -800,7 +800,7 @@
               { "name": "milk_oat", "amount": 0.5, "unit": "cup" },
               { "name": "butter", "amount": 3, "unit": "tbsp" },
               { "name": "yeast", "note": "or 2.25 tsp", "amount": 2.5, "unit": "tsp" },
-              { "name": "flour", "amount": 2.25, "unit": "cup" },
+              { "name": "flour", "note": "originally 2.25 cup. try a little less", "amount": 2.125, "unit": "cup" },
               { "name": "sugar", "note": "or 1.5 tsp for the less sweet danish version", "amount": 0.25, "unit": "cup" },
               { "name": "salt", "amount": 0.5, "unit": "tsp" },
               { "name": "egg", "note": "room temp", "amount": 1, "unit": "" },
@@ -811,7 +811,7 @@
             "name": "cinnamon_spread",
             "label": "cinnamon spread",
             "ingredients": [
-              { "name": "butter", "note": "softened", "amount": 3, "unit": "tbsp" },
+              { "name": "butter", "note": "softened; have tried 2 tbsp", "amount": 3, "unit": "tbsp" },
               { "name": "sugar_brown", "amount": 0.25, "unit": "cup" },
               { "name": "cinnamon_ground", "amount": 1, "unit": "tbsp" }
             ]
@@ -830,7 +830,7 @@
           "Whisk flour, sugar, salt (and cardamom). Add egg, mix til incorporated. Add milk mix, mix til incorporated.",
           "Knead til dough is elastic and smooth, but still tacky.",
           "Rise in greased covered bowl for 30min-1hr (or til doubled).",
-          "Roll dough out into rect, spread butter on top, sprinkle with sugar cinnamon mix.",
+          "Roll dough out into rect, spread cinnamon butter mix on top.",
           "Roll dough up tight, cut into 5-6 rolls ",
           "Rise for 30min or 60-90 min or til doubled",
           "Bake 20-22min or 25-28 min 375F."
@@ -937,7 +937,7 @@
         "name": "kimchi_pancakes",
         "label": "kimchi pancakes (부침개)",
         "ingredients": [
-          { "name": "kimchi", "amount": 280, "unit": "" },
+          { "name": "kimchi", "amount": 280, "unit": "g" },
           { "name": "flour", "amount": 200, "unit": "g" },
           { "name": "oil", "amount": 5, "unit": "tsp" }
         ],
@@ -970,7 +970,7 @@
       },
       {
         "name": "hotteok",
-        "label": "hotteok (호뗙)",
+        "label": "hotteok (호떡)",
         "ingredients": [
           { "name": "frozen_dinner_roll", "amount": 6, "unit": "" },
           { "name": "walnut", "amount": 12, "unit": "g" },
@@ -1086,7 +1086,7 @@
           { "name": "soybean_paste", "amount": 3, "unit": "tbsp" },
           { "name": "gochujang", "amount": 1, "unit": "tsp" },
           { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
-          { "name": "mushroom_white", "amount": 3, "unit": "" },
+          { "name": "mushroom", "amount": 3, "unit": "" },
           { "name": "onion", "amount": 0.25, "unit": "" },
           { "name": "zucchini", "amount": 0.5, "unit": "" },
           { "name": "potato", "amount": 1, "unit": "" }
@@ -1127,7 +1127,7 @@
           { "name": "gochugaru", "note": "try reducing?", "amount": 0.75, "unit": "tbsp" },
           { "name": "sugar", "amount": 6, "unit": "g" },
           { "name": "egg", "note": "boiled", "amount": 3, "unit": "" },
-          { "name": "fish_cake_sheet", "amount": 1, "unit": "" }
+          { "name": "fish_cake_sheet", "amount": 45, "unit": "g" }
         ],
         "directions": [
           "Instead of water, can make anchovy stock: 2.5c water, 3-4 dried anchovies, dried kelp for 15min on med heat.",
@@ -1326,11 +1326,11 @@
             "name": "filling",
             "label": "filling",
             "ingredients": [
-              { "name": "pork_neck_bone", "note": "up to 3 lb. approx 9 bones, 85.5 cal each?", "amount": 2.5, "unit": "lb" },
+              { "name": "pork_neck_bone", "note": "up to 3 lb", "amount": 2.5, "unit": "lb" },
               { "name": "ginger", "note": "sliced", "amount": 1, "unit": "oz" },
               { "name": "soybean_paste", "amount": 2, "unit": "tbsp" },
               { "name": "onion", "note": "sliced", "amount": 1, "unit": "" },
-              { "name": "dried_red_peppers", "amount": 1, "unit": "" },
+              { "name": "chili_pepper_dried", "amount": 0.125, "unit": "cup" },
               { "name": "cabbage_napa", "note": "cut off the core", "amount": 1, "unit": "lb" }
             ]
           },
@@ -1473,18 +1473,18 @@
             "ingredients": [
               { "name": "rice_white", "amount": 1, "unit": "cup" },
               { "name": "garlic", "note": "whole", "amount": 5, "unit": "" },
-              { "name": "salt", "amount": 2, "unit": "tsp" },
+              { "name": "salt", "amount": 1, "unit": "tsp" },
               { "name": "green_onion", "amount": 1, "unit": "" }
             ]
           }
         ],
         "directions": [
           "Soak rice for 3 hours.",
-          "Make broth: water, chicken, garlic, ginger, bay leaf, peppercorns. Boil for 45min-1hr.",
-          "Remove chicken from broth. Drain broth (should be ~6 cups of broth)",
+          "Make broth: water, chicken, garlic, ginger, bay leaf, peppercorns. Boil for 45min-1hr med high.",
+          "Remove chicken from broth. Remove onion from broth. Should be ~6 cups of broth",
           "Remove bones from chicken. Shred meat.",
           "In a pot, put in chicken, garlic, drained rice, and salt.",
-          "Cook 25-30 min til rice cooked. First 20 min on med high, the rest of time on simmer. Stir occasionally. ",
+          "Cook 25-30 min til water is mostly absorbed (potentially up to 1hr). First 20 min on med high, the rest of time on simmer. Stir occasionally.",
           "Garnish with green onion."
         ]
       }
@@ -1600,14 +1600,14 @@
               { "name": "oil", "amount": 1, "unit": "tsp" },
               { "name": "shaoxing_wine", "amount": 1, "unit": "tbsp" },
               { "name": "garlic", "amount": 3, "unit": "" },
-              { "name": "walnuts", "amount": 50, "unit": "g" },
+              { "name": "walnut", "amount": 50, "unit": "g" },
               { "name": "cornstarch", "note": "mixed with water", "amount": 1, "unit": "tbsp" }
             ]
           }
         ],
         "directions": [
           "Marinate protein.",
-          "Fry tofu if using: Med heat, 1 tbsp oil, about 5 min per side. Set aside.",
+          "Fry tofu if using: Med heat, 1 tbsp oil, about 5 min per side. Set aside. (Don't really need to make too crispy.. it'll get soaked in sauce anyway)",
           "Wok med heat, cook garlic in 1 tsp oil for 30 sec.",
           "Add broccoli, cook for 30 sec. Add wine around edge of wok.",
           "Add tofu and sauce and walnuts. "
@@ -1886,7 +1886,7 @@
             "label": "vegetables",
             "ingredients": [
               { "name": "bell_pepper_green", "amount": 1, "unit": "" },
-              { "name": "mushroom_white", "amount": 84, "unit": "g" },
+              { "name": "mushroom", "amount": 84, "unit": "g" },
               { "name": "cabbage", "amount": 0.5, "unit": "" },
               { "name": "carrot", "amount": 1, "unit": "" },
               { "name": "onion", "amount": 1, "unit": "" }
@@ -1932,7 +1932,7 @@
             "label": "seasonings",
             "ingredients": [
               { "name": "cumin_seed", "amount": 2, "unit": "tbsp" },
-              { "name": "red_chili_pepper", "note": "chopped", "amount": 2, "unit": "" },
+              { "name": "chili_pepper_red", "note": "chopped", "amount": 2, "unit": "" },
               { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
               { "name": "sugar", "amount": 0.25, "unit": "tsp" },
               { "name": "green_onion", "note": "chopped", "amount": 2, "unit": "" },
@@ -2020,7 +2020,7 @@
             "label": "misc",
             "ingredients": [
               { "name": "ginger", "note": "minced", "amount": 1, "unit": "tsp" },
-              { "name": "dried_red_peppers", "note": "optional", "amount": 10, "unit": "" },
+              { "name": "chili_pepper_dried", "note": "optional", "amount": 0.25, "unit": "cup" },
               { "name": "garlic", "note": "chopped", "amount": 4, "unit": "" },
               { "name": "soy_sauce_light", "amount": 0.33, "unit": "cup" },
               { "name": "water", "amount": 0.7, "unit": "cup" },

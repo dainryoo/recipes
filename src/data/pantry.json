@@ -13,7 +13,7 @@
           "protein": 0.54
         },
         "price_per_unit": {
-          "price": 1.00,
+          "price": 2.49,
           "unit": "lb"
         }
       },
@@ -28,8 +28,8 @@
           "protein": 2.67
         },
         "price_per_unit": {
-          "price": 0.00,
-          "unit": "lb"
+          "price": 1.49,
+          "unit": ""
         }
       },
       {
@@ -43,7 +43,7 @@
           "protein": 1.37
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 0.49,
           "unit": "lb"
         }
       },
@@ -111,8 +111,8 @@
           "protein": 1.06
         },
         "price_per_unit": {
-          "price": 0.00,
-          "unit": "lb"
+          "price": 0.31,
+          "unit": "oz"
         }
       },
       {
@@ -126,8 +126,8 @@
           "protein": 0.9
         },
         "price_per_unit": {
-          "price": 0.00,
-          "unit": "lb"
+          "price": 3.16,
+          "unit": "cup"
         }
       },
       {
@@ -141,8 +141,8 @@
           "protein": 0
         },
         "price_per_unit": {
-          "price": 0.00,
-          "unit": "lb"
+          "price": 0.79,
+          "unit": "tbsp"
         }
       },
       {
@@ -156,8 +156,8 @@
           "protein": 1.02
         },
         "price_per_unit": {
-          "price": 0.00,
-          "unit": "lb"
+          "price": 0.25,
+          "unit": "tbsp"
         }
       },
       {
@@ -171,7 +171,7 @@
           "protein": 4.2
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 1.69,
           "unit": "lb"
         }
       },
@@ -202,7 +202,7 @@
           "protein": 1
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 1.69,
           "unit": "lb"
         }
       },
@@ -217,7 +217,7 @@
           "protein": 0.15
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 3.99,
           "unit": "lb"
         }
       },
@@ -232,7 +232,7 @@
           "protein": 0.07
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 3.99,
           "unit": "lb"
         }
       },
@@ -247,7 +247,7 @@
           "protein": 0.528
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 1.99,
           "unit": "lb"
         }
       }
@@ -267,7 +267,7 @@
           "protein": 1.03
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 1.79,
           "unit": "lb"
         }
       },
@@ -282,7 +282,7 @@
           "protein": 1.19
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 2.99,
           "unit": "lb"
         }
       },
@@ -297,7 +297,7 @@
           "protein": 1.86
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 2.99,
           "unit": "lb"
         }
       },
@@ -312,7 +312,7 @@
           "protein": 2.54
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 3.32,
           "unit": "lb"
         }
       },
@@ -327,7 +327,7 @@
           "protein": 11.5
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 0.99,
           "unit": "lb"
         }
       },
@@ -358,7 +358,53 @@
           "protein": 0.67
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 0.99,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "celery",
+        "label": "celery",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 40,
+          "calories": 5.6,
+          "protein": 0.276
+        },
+        "price_per_unit": {
+          "price": 0.34,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "chili_pepper_dried",
+        "label": "dried chili pepper",
+        "note": "???? check facts",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 37,
+          "calories": 120,
+          "protein": 3.9
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "chili_pepper_red",
+        "label": "red chili pepper",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 15,
+          "calories": 6,
+          "protein": 0.3
+        },
+        "price_per_unit": {
+          "price": 5.99,
           "unit": "lb"
         }
       },
@@ -373,7 +419,7 @@
           "protein": 1.3
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 2.16,
           "unit": "lb"
         }
       },
@@ -403,8 +449,8 @@
           "protein": 0.275
         },
         "price_per_unit": {
-          "price": 1.0,
-          "unit": "lb"
+          "price": 0.184285714,
+          "unit": ""
         }
       },
       {
@@ -418,28 +464,13 @@
           "protein": 0.127
         },
         "price_per_unit": {
-          "price": 1.0,
+          "price": 1.99,
           "unit": "lb"
         }
       },
       {
-        "name": "mushroom_brown",
-        "label": "mushroom (brown)",
-        "serving_nutrition": {
-          "amount": 1,
-          "unit": "",
-          "grams": 20,
-          "calories": 4.4,
-          "protein": 0.5
-        },
-        "price_per_unit": {
-          "price": 1.0,
-          "unit": "lb"
-        }
-      },
-      {
-        "name": "mushroom_white",
-        "label": "mushroom (white)",
+        "name": "mushroom",
+        "label": "mushroom",
         "serving_nutrition": {
           "amount": 1,
           "unit": "",
@@ -448,8 +479,8 @@
           "protein": 0.711
         },
         "price_per_unit": {
-          "price": 1.0,
-          "unit": "lb"
+          "price": 0.35,
+          "unit": "oz"
         }
       },
       {
@@ -569,6 +600,21 @@
         },
         "price_per_unit": {
           "price": 6.37,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "sweet_potato",
+        "label": "sweet potato",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 130,
+          "calories": 112,
+          "protein": 2.04
+        },
+        "price_per_unit": {
+          "price": 1.99,
           "unit": "lb"
         }
       },
@@ -959,6 +1005,21 @@
         }
       },
       {
+        "name": "garlic_powder",
+        "label": "garlic powder",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 9.7,
+          "calories": 32.1,
+          "protein": 1.6
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "ginger",
         "label": "ginger",
         "serving_nutrition": {
@@ -1019,6 +1080,21 @@
         }
       },
       {
+        "name": "onion_powder",
+        "label": "onion powder",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 6.9,
+          "calories": 23.5,
+          "protein": 0.718
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "oregano",
         "label": "dried oregano",
         "serving_nutrition": {
@@ -1030,6 +1106,21 @@
         },
         "price_per_unit": {
           "price": 8.54,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "paprika",
+        "label": "paprika",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 6.8,
+          "calories": 19.2,
+          "protein": 0.962
+        },
+        "price_per_unit": {
+          "price": 16.63,
           "unit": "oz"
         }
       },
@@ -1357,6 +1448,22 @@
           "price": 5.99,
           "unit": "lb"
         }
+      },
+      {
+        "name": "pork_neck_bone",
+        "label": "pork neck bone",
+        "note": "each bone is about 85.5 cal? 3 bones is about 1 lb???",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "oz",
+          "grams": 8,
+          "calories": 14.7,
+          "protein": 2.07
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "lb"
+        }
       }
     ]
   },
@@ -1572,6 +1679,22 @@
         },
         "price_per_unit": {
           "price": 5.32,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "fish_cake_sheet",
+        "label": "fish cake sheet",
+        "note": "Dong Won vegetable fish cake",
+        "serving_nutrition": {
+          "amount": 3,
+          "unit": "oz",
+          "grams": 85,
+          "calories": 160,
+          "protein": 8
+        },
+        "price_per_unit": {
+          "price": 0.0,
           "unit": "lb"
         }
       },
@@ -2081,6 +2204,22 @@
           "price": 0.0849431818,
           "unit": "oz"
         }
+      },
+      {
+        "name": "udon_noodle",
+        "label": "udon noodles",
+        "note": "ChoripDong",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 230,
+          "calories": 330,
+          "protein": 10
+        },
+        "price_per_unit": {
+          "price": 0.00,
+          "unit": "oz"
+        }
       }
     ]
   },
@@ -2130,6 +2269,22 @@
         },
         "price_per_unit": {
           "price": 1.5,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "chocolate_chips",
+        "label": "chocolate chips",
+        "note": "365 dark chocolate baking chunks",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
+          "calories": 70,
+          "protein": 1
+        },
+        "price_per_unit": {
+          "price": 0.32,
           "unit": "oz"
         }
       },
@@ -2828,14 +2983,30 @@
     "category_name": "misc",
     "items": [
       {
-        "name": "makgeolli",
-        "label": "makgeolli",
+        "name": "baguette",
+        "label": "baguette",
         "serving_nutrition": {
-          "amount": 100,
-          "unit": "g",
-          "grams": 100,
-          "calories": 43,
-          "protein": 0
+          "amount": 1,
+          "unit": "",
+          "grams": 255.146,
+          "calories": 720,
+          "protein": 18
+        },
+        "price_per_unit": {
+          "price": 2.99,
+          "unit": ""
+        }
+      },
+      {
+        "name": "dried_seaweed_sheet",
+        "label": "dried seaweed sheet",
+        "note": "wang Korea \"sushi nori\"",
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "",
+          "grams": 4.8,
+          "calories": 71.1,
+          "protein": 2
         },
         "price_per_unit": {
           "price": 0.00,
@@ -2858,6 +3029,51 @@
         }
       },
       {
+        "name": "frozen_mixed_vegetables",
+        "label": "frozen mixed vegetables",
+        "serving_nutrition": {
+          "amount": 0.6666667,
+          "unit": "cup",
+          "grams": 85,
+          "calories": 60,
+          "protein": 3
+        },
+        "price_per_unit": {
+          "price": 0.11,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "kimchi",
+        "label": "kimchi",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 150,
+          "calories": 22.5,
+          "protein": 1.65
+        },
+        "price_per_unit": {
+          "price": 0.00,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "makgeolli",
+        "label": "makgeolli",
+        "serving_nutrition": {
+          "amount": 100,
+          "unit": "g",
+          "grams": 100,
+          "calories": 43,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.00,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "water",
         "label": "water",
         "serving_nutrition": {
@@ -2870,21 +3086,6 @@
         "price_per_unit": {
           "price": 0.0,
           "unit": "oz"
-        }
-      },
-      {
-        "name": "baguette",
-        "label": "baguette",
-        "serving_nutrition": {
-          "amount": 1,
-          "unit": "",
-          "grams": 255.146,
-          "calories": 720,
-          "protein": 18
-        },
-        "price_per_unit": {
-          "price": 2.99,
-          "unit": ""
         }
       }
     ]
