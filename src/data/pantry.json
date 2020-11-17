@@ -178,28 +178,45 @@
       {
         "name": "squash_delicata",
         "label": "delicata squash",
-        "note": "bake at 350F for 50min",
+        "note": "bake at 350F for 50min; can eat skin!",
         "serving_nutrition": {
           "amount": 1,
           "unit": "",
-          "grams": 1,
-          "calories": 1,
+          "grams": 116,
+          "calories": 39,
           "protein": 1
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 1.69,
           "unit": "lb"
         }
       },
       {
         "name": "squash_kabocha",
         "label": "kabocha squash",
+        "note": "bake at 400F for 30-35min; can eat skin!; avg weight research: 1349g",
         "serving_nutrition": {
           "amount": 1,
           "unit": "",
-          "grams": 1,
-          "calories": 1,
-          "protein": 1
+          "grams": 850,
+          "calories": 390,
+          "protein": 10
+        },
+        "price_per_unit": {
+          "price": 1.69,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "squash_spaghetti",
+        "label": "spaghetti squash",
+        "note": "bake at 400F for 30-60min, til tender and fluff; avg weight research: ",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 1814.37,
+          "calories": 562.4547,
+          "protein": 11.611968
         },
         "price_per_unit": {
           "price": 1.69,
@@ -1373,7 +1390,7 @@
       {
         "name": "beef_short_rib",
         "label": "beef short rib",
-        "note": "(choice)",
+        "note": "(choice); Research: 6oz bone per 25.12oz total raw meat",
         "serving_nutrition": {
           "amount": 4,
           "unit": "oz",
@@ -1531,6 +1548,22 @@
         },
         "price_per_unit": {
           "price": 6.99,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "lamb_ground",
+        "label": "ground lamb",
+        "note": "(84% lean)",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 113,
+          "calories": 319,
+          "protein": 18.7
+        },
+        "price_per_unit": {
+          "price": 8.99,
           "unit": "lb"
         }
       },
@@ -1907,7 +1940,22 @@
         }
       },
       {
-        "name": "canned_crushed_tomato",
+        "name": "canned_pinto_beans",
+        "label": "canned pinto beans",
+        "serving_nutrition": {
+          "amount": 0.5,
+          "unit": "cup",
+          "grams": 130,
+          "calories": 110,
+          "protein": 7
+        },
+        "price_per_unit": {
+          "price": 0.07,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "canned_tomato_crushed",
         "label": "canned crushed tomato",
         "serving_nutrition": {
           "amount": 0.25,
@@ -1922,17 +1970,17 @@
         }
       },
       {
-        "name": "canned_pinto_beans",
-        "label": "canned pinto beans",
+        "name": "canned_tomato_whole",
+        "label": "canned whole tomato",
         "serving_nutrition": {
           "amount": 0.5,
           "unit": "cup",
-          "grams": 130,
-          "calories": 110,
-          "protein": 7
+          "grams": 122,
+          "calories": 25,
+          "protein": 1
         },
         "price_per_unit": {
-          "price": 0.07,
+          "price": 0.18,
           "unit": "oz"
         }
       },

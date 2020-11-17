@@ -23,19 +23,19 @@
         "name": "vegan_pancakes",
         "label": "vegan pancakes",
         "ingredients": [
-          { "name": "flour", "amount": 80, "unit": "g" },
-          { "name": "sugar", "amount": 22, "unit": "g" },
-          { "name": "baking_powder", "amount": 1.5, "unit": "tsp" },
+          { "name": "flour", "amount": 1, "unit": "cup" },
+          { "name": "sugar", "note": "a lil less is ok", "amount": 2, "unit": "tbsp" },
+          { "name": "baking_powder", "amount": 0.5, "unit": "tbsp" },
           { "name": "salt", "amount": 0.5, "unit": "tsp" },
-          { "name": "milk_almond", "note": "(nice thick batter, could try even more milk?)", "amount": 140, "unit": "ml" },
-          { "name": "vinegar_apple_cider", "amount": 2, "unit": "tsp" },
+          { "name": "milk_oat", "amount": 0.66666667, "unit": "cup" },
+          { "name": "vinegar_apple_cider", "amount": 1, "unit": "tbsp" },
           { "name": "vanilla_extract", "amount": 1, "unit": "tsp" },
-          { "name": "butter", "note": "(1 tsp per pancake)", "amount": 2, "unit": "tbsp" }
+          { "name": "oil", "amount": 1, "unit": "tbsp" }
         ],
         "directions": [
           "Mix dry ingredients. Separately mix wet and let sit to curdle.",
-          "Combine the two and mix, let sit for 5 min.",
-          "Cook 1/4 cup batter each over med heat. Flip once top bubbles."
+          "Combine the two and mix, let sit for 5-15 min.",
+          "Cook 1/4 cup batter each over lightly oiled pan, med heat (5-6/10). Flip once top bubbles."
         ]
       },
       {
@@ -381,6 +381,7 @@
           }
         ],
         "directions": [
+          "Makes 8 tarts.",
           "For custard:",
           "Microwave water + sugar til dissolved.",
           "Whisk egg, milk, vanilla. Mix water in little bits at a time. Strain.",
@@ -1429,28 +1430,6 @@
         ]
       },
       {
-        "name": "galbitang",
-        "label": "galbitang (갈비탕)",
-        "ingredients": [
-          { "name": "beef_short_rib", "amount": 1.5, "unit": "lb" },
-          { "name": "radish_daikon", "note": "cut into small pieces", "amount": 1, "unit": "" },
-          { "name": "onion", "note": "whole", "amount": 1, "unit": "" },
-          { "name": "garlic", "note": "(1 whole bulb)", "amount": 8, "unit": "" },
-          { "name": "ginger", "note": "peeled and whole", "amount": 1.5, "unit": "tbsp" },
-          { "name": "peppercorn", "note": "unsure about amount", "amount": 1, "unit": "tbsp" },
-          { "name": "bay_leaf", "note": "unsure about amount", "amount": 2, "unit": "" },
-          { "name": "jalapeno", "note": "optional", "amount": 1, "unit": "" },
-          { "name": "green_onion", "note": "including white part", "amount": 2, "unit": "" }
-        ],
-        "directions": [
-          "In cold water, soak meat for 30 min to let blood out. Rinse with cold water.",
-          "In a pot, cover the meat with water just enough to cover, turn heat on, and stop just when water boils.",
-          "Throw the gross water away and rinse.",
-          "Put all ingredients in a big pot, add water, and boil everything on high heat. Check occasionally to prevent overflow.",
-          "After 2+ hours (or whenever color looks right), remove onion and green onion, season with salt, add optional cooked glass noodles."
-        ]
-      },
-      {
         "name": "chicken_porridge",
         "label": "chicken porridge (닭죽)",
         "ingredient_categories": [
@@ -1487,6 +1466,47 @@
           "Cook 25-30 min til water is mostly absorbed (potentially up to 1hr). First 20 min on med high, the rest of time on simmer. Stir occasionally.",
           "Garnish with green onion."
         ]
+      },
+      {
+        "name": "galbitang",
+        "label": "galbitang (갈비탕)",
+        "ingredients": [
+          { "name": "beef_short_rib", "amount": 1.5, "unit": "lb" },
+          { "name": "radish_daikon", "note": "cut into small pieces", "amount": 1, "unit": "" },
+          { "name": "onion", "note": "whole", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "(1 whole bulb)", "amount": 8, "unit": "" },
+          { "name": "ginger", "note": "peeled and whole", "amount": 1.5, "unit": "tbsp" },
+          { "name": "peppercorn", "note": "unsure about amount", "amount": 1, "unit": "tbsp" },
+          { "name": "bay_leaf", "note": "unsure about amount", "amount": 2, "unit": "" },
+          { "name": "jalapeno", "note": "optional", "amount": 1, "unit": "" },
+          { "name": "green_onion", "note": "including white part", "amount": 2, "unit": "" }
+        ],
+        "directions": [
+          "In cold water, soak meat for 30 min to let blood out. Rinse with cold water.",
+          "In a pot, cover the meat with water just enough to cover, turn heat on, and stop just when water boils.",
+          "Throw the gross water away and rinse.",
+          "Put all ingredients in a big pot, add water, and boil everything on high heat. Check occasionally to prevent overflow.",
+          "After 2+ hours (or whenever color looks right), remove onion and green onion, season with salt, add optional cooked glass noodles."
+        ]
+      },
+      {
+        "name": "radish_kimchi",
+        "label": "radish kimchi",
+        "ingredients": [
+          { "name": "radish_daikon", "note": "about 1 radish", "amount": 1, "unit": "lb" },
+          { "name": "salt", "amount": 1, "unit": "tsp" },
+          { "name": "sugar", "amount": 0.5, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced; up to 2",  "amount": 1, "unit": "" },
+          { "name": "ginger", "note": "minced",  "amount": 0.5, "unit": "tsp" },
+          { "name": "green_onion", "amount": 1, "unit": "" },
+          { "name": "fish_sauce_korean", "amount": 1, "unit": "tbsp" },
+          { "name": "gochugaru", "amount": 1, "unit": "tbsp" }
+        ],
+        "directions": [
+          "Cut radish. Rinse and dry. ",
+          "Toss in salt and sugar. Let sit for 30 min.",
+          "Mix sauce ingredients with 1/3 cup of the juice from the drained radish."
+        ]
       }
     ]
   },
@@ -1504,7 +1524,8 @@
               { "name": "chicken_thigh", "amount": 16, "unit": "oz" },
               { "name": "cornstarch", "amount": 1, "unit": "tsp" },
               { "name": "oil", "amount": 1, "unit": "tsp" },
-              { "name": "shaoxing_wine", "amount": 1, "unit": "tsp" }
+              { "name": "shaoxing_wine", "amount": 1, "unit": "tsp" },
+              { "name": "oil", "note": "to cook protein", "amount": 2, "unit": "tsp" }
             ]
           },
           {
@@ -1515,7 +1536,7 @@
               { "name": "soy_sauce_dark", "amount": 0.5, "unit": "tsp" },
               { "name": "vinegar_rice", "amount": 1, "unit": "tbsp" },
               { "name": "sugar", "amount": 1, "unit": "tsp" },
-              { "name": "water", "amount": 3, "unit": "tbsp" },
+              { "name": "water", "amount": 1.5, "unit": "tbsp" },
               { "name": "cornstarch", "amount": 1, "unit": "tsp" }
             ]
           },
@@ -1523,12 +1544,11 @@
             "name": "misc",
             "label": "misc",
             "ingredients": [
-              { "name": "sichuan_peppercorn_ground", "amount": 0.5, "unit": "tsp" },
+              { "name": "sichuan_peppercorn_ground", "amount": 0.75, "unit": "tsp" },
               { "name": "ginger", "amount": 1, "unit": "tsp" },
               { "name": "garlic", "amount": 3, "unit": "" },
               { "name": "green_onion", "amount": 1, "unit": "" },
               { "name": "peanut", "amount": 28, "unit": "g" },
-              { "name": "oil", "note": "to cook protein", "amount": 2, "unit": "tsp" },
               { "name": "oil", "note": "to cook the rest", "amount": 1, "unit": "tsp" }
             ]
           }
@@ -2621,7 +2641,7 @@
           { "name": "gochugaru", "note": "to sub sweet paprika", "amount": 2, "unit": "tsp" },
           { "name": "vinegar_white_wine", "note": "to sub for dry white wine", "amount": 0.5, "unit": "cup" },
           { "name": "water", "note": "sub for beef broth", "amount": 1, "unit": "cup" },
-          { "name": "canned_crushed_tomato", "amount": 16, "unit": "oz" },
+          { "name": "canned_tomato_crushed", "amount": 16, "unit": "oz" },
           { "name": "parsley_fresh", "note": "chopped", "amount": 0.25, "unit": "cup" }
         ],
         "directions": [
@@ -2638,8 +2658,8 @@
         ]
       },
       {
-        "name": "cheesy_garlic_rolls",
-        "label": "cheesy garlic rolls",
+        "name": "pizza_rolls",
+        "label": "pizza rolls",
         "ingredient_categories": [
           {
             "name": "bread",
@@ -2647,7 +2667,7 @@
             "ingredients": [
               { "name": "flour", "amount": 180, "unit": "g" },
               { "name": "salt", "amount": 0.25, "unit": "tsp" },
-              { "name": "sugar", "amount": 2, "unit": "tbsp" },
+              { "name": "sugar", "amount": 1.5, "unit": "tbsp" },
               { "name": "yeast", "amount": 4, "unit": "g" },
               { "name": "milk_oat", "note": "warm", "amount": 100, "unit": "ml" },
               { "name": "egg", "amount": 1, "unit": "" },
@@ -2658,21 +2678,20 @@
             "name": "filling",
             "label": "filling",
             "ingredients": [
-              { "name": "butter", "note": "soften", "amount": 1, "unit": "tbsp" },
-              { "name": "green_onion", "amount": 2, "unit": "" },
-              { "name": "garlic", "amount": 2, "unit": "" },
+              { "name": "butter", "note": "softened", "amount": 2, "unit": "tsp" },
+              { "name": "tomato_paste", "amount": 2, "unit": "tbsp" },
+              { "name": "garlic_powder", "amount": 0.5, "unit": "tsp" },
+              { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
+              { "name": "oregano", "amount": 0.5, "unit": "tsp" },
               { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
-              { "name": "cheese_mozzarella", "amount": 1.7, "unit": "oz" }
+              { "name": "cheese_mozzarella", "amount": 64, "unit": "g" }
             ]
           }
         ],
         "directions": [
           "Mix flour, salt, sugar, yeast well. Crack egg in and mix well.",
           "Combine milk and butter, then add to dough. Mix dough well, then cover and rest til doubled (~30 min)",
-          "Make butter by mixing butter, green onion, black pepper, and mashed garlic.",
-          "Roll dough out. Fold it 2-3 times, then roll out into a rectangle.",
-          "Cut the rectangle in half, spread butter onto one half, then fold the halves together.",
-          "Spread most of the cheese on the top, and roll it like kimbap.",
+          "Roll out dough into a rectangle. Spread filling on top with some cheese.  ",
           "Slice like kimbap, put into a baking tray (sliced sides up), and let rise 10-12 min.",
           "Top with green onions and rest of cheese.",
           "355F for 18 min."
@@ -2719,7 +2738,7 @@
               { "name": "celery", "note": "diced", "amount": 2, "unit": "" },
               { "name": "andouille_sausage", "note": "sliced; up to 14 oz", "amount": 6, "unit": "oz" },
               { "name": "garlic", "note": "minced", "amount": 3, "unit": "" },
-              { "name": "canned_crushed_tomato", "amount": 16, "unit": "oz" }
+              { "name": "canned_tomato_crushed", "amount": 16, "unit": "oz" }
             ]
           },
           {
@@ -2754,7 +2773,7 @@
           "Add sausage, garlic, cook for ~1 min.",
           "Add crushed tomatoes + seasonings, cook for 10 min, stirring occasionally.",
           "Add broth and rice.",
-          "Reduce heat to med low, cover, and cook til rice is tender and liquid is almost absorbed, ~20-25 min",
+          "Reduce heat to med low, cover, and cook til rice is tender and liquid is almost absorbed, ~30 min",
           "If using shrimp, add in last 7 min."
         ]
       },
@@ -2780,6 +2799,36 @@
           "Stir in chicken and veg. Remove from heat. ",
           "Spoon filling into crust. Drape crust loosely over filling.",
           "Bake at 400F for 40-45min or til filling is bubbly and crust is deep golden brown. Filling will be saucy. Let stand 10 min."
+        ]
+      },
+      {
+        "name": "shakshuka",
+        "label": "shakshuka",
+        "ingredients": [
+          { "name": "lamb_ground", "note": "or beef", "amount": 0.5, "unit": "lb" },
+          { "name": "oil_olive", "amount": 3, "unit": "tbsp" },
+          { "name": "onion", "note": "thinly sliced or chopped", "amount": 1, "unit": "" },
+          { "name": "bell_pepper_green", "note": "up to 2; thinly sliced or chopped", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "thinly sliced or chopped", "amount": 3, "unit": "" },
+          { "name": "cumin_ground", "note": "or 1/2 cumin 1/2 coriander", "amount": 1, "unit": "tsp" },
+          { "name": "paprika", "amount": 1, "unit": "tsp" },
+          { "name": "cayenne_pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "canned_tomato_whole", "note": "chopped and with juices; alt. 6 chopped tomatoes + 1/2c tomato sauce", "amount": 28, "unit": "oz" },
+          { "name": "salt", "amount": 0.75, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
+          { "name": "feta", "note": "crumbled; optional", "amount": 5, "unit": "oz" },
+          { "name": "egg", "amount": 6, "unit": "" },
+          { "name": "cilantro_fresh", "note": "chopped; alt. mint or parsley", "amount": 0.25, "unit": "cup" },
+          { "name": "gochugaru", "amount": 0.125, "unit": "tsp" }
+        ],
+        "directions": [
+          "Heat oil in a large skillet on med-low.",
+          "If using meat, cook with a bit of the olive oil, then set aside.",
+          "Cook onion, bell pepper, garlic, spices til soft (~5-10 min)",
+          "Pour in tomatoes and season with salt, pepper, pepper flakes. (If using meat, stir in now) Simmer til thickened (~10min)",
+          "Stir in crumbled feta. Make little wells/indentations for eggs. Gently crack eggs in.",
+          "Reduce heat to low, put lid on, cook til eggs are just set (7-10min?)",
+          "Uncover and add garnish and pepper flakes if desired."
         ]
       }
     ]
