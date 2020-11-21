@@ -851,6 +851,175 @@
           "price": 7.566182482590123, 
           "protein": 81.78616312684366
         }
+      }, 
+      {
+        "directions": [
+          "Mix flour, salt, sugar, yeast well. Crack egg in and mix well.", 
+          "Combine milk and butter, then add to dough. Mix dough well, then cover and rest til doubled (~30 min)", 
+          "Roll out dough into a rectangle. Spread filling on top with some cheese.  ", 
+          "Slice like kimbap, put into a baking tray (sliced sides up), and let rise 10-12 min.", 
+          "Top with green onions and rest of cheese.", 
+          "355F for 18 min."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 180, 
+                "calories": 660.0, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.3809588310489913, 
+                "protein": 18.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.5, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.004232875900544347, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1.5, 
+                "amount_in_grams": 18.0, 
+                "calories": 67.5, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.03174656925408261, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 4, 
+                "calories": 0.0, 
+                "label": "yeast", 
+                "name": "yeast", 
+                "price": 0.08042464211034261, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 100, 
+                "calories": 50.0, 
+                "label": "oat milk", 
+                "name": "milk_oat", 
+                "note": "warm", 
+                "price": 0.17636982918934785, 
+                "protein": 1.25, 
+                "unit": "ml"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 60, 
+                "label": "egg", 
+                "name": "egg", 
+                "price": 0.22, 
+                "protein": 6, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 14.0, 
+                "calories": 100.00000000000001, 
+                "label": "butter", 
+                "name": "butter", 
+                "note": "soften", 
+                "price": 0.18271914304016434, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "bread", 
+            "name": "bread"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 2, 
+                "amount_in_grams": 9.333333333333334, 
+                "calories": 66.66666666666667, 
+                "label": "butter", 
+                "name": "butter", 
+                "note": "softened", 
+                "price": 0.12181276202677624, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 33.0, 
+                "calories": 25.0, 
+                "label": "tomato paste", 
+                "name": "tomato_paste", 
+                "price": 0.15132531344446043, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 1.6166666666666665, 
+                "calories": 5.3500000000000005, 
+                "label": "garlic powder", 
+                "name": "garlic_powder", 
+                "price": 0.0, 
+                "protein": 0.26666666666666666, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 2.5, 
+                "calories": 8.0, 
+                "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
+                "name": "gochugaru", 
+                "price": 0.03262841840002935, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 0.5, 
+                "calories": 1.325, 
+                "label": "dried oregano", 
+                "name": "oregano", 
+                "price": 0.15061983412770302, 
+                "protein": 0.045, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.28750000000000003, 
+                "calories": 0.7208333333333334, 
+                "label": "black pepper", 
+                "name": "pepper_black", 
+                "price": 0.026570114767375252, 
+                "protein": 0.029875000000000002, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 64, 
+                "calories": 192.0, 
+                "label": "mozzarella", 
+                "name": "cheese_mozzarella", 
+                "price": 0.9862599761102684, 
+                "protein": 14.1888, 
+                "unit": "g"
+              }
+            ], 
+            "label": "filling", 
+            "name": "filling"
+          }
+        ], 
+        "label": "pizza rolls", 
+        "name": "pizza_rolls", 
+        "nutrition": {
+          "calories": 1236.5624999999998, 
+          "price": 2.545668309420085, 
+          "protein": 39.78034166666667
+        }
       }
     ]
   }, 
@@ -5734,14 +5903,15 @@
             "unit": ""
           }, 
           {
-            "amount": 30, 
-            "calories": 20.0, 
+            "amount": 0.25, 
+            "amount_in_grams": 60.0, 
+            "calories": 40.0, 
             "label": "dark soy sauce", 
             "name": "soy_sauce_dark", 
-            "note": "Sempio's jin-ganjang; eyeball this... approx 16 cal", 
-            "price": 0.3492122617949087, 
-            "protein": 2.0, 
-            "unit": "ml"
+            "note": "Sempio's jin-ganjang; unsure on amount", 
+            "price": 0.6984245235898174, 
+            "protein": 4.0, 
+            "unit": "cup"
           }, 
           {
             "amount": 1, 
@@ -5749,7 +5919,7 @@
             "calories": 30.0, 
             "label": "mirin", 
             "name": "mirin", 
-            "note": "mirim/miyang in korean; approx cal 18", 
+            "note": "mirim/miyang in korean; maybe increase?", 
             "price": 0.6984245235898174, 
             "protein": 0.0, 
             "unit": "tbsp"
@@ -5760,7 +5930,7 @@
             "calories": 20.000000000000004, 
             "label": "honey", 
             "name": "honey", 
-            "note": "or corn syrup; tiny variable splash", 
+            "note": "or corn syrup; tiny variable splash; maybe increase?", 
             "price": 0.11358216999794, 
             "protein": 0.0, 
             "unit": "tsp"
@@ -5789,9 +5959,9 @@
         "label": "LA galbi (LA \uac08\ube44)", 
         "name": "la_galbi", 
         "nutrition": {
-          "calories": 2419.9767979351036, 
-          "price": 30.451789972257604, 
-          "protein": 162.52232632743366
+          "calories": 2439.9767979351036, 
+          "price": 30.801002234052515, 
+          "protein": 164.52232632743366
         }
       }, 
       {
@@ -5937,6 +6107,115 @@
       }, 
       {
         "directions": [
+          "In cold water, soak meat for 30 min to let blood out. Rinse with cold water.", 
+          "In a pot, cover the meat with water just enough to cover, turn heat on, and stop just when water boils.", 
+          "Throw the gross water away and rinse.", 
+          "Put all ingredients in a big pot, add water, and boil everything on high heat. Check occasionally to prevent overflow.", 
+          "After 2+ hours (or whenever color looks right), remove onion and green onion, season with salt, add optional cooked glass noodles."
+        ], 
+        "ingredients": [
+          {
+            "amount": 1.5, 
+            "calories": 1631.7269734513275, 
+            "label": "beef short rib", 
+            "name": "beef_short_rib", 
+            "price": 0.0, 
+            "protein": 117.41208849557522, 
+            "unit": "lb"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 60.8, 
+            "label": "daikon radish", 
+            "name": "radish_daikon", 
+            "note": "cut into small pieces", 
+            "price": 0.0, 
+            "protein": 2.03, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 60, 
+            "label": "onion", 
+            "name": "onion", 
+            "note": "whole", 
+            "price": 0.33069339327731634, 
+            "protein": 1.65, 
+            "unit": ""
+          }, 
+          {
+            "amount": 8, 
+            "calories": 35.76, 
+            "label": "garlic", 
+            "name": "garlic", 
+            "note": "(1 whole bulb)", 
+            "price": 0.21111466226823877, 
+            "protein": 1.528, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1.5, 
+            "amount_in_grams": 9.0, 
+            "calories": 7.199999999999999, 
+            "label": "ginger", 
+            "name": "ginger", 
+            "note": "peeled and whole", 
+            "price": 0.07916799835058953, 
+            "protein": 0.16199999999999998, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 8.7, 
+            "calories": 21.840000000000003, 
+            "label": "peppercorns", 
+            "name": "peppercorn", 
+            "note": "unsure about amount", 
+            "price": 0.8193789524478721, 
+            "protein": 0.903, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 2, 
+            "calories": 0, 
+            "label": "bay leaf", 
+            "name": "bay_leaf", 
+            "note": "unsure about amount", 
+            "price": 0.7030101391487404, 
+            "protein": 0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 4.06, 
+            "label": "jalapeno", 
+            "name": "jalapeno", 
+            "note": "optional", 
+            "price": 0.06142078624470689, 
+            "protein": 0.127, 
+            "unit": ""
+          }, 
+          {
+            "amount": 2, 
+            "calories": 9.6, 
+            "label": "green onion", 
+            "name": "green_onion", 
+            "note": "including white part", 
+            "price": 0.368571428, 
+            "protein": 0.55, 
+            "unit": ""
+          }
+        ], 
+        "label": "galbitang (\uac08\ube44\ud0d5)", 
+        "name": "galbitang", 
+        "nutrition": {
+          "calories": 1830.9869734513272, 
+          "price": 2.573357359737464, 
+          "protein": 124.36208849557524
+        }
+      }, 
+      {
+        "directions": [
           "Soak rice for 3 hours.", 
           "Make broth: water, chicken, garlic, ginger, bay leaf, peppercorns. Boil for 45min-1hr med high.", 
           "Remove chicken from broth. Remove onion from broth. Should be ~6 cups of broth", 
@@ -6078,115 +6357,6 @@
       }, 
       {
         "directions": [
-          "In cold water, soak meat for 30 min to let blood out. Rinse with cold water.", 
-          "In a pot, cover the meat with water just enough to cover, turn heat on, and stop just when water boils.", 
-          "Throw the gross water away and rinse.", 
-          "Put all ingredients in a big pot, add water, and boil everything on high heat. Check occasionally to prevent overflow.", 
-          "After 2+ hours (or whenever color looks right), remove onion and green onion, season with salt, add optional cooked glass noodles."
-        ], 
-        "ingredients": [
-          {
-            "amount": 1.5, 
-            "calories": 1631.7269734513275, 
-            "label": "beef short rib", 
-            "name": "beef_short_rib", 
-            "price": 0.0, 
-            "protein": 117.41208849557522, 
-            "unit": "lb"
-          }, 
-          {
-            "amount": 1, 
-            "calories": 60.8, 
-            "label": "daikon radish", 
-            "name": "radish_daikon", 
-            "note": "cut into small pieces", 
-            "price": 0.0, 
-            "protein": 2.03, 
-            "unit": ""
-          }, 
-          {
-            "amount": 1, 
-            "calories": 60, 
-            "label": "onion", 
-            "name": "onion", 
-            "note": "whole", 
-            "price": 0.33069339327731634, 
-            "protein": 1.65, 
-            "unit": ""
-          }, 
-          {
-            "amount": 8, 
-            "calories": 35.76, 
-            "label": "garlic", 
-            "name": "garlic", 
-            "note": "(1 whole bulb)", 
-            "price": 0.21111466226823877, 
-            "protein": 1.528, 
-            "unit": ""
-          }, 
-          {
-            "amount": 1.5, 
-            "amount_in_grams": 9.0, 
-            "calories": 7.199999999999999, 
-            "label": "ginger", 
-            "name": "ginger", 
-            "note": "peeled and whole", 
-            "price": 0.07916799835058953, 
-            "protein": 0.16199999999999998, 
-            "unit": "tbsp"
-          }, 
-          {
-            "amount": 1, 
-            "amount_in_grams": 8.7, 
-            "calories": 21.840000000000003, 
-            "label": "peppercorns", 
-            "name": "peppercorn", 
-            "note": "unsure about amount", 
-            "price": 0.8193789524478721, 
-            "protein": 0.903, 
-            "unit": "tbsp"
-          }, 
-          {
-            "amount": 2, 
-            "calories": 0, 
-            "label": "bay leaf", 
-            "name": "bay_leaf", 
-            "note": "unsure about amount", 
-            "price": 0.7030101391487404, 
-            "protein": 0, 
-            "unit": ""
-          }, 
-          {
-            "amount": 1, 
-            "calories": 4.06, 
-            "label": "jalapeno", 
-            "name": "jalapeno", 
-            "note": "optional", 
-            "price": 0.06142078624470689, 
-            "protein": 0.127, 
-            "unit": ""
-          }, 
-          {
-            "amount": 2, 
-            "calories": 9.6, 
-            "label": "green onion", 
-            "name": "green_onion", 
-            "note": "including white part", 
-            "price": 0.368571428, 
-            "protein": 0.55, 
-            "unit": ""
-          }
-        ], 
-        "label": "galbitang (\uac08\ube44\ud0d5)", 
-        "name": "galbitang", 
-        "nutrition": {
-          "calories": 1830.9869734513272, 
-          "price": 2.573357359737464, 
-          "protein": 124.36208849557524
-        }
-      }, 
-      {
-        "directions": [
           "Cut radish. Rinse and dry. ", 
           "Toss in salt and sugar. Let sit for 30 min.", 
           "Mix sauce ingredients with 1/3 cup of the juice from the drained radish."
@@ -6279,6 +6449,203 @@
           "calories": 167.16288047337275, 
           "price": 0.4427556947984208, 
           "protein": 4.208235976331361
+        }
+      }, 
+      {
+        "directions": [
+          "Make sauce: pulverize onion and mix with rest of sauce ingredients.", 
+          "Add sauce to pot with chicken and water. Bring to boil med high.", 
+          "When boiling, turn heat to med and add potatoes. Cover and cook for 20 min.", 
+          "Add rest of vegetables. Cover and cook for 10 min until all soft.", 
+          "If using glass noodle, add either very soaked noodles or boiled and rinsed noodles at the end."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 72.0, 
+                "calories": 120.00000000000001, 
+                "label": "gochujang (\uace0\ucd94\uc7a5)", 
+                "name": "gochujang", 
+                "price": 1.219068259356772, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 30.0, 
+                "calories": 96.0, 
+                "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
+                "name": "gochugaru", 
+                "price": 0.39154102080035214, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 60.0, 
+                "calories": 40.0, 
+                "label": "dark soy sauce", 
+                "name": "soy_sauce_dark", 
+                "note": "up to 1/2 c?!", 
+                "price": 0.6984245235898174, 
+                "protein": 4.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 5, 
+                "calories": 22.349999999999998, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "note": "minced", 
+                "price": 0.13194666391764923, 
+                "protein": 0.9550000000000001, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 12.0, 
+                "calories": 45.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.02116437950272174, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15.0, 
+                "calories": 30.0, 
+                "label": "mirin", 
+                "name": "mirin", 
+                "price": 0.6984245235898174, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15.0, 
+                "calories": 5.0, 
+                "label": "korean fish sauce", 
+                "name": "fish_sauce_korean", 
+                "price": 0.0, 
+                "protein": 1.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "calories": 30.0, 
+                "label": "onion", 
+                "name": "onion", 
+                "note": "pulverized", 
+                "price": 0.16534669663865817, 
+                "protein": 0.825, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.28750000000000003, 
+                "calories": 0.7208333333333334, 
+                "label": "black pepper", 
+                "name": "pepper_black", 
+                "price": 0.026570114767375252, 
+                "protein": 0.029875000000000002, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "sauce", 
+            "name": "sauce"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 2, 
+                "calories": 1214.9785714285715, 
+                "label": "chicken thigh", 
+                "name": "chicken_thigh", 
+                "note": "bone-in good!; chop into bite-size pieces", 
+                "price": 10.104571785714286, 
+                "protein": 161.99714285714285, 
+                "unit": "lb"
+              }, 
+              {
+                "amount": 400, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "note": "600ml if adding glass noodles at end", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }
+            ], 
+            "label": "chicken", 
+            "name": "chicken"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 2, 
+                "calories": 568, 
+                "label": "potato", 
+                "name": "potato", 
+                "note": "up to 4; peeled, big 2\" curry-style chunks", 
+                "price": 1.6270114949243966, 
+                "protein": 15.12, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 60, 
+                "label": "onion", 
+                "name": "onion", 
+                "note": "up to 2; curry-style chunks", 
+                "price": 0.33069339327731634, 
+                "protein": 1.65, 
+                "unit": ""
+              }, 
+              {
+                "amount": 2, 
+                "calories": 9.6, 
+                "label": "green onion", 
+                "name": "green_onion", 
+                "note": "coarsely chopped", 
+                "price": 0.368571428, 
+                "protein": 0.55, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 29.5, 
+                "label": "carrot", 
+                "name": "carrot", 
+                "note": "big curry-style chunks", 
+                "price": 0.15714550048538073, 
+                "protein": 0.67, 
+                "unit": ""
+              }, 
+              {
+                "amount": 3, 
+                "calories": 13.41, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "note": "minced", 
+                "price": 0.07916799835058955, 
+                "protein": 0.573, 
+                "unit": ""
+              }
+            ], 
+            "label": "filling", 
+            "name": "filling"
+          }
+        ], 
+        "label": "spicy braised chicken (\ub2ed\ubcf6\uc74c\ud0d5)", 
+        "name": "spicy_braised_chicken", 
+        "nutrition": {
+          "calories": 2284.5594047619047, 
+          "price": 16.019647782915133, 
+          "protein": 187.37001785714287
         }
       }
     ]
@@ -11189,175 +11556,6 @@
       }, 
       {
         "directions": [
-          "Mix flour, salt, sugar, yeast well. Crack egg in and mix well.", 
-          "Combine milk and butter, then add to dough. Mix dough well, then cover and rest til doubled (~30 min)", 
-          "Roll out dough into a rectangle. Spread filling on top with some cheese.  ", 
-          "Slice like kimbap, put into a baking tray (sliced sides up), and let rise 10-12 min.", 
-          "Top with green onions and rest of cheese.", 
-          "355F for 18 min."
-        ], 
-        "ingredient_categories": [
-          {
-            "ingredients": [
-              {
-                "amount": 180, 
-                "calories": 660.0, 
-                "label": "flour", 
-                "name": "flour", 
-                "price": 0.3809588310489913, 
-                "protein": 18.0, 
-                "unit": "g"
-              }, 
-              {
-                "amount": 0.25, 
-                "amount_in_grams": 1.5, 
-                "calories": 0.0, 
-                "label": "salt", 
-                "name": "salt", 
-                "price": 0.004232875900544347, 
-                "protein": 0.0, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 1.5, 
-                "amount_in_grams": 18.0, 
-                "calories": 67.5, 
-                "label": "sugar", 
-                "name": "sugar", 
-                "price": 0.03174656925408261, 
-                "protein": 0.0, 
-                "unit": "tbsp"
-              }, 
-              {
-                "amount": 4, 
-                "calories": 0.0, 
-                "label": "yeast", 
-                "name": "yeast", 
-                "price": 0.08042464211034261, 
-                "protein": 0.0, 
-                "unit": "g"
-              }, 
-              {
-                "amount": 100, 
-                "calories": 50.0, 
-                "label": "oat milk", 
-                "name": "milk_oat", 
-                "note": "warm", 
-                "price": 0.17636982918934785, 
-                "protein": 1.25, 
-                "unit": "ml"
-              }, 
-              {
-                "amount": 1, 
-                "calories": 60, 
-                "label": "egg", 
-                "name": "egg", 
-                "price": 0.22, 
-                "protein": 6, 
-                "unit": ""
-              }, 
-              {
-                "amount": 1, 
-                "amount_in_grams": 14.0, 
-                "calories": 100.00000000000001, 
-                "label": "butter", 
-                "name": "butter", 
-                "note": "soften", 
-                "price": 0.18271914304016434, 
-                "protein": 0.0, 
-                "unit": "tbsp"
-              }
-            ], 
-            "label": "bread", 
-            "name": "bread"
-          }, 
-          {
-            "ingredients": [
-              {
-                "amount": 2, 
-                "amount_in_grams": 9.333333333333334, 
-                "calories": 66.66666666666667, 
-                "label": "butter", 
-                "name": "butter", 
-                "note": "softened", 
-                "price": 0.12181276202677624, 
-                "protein": 0.0, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 2, 
-                "amount_in_grams": 33.0, 
-                "calories": 25.0, 
-                "label": "tomato paste", 
-                "name": "tomato_paste", 
-                "price": 0.15132531344446043, 
-                "protein": 0.0, 
-                "unit": "tbsp"
-              }, 
-              {
-                "amount": 0.5, 
-                "amount_in_grams": 1.6166666666666665, 
-                "calories": 5.3500000000000005, 
-                "label": "garlic powder", 
-                "name": "garlic_powder", 
-                "price": 0.0, 
-                "protein": 0.26666666666666666, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 0.5, 
-                "amount_in_grams": 2.5, 
-                "calories": 8.0, 
-                "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
-                "name": "gochugaru", 
-                "price": 0.03262841840002935, 
-                "protein": 0.0, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 0.5, 
-                "amount_in_grams": 0.5, 
-                "calories": 1.325, 
-                "label": "dried oregano", 
-                "name": "oregano", 
-                "price": 0.15061983412770302, 
-                "protein": 0.045, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 0.125, 
-                "amount_in_grams": 0.28750000000000003, 
-                "calories": 0.7208333333333334, 
-                "label": "black pepper", 
-                "name": "pepper_black", 
-                "price": 0.026570114767375252, 
-                "protein": 0.029875000000000002, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 64, 
-                "calories": 192.0, 
-                "label": "mozzarella", 
-                "name": "cheese_mozzarella", 
-                "price": 0.9862599761102684, 
-                "protein": 14.1888, 
-                "unit": "g"
-              }
-            ], 
-            "label": "filling", 
-            "name": "filling"
-          }
-        ], 
-        "label": "pizza rolls", 
-        "name": "pizza_rolls", 
-        "nutrition": {
-          "calories": 1236.5624999999998, 
-          "price": 2.545668309420085, 
-          "protein": 39.78034166666667
-        }
-      }, 
-      {
-        "directions": [
           "Heat oil in dutch oven on high heat. ", 
           "Cook lamb til brown outside (~10min?)", 
           "Add onion and carrots and cook til softened (10 more min?)", 
@@ -11820,6 +12018,212 @@
           "calories": 619.0541621666671, 
           "price": 2.910359279407554, 
           "protein": 37.27987477500001
+        }
+      }, 
+      {
+        "directions": [
+          "Don't wash rice before cooking.", 
+          "If using frozen seafood, defrost overnight.", 
+          "Olive oil skillet med heat. Cook onion, bell pepper, garlic, til onion is transparent.", 
+          "Add tomato. bay leaf, paprika, saffron, salt, pepper. Stir and cook 5 min.", 
+          "Add white wine. Cook 10 min.", 
+          "Add chicken, half the parsley, and rice to pot. Cook 1 min.", 
+          "Pour broth slowly all around pan. Jiggle pan to get rice into an even layer (DO NOT stir the mixture going forward)", 
+          "Bring to boil. Reduce heat to med low. Shake pan gently back and forth once or twice during cooking. Cook 15-18 min uncovered.", 
+          "Nestle seafood in. Sprinkle peas on top. Cook (NO stirring) for ~5 min.", 
+          "Most of liquid should be absorbed and the rice on top should be nearly tender. (If rice not cooked for some reason, add 1/4c more water and keep cooking)", 
+          "Remove pan from heat. Cover with lid and rest for 10 min.", 
+          "Garnish with rest of parsley and serve."
+        ], 
+        "ingredients": [
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 60.0, 
+            "calories": 480.0, 
+            "label": "olive oil", 
+            "name": "oil_olive", 
+            "price": 0.6984245235898174, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 60, 
+            "label": "onion", 
+            "name": "onion", 
+            "note": "diced", 
+            "price": 0.33069339327731634, 
+            "protein": 1.65, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 24, 
+            "label": "green bell pepper", 
+            "name": "bell_pepper_green", 
+            "note": "diced", 
+            "price": 0.473552939173117, 
+            "protein": 1.03, 
+            "unit": ""
+          }, 
+          {
+            "amount": 4, 
+            "calories": 17.88, 
+            "label": "garlic", 
+            "name": "garlic", 
+            "price": 0.10555733113411939, 
+            "protein": 0.764, 
+            "unit": ""
+          }, 
+          {
+            "amount": 3, 
+            "calories": 32.400000000000006, 
+            "label": "plum (roma) tomato", 
+            "name": "tomato_plum", 
+            "note": "very finely diced (or sub 8oz tomato sauce)", 
+            "price": 0.7896958231462314, 
+            "protein": 1.584, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 0, 
+            "label": "bay leaf", 
+            "name": "bay_leaf", 
+            "price": 0.3515050695743702, 
+            "protein": 0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 2.2666666666666666, 
+            "calories": 6.4, 
+            "label": "paprika", 
+            "name": "paprika", 
+            "price": 1.3296403842698805, 
+            "protein": 0.32066666666666666, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 0.0, 
+            "label": "saffron_thread", 
+            "name": "saffron_thread", 
+            "note": "1 pinch; or use 1 tsp saffron powder if really needed", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.75, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0021164379502721735, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.28750000000000003, 
+            "calories": 0.7208333333333334, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.026570114767375252, 
+            "protein": 0.029875000000000002, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 60.0, 
+            "calories": 0.0, 
+            "label": "white wine vinegar", 
+            "name": "vinegar_white_wine", 
+            "note": "to sub for original white wine", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 607.4892857142858, 
+            "label": "chicken thigh", 
+            "name": "chicken_thigh", 
+            "note": "cut into pieces; up to 1.5lb", 
+            "price": 5.052285892857143, 
+            "protein": 80.99857142857142, 
+            "unit": "lb"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 1.6, 
+            "calories": 4.67, 
+            "label": "dried parsley", 
+            "name": "parsley_dried", 
+            "note": "to sub for original 4 tbsp fresh chopped parsley", 
+            "price": 0.9385696830140333, 
+            "protein": 0.426, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 360.0, 
+            "calories": 1200.0000000000002, 
+            "label": "white rice", 
+            "name": "rice_white", 
+            "note": "DONT WASH; subs for original spanish rice; dont use long grain!!", 
+            "price": 1.2698627701633045, 
+            "protein": 24.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 3.75, 
+            "amount_in_grams": 900.0, 
+            "calories": 0.0, 
+            "label": "water", 
+            "name": "water", 
+            "note": "to sub for chicken broth; use 5 c of liquid if using proper spanish rice", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 0.0, 
+            "label": "frozen_peas", 
+            "name": "frozen_peas", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 0.0, 
+            "label": "shrimp", 
+            "name": "shrimp", 
+            "note": "peeled, tail on; use about 12", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "lb"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 0.0, 
+            "label": "mussels", 
+            "name": "mussels", 
+            "note": "cleaned properly (beards off); use about 10-12", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "lb"
+          }
+        ], 
+        "label": "paella", 
+        "name": "paella", 
+        "nutrition": {
+          "calories": 2433.560119047619, 
+          "price": 11.36847436291698, 
+          "protein": 110.80311309523809
         }
       }, 
       {

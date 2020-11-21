@@ -194,6 +194,46 @@
           "Mix all spices. Add spices to pork. Nice to let sit for a few hours to marinate.",
           "Med heat non stick 5 min each side."
         ]
+      },
+      {
+        "name": "pizza_rolls",
+        "label": "pizza rolls",
+        "ingredient_categories": [
+          {
+            "name": "bread",
+            "label": "bread",
+            "ingredients": [
+              { "name": "flour", "amount": 180, "unit": "g" },
+              { "name": "salt", "amount": 0.25, "unit": "tsp" },
+              { "name": "sugar", "amount": 1.5, "unit": "tbsp" },
+              { "name": "yeast", "amount": 4, "unit": "g" },
+              { "name": "milk_oat", "note": "warm", "amount": 100, "unit": "ml" },
+              { "name": "egg", "amount": 1, "unit": "" },
+              { "name": "butter", "note": "soften", "amount": 1, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "filling",
+            "label": "filling",
+            "ingredients": [
+              { "name": "butter", "note": "softened", "amount": 2, "unit": "tsp" },
+              { "name": "tomato_paste", "amount": 2, "unit": "tbsp" },
+              { "name": "garlic_powder", "amount": 0.5, "unit": "tsp" },
+              { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
+              { "name": "oregano", "amount": 0.5, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+              { "name": "cheese_mozzarella", "amount": 64, "unit": "g" }
+            ]
+          }
+        ],
+        "directions": [
+          "Mix flour, salt, sugar, yeast well. Crack egg in and mix well.",
+          "Combine milk and butter, then add to dough. Mix dough well, then cover and rest til doubled (~30 min)",
+          "Roll out dough into a rectangle. Spread filling on top with some cheese.  ",
+          "Slice like kimbap, put into a baking tray (sliced sides up), and let rise 10-12 min.",
+          "Top with green onions and rest of cheese.",
+          "355F for 18 min."
+        ]
       }
     ]
   },
@@ -1388,9 +1428,9 @@
           { "name": "ginger", "note": "(the size of a garlic clove)", "amount": 1, "unit": "tbsp" },
           { "name": "jalapeno", "note": "optional", "amount": 1, "unit": "" },
           { "name": "kiwi", "amount": 0.5, "unit": "" },
-          { "name": "soy_sauce_dark", "note": "Sempio's jin-ganjang; eyeball this... approx 16 cal", "amount": 30, "unit": "ml" },
-          { "name": "mirin", "note": "mirim/miyang in korean; approx cal 18", "amount": 1, "unit": "tbsp" },
-          { "name": "honey", "note": "or corn syrup; tiny variable splash", "amount": 1, "unit": "tsp" },
+          { "name": "soy_sauce_dark", "note": "Sempio's jin-ganjang; unsure on amount", "amount": 0.25, "unit": "cup" },
+          { "name": "mirin", "note": "mirim/miyang in korean; maybe increase?", "amount": 1, "unit": "tbsp" },
+          { "name": "honey", "note": "or corn syrup; tiny variable splash; maybe increase?", "amount": 1, "unit": "tsp" },
           { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
           { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
         ],
@@ -1427,6 +1467,28 @@
           "Stir to mix well. Cook for a few min, until pork is covered well with seasonings.",
           "Add garlic, ginger, onion, green onion.",
           "Stir and cook for 12-15 min, til pork is fully cooked and juicy and a little crispy."
+        ]
+      },
+      {
+        "name": "galbitang",
+        "label": "galbitang (갈비탕)",
+        "ingredients": [
+          { "name": "beef_short_rib", "amount": 1.5, "unit": "lb" },
+          { "name": "radish_daikon", "note": "cut into small pieces", "amount": 1, "unit": "" },
+          { "name": "onion", "note": "whole", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "(1 whole bulb)", "amount": 8, "unit": "" },
+          { "name": "ginger", "note": "peeled and whole", "amount": 1.5, "unit": "tbsp" },
+          { "name": "peppercorn", "note": "unsure about amount", "amount": 1, "unit": "tbsp" },
+          { "name": "bay_leaf", "note": "unsure about amount", "amount": 2, "unit": "" },
+          { "name": "jalapeno", "note": "optional", "amount": 1, "unit": "" },
+          { "name": "green_onion", "note": "including white part", "amount": 2, "unit": "" }
+        ],
+        "directions": [
+          "In cold water, soak meat for 30 min to let blood out. Rinse with cold water.",
+          "In a pot, cover the meat with water just enough to cover, turn heat on, and stop just when water boils.",
+          "Throw the gross water away and rinse.",
+          "Put all ingredients in a big pot, add water, and boil everything on high heat. Check occasionally to prevent overflow.",
+          "After 2+ hours (or whenever color looks right), remove onion and green onion, season with salt, add optional cooked glass noodles."
         ]
       },
       {
@@ -1468,28 +1530,6 @@
         ]
       },
       {
-        "name": "galbitang",
-        "label": "galbitang (갈비탕)",
-        "ingredients": [
-          { "name": "beef_short_rib", "amount": 1.5, "unit": "lb" },
-          { "name": "radish_daikon", "note": "cut into small pieces", "amount": 1, "unit": "" },
-          { "name": "onion", "note": "whole", "amount": 1, "unit": "" },
-          { "name": "garlic", "note": "(1 whole bulb)", "amount": 8, "unit": "" },
-          { "name": "ginger", "note": "peeled and whole", "amount": 1.5, "unit": "tbsp" },
-          { "name": "peppercorn", "note": "unsure about amount", "amount": 1, "unit": "tbsp" },
-          { "name": "bay_leaf", "note": "unsure about amount", "amount": 2, "unit": "" },
-          { "name": "jalapeno", "note": "optional", "amount": 1, "unit": "" },
-          { "name": "green_onion", "note": "including white part", "amount": 2, "unit": "" }
-        ],
-        "directions": [
-          "In cold water, soak meat for 30 min to let blood out. Rinse with cold water.",
-          "In a pot, cover the meat with water just enough to cover, turn heat on, and stop just when water boils.",
-          "Throw the gross water away and rinse.",
-          "Put all ingredients in a big pot, add water, and boil everything on high heat. Check occasionally to prevent overflow.",
-          "After 2+ hours (or whenever color looks right), remove onion and green onion, season with salt, add optional cooked glass noodles."
-        ]
-      },
-      {
         "name": "radish_kimchi",
         "label": "radish kimchi",
         "ingredients": [
@@ -1506,6 +1546,53 @@
           "Cut radish. Rinse and dry. ",
           "Toss in salt and sugar. Let sit for 30 min.",
           "Mix sauce ingredients with 1/3 cup of the juice from the drained radish."
+        ]
+      },
+      {
+        "name": "spicy_braised_chicken",
+        "label": "spicy braised chicken (닭볶음탕)",
+        "ingredient_categories": [
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "gochujang", "amount": 0.25, "unit": "cup" },
+              { "name": "gochugaru", "amount": 2, "unit": "tbsp" },
+              { "name": "soy_sauce_dark", "note": "up to 1/2 c?!", "amount": 0.25, "unit": "cup" },
+              { "name": "garlic", "note": "minced", "amount": 5, "unit": "" },
+              { "name": "sugar", "amount": 1, "unit": "tbsp" },
+              { "name": "mirin", "amount": 1, "unit": "tbsp" },
+              { "name": "fish_sauce_korean", "amount": 1, "unit": "tbsp" },
+              { "name": "onion", "note": "pulverized", "amount": 0.5, "unit": "" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "chicken",
+            "label": "chicken",
+            "ingredients": [
+              { "name": "chicken_thigh", "note": "bone-in good!; chop into bite-size pieces", "amount": 2, "unit": "lb" },
+              { "name": "water", "note": "600ml if adding glass noodles at end", "amount": 400, "unit": "ml" }
+            ]
+          },
+          {
+            "name": "filling",
+            "label": "filling",
+            "ingredients": [
+              { "name": "potato", "note": "up to 4; peeled, big 2\" curry-style chunks", "amount": 2, "unit": "" },
+              { "name": "onion", "note": "up to 2; curry-style chunks", "amount": 1, "unit": "" },
+              { "name": "green_onion", "note": "coarsely chopped", "amount": 2, "unit": "" },
+              { "name": "carrot", "note": "big curry-style chunks", "amount": 1, "unit": "" },
+              { "name": "garlic", "note": "minced", "amount": 3, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "Make sauce: pulverize onion and mix with rest of sauce ingredients.",
+          "Add sauce to pot with chicken and water. Bring to boil med high.",
+          "When boiling, turn heat to med and add potatoes. Cover and cook for 20 min.",
+          "Add rest of vegetables. Cover and cook for 10 min until all soft.",
+          "If using glass noodle, add either very soaked noodles or boiled and rinsed noodles at the end."
         ]
       }
     ]
@@ -2658,46 +2745,6 @@
         ]
       },
       {
-        "name": "pizza_rolls",
-        "label": "pizza rolls",
-        "ingredient_categories": [
-          {
-            "name": "bread",
-            "label": "bread",
-            "ingredients": [
-              { "name": "flour", "amount": 180, "unit": "g" },
-              { "name": "salt", "amount": 0.25, "unit": "tsp" },
-              { "name": "sugar", "amount": 1.5, "unit": "tbsp" },
-              { "name": "yeast", "amount": 4, "unit": "g" },
-              { "name": "milk_oat", "note": "warm", "amount": 100, "unit": "ml" },
-              { "name": "egg", "amount": 1, "unit": "" },
-              { "name": "butter", "note": "soften", "amount": 1, "unit": "tbsp" }
-            ]
-          },
-          {
-            "name": "filling",
-            "label": "filling",
-            "ingredients": [
-              { "name": "butter", "note": "softened", "amount": 2, "unit": "tsp" },
-              { "name": "tomato_paste", "amount": 2, "unit": "tbsp" },
-              { "name": "garlic_powder", "amount": 0.5, "unit": "tsp" },
-              { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
-              { "name": "oregano", "amount": 0.5, "unit": "tsp" },
-              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
-              { "name": "cheese_mozzarella", "amount": 64, "unit": "g" }
-            ]
-          }
-        ],
-        "directions": [
-          "Mix flour, salt, sugar, yeast well. Crack egg in and mix well.",
-          "Combine milk and butter, then add to dough. Mix dough well, then cover and rest til doubled (~30 min)",
-          "Roll out dough into a rectangle. Spread filling on top with some cheese.  ",
-          "Slice like kimbap, put into a baking tray (sliced sides up), and let rise 10-12 min.",
-          "Top with green onions and rest of cheese.",
-          "355F for 18 min."
-        ]
-      },
-      {
         "name": "lamb_palov",
         "label": "lamb palov",
         "ingredients": [
@@ -2799,6 +2846,44 @@
           "Stir in chicken and veg. Remove from heat. ",
           "Spoon filling into crust. Drape crust loosely over filling.",
           "Bake at 400F for 40-45min or til filling is bubbly and crust is deep golden brown. Filling will be saucy. Let stand 10 min."
+        ]
+      },
+      {
+        "name": "paella",
+        "label": "paella",
+        "ingredients": [
+          { "name": "oil_olive", "amount": 0.25, "unit": "cup" },
+          { "name": "onion", "note": "diced", "amount": 1, "unit": "" },
+          { "name": "bell_pepper_green", "note": "diced", "amount": 1, "unit": "" },
+          { "name": "garlic", "amount": 4, "unit": "" },
+          { "name": "tomato_plum", "note": "very finely diced (or sub 8oz tomato sauce)", "amount": 3, "unit": "" },
+          { "name": "bay_leaf", "amount": 1, "unit": "" },
+          { "name": "paprika", "amount": 1, "unit": "tsp" },
+          { "name": "saffron_thread", "note": "1 pinch; or use 1 tsp saffron powder if really needed", "amount": 1, "unit": "" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "vinegar_white_wine", "note": "to sub for original white wine", "amount": 0.25, "unit": "cup" },
+          { "name": "chicken_thigh", "note": "cut into pieces; up to 1.5lb", "amount": 1, "unit": "lb" },
+          { "name": "parsley_dried", "note": "to sub for original 4 tbsp fresh chopped parsley", "amount": 1, "unit": "tbsp" },
+          { "name": "rice_white", "note": "DONT WASH; subs for original spanish rice; dont use long grain!!", "amount": 2, "unit": "cup" },
+          { "name": "water", "note": "to sub for chicken broth; use 5 c of liquid if using proper spanish rice", "amount": 3.75, "unit": "cup" },
+          { "name": "frozen_peas", "amount": 0.5, "unit": "cup" },
+          { "name": "shrimp", "note": "peeled, tail on; use about 12", "amount": 0.5, "unit": "lb" },
+          { "name": "mussels", "note": "cleaned properly (beards off); use about 10-12", "amount": 0.5, "unit": "lb" }
+        ],
+        "directions": [
+          "Don't wash rice before cooking.",
+          "If using frozen seafood, defrost overnight.",
+          "Olive oil skillet med heat. Cook onion, bell pepper, garlic, til onion is transparent.",
+          "Add tomato. bay leaf, paprika, saffron, salt, pepper. Stir and cook 5 min.",
+          "Add white wine. Cook 10 min.",
+          "Add chicken, half the parsley, and rice to pot. Cook 1 min.",
+          "Pour broth slowly all around pan. Jiggle pan to get rice into an even layer (DO NOT stir the mixture going forward)",
+          "Bring to boil. Reduce heat to med low. Shake pan gently back and forth once or twice during cooking. Cook 15-18 min uncovered.",
+          "Nestle seafood in. Sprinkle peas on top. Cook (NO stirring) for ~5 min.",
+          "Most of liquid should be absorbed and the rice on top should be nearly tender. (If rice not cooked for some reason, add 1/4c more water and keep cooking)",
+          "Remove pan from heat. Cover with lid and rest for 10 min.",
+          "Garnish with rest of parsley and serve."
         ]
       },
       {

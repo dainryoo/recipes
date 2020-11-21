@@ -367,7 +367,7 @@
         }, 
         "label": "spaghetti squash", 
         "name": "squash_spaghetti", 
-        "note": "bake at 400F for 30-60min, til tender and fluff; avg weight research: ", 
+        "note": "bake at 400F for 30-60min, til tender and fluff; avg weight research: 1082g (had 89g of skin)", 
         "per_100_gram": {
           "calories": 31.000000000000004, 
           "price": 0.37258122309244307, 
@@ -2782,31 +2782,6 @@
           "lb": 452.0, 
           "oz": 28.25
         }, 
-        "label": "ground pork (84%)", 
-        "name": "pork_ground_84", 
-        "note": "(84% lean)", 
-        "per_100_gram": {
-          "calories": 217.6991150442478, 
-          "price": 1.5464601769911506, 
-          "protein": 17.964601769911507
-        }, 
-        "price_per_unit": {
-          "price": 6.99, 
-          "unit": "lb"
-        }, 
-        "serving_nutrition": {
-          "amount": 4, 
-          "calories": 246, 
-          "grams": 113, 
-          "protein": 20.3, 
-          "unit": "oz"
-        }
-      }, 
-      {
-        "conversion_to_grams": {
-          "lb": 452.0, 
-          "oz": 28.25
-        }, 
         "label": "ground lamb", 
         "name": "lamb_ground", 
         "note": "(84% lean)", 
@@ -2824,6 +2799,31 @@
           "calories": 319, 
           "grams": 113, 
           "protein": 18.7, 
+          "unit": "oz"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "lb": 452.0, 
+          "oz": 28.25
+        }, 
+        "label": "ground pork (84%)", 
+        "name": "pork_ground_84", 
+        "note": "(84% lean)", 
+        "per_100_gram": {
+          "calories": 217.6991150442478, 
+          "price": 1.5464601769911506, 
+          "protein": 17.964601769911507
+        }, 
+        "price_per_unit": {
+          "price": 6.99, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 4, 
+          "calories": 246, 
+          "grams": 113, 
+          "protein": 20.3, 
           "unit": "oz"
         }
       }, 
