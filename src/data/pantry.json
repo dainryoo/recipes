@@ -1538,13 +1538,13 @@
       {
         "name": "lamb_ground",
         "label": "ground lamb",
-        "note": "(84% lean)",
+        "note": "atkins ranch?",
         "serving_nutrition": {
           "amount": 4,
           "unit": "oz",
           "grams": 113,
-          "calories": 319,
-          "protein": 18.7
+          "calories": 240,
+          "protein": 20
         },
         "price_per_unit": {
           "price": 8.99,
@@ -1975,7 +1975,7 @@
         "serving_nutrition": {
           "amount": 0.5,
           "unit": "cup",
-          "grams": 122,
+          "grams": 121,
           "calories": 25,
           "protein": 1
         },

@@ -12025,9 +12025,9 @@
           "Don't wash rice before cooking.", 
           "If using frozen seafood, defrost overnight.", 
           "Olive oil skillet med heat. Cook onion, bell pepper, garlic, til onion is transparent.", 
-          "Add tomato. bay leaf, paprika, saffron, salt, pepper. Stir and cook 5 min.", 
+          "Add tomato, bay leaf, paprika, saffron, salt, pepper, and chicken. Stir and cook 5 min.", 
           "Add white wine. Cook 10 min.", 
-          "Add chicken, half the parsley, and rice to pot. Cook 1 min.", 
+          "Add half the parsley and rice to pot. Cook 1 min.", 
           "Pour broth slowly all around pan. Jiggle pan to get rice into an even layer (DO NOT stir the mixture going forward)", 
           "Bring to boil. Reduce heat to med low. Shake pan gently back and forth once or twice during cooking. Cook 15-18 min uncovered.", 
           "Nestle seafood in. Sprinkle peas on top. Cook (NO stirring) for ~5 min.", 
@@ -12167,26 +12167,25 @@
             "unit": "tbsp"
           }, 
           {
-            "amount": 2, 
-            "amount_in_grams": 360.0, 
-            "calories": 1200.0000000000002, 
+            "amount": 1, 
+            "amount_in_grams": 180.0, 
+            "calories": 600.0000000000001, 
             "label": "white rice", 
             "name": "rice_white", 
             "note": "DONT WASH; subs for original spanish rice; dont use long grain!!", 
-            "price": 1.2698627701633045, 
-            "protein": 24.0, 
+            "price": 0.6349313850816523, 
+            "protein": 12.0, 
             "unit": "cup"
           }, 
           {
-            "amount": 3.75, 
-            "amount_in_grams": 900.0, 
+            "amount": 450, 
             "calories": 0.0, 
             "label": "water", 
             "name": "water", 
-            "note": "to sub for chicken broth; use 5 c of liquid if using proper spanish rice", 
+            "note": "to sub for chicken broth", 
             "price": 0.0, 
             "protein": 0.0, 
-            "unit": "cup"
+            "unit": "ml"
           }, 
           {
             "amount": 0.5, 
@@ -12221,9 +12220,9 @@
         "label": "paella", 
         "name": "paella", 
         "nutrition": {
-          "calories": 2433.560119047619, 
-          "price": 11.36847436291698, 
-          "protein": 110.80311309523809
+          "calories": 1833.560119047619, 
+          "price": 10.733542977835329, 
+          "protein": 98.80311309523809
         }
       }, 
       {
@@ -12239,12 +12238,12 @@
         "ingredients": [
           {
             "amount": 0.5, 
-            "calories": 640.2471150442478, 
+            "calories": 481.69061946902656, 
             "label": "ground lamb", 
             "name": "lamb_ground", 
             "note": "or beef", 
             "price": 4.510831946902655, 
-            "protein": 37.53172743362832, 
+            "protein": 40.14088495575222, 
             "unit": "lb"
           }, 
           {
@@ -12320,12 +12319,12 @@
           }, 
           {
             "amount": 28, 
-            "calories": 162.66118032786886, 
+            "calories": 164.0054876033058, 
             "label": "canned whole tomato", 
             "name": "canned_tomato_whole", 
             "note": "chopped and with juices; alt. 6 chopped tomatoes + 1/2c tomato sauce", 
             "price": 5.04, 
-            "protein": 6.506447213114755, 
+            "protein": 6.560219504132232, 
             "unit": "oz"
           }, 
           {
@@ -12392,9 +12391,9 @@
         "label": "shakshuka", 
         "name": "shakshuka", 
         "nutrition": {
-          "calories": 1641.7841287054503, 
+          "calories": 1484.5719404056656, 
           "price": 14.332255819267676, 
-          "protein": 84.1833829800764
+          "protein": 86.84631279321779
         }
       }
     ]

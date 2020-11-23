@@ -2784,11 +2784,11 @@
         }, 
         "label": "ground lamb", 
         "name": "lamb_ground", 
-        "note": "(84% lean)", 
+        "note": "atkins ranch?", 
         "per_100_gram": {
-          "calories": 282.3008849557522, 
+          "calories": 212.38938053097345, 
           "price": 1.9889380530973453, 
-          "protein": 16.548672566371682
+          "protein": 17.69911504424779
         }, 
         "price_per_unit": {
           "price": 8.99, 
@@ -2796,9 +2796,9 @@
         }, 
         "serving_nutrition": {
           "amount": 4, 
-          "calories": 319, 
+          "calories": 240, 
           "grams": 113, 
-          "protein": 18.7, 
+          "protein": 20, 
           "unit": "oz"
         }
       }, 
@@ -3525,18 +3525,18 @@
       }, 
       {
         "conversion_to_grams": {
-          "cup": 244.0, 
+          "cup": 242.0, 
           "lb": 453.59237, 
           "oz": 28.34952, 
-          "tbsp": 15.25, 
-          "tsp": 5.083333333333333
+          "tbsp": 15.125, 
+          "tsp": 5.041666666666667
         }, 
         "label": "canned whole tomato", 
         "name": "canned_tomato_whole", 
         "per_100_gram": {
-          "calories": 20.491803278688526, 
+          "calories": 20.66115702479339, 
           "price": 0.6349313850816521, 
-          "protein": 0.819672131147541
+          "protein": 0.8264462809917356
         }, 
         "price_per_unit": {
           "price": 0.18, 
@@ -3545,7 +3545,7 @@
         "serving_nutrition": {
           "amount": 0.5, 
           "calories": 25, 
-          "grams": 122, 
+          "grams": 121, 
           "protein": 1, 
           "unit": "cup"
         }
