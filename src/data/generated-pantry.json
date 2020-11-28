@@ -2679,7 +2679,7 @@
         }, 
         "label": "pork neck bone", 
         "name": "pork_neck_bone", 
-        "note": "each bone is about 85.5 cal? 3 bones is about 1 lb???", 
+        "note": "each bone is about 85.5 cal? 3 bones is about 1 lb???. \nResearch: 26.12oz (5bones). 23oz (5 bones)", 
         "per_100_gram": {
           "calories": 183.75, 
           "price": 0.0, 
@@ -5274,11 +5274,11 @@
       }, 
       {
         "conversion_to_grams": {
-          "cup": 240.0, 
+          "cup": 120.0, 
           "lb": 453.59237, 
           "oz": 28.34952, 
-          "tbsp": 15.0, 
-          "tsp": 5.0
+          "tbsp": 7.5, 
+          "tsp": 2.5
         }, 
         "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
         "name": "gochugaru", 
@@ -5292,7 +5292,7 @@
           "unit": "oz"
         }, 
         "serving_nutrition": {
-          "amount": 0.25, 
+          "amount": 0.5, 
           "calories": 4, 
           "grams": 1.25, 
           "protein": 0, 

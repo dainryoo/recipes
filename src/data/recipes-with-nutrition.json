@@ -750,12 +750,12 @@
           }, 
           {
             "amount": 0.125, 
-            "amount_in_grams": 0.625, 
-            "calories": 2.0, 
+            "amount_in_grams": 0.3125, 
+            "calories": 1.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "note": "or cayenne", 
-            "price": 0.008157104600007337, 
+            "price": 0.004078552300003669, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -774,8 +774,8 @@
         "label": "breakfast patties", 
         "name": "breakfast_patties", 
         "nutrition": {
-          "calories": 1012.9532699115045, 
-          "price": 7.5548948078781715, 
+          "calories": 1011.9532699115045, 
+          "price": 7.550816255578168, 
           "protein": 81.78616312684366
         }
       }, 
@@ -898,11 +898,11 @@
               }, 
               {
                 "amount": 0.5, 
-                "amount_in_grams": 2.5, 
-                "calories": 8.0, 
+                "amount_in_grams": 1.25, 
+                "calories": 4.0, 
                 "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
-                "price": 0.03262841840002935, 
+                "price": 0.016314209200014675, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }, 
@@ -943,8 +943,8 @@
         "label": "pizza rolls", 
         "name": "pizza_rolls", 
         "nutrition": {
-          "calories": 1236.5624999999998, 
-          "price": 2.545668309420085, 
+          "calories": 1232.5624999999998, 
+          "price": 2.529354100220071, 
           "protein": 39.78034166666667
         }
       }
@@ -3710,11 +3710,11 @@
           }, 
           {
             "amount": 1, 
-            "amount_in_grams": 15.0, 
-            "calories": 48.0, 
+            "amount_in_grams": 7.5, 
+            "calories": 24.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
-            "price": 0.19577051040017607, 
+            "price": 0.09788525520008803, 
             "protein": 0.0, 
             "unit": "tbsp"
           }, 
@@ -3742,8 +3742,8 @@
         "label": "kimchi fried rice (\ubcf6\uc74c\ubc25)", 
         "name": "kimchi_fried_rice", 
         "nutrition": {
-          "calories": 2661.7700000000004, 
-          "price": 5.790147533462885, 
+          "calories": 2637.7700000000004, 
+          "price": 5.692262278262797, 
           "protein": 91.9485
         }
       }, 
@@ -3847,11 +3847,11 @@
           }, 
           {
             "amount": 0.5, 
-            "amount_in_grams": 2.5, 
-            "calories": 8.0, 
+            "amount_in_grams": 1.25, 
+            "calories": 4.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
-            "price": 0.03262841840002935, 
+            "price": 0.016314209200014675, 
             "protein": 0.0, 
             "unit": "tsp"
           }
@@ -3859,8 +3859,8 @@
         "label": "steamed egg (\uacc4\ub780\ucc1c)", 
         "name": "steamed_egg", 
         "nutrition": {
-          "calories": 134.42857142857144, 
-          "price": 0.49289627554288645, 
+          "calories": 130.42857142857144, 
+          "price": 0.4765820663428718, 
           "protein": 13.214285714285715
         }
       }, 
@@ -4161,11 +4161,11 @@
           }, 
           {
             "amount": 1, 
-            "amount_in_grams": 15.0, 
-            "calories": 48.0, 
+            "amount_in_grams": 7.5, 
+            "calories": 24.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
-            "price": 0.19577051040017607, 
+            "price": 0.09788525520008803, 
             "protein": 0.0, 
             "unit": "tbsp"
           }, 
@@ -4213,8 +4213,8 @@
         "label": "omurice (\uc624\ubbc0\ub77c\uc774\uc2a4)", 
         "name": "omurice", 
         "nutrition": {
-          "calories": 1998.1874893333334, 
-          "price": 5.042388674835471, 
+          "calories": 1974.1874893333334, 
+          "price": 4.944503419635383, 
           "protein": 56.634874999999994
         }
       }, 
@@ -4458,12 +4458,12 @@
           }, 
           {
             "amount": 0.75, 
-            "amount_in_grams": 11.25, 
-            "calories": 36.0, 
+            "amount_in_grams": 5.625, 
+            "calories": 18.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "note": "try reducing?", 
-            "price": 0.14682788280013206, 
+            "price": 0.07341394140006603, 
             "protein": 0.0, 
             "unit": "tbsp"
           }, 
@@ -4499,8 +4499,8 @@
         "label": "tteokbokki (\ub5a1\ubcf6\uae30)", 
         "name": "tteokbokki", 
         "nutrition": {
-          "calories": 383.2058823529412, 
-          "price": 1.4269442022298788, 
+          "calories": 365.2058823529412, 
+          "price": 1.353530260829813, 
           "protein": 22.235294117647058
         }
       }, 
@@ -5148,12 +5148,12 @@
           }, 
           {
             "amount": 4, 
-            "amount_in_grams": 60.0, 
-            "calories": 192.0, 
+            "amount_in_grams": 30.0, 
+            "calories": 96.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "note": "try decreasing", 
-            "price": 0.7830820416007043, 
+            "price": 0.39154102080035214, 
             "protein": 0.0, 
             "unit": "tbsp"
           }, 
@@ -5230,8 +5230,8 @@
         "label": "kimchi (\uae40\uce58)", 
         "name": "kimchi", 
         "nutrition": {
-          "calories": 534.8575428571428, 
-          "price": 1.6982235081046455, 
+          "calories": 438.8575428571429, 
+          "price": 1.3066824873042937, 
           "protein": 37.35949442857143
         }
       }, 
@@ -5382,12 +5382,12 @@
               }, 
               {
                 "amount": 0.25, 
-                "amount_in_grams": 3.75, 
-                "calories": 12.0, 
+                "amount_in_grams": 1.875, 
+                "calories": 6.0, 
                 "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
                 "note": "originally 1/2 tbsp?", 
-                "price": 0.04894262760004402, 
+                "price": 0.02447131380002201, 
                 "protein": 0.0, 
                 "unit": "tbsp"
               }, 
@@ -5440,8 +5440,8 @@
         "label": "gamjatang (\uac10\uc790\ud0d5)", 
         "name": "gamjatang", 
         "nutrition": {
-          "calories": 3650.2666644313726, 
-          "price": 10.123965072322374, 
+          "calories": 3644.2666644313726, 
+          "price": 10.09949375852235, 
           "protein": 365.8934420541176
         }
       }, 
@@ -5626,12 +5626,12 @@
           }, 
           {
             "amount": 2, 
-            "amount_in_grams": 10.0, 
-            "calories": 32.0, 
+            "amount_in_grams": 5.0, 
+            "calories": 16.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "note": "originally 2 tbsp", 
-            "price": 0.1305136736001174, 
+            "price": 0.0652568368000587, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -5711,8 +5711,8 @@
         "label": "spicy pork stirfry (\uc81c\uc721\ubcf6\uc74c)", 
         "name": "spicy_pork_stirfry", 
         "nutrition": {
-          "calories": 2768.3334365781707, 
-          "price": 9.032895409294511, 
+          "calories": 2752.3334365781707, 
+          "price": 8.967638572494451, 
           "protein": 48.350088053097345
         }
       }, 
@@ -6045,11 +6045,11 @@
           }, 
           {
             "amount": 1, 
-            "amount_in_grams": 15.0, 
-            "calories": 48.0, 
+            "amount_in_grams": 7.5, 
+            "calories": 24.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
-            "price": 0.19577051040017607, 
+            "price": 0.09788525520008803, 
             "protein": 0.0, 
             "unit": "tbsp"
           }
@@ -6057,8 +6057,8 @@
         "label": "radish kimchi", 
         "name": "radish_kimchi", 
         "nutrition": {
-          "calories": 167.16288047337275, 
-          "price": 0.4427556947984208, 
+          "calories": 143.16288047337275, 
+          "price": 0.34487043959833275, 
           "protein": 4.208235976331361
         }
       }, 
@@ -6085,11 +6085,11 @@
               }, 
               {
                 "amount": 2, 
-                "amount_in_grams": 30.0, 
-                "calories": 96.0, 
+                "amount_in_grams": 15.0, 
+                "calories": 48.0, 
                 "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
-                "price": 0.39154102080035214, 
+                "price": 0.19577051040017607, 
                 "protein": 0.0, 
                 "unit": "tbsp"
               }, 
@@ -6254,8 +6254,8 @@
         "label": "spicy braised chicken (\ub2ed\ubcf6\uc74c\ud0d5)", 
         "name": "spicy_braised_chicken", 
         "nutrition": {
-          "calories": 2284.5594047619047, 
-          "price": 16.019647782915133, 
+          "calories": 2236.5594047619047, 
+          "price": 15.823877272514956, 
           "protein": 187.37001785714287
         }
       }
@@ -6949,11 +6949,11 @@
               }, 
               {
                 "amount": 0.5, 
-                "amount_in_grams": 2.5, 
-                "calories": 8.0, 
+                "amount_in_grams": 1.25, 
+                "calories": 4.0, 
                 "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
-                "price": 0.03262841840002935, 
+                "price": 0.016314209200014675, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }, 
@@ -7005,8 +7005,8 @@
         "label": "dumplings", 
         "name": "dumplings", 
         "nutrition": {
-          "calories": 2026.862261904762, 
-          "price": 5.74962754961186, 
+          "calories": 2022.862261904762, 
+          "price": 5.733313340411846, 
           "protein": 81.396125
         }
       }, 
@@ -7595,11 +7595,11 @@
               }, 
               {
                 "amount": 1, 
-                "amount_in_grams": 5.0, 
-                "calories": 16.0, 
+                "amount_in_grams": 2.5, 
+                "calories": 8.0, 
                 "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
-                "price": 0.0652568368000587, 
+                "price": 0.03262841840002935, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }, 
@@ -7687,8 +7687,8 @@
         "label": "singapore noodles", 
         "name": "singapore_noodles", 
         "nutrition": {
-          "calories": 1309.2564761904764, 
-          "price": 6.18643441569166, 
+          "calories": 1301.2564761904764, 
+          "price": 6.153805997291631, 
           "protein": 72.40052952380954
         }
       }, 
@@ -8159,11 +8159,11 @@
               }, 
               {
                 "amount": 0.5, 
-                "amount_in_grams": 2.5, 
-                "calories": 8.0, 
+                "amount_in_grams": 1.25, 
+                "calories": 4.0, 
                 "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
-                "price": 0.03262841840002935, 
+                "price": 0.016314209200014675, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }, 
@@ -8206,8 +8206,8 @@
         "label": "cumin lamb", 
         "name": "cumin_lamb", 
         "nutrition": {
-          "calories": 1705.7183716814159, 
-          "price": 12.66399733337764, 
+          "calories": 1701.7183716814159, 
+          "price": 12.647683124177625, 
           "protein": 80.63870486725664
         }
       }, 
@@ -9180,11 +9180,11 @@
           }, 
           {
             "amount": 0.5, 
-            "amount_in_grams": 2.5, 
-            "calories": 8.0, 
+            "amount_in_grams": 1.25, 
+            "calories": 4.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
-            "price": 0.03262841840002935, 
+            "price": 0.016314209200014675, 
             "protein": 0.0, 
             "unit": "tsp"
           }
@@ -9192,8 +9192,8 @@
         "label": "pad thai", 
         "name": "pad_thai", 
         "nutrition": {
-          "calories": 781.7557142857142, 
-          "price": 5.075275945325823, 
+          "calories": 777.7557142857142, 
+          "price": 5.058961736125809, 
           "protein": 56.33385714285714
         }
       }, 
@@ -9951,11 +9951,11 @@
               }, 
               {
                 "amount": 0.5, 
-                "amount_in_grams": 2.5, 
-                "calories": 8.0, 
+                "amount_in_grams": 1.25, 
+                "calories": 4.0, 
                 "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
-                "price": 0.03262841840002935, 
+                "price": 0.016314209200014675, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }, 
@@ -10063,8 +10063,8 @@
         "label": "banh mi", 
         "name": "banh_mi", 
         "nutrition": {
-          "calories": 2557.4539285714286, 
-          "price": 14.90122981549524, 
+          "calories": 2553.4539285714286, 
+          "price": 14.884915606295225, 
           "protein": 150.1298571428572
         }
       }
@@ -10753,11 +10753,11 @@
           }, 
           {
             "amount": 0.75, 
-            "amount_in_grams": 3.75, 
-            "calories": 12.0, 
+            "amount_in_grams": 1.875, 
+            "calories": 6.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
-            "price": 0.04894262760004402, 
+            "price": 0.02447131380002201, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -10822,8 +10822,8 @@
         "label": "vegan mac & cheese", 
         "name": "vegan_mac_n_cheese", 
         "nutrition": {
-          "calories": 2524.584238095238, 
-          "price": 8.39043058226032, 
+          "calories": 2518.584238095238, 
+          "price": 8.365959268460298, 
           "protein": 91.43796880952382
         }
       }, 
@@ -10874,11 +10874,11 @@
           }, 
           {
             "amount": 0.5, 
-            "amount_in_grams": 2.5, 
-            "calories": 8.0, 
+            "amount_in_grams": 1.25, 
+            "calories": 4.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
-            "price": 0.03262841840002935, 
+            "price": 0.016314209200014675, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -10906,8 +10906,8 @@
         "label": "refried beans", 
         "name": "refried_beans", 
         "nutrition": {
-          "calories": 458.5512474358975, 
-          "price": 1.584950324292381, 
+          "calories": 454.5512474358975, 
+          "price": 1.5686361150923662, 
           "protein": 23.30993923076923
         }
       }, 
@@ -11602,12 +11602,12 @@
           }, 
           {
             "amount": 2, 
-            "amount_in_grams": 10.0, 
-            "calories": 32.0, 
+            "amount_in_grams": 5.0, 
+            "calories": 16.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
             "note": "to sub sweet paprika", 
-            "price": 0.1305136736001174, 
+            "price": 0.0652568368000587, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -11657,8 +11657,8 @@
         "label": "ropa vieja", 
         "name": "ropa_vieja", 
         "nutrition": {
-          "calories": 3510.3706150112507, 
-          "price": 20.720450255476617, 
+          "calories": 3494.3706150112507, 
+          "price": 20.65519341867656, 
           "protein": 291.30839114271936
         }
       }, 
@@ -11889,11 +11889,11 @@
             "ingredients": [
               {
                 "amount": 0.5, 
-                "amount_in_grams": 2.5, 
-                "calories": 8.0, 
+                "amount_in_grams": 1.25, 
+                "calories": 4.0, 
                 "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
-                "price": 0.03262841840002935, 
+                "price": 0.016314209200014675, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }, 
@@ -12021,8 +12021,8 @@
         "label": "jambalaya", 
         "name": "jambalaya", 
         "nutrition": {
-          "calories": 1768.9014124902421, 
-          "price": 10.162165822109465, 
+          "calories": 1764.9014124902421, 
+          "price": 10.14585161290945, 
           "protein": 104.94192776736922
         }
       }, 
@@ -12486,11 +12486,11 @@
           }, 
           {
             "amount": 0.125, 
-            "amount_in_grams": 0.625, 
-            "calories": 2.0, 
+            "amount_in_grams": 0.3125, 
+            "calories": 1.0, 
             "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
             "name": "gochugaru", 
-            "price": 0.008157104600007337, 
+            "price": 0.004078552300003669, 
             "protein": 0.0, 
             "unit": "tsp"
           }
@@ -12498,8 +12498,8 @@
         "label": "shakshuka", 
         "name": "shakshuka", 
         "nutrition": {
-          "calories": 1484.5719404056656, 
-          "price": 14.332255819267676, 
+          "calories": 1483.5719404056656, 
+          "price": 14.328177266967671, 
           "protein": 86.84631279321779
         }
       }
