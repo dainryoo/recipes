@@ -2998,6 +2998,7 @@
       {
         "name": "salted_shrimp",
         "label": "salted shrimp (새우젓)",
+        "note": "1tsp ~9g???",
         "serving_nutrition": {
           "amount": 1,
           "unit": "oz",

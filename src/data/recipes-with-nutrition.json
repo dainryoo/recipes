@@ -708,13 +708,12 @@
             "unit": "tsp"
           }, 
           {
-            "amount": 1, 
-            "amount_in_grams": 6.0, 
+            "amount": 0.333333, 
+            "amount_in_grams": 1.999998, 
             "calories": 0.0, 
             "label": "salt", 
             "name": "salt", 
-            "note": "bit salty..", 
-            "price": 0.01693150360217739, 
+            "price": 0.005643828890224596, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -776,7 +775,7 @@
         "name": "breakfast_patties", 
         "nutrition": {
           "calories": 1012.9532699115045, 
-          "price": 7.566182482590123, 
+          "price": 7.5548948078781715, 
           "protein": 81.78616312684366
         }
       }, 
@@ -10503,16 +10502,15 @@
       }, 
       {
         "directions": [
-          "Large bowl, add water, milk, egg, yeast, sugar, butter, flour, and salt.", 
-          "Mix til shaggy mass.", 
+          "Melt butter and mix with milk. Into room temp mix, add yeast and let rest.", 
+          "In large bowl, mix flour, sugar, salt. Add in egg and milk mix.", 
+          "Mix til shaggy mass. Start kneading in bowl. Will be messy at first, but will get smoother as you knead.", 
           "Knead til windowpane test passes (take piece about size of golf ball, stretch it out between fingers and thumbs. if stretches without breaking, good)", 
-          "Dough will be very tacky. Shape into ball, place in lightly floured bowl, cover, rest til tripled in size (~1hr)", 
+          "Shape into ball, place in lightly floured bowl, cover, rest til tripled in size (~1hr)", 
           "Punch down and divide into three pieces.", 
-          "On a floured surface, roll each piece into a tall oval.", 
-          "Fold the oval sides into the middle (kind of looks like a cannoli)", 
-          "Roll up (from top to bottom)", 
+          "On a floured surface, roll each piece into a tall oval. Fold the oval sides into the middle (kind of looks like a cannoli). Roll up (from top to bottom)", 
           "Place in nonstick pan (9x5). Cover and let proof til doubled (40 min~1hr)", 
-          "Bake at 355F 20-25 min."
+          "Bake at 355F 20 min, up to 25min if needed"
         ], 
         "ingredients": [
           {
@@ -10520,7 +10518,7 @@
             "calories": 0.0, 
             "label": "water", 
             "name": "water", 
-            "note": "warm", 
+            "note": "boiling", 
             "price": 0.0, 
             "protein": 0.0, 
             "unit": "g"
@@ -11673,7 +11671,8 @@
           "Peel some of skin off garlic head. Slice top off to expose the garlic cloves. Place garlic in pot.", 
           "Reduce heat to med-low, cover with lid and cook ~1 hr.", 
           "Wash rice thoroughly, add to pot by spreading it on top (don't mix!!) evenly.", 
-          "Add 2 c water. Reduce heat to med low, cover with lid and cook until water absorbed fully (about 20 min)."
+          "Add 1.5 c water. Cook with cover on med high for 15 min.", 
+          "Reduce heat to med low, cover again and cook until water absorbed fully (~5min, maybe more)."
         ], 
         "ingredients": [
           {
@@ -11687,24 +11686,23 @@
             "unit": "lb"
           }, 
           {
-            "amount": 1.5, 
-            "amount_in_grams": 270.0, 
-            "calories": 960.0, 
+            "amount": 1.25, 
+            "amount_in_grams": 225.0, 
+            "calories": 800.0, 
             "label": "long grain rice", 
             "name": "rice_long_grain", 
-            "note": "up to 2 cup", 
-            "price": 0.7619176620979826, 
-            "protein": 18.000000000000004, 
+            "note": "up to 1.5 cup", 
+            "price": 0.6349313850816521, 
+            "protein": 15.0, 
             "unit": "cup"
           }, 
           {
             "amount": 0.5, 
-            "amount_in_grams": 112.0, 
-            "calories": 960.0000000000002, 
-            "label": "canola oil", 
-            "name": "oil", 
-            "note": "or olive oil", 
-            "price": 0.43457525912255307, 
+            "amount_in_grams": 120.0, 
+            "calories": 960.0, 
+            "label": "olive oil", 
+            "name": "oil_olive", 
+            "price": 1.3968490471796349, 
             "protein": 0.0, 
             "unit": "cup"
           }, 
@@ -11713,7 +11711,7 @@
             "calories": 60, 
             "label": "onion", 
             "name": "onion", 
-            "note": "diced; up to 2", 
+            "note": "diced or thinly sliced; up to 2", 
             "price": 0.33069339327731634, 
             "protein": 1.65, 
             "unit": ""
@@ -11723,7 +11721,7 @@
             "calories": 118.0, 
             "label": "carrot", 
             "name": "carrot", 
-            "note": "cut into 2 in. sticks", 
+            "note": "cut into thick 2 in. sticks", 
             "price": 0.6285820019415229, 
             "protein": 2.68, 
             "unit": ""
@@ -11784,9 +11782,9 @@
         "label": "lamb palov", 
         "name": "lamb_palov", 
         "nutrition": {
-          "calories": 3737.8524867724873, 
-          "price": 19.52099509684627, 
-          "protein": 147.60885185185182
+          "calories": 3577.852486772487, 
+          "price": 20.356282607887024, 
+          "protein": 144.60885185185182
         }
       }, 
       {

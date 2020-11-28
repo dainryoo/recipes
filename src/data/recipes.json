@@ -163,7 +163,7 @@
         "ingredients": [
           { "name": "pork_ground_84", "amount": 1, "unit": "lb" },
           { "name": "sage_ground", "amount": 2, "unit": "tsp" },
-          { "name": "salt", "note": "bit salty..", "amount": 1, "unit": "tsp" },
+          { "name": "salt", "amount": 0.333333, "unit": "tsp" },
           { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
           { "name": "oregano", "note": "or thyme or rosemary", "amount": 0.25, "unit": "tsp" },
           { "name": "sugar_brown", "amount": 1, "unit": "tsp" },
@@ -2532,7 +2532,7 @@
         "name": "easier_milk_bread",
         "label": "easier milk bread",
         "ingredients": [
-          { "name": "water", "note": "warm", "amount": 80, "unit": "g" },
+          { "name": "water", "note": "boiling", "amount": 80, "unit": "g" },
           { "name": "milk_oat", "note": "warm (~95F)", "amount": 40, "unit": "g" },
           { "name": "egg", "amount": 1, "unit": "" },
           { "name": "yeast", "amount": 6, "unit": "g" },
@@ -2542,16 +2542,15 @@
           { "name": "salt", "amount": 5, "unit": "g" }
         ],
         "directions": [
-          "Large bowl, add water, milk, egg, yeast, sugar, butter, flour, and salt.",
-          "Mix til shaggy mass.",
+          "Melt butter and mix with milk. Into room temp mix, add yeast and let rest.",
+          "In large bowl, mix flour, sugar, salt. Add in egg and milk mix.",
+          "Mix til shaggy mass. Start kneading in bowl. Will be messy at first, but will get smoother as you knead.",
           "Knead til windowpane test passes (take piece about size of golf ball, stretch it out between fingers and thumbs. if stretches without breaking, good)",
-          "Dough will be very tacky. Shape into ball, place in lightly floured bowl, cover, rest til tripled in size (~1hr)",
+          "Shape into ball, place in lightly floured bowl, cover, rest til tripled in size (~1hr)",
           "Punch down and divide into three pieces.",
-          "On a floured surface, roll each piece into a tall oval.",
-          "Fold the oval sides into the middle (kind of looks like a cannoli)",
-          "Roll up (from top to bottom)",
+          "On a floured surface, roll each piece into a tall oval. Fold the oval sides into the middle (kind of looks like a cannoli). Roll up (from top to bottom)",
           "Place in nonstick pan (9x5). Cover and let proof til doubled (40 min~1hr)",
-          "Bake at 355F 20-25 min."
+          "Bake at 355F 20 min, up to 25min if needed"
         ]
       },
       {
@@ -2780,10 +2779,10 @@
         "label": "lamb palov",
         "ingredients": [
           { "name": "lamb_leg", "note": "cut into 1 in. cubes; up to 2lb", "amount": 1.5, "unit": "lb" },
-          { "name": "rice_long_grain", "note": "up to 2 cup", "amount": 1.5, "unit": "cup" },
-          { "name": "oil", "note": "or olive oil", "amount": 0.5, "unit": "cup" },
-          { "name": "onion", "note": "diced; up to 2", "amount": 1, "unit": "" },
-          { "name": "carrot", "note": "cut into 2 in. sticks", "amount": 4, "unit": "" },
+          { "name": "rice_long_grain", "note": "up to 1.5 cup", "amount": 1.25, "unit": "cup" },
+          { "name": "oil_olive", "amount": 0.5, "unit": "cup" },
+          { "name": "onion", "note": "diced or thinly sliced; up to 2", "amount": 1, "unit": "" },
+          { "name": "carrot", "note": "cut into thick 2 in. sticks", "amount": 4, "unit": "" },
           { "name": "garlic", "note": "(a whole head)", "amount": 10, "unit": "" },
           { "name": "salt", "amount": 1, "unit": "tbsp" },
           { "name": "peppercorn", "amount": 1, "unit": "tsp" },
@@ -2798,7 +2797,8 @@
           "Peel some of skin off garlic head. Slice top off to expose the garlic cloves. Place garlic in pot.",
           "Reduce heat to med-low, cover with lid and cook ~1 hr.",
           "Wash rice thoroughly, add to pot by spreading it on top (don't mix!!) evenly.",
-          "Add 2 c water. Reduce heat to med low, cover with lid and cook until water absorbed fully (about 20 min)."
+          "Add 1.5 c water. Cook with cover on med high for 15 min.",
+          "Reduce heat to med low, cover again and cook until water absorbed fully (~5min, maybe more)."
         ]
       },
       {
