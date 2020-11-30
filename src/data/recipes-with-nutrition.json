@@ -3043,7 +3043,7 @@
             "label": "shredded zucchini", 
             "name": "zucchini_shredded", 
             "note": "don't squeeze moisture out!", 
-            "price": 0.3527396194958041, 
+            "price": 1.0546914622924544, 
             "protein": 1.936, 
             "unit": "cup"
           }
@@ -3052,7 +3052,7 @@
         "name": "zucchini_bread", 
         "nutrition": {
           "calories": 1628.4666666666667, 
-          "price": 3.087209000282498, 
+          "price": 3.7891608430791486, 
           "protein": 26.17741666666667
         }
       }, 
@@ -4053,7 +4053,7 @@
             "calories": 284, 
             "label": "potato", 
             "name": "potato", 
-            "price": 0.8135057474621983, 
+            "price": 1.2121235637186754, 
             "protein": 7.56, 
             "unit": ""
           }, 
@@ -4090,7 +4090,7 @@
         "name": "korean_curry", 
         "nutrition": {
           "calories": 1760.166666666667, 
-          "price": 4.340990480615066, 
+          "price": 4.739608296871543, 
           "protein": 30.388333333333335
         }
       }, 
@@ -4290,7 +4290,7 @@
             "calories": 27.45, 
             "label": "zucchini", 
             "name": "zucchini", 
-            "price": 0.3560465534285773, 
+            "price": 1.0645791947514462, 
             "protein": 1.955, 
             "unit": ""
           }, 
@@ -4299,7 +4299,7 @@
             "calories": 284, 
             "label": "potato", 
             "name": "potato", 
-            "price": 0.8135057474621983, 
+            "price": 1.2121235637186754, 
             "protein": 7.56, 
             "unit": ""
           }
@@ -4308,7 +4308,7 @@
         "name": "soybean_paste_soup", 
         "nutrition": {
           "calories": 401.1, 
-          "price": 3.0892276484514793, 
+          "price": 4.196378106030826, 
           "protein": 12.2515
         }
       }, 
@@ -4623,7 +4623,7 @@
             "calories": 284, 
             "label": "potato", 
             "name": "potato", 
-            "price": 0.8135057474621983, 
+            "price": 1.2121235637186754, 
             "protein": 7.56, 
             "unit": ""
           }, 
@@ -4632,7 +4632,7 @@
             "calories": 54.9, 
             "label": "zucchini", 
             "name": "zucchini", 
-            "price": 0.7120931068571545, 
+            "price": 2.1291583895028925, 
             "protein": 3.91, 
             "unit": ""
           }, 
@@ -4718,7 +4718,7 @@
         "name": "jjajangmyeon", 
         "nutrition": {
           "calories": 1659.2994766224192, 
-          "price": 6.941582118655876, 
+          "price": 8.757265217558091, 
           "protein": 76.1713277300885
         }
       }, 
@@ -5118,12 +5118,12 @@
         "ingredients": [
           {
             "amount": 0.5, 
-            "calories": 244.9404, 
+            "calories": 88.4507, 
             "label": "napa cabbage", 
             "name": "cabbage_napa", 
             "note": "about 2 lb", 
-            "price": 0.0, 
-            "protein": 24.289923, 
+            "price": 1.185002516686954, 
+            "protein": 10.20585, 
             "unit": ""
           }, 
           {
@@ -5230,9 +5230,9 @@
         "label": "kimchi (\uae40\uce58)", 
         "name": "kimchi", 
         "nutrition": {
-          "calories": 438.8575428571429, 
-          "price": 1.3066824873042937, 
-          "protein": 37.35949442857143
+          "calories": 282.3678428571429, 
+          "price": 2.4916850039912477, 
+          "protein": 23.27542142857143
         }
       }, 
       {
@@ -5264,7 +5264,7 @@
                 "label": "pork neck bone", 
                 "name": "pork_neck_bone", 
                 "note": "up to 3 lb", 
-                "price": 0.0, 
+                "price": 13.49554319963594, 
                 "protein": 293.41732499999995, 
                 "unit": "lb"
               }, 
@@ -5310,12 +5310,12 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 163.29312, 
+                "calories": 58.96696, 
                 "label": "napa cabbage", 
                 "name": "cabbage_napa", 
                 "note": "cut off the core", 
-                "price": 0.0, 
-                "protein": 16.1932344, 
+                "price": 0.7899993555888077, 
+                "protein": 6.8038799999999995, 
                 "unit": "lb"
               }
             ], 
@@ -5330,7 +5330,7 @@
                 "label": "potato", 
                 "name": "potato", 
                 "note": "peeled; up to 3", 
-                "price": 1.6270114949243966, 
+                "price": 2.4242471274373507, 
                 "protein": 15.12, 
                 "unit": ""
               }, 
@@ -5360,7 +5360,7 @@
                 "label": "perilla leaf", 
                 "name": "perilla_leaf", 
                 "note": "up to 12", 
-                "price": 0.0, 
+                "price": 0.3950000002978821, 
                 "protein": 3.68, 
                 "unit": ""
               }
@@ -5439,9 +5439,9 @@
         "label": "gamjatang (\uac10\uc790\ud0d5)", 
         "name": "gamjatang", 
         "nutrition": {
-          "calories": 3650.2666644313726, 
-          "price": 10.123965072322374, 
-          "protein": 365.8934420541176
+          "calories": 3545.940504431373, 
+          "price": 25.601743260357953, 
+          "protein": 356.5040876541176
         }
       }, 
       {
@@ -5729,7 +5729,7 @@
             "calories": 1631.7269734513275, 
             "label": "beef short rib", 
             "name": "beef_short_rib", 
-            "price": 0.0, 
+            "price": 10.52192946902655, 
             "protein": 117.41208849557522, 
             "unit": "lb"
           }, 
@@ -5739,7 +5739,7 @@
             "label": "daikon radish", 
             "name": "radish_daikon", 
             "note": "cut into small pieces", 
-            "price": 0.0, 
+            "price": 1.855454491000367, 
             "protein": 2.03, 
             "unit": ""
           }, 
@@ -5820,7 +5820,7 @@
         "name": "galbitang", 
         "nutrition": {
           "calories": 1830.9869734513272, 
-          "price": 2.573357359737464, 
+          "price": 14.95074131976438, 
           "protein": 124.36208849557524
         }
       }, 
@@ -5978,7 +5978,7 @@
             "label": "daikon radish", 
             "name": "radish_daikon", 
             "note": "about 1 radish", 
-            "price": 0.0, 
+            "price": 2.4899979688811786, 
             "protein": 2.724235976331361, 
             "unit": "lb"
           }, 
@@ -6057,7 +6057,7 @@
         "name": "radish_kimchi", 
         "nutrition": {
           "calories": 143.16288047337275, 
-          "price": 0.34487043959833275, 
+          "price": 2.8348684084795113, 
           "protein": 4.208235976331361
         }
       }, 
@@ -6201,7 +6201,7 @@
                 "label": "potato", 
                 "name": "potato", 
                 "note": "up to 4; peeled, big 2\" curry-style chunks", 
-                "price": 1.6270114949243966, 
+                "price": 2.4242471274373507, 
                 "protein": 15.12, 
                 "unit": ""
               }, 
@@ -6254,7 +6254,7 @@
         "name": "spicy_braised_chicken", 
         "nutrition": {
           "calories": 2236.5594047619047, 
-          "price": 15.823877272514956, 
+          "price": 16.621112905027907, 
           "protein": 187.37001785714287
         }
       }
@@ -8754,7 +8754,7 @@
                 "label": "shallot", 
                 "name": "shallot", 
                 "note": "cut in quarters", 
-                "price": 0.13227735731092655, 
+                "price": 0.527786655670597, 
                 "protein": 1.5, 
                 "unit": ""
               }
@@ -8883,7 +8883,7 @@
         "name": "ginger_chicken", 
         "nutrition": {
           "calories": 1252.5216666666668, 
-          "price": 10.645714309489959, 
+          "price": 11.04122360784963, 
           "protein": 124.69808333333333
         }
       }
@@ -9600,7 +9600,7 @@
                 "calories": 29.25, 
                 "label": "romaine leaf", 
                 "name": "romaine_leaf", 
-                "price": 0.4299014112605113, 
+                "price": 3.920700870695862, 
                 "protein": 2.655, 
                 "unit": ""
               }, 
@@ -9623,7 +9623,7 @@
         "name": "vietnamese_bun", 
         "nutrition": {
           "calories": 2597.5046428571427, 
-          "price": 18.155468044325556, 
+          "price": 21.646267503760903, 
           "protein": 176.4488839285714
         }
       }, 
@@ -9871,7 +9871,7 @@
                 "label": "daikon radish", 
                 "name": "radish_daikon", 
                 "note": "julienned", 
-                "price": 0.0, 
+                "price": 3.710908982000734, 
                 "protein": 4.06, 
                 "unit": ""
               }, 
@@ -10023,7 +10023,7 @@
                 "calories": 100.00000000000001, 
                 "label": "light mayo", 
                 "name": "mayo_light", 
-                "price": 0.0, 
+                "price": 0.3068835027894652, 
                 "protein": 0.0, 
                 "unit": "tbsp"
               }, 
@@ -10065,7 +10065,7 @@
         "name": "banh_mi", 
         "nutrition": {
           "calories": 2473.4539285714286, 
-          "price": 14.884915606295225, 
+          "price": 18.902708091085422, 
           "protein": 148.1298571428572
         }
       }
@@ -11099,7 +11099,7 @@
                 "label": "potato", 
                 "name": "potato", 
                 "note": "peeled", 
-                "price": 2.440517242386595, 
+                "price": 3.636370691156026, 
                 "protein": 22.68, 
                 "unit": ""
               }, 
@@ -11334,7 +11334,7 @@
         "name": "shepherds_pie", 
         "nutrition": {
           "calories": 2766.205773809523, 
-          "price": 12.181384142215407, 
+          "price": 13.377237590984839, 
           "protein": 117.29066666666668
         }
       }, 
@@ -11619,7 +11619,7 @@
             "label": "white wine vinegar", 
             "name": "vinegar_white_wine", 
             "note": "to sub for dry white wine", 
-            "price": 0.0, 
+            "price": 0.6349313850816521, 
             "protein": 0.0, 
             "unit": "cup"
           }, 
@@ -11659,7 +11659,7 @@
         "name": "ropa_vieja", 
         "nutrition": {
           "calories": 3494.3706150112507, 
-          "price": 20.65519341867656, 
+          "price": 21.290124803758214, 
           "protein": 291.30839114271936
         }
       }, 
@@ -11944,7 +11944,7 @@
                 "calories": 1.9583333333333335, 
                 "label": "onion powder", 
                 "name": "onion_powder", 
-                "price": 0.0, 
+                "price": 0.02494751233883325, 
                 "protein": 0.05983333333333333, 
                 "unit": "tsp"
               }, 
@@ -12035,7 +12035,7 @@
         "name": "jambalaya", 
         "nutrition": {
           "calories": 1773.2347458235756, 
-          "price": 10.35055819465522, 
+          "price": 10.375505706994053, 
           "protein": 105.27526110070255
         }
       }, 
@@ -12263,7 +12263,7 @@
             "label": "white wine vinegar", 
             "name": "vinegar_white_wine", 
             "note": "to sub for original white wine", 
-            "price": 0.0, 
+            "price": 0.31746569254082607, 
             "protein": 0.0, 
             "unit": "cup"
           }, 
@@ -12344,7 +12344,7 @@
         "name": "paella", 
         "nutrition": {
           "calories": 2284.9687804219034, 
-          "price": 27.988709065062515, 
+          "price": 28.306174757603344, 
           "protein": 171.62931236645102
         }
       }, 
@@ -12475,7 +12475,7 @@
             "label": "feta", 
             "name": "cheese_feta", 
             "note": "crumbled; optional", 
-            "price": 0.0, 
+            "price": 4.059374552530501, 
             "protein": 20.14233396, 
             "unit": "oz"
           }, 
@@ -12514,7 +12514,7 @@
         "name": "shakshuka", 
         "nutrition": {
           "calories": 1859.2030804056656, 
-          "price": 14.328177266967671, 
+          "price": 18.387551819498178, 
           "protein": 106.9886467532178
         }
       }, 
