@@ -8937,9 +8937,15 @@
                 "unit": "tbsp"
               }, 
               {
+<<<<<<< HEAD
                 "amount": 3, 
                 "amount_in_grams": 45.0, 
                 "calories": 30.000000000000004, 
+=======
+                "amount": 2, 
+                "amount_in_grams": 30.0, 
+                "calories": 20.0, 
+>>>>>>> 7ad991b854936077e58812c2b77db45e40c34d81
                 "label": "thai oyster sauce", 
                 "name": "oyster_sauce_thai", 
                 "price": 0.0, 
@@ -9038,9 +9044,15 @@
         "label": "pad see ew", 
         "name": "pad_see_ew", 
         "nutrition": {
+<<<<<<< HEAD
           "calories": 1334.0240513419913, 
           "price": 9.47312867947874, 
           "protein": 63.90485613852813
+=======
+          "calories": 1290.690718008658, 
+          "price": 8.84348838927277, 
+          "protein": 63.23818947186146
+>>>>>>> 7ad991b854936077e58812c2b77db45e40c34d81
         }
       }, 
       {
