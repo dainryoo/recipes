@@ -10,39 +10,72 @@ html, body, #root, #root>div {
   flex-direction: column;
 }
 
-/* .app-header: Header with the app's title and app content toggle */
+/* .app-header: Header with the app's title and, if applicable, the mobile view toggle */
 .app-header {
   padding: 2.5rem 2rem;
   display: flex;
   font-size: 3rem;
   font-weight: 100 !important;
   cursor: default;
+  justify-content: space-between;
+}
+/* .app-header .header-title: Title text and app content (Recipe/Pantry) toggle */
+.app-header .header-title {
+  display: flex;
   align-self: start;
 }
 /* .plus-sign: The plus sign text between Recipe and Pantry */
-.app-header>.plus-sign {
+.header-title>.plus-sign {
   padding: 0 1rem;
   transition: 0.15s;
   color: #de8c8c;
 }
-/* .app-header .button: The toggle button */
-.app-header .button {
+/* .header-title .button: The (Recipe/Pantry) toggle button */
+.header-title .button {
   cursor: pointer;
   box-shadow: inset 0 -3px white, inset 0 -4px #de8c8c;
   transition: 0.15s;
   color: #de8c8c;
 }
-.app-header .button:hover {
+.header-title .button:hover {
   box-shadow: inset 0 -3px white, inset 0 -4px grey;
   color: grey;
 }
 /* .recipe.button: Button to view recipes */
-.app-header .recipe.button {
+.header-title .recipe.button {
   text-shadow: 1px 1px white, 2px 1px white, -1px 1px white, -2px 1px white;
 }
 /* .pantry.button: Button to view pantry */
-.app-header .pantry.button {
+.header-title .pantry.button {
   text-shadow: 3px -1px white, -2px -1px white, -2px -2px white, 0px -1px white;
+}
+/* .app-header .mobile-toggle: Button to toggle viewing sidebar or main content */
+.app-header .mobile-toggle {
+  display: none !important;
+  align-items: center;
+}
+/* .app-header .mobile-toggle .mobile-toggle-text: Text/icon inside the toggle button */
+.app-header .mobile-toggle .mobile-toggle-text {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: transparent;
+  border: 1px solid grey;
+  color: grey;
+}
+/* .app-header .mobile-toggle.secondary: Secondary styling of the button to distinguish the toggle views */
+.app-header .mobile-toggle.secondary .mobile-toggle-text {
+  background-color: grey;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 1.2rem;
+}
+/* .mobile-toggle (Mobile): only display the mobile toggle button in mobile */
+@media (max-width: 600px) {
+  .app-header .mobile-toggle {
+    display: flex !important;
+  }
 }
 
 /* .app-body: Everything below header */
@@ -58,10 +91,29 @@ html, body, #root, #root>div {
   font-weight: 100;
   padding-top: 0.5rem;
 }
+/* .message (Mobile): Message should be hidden if mobile view and toggling to view sidebar*/
+@media (max-width: 600px) {
+  .mobile-hidden.message {
+    display: none !important;
+  }
+}
 
 /* .sidebar: List of items for navigation */
 .sidebar {
   overflow-y: scroll;
+  display: block;
+}
+/* .sidebar (Mobile): Sidebar should take up whole screen width if mobile view */
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+/* .mobile-hidden.sidebar: The sidebar has been toggled to be hidden in mobile; this is the default state */
+@media (max-width: 600px) {
+  .mobile-hidden.sidebar {
+    display: none !important;
+  }
 }
 /* .sidebar .category-list: The list of categories in nav */
 .sidebar .category-list {
@@ -101,6 +153,7 @@ html, body, #root, #root>div {
   transition: 0.2s;
   text-shadow: 0.4px 0px 0 grey;
 }
+
 /* .content: The main content of the page; either shows recipe or pantry info  */
 .content {
   flex: 1;
@@ -111,6 +164,15 @@ html, body, #root, #root>div {
 /* .hidden.content: The content of the page that should not be shown */
 .hidden.content {
   display: none;
+}
+/* .content (Mobile): In mobile, if the content is visible, it shouldn't have left padding */
+@media (max-width: 600px) {
+  .content {
+    padding-left: 0rem !important;
+  }
+  .mobile-hidden.content {
+    display: none !important;
+  }
 }
 /* .content .heading: The text for the name of a recipe or pantry item */
 .content .heading {
@@ -139,8 +201,9 @@ html, body, #root, #root>div {
 .content ul {
   padding-inline-start: 20px;
 }
-/* .recipe #clipboard-data: Dummy textarea used for copying to clipboard; make sure it's hidden */
-.recipe #clipboard-data {
+/* .recipe #clipboard-data...: Dummy textarea used for copying to clipboard; make sure it's hidden */
+.recipe #clipboard-data-ingredients,
+.recipe #clipboard-data-directions {
   opacity: 0.01;
   height: 0;
   position: absolute;

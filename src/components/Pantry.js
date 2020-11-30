@@ -4,7 +4,7 @@ import PantrySubcontent from "./pantry/PantrySubcontent.js";
 import Calculators from "./pantry/Calculators.js";
 
 
-const Pantry = ({ item, view }) => {
+const Pantry = ({ item, mobileView, view }) => {
 
   let nutrition = null;
   let nutritionPer100Gram = null;
@@ -91,7 +91,7 @@ const Pantry = ({ item, view }) => {
 
 
   return (
-    <div className={"pantry content" + (view === 1 ? " hidden" : "")}>
+    <div className={"pantry content" + (view === 1 ? " hidden" : "") + (mobileView === 1 ? "" : " mobile-hidden")}>
       <div className="heading">{item.label}</div>
       {item.note && <PantrySubcontent title="Notes:" info={item.note}/>}
       <Calculators info={calculatorInfo} updateCalculator={handleCalculatorChange}/>
@@ -104,6 +104,7 @@ const Pantry = ({ item, view }) => {
 
 const mapStateToProps = state => {
 	return {
+    mobileView: state.mobileView,
     view: state.view
   }
 }

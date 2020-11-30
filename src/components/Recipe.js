@@ -5,7 +5,7 @@ import Directions from "./recipe/Directions.js";
 import Nutrition from "./recipe/Nutrition.js";
 
 
-const Recipe = ({recipe, view}) => {
+const Recipe = ({recipe, mobileView, view}) => {
 
   const { name, label, ingredients, directions, nutrition } = recipe;
 
@@ -91,7 +91,7 @@ const Recipe = ({recipe, view}) => {
 
 
   return (
-    <div className={"recipe content" + (view === 0 ? " hidden" : "")}>
+    <div className={"recipe content" + (view === 0 ? " hidden" : "") + (mobileView === 1 ? "" : " mobile-hidden")}>
       <div className="heading">{label ? label : name}</div>
       <Ingredients ingredients={ingredients ? ingredients : ingredientCategories}
                     setAmountInput={setAmountInput}
@@ -107,6 +107,7 @@ const Recipe = ({recipe, view}) => {
 
 const mapStateToProps = state => {
 	return {
+    mobileView: state.mobileView,
     view: state.view
   }
 }

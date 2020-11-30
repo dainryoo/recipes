@@ -4,7 +4,7 @@ import Recipe from "./Recipe.js";
 import Pantry from "./Pantry.js";
 import Sidebar from "./Sidebar.js";
 
-const Body = ({ view, selectedRecipe, selectedPantryItem }) => {
+const Body = ({ mobileView, view, selectedRecipe, selectedPantryItem }) => {
 
   const recipe = () => {
     return selectedRecipe ? <Recipe recipe={selectedRecipe}/> : "";
@@ -16,9 +16,9 @@ const Body = ({ view, selectedRecipe, selectedPantryItem }) => {
 
   const message = () => {
     if (view === 1 && !selectedRecipe) {
-      return <div className="message">pick a recipe</div>
+      return <div className={"message" + (mobileView === 0 ? " mobile-hidden" : "")}>pick a recipe</div>
     } else if (view === 0 && !selectedPantryItem) {
-      return <div className="message">pick a pantry item</div>
+      return <div className={"message" + (mobileView === 0 ? " mobile-hidden" : "")}>pick a pantry item</div>
     }
   }
 
@@ -34,6 +34,7 @@ const Body = ({ view, selectedRecipe, selectedPantryItem }) => {
 
 const mapStateToProps = state => {
 	return {
+    mobileView: state.mobileView,
     view: state.view,
     selectedRecipe: state.selectedRecipe,
     selectedPantryItem: state.selectedPantryItem

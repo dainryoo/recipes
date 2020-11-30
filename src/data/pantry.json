@@ -351,16 +351,16 @@
       {
         "name": "cabbage_napa",
         "label": "napa cabbage",
-        "note": "average ~3lb per head?",
+        "note": "average ~3lb per head",
         "serving_nutrition": {
           "amount": 1,
           "unit": "",
           "grams": 1360.78,
-          "calories": 489.8808,
-          "protein": 48.579846
+          "calories": 176.9014,
+          "protein": 20.4117
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 0.79,
           "unit": "lb"
         }
       },
@@ -422,6 +422,22 @@
         },
         "price_per_unit": {
           "price": 5.99,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "chinese_broccoli",
+        "label": "chinese broccoli",
+        "note": "1 bunch from hmart was ~1lb",
+        "serving_nutrition": {
+          "amount": 100,
+          "unit": "g",
+          "grams": 100,
+          "calories": 26,
+          "protein": 1.2
+        },
+        "price_per_unit": {
+          "price": 1.49,
           "unit": "lb"
         }
       },
@@ -526,7 +542,7 @@
           "protein": 0.46
         },
         "price_per_unit": {
-          "price": 0.0,
+          "price": 1.7419207,
           "unit": "lb"
         }
       },
@@ -541,7 +557,7 @@
           "protein": 7.56
         },
         "price_per_unit": {
-          "price": 1.0,
+          "price": 1.49,
           "unit": "lb"
         }
       },
@@ -556,7 +572,7 @@
           "protein": 2.03
         },
         "price_per_unit": {
-          "price": 0.0,
+          "price": 2.49,
           "unit": "lb"
         }
       },
@@ -571,7 +587,7 @@
           "protein": 0.177
         },
         "price_per_unit": {
-          "price": 1.0,
+          "price": 9.12,
           "unit": "lb"
         }
       },
@@ -586,7 +602,7 @@
           "protein": 0.5
         },
         "price_per_unit": {
-          "price": 1.0,
+          "price": 3.99,
           "unit": "lb"
         }
       },
@@ -647,7 +663,7 @@
           "protein": 2
         },
         "price_per_unit": {
-          "price": 1.0,
+          "price": 1.99,
           "unit": "lb"
         }
       },
@@ -662,7 +678,7 @@
           "protein": 3.91
         },
         "price_per_unit": {
-          "price": 1.0,
+          "price": 2.99,
           "unit": "lb"
         }
       },
@@ -677,7 +693,7 @@
           "protein": 1.936
         },
         "price_per_unit": {
-          "price": 1.0,
+          "price": 2.99,
           "unit": "lb"
         }
       }
@@ -1107,7 +1123,7 @@
           "protein": 0.718
         },
         "price_per_unit": {
-          "price": 0.0,
+          "price": 1.23,
           "unit": "oz"
         }
       },
@@ -1414,7 +1430,7 @@
           "protein": 19.5
         },
         "price_per_unit": {
-          "price": 0.0,
+          "price": 6.99,
           "unit": "lb"
         }
       },
@@ -1493,7 +1509,7 @@
           "protein": 2.07
         },
         "price_per_unit": {
-          "price": 0.0,
+          "price": 1.52333333,
           "unit": "lb"
         }
       }
@@ -1733,7 +1749,7 @@
       {
         "name": "fish_cake_sheet",
         "label": "fish cake sheet",
-        "note": "Dong Won vegetable fish cake",
+        "note": "Dong Won vegetable fish cake. $2.99 for the two pack",
         "serving_nutrition": {
           "amount": 3,
           "unit": "oz",
@@ -1869,7 +1885,7 @@
           "protein": 14.21
         },
         "price_per_unit": {
-          "price": 0.0,
+          "price": 12.99,
           "unit": "lb"
         }
       },
@@ -2530,7 +2546,7 @@
           "protein": 0
         },
         "price_per_unit": {
-          "price": 0.00,
+          "price": 0.15,
           "unit": "oz"
         }
       },
@@ -2676,7 +2692,7 @@
           "protein": 0
         },
         "price_per_unit": {
-          "price": 0.0,
+          "price": 0.29,
           "unit": "oz"
         }
       },

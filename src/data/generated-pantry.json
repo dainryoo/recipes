@@ -640,27 +640,27 @@
         }, 
         "label": "napa cabbage", 
         "name": "cabbage_napa", 
-        "note": "average ~3lb per head?", 
+        "note": "average ~3lb per head", 
         "per_100_gram": {
-          "calories": 36.0, 
-          "price": 0.0, 
-          "protein": 3.5700000000000003
+          "calories": 13.0, 
+          "price": 0.1741651871260533, 
+          "protein": 1.5
         }, 
         "per_unit": {
           "avg_grams": 1360.78, 
-          "calories": 489.8808, 
-          "price": 0.0, 
-          "protein": 48.579846
+          "calories": 176.9014, 
+          "price": 2.370005033373908, 
+          "protein": 20.4117
         }, 
         "price_per_unit": {
-          "price": 0.0, 
+          "price": 0.79, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
           "amount": 1, 
-          "calories": 489.8808, 
+          "calories": 176.9014, 
           "grams": 1360.78, 
-          "protein": 48.579846, 
+          "protein": 20.4117, 
           "unit": ""
         }
       }, 
@@ -780,6 +780,31 @@
           "grams": 15, 
           "protein": 0.3, 
           "unit": ""
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "lb": 453.59237, 
+          "oz": 28.34952
+        }, 
+        "label": "chinese broccoli", 
+        "name": "chinese_broccoli", 
+        "note": "1 bunch from hmart was ~1lb", 
+        "per_100_gram": {
+          "calories": 26.0, 
+          "price": 0.3284887706554676, 
+          "protein": 1.2
+        }, 
+        "price_per_unit": {
+          "price": 1.49, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 100, 
+          "calories": 26, 
+          "grams": 100, 
+          "protein": 1.2, 
+          "unit": "g"
         }
       }, 
       {
@@ -971,17 +996,17 @@
         "name": "perilla_leaf", 
         "per_100_gram": {
           "calories": 31.111111111214814, 
-          "price": 0.0, 
+          "price": 0.3840277780686655, 
           "protein": 3.577777777789704
         }, 
         "per_unit": {
           "avg_grams": 12.8571428571, 
           "calories": 4, 
-          "price": 0.0, 
+          "price": 0.049375000037235266, 
           "protein": 0.46
         }, 
         "price_per_unit": {
-          "price": 0.0, 
+          "price": 1.7419207, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
@@ -1001,17 +1026,17 @@
         "name": "potato", 
         "per_100_gram": {
           "calories": 76.96476964769647, 
-          "price": 0.22046226218487758, 
+          "price": 0.3284887706554676, 
           "protein": 2.0487804878048776
         }, 
         "per_unit": {
           "avg_grams": 369.0, 
           "calories": 284, 
-          "price": 0.8135057474621983, 
+          "price": 1.2121235637186754, 
           "protein": 7.56
         }, 
         "price_per_unit": {
-          "price": 1.0, 
+          "price": 1.49, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
@@ -1031,17 +1056,17 @@
         "name": "radish_daikon", 
         "per_100_gram": {
           "calories": 17.988165680473372, 
-          "price": 0.0, 
+          "price": 0.5489510328403452, 
           "protein": 0.6005917159763313
         }, 
         "per_unit": {
           "avg_grams": 338.0, 
           "calories": 60.8, 
-          "price": 0.0, 
+          "price": 1.855454491000367, 
           "protein": 2.03
         }, 
         "price_per_unit": {
-          "price": 0.0, 
+          "price": 2.49, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
@@ -1061,17 +1086,17 @@
         "name": "romaine_leaf", 
         "per_100_gram": {
           "calories": 15.0, 
-          "price": 0.22046226218487758, 
+          "price": 2.0106158311260836, 
           "protein": 1.3615384615384616
         }, 
         "per_unit": {
           "avg_grams": 13.0, 
           "calories": 1.95, 
-          "price": 0.028660094084034086, 
+          "price": 0.2613800580463908, 
           "protein": 0.177
         }, 
         "price_per_unit": {
-          "price": 1.0, 
+          "price": 9.12, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
@@ -1091,17 +1116,17 @@
         "name": "shallot", 
         "per_100_gram": {
           "calories": 72.0, 
-          "price": 0.22046226218487758, 
+          "price": 0.8796444261176616, 
           "protein": 2.5
         }, 
         "per_unit": {
           "avg_grams": 20.0, 
           "calories": 14.4, 
-          "price": 0.044092452436975516, 
+          "price": 0.17592888522353234, 
           "protein": 0.5
         }, 
         "price_per_unit": {
-          "price": 1.0, 
+          "price": 3.99, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
@@ -1206,17 +1231,17 @@
         "note": "45-55 min at 430F on baking pan. Turn halfway.", 
         "per_100_gram": {
           "calories": 86.92307692307693, 
-          "price": 0.22046226218487758, 
+          "price": 0.43871990174790637, 
           "protein": 1.5384615384615385
         }, 
         "per_unit": {
           "avg_grams": 130.0, 
           "calories": 113, 
-          "price": 0.2866009408403408, 
+          "price": 0.5703358722722782, 
           "protein": 2
         }, 
         "price_per_unit": {
-          "price": 1.0, 
+          "price": 1.99, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
@@ -1236,17 +1261,17 @@
         "name": "zucchini", 
         "per_100_gram": {
           "calories": 16.9969040247678, 
-          "price": 0.22046226218487758, 
+          "price": 0.659182163932784, 
           "protein": 1.210526315789474
         }, 
         "per_unit": {
           "avg_grams": 323.0, 
           "calories": 54.9, 
-          "price": 0.7120931068571545, 
+          "price": 2.1291583895028925, 
           "protein": 3.91
         }, 
         "price_per_unit": {
-          "price": 1.0, 
+          "price": 2.99, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
@@ -1269,11 +1294,11 @@
         "name": "zucchini_shredded", 
         "per_100_gram": {
           "calories": 17.0, 
-          "price": 0.22046226218487758, 
+          "price": 0.659182163932784, 
           "protein": 1.21
         }, 
         "price_per_unit": {
-          "price": 1.0, 
+          "price": 2.99, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
@@ -2044,11 +2069,11 @@
         "name": "onion_powder", 
         "per_100_gram": {
           "calories": 340.5797101449275, 
-          "price": 0.0, 
+          "price": 4.338697798057956, 
           "protein": 10.405797101449274
         }, 
         "price_per_unit": {
-          "price": 0.0, 
+          "price": 1.23, 
           "unit": "oz"
         }, 
         "serving_nutrition": {
@@ -2585,11 +2610,11 @@
         "note": "(choice); Research: 6oz bone per 25.12oz total raw meat", 
         "per_100_gram": {
           "calories": 239.82300884955754, 
-          "price": 0.0, 
+          "price": 1.5464601769911506, 
           "protein": 17.256637168141594
         }, 
         "price_per_unit": {
-          "price": 0.0, 
+          "price": 6.99, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
@@ -2709,11 +2734,11 @@
         "note": "each bone is about 85.5 cal? 3 bones is about 1 lb???. \nResearch: 26.12oz (5bones). 23oz (5 bones)", 
         "per_100_gram": {
           "calories": 183.75, 
-          "price": 0.0, 
+          "price": 1.1901041640625, 
           "protein": 25.874999999999996
         }, 
         "price_per_unit": {
-          "price": 0.0, 
+          "price": 1.52333333, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
@@ -3126,7 +3151,7 @@
         }, 
         "label": "fish cake sheet", 
         "name": "fish_cake_sheet", 
-        "note": "Dong Won vegetable fish cake", 
+        "note": "Dong Won vegetable fish cake. $2.99 for the two pack", 
         "per_100_gram": {
           "calories": 188.23529411764707, 
           "price": 0.0, 
@@ -3340,11 +3365,11 @@
         "note": "(whole millk)", 
         "per_100_gram": {
           "calories": 265.0, 
-          "price": 0.0, 
+          "price": 2.86380478578156, 
           "protein": 14.21
         }, 
         "price_per_unit": {
-          "price": 0.0, 
+          "price": 12.99, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
@@ -4499,11 +4524,11 @@
         "name": "vinegar_white_wine", 
         "per_100_gram": {
           "calories": 0.0, 
-          "price": 0.0, 
+          "price": 0.5291094875680434, 
           "protein": 0.0
         }, 
         "price_per_unit": {
-          "price": 0.0, 
+          "price": 0.15, 
           "unit": "oz"
         }, 
         "serving_nutrition": {
@@ -4753,11 +4778,11 @@
         "note": "365 Organic Light Mayo", 
         "per_100_gram": {
           "calories": 333.33333333333337, 
-          "price": 0.0, 
+          "price": 1.0229450092982173, 
           "protein": 0.0
         }, 
         "price_per_unit": {
-          "price": 0.0, 
+          "price": 0.29, 
           "unit": "oz"
         }, 
         "serving_nutrition": {

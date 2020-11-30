@@ -8,7 +8,7 @@ const Ingredients = (props) => {
   // clipboard obj holds all ingredient info to copy when user presses Copy to Clipboard button
   const [clipboard, setClipboard] = useState("");
 
-  // reset the clipboard data if the recipe (aka list of ingredients) changes
+  // reset the clipboard data if the recipe (i.e. list of ingredients) changes
   useEffect(() => {
     let clipboardText = "";
     ingredients.forEach((item) => {
@@ -26,7 +26,7 @@ const Ingredients = (props) => {
   }, [ingredients]);
 
   const copyToClipboard = (event) => {
-    const clipboardData = document.getElementById("clipboard-data");
+    const clipboardData = document.getElementById("clipboard-data-ingredients");
     clipboardData.select();
     document.execCommand("copy");
   }
@@ -36,7 +36,7 @@ const Ingredients = (props) => {
     <div className="subcontent">
       <div className="subheading">Ingredients:
         <button onClick={copyToClipboard}>Copy</button>
-        <textarea readonly id="clipboard-data" value={clipboard}/>
+        <textarea readOnly id="clipboard-data-ingredients" value={clipboard}/>
       </div>
       <table>
         <tbody>

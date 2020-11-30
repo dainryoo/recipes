@@ -5,10 +5,10 @@ import pantryData from '../data/generated-pantry.json';
 
 const Sidebar = (props) => {
 
-  const { selectedRecipe, updateSelectedRecipe, selectedPantryItem, updateSelectedPantryItem, view } = props;
+  const { selectedRecipe, updateSelectedRecipe, selectedPantryItem, updateSelectedPantryItem, mobileView, view } = props;
 
   return (
-    <div className="sidebar">
+    <div className={"sidebar" + (mobileView === 0 ? "" : " mobile-hidden")}>
       <ul className="category-list">
         {
           view === 1 ? (
@@ -50,6 +50,7 @@ const mapStateToProps = state => {
 	return {
     selectedRecipe: state.selectedRecipe,
     selectedPantryItem: state.selectedPantryItem,
+    mobileView : state.mobileView,
     view : state.view
   }
 }
