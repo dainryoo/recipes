@@ -1247,6 +1247,21 @@
         }
       },
       {
+        "name": "saffron_thread",
+        "label": "saffron thread",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 0.7,
+          "calories": 2.17,
+          "protein": 0.08
+        },
+        "price_per_unit": {
+          "price": 589.50,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "salt",
         "label": "salt",
         "serving_nutrition": {
@@ -1681,7 +1696,7 @@
     ]
   },
   {
-    "category_name": "protein",
+    "category_name": "misc_protein",
     "items": [
       {
         "name": "burger_amys_california",
@@ -1728,6 +1743,36 @@
         },
         "price_per_unit": {
           "price": 0.0,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "mussels",
+        "label": "mussels",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 113,
+          "calories": 110,
+          "protein": 17
+        },
+        "price_per_unit": {
+          "price": 6.49,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "shrimp",
+        "label": "shrimp",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "",
+          "grams": 85,
+          "calories": 60,
+          "protein": 13
+        },
+        "price_per_unit": {
+          "price": 20.00,
           "unit": "lb"
         }
       },
@@ -1810,6 +1855,22 @@
         "price_per_unit": {
           "price": 0.055,
           "unit": "oz"
+        }
+      },
+      {
+        "name": "cheese_feta",
+        "label": "feta",
+        "note": "(whole millk)",
+        "serving_nutrition": {
+          "amount": 100,
+          "unit": "g",
+          "grams": 100,
+          "calories": 265,
+          "protein": 14.21
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "lb"
         }
       },
       {
@@ -3035,15 +3096,15 @@
         "name": "baguette",
         "label": "baguette",
         "serving_nutrition": {
-          "amount": 1,
-          "unit": "",
-          "grams": 255.146,
-          "calories": 720,
-          "protein": 18
+          "amount": 2,
+          "unit": "oz",
+          "grams": 56.6990463,
+          "calories": 160,
+          "protein": 4
         },
         "price_per_unit": {
-          "price": 2.99,
-          "unit": ""
+          "price": 0.37375,
+          "unit": "oz"
         }
       },
       {
@@ -3089,6 +3150,21 @@
         },
         "price_per_unit": {
           "price": 0.11,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "frozen_peas",
+        "label": "frozen peas",
+        "serving_nutrition": {
+          "amount": 0.5,
+          "unit": "cup",
+          "grams": 85,
+          "calories": 70,
+          "protein": 4
+        },
+        "price_per_unit": {
+          "price": 0.12,
           "unit": "oz"
         }
       },

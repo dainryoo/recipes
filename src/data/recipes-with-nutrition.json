@@ -5162,7 +5162,7 @@
             "calories": 57.85714285714286, 
             "label": "salted shrimp (\uc0c8\uc6b0\uc813)", 
             "name": "salted_shrimp", 
-            "note": "try decreasing...", 
+            "note": "try decreasing... probably should be 2 tsp", 
             "price": 0.1824107142857143, 
             "protein": 10.928571428571429, 
             "unit": "g"
@@ -5381,13 +5381,12 @@
                 "unit": ""
               }, 
               {
-                "amount": 0.25, 
-                "amount_in_grams": 1.875, 
-                "calories": 6.0, 
+                "amount": 0.5, 
+                "amount_in_grams": 3.75, 
+                "calories": 12.0, 
                 "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
                 "name": "gochugaru", 
-                "note": "originally 1/2 tbsp?", 
-                "price": 0.02447131380002201, 
+                "price": 0.04894262760004402, 
                 "protein": 0.0, 
                 "unit": "tbsp"
               }, 
@@ -5440,8 +5439,8 @@
         "label": "gamjatang (\uac10\uc790\ud0d5)", 
         "name": "gamjatang", 
         "nutrition": {
-          "calories": 3644.2666644313726, 
-          "price": 10.09949375852235, 
+          "calories": 3650.2666644313726, 
+          "price": 10.123965072322374, 
           "protein": 365.8934420541176
         }
       }, 
@@ -8213,6 +8212,7 @@
       }, 
       {
         "directions": [
+          "Use ~8 eggplants for dinner + 2 lunch portions", 
           "cut eggplants. soak fully submerged in salt water for 15 min.drain and pat dry.", 
           "coat eggplants in cornstarch by hand.", 
           "1 tbsp oil in nonstick skillet med high heat. spread eggplants without overlap. (if at any point, too smokey, turn to med heat)", 
@@ -8228,6 +8228,7 @@
                 "calories": 250, 
                 "label": "eggplant", 
                 "name": "eggplant", 
+                "note": "should be 300g", 
                 "price": 2.8439631821849205, 
                 "protein": 9.8, 
                 "unit": ""
@@ -10007,14 +10008,14 @@
                 "unit": "tbsp"
               }, 
               {
-                "amount": 1, 
-                "calories": 720, 
+                "amount": 8, 
+                "calories": 640.0, 
                 "label": "baguette", 
                 "name": "baguette", 
                 "note": "enough for 4 sandwiches", 
                 "price": 2.99, 
-                "protein": 18, 
-                "unit": ""
+                "protein": 16.0, 
+                "unit": "oz"
               }, 
               {
                 "amount": 2, 
@@ -10063,9 +10064,9 @@
         "label": "banh mi", 
         "name": "banh_mi", 
         "nutrition": {
-          "calories": 2553.4539285714286, 
+          "calories": 2473.4539285714286, 
           "price": 14.884915606295225, 
-          "protein": 150.1298571428572
+          "protein": 148.1298571428572
         }
       }
     ]
@@ -11978,12 +11979,24 @@
                 "unit": "tsp"
               }, 
               {
-                "amount": 2, 
-                "calories": 0.0, 
-                "label": "worcestershire_sauce", 
-                "name": "worcestershire_sauce", 
-                "price": 0.0, 
+                "amount": 1, 
+                "amount_in_grams": 5.666666666666667, 
+                "calories": 6.666666666666668, 
+                "label": "ketchup", 
+                "name": "ketchup", 
+                "price": 0.04597373547535667, 
                 "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 5.0, 
+                "calories": 1.666666666666667, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "note": "equal parts ketchup and soy sauce to sub for worcestershire sauce", 
+                "price": 0.15873284627041306, 
+                "protein": 0.33333333333333337, 
                 "unit": "tsp"
               }
             ], 
@@ -12021,9 +12034,9 @@
         "label": "jambalaya", 
         "name": "jambalaya", 
         "nutrition": {
-          "calories": 1764.9014124902421, 
-          "price": 10.14585161290945, 
-          "protein": 104.94192776736922
+          "calories": 1773.2347458235756, 
+          "price": 10.35055819465522, 
+          "protein": 105.27526110070255
         }
       }, 
       {
@@ -12213,14 +12226,15 @@
             "unit": "tsp"
           }, 
           {
-            "amount": 1, 
-            "calories": 0.0, 
-            "label": "saffron_thread", 
+            "amount": 0.25, 
+            "amount_in_grams": 0.175, 
+            "calories": 0.5425, 
+            "label": "saffron thread", 
             "name": "saffron_thread", 
             "note": "1 pinch; or use 1 tsp saffron powder if really needed", 
-            "price": 0.0, 
-            "protein": 0.0, 
-            "unit": ""
+            "price": 3.638950500749219, 
+            "protein": 0.019999999999999997, 
+            "unit": "tsp"
           }, 
           {
             "amount": 0.125, 
@@ -12297,40 +12311,41 @@
           }, 
           {
             "amount": 0.5, 
-            "calories": 0.0, 
-            "label": "frozen_peas", 
+            "amount_in_grams": 85.0, 
+            "calories": 70.0, 
+            "label": "frozen peas", 
             "name": "frozen_peas", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 0.35979445154626954, 
+            "protein": 4.0, 
             "unit": "cup"
           }, 
           {
             "amount": 0.5, 
-            "calories": 0.0, 
+            "calories": 160.09129411764707, 
             "label": "shrimp", 
             "name": "shrimp", 
             "note": "peeled, tail on; use about 12", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 9.999991842896298, 
+            "protein": 34.68644705882353, 
             "unit": "lb"
           }, 
           {
             "amount": 0.5, 
-            "calories": 0.0, 
+            "calories": 220.77486725663718, 
             "label": "mussels", 
             "name": "mussels", 
             "note": "cleaned properly (beards off); use about 10-12", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "price": 3.2564292920353983, 
+            "protein": 34.119752212389386, 
             "unit": "lb"
           }
         ], 
         "label": "paella", 
         "name": "paella", 
         "nutrition": {
-          "calories": 1833.560119047619, 
-          "price": 10.733542977835329, 
-          "protein": 98.80311309523809
+          "calories": 2284.9687804219034, 
+          "price": 27.988709065062515, 
+          "protein": 171.62931236645102
         }
       }, 
       {
@@ -12456,12 +12471,12 @@
           }, 
           {
             "amount": 5, 
-            "calories": 0.0, 
+            "calories": 375.6311399999999, 
             "label": "feta", 
-            "name": "feta", 
+            "name": "cheese_feta", 
             "note": "crumbled; optional", 
             "price": 0.0, 
-            "protein": 0.0, 
+            "protein": 20.14233396, 
             "unit": "oz"
           }, 
           {
@@ -12498,9 +12513,141 @@
         "label": "shakshuka", 
         "name": "shakshuka", 
         "nutrition": {
-          "calories": 1483.5719404056656, 
+          "calories": 1859.2030804056656, 
           "price": 14.328177266967671, 
-          "protein": 86.84631279321779
+          "protein": 106.9886467532178
+        }
+      }, 
+      {
+        "directions": [
+          "Add 2 tbsp olive oil on nonstick pan, med heat. Add vegetables, black pepper, parsley, and salt. Cook vegetables until soft.", 
+          "Add bread. Mix and add 3c water, 1 tbsp soy sauce, and spices.", 
+          "Turn heat to low and let cook until bread soft and water dissolved."
+        ], 
+        "ingredients": [
+          {
+            "amount": 8, 
+            "calories": 640.0, 
+            "label": "baguette", 
+            "name": "baguette", 
+            "price": 2.99, 
+            "protein": 16.0, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 2, 
+            "amount_in_grams": 30.0, 
+            "calories": 240.0, 
+            "label": "olive oil", 
+            "name": "oil_olive", 
+            "price": 0.3492122617949087, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 0.13333333333333333, 
+            "calories": 0.38916666666666666, 
+            "label": "dried parsley", 
+            "name": "parsley_dried", 
+            "price": 0.07821414025116945, 
+            "protein": 0.0355, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.28750000000000003, 
+            "calories": 0.7208333333333334, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.026570114767375252, 
+            "protein": 0.029875000000000002, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.75, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0021164379502721735, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 2, 
+            "calories": 11.2, 
+            "label": "celery", 
+            "name": "celery", 
+            "price": 0.05996573531428671, 
+            "protein": 0.552, 
+            "unit": ""
+          }, 
+          {
+            "amount": 2, 
+            "calories": 59.0, 
+            "label": "carrot", 
+            "name": "carrot", 
+            "price": 0.31429100097076146, 
+            "protein": 1.34, 
+            "unit": ""
+          }, 
+          {
+            "amount": 5, 
+            "calories": 25.299999999999997, 
+            "label": "mushroom", 
+            "name": "mushroom", 
+            "price": 1.41977712497425, 
+            "protein": 3.5549999999999997, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 15.0, 
+            "calories": 5.0, 
+            "label": "light soy sauce", 
+            "name": "soy_sauce_light", 
+            "price": 0.4761985388112391, 
+            "protein": 1.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.08333333333333333, 
+            "calories": 0.26249999999999996, 
+            "label": "ground sage", 
+            "name": "sage_ground", 
+            "price": 0.01804851252037659, 
+            "protein": 0.008875, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.1125, 
+            "calories": 0.3104166666666667, 
+            "label": "dried thyme", 
+            "name": "thyme_dried", 
+            "price": 0.027936980943592697, 
+            "protein": 0.01025, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.13749999999999998, 
+            "calories": 0.45416666666666666, 
+            "label": "dried rosemary", 
+            "name": "rosemary_dried", 
+            "price": 0.03458171425830137, 
+            "protein": 0.0067083333333333335, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "stuffing", 
+        "name": "stuffing", 
+        "nutrition": {
+          "calories": 982.6370833333334, 
+          "price": 5.7969125625565345, 
+          "protein": 22.53820833333333
         }
       }
     ]

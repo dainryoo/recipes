@@ -1230,7 +1230,7 @@
           { "name": "salt", "note": "coarse sea salt", "amount": 0.333333, "unit": "cup" },
           { "name": "water", "amount": 360, "unit": "ml" },
           { "name": "gochugaru", "note": "try decreasing", "amount": 4, "unit": "tbsp" },
-          { "name": "salted_shrimp", "note": "try decreasing...", "amount": 18, "unit": "g" },
+          { "name": "salted_shrimp", "note": "try decreasing... probably should be 2 tsp", "amount": 18, "unit": "g" },
           { "name": "fish_sauce_korean", "amount": 1, "unit": "tbsp" },
           { "name": "garlic", "note": "minced", "amount": 3, "unit": "" },
           { "name": "ginger", "amount": 0.5, "unit": "tsp" },
@@ -1276,7 +1276,7 @@
             "label": "seasoning",
             "ingredients": [
               { "name": "garlic", "note": "minced", "amount": 6, "unit": "" },
-              { "name": "gochugaru", "note": "originally 1/2 tbsp?", "amount": 0.25, "unit": "tbsp" },
+              { "name": "gochugaru", "amount": 0.5, "unit": "tbsp" },
               { "name": "gochujang", "amount": 1, "unit": "tbsp" },
               { "name": "fish_sauce_korean", "amount": 3, "unit": "tbsp" },
               { "name": "perilla_seed_powder", "note": "should be 60g 300cal", "amount": 0.25, "unit": "cup" },
@@ -1949,7 +1949,7 @@
             "name": "eggplant",
             "label": "eggplant",
             "ingredients": [
-              { "name": "eggplant", "amount": 2, "unit": "" },
+              { "name": "eggplant", "note": "should be 300g", "amount": 2, "unit": "" },
               { "name": "salt", "amount": 1, "unit": "tsp" },
               { "name": "cornstarch", "amount": 1, "unit": "tbsp" },
               { "name": "oil", "note": "to cook eggplant", "amount": 1, "unit": "tbsp" }
@@ -1978,6 +1978,7 @@
           }
         ],
         "directions": [
+          "Use ~8 eggplants for dinner + 2 lunch portions",
           "cut eggplants. soak fully submerged in salt water for 15 min.drain and pat dry.",
           "coat eggplants in cornstarch by hand.",
           "1 tbsp oil in nonstick skillet med high heat. spread eggplants without overlap. (if at any point, too smokey, turn to med heat)",
@@ -2378,7 +2379,7 @@
             "label": "misc",
             "ingredients": [
               { "name": "oil", "note": "to cook chicken", "amount": 2, "unit": "tbsp" },
-              { "name": "baguette", "note": "enough for 4 sandwiches", "amount": 1, "unit": "" },
+              { "name": "baguette", "note": "enough for 4 sandwiches", "amount": 8, "unit": "oz" },
               { "name": "mayo_light", "amount": 2, "unit": "tbsp" },
               { "name": "sriracha", "amount": 1, "unit": "tsp" },
               { "name": "cilantro_fresh", "amount": 1, "unit": "cup" },
@@ -2832,7 +2833,8 @@
               { "name": "cayenne_pepper", "amount": 0.25, "unit": "tsp" },
               { "name": "oregano", "amount": 0.25, "unit": "tsp" },
               { "name": "thyme_dried", "amount": 0.25, "unit": "tsp" },
-              { "name": "worcestershire_sauce", "amount": 2, "unit": "tsp" }
+              { "name": "ketchup", "amount": 1, "unit": "tsp" },
+              { "name": "soy_sauce_light", "note": "equal parts ketchup and soy sauce to sub for worcestershire sauce", "amount": 1, "unit": "tsp" }
             ]
           },
           {
@@ -2890,7 +2892,7 @@
           { "name": "tomato_plum", "note": "very finely diced (or sub 8oz tomato sauce)", "amount": 3, "unit": "" },
           { "name": "bay_leaf", "amount": 1, "unit": "" },
           { "name": "paprika", "amount": 1, "unit": "tsp" },
-          { "name": "saffron_thread", "note": "1 pinch; or use 1 tsp saffron powder if really needed", "amount": 1, "unit": "" },
+          { "name": "saffron_thread", "note": "1 pinch; or use 1 tsp saffron powder if really needed", "amount": 0.25, "unit": "tsp" },
           { "name": "salt", "amount": 0.125, "unit": "tsp" },
           { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
           { "name": "vinegar_white_wine", "note": "to sub for original white wine", "amount": 0.25, "unit": "cup" },
@@ -2932,7 +2934,7 @@
           { "name": "canned_tomato_whole", "note": "chopped and with juices; alt. 6 chopped tomatoes + 1/2c tomato sauce", "amount": 28, "unit": "oz" },
           { "name": "salt", "amount": 0.75, "unit": "tsp" },
           { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
-          { "name": "feta", "note": "crumbled; optional", "amount": 5, "unit": "oz" },
+          { "name": "cheese_feta", "note": "crumbled; optional", "amount": 5, "unit": "oz" },
           { "name": "egg", "amount": 6, "unit": "" },
           { "name": "cilantro_fresh", "note": "chopped; alt. mint or parsley", "amount": 0.25, "unit": "cup" },
           { "name": "gochugaru", "amount": 0.125, "unit": "tsp" }
@@ -2944,6 +2946,29 @@
           "Stir in crumbled feta. Make little wells/indentations for eggs. Gently crack eggs in.",
           "Reduce heat to low, put lid on, cook til eggs are just set (up to 7 min?)",
           "Uncover and add garnish and pepper flakes if desired."
+        ]
+      },
+      {
+        "name": "stuffing",
+        "label": "stuffing",
+        "ingredients": [
+          { "name": "baguette", "amount": 8, "unit": "oz" },
+          { "name": "oil_olive", "amount": 2, "unit": "tbsp" },
+          { "name": "parsley_dried", "amount": 0.25, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "celery", "amount": 2, "unit": "" },
+          { "name": "carrot", "amount": 2, "unit": "" },
+          { "name": "mushroom", "amount": 5, "unit": "" },
+          { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
+          { "name": "sage_ground", "amount": 0.125, "unit": "tsp" },
+          { "name": "thyme_dried", "amount": 0.125, "unit": "tsp" },
+          { "name": "rosemary_dried", "amount": 0.125, "unit": "tsp" }
+        ],
+        "directions": [
+          "Add 2 tbsp olive oil on nonstick pan, med heat. Add vegetables, black pepper, parsley, and salt. Cook vegetables until soft.",
+          "Add bread. Mix and add 3c water, 1 tbsp soy sauce, and spices.",
+          "Turn heat to low and let cook until bread soft and water dissolved."
         ]
       }
     ]
