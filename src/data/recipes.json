@@ -2125,42 +2125,36 @@
             "name": "sauce",
             "label": "sauce",
             "ingredients": [
-              { "name": "soy_sauce_sweet", "amount": 2, "unit": "tbsp" },
+              { "name": "soy_sauce_sweet", "amount": 2.5, "unit": "tbsp" },
               { "name": "soy_sauce_light", "amount": 4, "unit": "tsp" },
-              { "name": "fish_sauce", "amount": 2, "unit": "tsp" },
-              { "name": "oyster_sauce", "amount": 2, "unit": "tbsp" },
+              { "name": "fish_sauce", "amount": 1, "unit": "tbsp" },
+              { "name": "oyster_sauce_thai", "amount": 3, "unit": "tbsp" },
               { "name": "sugar", "amount": 1, "unit": "tsp" }
             ]
           },
           {
-            "name": "protein_and_marinade",
-            "label": "protein and marinade",
-            "ingredients": [
-              { "name": "soy_sauce_light", "amount": 1, "unit": "tsp" },
-              { "name": "cornstarch", "amount": 1, "unit": "tsp" },
-              { "name": "oil", "amount": 1, "unit": "tsp" },
-              { "name": "tofu_firm", "amount": 18, "unit": "oz" },
-              { "name": "oil", "note": "to cook", "amount": 2, "unit": "tsp" }
-            ]
-          },
-          {
-            "name": "rest_of_dish",
-            "label": "rest of the dish",
+            "name": "misc",
+            "label": "misc",
             "ingredients": [
               { "name": "rice_flakes", "amount": 4, "unit": "oz" },
               { "name": "egg", "amount": 1, "unit": "" },
-              { "name": "oil", "amount": 1, "unit": "tbsp" },
-              { "name": "garlic", "amount": 1, "unit": "" },
-              { "name": "broccoli", "amount": 150, "unit": "g" }
+              { "name": "chicken_thigh", "amount": 0.5, "unit": "lb" },
+              { "name": "oil", "note": "to cook chicken", "amount": 1, "unit": "tbsp" },
+              { "name": "garlic", "amount": 2, "unit": "" },
+              { "name": "chinese_broccoli", "note": "about one bunch from hmart", "amount": 1, "unit": "lb" },
+              { "name": "oil", "note": "to cook rest", "amount": 1, "unit": "tbsp" }
             ]
           }
         ],
         "directions": [
-          "Soak noodles. Marinate tofu and fry tofu.",
-          "Put in 2 tsp oil. Cook garlic 15 sec. Add meat, and cook. Add veg, and cook.",
-          "Move everything to one side and crack egg. Mix egg in. ",
-          "Take off heat, put 1 tsp oil on wok, add noodles and sauce. Let noodles boil in sauce.",
-          "Add everything else back in, mix everything, and take off."
+          "Soak noodles. Make sauce. Separate broccoli stems and leaves. Cut leaves into halves or thirds. Cut stems into bite size, thinner pieces.",
+          "Heat 1 tbsp oil in wok, high heat.",
+          "Add garlic, cook 15 sec. Add chicken, cook til mosty changed from pink to white.",
+          "Add broccoli stems, cook til chicken is almost cooked through.",
+          "Add broccoli leaves, cook ti just wilted.",
+          "Push everything to one side, crack egg in and scramble. Remove everything onto a plate.",
+          "Heat another 1 tbsp on high heat.",
+          "Add noodles, let crisp. Add sauce. Toss together. Add chicken and broccoli back in, toss, serve."
         ]
       },
       {
@@ -2367,7 +2361,7 @@
               { "name": "oil", "amount": 2, "unit": "tbsp" },
               { "name": "chicken_thigh", "amount": 1.5, "unit": "lb" },
               { "name": "fish_sauce", "amount": 2, "unit": "tbsp" },
-              { "name": "oyster_sauce", "amount": 1, "unit": "tbsp" },
+              { "name": "oyster_sauce_thai", "amount": 1, "unit": "tbsp" },
               { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
               { "name": "sugar", "amount": 2, "unit": "tsp" },
               { "name": "garlic", "note": "minced", "amount": 4, "unit": "" },

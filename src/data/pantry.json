@@ -2901,6 +2901,21 @@
         }
       },
       {
+        "name": "oyster_sauce_thai",
+        "label": "thai oyster sauce",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
+          "calories": 10,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "shaoxing_wine",
         "label": "shaoxing wine",
         "serving_nutrition": {
