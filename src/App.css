@@ -184,6 +184,25 @@ html, body, #root, #root>div {
 .content .subheading {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+/* .content .copy-button: Button to copy subcontent to header */
+.content .subheading .copy-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid lightgrey;
+  border-radius: 4px;
+  padding: 0.2rem 0.4rem;
+  margin: 0.3rem 1rem 0 1rem;
+  color: grey;
+  font-size: 0.5rem;
+  transition: 0.15s;
+}
+.content .subheading .copy-button:focus {
+  outline: none;
+  border-color: grey;
+  color: #4e4e4e;
 }
 /* .content .subcontent: The text underneath each .subheading */
 .content .subcontent {
@@ -217,4 +236,16 @@ html, body, #root, #root>div {
 /* .recipe .calorie-column: The column in recipe's ingredient table with calorie vaules */
 .recipe .calorie-column {
   padding-right: 0.5rem;
+}
+
+/* pantry .calculator: Each measurement to gram conversion calculator for a pantry item */
+.pantry .calculator {
+  margin: 0.25rem 0;
+}
+/* pantry .calculator input: Input box for the pantry item conversion calculators */
+.pantry .calculator input {
+  margin-right: 0.5rem;
+  text-align: right;
+  padding: 2px 12px;
+  width: 40px;
 }

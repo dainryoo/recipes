@@ -35,7 +35,7 @@ const Ingredients = (props) => {
   return (
     <div className="subcontent">
       <div className="subheading">Ingredients:
-        <button onClick={copyToClipboard}>Copy</button>
+        <button className="copy-button" onClick={copyToClipboard}>Copy</button>
         <textarea readOnly id="clipboard-data-ingredients" value={clipboard}/>
       </div>
       <table>

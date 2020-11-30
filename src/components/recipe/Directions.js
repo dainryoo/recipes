@@ -23,7 +23,7 @@ const Directions = ({directions}) => {
   return (
     <div className="subcontent">
       <div className="subheading">Directions:
-        <button onClick={copyToClipboard}>Copy</button>
+        <button className="copy-button" onClick={copyToClipboard}>Copy</button>
         <textarea readOnly id="clipboard-data-directions" value={clipboard}/>
       </div>
       <ul>
