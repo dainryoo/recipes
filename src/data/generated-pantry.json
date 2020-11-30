@@ -5161,6 +5161,33 @@
           "tbsp": 15.0, 
           "tsp": 5.0
         }, 
+        "label": "thai oyster sauce", 
+        "name": "oyster_sauce_thai", 
+        "per_100_gram": {
+          "calories": 66.66666666666667, 
+          "price": 0.0, 
+          "protein": 0.0
+        }, 
+        "price_per_unit": {
+          "price": 0.0, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 10, 
+          "grams": 15, 
+          "protein": 0, 
+          "unit": "tbsp"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "cup": 240.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 15.0, 
+          "tsp": 5.0
+        }, 
         "label": "shaoxing wine", 
         "name": "shaoxing_wine", 
         "per_100_gram": {

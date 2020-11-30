@@ -8894,11 +8894,14 @@
     "recipes": [
       {
         "directions": [
-          "Soak noodles. Marinate tofu and fry tofu.", 
-          "Put in 2 tsp oil. Cook garlic 15 sec. Add meat, and cook. Add veg, and cook.", 
-          "Move everything to one side and crack egg. Mix egg in. ", 
-          "Take off heat, put 1 tsp oil on wok, add noodles and sauce. Let noodles boil in sauce.", 
-          "Add everything else back in, mix everything, and take off."
+          "Soak noodles. Make sauce. Separate broccoli stems and leaves. Cut leaves into halves or thirds. Cut stems into bite size, thinner pieces.", 
+          "Heat 1 tbsp oil in wok, high heat.", 
+          "Add garlic, cook 15 sec. Add chicken, cook til mosty changed from pink to white.", 
+          "Add broccoli stems, cook til chicken is almost cooked through.", 
+          "Add broccoli leaves, cook ti just wilted.", 
+          "Push everything to one side, crack egg in and scramble. Remove everything onto a plate.", 
+          "Heat another 1 tbsp on high heat.", 
+          "Add noodles, let crisp. Add sauce. Toss together. Add chicken and broccoli back in, toss, serve."
         ], 
         "ingredient_categories": [
           {
@@ -8935,10 +8938,10 @@
               }, 
               {
                 "amount": 2, 
-                "amount_in_grams": 36.0, 
-                "calories": 69.99999999999999, 
-                "label": "oyster sauce", 
-                "name": "oyster_sauce", 
+                "amount_in_grams": 30.0, 
+                "calories": 20.0, 
+                "label": "thai oyster sauce", 
+                "name": "oyster_sauce_thai", 
                 "price": 0.0, 
                 "protein": 0.0, 
                 "unit": "tbsp"
@@ -8956,62 +8959,6 @@
             ], 
             "label": "sauce", 
             "name": "sauce"
-          }, 
-          {
-            "ingredients": [
-              {
-                "amount": 1, 
-                "amount_in_grams": 5.0, 
-                "calories": 1.666666666666667, 
-                "label": "light soy sauce", 
-                "name": "soy_sauce_light", 
-                "price": 0.15873284627041306, 
-                "protein": 0.33333333333333337, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 1, 
-                "amount_in_grams": 2.6666666666666665, 
-                "calories": 10.0, 
-                "label": "cornstarch", 
-                "name": "cornstarch", 
-                "price": 0.01128766906811826, 
-                "protein": 0.0, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 1, 
-                "amount_in_grams": 4.666666666666667, 
-                "calories": 40.00000000000001, 
-                "label": "canola oil", 
-                "name": "oil", 
-                "price": 0.018107302463439712, 
-                "protein": 0.0, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 18, 
-                "calories": 420.0, 
-                "label": "firm tofu", 
-                "name": "tofu_firm", 
-                "price": 2.8800000000000003, 
-                "protein": 42.0, 
-                "unit": "oz"
-              }, 
-              {
-                "amount": 2, 
-                "amount_in_grams": 9.333333333333334, 
-                "calories": 80.00000000000001, 
-                "label": "canola oil", 
-                "name": "oil", 
-                "note": "to cook", 
-                "price": 0.036214604926879425, 
-                "protein": 0.0, 
-                "unit": "tsp"
-              }
-            ], 
-            "label": "protein and marinade", 
-            "name": "protein_and_marinade"
           }, 
           {
             "ingredients": [
@@ -9034,44 +8981,66 @@
                 "unit": ""
               }, 
               {
+                "amount": 0.5, 
+                "calories": 303.7446428571429, 
+                "label": "chicken thigh", 
+                "name": "chicken_thigh", 
+                "price": 2.5261429464285716, 
+                "protein": 40.49928571428571, 
+                "unit": "lb"
+              }, 
+              {
                 "amount": 1, 
                 "amount_in_grams": 14.0, 
                 "calories": 120.00000000000003, 
                 "label": "canola oil", 
                 "name": "oil", 
+                "note": "to cook chicken", 
                 "price": 0.054321907390319134, 
                 "protein": 0.0, 
                 "unit": "tbsp"
               }, 
               {
-                "amount": 1, 
-                "calories": 4.47, 
+                "amount": 2, 
+                "calories": 8.94, 
                 "label": "garlic", 
                 "name": "garlic", 
-                "price": 0.026389332783529847, 
-                "protein": 0.191, 
+                "price": 0.05277866556705969, 
+                "protein": 0.382, 
                 "unit": ""
               }, 
               {
-                "amount": 150, 
-                "calories": 51.0, 
-                "label": "broccoli", 
-                "name": "broccoli", 
-                "price": 1.0979020656806904, 
-                "protein": 4.233333333333333, 
-                "unit": "g"
+                "amount": 1, 
+                "calories": 117.93392, 
+                "label": "chinese broccoli", 
+                "name": "chinese_broccoli", 
+                "note": "about one bunch from hmart", 
+                "price": 1.4899987845915486, 
+                "protein": 5.443104, 
+                "unit": "lb"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 14.0, 
+                "calories": 120.00000000000003, 
+                "label": "canola oil", 
+                "name": "oil", 
+                "note": "to cook rest", 
+                "price": 0.054321907390319134, 
+                "protein": 0.0, 
+                "unit": "tbsp"
               }
             ], 
-            "label": "rest of the dish", 
-            "name": "rest_of_dish"
+            "label": "misc", 
+            "name": "misc"
           }
         ], 
         "label": "pad see ew", 
         "name": "pad_see_ew", 
         "nutrition": {
-          "calories": 1397.2088218181818, 
-          "price": 8.948879906488342, 
-          "protein": 63.671466424242425
+          "calories": 1290.690718008658, 
+          "price": 8.84348838927277, 
+          "protein": 63.23818947186146
         }
       }, 
       {
@@ -9942,10 +9911,10 @@
               }, 
               {
                 "amount": 1, 
-                "amount_in_grams": 18.0, 
-                "calories": 34.99999999999999, 
-                "label": "oyster sauce", 
-                "name": "oyster_sauce", 
+                "amount_in_grams": 15.0, 
+                "calories": 10.0, 
+                "label": "thai oyster sauce", 
+                "name": "oyster_sauce_thai", 
                 "price": 0.0, 
                 "protein": 0.0, 
                 "unit": "tbsp"
@@ -10064,7 +10033,7 @@
         "label": "banh mi", 
         "name": "banh_mi", 
         "nutrition": {
-          "calories": 2473.4539285714286, 
+          "calories": 2448.4539285714286, 
           "price": 18.902708091085422, 
           "protein": 148.1298571428572
         }
