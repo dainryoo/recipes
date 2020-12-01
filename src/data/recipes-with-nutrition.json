@@ -690,11 +690,11 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 987.4657699115045, 
+            "calories": 984.0, 
             "label": "ground pork (84%)", 
             "name": "pork_ground_84", 
-            "price": 7.0146196460176995, 
-            "protein": 81.485996460177, 
+            "price": 6.99, 
+            "protein": 81.2, 
             "unit": "lb"
           }, 
           {
@@ -774,9 +774,9 @@
         "label": "breakfast patties", 
         "name": "breakfast_patties", 
         "nutrition": {
-          "calories": 1011.9532699115045, 
-          "price": 7.550816255578168, 
-          "protein": 81.78616312684366
+          "calories": 1008.4875000000001, 
+          "price": 7.526196609560468, 
+          "protein": 81.50016666666666
         }
       }, 
       {
@@ -4611,11 +4611,11 @@
           }, 
           {
             "amount": 0.5, 
-            "calories": 493.73288495575224, 
+            "calories": 492.0, 
             "label": "ground pork (84%)", 
             "name": "pork_ground_84", 
-            "price": 3.5073098230088497, 
-            "protein": 40.7429982300885, 
+            "price": 3.495, 
+            "protein": 40.6, 
             "unit": "lb"
           }, 
           {
@@ -4717,9 +4717,9 @@
         "label": "jjajangmyeon (\uc9dc\uc7a5\uba74)", 
         "name": "jjajangmyeon", 
         "nutrition": {
-          "calories": 1659.2994766224192, 
-          "price": 8.757265217558091, 
-          "protein": 76.1713277300885
+          "calories": 1657.566591666667, 
+          "price": 8.744955394549242, 
+          "protein": 76.02832950000001
         }
       }, 
       {
@@ -5111,9 +5111,9 @@
       {
         "directions": [
           "Chop napa into bite size pieces.", 
-          "Soak in salt water for 2 hrs. Should be limp!", 
+          "Soak in salt water for at least 2 hrs. Should be limp!", 
           "Drain and rinse cabbage a few times.", 
-          "Toss with sauce. Add about 1/8c more water."
+          "Toss with sauce. Use about 1/8c more water to rinse out the sauce bowl and add to kimchi."
         ], 
         "ingredients": [
           {
@@ -5260,12 +5260,12 @@
             "ingredients": [
               {
                 "amount": 2.5, 
-                "calories": 2083.68825, 
+                "calories": 588.0, 
                 "label": "pork neck bone", 
                 "name": "pork_neck_bone", 
                 "note": "up to 3 lb", 
-                "price": 13.49554319963594, 
-                "protein": 293.41732499999995, 
+                "price": 3.8083333250000004, 
+                "protein": 82.8, 
                 "unit": "lb"
               }, 
               {
@@ -5310,12 +5310,12 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 58.96696, 
+                "calories": 58.9670016, 
                 "label": "napa cabbage", 
                 "name": "cabbage_napa", 
                 "note": "cut off the core", 
-                "price": 0.7899993555888077, 
-                "protein": 6.8038799999999995, 
+                "price": 0.7899999129174066, 
+                "protein": 6.8038848000000005, 
                 "unit": "lb"
               }
             ], 
@@ -5439,9 +5439,9 @@
         "label": "gamjatang (\uac10\uc790\ud0d5)", 
         "name": "gamjatang", 
         "nutrition": {
-          "calories": 3545.940504431373, 
-          "price": 25.601743260357953, 
-          "protein": 356.5040876541176
+          "calories": 2050.2522960313727, 
+          "price": 15.914533943050618, 
+          "protein": 145.88676745411763
         }
       }, 
       {
@@ -5457,11 +5457,11 @@
         "ingredients": [
           {
             "amount": 2, 
-            "calories": 2175.63596460177, 
+            "calories": 2168.0, 
             "label": "beef lateral rib", 
             "name": "beef_lateral_rib", 
-            "price": 28.08858424778761, 
-            "protein": 156.54945132743364, 
+            "price": 27.99, 
+            "protein": 156.0, 
             "unit": "lb"
           }, 
           {
@@ -5569,9 +5569,9 @@
         "label": "LA galbi (LA \uac08\ube44)", 
         "name": "la_galbi", 
         "nutrition": {
-          "calories": 2439.9767979351036, 
-          "price": 30.801002234052515, 
-          "protein": 164.52232632743366
+          "calories": 2432.3408333333336, 
+          "price": 30.7024179862649, 
+          "protein": 163.97287500000002
         }
       }, 
       {
@@ -5585,12 +5585,12 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 2348.2417699115044, 
+            "calories": 2340.0, 
             "label": "pork belly", 
             "name": "pork_belly", 
             "note": "or pork shoulder/loin", 
-            "price": 6.011097522123894, 
-            "protein": 42.549338053097344, 
+            "price": 5.989999999999999, 
+            "protein": 42.39999999999999, 
             "unit": "lb"
           }, 
           {
@@ -5710,9 +5710,9 @@
         "label": "spicy pork stirfry (\uc81c\uc721\ubcf6\uc74c)", 
         "name": "spicy_pork_stirfry", 
         "nutrition": {
-          "calories": 2752.3334365781707, 
-          "price": 8.967638572494451, 
-          "protein": 48.350088053097345
+          "calories": 2744.0916666666662, 
+          "price": 8.946541050370557, 
+          "protein": 48.20074999999999
         }
       }, 
       {
@@ -5726,11 +5726,11 @@
         "ingredients": [
           {
             "amount": 1.5, 
-            "calories": 1631.7269734513275, 
+            "calories": 1626.0000000000002, 
             "label": "beef short rib", 
             "name": "beef_short_rib", 
-            "price": 10.52192946902655, 
-            "protein": 117.41208849557522, 
+            "price": 10.485000000000001, 
+            "protein": 117.00000000000001, 
             "unit": "lb"
           }, 
           {
@@ -5819,9 +5819,9 @@
         "label": "galbitang (\uac08\ube44\ud0d5)", 
         "name": "galbitang", 
         "nutrition": {
-          "calories": 1830.9869734513272, 
-          "price": 14.95074131976438, 
-          "protein": 124.36208849557524
+          "calories": 1825.26, 
+          "price": 14.913811850737833, 
+          "protein": 123.95000000000003
         }
       }, 
       {
@@ -5839,12 +5839,12 @@
             "ingredients": [
               {
                 "amount": 3, 
-                "calories": 850.4849999999999, 
+                "calories": 1800.0, 
                 "label": "whole chicken", 
                 "name": "chicken_whole", 
                 "note": "approx 4 pieces of chicken breast?", 
-                "price": 4.23825025, 
-                "protein": 119.0679, 
+                "price": 8.970000000000002, 
+                "protein": 252.0, 
                 "unit": "lb"
               }, 
               {
@@ -5960,9 +5960,9 @@
         "label": "chicken porridge (\ub2ed\uc8fd)", 
         "name": "chicken_porridge", 
         "nutrition": {
-          "calories": 1598.0549999999998, 
-          "price": 6.614905449079461, 
-          "protein": 136.41740000000001
+          "calories": 2547.57, 
+          "price": 11.34665519907946, 
+          "protein": 269.3495
         }
       }, 
       {
@@ -5974,12 +5974,12 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 81.59288047337277, 
+            "calories": 81.59293803550295, 
             "label": "daikon radish", 
             "name": "radish_daikon", 
             "note": "about 1 radish", 
-            "price": 2.4899979688811786, 
-            "protein": 2.724235976331361, 
+            "price": 2.4899997255244837, 
+            "protein": 2.724237898224852, 
             "unit": "lb"
           }, 
           {
@@ -6056,9 +6056,9 @@
         "label": "radish kimchi", 
         "name": "radish_kimchi", 
         "nutrition": {
-          "calories": 143.16288047337275, 
-          "price": 2.8348684084795113, 
-          "protein": 4.208235976331361
+          "calories": 143.16293803550295, 
+          "price": 2.8348701651228163, 
+          "protein": 4.208237898224851
         }
       }, 
       {
@@ -6171,12 +6171,12 @@
             "ingredients": [
               {
                 "amount": 2, 
-                "calories": 1214.9785714285715, 
+                "calories": 1200.0000000000002, 
                 "label": "chicken thigh", 
                 "name": "chicken_thigh", 
                 "note": "bone-in good!; chop into bite-size pieces", 
-                "price": 10.104571785714286, 
-                "protein": 161.99714285714285, 
+                "price": 9.980000000000002, 
+                "protein": 160.00000000000003, 
                 "unit": "lb"
               }, 
               {
@@ -6253,9 +6253,9 @@
         "label": "spicy braised chicken (\ub2ed\ubcf6\uc74c\ud0d5)", 
         "name": "spicy_braised_chicken", 
         "nutrition": {
-          "calories": 2236.5594047619047, 
-          "price": 16.621112905027907, 
-          "protein": 187.37001785714287
+          "calories": 2221.5808333333334, 
+          "price": 16.496541119313626, 
+          "protein": 185.37287500000005
         }
       }
     ]
@@ -6485,11 +6485,11 @@
           }, 
           {
             "amount": 0.5, 
-            "calories": 485.9914285714286, 
+            "calories": 480.0000000000001, 
             "label": "ground beef (85%)", 
             "name": "beef_ground_85", 
-            "price": 2.779263482142857, 
-            "protein": 42.52425, 
+            "price": 2.7450000000000006, 
+            "protein": 42.00000000000001, 
             "unit": "lb"
           }, 
           {
@@ -6608,9 +6608,9 @@
         "label": "beef rice bowl", 
         "name": "beef_rice_bowl", 
         "nutrition": {
-          "calories": 734.4439285714286, 
-          "price": 3.9978731385772, 
-          "protein": 45.597791666666666
+          "calories": 728.4525000000001, 
+          "price": 3.9636096564343437, 
+          "protein": 45.07354166666667
         }
       }, 
       {
@@ -6878,11 +6878,11 @@
             "ingredients": [
               {
                 "amount": 0.5, 
-                "calories": 485.9914285714286, 
+                "calories": 480.0000000000001, 
                 "label": "ground beef (85%)", 
                 "name": "beef_ground_85", 
-                "price": 2.779263482142857, 
-                "protein": 42.52425, 
+                "price": 2.7450000000000006, 
+                "protein": 42.00000000000001, 
                 "unit": "lb"
               }, 
               {
@@ -7004,9 +7004,9 @@
         "label": "dumplings", 
         "name": "dumplings", 
         "nutrition": {
-          "calories": 2022.862261904762, 
-          "price": 5.733313340411846, 
-          "protein": 81.396125
+          "calories": 2016.8708333333334, 
+          "price": 5.69904985826899, 
+          "protein": 80.871875
         }
       }, 
       {
@@ -7231,11 +7231,11 @@
             "ingredients": [
               {
                 "amount": 0.5, 
-                "calories": 598.099185840708, 
+                "calories": 595.9999999999999, 
                 "label": "lamb shoulder", 
                 "name": "lamb_shoulder", 
-                "price": 4.510831946902655, 
-                "protein": 37.53172743362832, 
+                "price": 4.495, 
+                "protein": 37.4, 
                 "unit": "lb"
               }, 
               {
@@ -7427,9 +7427,9 @@
         "label": "lamb cumin noodles", 
         "name": "lamb_cumin_noodles", 
         "nutrition": {
-          "calories": 2137.1411858407073, 
-          "price": 11.952373811727732, 
-          "protein": 64.23994965585054
+          "calories": 2135.0419999999995, 
+          "price": 11.936541864825076, 
+          "protein": 64.10822222222222
         }
       }, 
       {
@@ -8060,12 +8060,12 @@
             "ingredients": [
               {
                 "amount": 1, 
-                "calories": 1196.198371681416, 
+                "calories": 1191.9999999999998, 
                 "label": "lamb shoulder", 
                 "name": "lamb_shoulder", 
                 "note": "0.5\"x2\" pieces", 
-                "price": 9.02166389380531, 
-                "protein": 75.06345486725664, 
+                "price": 8.99, 
+                "protein": 74.8, 
                 "unit": "lb"
               }, 
               {
@@ -8205,9 +8205,9 @@
         "label": "cumin lamb", 
         "name": "cumin_lamb", 
         "nutrition": {
-          "calories": 1701.7183716814159, 
-          "price": 12.647683124177625, 
-          "protein": 80.63870486725664
+          "calories": 1697.5199999999998, 
+          "price": 12.616019230372315, 
+          "protein": 80.37525
         }
       }, 
       {
@@ -8348,11 +8348,11 @@
               }, 
               {
                 "amount": 0.25, 
-                "calories": 246.86644247787612, 
+                "calories": 246.0, 
                 "label": "ground pork (84%)", 
                 "name": "pork_ground_84", 
-                "price": 1.7536549115044249, 
-                "protein": 20.37149911504425, 
+                "price": 1.7475, 
+                "protein": 20.3, 
                 "unit": "lb"
               }, 
               {
@@ -8374,9 +8374,9 @@
         "label": "eggplant with garlic sauce", 
         "name": "eggplant_with_garlic_sauce", 
         "nutrition": {
-          "calories": 753.5431091445429, 
-          "price": 5.350298375317473, 
-          "protein": 31.94716578171092
+          "calories": 752.6766666666667, 
+          "price": 5.344143463813047, 
+          "protein": 31.875666666666667
         }
       }, 
       {
@@ -8394,11 +8394,11 @@
             "ingredients": [
               {
                 "amount": 1, 
-                "calories": 662.3246017699115, 
+                "calories": 660.0, 
                 "label": "beef flank steak", 
                 "name": "beef_flank_steak", 
-                "price": 6.011097522123894, 
-                "protein": 85.1789578761062, 
+                "price": 5.989999999999999, 
+                "protein": 84.88, 
                 "unit": "lb"
               }, 
               {
@@ -8553,9 +8553,9 @@
         "label": "mongolian beef", 
         "name": "mongolian_beef", 
         "nutrition": {
-          "calories": 1740.737935103245, 
-          "price": 10.579625046429467, 
-          "protein": 94.00062454277285
+          "calories": 1738.4133333333336, 
+          "price": 10.558527524305573, 
+          "protein": 93.70166666666665
         }
       }, 
       {
@@ -8982,11 +8982,11 @@
               }, 
               {
                 "amount": 0.5, 
-                "calories": 303.7446428571429, 
+                "calories": 300.00000000000006, 
                 "label": "chicken thigh", 
                 "name": "chicken_thigh", 
-                "price": 2.5261429464285716, 
-                "protein": 40.49928571428571, 
+                "price": 2.4950000000000006, 
+                "protein": 40.00000000000001, 
                 "unit": "lb"
               }, 
               {
@@ -9011,12 +9011,12 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 117.93392, 
+                "calories": 117.9340032, 
                 "label": "chinese broccoli", 
                 "name": "chinese_broccoli", 
                 "note": "about one bunch from hmart", 
-                "price": 1.4899987845915486, 
-                "protein": 5.443104, 
+                "price": 1.4899998357556148, 
+                "protein": 5.44310784, 
                 "unit": "lb"
               }, 
               {
@@ -9038,9 +9038,9 @@
         "label": "pad see ew", 
         "name": "pad_see_ew", 
         "nutrition": {
-          "calories": 1334.0240513419913, 
-          "price": 9.47312867947874, 
-          "protein": 63.90485613852813
+          "calories": 1330.2794916848486, 
+          "price": 9.441986784214237, 
+          "protein": 63.40557426424243
         }
       }, 
       {
@@ -9238,11 +9238,11 @@
             "ingredients": [
               {
                 "amount": 1.3, 
-                "calories": 789.7360714285714, 
+                "calories": 780.0000000000001, 
                 "label": "chicken thigh", 
                 "name": "chicken_thigh", 
-                "price": 6.567971660714286, 
-                "protein": 105.29814285714285, 
+                "price": 6.487, 
+                "protein": 104.0, 
                 "unit": "lb"
               }, 
               {
@@ -9355,9 +9355,9 @@
         "label": "chicken adobo", 
         "name": "chicken_adobo", 
         "nutrition": {
-          "calories": 1254.7960714285714, 
-          "price": 11.975038463671906, 
-          "protein": 114.27714285714285
+          "calories": 1245.0600000000002, 
+          "price": 11.89406680295762, 
+          "protein": 112.979
         }
       }, 
       {
@@ -9374,11 +9374,11 @@
             "ingredients": [
               {
                 "amount": 1.5, 
-                "calories": 911.2339285714286, 
+                "calories": 900.0000000000001, 
                 "label": "chicken thigh", 
                 "name": "chicken_thigh", 
-                "price": 7.578428839285714, 
-                "protein": 121.49785714285714, 
+                "price": 7.485, 
+                "protein": 120.0, 
                 "unit": "lb"
               }, 
               {
@@ -9591,9 +9591,9 @@
         "label": "vietnamese bun", 
         "name": "vietnamese_bun", 
         "nutrition": {
-          "calories": 2597.5046428571427, 
-          "price": 21.646267503760903, 
-          "protein": 176.4488839285714
+          "calories": 2586.2707142857143, 
+          "price": 21.55283866447519, 
+          "protein": 174.95102678571428
         }
       }, 
       {
@@ -9892,11 +9892,11 @@
               }, 
               {
                 "amount": 1.5, 
-                "calories": 911.2339285714286, 
+                "calories": 900.0000000000001, 
                 "label": "chicken thigh", 
                 "name": "chicken_thigh", 
-                "price": 7.578428839285714, 
-                "protein": 121.49785714285714, 
+                "price": 7.485, 
+                "protein": 120.0, 
                 "unit": "lb"
               }, 
               {
@@ -10033,9 +10033,9 @@
         "label": "banh mi", 
         "name": "banh_mi", 
         "nutrition": {
-          "calories": 2448.4539285714286, 
-          "price": 18.902708091085422, 
-          "protein": 148.1298571428572
+          "calories": 2437.2200000000003, 
+          "price": 18.80927925179971, 
+          "protein": 146.63200000000003
         }
       }
     ]
@@ -11177,11 +11177,11 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 971.9828571428573, 
+                "calories": 960.0000000000002, 
                 "label": "ground beef (85%)", 
                 "name": "beef_ground_85", 
-                "price": 5.558526964285714, 
-                "protein": 85.0485, 
+                "price": 5.490000000000001, 
+                "protein": 84.00000000000001, 
                 "unit": "lb"
               }, 
               {
@@ -11302,9 +11302,9 @@
         "label": "shepherd's pie", 
         "name": "shepherds_pie", 
         "nutrition": {
-          "calories": 2766.205773809523, 
-          "price": 13.377237590984839, 
-          "protein": 117.29066666666668
+          "calories": 2754.222916666666, 
+          "price": 13.308710626699126, 
+          "protein": 116.24216666666669
         }
       }, 
       {
@@ -11473,11 +11473,11 @@
         "ingredients": [
           {
             "amount": 2, 
-            "calories": 2678.8609882352944, 
+            "calories": 2677.3333333333335, 
             "label": "beef chuck roast", 
             "name": "beef_chuck_roast", 
-            "price": 13.987976823529415, 
-            "protein": 277.49157647058826, 
+            "price": 13.980000000000002, 
+            "protein": 277.3333333333333, 
             "unit": "lb"
           }, 
           {
@@ -11627,9 +11627,9 @@
         "label": "ropa vieja", 
         "name": "ropa_vieja", 
         "nutrition": {
-          "calories": 3494.3706150112507, 
-          "price": 21.290124803758214, 
-          "protein": 291.30839114271936
+          "calories": 3492.84296010929, 
+          "price": 21.2821479802288, 
+          "protein": 291.1501480054644
         }
       }, 
       {
@@ -11647,12 +11647,12 @@
         "ingredients": [
           {
             "amount": 1.5, 
-            "calories": 1559.9724867724867, 
+            "calories": 1560.0000000000002, 
             "label": "lamb leg", 
             "name": "lamb_leg", 
             "note": "cut into 1 in. cubes; up to 2lb", 
-            "price": 16.484709259259258, 
-            "protein": 121.79785185185185, 
+            "price": 16.485000000000003, 
+            "protein": 121.80000000000001, 
             "unit": "lb"
           }, 
           {
@@ -11752,9 +11752,9 @@
         "label": "lamb palov", 
         "name": "lamb_palov", 
         "nutrition": {
-          "calories": 3577.852486772487, 
-          "price": 20.356282607887024, 
-          "protein": 144.60885185185182
+          "calories": 3577.88, 
+          "price": 20.35657334862777, 
+          "protein": 144.611
         }
       }, 
       {
@@ -11784,12 +11784,12 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 607.4892857142858, 
+                "calories": 600.0000000000001, 
                 "label": "chicken thigh", 
                 "name": "chicken_thigh", 
                 "note": "cut into 1\" pieces. can sub with equal amount shrimp", 
-                "price": 5.052285892857143, 
-                "protein": 80.99857142857142, 
+                "price": 4.990000000000001, 
+                "protein": 80.00000000000001, 
                 "unit": "lb"
               }, 
               {
@@ -12003,9 +12003,9 @@
         "label": "jambalaya", 
         "name": "jambalaya", 
         "nutrition": {
-          "calories": 1773.2347458235756, 
-          "price": 10.375505706994053, 
-          "protein": 105.27526110070255
+          "calories": 1765.74546010929, 
+          "price": 10.313219814136911, 
+          "protein": 104.27668967213114
         }
       }, 
       {
@@ -12238,12 +12238,12 @@
           }, 
           {
             "amount": 1, 
-            "calories": 607.4892857142858, 
+            "calories": 600.0000000000001, 
             "label": "chicken thigh", 
             "name": "chicken_thigh", 
             "note": "cut into pieces; up to 1.5lb", 
-            "price": 5.052285892857143, 
-            "protein": 80.99857142857142, 
+            "price": 4.990000000000001, 
+            "protein": 80.00000000000001, 
             "unit": "lb"
           }, 
           {
@@ -12290,31 +12290,31 @@
           }, 
           {
             "amount": 0.5, 
-            "calories": 160.09129411764707, 
+            "calories": 160.09140705882353, 
             "label": "shrimp", 
             "name": "shrimp", 
             "note": "peeled, tail on; use about 12", 
-            "price": 9.999991842896298, 
-            "protein": 34.68644705882353, 
+            "price": 9.99999889768869, 
+            "protein": 34.68647152941177, 
             "unit": "lb"
           }, 
           {
             "amount": 0.5, 
-            "calories": 220.77486725663718, 
+            "calories": 220.0, 
             "label": "mussels", 
             "name": "mussels", 
             "note": "cleaned properly (beards off); use about 10-12", 
-            "price": 3.2564292920353983, 
-            "protein": 34.119752212389386, 
+            "price": 3.2449999999999997, 
+            "protein": 34.0, 
             "unit": "lb"
           }
         ], 
         "label": "paella", 
         "name": "paella", 
         "nutrition": {
-          "calories": 2284.9687804219034, 
-          "price": 28.306174757603344, 
-          "protein": 171.62931236645102
+          "calories": 2276.7047403921574, 
+          "price": 28.232466627503197, 
+          "protein": 170.51101319607847
         }
       }, 
       {
@@ -12329,12 +12329,12 @@
         "ingredients": [
           {
             "amount": 0.5, 
-            "calories": 481.69061946902656, 
+            "calories": 479.99999999999994, 
             "label": "ground lamb", 
             "name": "lamb_ground", 
             "note": "or beef", 
-            "price": 4.510831946902655, 
-            "protein": 40.14088495575222, 
+            "price": 4.495, 
+            "protein": 40.0, 
             "unit": "lb"
           }, 
           {
@@ -12482,9 +12482,9 @@
         "label": "shakshuka", 
         "name": "shakshuka", 
         "nutrition": {
-          "calories": 1859.2030804056656, 
-          "price": 18.387551819498178, 
-          "protein": 106.9886467532178
+          "calories": 1857.512460936639, 
+          "price": 18.37171987259552, 
+          "protein": 106.84776179746557
         }
       }, 
       {

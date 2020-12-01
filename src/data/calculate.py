@@ -234,15 +234,18 @@ def calculate_ingredient_nutrition(ingredient, pantry):
         if unit in ["g", "gram", "grams", "ml", "mL", "milliliter", "milliliters"]:
             # if unit is grams or ml, we can just use the raw value for value in grams
             amount = ingredient["amount"]
-        elif unit in ["lb", "lbs", "pound", "pounds"]:
-            # if unit is pounds, convert weight to grams
-            amount = ingredient["amount"] * 453.592
-        elif unit in ["oz", "ounce", "ounces"]:
-            # if unit is ounces, convert weight to grams
-            if ("conversion_to_grams" in ingredient_info and "oz" in ingredient_info["conversion_to_grams"]):
-                amount = ingredient["amount"] * ingredient_info["conversion_to_grams"]["oz"]
+        elif unit in ["oz", "ounce", "ounces", "lb", "lbs", "pound", "pounds"]:
+            # if unit is pounds, convert weight to oz
+            if unit in ["lb", "lbs", "pound", "pounds"]:
+                amount = ingredient["amount"] * 16.0
             else:
-                amount = ingredient["amount"] * 28.3495
+                amount = ingredient["amount"]
+
+            # once unit is ounces, convert weight to grams
+            if ("conversion_to_grams" in ingredient_info and "oz" in ingredient_info["conversion_to_grams"]):
+                amount = amount * ingredient_info["conversion_to_grams"]["oz"]
+            else:
+                amount = ingredient["amount"] * 28.34952
         else:
             # if unit is anything else, handle special case abbreviations
             if unit in ["t", "tsp", "teaspoon", "teaspoons"]:
