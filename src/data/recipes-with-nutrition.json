@@ -228,8 +228,8 @@
                 "unit": "g"
               }
             ], 
-            "label": "Dain's serving", 
-            "name": "dain_serving"
+            "label": "Dain's serving for chocolate pudding", 
+            "name": "dain_serving_choc"
           }, 
           {
             "ingredients": [
@@ -270,24 +270,9 @@
                 "unit": "g"
               }
             ], 
-            "label": "Dune's serving", 
-            "name": "dune_serving"
-          }
-        ], 
-        "label": "chocolate chia pudding", 
-        "name": "chocolate_chia_pudding", 
-        "nutrition": {
-          "calories": 700.4285714285714, 
-          "price": 3.6209605588626768, 
-          "protein": 22.94166666666667
-        }
-      }, 
-      {
-        "directions": [
-          "for thick chia: 2 tbsp for every 1/2 c (4g chia for every 20ml milk)", 
-          "for thinner chia: 3 tbsp for every 1 c (3g chia for every 20ml milk)"
-        ], 
-        "ingredient_categories": [
+            "label": "Dune's serving for chocolate pudding", 
+            "name": "dune_serving_choc"
+          }, 
           {
             "ingredients": [
               {
@@ -327,8 +312,8 @@
                 "unit": "g"
               }
             ], 
-            "label": "Dain's serving", 
-            "name": "dain_serving"
+            "label": "Dain's serving for PB pudding", 
+            "name": "dain_serving_pb"
           }, 
           {
             "ingredients": [
@@ -360,16 +345,16 @@
                 "unit": "g"
               }
             ], 
-            "label": "Dune's serving", 
-            "name": "dune_serving"
+            "label": "Dune's serving for PB pudding", 
+            "name": "dune_serving_pb"
           }
         ], 
-        "label": "peanut butter chia pudding", 
-        "name": "pb_chia_pudding", 
+        "label": "chia pudding", 
+        "name": "chia_pudding", 
         "nutrition": {
-          "calories": 662.9166666666667, 
-          "price": 2.286987398511622, 
-          "protein": 22.59166666666667
+          "calories": 1363.345238095238, 
+          "price": 5.907947957374298, 
+          "protein": 45.53333333333334
         }
       }, 
       {
@@ -460,82 +445,80 @@
       }, 
       {
         "directions": [
-          "Mix flour, sugar, baking powder, salt, baking soda.", 
-          "Separate bowl, whisk egg, milk, melted butter, vanilla extract.", 
-          "Combine, gently stir."
+          "Mix butter and milk and vanilla. Beat egg, then lightly beat in butter mix.", 
+          "Sift dry ingredients. Create a well in the dry ingredients. Add wet to dry and mix just enough.", 
+          "Lightly oiled pan on med high heat, 1/4 c batter each pancake."
         ], 
         "ingredients": [
           {
-            "amount": 90, 
-            "calories": 330.0, 
+            "amount": 1.5, 
+            "amount_in_grams": 180.0, 
+            "calories": 660.0, 
             "label": "flour", 
             "name": "flour", 
-            "price": 0.19047941552449565, 
-            "protein": 9.0, 
-            "unit": "g"
+            "price": 0.3809588310489913, 
+            "protein": 18.0, 
+            "unit": "cup"
           }, 
           {
-            "amount": 18, 
-            "calories": 67.5, 
-            "label": "sugar", 
-            "name": "sugar", 
-            "price": 0.03174656925408261, 
-            "protein": 0.0, 
-            "unit": "g"
-          }, 
-          {
-            "amount": 5, 
+            "amount": 3.5, 
+            "amount_in_grams": 16.8, 
             "calories": 0.0, 
             "label": "baking powder", 
             "name": "baking_powder", 
-            "price": 0.17460613089745436, 
+            "price": 0.5866765998154466, 
             "protein": 0.0, 
-            "unit": "g"
+            "unit": "tsp"
           }, 
           {
-            "amount": 2, 
+            "amount": 0.75, 
+            "amount_in_grams": 4.5, 
             "calories": 0.0, 
             "label": "salt", 
             "name": "salt", 
-            "price": 0.00564383453405913, 
+            "price": 0.012698627701633042, 
             "protein": 0.0, 
-            "unit": "g"
+            "unit": "tsp"
           }, 
           {
-            "amount": 2, 
-            "calories": 0.0, 
-            "label": "baking soda", 
-            "name": "baking_soda", 
-            "price": 0.003527396583786957, 
+            "amount": 1, 
+            "amount_in_grams": 12.0, 
+            "calories": 45.0, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "price": 0.02116437950272174, 
             "protein": 0.0, 
-            "unit": "g"
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1.25, 
+            "amount_in_grams": 300.0, 
+            "calories": 150.0, 
+            "label": "oat milk", 
+            "name": "milk_oat", 
+            "note": "warm", 
+            "price": 0.5291094875680435, 
+            "protein": 3.75, 
+            "unit": "cup"
           }, 
           {
             "amount": 1, 
             "calories": 60, 
             "label": "egg", 
             "name": "egg", 
+            "note": "room temp", 
             "price": 0.22, 
             "protein": 6, 
             "unit": ""
           }, 
           {
-            "amount": 120, 
-            "calories": 15.0, 
-            "label": "almond milk", 
-            "name": "milk_almond", 
-            "price": 0.1693150360217739, 
-            "protein": 0.5, 
-            "unit": "ml"
-          }, 
-          {
-            "amount": 1, 
-            "amount_in_grams": 14.0, 
-            "calories": 100.00000000000001, 
+            "amount": 3, 
+            "amount_in_grams": 42.0, 
+            "calories": 300.0, 
             "label": "butter", 
             "name": "butter", 
-            "note": "melted", 
-            "price": 0.18271914304016434, 
+            "note": "melted and cooled a little", 
+            "price": 0.548157429120493, 
             "protein": 0.0, 
             "unit": "tbsp"
           }, 
@@ -548,25 +531,14 @@
             "price": 0.28660097243269017, 
             "protein": 0.0, 
             "unit": "tsp"
-          }, 
-          {
-            "amount": 1, 
-            "amount_in_grams": 14.0, 
-            "calories": 100.00000000000001, 
-            "label": "butter", 
-            "name": "butter", 
-            "note": "to cook", 
-            "price": 0.18271914304016434, 
-            "protein": 0.0, 
-            "unit": "tbsp"
           }
         ], 
         "label": "fluffy pancakes", 
         "name": "fluffy_pancakes", 
         "nutrition": {
-          "calories": 678.8333333333334, 
-          "price": 1.4473576413286713, 
-          "protein": 15.5
+          "calories": 1221.3333333333333, 
+          "price": 2.5853663271900196, 
+          "protein": 27.75
         }
       }, 
       {
@@ -2304,154 +2276,6 @@
           "calories": 1494.5614523809525, 
           "price": 2.9660887552402526, 
           "protein": 19.656824285714286
-        }
-      }, 
-      {
-        "directions": [
-          "Beat eggs. Mix in sugars and spices. Mix in pumpkin, stir in milk + cornstarch mix, then beat til well mixed.", 
-          "Pour into shell.", 
-          "Bake at 425F for 15 min, then at 350F for 45-60 min. Cool for 2 hrs."
-        ], 
-        "ingredients": [
-          {
-            "amount": 2, 
-            "calories": 120, 
-            "label": "egg", 
-            "name": "egg", 
-            "price": 0.44, 
-            "protein": 12, 
-            "unit": ""
-          }, 
-          {
-            "amount": 0.5, 
-            "amount_in_grams": 96.0, 
-            "calories": 360.0, 
-            "label": "brown sugar", 
-            "name": "sugar_brown", 
-            "price": 0.5418081152696764, 
-            "protein": 0.0, 
-            "unit": "cup"
-          }, 
-          {
-            "amount": 0.25, 
-            "amount_in_grams": 48.0, 
-            "calories": 180.0, 
-            "label": "sugar", 
-            "name": "sugar", 
-            "note": "try not using", 
-            "price": 0.08465751801088696, 
-            "protein": 0.0, 
-            "unit": "cup"
-          }, 
-          {
-            "amount": 2, 
-            "amount_in_grams": 5.2, 
-            "calories": 12.866666666666669, 
-            "label": "ground cinnamon", 
-            "name": "cinnamon_ground", 
-            "price": 0.2733026873118134, 
-            "protein": 0.20733333333333334, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 1, 
-            "amount_in_grams": 1.7333333333333334, 
-            "calories": 5.799999999999999, 
-            "label": "ground ginger", 
-            "name": "ginger_ground", 
-            "price": 0.1363456359519785, 
-            "protein": 0.15566666666666668, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 0.25, 
-            "amount_in_grams": 0.5833333333333334, 
-            "calories": 3.0666666666666664, 
-            "label": "ground nutmeg", 
-            "name": "nutmeg", 
-            "note": "try 1/2 tsp", 
-            "price": 0.04444519695571565, 
-            "protein": 0.034083333333333334, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 0.25, 
-            "amount_in_grams": 0.5416666666666666, 
-            "calories": 1.4833333333333332, 
-            "label": "ground cloves", 
-            "name": "cloves_ground", 
-            "note": "try 1/2 tsp", 
-            "price": 0.0670646275492495, 
-            "protein": 0.03233333333333333, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 0.125, 
-            "amount_in_grams": 0.24166666666666667, 
-            "calories": 0.7500000000000001, 
-            "label": "ground cardamom", 
-            "name": "cardamom_ground", 
-            "price": 0.025062152727806326, 
-            "protein": 0.026000000000000002, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 0.125, 
-            "amount_in_grams": 0.28750000000000003, 
-            "calories": 0.7208333333333334, 
-            "label": "black pepper", 
-            "name": "pepper_black", 
-            "price": 0.026570114767375252, 
-            "protein": 0.029875000000000002, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 1, 
-            "amount_in_grams": 4.333333333333333, 
-            "calories": 12.666666666666666, 
-            "label": "vanilla extract", 
-            "name": "vanilla_extract", 
-            "note": "optional", 
-            "price": 0.5732019448653803, 
-            "protein": 0.0, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 15, 
-            "calories": 131.85823255813955, 
-            "label": "pumpkin puree", 
-            "name": "pumpkin_puree", 
-            "price": 3.75, 
-            "protein": 3.2964558139534885, 
-            "unit": "oz"
-          }, 
-          {
-            "amount": 1.25, 
-            "amount_in_grams": 300.0, 
-            "calories": 37.5, 
-            "label": "almond milk", 
-            "name": "milk_almond", 
-            "price": 0.4232875900544347, 
-            "protein": 1.25, 
-            "unit": "cup"
-          }, 
-          {
-            "amount": 2, 
-            "amount_in_grams": 5.333333333333333, 
-            "calories": 20.0, 
-            "label": "cornstarch", 
-            "name": "cornstarch", 
-            "price": 0.02257533813623652, 
-            "protein": 0.0, 
-            "unit": "tsp"
-          }
-        ], 
-        "label": "pumpkin pie filling", 
-        "name": "pumpkin_pie_filling", 
-        "nutrition": {
-          "calories": 886.7123992248062, 
-          "price": 6.408320921600554, 
-          "protein": 17.031747480620155
         }
       }, 
       {
@@ -9365,7 +9189,7 @@
           "Marinate chicken for 30min-1hr.", 
           "Combine nuoc cham ingredients and stir until sugar completely dissolved. Adjust if desired.", 
           "Boil, drain, rinse vermicelli.", 
-          "2 tbsp oil med high heat (7/10). Sear chicken for 3 min one side, 5 min other (or til cooked thru). Set aside.", 
+          "2 tbsp oil med high heat (8/10). Sear chicken for 3 min one side, 5 min other (or til cooked thru). Set aside.", 
           "Slice chicken thighs and add to salad.", 
           "Combine all ingredients. Serve with nuoc cham sauce."
         ], 

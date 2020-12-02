@@ -39,12 +39,12 @@
         ]
       },
       {
-        "name": "chocolate_chia_pudding",
-        "label": "chocolate chia pudding",
+        "name": "chia_pudding",
+        "label": "chia pudding",
         "ingredient_categories": [
           {
-            "name": "dain_serving",
-            "label": "Dain's serving",
+            "name": "dain_serving_choc",
+            "label": "Dain's serving for chocolate pudding",
             "ingredients": [
               { "name": "chia_seed_black", "amount": 33, "unit": "g" },
               { "name": "milk_oat", "amount": 20, "unit": "ml" },
@@ -54,28 +54,18 @@
             ]
           },
           {
-            "name": "dune_serving",
-            "label": "Dune's serving",
+            "name": "dune_serving_choc",
+            "label": "Dune's serving for chocolate pudding",
             "ingredients": [
               { "name": "chia_seed_black", "amount": 44, "unit": "g" },
               { "name": "milk_oat", "amount": 250, "unit": "ml" },
               { "name": "cocoa_powder", "amount": 16, "unit": "g" },
               { "name": "honey", "amount": 16, "unit": "g" }
             ]
-          }
-        ],
-        "directions": [
-          "for thick chia: 2 tbsp for every 1/2 c (4g chia for every 20ml milk)",
-          "for thinner chia: 3 tbsp for every 1 c (3g chia for every 20ml milk)"
-        ]
-      },
-      {
-        "name": "pb_chia_pudding",
-        "label": "peanut butter chia pudding",
-        "ingredient_categories": [
+          },
           {
-            "name": "dain_serving",
-            "label": "Dain's serving",
+            "name": "dain_serving_pb",
+            "label": "Dain's serving for PB pudding",
             "ingredients": [
               { "name": "chia_seed_black", "amount": 25, "unit": "g" },
               { "name": "milk_almond", "amount": 25, "unit": "ml" },
@@ -84,8 +74,8 @@
             ]
           },
           {
-            "name": "dune_serving",
-            "label": "Dune's serving",
+            "name": "dune_serving_pb",
+            "label": "Dune's serving for PB pudding",
             "ingredients": [
               { "name": "chia_seed_black", "amount": 37, "unit": "g" },
               { "name": "milk_oat", "amount": 212, "unit": "ml" },
@@ -121,21 +111,20 @@
         "name": "fluffy_pancakes",
         "label": "fluffy pancakes",
         "ingredients": [
-          { "name": "flour", "amount": 90, "unit": "g" },
-          { "name": "sugar", "amount": 18, "unit": "g" },
-          { "name": "baking_powder", "amount": 5, "unit": "g" },
-          { "name": "salt", "amount": 2, "unit": "g" },
-          { "name": "baking_soda", "amount": 2, "unit": "g" },
-          { "name": "egg", "amount": 1, "unit": "" },
-          { "name": "milk_almond", "amount": 120, "unit": "ml" },
-          { "name": "butter", "note": "melted", "amount": 1, "unit": "tbsp" },
-          { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
-          { "name": "butter", "note": "to cook", "amount": 1, "unit": "tbsp" }
+          { "name": "flour", "amount": 1.5, "unit": "cup" },
+          { "name": "baking_powder", "amount": 3.5, "unit": "tsp" },
+          { "name": "salt", "amount": 0.75, "unit": "tsp" },
+          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "milk_oat", "note": "warm", "amount": 1.25, "unit": "cup" },
+          { "name": "egg", "note": "room temp", "amount": 1, "unit": "" },
+          { "name": "butter", "note": "melted and cooled a little", "amount": 3, "unit": "tbsp" },
+          { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" }
+
         ],
         "directions": [
-          "Mix flour, sugar, baking powder, salt, baking soda.",
-          "Separate bowl, whisk egg, milk, melted butter, vanilla extract.",
-          "Combine, gently stir."
+          "Mix butter and milk and vanilla. Beat egg, then lightly beat in butter mix.",
+          "Sift dry ingredients. Create a well in the dry ingredients. Add wet to dry and mix just enough.",
+          "Lightly oiled pan on med high heat, 1/4 c batter each pancake."
         ]
       },
       {
@@ -557,30 +546,6 @@
           "Combine dry and wet. Add carrots and nuts.",
           "Bake at 350F 30-40 min. Cool in pan for 15 min, then cool on rack. (If cupcake, bake for 14-18 min)",
           "Frosting: whisk cream cheese and butter til smooth. Mix sugar, vanilla, and salt til smooth."
-        ]
-      },
-      {
-        "name": "pumpkin_pie_filling",
-        "label": "pumpkin pie filling",
-        "ingredients": [
-          { "name": "egg", "amount": 2, "unit": "" },
-          { "name": "sugar_brown", "amount": 0.5, "unit": "cup" },
-          { "name": "sugar", "note": "try not using", "amount": 0.25, "unit": "cup" },
-          { "name": "cinnamon_ground", "amount": 2, "unit": "tsp" },
-          { "name": "ginger_ground", "amount": 1, "unit": "tsp" },
-          { "name": "nutmeg", "note": "try 1/2 tsp", "amount": 0.25, "unit": "tsp" },
-          { "name": "cloves_ground", "note": "try 1/2 tsp", "amount": 0.25, "unit": "tsp" },
-          { "name": "cardamom_ground", "amount": 0.125, "unit": "tsp" },
-          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
-          { "name": "vanilla_extract", "note": "optional", "amount": 1, "unit": "tsp" },
-          { "name": "pumpkin_puree", "amount": 15, "unit": "oz" },
-          { "name": "milk_almond", "amount": 1.25, "unit": "cup" },
-          { "name": "cornstarch", "amount": 2, "unit": "tsp" }
-        ],
-        "directions": [
-          "Beat eggs. Mix in sugars and spices. Mix in pumpkin, stir in milk + cornstarch mix, then beat til well mixed.",
-          "Pour into shell.",
-          "Bake at 425F for 15 min, then at 350F for 45-60 min. Cool for 2 hrs."
         ]
       },
       {
@@ -2284,7 +2249,7 @@
           "Marinate chicken for 30min-1hr.",
           "Combine nuoc cham ingredients and stir until sugar completely dissolved. Adjust if desired.",
           "Boil, drain, rinse vermicelli.",
-          "2 tbsp oil med high heat (7/10). Sear chicken for 3 min one side, 5 min other (or til cooked thru). Set aside.",
+          "2 tbsp oil med high heat (8/10). Sear chicken for 3 min one side, 5 min other (or til cooked thru). Set aside.",
           "Slice chicken thighs and add to salad.",
           "Combine all ingredients. Serve with nuoc cham sauce."
         ]
