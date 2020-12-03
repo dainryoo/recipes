@@ -29,6 +29,7 @@ button, input {
 .app-header .header-title {
   display: flex;
   align-self: start;
+  color: grey;
 }
 /* .plus-sign: The plus sign text between Recipe and Pantry */
 .header-title>.plus-sign {
@@ -186,6 +187,7 @@ button, input {
   font-size: 2.5rem;
   margin-bottom: 2rem;
   text-transform: capitalize;
+  color: black;
 }
 /* .content .subheading: The text for Ingredients and Directions and Nutrition */
 .content .subheading {
@@ -194,6 +196,7 @@ button, input {
   display: flex;
   align-items: center;
   font-weight: 100;
+  color: grey;
 }
 /* .content .copy-button: Button to copy subcontent to header */
 .content .subheading .copy-button {
@@ -254,15 +257,16 @@ button, input {
 
 /* pantry .calculator: Each measurement to gram conversion calculator for a pantry item */
 .pantry .calculator {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
 }
 /* pantry .calculator input: Input box for the pantry item conversion calculators */
 .pantry .calculator input {
   margin-right: 0.5rem;
   text-align: right;
-  padding: 2px 12px;
-  width: 50px;
-  border: 1px solid lightgrey;
+  padding: 6px 12px;
+  width: 64px;
+  border: none;
+  border-bottom: 1px solid lightgrey;
   transition: 0.2s;
 }
 .pantry .calculator input:focus {
