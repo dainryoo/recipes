@@ -3069,8 +3069,8 @@
           "Shape dough.... (Roll tight. Fridge for 10 min. Cut in half lengthwise. Braid from center.)", 
           "", 
           "Put dough in loaf pan. Cover loosely, rise for 1-1.5 hr. Optionally, rise overnight, then take out to get to room temp for an hour before baking.", 
-          "Bake 25-30 min 375F.", 
-          "Brush with sugar syrup immediatley after out of oven.", 
+          "Bake 30 min 375F.", 
+          "Brush with sugar syrup IMMEDIATELY after out of oven.", 
           "Cool til warm, remove from pans, cool completely before serving."
         ], 
         "ingredient_categories": [
@@ -3214,12 +3214,13 @@
                 "unit": "cup"
               }, 
               {
-                "amount": 60, 
-                "calories": 280.0, 
+                "amount": 30, 
+                "calories": 140.0, 
                 "label": "chocolate chips", 
                 "name": "chocolate_chips", 
-                "price": 0.6772601440870956, 
-                "protein": 4.0, 
+                "note": "up to 60g if you're feeling luxurious", 
+                "price": 0.3386300720435478, 
+                "protein": 2.0, 
                 "unit": "g"
               }
             ], 
@@ -3256,9 +3257,9 @@
         "label": "chocolate babka", 
         "name": "chocolate_babka", 
         "nutrition": {
-          "calories": 3097.782354007843, 
-          "price": 14.16139635069659, 
-          "protein": 53.59780887686275
+          "calories": 2957.782354007843, 
+          "price": 13.822766278653043, 
+          "protein": 51.59780887686275
         }
       }, 
       {
@@ -12441,6 +12442,453 @@
           "calories": 982.6370833333334, 
           "price": 5.7969125625565345, 
           "protein": 22.53820833333333
+        }
+      }, 
+      {
+        "directions": [
+          "With a pack of sausage, makes a good dinner + 1 lunch portion", 
+          "Heat 2 tbsp olive oil over med heat in saucepan/skillet.", 
+          "Saute onion, garlic, bell pepper for ~2 min (til onion translucent and garlic browned)", 
+          "Pour in tomatoes and spices. Stir, cover, simmer for 20 min or til thickened. Pour over pasta"
+        ], 
+        "ingredients": [
+          {
+            "amount": 2, 
+            "amount_in_grams": 30.0, 
+            "calories": 240.0, 
+            "label": "olive oil", 
+            "name": "oil_olive", 
+            "price": 0.3492122617949087, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 60, 
+            "label": "onion", 
+            "name": "onion", 
+            "note": "chopped", 
+            "price": 0.33069339327731634, 
+            "protein": 1.65, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 24, 
+            "label": "green bell pepper", 
+            "name": "bell_pepper_green", 
+            "note": "chopped", 
+            "price": 0.473552939173117, 
+            "protein": 1.03, 
+            "unit": ""
+          }, 
+          {
+            "amount": 2, 
+            "calories": 8.94, 
+            "label": "garlic", 
+            "name": "garlic", 
+            "note": "minced", 
+            "price": 0.05277866556705969, 
+            "protein": 0.382, 
+            "unit": ""
+          }, 
+          {
+            "amount": 28, 
+            "calories": 260.2578885245902, 
+            "label": "canned crushed tomato", 
+            "name": "canned_tomato_crushed", 
+            "price": 4.4799999999999995, 
+            "protein": 13.01289442622951, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.75, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0021164379502721735, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.28750000000000003, 
+            "calories": 0.7208333333333334, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.026570114767375252, 
+            "protein": 0.029875000000000002, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.125, 
+            "calories": 0.33125, 
+            "label": "dried oregano", 
+            "name": "oregano", 
+            "price": 0.037654958531925756, 
+            "protein": 0.01125, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 6.0, 
+            "calories": 1.38, 
+            "label": "fresh basil", 
+            "name": "basil_fresh", 
+            "price": 1.0539860992355425, 
+            "protein": 0.189, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 12, 
+            "calories": 1214.9794285714286, 
+            "label": "pasta", 
+            "name": "pasta", 
+            "price": 1.0799999999999998, 
+            "protein": 36.44938285714286, 
+            "unit": "oz"
+          }
+        ], 
+        "label": "saucy pasta", 
+        "name": "saucy_pasta", 
+        "nutrition": {
+          "calories": 1810.609400429352, 
+          "price": 7.8865648702975175, 
+          "protein": 52.75440228337237
+        }
+      }, 
+      {
+        "directions": [
+          "Chicken in large bowl. Add 1 tbsp oil and adobo seasoning. Toss chicken with hands. Cover and marinate 30 min, or skip and just cook", 
+          "Add 1 tbsp oil to deep skillet or Dutch oven, med high heat. Once oil is hot, add chicken. Cook til browned (4-5 min). Flip and cook til browned (another 4-5min). Remove, set aside on plate.", 
+          "Using leftover grease in pan, make sofrito. Add sofrito vegetables, saute for 2-3 min. Add sazon seasoning, cook for 30 sec.", 
+          "Add tomato sauce and water. Stir well to combine.", 
+          "Bring to simmer. Fold in rice and peas, make sure evenly distributed. Add browned chicken on top.", 
+          "Reduce heat to low, cover immediately, cook for 20-25min.", 
+          "After 20-25min, most of liquid should be absorbed, rice cooked. Garnish with cilantro and squeeze fresh lime juice."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "amount_in_grams": 6.0, 
+                "calories": 10.0, 
+                "label": "ground cumin", 
+                "name": "cumin_ground", 
+                "price": 0.548157429120493, 
+                "protein": 0.4000000000000001, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.75, 
+                "amount_in_grams": 1.7, 
+                "calories": 4.800000000000001, 
+                "label": "paprika", 
+                "name": "paprika", 
+                "price": 0.9972302882024104, 
+                "protein": 0.24050000000000005, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 1.25, 
+                "calories": 4.0, 
+                "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
+                "name": "gochugaru", 
+                "price": 0.016314209200014675, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 0.8833333333333333, 
+                "calories": 2.816666666666667, 
+                "label": "cayenne pepper", 
+                "name": "cayenne_pepper", 
+                "price": 0.059201472664557754, 
+                "protein": 0.10616666666666669, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 1.1500000000000001, 
+                "calories": 3.916666666666667, 
+                "label": "onion powder", 
+                "name": "onion_powder", 
+                "price": 0.0498950246776665, 
+                "protein": 0.11966666666666666, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 1.6166666666666665, 
+                "calories": 5.3500000000000005, 
+                "label": "garlic powder", 
+                "name": "garlic_powder", 
+                "price": 0.0, 
+                "protein": 0.26666666666666666, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 0.45, 
+                "calories": 1.35, 
+                "label": "ground coriander", 
+                "name": "coriander_ground", 
+                "price": 0.06523919981713977, 
+                "protein": 0.05000000000000001, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 3.0, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.008465751801088694, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.28750000000000003, 
+                "calories": 0.7208333333333334, 
+                "label": "black pepper", 
+                "name": "pepper_black", 
+                "price": 0.026570114767375252, 
+                "protein": 0.029875000000000002, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "adobo seasoning", 
+            "name": "adobo_seasoning"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "amount_in_grams": 15.0, 
+                "calories": 120.0, 
+                "label": "olive oil", 
+                "name": "oil_olive", 
+                "note": "add to marinade!!", 
+                "price": 0.17460613089745436, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1.5, 
+                "calories": 900.0000000000001, 
+                "label": "chicken thigh", 
+                "name": "chicken_thigh", 
+                "price": 7.485, 
+                "protein": 120.0, 
+                "unit": "lb"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15.0, 
+                "calories": 120.0, 
+                "label": "olive oil", 
+                "name": "oil_olive", 
+                "note": "to cook with", 
+                "price": 0.17460613089745436, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "chicken marinade", 
+            "name": "chicken_marinade"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 3, 
+                "calories": 13.41, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "note": "minced", 
+                "price": 0.07916799835058955, 
+                "protein": 0.573, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 24, 
+                "label": "green bell pepper", 
+                "name": "bell_pepper_green", 
+                "note": "finely diced", 
+                "price": 0.473552939173117, 
+                "protein": 1.03, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 60, 
+                "label": "onion", 
+                "name": "onion", 
+                "note": "finely diced", 
+                "price": 0.33069339327731634, 
+                "protein": 1.65, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 4.06, 
+                "label": "jalapeno", 
+                "name": "jalapeno", 
+                "note": "optional, finely diced", 
+                "price": 0.06142078624470689, 
+                "protein": 0.127, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 60, 
+                "label": "onion", 
+                "name": "onion", 
+                "note": "finely diced", 
+                "price": 0.33069339327731634, 
+                "protein": 1.65, 
+                "unit": ""
+              }
+            ], 
+            "label": "sofrito vegetables", 
+            "name": "sofrito_vegetables"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 0.45, 
+                "calories": 1.35, 
+                "label": "ground coriander", 
+                "name": "coriander_ground", 
+                "price": 0.06523919981713977, 
+                "protein": 0.05000000000000001, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.5, 
+                "calories": 2.5, 
+                "label": "ground cumin", 
+                "name": "cumin_ground", 
+                "price": 0.13703935728012326, 
+                "protein": 0.10000000000000002, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 0.7833333333333333, 
+                "calories": 2.4416666666666664, 
+                "label": "turmeric", 
+                "name": "turmeric", 
+                "price": 0.049736291831396086, 
+                "protein": 0.07583333333333334, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 0.8083333333333332, 
+                "calories": 2.6750000000000003, 
+                "label": "garlic powder", 
+                "name": "garlic_powder", 
+                "price": 0.0, 
+                "protein": 0.13333333333333333, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 0.25, 
+                "calories": 0.6625, 
+                "label": "dried oregano", 
+                "name": "oregano", 
+                "price": 0.07530991706385151, 
+                "protein": 0.0225, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.5, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.004232875900544347, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 0.5750000000000001, 
+                "calories": 1.4416666666666669, 
+                "label": "black pepper", 
+                "name": "pepper_black", 
+                "price": 0.053140229534750505, 
+                "protein": 0.059750000000000004, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "sazon seasoning (for sofrito)", 
+            "name": "sazon_seasoning"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "amount_in_grams": 248.0, 
+                "calories": 100.0, 
+                "label": "canned tomato sauce", 
+                "name": "canned_tomato_sauce", 
+                "price": 1.3996709644466643, 
+                "protein": 3.9999999999999996, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 1.25, 
+                "amount_in_grams": 300.0, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 180.0, 
+                "calories": 640.0, 
+                "label": "long grain rice", 
+                "name": "rice_long_grain", 
+                "note": "should be basmati", 
+                "price": 0.5079451080653217, 
+                "protein": 12.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.6666667, 
+                "amount_in_grams": 113.333339, 
+                "calories": 93.33333800000001, 
+                "label": "frozen peas", 
+                "name": "frozen_peas", 
+                "price": 0.47972595938132284, 
+                "protein": 5.3333336000000005, 
+                "unit": "cup"
+              }
+            ], 
+            "label": "misc", 
+            "name": "misc"
+          }
+        ], 
+        "label": "puerto rican arroz con pollo", 
+        "name": "arroz_con_pollo", 
+        "nutrition": {
+          "calories": 2178.828338, 
+          "price": 13.652854165689817, 
+          "protein": 148.01762526666664
         }
       }
     ]

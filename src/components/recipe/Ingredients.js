@@ -43,7 +43,7 @@ const Ingredients = (props) => {
           {ingredients && ingredients.map((currItem, index) => (
             <tr key={index}>
               { currItem.ingredients && <td className="ingredient-category">{currItem.label + ":"}</td> }
-              { currItem.amount &&
+              { (currItem.amount && false) &&
                 <td className="ingredient-name">
                   <IngredientInputBox itemIndex={index}
                                       currItem={currItem}
@@ -53,6 +53,14 @@ const Ingredients = (props) => {
                                       editingIngredientIndex={editingIngredientIndex}
                                       startEditingIngredient={startEditingIngredient}/>
                 </td>}
+                { currItem.amount &&
+                  <td className="ingredient-name">{
+                    (parseFloat(currItem.amount).toFixed(2)
+                    + (currItem.unit.length > 0 ? " " + currItem.unit : "")
+                    + (currItem.amount_in_grams != null ? (" (" + parseFloat(currItem.amount_in_grams).toFixed(2) + " g)") : ""))
+                    + (" " + currItem.label)
+                    + (currItem.note ? (", " + currItem.note) : "")}</td>
+                  }
               <td className="calorie-column">
                 { currItem.calories != null ? (parseFloat(currItem.calories).toFixed(2) + " cal") : "" }
               </td>

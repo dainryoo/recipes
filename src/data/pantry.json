@@ -2047,6 +2047,22 @@
         }
       },
       {
+        "name": "canned_tomato_sauce",
+        "label": "canned tomato sauce",
+        "note": "Muir Glen tomato sauce",
+        "serving_nutrition": {
+          "amount": 0.25,
+          "unit": "cup",
+          "grams": 62,
+          "calories": 25,
+          "protein": 1
+        },
+        "price_per_unit": {
+          "price": 0.16,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "canned_tomato_whole",
         "label": "canned whole tomato",
         "serving_nutrition": {

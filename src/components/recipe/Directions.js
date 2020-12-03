@@ -28,7 +28,7 @@ const Directions = ({directions}) => {
       </div>
       <ul>
         {directions && directions.map((step, index) => (
-          <li key={index}>
+          <li key={index} className={step.length === 0 ? "no-bullet" : ""}>
             {step}
           </li>
         ))}

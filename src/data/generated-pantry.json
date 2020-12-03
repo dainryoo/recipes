@@ -3656,6 +3656,34 @@
       }, 
       {
         "conversion_to_grams": {
+          "cup": 248.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 15.5, 
+          "tsp": 5.166666666666667
+        }, 
+        "label": "canned tomato sauce", 
+        "name": "canned_tomato_sauce", 
+        "note": "Muir Glen tomato sauce", 
+        "per_100_gram": {
+          "calories": 40.32258064516129, 
+          "price": 0.564383453405913, 
+          "protein": 1.6129032258064515
+        }, 
+        "price_per_unit": {
+          "price": 0.16, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 0.25, 
+          "calories": 25, 
+          "grams": 62, 
+          "protein": 1, 
+          "unit": "cup"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
           "cup": 242.0, 
           "lb": 453.59237, 
           "oz": 28.34952, 

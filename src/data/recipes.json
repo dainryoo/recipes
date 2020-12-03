@@ -755,7 +755,7 @@
               { "name": "cocoa_powder", "amount": 0.16666667, "unit": "cup" },
               { "name": "chocolate_dark_70", "note": "melted", "amount": 65, "unit": "g" },
               { "name": "butter", "note": "melted", "amount": 0.25, "unit": "cup" },
-              { "name": "chocolate_chips", "amount": 60, "unit": "g" }
+              { "name": "chocolate_chips", "note": "up to 60g if you're feeling luxurious", "amount": 30, "unit": "g" }
             ]
           },
           {
@@ -780,8 +780,8 @@
           "Shape dough.... (Roll tight. Fridge for 10 min. Cut in half lengthwise. Braid from center.)",
           "",
           "Put dough in loaf pan. Cover loosely, rise for 1-1.5 hr. Optionally, rise overnight, then take out to get to room temp for an hour before baking.",
-          "Bake 25-30 min 375F.",
-          "Brush with sugar syrup immediatley after out of oven.",
+          "Bake 30 min 375F.",
+          "Brush with sugar syrup IMMEDIATELY after out of oven.",
           "Cool til warm, remove from pans, cool completely before serving."
         ]
       },
@@ -2928,6 +2928,101 @@
           "Add 2 tbsp olive oil on nonstick pan, med heat. Add vegetables, black pepper, parsley, and salt. Cook vegetables until soft.",
           "Add bread. Mix and add 3c water, 1 tbsp soy sauce, and spices.",
           "Turn heat to low and let cook until bread soft and water dissolved."
+        ]
+      },
+      {
+        "name": "saucy_pasta",
+        "label": "saucy pasta",
+        "ingredients": [
+          { "name": "oil_olive", "amount": 2, "unit": "tbsp" },
+          { "name": "onion", "note": "chopped", "amount": 1, "unit": "" },
+          { "name": "bell_pepper_green", "note": "chopped", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+          { "name": "canned_tomato_crushed", "amount": 28, "unit": "oz" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "oregano", "amount": 0.125, "unit": "tsp" },
+          { "name": "basil_fresh", "amount": 0.25, "unit": "cup" },
+          { "name": "pasta", "amount": 12, "unit": "oz" }
+        ],
+        "directions": [
+          "With a pack of sausage, makes a good dinner + 1 lunch portion",
+          "Heat 2 tbsp olive oil over med heat in saucepan/skillet.",
+          "Saute onion, garlic, bell pepper for ~2 min (til onion translucent and garlic browned)",
+          "Pour in tomatoes and spices. Stir, cover, simmer for 20 min or til thickened. Pour over pasta"
+        ]
+      },
+      {
+        "name": "arroz_con_pollo",
+        "label": "puerto rican arroz con pollo",
+        "ingredient_categories": [
+          {
+            "name": "adobo_seasoning",
+            "label": "adobo seasoning",
+            "ingredients": [
+              { "name": "cumin_ground", "amount": 1, "unit": "tsp" },
+              { "name": "paprika", "amount": 0.75, "unit": "tsp" },
+              { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
+              { "name": "cayenne_pepper", "amount": 0.5, "unit": "tsp" },
+              { "name": "onion_powder", "amount": 0.5, "unit": "tsp" },
+              { "name": "garlic_powder", "amount": 0.5, "unit": "tsp" },
+              { "name": "coriander_ground", "amount": 0.25, "unit": "tsp" },
+              { "name": "salt", "amount": 0.5, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "chicken_marinade",
+            "label": "chicken marinade",
+            "ingredients": [
+              { "name": "oil_olive", "note": "add to marinade!!", "amount": 1, "unit": "tbsp" },
+              { "name": "chicken_thigh", "amount": 1.5, "unit": "lb" },
+              { "name": "oil_olive", "note": "to cook with", "amount": 1, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "sofrito_vegetables",
+            "label": "sofrito vegetables",
+            "ingredients": [
+              { "name": "garlic", "note": "minced", "amount": 3, "unit": "" },
+              { "name": "bell_pepper_green", "note": "finely diced", "amount": 1, "unit": "" },
+              { "name": "onion", "note": "finely diced", "amount": 1, "unit": "" },
+              { "name": "jalapeno", "note": "optional, finely diced", "amount": 1, "unit": "" },
+              { "name": "onion", "note": "finely diced", "amount": 1, "unit": "" }
+            ]
+          },
+          {
+            "name": "sazon_seasoning",
+            "label": "sazon seasoning (for sofrito)",
+            "ingredients": [
+              { "name": "coriander_ground", "amount": 0.25, "unit": "tsp" },
+              { "name": "cumin_ground", "amount": 0.25, "unit": "tsp" },
+              { "name": "turmeric", "amount": 0.25, "unit": "tsp" },
+              { "name": "garlic_powder", "amount": 0.25, "unit": "tsp" },
+              { "name": "oregano", "amount": 0.25, "unit": "tsp" },
+              { "name": "salt", "amount": 0.25, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.25, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "misc",
+            "label": "misc",
+            "ingredients": [
+              { "name": "canned_tomato_sauce", "amount": 1, "unit": "cup" },
+              { "name": "water", "amount": 1.25, "unit": "cup" },
+              { "name": "rice_long_grain", "note": "should be basmati", "amount": 1, "unit": "cup" },
+              { "name": "frozen_peas", "amount": 0.6666667, "unit": "cup" }
+            ]
+          }
+        ],
+        "directions": [
+          "Chicken in large bowl. Add 1 tbsp oil and adobo seasoning. Toss chicken with hands. Cover and marinate 30 min, or skip and just cook",
+          "Add 1 tbsp oil to deep skillet or Dutch oven, med high heat. Once oil is hot, add chicken. Cook til browned (4-5 min). Flip and cook til browned (another 4-5min). Remove, set aside on plate.",
+          "Using leftover grease in pan, make sofrito. Add sofrito vegetables, saute for 2-3 min. Add sazon seasoning, cook for 30 sec.",
+          "Add tomato sauce and water. Stir well to combine.",
+          "Bring to simmer. Fold in rice and peas, make sure evenly distributed. Add browned chicken on top.",
+          "Reduce heat to low, cover immediately, cook for 20-25min.",
+          "After 20-25min, most of liquid should be absorbed, rice cooked. Garnish with cilantro and squeeze fresh lime juice."
         ]
       }
     ]
