@@ -55,9 +55,9 @@ const Ingredients = (props) => {
                 </td>}
                 { currItem.amount &&
                   <td className="ingredient-name">{
-                    (parseFloat(currItem.amount).toFixed(2)
+                    parseFloat(currItem.amount).toFixed(2).replace(/\.?0+$/, "")
                     + (currItem.unit.length > 0 ? " " + currItem.unit : "")
-                    + (currItem.amount_in_grams != null ? (" (" + parseFloat(currItem.amount_in_grams).toFixed(2) + " g)") : ""))
+                    + (currItem.amount_in_grams != null ? (" (" + parseFloat(currItem.amount_in_grams).toFixed(2).replace(/\.?0+$/, "") + " g)") : "")
                     + (" " + currItem.label)
                     + (currItem.note ? (", " + currItem.note) : "")}</td>
                   }

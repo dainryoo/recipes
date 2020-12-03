@@ -22,7 +22,7 @@ const CalculatorInput = ({ info, updateCalculator, unit }) => {
       <div key={unit} className="calculator">
         <input value={info[unit].input} onChange={handleChange}/>
         {unit + " = "
-          + (info[unit].toGrams != null ? (parseFloat(info[unit].toGrams).toFixed(2) + " g = ") : "")
+          + (info[unit].toGrams != null ? (parseFloat(info[unit].toGrams).toFixed(2).replace(/\.?0+$/, "") + " g = ") : "")
           + parseFloat(info[unit].calories).toFixed(2) + " calories"}
       </div>
   );

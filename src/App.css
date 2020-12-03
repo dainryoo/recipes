@@ -254,7 +254,7 @@ button, input {
 
 /* pantry .calculator: Each measurement to gram conversion calculator for a pantry item */
 .pantry .calculator {
-  margin: 0.25rem 0;
+  margin: 1rem 0;
 }
 /* pantry .calculator input: Input box for the pantry item conversion calculators */
 .pantry .calculator input {

@@ -53,7 +53,7 @@ const Pantry = ({ item, mobileView, view }) => {
   if (item.conversion_to_grams) {
     let measurementsArr = [];
     for (const [unit, value] of Object.entries(item.conversion_to_grams)) {
-      measurementsArr.push("1 " + unit + " = " + parseFloat(value).toFixed(2) + " g");
+      measurementsArr.push("1 " + unit + " = " + parseFloat(value).toFixed(2).replace(/\.?0+$/, "") + " g");
     }
     measurements = measurementsArr;
   }
@@ -62,13 +62,13 @@ const Pantry = ({ item, mobileView, view }) => {
     let nutritionArr = [];
     for (const [unit, value] of Object.entries(item.per_unit)) {
       if (unit === "calories") {
-        nutritionArr.push(parseFloat(value).toFixed(2) + " calories");
+        nutritionArr.push(parseFloat(value).toFixed(2).replace(/\.?0+$/, "") + " calories");
       } else if (unit === "protein") {
-        nutritionArr.push(parseFloat(value).toFixed(2) + " g protein");
+        nutritionArr.push(parseFloat(value).toFixed(2).replace(/\.?0+$/, "") + " g protein");
       } else if (unit === "price") {
         nutritionArr.push("$" + parseFloat(value).toFixed(2));
       } else if (unit === "avg_grams") {
-        nutritionArr.push("~" + parseFloat(value).toFixed(2) + " g");
+        nutritionArr.push("~" + parseFloat(value).toFixed(2).replace(/\.?0+$/, "") + " g");
       }
     }
     nutrition = nutritionArr;
@@ -78,9 +78,9 @@ const Pantry = ({ item, mobileView, view }) => {
     let nutrition100Arr = [];
     for (const [unit, value] of Object.entries(item.per_100_gram)) {
       if (unit === "calories") {
-        nutrition100Arr.push(parseFloat(value).toFixed(2) + " calories");
+        nutrition100Arr.push(parseFloat(value).toFixed(2).replace(/\.?0+$/, "") + " calories");
       } else if (unit === "protein") {
-        nutrition100Arr.push(parseFloat(value).toFixed(2) + " g protein");
+        nutrition100Arr.push(parseFloat(value).toFixed(2).replace(/\.?0+$/, "") + " g protein");
       } else if (unit === "price") {
         nutrition100Arr.push("$" + parseFloat(value).toFixed(2));
       }
