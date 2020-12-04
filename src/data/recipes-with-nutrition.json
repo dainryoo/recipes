@@ -12736,6 +12736,17 @@
                 "unit": ""
               }, 
               {
+                "amount": 0.25, 
+                "amount_in_grams": 4.0, 
+                "calories": 0.92, 
+                "label": "fresh cilantro", 
+                "name": "cilantro_fresh", 
+                "note": "finely diced", 
+                "price": 0.08759700547872973, 
+                "protein": 0.08525, 
+                "unit": "cup"
+              }, 
+              {
                 "amount": 1, 
                 "calories": 4.06, 
                 "label": "jalapeno", 
@@ -12743,16 +12754,6 @@
                 "note": "optional, finely diced", 
                 "price": 0.06142078624470689, 
                 "protein": 0.127, 
-                "unit": ""
-              }, 
-              {
-                "amount": 1, 
-                "calories": 60, 
-                "label": "onion", 
-                "name": "onion", 
-                "note": "finely diced", 
-                "price": 0.33069339327731634, 
-                "protein": 1.65, 
                 "unit": ""
               }
             ], 
@@ -12886,9 +12887,9 @@
         "label": "puerto rican arroz con pollo", 
         "name": "arroz_con_pollo", 
         "nutrition": {
-          "calories": 2178.828338, 
-          "price": 13.652854165689817, 
-          "protein": 148.01762526666664
+          "calories": 2119.748338, 
+          "price": 13.40975777789123, 
+          "protein": 146.45287526666664
         }
       }
     ]

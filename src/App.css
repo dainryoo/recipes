@@ -144,6 +144,7 @@ button, input {
   margin-bottom: 1rem;
   color: #de8c8c;
   transition: 0.2s;
+  font-size: 1.1rem;
 }
 /* .sidebar .sub-list-item>div: The text of the nav items */
 .sidebar .sub-list-item>div {
@@ -218,7 +219,7 @@ button, input {
 /* .content .subcontent: The text underneath each .subheading */
 .content .subcontent {
   font-size: 1.2rem;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
   margin-top: 0;
   margin-bottom: 2rem;
 }

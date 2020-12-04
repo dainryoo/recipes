@@ -780,7 +780,7 @@
           "Shape dough.... (Roll tight. Fridge for 10 min. Cut in half lengthwise. Braid from center.)",
           "",
           "Put dough in loaf pan. Cover loosely, rise for 1-1.5 hr. Optionally, rise overnight, then take out to get to room temp for an hour before baking.",
-          "Bake 30 min 375F.",
+          "Bake 40-50 min 350F.",
           "Brush with sugar syrup IMMEDIATELY after out of oven.",
           "Cool til warm, remove from pans, cool completely before serving."
         ]
@@ -2987,8 +2987,8 @@
               { "name": "garlic", "note": "minced", "amount": 3, "unit": "" },
               { "name": "bell_pepper_green", "note": "finely diced", "amount": 1, "unit": "" },
               { "name": "onion", "note": "finely diced", "amount": 1, "unit": "" },
-              { "name": "jalapeno", "note": "optional, finely diced", "amount": 1, "unit": "" },
-              { "name": "onion", "note": "finely diced", "amount": 1, "unit": "" }
+              { "name": "cilantro_fresh", "note": "finely diced", "amount": 0.25, "unit": "cup" },
+              { "name": "jalapeno", "note": "optional, finely diced", "amount": 1, "unit": "" }
             ]
           },
           {
