@@ -780,7 +780,7 @@
           "Shape dough.... (Roll tight. Fridge for 10 min. Cut in half lengthwise. Braid from center.)",
           "",
           "Put dough in loaf pan. Cover loosely, rise for 1-1.5 hr. Optionally, rise overnight, then take out to get to room temp for an hour before baking.",
-          "Bake 40-50 min 350F.",
+          "Bake 40-50 min 350F. 45 min is definitely good. Experiment.",
           "Brush with sugar syrup IMMEDIATELY after out of oven.",
           "Cool til warm, remove from pans, cool completely before serving."
         ]
@@ -827,7 +827,7 @@
     "recipes": [
       {
         "name": "kimchi_pancakes",
-        "label": "kimchi pancakes (부침개)",
+        "label": "kimchi pancakes [부침개]",
         "ingredients": [
           { "name": "kimchi", "amount": 280, "unit": "g" },
           { "name": "flour", "amount": 200, "unit": "g" },
@@ -840,7 +840,7 @@
       },
       {
         "name": "kimchi_fried_rice",
-        "label": "kimchi fried rice (볶음밥)",
+        "label": "kimchi fried rice [볶음밥]",
         "ingredients": [
           { "name": "spam_lite", "note": "or 1 can tuna", "amount": 12, "unit": "oz" },
           { "name": "kimchi", "amount": 400, "unit": "g" },
@@ -862,7 +862,7 @@
       },
       {
         "name": "hotteok",
-        "label": "hotteok (호떡)",
+        "label": "hotteok [호떡]",
         "ingredients": [
           { "name": "frozen_dinner_roll", "amount": 6, "unit": "" },
           { "name": "walnut", "amount": 12, "unit": "g" },
@@ -871,14 +871,14 @@
           { "name": "oil", "amount": 2, "unit": "tsp" }
         ],
         "directions": [
-          "Defrost and let dinner rolls rise (on a lightly greased plate and covered with plastic wrap, sealing the whole plate) for ~3-5 hrs.",
+          "Defrost and let dinner rolls rise (in a lightly greased plate and covered with plastic wrap, sealing the whole plate) for ~3-5 hrs.",
           "For each roll, flatten and spoon 8g of filling. Pinch up into smooth ball.",
           "Fry on med heat, pressing gently to flatten."
         ]
       },
       {
         "name": "steamed_egg",
-        "label": "steamed egg (계란찜)",
+        "label": "steamed egg [계란찜]",
         "ingredients": [
           { "name": "egg", "amount": 2, "unit": "" },
           { "name": "water", "amount": 0.5, "unit": "cup" },
@@ -911,7 +911,7 @@
       },
       {
         "name": "rolled_egg",
-        "label": "rolled egg (계란마리)",
+        "label": "rolled egg [계란마리]",
         "ingredients": [
           { "name": "egg", "amount": 3, "unit": "" },
           { "name": "green_onion", "amount": 1, "unit": "" },
@@ -930,7 +930,7 @@
       },
       {
         "name": "korean_curry",
-        "label": "korean curry (카레라이스)",
+        "label": "korean curry [카레라이스]",
         "ingredients": [
           { "name": "rice_white", "amount": 245, "unit": "g" },
           { "name": "butter", "amount": 2, "unit": "tbsp" },
@@ -949,7 +949,7 @@
       },
       {
         "name": "omurice",
-        "label": "omurice (오므라이스)",
+        "label": "omurice [오므라이스]",
         "ingredients": [
           { "name": "rice_white", "amount": 2, "unit": "cup" },
           { "name": "spam_lite", "note": "1/2 can", "amount": 6, "unit": "oz" },
@@ -972,7 +972,7 @@
       },
       {
         "name": "soybean_paste_soup",
-        "label": "soybean paste soup (된장국)",
+        "label": "soybean paste soup [된장국]",
         "ingredients": [
           { "name": "water", "note": "or anchovy stock", "amount": 2.5, "unit": "cup" },
           { "name": "soybean_paste", "amount": 3, "unit": "tbsp" },
@@ -992,7 +992,7 @@
       },
       {
         "name": "kimbap",
-        "label": "kimbap (김밥)",
+        "label": "kimbap [김밥]",
         "ingredients": [
           { "name": "dried_seaweed_sheet", "amount": 5, "unit": "" },
           { "name": "rice_white", "amount": 2, "unit": "cup" },
@@ -1011,7 +1011,7 @@
       },
       {
         "name": "tteokbokki",
-        "label": "tteokbokki (떡볶기)",
+        "label": "tteokbokki [떡볶기]",
         "ingredients": [
           { "name": "rice_cake", "amount": 0.625, "unit": "lb" },
           { "name": "water", "amount": 300, "unit": "ml" },
@@ -1029,7 +1029,7 @@
       },
       {
         "name": "hoppang",
-        "label": "hoppang (호빵)",
+        "label": "hoppang [호빵]",
         "ingredients": [
           { "name": "butter", "amount": 1, "unit": "tbsp" },
           { "name": "milk_oat", "amount": 140, "unit": "ml" },
@@ -1057,7 +1057,7 @@
       },
       {
         "name": "jjajangmyeon",
-        "label": "jjajangmyeon (짜장면)",
+        "label": "jjajangmyeon [짜장면]",
         "ingredients": [
           { "name": "jjajang", "amount": 0.25, "unit": "cup" },
           { "name": "pork_ground_84", "amount": 0.5, "unit": "lb" },
@@ -1083,7 +1083,7 @@
       },
       {
         "name": "makgeolli_rice_cake",
-        "label": "makgeolli rice cake (술떡)",
+        "label": "makgeolli rice cake [술떡]",
         "ingredients": [
           { "name": "flour_rice", "amount": 4, "unit": "cup" },
           { "name": "makgeolli", "amount": 72, "unit": "ml" },
@@ -1105,7 +1105,7 @@
       },
       {
         "name": "japchae",
-        "label": "japchae (잡채)",
+        "label": "japchae [잡채]",
         "ingredient_categories": [
           {
             "name": "egg",
@@ -1157,7 +1157,7 @@
       },
       {
         "name": "bibim_guksu",
-        "label": "bibim guksu (비빔국수)",
+        "label": "bibim guksu [비빔국수]",
         "ingredient_categories": [
           {
             "name": "sauce",
@@ -1189,7 +1189,7 @@
       },
       {
         "name": "kimchi",
-        "label": "kimchi (김치)",
+        "label": "kimchi [김치]",
         "ingredients": [
           { "name": "cabbage_napa", "note": "about 2 lb", "amount": 0.5, "unit": "" },
           { "name": "salt", "note": "coarse sea salt", "amount": 0.333333, "unit": "cup" },
@@ -1212,7 +1212,7 @@
       },
       {
         "name": "gamjatang",
-        "label": "gamjatang (감자탕)",
+        "label": "gamjatang [감자탕]",
         "ingredient_categories": [
           {
             "name": "filling",
@@ -1271,7 +1271,7 @@
       },
       {
         "name": "la_galbi",
-        "label": "LA galbi (LA 갈비)",
+        "label": "LA galbi [LA 갈비]",
         "ingredients": [
           { "name": "beef_lateral_rib", "amount": 2, "unit": "lb" },
           { "name": "garlic", "amount": 8, "unit": "" },
@@ -1297,7 +1297,7 @@
       },
       {
         "name": "spicy_pork_stirfry",
-        "label": "spicy pork stirfry (제육볶음)",
+        "label": "spicy pork stirfry [제육볶음]",
         "ingredients": [
           { "name": "pork_belly", "note": "or pork shoulder/loin", "amount": 1, "unit": "lb" },
           { "name": "gochujang", "amount": 0.2, "unit": "cup" },
@@ -1322,7 +1322,7 @@
       },
       {
         "name": "galbitang",
-        "label": "galbitang (갈비탕)",
+        "label": "galbitang [갈비탕]",
         "ingredients": [
           { "name": "beef_short_rib", "amount": 1.5, "unit": "lb" },
           { "name": "radish_daikon", "note": "cut into small pieces", "amount": 1, "unit": "" },
@@ -1344,7 +1344,7 @@
       },
       {
         "name": "chicken_porridge",
-        "label": "chicken porridge (닭죽)",
+        "label": "chicken porridge [닭죽]",
         "ingredient_categories": [
           {
             "name": "broth",
@@ -1401,7 +1401,7 @@
       },
       {
         "name": "spicy_braised_chicken",
-        "label": "spicy braised chicken (닭볶음탕)",
+        "label": "spicy braised chicken [닭볶음탕]",
         "ingredient_categories": [
           {
             "name": "sauce",
@@ -2900,10 +2900,10 @@
         ],
         "directions": [
           "Heat oil in a large skillet on med-low.",
-          "If using meat, add to pan and break into chunks real quick. Also add onion, bell pepper, garlic, spices til soft (~5-10 min)",
+          "If using meat, add to pan and break into chunks real quick. Also add onion, bell pepper, garlic, spices til soft (~5-10 min). Turn heat to med-high (7/10)",
           "Pour in tomatoes and season with salt, pepper, pepper flakes. Simmer til thickened (~15min but could be more)",
           "Stir in crumbled feta. Make little wells/indentations for eggs. Gently crack eggs in.",
-          "Reduce heat to low, put lid on, cook til eggs are just set (up to 7 min?)",
+          "Reduce heat to low (2/10), put lid on, cook til eggs are just set, ~6min.",
           "Uncover and add garnish and pepper flakes if desired."
         ]
       },

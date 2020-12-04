@@ -5466,8 +5466,9 @@
           "tbsp": 7.5, 
           "tsp": 2.5
         }, 
-        "label": "gochugaru (\uace0\ucd94\uac00\ub8e8)", 
+        "label": "gochugaru", 
         "name": "gochugaru", 
+        "note": "[\uace0\ucd94\uac00\ub8e8]", 
         "per_100_gram": {
           "calories": 320.0, 
           "price": 1.3051367360011739, 
@@ -5493,8 +5494,9 @@
           "tbsp": 18.0, 
           "tsp": 6.0
         }, 
-        "label": "gochujang (\uace0\ucd94\uc7a5)", 
+        "label": "gochujang", 
         "name": "gochujang", 
+        "note": "[\uace0\ucd94\uc7a5]", 
         "per_100_gram": {
           "calories": 166.66666666666669, 
           "price": 1.6931503602177391, 
@@ -5517,9 +5519,9 @@
           "lb": 448.0, 
           "oz": 28.0
         }, 
-        "label": "salted shrimp (\uc0c8\uc6b0\uc813)", 
+        "label": "salted shrimp", 
         "name": "salted_shrimp", 
-        "note": "1tsp ~9g???", 
+        "note": "[\uc0c8\uc6b0\uc813] 1tsp ~9g???", 
         "per_100_gram": {
           "calories": 321.42857142857144, 
           "price": 1.0133928571428572, 
@@ -5545,8 +5547,9 @@
           "tbsp": 18.0, 
           "tsp": 6.0
         }, 
-        "label": "soybean paste (\ub41c\uc7a5)", 
+        "label": "soybean paste", 
         "name": "soybean_paste", 
+        "note": "[\ub41c\uc7a5]", 
         "per_100_gram": {
           "calories": 83.33333333333334, 
           "price": 1.5873284627041304, 
