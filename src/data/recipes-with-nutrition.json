@@ -6908,7 +6908,17 @@
       }, 
       {
         "directions": [
-          "Makes 2 pancakes. tba.."
+          "Makes 2 pancakes", 
+          "Mix flour, salt, water with spatula until sticky dough forms, ~2-3 min.", 
+          "Coat dough with 1/2 tsp veg oil. Cover with plastic wrap. Rest for 1 hr.", 
+          "Roll out with rolling pin into almost translucent.", 
+          "Heat skillet or frying pan over med high heat.", 
+          "Add 1/2 tsp oil. Lift rolled out dough, place evenly in pan.", 
+          "Crack 1 egg into center of dough. Lightly spread egg around over top of dough.", 
+          "Drizzle another 1/2 tsp oil on top. ", 
+          "Flip and cook this for 10 sec.", 
+          "Flip again. Let cook for another min or until golden brown.", 
+          "Add sauce."
         ], 
         "ingredient_categories": [
           {
@@ -6923,13 +6933,24 @@
                 "unit": "g"
               }, 
               {
-                "amount": 2, 
-                "calories": 120, 
-                "label": "egg", 
-                "name": "egg", 
-                "price": 0.44, 
-                "protein": 12, 
-                "unit": ""
+                "amount": 0.25, 
+                "amount_in_grams": 60.0, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.0625, 
+                "amount_in_grams": 0.375, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.0010582189751360868, 
+                "protein": 0.0, 
+                "unit": "tsp"
               }, 
               {
                 "amount": 0.5, 
@@ -6941,6 +6962,15 @@
                 "price": 0.009053651231719856, 
                 "protein": 0.0, 
                 "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "calories": 120, 
+                "label": "egg", 
+                "name": "egg", 
+                "price": 0.44, 
+                "protein": 12, 
+                "unit": ""
               }, 
               {
                 "amount": 2, 
@@ -6997,7 +7027,7 @@
         "name": "dan_bing", 
         "nutrition": {
           "calories": 577.4313333333333, 
-          "price": 2.126574307316343, 
+          "price": 2.127632526291479, 
           "protein": 20.775666666666666
         }
       }, 

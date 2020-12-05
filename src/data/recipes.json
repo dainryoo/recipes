@@ -1637,8 +1637,10 @@
             "label": "pancake",
             "ingredients": [
               { "name": "flour", "amount": 85, "unit": "g" },
-              { "name": "egg", "amount": 2, "unit": "" },
+              { "name": "water", "amount": 0.25, "unit": "cup" },
+              { "name": "salt", "amount": 0.0625, "unit": "tsp" },
               { "name": "oil", "note": "on dough", "amount": 0.5, "unit": "tsp" },
+              { "name": "egg", "amount": 2, "unit": "" },
               { "name": "oil", "note": "1 tsp per pancake", "amount": 2, "unit": "tsp" }
             ]
           },
@@ -1653,7 +1655,17 @@
           }
         ],
         "directions": [
-          "Makes 2 pancakes. tba.."
+          "Makes 2 pancakes",
+          "Mix flour, salt, water with spatula until sticky dough forms, ~2-3 min.",
+          "Coat dough with 1/2 tsp veg oil. Cover with plastic wrap. Rest for 1 hr.",
+          "Roll out with rolling pin into almost translucent.",
+          "Heat skillet or frying pan over med high heat.",
+          "Add 1/2 tsp oil. Lift rolled out dough, place evenly in pan.",
+          "Crack 1 egg into center of dough. Lightly spread egg around over top of dough.",
+          "Drizzle another 1/2 tsp oil on top. ",
+          "Flip and cook this for 10 sec.",
+          "Flip again. Let cook for another min or until golden brown.",
+          "Add sauce."
         ]
       },
       {
