@@ -1637,7 +1637,7 @@
             "label": "pancake",
             "ingredients": [
               { "name": "flour", "amount": 85, "unit": "g" },
-              { "name": "water", "amount": 0.25, "unit": "cup" },
+              { "name": "water", "note": "warm", "amount": 0.25, "unit": "cup" },
               { "name": "salt", "amount": 0.0625, "unit": "tsp" },
               { "name": "oil", "note": "on dough", "amount": 0.5, "unit": "tsp" },
               { "name": "egg", "amount": 2, "unit": "" },

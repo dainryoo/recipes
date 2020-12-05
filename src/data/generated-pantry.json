@@ -5017,17 +5017,17 @@
       }, 
       {
         "conversion_to_grams": {
-          "cup": 480.0, 
+          "cup": 288.0, 
           "lb": 453.59237, 
           "oz": 28.34952, 
-          "tbsp": 30.0, 
-          "tsp": 10.0
+          "tbsp": 18.0, 
+          "tsp": 6.0
         }, 
         "label": "doubanjiang", 
         "name": "doubanjiang", 
         "note": "(chili bean sauce)", 
         "per_100_gram": {
-          "calories": 50.0, 
+          "calories": 83.33333333333334, 
           "price": 2.292807779461522, 
           "protein": 0.0
         }, 
@@ -5038,7 +5038,7 @@
         "serving_nutrition": {
           "amount": 2, 
           "calories": 10, 
-          "grams": 20, 
+          "grams": 12, 
           "protein": 0, 
           "unit": "tsp"
         }

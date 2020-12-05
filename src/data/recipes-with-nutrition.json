@@ -6938,6 +6938,7 @@
                 "calories": 0.0, 
                 "label": "water", 
                 "name": "water", 
+                "note": "warm", 
                 "price": 0.0, 
                 "protein": 0.0, 
                 "unit": "cup"
@@ -7010,11 +7011,11 @@
               }, 
               {
                 "amount": 4, 
-                "amount_in_grams": 40.0, 
+                "amount_in_grams": 24.0, 
                 "calories": 20.0, 
                 "label": "doubanjiang", 
                 "name": "doubanjiang", 
-                "price": 0.9171231117846088, 
+                "price": 0.5502738670707652, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }
@@ -7027,7 +7028,7 @@
         "name": "dan_bing", 
         "nutrition": {
           "calories": 577.4313333333333, 
-          "price": 2.127632526291479, 
+          "price": 1.7607832815776354, 
           "protein": 20.775666666666666
         }
       }, 
@@ -7609,11 +7610,11 @@
           }, 
           {
             "amount": 1, 
-            "amount_in_grams": 30.0, 
-            "calories": 15.0, 
+            "amount_in_grams": 18.0, 
+            "calories": 15.000000000000002, 
             "label": "doubanjiang", 
             "name": "doubanjiang", 
-            "price": 0.6878423338384565, 
+            "price": 0.4127054003030739, 
             "protein": 0.0, 
             "unit": "tbsp"
           }, 
@@ -7671,7 +7672,7 @@
         "name": "mapo_tofu", 
         "nutrition": {
           "calories": 1264.1586666666667, 
-          "price": 11.633863653900296, 
+          "price": 11.358726720364913, 
           "protein": 73.90299999999999
         }
       }, 
