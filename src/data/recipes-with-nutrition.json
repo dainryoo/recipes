@@ -11,11 +11,11 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.22, 
-            "protein": 6, 
+            "protein": 6.0, 
             "unit": ""
           }, 
           {
@@ -183,12 +183,12 @@
           {
             "ingredients": [
               {
-                "amount": 33, 
-                "calories": 176.00000000000003, 
+                "amount": 31, 
+                "calories": 165.33333333333334, 
                 "label": "black chia seed", 
                 "name": "chia_seed_black", 
-                "price": 0.8526598452262326, 
-                "protein": 6.6000000000000005, 
+                "price": 0.8009834909700972, 
+                "protein": 6.2, 
                 "unit": "g"
               }, 
               {
@@ -201,7 +201,7 @@
                 "unit": "ml"
               }, 
               {
-                "amount": 166, 
+                "amount": 160, 
                 "calories": 0.0, 
                 "label": "water", 
                 "name": "water", 
@@ -286,11 +286,11 @@
               }, 
               {
                 "amount": 25, 
-                "calories": 3.125, 
-                "label": "almond milk", 
-                "name": "milk_almond", 
-                "price": 0.03527396583786956, 
-                "protein": 0.10416666666666667, 
+                "calories": 12.5, 
+                "label": "oat milk", 
+                "name": "milk_oat", 
+                "price": 0.04409245729733696, 
+                "protein": 0.3125, 
                 "unit": "ml"
               }, 
               {
@@ -352,9 +352,9 @@
         "label": "chia pudding", 
         "name": "chia_pudding", 
         "nutrition": {
-          "calories": 1363.345238095238, 
-          "price": 5.907947957374298, 
-          "protein": 45.53333333333334
+          "calories": 1362.0535714285716, 
+          "price": 5.8650900945776305, 
+          "protein": 45.34166666666667
         }
       }, 
       {
@@ -367,11 +367,11 @@
         "ingredients": [
           {
             "amount": 3, 
-            "calories": 180, 
+            "calories": 180.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.66, 
-            "protein": 18, 
+            "protein": 18.0, 
             "unit": ""
           }, 
           {
@@ -503,12 +503,12 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "egg", 
             "name": "egg", 
             "note": "room temp", 
             "price": 0.22, 
-            "protein": 6, 
+            "protein": 6.0, 
             "unit": ""
           }, 
           {
@@ -588,12 +588,12 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "egg", 
             "name": "egg", 
             "note": "beaten", 
             "price": 0.22, 
-            "protein": 6, 
+            "protein": 6.0, 
             "unit": ""
           }, 
           {
@@ -617,7 +617,7 @@
           }, 
           {
             "amount": 2, 
-            "calories": 224, 
+            "calories": 224.0, 
             "label": "banana", 
             "name": "banana", 
             "price": 0.27222680134588684, 
@@ -813,11 +813,11 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "egg", 
                 "name": "egg", 
                 "price": 0.22, 
-                "protein": 6, 
+                "protein": 6.0, 
                 "unit": ""
               }, 
               {
@@ -1093,7 +1093,7 @@
         "ingredients": [
           {
             "amount": 5, 
-            "calories": 560, 
+            "calories": 560.0, 
             "label": "banana", 
             "name": "banana", 
             "price": 0.6805670033647171, 
@@ -1113,12 +1113,12 @@
           }, 
           {
             "amount": 2, 
-            "calories": 120, 
+            "calories": 120.0, 
             "label": "egg", 
             "name": "egg", 
             "note": "beaten", 
             "price": 0.44, 
-            "protein": 12, 
+            "protein": 12.0, 
             "unit": ""
           }, 
           {
@@ -1181,7 +1181,7 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 17, 
+            "calories": 17.0, 
             "label": "egg white", 
             "name": "egg_white", 
             "price": 0.25, 
@@ -1274,11 +1274,11 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.22, 
-            "protein": 6, 
+            "protein": 6.0, 
             "unit": ""
           }, 
           {
@@ -1505,11 +1505,11 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "egg", 
                 "name": "egg", 
                 "price": 0.22, 
-                "protein": 6, 
+                "protein": 6.0, 
                 "unit": ""
               }, 
               {
@@ -1629,11 +1629,11 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "egg", 
                 "name": "egg", 
                 "price": 0.22, 
-                "protein": 6, 
+                "protein": 6.0, 
                 "unit": ""
               }, 
               {
@@ -1682,11 +1682,11 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.22, 
-            "protein": 6, 
+            "protein": 6.0, 
             "unit": ""
           }, 
           {
@@ -1783,11 +1783,11 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.22, 
-            "protein": 6, 
+            "protein": 6.0, 
             "unit": ""
           }, 
           {
@@ -1899,7 +1899,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 55, 
+            "calories": 55.0, 
             "label": "egg yolk", 
             "name": "egg_yolk", 
             "note": "room temp", 
@@ -2008,7 +2008,7 @@
               }, 
               {
                 "amount": 2, 
-                "calories": 236, 
+                "calories": 236.0, 
                 "label": "granny smith apple", 
                 "name": "apple_granny_smith", 
                 "noted": "thinly sliced, 2\" length pieces", 
@@ -2183,11 +2183,11 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "egg", 
                 "name": "egg", 
                 "price": 0.22, 
-                "protein": 6, 
+                "protein": 6.0, 
                 "unit": ""
               }, 
               {
@@ -2370,12 +2370,12 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "egg", 
             "name": "egg", 
             "note": "whisked (use half for dough, half for wash)", 
             "price": 0.22, 
-            "protein": 6, 
+            "protein": 6.0, 
             "unit": ""
           }, 
           {
@@ -2843,11 +2843,11 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.22, 
-            "protein": 6, 
+            "protein": 6.0, 
             "unit": ""
           }, 
           {
@@ -2959,12 +2959,12 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "egg", 
                 "name": "egg", 
                 "note": "room temp", 
                 "price": 0.22, 
-                "protein": 6, 
+                "protein": 6.0, 
                 "unit": ""
               }, 
               {
@@ -3106,12 +3106,12 @@
               }, 
               {
                 "amount": 2, 
-                "calories": 120, 
+                "calories": 120.0, 
                 "label": "egg", 
                 "name": "egg", 
                 "note": "room temp", 
                 "price": 0.44, 
-                "protein": 12, 
+                "protein": 12.0, 
                 "unit": ""
               }, 
               {
@@ -3275,7 +3275,7 @@
         "ingredients": [
           {
             "amount": 3, 
-            "calories": 336, 
+            "calories": 336.0, 
             "label": "sweet potato", 
             "name": "sweet_potato", 
             "note": "about 2 lb", 
@@ -3581,11 +3581,11 @@
         "ingredients": [
           {
             "amount": 6, 
-            "calories": 600, 
+            "calories": 600.0, 
             "label": "frozen dinner roll", 
             "name": "frozen_dinner_roll", 
             "price": 0.6433971368827409, 
-            "protein": 12, 
+            "protein": 12.0, 
             "unit": ""
           }, 
           {
@@ -3644,11 +3644,11 @@
         "ingredients": [
           {
             "amount": 2, 
-            "calories": 120, 
+            "calories": 120.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.44, 
-            "protein": 12, 
+            "protein": 12.0, 
             "unit": ""
           }, 
           {
@@ -3697,11 +3697,11 @@
         "ingredients": [
           {
             "amount": 6, 
-            "calories": 360, 
+            "calories": 360.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 1.32, 
-            "protein": 36, 
+            "protein": 36.0, 
             "unit": ""
           }, 
           {
@@ -3782,11 +3782,11 @@
         "ingredients": [
           {
             "amount": 3, 
-            "calories": 180, 
+            "calories": 180.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.66, 
-            "protein": 18, 
+            "protein": 18.0, 
             "unit": ""
           }, 
           {
@@ -3875,7 +3875,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 284, 
+            "calories": 284.0, 
             "label": "potato", 
             "name": "potato", 
             "price": 1.2121235637186754, 
@@ -3958,7 +3958,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "onion", 
             "name": "onion", 
             "price": 0.33069339327731634, 
@@ -4121,7 +4121,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 284, 
+            "calories": 284.0, 
             "label": "potato", 
             "name": "potato", 
             "price": 1.2121235637186754, 
@@ -4144,11 +4144,11 @@
         "ingredients": [
           {
             "amount": 5, 
-            "calories": 355.5, 
+            "calories": 177.75, 
             "label": "dried seaweed sheet", 
             "name": "dried_seaweed_sheet", 
             "price": 0.0, 
-            "protein": 10, 
+            "protein": 5.0, 
             "unit": ""
           }, 
           {
@@ -4183,11 +4183,11 @@
           }, 
           {
             "amount": 2, 
-            "calories": 120, 
+            "calories": 120.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.44, 
-            "protein": 12, 
+            "protein": 12.0, 
             "unit": ""
           }, 
           {
@@ -4202,7 +4202,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 30, 
+            "calories": 30.0, 
             "label": "cucumber", 
             "name": "cucumber", 
             "price": 0.9523969726386711, 
@@ -4240,9 +4240,9 @@
         "label": "kimbap [\uae40\ubc25]", 
         "name": "kimbap", 
         "nutrition": {
-          "calories": 1928.2030181818184, 
+          "calories": 1750.4530181818184, 
           "price": 5.685439179259002, 
-          "protein": 62.427530909090905
+          "protein": 57.427530909090905
         }
       }, 
       {
@@ -4303,12 +4303,12 @@
           }, 
           {
             "amount": 3, 
-            "calories": 180, 
+            "calories": 180.0, 
             "label": "egg", 
             "name": "egg", 
             "note": "boiled", 
             "price": 0.66, 
-            "protein": 18, 
+            "protein": 18.0, 
             "unit": ""
           }, 
           {
@@ -4445,7 +4445,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 284, 
+            "calories": 284.0, 
             "label": "potato", 
             "name": "potato", 
             "price": 1.2121235637186754, 
@@ -4513,7 +4513,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 30, 
+            "calories": 30.0, 
             "label": "cucumber", 
             "name": "cucumber", 
             "price": 0.9523969726386711, 
@@ -4531,11 +4531,11 @@
           }, 
           {
             "amount": 1, 
-            "calories": 330, 
+            "calories": 330.0, 
             "label": "udon noodles", 
             "name": "udon_noodle", 
             "price": 0.0, 
-            "protein": 10, 
+            "protein": 10.0, 
             "unit": ""
           }
         ], 
@@ -4628,11 +4628,11 @@
             "ingredients": [
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "egg", 
                 "name": "egg", 
                 "price": 0.22, 
-                "protein": 6, 
+                "protein": 6.0, 
                 "unit": ""
               }, 
               {
@@ -4653,7 +4653,7 @@
             "ingredients": [
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "onion", 
                 "name": "onion", 
                 "note": "cut long", 
@@ -4892,12 +4892,12 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "egg", 
                 "name": "egg", 
                 "note": "boiled", 
                 "price": 0.22, 
-                "protein": 6, 
+                "protein": 6.0, 
                 "unit": ""
               }, 
               {
@@ -5115,7 +5115,7 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "onion", 
                 "name": "onion", 
                 "note": "sliced", 
@@ -5151,7 +5151,7 @@
             "ingredients": [
               {
                 "amount": 2, 
-                "calories": 568, 
+                "calories": 568.0, 
                 "label": "potato", 
                 "name": "potato", 
                 "note": "peeled; up to 3", 
@@ -5181,12 +5181,12 @@
               }, 
               {
                 "amount": 8, 
-                "calories": 32, 
+                "calories": 3.2, 
                 "label": "perilla leaf", 
                 "name": "perilla_leaf", 
                 "note": "up to 12", 
                 "price": 0.3950000002978821, 
-                "protein": 3.68, 
+                "protein": 0.368, 
                 "unit": ""
               }
             ], 
@@ -5264,9 +5264,9 @@
         "label": "gamjatang [\uac10\uc790\ud0d5]", 
         "name": "gamjatang", 
         "nutrition": {
-          "calories": 2050.2522960313727, 
+          "calories": 2021.4522960313725, 
           "price": 15.914533943050618, 
-          "protein": 145.88676745411763
+          "protein": 142.57476745411762
         }
       }, 
       {
@@ -5300,7 +5300,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "onion", 
             "name": "onion", 
             "price": 0.33069339327731634, 
@@ -5502,7 +5502,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "onion", 
             "name": "onion", 
             "note": "sliced", 
@@ -5570,7 +5570,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "onion", 
             "name": "onion", 
             "note": "whole", 
@@ -5612,12 +5612,12 @@
           }, 
           {
             "amount": 2, 
-            "calories": 0, 
+            "calories": 0.0, 
             "label": "bay leaf", 
             "name": "bay_leaf", 
             "note": "unsure about amount", 
             "price": 0.7030101391487404, 
-            "protein": 0, 
+            "protein": 0.0, 
             "unit": ""
           }, 
           {
@@ -5704,16 +5704,16 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 0, 
+                "calories": 0.0, 
                 "label": "bay leaf", 
                 "name": "bay_leaf", 
                 "price": 0.3515050695743702, 
-                "protein": 0, 
+                "protein": 0.0, 
                 "unit": ""
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "onion", 
                 "name": "onion", 
                 "note": "for mom version", 
@@ -6022,7 +6022,7 @@
             "ingredients": [
               {
                 "amount": 2, 
-                "calories": 568, 
+                "calories": 568.0, 
                 "label": "potato", 
                 "name": "potato", 
                 "note": "up to 4; peeled, big 2\" curry-style chunks", 
@@ -6032,7 +6032,7 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "onion", 
                 "name": "onion", 
                 "note": "up to 2; curry-style chunks", 
@@ -6857,7 +6857,7 @@
             "label": "star anise", 
             "name": "star_anise", 
             "price": 0.06172944021627175, 
-            "protein": 0, 
+            "protein": 0.0, 
             "unit": ""
           }, 
           {
@@ -6871,11 +6871,11 @@
           }, 
           {
             "amount": 2, 
-            "calories": 0, 
+            "calories": 0.0, 
             "label": "bay leaf", 
             "name": "bay_leaf", 
             "price": 0.7030101391487404, 
-            "protein": 0, 
+            "protein": 0.0, 
             "unit": ""
           }, 
           {
@@ -6918,7 +6918,7 @@
           "Drizzle another 1/2 tsp oil on top. ", 
           "Flip and cook this for 10 sec.", 
           "Flip again. Let cook for another min or until golden brown.", 
-          "Add sauce."
+          "Roll each pancake up, slice the rolls, and top with sauce."
         ], 
         "ingredient_categories": [
           {
@@ -6966,11 +6966,11 @@
               }, 
               {
                 "amount": 2, 
-                "calories": 120, 
+                "calories": 120.0, 
                 "label": "egg", 
                 "name": "egg", 
                 "price": 0.44, 
-                "protein": 12, 
+                "protein": 12.0, 
                 "unit": ""
               }, 
               {
@@ -7010,12 +7010,12 @@
                 "unit": "tsp"
               }, 
               {
-                "amount": 4, 
-                "amount_in_grams": 24.0, 
-                "calories": 20.0, 
+                "amount": 2, 
+                "amount_in_grams": 12.0, 
+                "calories": 10.0, 
                 "label": "doubanjiang", 
                 "name": "doubanjiang", 
-                "price": 0.5502738670707652, 
+                "price": 0.2751369335353826, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }
@@ -7027,8 +7027,8 @@
         "label": "dan bing", 
         "name": "dan_bing", 
         "nutrition": {
-          "calories": 577.4313333333333, 
-          "price": 1.7607832815776354, 
+          "calories": 567.4313333333333, 
+          "price": 1.4856463480422528, 
           "protein": 20.775666666666666
         }
       }, 
@@ -7405,12 +7405,12 @@
             "ingredients": [
               {
                 "amount": 2, 
-                "calories": 120, 
+                "calories": 120.0, 
                 "label": "egg", 
                 "name": "egg", 
                 "note": "whisked with a pinch of salt", 
                 "price": 0.44, 
-                "protein": 12, 
+                "protein": 12.0, 
                 "unit": ""
               }, 
               {
@@ -7801,7 +7801,7 @@
             "ingredients": [
               {
                 "amount": 1, 
-                "calories": 24, 
+                "calories": 24.0, 
                 "label": "green bell pepper", 
                 "name": "bell_pepper_green", 
                 "price": 0.473552939173117, 
@@ -7837,7 +7837,7 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "onion", 
                 "name": "onion", 
                 "price": 0.33069339327731634, 
@@ -8004,7 +8004,7 @@
               }, 
               {
                 "amount": 2, 
-                "calories": 12, 
+                "calories": 12.0, 
                 "label": "red chili pepper", 
                 "name": "chili_pepper_red", 
                 "note": "chopped", 
@@ -8081,7 +8081,7 @@
             "ingredients": [
               {
                 "amount": 2, 
-                "calories": 250, 
+                "calories": 250.0, 
                 "label": "eggplant", 
                 "name": "eggplant", 
                 "note": "should be 300g", 
@@ -8428,11 +8428,11 @@
         "ingredients": [
           {
             "amount": 4, 
-            "calories": 240, 
+            "calories": 240.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.88, 
-            "protein": 24, 
+            "protein": 24.0, 
             "unit": ""
           }, 
           {
@@ -8829,11 +8829,11 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "egg", 
                 "name": "egg", 
                 "price": 0.22, 
-                "protein": 6, 
+                "protein": 6.0, 
                 "unit": ""
               }, 
               {
@@ -8939,11 +8939,11 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.22, 
-            "protein": 6, 
+            "protein": 6.0, 
             "unit": ""
           }, 
           {
@@ -9131,11 +9131,11 @@
               }, 
               {
                 "amount": 3, 
-                "calories": 0, 
+                "calories": 0.0, 
                 "label": "bay leaf", 
                 "name": "bay_leaf", 
                 "price": 1.0545152087231107, 
-                "protein": 0, 
+                "protein": 0.0, 
                 "unit": ""
               }
             ], 
@@ -9165,7 +9165,7 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "onion", 
                 "name": "onion", 
                 "note": "diced", 
@@ -9412,7 +9412,7 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 30, 
+                "calories": 30.0, 
                 "label": "cucumber", 
                 "name": "cucumber", 
                 "note": "juilienned", 
@@ -10289,11 +10289,11 @@
           }, 
           {
             "amount": 2, 
-            "calories": 120, 
+            "calories": 120.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.44, 
-            "protein": 12, 
+            "protein": 12.0, 
             "unit": ""
           }, 
           {
@@ -10309,12 +10309,12 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "egg", 
             "name": "egg", 
             "note": "for egg wash", 
             "price": 0.22, 
-            "protein": 6, 
+            "protein": 6.0, 
             "unit": ""
           }
         ], 
@@ -10329,7 +10329,7 @@
       {
         "directions": [
           "Melt butter and mix with milk. Into room temp mix, add yeast and let rest.", 
-          "In large bowl, mix flour, sugar, salt. Add in egg and milk mix.", 
+          "In large bowl, mix flour, sugar, salt. Stir in boiling water. Add in egg and milk mix.", 
           "Mix til shaggy mass. Start kneading in bowl. Will be messy at first, but will get smoother as you knead.", 
           "Knead til windowpane test passes (take piece about size of golf ball, stretch it out between fingers and thumbs. if stretches without breaking, good)", 
           "Shape into ball, place in lightly floured bowl, cover, rest til tripled in size (~1hr)", 
@@ -10361,11 +10361,11 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 0.22, 
-            "protein": 6, 
+            "protein": 6.0, 
             "unit": ""
           }, 
           {
@@ -10920,7 +10920,7 @@
             "ingredients": [
               {
                 "amount": 3, 
-                "calories": 852, 
+                "calories": 852.0, 
                 "label": "potato", 
                 "name": "potato", 
                 "note": "peeled", 
@@ -11014,7 +11014,7 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "onion", 
                 "name": "onion", 
                 "note": "(1-2), chopped", 
@@ -11206,7 +11206,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "onion", 
             "name": "onion", 
             "note": "chopped", 
@@ -11277,11 +11277,11 @@
           }, 
           {
             "amount": 1, 
-            "calories": 0, 
+            "calories": 0.0, 
             "label": "bay leaf", 
             "name": "bay_leaf", 
             "price": 0.3515050695743702, 
-            "protein": 0, 
+            "protein": 0.0, 
             "unit": ""
           }, 
           {
@@ -11368,7 +11368,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "onion", 
             "name": "onion", 
             "note": "thinly sliced", 
@@ -11378,7 +11378,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 24, 
+            "calories": 24.0, 
             "label": "green bell pepper", 
             "name": "bell_pepper_green", 
             "note": "thinly sliced", 
@@ -11534,7 +11534,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "onion", 
             "name": "onion", 
             "note": "diced or thinly sliced; up to 2", 
@@ -11621,8 +11621,8 @@
           "Add sausage, garlic, cook for ~1 min.", 
           "Add crushed tomatoes + seasonings, cook for 10 min, stirring occasionally.", 
           "Add broth and rice.", 
-          "Reduce heat to med low, cover, and cook til rice is tender and liquid is almost absorbed, ~30 min", 
-          "If using shrimp, add in last 7 min."
+          "Reduce heat to med low (4/10). Cover. Cook til rice is tender and liquid is almost absorbed (30 min)", 
+          "Add shrimp. Cook for 7 more min (uncovered if liquid needs to reduce)"
         ], 
         "ingredient_categories": [
           {
@@ -11643,14 +11643,24 @@
                 "calories": 600.0000000000001, 
                 "label": "chicken thigh", 
                 "name": "chicken_thigh", 
-                "note": "cut into 1\" pieces. can sub with equal amount shrimp", 
+                "note": "cut into 1\" pieces", 
                 "price": 4.990000000000001, 
                 "protein": 80.00000000000001, 
                 "unit": "lb"
               }, 
               {
+                "amount": 8, 
+                "calories": 120.0, 
+                "label": "shrimp", 
+                "name": "shrimp", 
+                "note": "cut into pieces", 
+                "price": 29.98286765714335, 
+                "protein": 26.0, 
+                "unit": ""
+              }, 
+              {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "onion", 
                 "name": "onion", 
                 "note": "diced", 
@@ -11660,7 +11670,7 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 24, 
+                "calories": 24.0, 
                 "label": "green bell pepper", 
                 "name": "bell_pepper_green", 
                 "note": "diced; up to 2", 
@@ -11859,9 +11869,9 @@
         "label": "jambalaya", 
         "name": "jambalaya", 
         "nutrition": {
-          "calories": 1765.74546010929, 
-          "price": 10.313219814136911, 
-          "protein": 104.27668967213114
+          "calories": 1885.74546010929, 
+          "price": 40.29608747128026, 
+          "protein": 130.27668967213114
         }
       }, 
       {
@@ -11994,7 +12004,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "onion", 
             "name": "onion", 
             "note": "diced", 
@@ -12004,7 +12014,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 24, 
+            "calories": 24.0, 
             "label": "green bell pepper", 
             "name": "bell_pepper_green", 
             "note": "diced", 
@@ -12033,11 +12043,11 @@
           }, 
           {
             "amount": 1, 
-            "calories": 0, 
+            "calories": 0.0, 
             "label": "bay leaf", 
             "name": "bay_leaf", 
             "price": 0.3515050695743702, 
-            "protein": 0, 
+            "protein": 0.0, 
             "unit": ""
           }, 
           {
@@ -12205,7 +12215,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "onion", 
             "name": "onion", 
             "note": "thinly sliced or chopped", 
@@ -12215,7 +12225,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 24, 
+            "calories": 24.0, 
             "label": "green bell pepper", 
             "name": "bell_pepper_green", 
             "note": "up to 2; thinly sliced or chopped", 
@@ -12306,11 +12316,11 @@
           }, 
           {
             "amount": 6, 
-            "calories": 360, 
+            "calories": 360.0, 
             "label": "egg", 
             "name": "egg", 
             "price": 1.32, 
-            "protein": 36, 
+            "protein": 36.0, 
             "unit": ""
           }, 
           {
@@ -12495,7 +12505,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 60, 
+            "calories": 60.0, 
             "label": "onion", 
             "name": "onion", 
             "note": "chopped", 
@@ -12505,7 +12515,7 @@
           }, 
           {
             "amount": 1, 
-            "calories": 24, 
+            "calories": 24.0, 
             "label": "green bell pepper", 
             "name": "bell_pepper_green", 
             "note": "chopped", 
@@ -12748,7 +12758,7 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 24, 
+                "calories": 24.0, 
                 "label": "green bell pepper", 
                 "name": "bell_pepper_green", 
                 "note": "finely diced", 
@@ -12758,7 +12768,7 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 60, 
+                "calories": 60.0, 
                 "label": "onion", 
                 "name": "onion", 
                 "note": "finely diced", 

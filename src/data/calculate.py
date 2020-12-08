@@ -61,9 +61,9 @@ def fill_out_pantry_item_info(item):
 
         if unit == "":
             item["per_unit"] = {
-                "calories": serving["calories"],
-                "protein": serving["protein"],
-                "avg_grams": grams
+                "calories": serving["calories"]/amount,
+                "protein": serving["protein"]/amount,
+                "avg_grams": grams/amount
             }
             item["conversion_to_grams"] = {
                 "oz": 28.34952,

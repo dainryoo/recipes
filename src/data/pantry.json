@@ -1421,7 +1421,7 @@
       {
         "name": "beef_short_rib",
         "label": "beef short rib",
-        "note": "(choice); Research: 6oz bone per 25.12oz total raw meat",
+        "note": "(choice); Research: 6oz bone per 25.12oz total raw meat. 4.6oz bone per 22.72oz total raw meat (2 ribs)",
         "serving_nutrition": {
           "amount": 4,
           "unit": "oz",

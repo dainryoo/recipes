@@ -46,9 +46,9 @@
             "name": "dain_serving_choc",
             "label": "Dain's serving for chocolate pudding",
             "ingredients": [
-              { "name": "chia_seed_black", "amount": 33, "unit": "g" },
+              { "name": "chia_seed_black", "amount": 31, "unit": "g" },
               { "name": "milk_oat", "amount": 20, "unit": "ml" },
-              { "name": "water", "amount": 166, "unit": "ml" },
+              { "name": "water", "amount": 160, "unit": "ml" },
               { "name": "cocoa_powder", "amount": 9, "unit": "g" },
               { "name": "honey", "amount": 9, "unit": "g" }
             ]
@@ -68,7 +68,7 @@
             "label": "Dain's serving for PB pudding",
             "ingredients": [
               { "name": "chia_seed_black", "amount": 25, "unit": "g" },
-              { "name": "milk_almond", "amount": 25, "unit": "ml" },
+              { "name": "milk_oat", "amount": 25, "unit": "ml" },
               { "name": "water", "amount": 115, "unit": "ml" },
               { "name": "peanut_butter", "amount": 12, "unit": "g" }
             ]
@@ -1650,7 +1650,7 @@
             "ingredients": [
               { "name": "green_onion", "amount": 1, "unit": "" },
               { "name": "chili_oil", "amount": 1, "unit": "tsp" },
-              { "name": "doubanjiang", "amount": 4, "unit": "tsp" }
+              { "name": "doubanjiang", "amount": 2, "unit": "tsp" }
             ]
           }
         ],
@@ -1665,7 +1665,7 @@
           "Drizzle another 1/2 tsp oil on top. ",
           "Flip and cook this for 10 sec.",
           "Flip again. Let cook for another min or until golden brown.",
-          "Add sauce."
+          "Roll each pancake up, slice the rolls, and top with sauce."
         ]
       },
       {
@@ -2515,7 +2515,7 @@
         ],
         "directions": [
           "Melt butter and mix with milk. Into room temp mix, add yeast and let rest.",
-          "In large bowl, mix flour, sugar, salt. Add in egg and milk mix.",
+          "In large bowl, mix flour, sugar, salt. Stir in boiling water. Add in egg and milk mix.",
           "Mix til shaggy mass. Start kneading in bowl. Will be messy at first, but will get smoother as you knead.",
           "Knead til windowpane test passes (take piece about size of golf ball, stretch it out between fingers and thumbs. if stretches without breaking, good)",
           "Shape into ball, place in lightly floured bowl, cover, rest til tripled in size (~1hr)",
@@ -2782,7 +2782,8 @@
             "label": "fillings",
             "ingredients": [
               { "name": "oil", "note": "or olive oil", "amount": 2, "unit": "tbsp" },
-              { "name": "chicken_thigh", "note": "cut into 1\" pieces. can sub with equal amount shrimp", "amount": 1, "unit": "lb" },
+              { "name": "chicken_thigh", "note": "cut into 1\" pieces", "amount": 1, "unit": "lb" },
+              { "name": "shrimp", "note": "cut into pieces", "amount": 8, "unit": "" },
               { "name": "onion", "note": "diced", "amount": 1, "unit": "" },
               { "name": "bell_pepper_green", "note": "diced; up to 2", "amount": 1, "unit": "" },
               { "name": "celery", "note": "diced", "amount": 2, "unit": "" },
@@ -2824,8 +2825,8 @@
           "Add sausage, garlic, cook for ~1 min.",
           "Add crushed tomatoes + seasonings, cook for 10 min, stirring occasionally.",
           "Add broth and rice.",
-          "Reduce heat to med low, cover, and cook til rice is tender and liquid is almost absorbed, ~30 min",
-          "If using shrimp, add in last 7 min."
+          "Reduce heat to med low (4/10). Cover. Cook til rice is tender and liquid is almost absorbed (30 min)",
+          "Add shrimp. Cook for 7 more min (uncovered if liquid needs to reduce)"
         ]
       },
       {
