@@ -2535,6 +2535,20 @@
           "price": 0.28,
           "unit": "oz"
         }
+      },{
+        "name": "vinegar_balsamic",
+        "label": "balsamic vinegar",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
+          "calories": 15,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.19,
+          "unit": "oz"
+        }
       },
       {
         "name": "vinegar_white",

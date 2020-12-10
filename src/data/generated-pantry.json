@@ -4521,6 +4521,33 @@
           "tbsp": 15.0, 
           "tsp": 5.0
         }, 
+        "label": "balsamic vinegar", 
+        "name": "vinegar_balsamic", 
+        "per_100_gram": {
+          "calories": 100.0, 
+          "price": 0.6702053509195217, 
+          "protein": 0.0
+        }, 
+        "price_per_unit": {
+          "price": 0.19, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 15, 
+          "grams": 15, 
+          "protein": 0, 
+          "unit": "tbsp"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "cup": 240.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 15.0, 
+          "tsp": 5.0
+        }, 
         "label": "white vinegar", 
         "name": "vinegar_white", 
         "per_100_gram": {
