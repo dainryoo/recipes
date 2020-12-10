@@ -2928,16 +2928,17 @@
       }, 
       {
         "directions": [
-          "Flour, sugar, salt, yeast, mix til combined.", 
-          "Add egg and water/milk + vanilla + nutmeg, and mix til dough comes together.", 
+          "Warm egg to room temp. Heat up butter a little. Heat up milk + vanilla + nutmeg. Add yeast and let bubble.", 
+          "Flour, sugar, salt, mix til combined.", 
+          "Add egg + milk mix to dry. Mix til dough comes together. (Use fork, will be sticky)", 
           "Add butter gradually, mix til incorporated.", 
-          "Mix til dough is completely smooth, elastic, shiny, pulls away from sides.", 
+          "Keep using fork, will be sticky for a whie. Mix til dough is completely smooth, elastic, shiny, pulls away from sides.", 
           "Dough in greased cover bowl. Rest for half a day or overnight.", 
           "", 
           "Grease 9x4 in loaf pan. Line bottom with parchment paper.", 
           "Make filling by whisking everything into a paste.", 
-          "Roll out dough into rect (15x11?). Long side closest to you. Spread filling. Leave a 2cm border all around. Sprinkle opt. choc chips on top.", 
-          "Shape dough.... (Roll tight. Fridge for 10 min. Cut in half lengthwise. Braid from center.)", 
+          "Roll out dough into rect (15x11?), long side closest to you. Spread filling, sprinkle choc chips on top.", 
+          "Shape dough: Roll tight. Fridge/freezer for 10 min to set, cut in half lengthwise, braid from center.", 
           "", 
           "Put dough in loaf pan. Cover loosely, rise for 1-1.5 hr. Optionally, rise overnight, then take out to get to room temp for an hour before baking.", 
           "Bake 40-50 min 350F. 45 min is definitely good. Experiment.", 
@@ -3095,8 +3096,8 @@
                 "unit": "g"
               }
             ], 
-            "label": "spread", 
-            "name": "spread"
+            "label": "filling", 
+            "name": "filling"
           }, 
           {
             "ingredients": [
@@ -3121,8 +3122,8 @@
                 "unit": "cup"
               }
             ], 
-            "label": "extra", 
-            "name": "extra"
+            "label": "sugar syrup", 
+            "name": "sugar_syrup"
           }
         ], 
         "label": "chocolate babka", 
