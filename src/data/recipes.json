@@ -124,7 +124,7 @@
         "directions": [
           "Mix butter and milk and vanilla. Beat egg, then lightly beat in butter mix.",
           "Sift dry ingredients. Create a well in the dry ingredients. Add wet to dry and mix just enough.",
-          "Lightly oiled pan on med high heat, 1/4 c batter each pancake."
+          "Lightly oiled pan on med heat, 1/4 c batter each pancake."
         ]
       },
       {
@@ -737,7 +737,8 @@
           }
         ],
         "directions": [
-          "Warm egg to room temp. Heat up butter a little. Heat up milk + vanilla + nutmeg. Add yeast and let bubble.",
+          "Heat up milk + vanilla + nutmeg. Add yeast to milk and let bubble.",
+          "Warm egg to room temp. Heat up butter a little.",
           "Flour, sugar, salt, mix til combined.",
           "Add egg + milk mix to dry. Mix til dough comes together. (Use fork, will be sticky)",
           "Add butter gradually, mix til incorporated.",
@@ -830,6 +831,93 @@
           "Let rest 20-30 min to rise slightly.",
           "Steamer, turn heat on high. Steam for 15 min. Turn off heat, let rest for 5 min without opening lid (to prevent bun collapse).",
           "Remove from heat and cool."
+        ]
+      },
+      {
+        "name": "sweet_potato_cake",
+        "label": "sweet potato cake",
+        "ingredient_categories": [
+          {
+            "name": "cake",
+            "label": "cake (18 cm genoise)",
+            "ingredients": [
+              { "name": "egg", "note": "separated whites and yolks", "amount": 3, "unit": "" },
+              { "name": "sugar", "note": "for yolk", "amount": 50, "unit": "g" },
+              { "name": "sugar", "note": "for egg white", "amount": 70, "unit": "g" },
+              { "name": "flour", "note": "combine with cornstarch to sub 100g cake flour", "amount": 87, "unit": "g" },
+              { "name": "cornstarch", "note": "combine with flour to sub 100g cake flour", "amount": 13, "unit": "g" },
+              { "name": "butter", "amount": 30, "unit": "g" },
+              { "name": "milk_oat", "amount": 30, "unit": "g" },
+              { "name": "vanilla_extract", "amount": 6, "unit": "ml" }
+            ]
+          },
+          {
+            "name": "alt_cake",
+            "label": "alt. cake (~15 cm genoise, or 8 cupcakes)",
+            "ingredients": [
+              { "name": "egg", "note": "separated whites and yolks", "amount": 3, "unit": "" },
+              { "name": "sugar", "note": "for yolk", "amount": 30, "unit": "g" },
+              { "name": "sugar", "note": "for egg white", "amount": 40, "unit": "g" },
+              { "name": "flour", "note": "combine with cornstarch to sub 75g cake flour", "amount": 65, "unit": "g" },
+              { "name": "cornstarch", "note": "combine with flour to sub 75g cake flour", "amount": 10, "unit": "g" },
+              { "name": "butter", "amount": 20, "unit": "g" },
+              { "name": "milk_oat", "amount": 20, "unit": "g" },
+              { "name": "vanilla_extract", "amount": 4, "unit": "ml" }
+            ]
+          },
+          {
+            "name": "sweet_potato_filling",
+            "label": "sweet potato filling",
+            "ingredients": [
+              { "name": "sweet_potato_asian", "note": "~3 potatoes?", "amount": 300, "unit": "g" },
+              { "name": "sugar", "note": "(but can be 30-75g)", "amount": 50, "unit": "g" },
+              { "name": "heavy_cream", "note": "(but can be 90-210g)", "amount": 120, "unit": "g" }
+            ]
+          },
+          {
+            "name": "frosting",
+            "label": "frosting",
+            "ingredients": [
+              { "name": "heavy_cream", "amount": 200, "unit": "ml" },
+              { "name": "sugar", "note": "maybe try 20g?", "amount": 25, "unit": "g" }
+            ]
+          },
+          {
+            "name": "sugar_syrup",
+            "label": "sugar syrup",
+            "ingredients": [
+              { "name": "water", "amount": 80, "unit": "ml" },
+              { "name": "sugar", "amount": 80, "unit": "g" }
+            ]
+          }
+        ],
+        "directions": [
+          "Cake:",
+          "Melt butter, milk, vanilla gently (ideally over hot water bath)",
+          "Separate egg white + yolk.",
+          "Add sugar to yolk. Mix well, til pale ribbons.",
+          "Whip egg whites + sugar (add sugar in 3 batches) til soft peaks.",
+          "Carefully fold meringue into yolk mix, gradually.",
+          "Sift in flour. Fold gently.",
+          "Gently mix butter mix into batter. (Either add bit of batter into butter, mix, then combine with rest of batter; or pour butter carefully around edge of batter and fold inwards carefully)",
+          "340-350F for 20-30 min.",
+          "",
+          "Filling:",
+          "Boil sweet potatoes til soft. Peel and mash while hot.",
+          "Add sugar, mix well. Add cream, mix well.",
+          "",
+          "Frosting:",
+          "Important to start with cold cream! Can even chill the bowl if you want.",
+          "In a large bowl, whip the whipping cream and sugar.",
+          "Doesn't have to be exactly this amount, maybe keep the ratio though.",
+          "",
+          "Sugar syrup:",
+          "Microwave water + sugar. Again, doesn't have to be exactly this amount.",
+          "",
+          "Assembly:",
+          "Make genoise crumbs from leftover cake",
+          "Place Genoise slice, brush with syrup, spread filling, repeat.",
+          "Ice entire cake with frosting and cover with genoise crumbs."
         ]
       }
     ]

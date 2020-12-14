@@ -447,7 +447,7 @@
         "directions": [
           "Mix butter and milk and vanilla. Beat egg, then lightly beat in butter mix.", 
           "Sift dry ingredients. Create a well in the dry ingredients. Add wet to dry and mix just enough.", 
-          "Lightly oiled pan on med high heat, 1/4 c batter each pancake."
+          "Lightly oiled pan on med heat, 1/4 c batter each pancake."
         ], 
         "ingredients": [
           {
@@ -2928,7 +2928,8 @@
       }, 
       {
         "directions": [
-          "Warm egg to room temp. Heat up butter a little. Heat up milk + vanilla + nutmeg. Add yeast and let bubble.", 
+          "Heat up milk + vanilla + nutmeg. Add yeast to milk and let bubble.", 
+          "Warm egg to room temp. Heat up butter a little.", 
           "Flour, sugar, salt, mix til combined.", 
           "Add egg + milk mix to dry. Mix til dough comes together. (Use fork, will be sticky)", 
           "Add butter gradually, mix til incorporated.", 
@@ -3418,6 +3419,296 @@
           "calories": 1664.3571428571431, 
           "price": 2.5251446938078668, 
           "protein": 36.35
+        }
+      }, 
+      {
+        "directions": [
+          "Cake:", 
+          "Melt butter, milk, vanilla gently (ideally over hot water bath)", 
+          "Separate egg white + yolk.", 
+          "Add sugar to yolk. Mix well, til pale ribbons.", 
+          "Whip egg whites + sugar (add sugar in 3 batches) til soft peaks.", 
+          "Carefully fold meringue into yolk mix, gradually.", 
+          "Sift in flour. Fold gently.", 
+          "Gently mix butter mix into batter. (Either add bit of batter into butter, mix, then combine with rest of batter; or pour butter carefully around edge of batter and fold inwards carefully)", 
+          "340-350F for 20-30 min.", 
+          "", 
+          "Filling:", 
+          "Boil sweet potatoes til soft. Peel and mash while hot.", 
+          "Add sugar, mix well. Add cream, mix well.", 
+          "", 
+          "Frosting:", 
+          "Important to start with cold cream! Can even chill the bowl if you want.", 
+          "In a large bowl, whip the whipping cream and sugar.", 
+          "Doesn't have to be exactly this amount, maybe keep the ratio though.", 
+          "", 
+          "Sugar syrup:", 
+          "Microwave water + sugar. Again, doesn't have to be exactly this amount.", 
+          "", 
+          "Assembly:", 
+          "Make genoise crumbs from leftover cake", 
+          "Place Genoise slice, brush with syrup, spread filling, repeat.", 
+          "Ice entire cake with frosting and cover with genoise crumbs."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 3, 
+                "calories": 180.0, 
+                "label": "egg", 
+                "name": "egg", 
+                "note": "separated whites and yolks", 
+                "price": 0.66, 
+                "protein": 18.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 50, 
+                "calories": 187.5, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "note": "for yolk", 
+                "price": 0.08818491459467392, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 70, 
+                "calories": 262.5, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "note": "for egg white", 
+                "price": 0.12345888043254348, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 87, 
+                "calories": 319.0, 
+                "label": "flour", 
+                "name": "flour", 
+                "note": "combine with cornstarch to sub 100g cake flour", 
+                "price": 0.18413010167367913, 
+                "protein": 8.7, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 13, 
+                "calories": 48.75, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "note": "combine with flour to sub 100g cake flour", 
+                "price": 0.05502738670707653, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 30, 
+                "calories": 214.2857142857143, 
+                "label": "butter", 
+                "name": "butter", 
+                "price": 0.39154102080035214, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 30, 
+                "calories": 15.0, 
+                "label": "oat milk", 
+                "name": "milk_oat", 
+                "price": 0.052910948756804355, 
+                "protein": 0.375, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 6, 
+                "calories": 17.53846153846154, 
+                "label": "vanilla extract", 
+                "name": "vanilla_extract", 
+                "price": 0.7936642313520651, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }
+            ], 
+            "label": "cake (18 cm genoise)", 
+            "name": "cake"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 3, 
+                "calories": 180.0, 
+                "label": "egg", 
+                "name": "egg", 
+                "note": "separated whites and yolks", 
+                "price": 0.66, 
+                "protein": 18.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 30, 
+                "calories": 112.5, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "note": "for yolk", 
+                "price": 0.052910948756804355, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 40, 
+                "calories": 150.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "note": "for egg white", 
+                "price": 0.07054793167573914, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 65, 
+                "calories": 238.33333333333334, 
+                "label": "flour", 
+                "name": "flour", 
+                "note": "combine with cornstarch to sub 75g cake flour", 
+                "price": 0.1375684667676913, 
+                "protein": 6.5, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 10, 
+                "calories": 37.5, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "note": "combine with flour to sub 75g cake flour", 
+                "price": 0.04232875900544348, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 20, 
+                "calories": 142.85714285714286, 
+                "label": "butter", 
+                "name": "butter", 
+                "price": 0.2610273472002348, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 20, 
+                "calories": 10.0, 
+                "label": "oat milk", 
+                "name": "milk_oat", 
+                "price": 0.03527396583786957, 
+                "protein": 0.25, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 4, 
+                "calories": 11.692307692307693, 
+                "label": "vanilla extract", 
+                "name": "vanilla_extract", 
+                "price": 0.5291094875680434, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }
+            ], 
+            "label": "alt. cake (~15 cm genoise, or 8 cupcakes)", 
+            "name": "alt_cake"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 300, 
+                "calories": 260.76923076923083, 
+                "label": "asian sweet potato", 
+                "name": "sweet_potato_asian", 
+                "note": "~3 potatoes?", 
+                "price": 1.316159705243719, 
+                "protein": 4.615384615384616, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 50, 
+                "calories": 187.5, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "note": "(but can be 30-75g)", 
+                "price": 0.08818491459467392, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 120, 
+                "calories": 400.00000000000006, 
+                "label": "heavy cream", 
+                "name": "heavy_cream", 
+                "note": "(but can be 90-210g)", 
+                "price": 1.3121915291687476, 
+                "protein": 0.0, 
+                "unit": "g"
+              }
+            ], 
+            "label": "sweet potato filling", 
+            "name": "sweet_potato_filling"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 200, 
+                "calories": 666.6666666666667, 
+                "label": "heavy cream", 
+                "name": "heavy_cream", 
+                "price": 2.186985881947913, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }, 
+              {
+                "amount": 25, 
+                "calories": 93.75, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "note": "maybe try 20g?", 
+                "price": 0.04409245729733696, 
+                "protein": 0.0, 
+                "unit": "g"
+              }
+            ], 
+            "label": "frosting", 
+            "name": "frosting"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 80, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }, 
+              {
+                "amount": 80, 
+                "calories": 300.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.14109586335147828, 
+                "protein": 0.0, 
+                "unit": "g"
+              }
+            ], 
+            "label": "sugar syrup", 
+            "name": "sugar_syrup"
+          }
+        ], 
+        "label": "sweet potato cake", 
+        "name": "sweet_potato_cake", 
+        "nutrition": {
+          "calories": 4036.142857142857, 
+          "price": 9.22639474273289, 
+          "protein": 56.440384615384616
         }
       }
     ]
@@ -7945,11 +8236,11 @@
               }, 
               {
                 "amount": 1, 
-                "amount_in_grams": 18.0, 
+                "amount_in_grams": 9.0, 
                 "calories": 30.000000000000004, 
                 "label": "ground cumin", 
                 "name": "cumin_ground", 
-                "price": 1.644472287361479, 
+                "price": 0.8222361436807395, 
                 "protein": 1.2000000000000002, 
                 "unit": "tbsp"
               }, 
@@ -8081,7 +8372,7 @@
         "name": "cumin_lamb", 
         "nutrition": {
           "calories": 1697.5199999999998, 
-          "price": 12.616019230372315, 
+          "price": 11.793783086691574, 
           "protein": 80.37525
         }
       }, 
@@ -10670,11 +10961,11 @@
           }, 
           {
             "amount": 0.5, 
-            "amount_in_grams": 3.0, 
+            "amount_in_grams": 1.5, 
             "calories": 5.0, 
             "label": "ground cumin", 
             "name": "cumin_ground", 
-            "price": 0.2740787145602465, 
+            "price": 0.13703935728012326, 
             "protein": 0.20000000000000004, 
             "unit": "tsp"
           }, 
@@ -10713,7 +11004,7 @@
         "name": "refried_beans", 
         "nutrition": {
           "calories": 454.5512474358975, 
-          "price": 1.5686361150923662, 
+          "price": 1.4315967578122428, 
           "protein": 23.30993923076923
         }
       }, 
@@ -11459,11 +11750,11 @@
           }, 
           {
             "amount": 0.5, 
-            "amount_in_grams": 3.0, 
+            "amount_in_grams": 1.5, 
             "calories": 5.0, 
             "label": "ground cumin", 
             "name": "cumin_ground", 
-            "price": 0.2740787145602465, 
+            "price": 0.13703935728012326, 
             "protein": 0.20000000000000004, 
             "unit": "tsp"
           }, 
@@ -11511,7 +11802,7 @@
         "name": "arroz_congri", 
         "nutrition": {
           "calories": 1176.117648717949, 
-          "price": 3.621983470117194, 
+          "price": 3.484944112837071, 
           "protein": 41.5856626923077
         }
       }, 
@@ -11620,11 +11911,11 @@
           }, 
           {
             "amount": 2, 
-            "amount_in_grams": 12.0, 
+            "amount_in_grams": 6.0, 
             "calories": 20.0, 
             "label": "ground cumin", 
             "name": "cumin_ground", 
-            "price": 1.096314858240986, 
+            "price": 0.548157429120493, 
             "protein": 0.8000000000000002, 
             "unit": "tsp"
           }, 
@@ -11686,7 +11977,7 @@
         "name": "ropa_vieja", 
         "nutrition": {
           "calories": 3492.84296010929, 
-          "price": 21.2821479802288, 
+          "price": 20.733990551108306, 
           "protein": 291.1501480054644
         }
       }, 
@@ -12447,12 +12738,12 @@
           }, 
           {
             "amount": 1, 
-            "amount_in_grams": 6.0, 
+            "amount_in_grams": 3.0, 
             "calories": 10.0, 
             "label": "ground cumin", 
             "name": "cumin_ground", 
             "note": "or 1/2 cumin 1/2 coriander", 
-            "price": 0.548157429120493, 
+            "price": 0.2740787145602465, 
             "protein": 0.4000000000000001, 
             "unit": "tsp"
           }, 
@@ -12551,7 +12842,7 @@
         "name": "shakshuka", 
         "nutrition": {
           "calories": 1857.512460936639, 
-          "price": 18.37171987259552, 
+          "price": 18.097641158035273, 
           "protein": 106.84776179746557
         }
       }, 
@@ -12685,11 +12976,11 @@
             "ingredients": [
               {
                 "amount": 1, 
-                "amount_in_grams": 6.0, 
+                "amount_in_grams": 3.0, 
                 "calories": 10.0, 
                 "label": "ground cumin", 
                 "name": "cumin_ground", 
-                "price": 0.548157429120493, 
+                "price": 0.2740787145602465, 
                 "protein": 0.4000000000000001, 
                 "unit": "tsp"
               }, 
@@ -12885,11 +13176,11 @@
               }, 
               {
                 "amount": 0.25, 
-                "amount_in_grams": 1.5, 
+                "amount_in_grams": 0.75, 
                 "calories": 2.5, 
                 "label": "ground cumin", 
                 "name": "cumin_ground", 
-                "price": 0.13703935728012326, 
+                "price": 0.06851967864006163, 
                 "protein": 0.10000000000000002, 
                 "unit": "tsp"
               }, 
@@ -12999,7 +13290,7 @@
         "name": "arroz_con_pollo", 
         "nutrition": {
           "calories": 2119.748338, 
-          "price": 13.40975777789123, 
+          "price": 13.067159384690921, 
           "protein": 146.45287526666664
         }
       }

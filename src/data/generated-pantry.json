@@ -1840,18 +1840,18 @@
       }, 
       {
         "conversion_to_grams": {
-          "cup": 288.0, 
+          "cup": 144.0, 
           "lb": 453.59237, 
           "oz": 28.34952, 
-          "tbsp": 18.0, 
-          "tsp": 6.0
+          "tbsp": 9.0, 
+          "tsp": 3.0
         }, 
         "label": "ground cumin", 
         "name": "cumin_ground", 
         "per_100_gram": {
-          "calories": 166.66666666666669, 
+          "calories": 333.33333333333337, 
           "price": 9.135957152008217, 
-          "protein": 6.666666666666668
+          "protein": 13.333333333333336
         }, 
         "price_per_unit": {
           "price": 2.59, 
@@ -1860,7 +1860,7 @@
         "serving_nutrition": {
           "amount": 1, 
           "calories": 10, 
-          "grams": 6, 
+          "grams": 3, 
           "protein": 0.4, 
           "unit": "tsp"
         }
@@ -3484,6 +3484,33 @@
           "grams": 55, 
           "protein": 6, 
           "unit": "cup"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "cup": 240.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 15.0, 
+          "tsp": 5.0
+        }, 
+        "label": "heavy cream", 
+        "name": "heavy_cream", 
+        "per_100_gram": {
+          "calories": 333.33333333333337, 
+          "price": 1.0934929409739564, 
+          "protein": 0.0
+        }, 
+        "price_per_unit": {
+          "price": 0.31, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 50, 
+          "grams": 15, 
+          "protein": 0, 
+          "unit": "tbsp"
         }
       }, 
       {

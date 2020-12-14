@@ -998,7 +998,7 @@
         "serving_nutrition": {
           "amount": 1,
           "unit": "tsp",
-          "grams": 6,
+          "grams": 3,
           "calories": 10,
           "protein": 0.4
         },
@@ -1947,6 +1947,21 @@
         },
         "price_per_unit": {
           "price": 0.34,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "heavy_cream",
+        "label": "heavy cream",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 15,
+          "calories": 50,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.31,
           "unit": "oz"
         }
       },
