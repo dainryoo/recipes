@@ -3439,11 +3439,10 @@
           "", 
           "Frosting:", 
           "Important to start with cold cream! Can even chill the bowl if you want.", 
-          "In a large bowl, whip the whipping cream and sugar.", 
-          "Doesn't have to be exactly this amount, maybe keep the ratio though.", 
+          "In a large bowl, whip the whipping cream. When thicker, add powdered sugar. Whip til medium peaks.", 
           "", 
           "Sugar syrup:", 
-          "Microwave water + sugar. Again, doesn't have to be exactly this amount.", 
+          "Microwave water + sugar. Doesn't have to be exactly this amount.", 
           "", 
           "Assembly:", 
           "Make genoise crumbs from leftover cake", 
@@ -3488,7 +3487,7 @@
                 "calories": 319.0, 
                 "label": "flour", 
                 "name": "flour", 
-                "note": "combine with cornstarch to sub 100g cake flour", 
+                "note": "combine with cornstarch to sub cake flour", 
                 "price": 0.18413010167367913, 
                 "protein": 8.7, 
                 "unit": "g"
@@ -3498,7 +3497,7 @@
                 "calories": 48.75, 
                 "label": "cornstarch", 
                 "name": "cornstarch", 
-                "note": "combine with flour to sub 100g cake flour", 
+                "note": "combine with flour to sub cake flour", 
                 "price": 0.05502738670707653, 
                 "protein": 0.0, 
                 "unit": "g"
@@ -3533,89 +3532,6 @@
             ], 
             "label": "cake (18 cm genoise)", 
             "name": "cake"
-          }, 
-          {
-            "ingredients": [
-              {
-                "amount": 3, 
-                "calories": 180.0, 
-                "label": "egg", 
-                "name": "egg", 
-                "note": "separated whites and yolks", 
-                "price": 0.66, 
-                "protein": 18.0, 
-                "unit": ""
-              }, 
-              {
-                "amount": 30, 
-                "calories": 112.5, 
-                "label": "sugar", 
-                "name": "sugar", 
-                "note": "for yolk", 
-                "price": 0.052910948756804355, 
-                "protein": 0.0, 
-                "unit": "g"
-              }, 
-              {
-                "amount": 40, 
-                "calories": 150.0, 
-                "label": "sugar", 
-                "name": "sugar", 
-                "note": "for egg white", 
-                "price": 0.07054793167573914, 
-                "protein": 0.0, 
-                "unit": "g"
-              }, 
-              {
-                "amount": 65, 
-                "calories": 238.33333333333334, 
-                "label": "flour", 
-                "name": "flour", 
-                "note": "combine with cornstarch to sub 75g cake flour", 
-                "price": 0.1375684667676913, 
-                "protein": 6.5, 
-                "unit": "g"
-              }, 
-              {
-                "amount": 10, 
-                "calories": 37.5, 
-                "label": "cornstarch", 
-                "name": "cornstarch", 
-                "note": "combine with flour to sub 75g cake flour", 
-                "price": 0.04232875900544348, 
-                "protein": 0.0, 
-                "unit": "g"
-              }, 
-              {
-                "amount": 20, 
-                "calories": 142.85714285714286, 
-                "label": "butter", 
-                "name": "butter", 
-                "price": 0.2610273472002348, 
-                "protein": 0.0, 
-                "unit": "g"
-              }, 
-              {
-                "amount": 20, 
-                "calories": 10.0, 
-                "label": "oat milk", 
-                "name": "milk_oat", 
-                "price": 0.03527396583786957, 
-                "protein": 0.25, 
-                "unit": "g"
-              }, 
-              {
-                "amount": 4, 
-                "calories": 11.692307692307693, 
-                "label": "vanilla extract", 
-                "name": "vanilla_extract", 
-                "price": 0.5291094875680434, 
-                "protein": 0.0, 
-                "unit": "ml"
-              }
-            ], 
-            "label": "alt. cake (~15 cm genoise, or 8 cupcakes)", 
-            "name": "alt_cake"
           }, 
           {
             "ingredients": [
@@ -3656,23 +3572,24 @@
           {
             "ingredients": [
               {
-                "amount": 200, 
-                "calories": 666.6666666666667, 
+                "amount": 0.5, 
+                "amount_in_grams": 120.0, 
+                "calories": 400.00000000000006, 
                 "label": "heavy cream", 
                 "name": "heavy_cream", 
-                "price": 2.186985881947913, 
+                "price": 1.3121915291687476, 
                 "protein": 0.0, 
-                "unit": "ml"
+                "unit": "cup"
               }, 
               {
-                "amount": 25, 
-                "calories": 93.75, 
-                "label": "sugar", 
-                "name": "sugar", 
-                "note": "maybe try 20g?", 
-                "price": 0.04409245729733696, 
+                "amount": 1, 
+                "amount_in_grams": 7.5, 
+                "calories": 30.0, 
+                "label": "powdered sugar", 
+                "name": "sugar_powdered", 
+                "price": 0.12434072957849021, 
                 "protein": 0.0, 
-                "unit": "g"
+                "unit": "tbsp"
               }
             ], 
             "label": "frosting", 
@@ -3681,7 +3598,7 @@
           {
             "ingredients": [
               {
-                "amount": 80, 
+                "amount": 40, 
                 "calories": 0.0, 
                 "label": "water", 
                 "name": "water", 
@@ -3690,25 +3607,100 @@
                 "unit": "ml"
               }, 
               {
-                "amount": 80, 
-                "calories": 300.0, 
+                "amount": 40, 
+                "calories": 150.0, 
                 "label": "sugar", 
                 "name": "sugar", 
-                "price": 0.14109586335147828, 
+                "price": 0.07054793167573914, 
                 "protein": 0.0, 
                 "unit": "g"
               }
             ], 
-            "label": "sugar syrup", 
+            "label": "sugar syrup; maybe need to double?", 
             "name": "sugar_syrup"
           }
         ], 
         "label": "sweet potato cake", 
         "name": "sweet_potato_cake", 
         "nutrition": {
-          "calories": 4036.142857142857, 
-          "price": 9.22639474273289, 
-          "protein": 56.440384615384616
+          "calories": 2672.8434065934066, 
+          "price": 6.572533823747312, 
+          "protein": 31.690384615384616
+        }
+      }, 
+      {
+        "directions": [
+          "Preheat oven ahead of time, because meringue must go in immediately.", 
+          "Cold eggs are easier to separate. Room temp egg whites are easier to whip.", 
+          "Whip egg white til soft peaks.", 
+          "Add sugar 1 tbsp at a time.", 
+          "Beat til stiff peaks.", 
+          "Gently fold in flavorings if desired. If making pavlova, fold in vanilla/vinegar/cornstarch mix now.", 
+          "Shape appropriately", 
+          "Bake 225F 1hr (or 215F for 60-90min?).", 
+          "Turn off oven and let meringue sit for 1-2 hrs.", 
+          "Store cookies in covered container room temp for a few days, don't put in fridge."
+        ], 
+        "ingredients": [
+          {
+            "amount": 4, 
+            "calories": 68.0, 
+            "label": "egg white", 
+            "name": "egg_white", 
+            "price": 1.0, 
+            "protein": 14.0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 192.0, 
+            "calories": 720.0, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "note": "ideally ground or superfine, esp for pavlova", 
+            "price": 0.33863007204354784, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 4.333333333333333, 
+            "calories": 12.666666666666666, 
+            "label": "vanilla extract", 
+            "name": "vanilla_extract", 
+            "price": 0.5732019448653803, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 5.0, 
+            "calories": 0.0, 
+            "label": "white vinegar", 
+            "name": "vinegar_white", 
+            "note": "if making pavlova; ACV ok too", 
+            "price": 0.015873284627041306, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 2.6666666666666665, 
+            "calories": 10.0, 
+            "label": "cornstarch", 
+            "name": "cornstarch", 
+            "note": "if making pavlova", 
+            "price": 0.01128766906811826, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "meringue", 
+        "name": "meringue", 
+        "nutrition": {
+          "calories": 810.6666666666666, 
+          "price": 1.9389929706040876, 
+          "protein": 14.0
         }
       }
     ]
@@ -6198,7 +6190,7 @@
       }, 
       {
         "directions": [
-          "Make sauce: pulverize onion and mix with rest of sauce ingredients.", 
+          "Make sauce: pulverize onion and garlic. Mix with rest of sauce ingredients.", 
           "Add sauce to pot with chicken and water. Bring to boil med high.", 
           "When boiling, turn heat to med and add potatoes. Cover and cook for 20 min.", 
           "Add rest of vegetables. Cover and cook for 10 min until all soft.", 
@@ -6207,6 +6199,24 @@
         "ingredient_categories": [
           {
             "ingredients": [
+              {
+                "amount": 0.5, 
+                "calories": 30.0, 
+                "label": "onion", 
+                "name": "onion", 
+                "price": 0.16534669663865817, 
+                "protein": 0.825, 
+                "unit": ""
+              }, 
+              {
+                "amount": 5, 
+                "calories": 22.349999999999998, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "price": 0.13194666391764923, 
+                "protein": 0.9550000000000001, 
+                "unit": ""
+              }, 
               {
                 "amount": 0.25, 
                 "amount_in_grams": 72.0, 
@@ -6218,12 +6228,13 @@
                 "unit": "cup"
               }, 
               {
-                "amount": 2, 
-                "amount_in_grams": 15.0, 
-                "calories": 48.0, 
+                "amount": 1, 
+                "amount_in_grams": 7.5, 
+                "calories": 24.0, 
                 "label": "gochugaru", 
                 "name": "gochugaru", 
-                "price": 0.19577051040017607, 
+                "note": "originally 2 tbsp", 
+                "price": 0.09788525520008803, 
                 "protein": 0.0, 
                 "unit": "tbsp"
               }, 
@@ -6233,20 +6244,9 @@
                 "calories": 40.0, 
                 "label": "dark soy sauce", 
                 "name": "soy_sauce_dark", 
-                "note": "up to 1/2 c?!", 
                 "price": 0.6984245235898174, 
                 "protein": 4.0, 
                 "unit": "cup"
-              }, 
-              {
-                "amount": 5, 
-                "calories": 22.349999999999998, 
-                "label": "garlic", 
-                "name": "garlic", 
-                "note": "minced", 
-                "price": 0.13194666391764923, 
-                "protein": 0.9550000000000001, 
-                "unit": ""
               }, 
               {
                 "amount": 1, 
@@ -6279,16 +6279,6 @@
                 "unit": "tbsp"
               }, 
               {
-                "amount": 0.5, 
-                "calories": 30.0, 
-                "label": "onion", 
-                "name": "onion", 
-                "note": "pulverized", 
-                "price": 0.16534669663865817, 
-                "protein": 0.825, 
-                "unit": ""
-              }, 
-              {
                 "amount": 0.125, 
                 "amount_in_grams": 0.28750000000000003, 
                 "calories": 0.7208333333333334, 
@@ -6306,20 +6296,19 @@
             "ingredients": [
               {
                 "amount": 2, 
-                "calories": 1200.0000000000002, 
-                "label": "chicken thigh", 
-                "name": "chicken_thigh", 
-                "note": "bone-in good!; chop into bite-size pieces", 
-                "price": 9.980000000000002, 
-                "protein": 160.00000000000003, 
+                "calories": 1936.0, 
+                "label": "chicken leg", 
+                "name": "chicken_leg", 
+                "note": "bone-in good!", 
+                "price": 5.98, 
+                "protein": 147.99999999999997, 
                 "unit": "lb"
               }, 
               {
-                "amount": 400, 
+                "amount": 240, 
                 "calories": 0.0, 
                 "label": "water", 
                 "name": "water", 
-                "note": "600ml if adding glass noodles at end", 
                 "price": 0.0, 
                 "protein": 0.0, 
                 "unit": "ml"
@@ -6388,9 +6377,261 @@
         "label": "spicy braised chicken [\ub2ed\ubcf6\uc74c\ud0d5]", 
         "name": "spicy_braised_chicken", 
         "nutrition": {
-          "calories": 2221.5808333333334, 
-          "price": 16.496541119313626, 
-          "protein": 185.37287500000005
+          "calories": 2933.580833333333, 
+          "price": 12.398655864113536, 
+          "protein": 173.372875
+        }
+      }, 
+      {
+        "directions": [
+          "Soak miyeok 30-40min (til soft and hydrated). Drain and cut to bite-size.", 
+          "Cut beef into bite-size pieces.", 
+          "Heat sesame oil on pot, med high heat. Saute beef and miyeok, 3-5min.", 
+          "Add water, salt, soy sauce, garlic if using. Stir and bring to boil.", 
+          "Once boiling, lower heat to med or med low. Cook covered 20-30 min.", 
+          "The longer you cook the better. Add water/seasoning to taste as you cook."
+        ], 
+        "ingredients": [
+          {
+            "amount": 5, 
+            "amount_in_grams": 1200.0, 
+            "calories": 0.0, 
+            "label": "water", 
+            "name": "water", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 25.0, 
+            "label": "dried miyeok", 
+            "name": "dried_miyeok", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 4, 
+            "calories": 0.0, 
+            "label": "beef_brisket", 
+            "name": "beef_brisket", 
+            "note": "can also use stew, round, or chuck meat", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 15.0, 
+            "calories": 120.0, 
+            "label": "sesame oil", 
+            "name": "sesame_oil", 
+            "price": 0.3280478822921869, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 4.47, 
+            "label": "garlic", 
+            "name": "garlic", 
+            "note": "minced, optional", 
+            "price": 0.026389332783529847, 
+            "protein": 0.191, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1.5, 
+            "amount_in_grams": 22.5, 
+            "calories": 15.000000000000002, 
+            "label": "dark soy sauce", 
+            "name": "soy_sauce_dark", 
+            "note": "to sub korean soup soy sauce", 
+            "price": 0.26190919634618154, 
+            "protein": 1.5, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 3.0, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "note": "adjust to taste", 
+            "price": 0.008465751801088694, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "seaweed soup [\ubbf8\uc5ed\uad6d]", 
+        "name": "seaweed_soup", 
+        "nutrition": {
+          "calories": 164.47, 
+          "price": 0.6248121632229869, 
+          "protein": 1.691
+        }
+      }, 
+      {
+        "directions": [
+          "Bring water to a boil in a heavy pot over high heat. Add beef and garlic, cook 5 min.", 
+          "Turn heat down to med, cover, and cook for 20-25 min til beef is tender.", 
+          "Add rice cakes, fish sauce, salt, pepper, sesame oil. Cook 7-8 min til rice cakes are soft.", 
+          "Gently fry egg, slice into thin slices.", 
+          "Serve and add garnish."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 7, 
+                "amount_in_grams": 1680.0, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "note": "try making anchovy stock?", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 4, 
+                "calories": 0.0, 
+                "label": "beef_brisket", 
+                "name": "beef_brisket", 
+                "note": "can also use flank steak or brisket, chop into small pieces; up to 8oz ok", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 3, 
+                "calories": 13.41, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "note": "minced", 
+                "price": 0.07916799835058955, 
+                "protein": 0.573, 
+                "unit": ""
+              }
+            ], 
+            "label": "broth", 
+            "name": "broth"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "calories": 0.0, 
+                "label": "rice_cake_disc", 
+                "name": "rice_cake_disc", 
+                "note": "amount unknown and unsure", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "lb"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15.0, 
+                "calories": 5.0, 
+                "label": "korean fish sauce", 
+                "name": "fish_sauce_korean", 
+                "note": "to sub korean soup soy sauce", 
+                "price": 0.0, 
+                "protein": 1.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.5, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "note": "to taste", 
+                "price": 0.004232875900544347, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 1.1500000000000001, 
+                "calories": 2.8833333333333337, 
+                "label": "black pepper", 
+                "name": "pepper_black", 
+                "note": "to taste", 
+                "price": 0.10628045906950101, 
+                "protein": 0.11950000000000001, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 2.5, 
+                "calories": 20.0, 
+                "label": "sesame oil", 
+                "name": "sesame_oil", 
+                "note": "to taste; up to 1 tsp", 
+                "price": 0.05467464704869782, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "soup", 
+            "name": "soup"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "calories": 60.0, 
+                "label": "egg", 
+                "name": "egg", 
+                "note": "or 2", 
+                "price": 0.22, 
+                "protein": 6.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4.666666666666667, 
+                "calories": 40.00000000000001, 
+                "label": "canola oil", 
+                "name": "oil", 
+                "note": "to fry egg", 
+                "price": 0.018107302463439712, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 4.8, 
+                "label": "green onion", 
+                "name": "green_onion", 
+                "note": "sliced thinly and diagonaly", 
+                "price": 0.184285714, 
+                "protein": 0.275, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 35.55, 
+                "label": "dried seaweed sheet", 
+                "name": "dried_seaweed_sheet", 
+                "note": "crushed or cut to thin strips", 
+                "price": 0.0, 
+                "protein": 1.0, 
+                "unit": ""
+              }
+            ], 
+            "label": "garnish", 
+            "name": "garnish"
+          }
+        ], 
+        "label": "tteokguk [\ub5a1\uad6d]", 
+        "name": "tteokguk", 
+        "nutrition": {
+          "calories": 181.64333333333337, 
+          "price": 0.6667489968327724, 
+          "protein": 8.967500000000001
         }
       }
     ]
@@ -11983,11 +12224,13 @@
       }, 
       {
         "directions": [
+          "(1) Cut lamb. (2) Cut onion + carrot. (3) Prep garlic + raisin. (4) Prep spices.", 
+          "", 
           "Heat oil in dutch oven on high heat. ", 
           "Cook lamb til brown outside (~10min?)", 
           "Add onion and carrots and cook til softened (10 more min?)", 
           "Add cumin, coriander, salt, pepper and 4 c water. Bring to boil.", 
-          "Peel some of skin off garlic head. Slice top off to expose the garlic cloves. Place garlic in pot.", 
+          "Peel some of skin off garlic head. Slice top off to expose the garlic cloves. Place garlic in pot. Add raisin if using.", 
           "Reduce heat to med-low, cover with lid and cook ~1 hr.", 
           "Wash rice thoroughly, add to pot by spreading it on top (don't mix!!) evenly.", 
           "Add 1.5 c water. Cook with cover on med high for 15 min.", 
@@ -12056,6 +12299,16 @@
             "unit": ""
           }, 
           {
+            "amount": 0.25, 
+            "amount_in_grams": 40.0, 
+            "calories": 120.0, 
+            "label": "raisin", 
+            "name": "raisin", 
+            "price": 0.7037156184654979, 
+            "protein": 1.0, 
+            "unit": "c"
+          }, 
+          {
             "amount": 1, 
             "amount_in_grams": 18.0, 
             "calories": 0.0, 
@@ -12077,14 +12330,14 @@
           }, 
           {
             "amount": 1, 
-            "amount_in_grams": 6.0, 
-            "calories": 22.5, 
-            "label": "cumin seed", 
-            "name": "cumin_seed", 
-            "note": "or powder; up to 1.5tbsp", 
-            "price": 0.03174656575462237, 
-            "protein": 1.07, 
-            "unit": "tbsp"
+            "amount_in_grams": 3.0, 
+            "calories": 10.0, 
+            "label": "ground cumin", 
+            "name": "cumin_ground", 
+            "note": "or 1 tbsp toasted seed", 
+            "price": 0.2740787145602465, 
+            "protein": 0.4000000000000001, 
+            "unit": "tsp"
           }, 
           {
             "amount": 1, 
@@ -12101,9 +12354,9 @@
         "label": "lamb palov", 
         "name": "lamb_palov", 
         "nutrition": {
-          "calories": 3577.88, 
-          "price": 20.35657334862777, 
-          "protein": 144.611
+          "calories": 3685.38, 
+          "price": 21.30262111589889, 
+          "protein": 144.941
         }
       }, 
       {
@@ -12968,8 +13221,8 @@
           "Using leftover grease in pan, make sofrito. Add sofrito vegetables, saute for 2-3 min. Add sazon seasoning, cook for 30 sec.", 
           "Add tomato sauce and water. Stir well to combine.", 
           "Bring to simmer. Fold in rice and peas, make sure evenly distributed. Add browned chicken on top.", 
-          "Reduce heat to low, cover immediately, cook for 20-25min.", 
-          "After 20-25min, most of liquid should be absorbed, rice cooked. Garnish with cilantro and squeeze fresh lime juice."
+          "Reduce heat to low (3/10), cover immediately, cook for 22min? (up to 25)", 
+          "After 22min, most of liquid should be absorbed, rice cooked. Garnish with cilantro and squeeze fresh lime juice."
         ], 
         "ingredient_categories": [
           {
@@ -13251,8 +13504,8 @@
                 "unit": "cup"
               }, 
               {
-                "amount": 1.25, 
-                "amount_in_grams": 300.0, 
+                "amount": 1.4, 
+                "amount_in_grams": 336.0, 
                 "calories": 0.0, 
                 "label": "water", 
                 "name": "water", 

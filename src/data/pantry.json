@@ -1620,6 +1620,22 @@
     "category_name": "poultry",
     "items": [
       {
+        "name": "chicken_leg",
+        "label": "chicken leg",
+        "note": "skin-on, thigh and drumstick; research (1.96lb total had 4.1 or 5.1 oz of bone)",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 113,
+          "calories": 242,
+          "protein": 18.5
+        },
+        "price_per_unit": {
+          "price": 2.99,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "chicken_thigh",
         "label": "chicken thigh",
         "serving_nutrition": {
@@ -3203,6 +3219,22 @@
         }
       },
       {
+        "name": "dried_miyeok",
+        "label": "dried miyeok",
+        "note": "Ottogi Seaweed",
+        "serving_nutrition": {
+          "amount": 0.1,
+          "unit": "oz",
+          "grams": 2.5,
+          "calories": 5,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.00,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "frozen_dinner_roll",
         "label": "frozen dinner roll",
         "serving_nutrition": {
@@ -3274,6 +3306,21 @@
         },
         "price_per_unit": {
           "price": 0.00,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "raisin",
+        "label": "raisin",
+        "serving_nutrition": {
+          "amount": 0.25,
+          "unit": "cup",
+          "grams": 40,
+          "calories": 120,
+          "protein": 1
+        },
+        "price_per_unit": {
+          "price": 0.49875,
           "unit": "oz"
         }
       },

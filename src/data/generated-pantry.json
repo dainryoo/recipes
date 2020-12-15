@@ -2911,6 +2911,31 @@
     "items": [
       {
         "conversion_to_grams": {
+          "lb": 452.0, 
+          "oz": 28.25
+        }, 
+        "label": "chicken leg", 
+        "name": "chicken_leg", 
+        "note": "skin-on, thigh and drumstick; research (1.96lb total had 4.1 or 5.1 oz of bone)", 
+        "per_100_gram": {
+          "calories": 214.15929203539824, 
+          "price": 0.6615044247787611, 
+          "protein": 16.371681415929203
+        }, 
+        "price_per_unit": {
+          "price": 2.99, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 4, 
+          "calories": 242, 
+          "grams": 113, 
+          "protein": 18.5, 
+          "unit": "oz"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
           "lb": 448.0, 
           "oz": 28.0
         }, 
@@ -5683,6 +5708,31 @@
       }, 
       {
         "conversion_to_grams": {
+          "lb": 400.0, 
+          "oz": 25.0
+        }, 
+        "label": "dried miyeok", 
+        "name": "dried_miyeok", 
+        "note": "Ottogi Seaweed", 
+        "per_100_gram": {
+          "calories": 200.0, 
+          "price": 0.0, 
+          "protein": 0.0
+        }, 
+        "price_per_unit": {
+          "price": 0.0, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 0.1, 
+          "calories": 5, 
+          "grams": 2.5, 
+          "protein": 0, 
+          "unit": "oz"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
           "lb": 453.59237, 
           "oz": 28.34952
         }, 
@@ -5814,6 +5864,33 @@
           "grams": 100, 
           "protein": 0, 
           "unit": "g"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "cup": 160.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 10.0, 
+          "tsp": 3.3333333333333335
+        }, 
+        "label": "raisin", 
+        "name": "raisin", 
+        "per_100_gram": {
+          "calories": 300.0, 
+          "price": 1.7592890461637447, 
+          "protein": 2.5
+        }, 
+        "price_per_unit": {
+          "price": 0.49875, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 0.25, 
+          "calories": 120, 
+          "grams": 40, 
+          "protein": 1, 
+          "unit": "cup"
         }
       }, 
       {
