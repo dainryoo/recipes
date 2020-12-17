@@ -59,78 +59,51 @@ def fill_out_pantry_item_info(item):
         grams = serving["grams"]*1.0
         amount = serving["amount"]*1.0
 
+        item["per_100_gram"] = {
+            "calories": 100.0/grams*serving["calories"],
+            "protein": 100.0/grams*serving["protein"],
+        }
+        item["conversion_to_grams"] = {
+            "oz": 28.34952,
+            "lb": 453.59237
+        }
+
         if unit == "":
             item["per_unit"] = {
                 "calories": serving["calories"]/amount,
                 "protein": serving["protein"]/amount,
                 "avg_grams": grams/amount
             }
-            item["conversion_to_grams"] = {
-                "oz": 28.34952,
-                "lb": 453.59237
-            }
         else:
-            if unit in gram_names:
-                item["conversion_to_grams"] = {
-                    "oz": 28.34952,
-                    "lb": 453.59237
-                }
-            elif unit in tsp_names:
-                item["conversion_to_grams"] = {
-                    "tsp": grams/amount,
-                    "tbsp": grams/amount*3.0,
-                    "cup": grams/amount*48.0,
-                    "oz": 28.34952,
-                    "lb": 453.59237
-                }
-            elif unit in tbsp_names:
-                item["conversion_to_grams"] = {
-                    "tsp": grams/amount/3.0,
-                    "tbsp": grams/amount,
-                    "cup": grams/amount*16.0,
-                    "oz": 28.34952,
-                    "lb": 453.59237
-                }
-            elif unit in cup_names:
-                item["conversion_to_grams"] = {
-                    "tsp": grams/amount/48.0,
-                    "tbsp": grams/amount/16.0,
-                    "cup": grams/amount,
-                    "oz": 28.34952,
-                    "lb": 453.59237
-                }
-            elif unit in oz_names:
-                item["conversion_to_grams"] = {
-                    "oz": grams/amount,
-                    "lb": grams/amount*16.0
-                }
-            elif unit in lb_names:
-                item["conversion_to_grams"] = {
-                    "oz": grams/amount/16.0,
-                    "lb": grams/amount
-                }
+            if unit in oz_names or unit in lb_names:
+                oz_to_g = grams/amount if unit in oz_names else grams/amount/16.0
+                lb_to_g = grams/amount*16.0 if unit in oz_names else grams/amount
 
-        item["per_100_gram"] = {
-            "calories": 100.0/grams*serving["calories"],
-            "protein": 100.0/grams*serving["protein"],
-        }
+                item["conversion_to_grams"]["oz"] = oz_to_g
+                item["conversion_to_grams"]["lb"] = lb_to_g
+            else:
+                tsp_to_g =  grams/amount if unit in tsp_names else grams/amount/3.0 if unit in tbsp_names else grams/amount/48.0
+                tbsp_to_g =  grams/amount*3.0 if unit in tsp_names else grams/amount if unit in tbsp_names else grams/amount/16.0
+                cup_to_g =  grams/amount*48.0 if unit in tsp_names else grams/amount*16.0 if unit in tbsp_names else grams/amount
+
+                item["conversion_to_grams"]["tsp"] = tsp_to_g
+                item["conversion_to_grams"]["tbsp"] = tbsp_to_g
+                item["conversion_to_grams"]["cup"] = cup_to_g
+
 
         price = item["price_per_unit"]["price"]
         price_unit = item["price_per_unit"]["unit"]
 
         if price_unit == "":
-            calculated_price = 100.0/grams*price
-            item["per_100_gram"]["price"] = calculated_price
             item["per_unit"]["price"] = price*1.0/amount
-        elif price_unit in item["conversion_to_grams"]:
-            calculated_price = 100.0/item["conversion_to_grams"][price_unit] * price
-            item["per_100_gram"]["price"] = calculated_price
-            if "per_unit" in item:
-                calculated_price = grams * price / item["conversion_to_grams"][price_unit]
-                item["per_unit"]["price"] = calculated_price
-        elif price_unit == "g":
-            item["per_100_gram"]["price"] = 100.0*price
-
+            item["per_100_gram"]["price"] = 100.0/grams*price
+        else:
+            if price_unit in item["conversion_to_grams"]:
+                item["per_100_gram"]["price"] = 100.0/item["conversion_to_grams"][price_unit] * price
+                if "per_unit" in item:
+                    item["per_unit"]["price"] = grams/item["conversion_to_grams"][price_unit]/amount * price
+            elif price_unit in gram_names:
+                item["per_100_gram"]["price"] = 100.0*price
 
 
 # calculates nutrition info of all the recipes
@@ -154,52 +127,46 @@ def calculate_nutrition(all_recipes, pantry):
 
 # calculate the nutrition of a recipe
 def calculate_recipe_nutrition(recipe, pantry):
-
     ingredients = recipe["ingredients"]
-    total_calories = 0.0
-    total_protein = 0.0
-    total_price = 0.0
+    total_recipe_calories = 0.0
+    total_recipe_protein = 0.0
+    total_recipe_price = 0.0
 
     for i in range(len(ingredients)):
         # get nutrition info for each ingredient in the recipe
         curr_ingredient = ingredients[i]
         calculate_ingredient_nutrition(curr_ingredient, pantry)
-        total_calories += curr_ingredient["calories"]
-        total_protein += curr_ingredient["protein"]
-        total_price += curr_ingredient["price"]
+        total_recipe_calories += curr_ingredient["calories"]
+        total_recipe_protein += curr_ingredient["protein"]
+        total_recipe_price += curr_ingredient["price"]
 
     recipe["nutrition"] = {
-        "calories": total_calories,
-        "protein": total_protein,
-        "price": total_price
+        "calories": total_recipe_calories,
+        "protein": total_recipe_protein,
+        "price": total_recipe_price
     }
 
 # calculate the nutrition of a recipe with ingredient subcategories
 def calculate_nutrition_with_categories(recipe, ingredient_category, pantry):
     ingredients = ingredient_category["ingredients"]
 
-    # if the recipe already has existing nutrition info
-    if recipe.has_key("nutrition"):
-        total_calories = recipe["nutrition"]["calories"]
-        total_protein = recipe["nutrition"]["protein"]
-        total_price = recipe["nutrition"]["price"]
-    else:
-        total_calories = 0.0
-        total_protein = 0.0
-        total_price = 0.0
+    # get info if the recipe already has existing nutrition info (else start from 0.0 for everything)
+    total_recipe_calories = recipe["nutrition"]["calories"] if recipe.has_key("nutrition") else 0.0
+    total_recipe_protein = recipe["nutrition"]["protein"] if recipe.has_key("nutrition") else 0.0
+    total_recipe_price = recipe["nutrition"]["price"] if recipe.has_key("nutrition") else 0.0
 
     for i in range(len(ingredients)):
         # get nutrition info for each ingredient in the recipe
         curr_ingredient = ingredients[i]
         calculate_ingredient_nutrition(curr_ingredient, pantry)
-        total_calories += curr_ingredient["calories"]
-        total_protein += curr_ingredient["protein"]
-        total_price += curr_ingredient["price"]
+        total_recipe_calories += curr_ingredient["calories"]
+        total_recipe_protein += curr_ingredient["protein"]
+        total_recipe_price += curr_ingredient["price"]
 
     recipe["nutrition"] = {
-        "calories": total_calories,
-        "protein": total_protein,
-        "price": total_price
+        "calories": total_recipe_calories,
+        "protein": total_recipe_protein,
+        "price": total_recipe_price
     }
 
 # calculate the nutrition of a single ingredient from a recipe
@@ -231,29 +198,23 @@ def calculate_ingredient_nutrition(ingredient, pantry):
     else:
         # figure out which unit is used
         unit = ingredient["unit"]
-        if unit in ["g", "gram", "grams", "ml", "mL", "milliliter", "milliliters"]:
+        if unit in gram_names or unit in ml_names:
             # if unit is grams or ml, we can just use the raw value for value in grams
             amount = ingredient["amount"]
-        elif unit in ["oz", "ounce", "ounces", "lb", "lbs", "pound", "pounds"]:
-            # if unit is pounds, convert weight to oz
-            if unit in ["lb", "lbs", "pound", "pounds"]:
-                amount = ingredient["amount"] * 16.0
-            else:
-                amount = ingredient["amount"]
+        elif unit in oz_names or unit in lb_names:
+            # if unit is pounds, convert weight to ounces; else, keep the ounce amount
+            amount = ingredient["amount"] * 16.0 if unit in lb_names else ingredient["amount"]
 
             # once unit is ounces, convert weight to grams
             if ("conversion_to_grams" in ingredient_info and "oz" in ingredient_info["conversion_to_grams"]):
                 amount = amount * ingredient_info["conversion_to_grams"]["oz"]
             else:
                 amount = ingredient["amount"] * 28.34952
+
         else:
             # if unit is anything else, handle special case abbreviations
-            if unit in ["t", "tsp", "teaspoon", "teaspoons"]:
-                unit_name = "tsp"
-            elif unit in ["T", "tbsp", "Tbsp", "tablespoon", "tablespoons"]:
-                unit_name = "tbsp"
-            elif unit in ["c", "cup", "cups"]:
-                unit_name = "cup"
+            unit_name = "tsp" if unit in tsp_names else "tbsp" if unit in tbsp_names else "cup"
+
             # calculate the value in grams
             if ("conversion_to_grams" in ingredient_info):
                 amount = ingredient["amount"] * ingredient_info["conversion_to_grams"][unit_name]
@@ -265,7 +226,6 @@ def calculate_ingredient_nutrition(ingredient, pantry):
         ingredient["calories"] = amount / 100.0 * ingredient_info["per_100_gram"]["calories"]
         ingredient["protein"] = amount / 100.0 * ingredient_info["per_100_gram"]["protein"]
         ingredient["price"] = amount / 100.0 * ingredient_info["per_100_gram"]["price"]
-
 
 
 # returns the ingredient info from the pantry; if not found, return None

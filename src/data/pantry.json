@@ -502,6 +502,21 @@
         }
       },
       {
+        "name": "lotus_root",
+        "label": "lotus root",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 115,
+          "calories": 85.1,
+          "protein": 2.99
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "mushroom",
         "label": "mushroom",
         "serving_nutrition": {
@@ -2104,7 +2119,7 @@
           "protein": 1
         },
         "price_per_unit": {
-          "price": 0.18,
+          "price": 0.07,
           "unit": "oz"
         }
       },
