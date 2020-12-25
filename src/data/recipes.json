@@ -1293,10 +1293,10 @@
             "name": "dough",
             "label": "dough",
             "ingredients": [
-              { "name": "flour", "amount": 2, "unit": "cup" },
+              { "name": "flour", "amount": 180, "unit": "g" },
               { "name": "salt", "amount": 0.5, "unit": "tsp" },
-              { "name": "water", "note": "up to 3/4c if needed", "amount": 0.5, "unit": "cup" },
-              { "name": "oil", "note": "try 1 tsp too?",  "amount": 1, "unit": "tbsp" }
+              { "name": "water", "amount": 90, "unit": "g" },
+              { "name": "oil", "amount": 1, "unit": "tsp" }
             ]
           },
           {
@@ -1305,15 +1305,16 @@
             "ingredients": [
               { "name": "water", "amount": 10, "unit": "cup" },
               { "name": "dried_anchovy", "amount": 10, "unit": "" },
-              { "name": "dried_kelp", "note": "4x5 inch", "amount": 1, "unit": "" },
+              { "name": "dried_kelp", "amount": 3, "unit": "g" },
               { "name": "green_onion", "note": "separate white and green part",  "amount": 1, "unit": "" },
               { "name": "potato", "amount": 1, "unit": "" },
+              { "name": "onion", "amount": 0.5, "unit": "" },
               { "name": "carrot", "amount": 1, "unit": "" },
               { "name": "zucchini", "amount": 1, "unit": "" },
               { "name": "garlic", "note": "minced; try 3 too?", "amount": 2, "unit": "" },
               { "name": "fish_sauce_korean", "amount": 1, "unit": "tbsp" },
               { "name": "salt", "note": "to sub korean soup soy sauce :(", "amount": 1, "unit": "tsp" },
-              { "name": "sesame_oil", "amount": 1, "unit": "tsp" }
+              { "name": "sesame_oil", "note": "optional", "amount": 1, "unit": "tsp" }
             ]
           }
         ],
@@ -1322,8 +1323,8 @@
           "Mix sauce. Put sauce, egg, cucumber on noodles.",
           "",
           "Knead dough til smooth (10-15min) and let rest at least 1 hr. The longer the better.",
-          "Kelp, anchovy, green onion white part (opt?), water, med high heat for 10 min. Remove and set aside kelp. Boil 10 more min, remove everyone.",
-          "Add potato, onion, zucchini, garlic. Boil 10-15 min med high heat.",
+          "Kelp, anchovy, green onion white part (opt), water, med high heat for 10 min. Remove and set aside kelp. Boil 10 more min, remove everyone.",
+          "Add potato, onion, zucchini, carrot, garlic. Boil 10-15 min med high heat.",
           "Cut kelp into bite size pieces. Add kelp, fish sauce, soup soy sauce, salt if needed to taste.",
           "Tear dough thinly into boiling water.",
           "Close lid and cook for a couple min til dough floating.",
@@ -1468,25 +1469,27 @@
         "name": "spicy_pork_stirfry",
         "label": "spicy pork stirfry [제육볶음]",
         "ingredients": [
-          { "name": "pork_belly", "note": "or pork shoulder/loin", "amount": 1, "unit": "lb" },
-          { "name": "gochujang", "amount": 0.2, "unit": "cup" },
-          { "name": "soy_sauce_dark", "amount": 1, "unit": "tbsp" },
-          { "name": "sugar", "amount": 1.5, "unit": "tsp" },
-          { "name": "gochugaru", "note": "originally 2 tbsp", "amount": 2, "unit": "tsp" },
-          { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
-          { "name": "sesame_oil", "amount": 1, "unit": "tbsp" },
-          { "name": "garlic", "note": "minced", "amount": 5, "unit": "" },
-          { "name": "ginger", "note": "minced", "amount": 1, "unit": "tsp" },
-          { "name": "onion", "note": "sliced", "amount": 1, "unit": "" },
-          { "name": "green_onion", "note": "sliced", "amount": 4, "unit": "" },
-          { "name": "sesame_seed", "note": "optional garnish", "amount": 1, "unit": "tsp" }
+          { "name": "pork_belly", "note": "or pork shoulder/loin", "amount": 0.5, "unit": "lb" },
+          { "name": "gochujang", "amount": 25, "unit": "g" },
+          { "name": "soy_sauce_dark", "amount": 1, "unit": "tsp" },
+          { "name": "sugar", "amount": 0.5, "unit": "tsp" },
+          { "name": "gochugaru", "amount": 2, "unit": "g" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
+          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+          { "name": "ginger", "note": "minced", "amount": 0.5, "unit": "tsp" },
+          { "name": "onion", "note": "sliced", "amount": 0.5, "unit": "" },
+          { "name": "green_onion", "note": "sliced", "amount": 2, "unit": "" },
+          { "name": "sesame_seed", "note": "optional garnish", "amount": 0.5, "unit": "tsp" }
         ],
         "directions": [
+          "(1) Prepped meat (2) sauce ingredients (3) ginger, garilc, onion, green onion",
+          "",
           "Heat large skillet/pan med high heat.",
           "Add pork, gochujang, soy sauce, sugar, gochugaru, pepper, and sesame oil.",
           "Stir to mix well. Cook for a few min, until pork is covered well with seasonings.",
           "Add garlic, ginger, onion, green onion.",
-          "Stir and cook for 12-15 min, til pork is fully cooked and juicy and a little crispy."
+          "Stir and cook for 12-15 min, til onion is all cooked or til pork is fully cooked and juicy and a little crispy."
         ]
       },
       {
@@ -2852,6 +2855,7 @@
           { "name": "celery", "amount": 2, "unit": "" },
           { "name": "carrot", "amount": 2, "unit": "" },
           { "name": "mushroom", "amount": 5, "unit": "" },
+          { "name": "onion", "amount": 0.5, "unit": "" },
           { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
           { "name": "sage_ground", "amount": 0.125, "unit": "tsp" },
           { "name": "thyme_dried", "amount": 0.125, "unit": "tsp" },
@@ -3145,6 +3149,8 @@
           { "name": "mussels", "note": "cleaned properly (beards off); use about 10-12", "amount": 0.5, "unit": "lb" }
         ],
         "directions": [
+          "(1) Diced onion, bell pepper, garlic (2) diced tomato, bayleaf, paprika, saffron, salt, pepper, chicken (3) white wine (4) parsley, rice (5) seafood and peas",
+          "",
           "Don't wash rice before cooking.",
           "If using frozen seafood, defrost overnight.",
           "Olive oil skillet med heat. Cook onion, bell pepper, garlic, til onion is transparent.",

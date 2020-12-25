@@ -5967,143 +5967,142 @@
       }, 
       {
         "directions": [
+          "(1) Prepped meat (2) sauce ingredients (3) ginger, garilc, onion, green onion", 
+          "", 
           "Heat large skillet/pan med high heat.", 
           "Add pork, gochujang, soy sauce, sugar, gochugaru, pepper, and sesame oil.", 
           "Stir to mix well. Cook for a few min, until pork is covered well with seasonings.", 
           "Add garlic, ginger, onion, green onion.", 
-          "Stir and cook for 12-15 min, til pork is fully cooked and juicy and a little crispy."
+          "Stir and cook for 12-15 min, til onion is all cooked or til pork is fully cooked and juicy and a little crispy."
         ], 
         "ingredients": [
           {
-            "amount": 1, 
-            "calories": 2340.0, 
+            "amount": 0.5, 
+            "calories": 1170.0, 
             "label": "pork belly", 
             "name": "pork_belly", 
             "note": "or pork shoulder/loin", 
-            "price": 5.989999999999999, 
-            "protein": 42.39999999999999, 
+            "price": 2.9949999999999997, 
+            "protein": 21.199999999999996, 
             "unit": "lb"
           }, 
           {
-            "amount": 0.2, 
-            "amount_in_grams": 57.6, 
-            "calories": 96.00000000000003, 
+            "amount": 25, 
+            "calories": 41.66666666666667, 
             "label": "gochujang", 
             "name": "gochujang", 
-            "price": 0.9752546074854178, 
+            "price": 0.4232875900544348, 
             "protein": 0.0, 
-            "unit": "cup"
+            "unit": "g"
           }, 
           {
             "amount": 1, 
-            "amount_in_grams": 15.0, 
-            "calories": 10.0, 
+            "amount_in_grams": 5.0, 
+            "calories": 3.333333333333334, 
             "label": "dark soy sauce", 
             "name": "soy_sauce_dark", 
-            "price": 0.17460613089745436, 
-            "protein": 1.0, 
-            "unit": "tbsp"
+            "price": 0.058202043632484796, 
+            "protein": 0.33333333333333337, 
+            "unit": "tsp"
           }, 
           {
-            "amount": 1.5, 
-            "amount_in_grams": 6.0, 
-            "calories": 22.5, 
+            "amount": 0.5, 
+            "amount_in_grams": 2.0, 
+            "calories": 7.5, 
             "label": "sugar", 
             "name": "sugar", 
-            "price": 0.01058218975136087, 
+            "price": 0.003527396583786957, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
           {
             "amount": 2, 
-            "amount_in_grams": 5.0, 
-            "calories": 16.0, 
+            "calories": 6.4, 
             "label": "gochugaru", 
             "name": "gochugaru", 
-            "note": "originally 2 tbsp", 
-            "price": 0.0652568368000587, 
+            "price": 0.026102734720023477, 
             "protein": 0.0, 
-            "unit": "tsp"
+            "unit": "g"
           }, 
           {
-            "amount": 0.25, 
-            "amount_in_grams": 0.5750000000000001, 
-            "calories": 1.4416666666666669, 
+            "amount": 0.125, 
+            "amount_in_grams": 0.28750000000000003, 
+            "calories": 0.7208333333333334, 
             "label": "black pepper", 
             "name": "pepper_black", 
-            "price": 0.053140229534750505, 
-            "protein": 0.059750000000000004, 
+            "price": 0.026570114767375252, 
+            "protein": 0.029875000000000002, 
             "unit": "tsp"
           }, 
           {
             "amount": 1, 
-            "amount_in_grams": 15.0, 
-            "calories": 120.0, 
+            "amount_in_grams": 5.0, 
+            "calories": 40.0, 
             "label": "sesame oil", 
             "name": "sesame_oil", 
-            "price": 0.3280478822921869, 
+            "price": 0.10934929409739565, 
             "protein": 0.0, 
-            "unit": "tbsp"
+            "unit": "tsp"
           }, 
           {
-            "amount": 5, 
-            "calories": 22.349999999999998, 
+            "amount": 2, 
+            "calories": 8.94, 
             "label": "garlic", 
             "name": "garlic", 
             "note": "minced", 
-            "price": 0.13194666391764923, 
-            "protein": 0.9550000000000001, 
+            "price": 0.05277866556705969, 
+            "protein": 0.382, 
             "unit": ""
           }, 
           {
-            "amount": 1, 
-            "amount_in_grams": 2.0, 
-            "calories": 1.6, 
+            "amount": 0.5, 
+            "amount_in_grams": 1.0, 
+            "calories": 0.8, 
             "label": "ginger", 
             "name": "ginger", 
             "note": "minced", 
-            "price": 0.01759288852235323, 
-            "protein": 0.036, 
+            "price": 0.008796444261176616, 
+            "protein": 0.018, 
             "unit": "tsp"
           }, 
           {
-            "amount": 1, 
-            "calories": 60.0, 
+            "amount": 0.5, 
+            "calories": 30.0, 
             "label": "onion", 
             "name": "onion", 
             "note": "sliced", 
-            "price": 0.33069339327731634, 
-            "protein": 1.65, 
+            "price": 0.16534669663865817, 
+            "protein": 0.825, 
             "unit": ""
           }, 
           {
-            "amount": 4, 
-            "calories": 19.2, 
+            "amount": 2, 
+            "calories": 9.6, 
             "label": "green onion", 
             "name": "green_onion", 
             "note": "sliced", 
-            "price": 0.737142856, 
-            "protein": 1.1, 
+            "price": 0.368571428, 
+            "protein": 0.55, 
             "unit": ""
           }, 
           {
-            "amount": 1, 
-            "amount_in_grams": 5.0, 
-            "calories": 35.0, 
+            "amount": 0.5, 
+            "amount_in_grams": 2.5, 
+            "calories": 17.5, 
             "label": "sesame seed", 
             "name": "sesame_seed", 
             "note": "optional garnish", 
-            "price": 0.1322773718920109, 
-            "protein": 1.0, 
+            "price": 0.06613868594600544, 
+            "protein": 0.5, 
             "unit": "tsp"
           }
         ], 
         "label": "spicy pork stirfry [\uc81c\uc721\ubcf6\uc74c]", 
         "name": "spicy_pork_stirfry", 
         "nutrition": {
-          "calories": 2744.0916666666662, 
-          "price": 8.946541050370557, 
-          "protein": 48.20074999999999
+          "calories": 1336.4608333333333, 
+          "price": 4.3036710942684, 
+          "protein": 23.83820833333333
         }
       }, 
       {
@@ -13008,6 +13007,8 @@
       }, 
       {
         "directions": [
+          "(1) Diced onion, bell pepper, garlic (2) diced tomato, bayleaf, paprika, saffron, salt, pepper, chicken (3) white wine (4) parsley, rice (5) seafood and peas", 
+          "", 
           "Don't wash rice before cooking.", 
           "If using frozen seafood, defrost overnight.", 
           "Olive oil skillet med heat. Cook onion, bell pepper, garlic, til onion is transparent.", 
