@@ -3701,6 +3701,98 @@
           "price": 1.9389929706040876, 
           "protein": 14.0
         }
+      }, 
+      {
+        "directions": [
+          "Beat eggs together into measuring glass for easy pour.", 
+          "Med heat, cold water + salt + butter.  Stir occasionally. ", 
+          "When water start to boil (butter should be melted!), remove from stove (keep stove on) and add flour all at once.", 
+          "Stir vigorously until flour is all incorporated.", 
+          "Place back on med heat, cook dough for 1-3 min. There should be a thin film on the bottom of saucepan once ready. (When you stick a tablespoon in the dough, it should stay upright)", 
+          "Let dough cool to at most 160F. Add vanilla now if using.", 
+          "Add eggs \"one at a time\" and whisk well after each. Stop when consistency is right (you might not use all the eggs). Should be glossy and smooth and pass the finger and spatula v test.", 
+          "Mist baking sheet with water. Pipe or spoon.", 
+          "15min at 450F and then 325F for 20min. Or 10min at 425F and then 325F for 30 min. Or 375F for 30-40min. Should be golden brown. Make sure to prick once out of oven. Cool."
+        ], 
+        "ingredients": [
+          {
+            "amount": 2, 
+            "calories": 0.0, 
+            "label": "water", 
+            "name": "water", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 202.49657142857146, 
+            "label": "butter", 
+            "name": "butter", 
+            "price": 0.37, 
+            "protein": 0.0, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 1.175, 
+            "calories": 122.13918199999999, 
+            "label": "flour", 
+            "name": "flour", 
+            "note": "1.25oz for firmer choux, like eclair", 
+            "price": 0.0705, 
+            "protein": 3.3310685999999996, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 60.0, 
+            "label": "egg", 
+            "name": "egg", 
+            "note": "2oz weight with shell; ideally 1 large egg", 
+            "price": 0.22, 
+            "protein": 6.0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.0625, 
+            "amount_in_grams": 0.375, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0010582189751360868, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 1.0, 
+            "calories": 3.75, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "note": "optional", 
+            "price": 0.0017636982918934785, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.5416666666666666, 
+            "calories": 1.5833333333333333, 
+            "label": "vanilla extract", 
+            "name": "vanilla_extract", 
+            "note": "optional", 
+            "price": 0.07165024310817254, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "choux", 
+        "name": "choux", 
+        "nutrition": {
+          "calories": 389.96908676190475, 
+          "price": 0.7349721603752022, 
+          "protein": 9.3310686
+        }
       }
     ]
   }, 
@@ -5110,8 +5202,8 @@
           "Mix sauce. Put sauce, egg, cucumber on noodles.", 
           "", 
           "Knead dough til smooth (10-15min) and let rest at least 1 hr. The longer the better.", 
-          "Kelp, anchovy, green onion white part (opt?), water, med high heat for 10 min. Remove and set aside kelp. Boil 10 more min, remove everyone.", 
-          "Add potato, onion, zucchini, garlic. Boil 10-15 min med high heat.", 
+          "Kelp, anchovy, green onion white part (opt), water, med high heat for 10 min. Remove and set aside kelp. Boil 10 more min, remove everyone.", 
+          "Add potato, onion, zucchini, carrot, garlic. Boil 10-15 min med high heat.", 
           "Cut kelp into bite size pieces. Add kelp, fish sauce, soup soy sauce, salt if needed to taste.", 
           "Tear dough thinly into boiling water.", 
           "Close lid and cook for a couple min til dough floating.", 
@@ -5234,14 +5326,13 @@
           {
             "ingredients": [
               {
-                "amount": 2, 
-                "amount_in_grams": 240.0, 
-                "calories": 880.0, 
+                "amount": 180, 
+                "calories": 660.0, 
                 "label": "flour", 
                 "name": "flour", 
-                "price": 0.5079451080653217, 
-                "protein": 24.0, 
-                "unit": "cup"
+                "price": 0.3809588310489913, 
+                "protein": 18.0, 
+                "unit": "g"
               }, 
               {
                 "amount": 0.5, 
@@ -5254,26 +5345,23 @@
                 "unit": "tsp"
               }, 
               {
-                "amount": 0.5, 
-                "amount_in_grams": 120.0, 
+                "amount": 90, 
                 "calories": 0.0, 
                 "label": "water", 
                 "name": "water", 
-                "note": "up to 3/4c if needed", 
                 "price": 0.0, 
                 "protein": 0.0, 
-                "unit": "cup"
+                "unit": "g"
               }, 
               {
                 "amount": 1, 
-                "amount_in_grams": 14.0, 
-                "calories": 120.00000000000003, 
+                "amount_in_grams": 4.666666666666667, 
+                "calories": 40.00000000000001, 
                 "label": "canola oil", 
                 "name": "oil", 
-                "note": "try 1 tsp too?", 
-                "price": 0.054321907390319134, 
+                "price": 0.018107302463439712, 
                 "protein": 0.0, 
-                "unit": "tbsp"
+                "unit": "tsp"
               }
             ], 
             "label": "dough", 
@@ -5301,14 +5389,13 @@
                 "unit": ""
               }, 
               {
-                "amount": 1, 
+                "amount": 3, 
                 "calories": 0.0, 
                 "label": "dried_kelp", 
                 "name": "dried_kelp", 
-                "note": "4x5 inch", 
                 "price": 0.0, 
                 "protein": 0.0, 
-                "unit": ""
+                "unit": "g"
               }, 
               {
                 "amount": 1, 
@@ -5327,6 +5414,15 @@
                 "name": "potato", 
                 "price": 1.2121235637186754, 
                 "protein": 7.56, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.5, 
+                "calories": 30.0, 
+                "label": "onion", 
+                "name": "onion", 
+                "price": 0.16534669663865817, 
+                "protein": 0.825, 
                 "unit": ""
               }, 
               {
@@ -5384,6 +5480,7 @@
                 "calories": 40.0, 
                 "label": "sesame oil", 
                 "name": "sesame_oil", 
+                "note": "optional", 
                 "price": 0.10934929409739565, 
                 "protein": 0.0, 
                 "unit": "tsp"
@@ -5396,9 +5493,9 @@
         "label": "bibim guksu [\ube44\ube54\uad6d\uc218]", 
         "name": "bibim_guksu", 
         "nutrition": {
-          "calories": 2442.128, 
-          "price": 6.9906997497043, 
-          "protein": 62.446760000000005
+          "calories": 2172.128, 
+          "price": 6.992845564399749, 
+          "protein": 57.27176000000001
         }
       }, 
       {
@@ -11771,6 +11868,24 @@
             "unit": ""
           }, 
           {
+            "amount": 0.5, 
+            "calories": 30.0, 
+            "label": "onion", 
+            "name": "onion", 
+            "price": 0.16534669663865817, 
+            "protein": 0.825, 
+            "unit": ""
+          }, 
+          {
+            "amount": 2, 
+            "calories": 8.94, 
+            "label": "garlic", 
+            "name": "garlic", 
+            "price": 0.05277866556705969, 
+            "protein": 0.382, 
+            "unit": ""
+          }, 
+          {
             "amount": 1, 
             "amount_in_grams": 15.0, 
             "calories": 5.0, 
@@ -11814,9 +11929,9 @@
         "label": "stuffing", 
         "name": "stuffing", 
         "nutrition": {
-          "calories": 982.6370833333334, 
-          "price": 5.7969125625565345, 
-          "protein": 22.53820833333333
+          "calories": 1021.5770833333335, 
+          "price": 6.015037924762253, 
+          "protein": 23.74520833333333
         }
       }, 
       {
