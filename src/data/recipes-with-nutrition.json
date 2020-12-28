@@ -3712,86 +3712,200 @@
           "Let dough cool to at most 160F. Add vanilla now if using.", 
           "Add eggs \"one at a time\" and whisk well after each. Stop when consistency is right (you might not use all the eggs). Should be glossy and smooth and pass the finger and spatula v test.", 
           "Mist baking sheet with water. Pipe or spoon.", 
-          "15min at 450F and then 325F for 20min. Or 10min at 425F and then 325F for 30 min. Or 375F for 30-40min. Should be golden brown. Make sure to prick once out of oven. Cool."
+          "15min at 450F and then 325F for 20min. Or 10min at 425F and then 325F for 30 min. Or 375F for 30-40min. Should be golden brown. Make sure to prick once out of oven. Cool.", 
+          "", 
+          "Cut butter into pieces.", 
+          "Bring milk and vanilla just to a boil. Stir to prevent film.", 
+          "Whisk sugar, cornstarch, salt. Add yolk and whisk til smooth, pale, and creamy.", 
+          "Gradually, to prevent curdle, add hot milk into egg mix and whisk constantly till all incorporated.", 
+          "Bring mix back to stove and bring to bowl while whisking constantly. Mix till thick and puddinglike.", 
+          "Whisk in vanillla if using. Quickly add in butter cubes and whisk into custard til fully incorporated. Cover with plastic and chill for 30+min."
         ], 
-        "ingredients": [
+        "ingredient_categories": [
           {
-            "amount": 2, 
-            "calories": 0.0, 
-            "label": "water", 
-            "name": "water", 
-            "price": 0.0, 
-            "protein": 0.0, 
-            "unit": "oz"
+            "ingredients": [
+              {
+                "amount": 2, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 202.49657142857146, 
+                "label": "butter", 
+                "name": "butter", 
+                "price": 0.37, 
+                "protein": 0.0, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 1.175, 
+                "calories": 122.13918199999999, 
+                "label": "flour", 
+                "name": "flour", 
+                "note": "1.25oz for firmer choux, like eclair", 
+                "price": 0.0705, 
+                "protein": 3.3310685999999996, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 60.0, 
+                "label": "egg", 
+                "name": "egg", 
+                "note": "2oz weight with shell; ideally 1 large egg", 
+                "price": 0.22, 
+                "protein": 6.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.0625, 
+                "amount_in_grams": 0.375, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.0010582189751360868, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.0, 
+                "calories": 3.75, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "note": "optional", 
+                "price": 0.0017636982918934785, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.5416666666666666, 
+                "calories": 1.5833333333333333, 
+                "label": "vanilla extract", 
+                "name": "vanilla_extract", 
+                "note": "optional", 
+                "price": 0.07165024310817254, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "choux", 
+            "name": "choux"
           }, 
           {
-            "amount": 1, 
-            "calories": 202.49657142857146, 
-            "label": "butter", 
-            "name": "butter", 
-            "price": 0.37, 
-            "protein": 0.0, 
-            "unit": "oz"
+            "ingredients": [
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 120.0, 
+                "calories": 60.0, 
+                "label": "oat milk", 
+                "name": "milk_oat", 
+                "price": 0.21164379502721742, 
+                "protein": 1.5, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 2.1666666666666665, 
+                "calories": 6.333333333333333, 
+                "label": "vanilla extract", 
+                "name": "vanilla_extract", 
+                "price": 0.28660097243269017, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.1875, 
+                "amount_in_grams": 36.0, 
+                "calories": 135.0, 
+                "label": "sugar", 
+                "name": "sugar", 
+                "price": 0.06349313850816522, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 16.0, 
+                "calories": 60.0, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.06772601440870957, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.0625, 
+                "amount_in_grams": 0.375, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.0010582189751360868, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 55.0, 
+                "label": "egg yolk", 
+                "name": "egg_yolk", 
+                "price": 0.25, 
+                "protein": 2.7, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 14.0, 
+                "calories": 100.00000000000001, 
+                "label": "butter", 
+                "name": "butter", 
+                "note": "room temp", 
+                "price": 0.18271914304016434, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "pastry cream", 
+            "name": "pastry_cream"
           }, 
           {
-            "amount": 1.175, 
-            "calories": 122.13918199999999, 
-            "label": "flour", 
-            "name": "flour", 
-            "note": "1.25oz for firmer choux, like eclair", 
-            "price": 0.0705, 
-            "protein": 3.3310685999999996, 
-            "unit": "oz"
-          }, 
-          {
-            "amount": 1, 
-            "calories": 60.0, 
-            "label": "egg", 
-            "name": "egg", 
-            "note": "2oz weight with shell; ideally 1 large egg", 
-            "price": 0.22, 
-            "protein": 6.0, 
-            "unit": ""
-          }, 
-          {
-            "amount": 0.0625, 
-            "amount_in_grams": 0.375, 
-            "calories": 0.0, 
-            "label": "salt", 
-            "name": "salt", 
-            "price": 0.0010582189751360868, 
-            "protein": 0.0, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 0.25, 
-            "amount_in_grams": 1.0, 
-            "calories": 3.75, 
-            "label": "sugar", 
-            "name": "sugar", 
-            "note": "optional", 
-            "price": 0.0017636982918934785, 
-            "protein": 0.0, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 0.125, 
-            "amount_in_grams": 0.5416666666666666, 
-            "calories": 1.5833333333333333, 
-            "label": "vanilla extract", 
-            "name": "vanilla_extract", 
-            "note": "optional", 
-            "price": 0.07165024310817254, 
-            "protein": 0.0, 
-            "unit": "tsp"
+            "ingredients": [
+              {
+                "amount": 1, 
+                "calories": 132.29776, 
+                "label": "chocolate chips", 
+                "name": "chocolate_chips", 
+                "price": 0.32, 
+                "protein": 1.889968, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 30.0, 
+                "calories": 100.00000000000001, 
+                "label": "heavy cream", 
+                "name": "heavy_cream", 
+                "price": 0.3280478822921869, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }
+            ], 
+            "label": "ganache", 
+            "name": "ganache"
           }
         ], 
         "label": "choux", 
         "name": "choux", 
         "nutrition": {
-          "calories": 389.96908676190475, 
-          "price": 0.7349721603752022, 
-          "protein": 9.3310686
+          "calories": 1038.600180095238, 
+          "price": 2.4462613250594716, 
+          "protein": 15.4210366
         }
       }
     ]

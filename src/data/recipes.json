@@ -931,14 +931,41 @@
       {
         "name": "choux",
         "label": "choux",
-        "ingredients": [
-          { "name": "water", "amount": 2, "unit": "oz" },
-          { "name": "butter", "amount": 1, "unit": "oz" },
-          { "name": "flour", "note": "1.25oz for firmer choux, like eclair", "amount": 1.175, "unit": "oz" },
-          { "name": "egg", "note": "2oz weight with shell; ideally 1 large egg", "amount": 1, "unit": "" },
-          { "name": "salt", "amount": 0.0625, "unit": "tsp" },
-          { "name": "sugar", "note": "optional", "amount": 0.25, "unit": "tsp" },
-          { "name": "vanilla_extract", "note": "optional", "amount": 0.125, "unit": "tsp" }
+        "ingredient_categories": [
+          {
+            "name": "choux",
+            "label": "choux",
+            "ingredients": [
+              { "name": "water", "amount": 2, "unit": "oz" },
+              { "name": "butter", "amount": 1, "unit": "oz" },
+              { "name": "flour", "note": "1.25oz for firmer choux, like eclair", "amount": 1.175, "unit": "oz" },
+              { "name": "egg", "note": "2oz weight with shell; ideally 1 large egg", "amount": 1, "unit": "" },
+              { "name": "salt", "amount": 0.0625, "unit": "tsp" },
+              { "name": "sugar", "note": "optional", "amount": 0.25, "unit": "tsp" },
+              { "name": "vanilla_extract", "note": "optional", "amount": 0.125, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "pastry_cream",
+            "label": "pastry cream",
+            "ingredients": [
+              { "name": "milk_oat", "amount": 0.5, "unit": "cup" },
+              { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
+              { "name": "sugar", "amount": 0.1875, "unit": "cup" },
+              { "name": "cornstarch", "amount": 0.125, "unit": "cup" },
+              { "name": "salt", "amount": 0.0625, "unit": "tsp" },
+              { "name": "egg_yolk", "amount": 1 , "unit": "" },
+              { "name": "butter", "note": "room temp", "amount": 1 , "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "ganache",
+            "label": "ganache",
+            "ingredients": [
+              { "name": "chocolate_chips", "amount": 1, "unit": "oz" },
+              { "name": "heavy_cream", "amount": 0.125, "unit": "cup" }
+            ]
+          }
         ],
         "directions": [
           "Beat eggs together into measuring glass for easy pour.",
@@ -949,7 +976,14 @@
           "Let dough cool to at most 160F. Add vanilla now if using.",
           "Add eggs \"one at a time\" and whisk well after each. Stop when consistency is right (you might not use all the eggs). Should be glossy and smooth and pass the finger and spatula v test.",
           "Mist baking sheet with water. Pipe or spoon.",
-          "15min at 450F and then 325F for 20min. Or 10min at 425F and then 325F for 30 min. Or 375F for 30-40min. Should be golden brown. Make sure to prick once out of oven. Cool."
+          "15min at 450F and then 325F for 20min. Or 10min at 425F and then 325F for 30 min. Or 375F for 30-40min. Should be golden brown. Make sure to prick once out of oven. Cool.",
+          "",
+          "Cut butter into pieces.",
+          "Bring milk and vanilla just to a boil. Stir to prevent film.",
+          "Whisk sugar, cornstarch, salt. Add yolk and whisk til smooth, pale, and creamy.",
+          "Gradually, to prevent curdle, add hot milk into egg mix and whisk constantly till all incorporated.",
+          "Bring mix back to stove and bring to bowl while whisking constantly. Mix till thick and puddinglike.",
+          "Whisk in vanillla if using. Quickly add in butter cubes and whisk into custard til fully incorporated. Cover with plastic and chill for 30+min."
         ]
       }
     ]
