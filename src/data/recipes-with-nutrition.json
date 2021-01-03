@@ -3704,6 +3704,7 @@
       }, 
       {
         "directions": [
+          "Makes 4-5 eclairs", 
           "Beat eggs together into measuring glass for easy pour.", 
           "Med heat, cold water + salt + butter.  Stir occasionally. ", 
           "When water start to boil (butter should be melted!), remove from stove (keep stove on) and add flour all at once.", 
@@ -3831,14 +3832,14 @@
                 "unit": "cup"
               }, 
               {
-                "amount": 0.125, 
-                "amount_in_grams": 16.0, 
-                "calories": 60.0, 
+                "amount": 1, 
+                "amount_in_grams": 8.0, 
+                "calories": 30.0, 
                 "label": "cornstarch", 
                 "name": "cornstarch", 
-                "price": 0.06772601440870957, 
+                "price": 0.033863007204354784, 
                 "protein": 0.0, 
-                "unit": "cup"
+                "unit": "tbsp"
               }, 
               {
                 "amount": 0.0625, 
@@ -3903,8 +3904,8 @@
         "label": "choux", 
         "name": "choux", 
         "nutrition": {
-          "calories": 1038.600180095238, 
-          "price": 2.4462613250594716, 
+          "calories": 1008.6001800952381, 
+          "price": 2.412398317855117, 
           "protein": 15.4210366
         }
       }
@@ -4649,7 +4650,7 @@
         "ingredients": [
           {
             "amount": 5, 
-            "calories": 177.75, 
+            "calories": 37.5, 
             "label": "dried seaweed sheet", 
             "name": "dried_seaweed_sheet", 
             "price": 0.0, 
@@ -4745,7 +4746,7 @@
         "label": "kimbap [\uae40\ubc25]", 
         "name": "kimbap", 
         "nutrition": {
-          "calories": 1750.4530181818184, 
+          "calories": 1610.2030181818184, 
           "price": 5.685439179259002, 
           "protein": 57.427530909090905
         }
@@ -6899,13 +6900,13 @@
           {
             "ingredients": [
               {
-                "amount": 1, 
-                "calories": 0.0, 
-                "label": "rice_cake_disc", 
-                "name": "rice_cake_disc", 
-                "note": "amount unknown and unsure", 
+                "amount": 0.5, 
+                "calories": 543.9999999032889, 
+                "label": "sliced rice cake", 
+                "name": "rice_cake_sliced", 
+                "note": "or is it supposed to be 1lb???? unknown; do by eye", 
                 "price": 0.0, 
-                "protein": 0.0, 
+                "protein": 7.5555555542123445, 
                 "unit": "lb"
               }, 
               {
@@ -6991,7 +6992,7 @@
               }, 
               {
                 "amount": 1, 
-                "calories": 35.55, 
+                "calories": 7.5, 
                 "label": "dried seaweed sheet", 
                 "name": "dried_seaweed_sheet", 
                 "note": "crushed or cut to thin strips", 
@@ -7007,9 +7008,9 @@
         "label": "tteokguk [\ub5a1\uad6d]", 
         "name": "tteokguk", 
         "nutrition": {
-          "calories": 181.64333333333337, 
+          "calories": 697.5933332366221, 
           "price": 0.6667489968327724, 
-          "protein": 8.967500000000001
+          "protein": 16.523055554212345
         }
       }, 
       {
@@ -9456,6 +9457,8 @@
       }, 
       {
         "directions": [
+          "(1) Whisked egg, salt, pepper, sesame oil, shaoxing, (2) Tomatoes and scallions, (3) Sugar, salt, water", 
+          "", 
           "Cut tomatoes into small wedges. Chop scallion.", 
           "Whisk egg with salt, pepper, sesame oil, shaoxing.", 
           "Wok on med heat til just smoking. ", 
@@ -9463,7 +9466,7 @@
           "1 tbsp oil, wok to high heat, add tomatoes and scallions. Stir fry for a min.", 
           "Add sugar, salt, water. Add more water if stove usually gets too hot and liquids get cook down.", 
           "Add cooked eggs, mix everything, cover and cook 1-2 min til tomatoes soft.", 
-          "Uncover, stir fry til sauce is thickened to liking."
+          "Uncover, stir fry til sauce is thickened/water is reduced to liking."
         ], 
         "ingredients": [
           {
@@ -11434,13 +11437,13 @@
           "Add more flour. Knead on dusted surface for a couple min til smooth", 
           "Cover and let dough rest 10 min. Knead again couple more min. (Dough should be lil moist, but dust a bit more if need.)", 
           "Let dough rise in greased bowl til doubled (~1hr). After rising, can place dough in fridge til cooking time!", 
-          "Divide into 3 pieces. Knead and flatten. ", 
-          "Cook on lightly greased pan/skillet on med high heat. Should be ~30sec-1min on each side."
+          "Divide into 3 pieces. Knead and flatten. Doesn't have to be too thin!", 
+          "Cook on stainless steel skillet on med high heat. Should be ~30sec-1min on each side."
         ], 
         "ingredients": [
           {
-            "amount": 0.3333333, 
-            "amount_in_grams": 79.999992, 
+            "amount": 0.3, 
+            "amount_in_grams": 72.0, 
             "calories": 0.0, 
             "label": "water", 
             "name": "water", 
@@ -11490,12 +11493,12 @@
             "unit": "tsp"
           }, 
           {
-            "amount": 2, 
-            "amount_in_grams": 10.0, 
-            "calories": 80.0, 
+            "amount": 1.5, 
+            "amount_in_grams": 7.5, 
+            "calories": 60.0, 
             "label": "olive oil", 
             "name": "oil_olive", 
-            "price": 0.11640408726496959, 
+            "price": 0.08730306544872718, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -11524,8 +11527,8 @@
         "label": "pita", 
         "name": "pita", 
         "nutrition": {
-          "calories": 689.1666667166667, 
-          "price": 0.5366698764141333, 
+          "calories": 669.1666667166667, 
+          "price": 0.5075688545978909, 
           "protein": 16.0
         }
       }
@@ -12406,8 +12409,9 @@
       }, 
       {
         "directions": [
-          "If using bacon: in dutch oven, fry 3 thick slices of bacon til fully cooked and crispy. Set bacon aside but leave the grease in.", 
-          "Just use olive oil if not using bacon.", 
+          "(1) Bacon, (2) Diced veggies, (3) Rice, (4) Beans, (5) Water, (6) Spices", 
+          "", 
+          "If using bacon: in dutch oven, fry bacon on med high (7/10) for just a bit. Turn heat down to 4/10 for veg.", 
           "Med heat dutch oven. Saute onion, garlic, peppers til soft (3-5 min).", 
           "Add rice, beans with can liquid, water, and spices.", 
           "Cover, reduce heat to low/med low, and cook 30-40 min. (keep covered, rice needs the steam to cook).", 
@@ -12415,15 +12419,24 @@
         ], 
         "ingredients": [
           {
-            "amount": 2, 
-            "amount_in_grams": 10.0, 
-            "calories": 80.0, 
+            "amount": 1, 
+            "amount_in_grams": 15.0, 
+            "calories": 120.0, 
             "label": "olive oil", 
             "name": "oil_olive", 
-            "note": "(if not using bacon)", 
-            "price": 0.11640408726496959, 
+            "note": "(2tsp if not using bacon)", 
+            "price": 0.17460613089745436, 
             "protein": 0.0, 
-            "unit": "tsp"
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 1170.0, 
+            "label": "pork belly", 
+            "name": "pork_belly", 
+            "price": 2.9949999999999997, 
+            "protein": 21.199999999999996, 
+            "unit": "lb"
           }, 
           {
             "amount": 0.5, 
@@ -12497,23 +12510,23 @@
             "unit": "cup"
           }, 
           {
-            "amount": 0.5, 
-            "amount_in_grams": 1.5, 
-            "calories": 5.0, 
+            "amount": 1, 
+            "amount_in_grams": 3.0, 
+            "calories": 10.0, 
             "label": "ground cumin", 
             "name": "cumin_ground", 
-            "price": 0.13703935728012326, 
-            "protein": 0.20000000000000004, 
+            "price": 0.2740787145602465, 
+            "protein": 0.4000000000000001, 
             "unit": "tsp"
           }, 
           {
-            "amount": 0.5, 
-            "amount_in_grams": 0.5, 
-            "calories": 1.325, 
+            "amount": 1, 
+            "amount_in_grams": 1.0, 
+            "calories": 2.65, 
             "label": "dried oregano", 
             "name": "oregano", 
-            "price": 0.15061983412770302, 
-            "protein": 0.045, 
+            "price": 0.30123966825540605, 
+            "protein": 0.09, 
             "unit": "tsp"
           }, 
           {
@@ -12526,32 +12539,32 @@
             "unit": ""
           }, 
           {
-            "amount": 0.125, 
-            "amount_in_grams": 0.75, 
+            "amount": 0.25, 
+            "amount_in_grams": 1.5, 
             "calories": 0.0, 
             "label": "salt", 
             "name": "salt", 
-            "price": 0.0021164379502721735, 
+            "price": 0.004232875900544347, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
           {
-            "amount": 0.125, 
-            "amount_in_grams": 0.28750000000000003, 
-            "calories": 0.7208333333333334, 
+            "amount": 0.25, 
+            "amount_in_grams": 0.5750000000000001, 
+            "calories": 1.4416666666666669, 
             "label": "black pepper", 
             "name": "pepper_black", 
-            "price": 0.026570114767375252, 
-            "protein": 0.029875000000000002, 
+            "price": 0.053140229534750505, 
+            "protein": 0.059750000000000004, 
             "unit": "tsp"
           }
         ], 
         "label": "arroz congr\u00ed", 
         "name": "arroz_congri", 
         "nutrition": {
-          "calories": 1176.117648717949, 
-          "price": 3.484944112837071, 
-          "protein": 41.5856626923077
+          "calories": 2393.1634820512822, 
+          "price": 6.854491900595029, 
+          "protein": 63.0605376923077
         }
       }, 
       {
@@ -12877,9 +12890,9 @@
           "Add chicken if using, cook til golden (~5 min)", 
           "Add onion, bell pepper, celery, cook til tender (~5 min)", 
           "Add sausage, garlic, cook for ~1 min.", 
-          "Add crushed tomatoes + seasonings, cook for 10 min, stirring occasionally.", 
+          "Add crushed tomatoes + seasonings, cook for 8 min, stirring occasionally.", 
           "Add broth and rice.", 
-          "Reduce heat to med low (4/10). Cover. Cook til rice is tender and liquid is almost absorbed (30 min)", 
+          "Reduce heat to med low (4/10). Cover. Cook til rice is tender and liquid is almost absorbed (32 min)", 
           "Add shrimp. Cook for 7 more min (uncovered if liquid needs to reduce)"
         ], 
         "ingredient_categories": [
@@ -13445,6 +13458,8 @@
       }, 
       {
         "directions": [
+          "(1) Meat, (2) Onion, bell pepper, garlic, spices, (3) Tomatoes, salt, pepper, (4) Eggs", 
+          "", 
           "Heat oil in a large skillet on med-low.", 
           "If using meat, add to pan and break into chunks real quick. Also add onion, bell pepper, garlic, spices til soft (~5-10 min). Turn heat to med-high (7/10)", 
           "Pour in tomatoes and season with salt, pepper, pepper flakes. Simmer til thickened (~15min but could be more)", 

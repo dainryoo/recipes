@@ -125,7 +125,7 @@
         }, 
         "label": "coconut meat", 
         "name": "coconut_meat", 
-        "note": "average amount research: 81g, 129g", 
+        "note": "average amount research: 81g, 129g, 189g", 
         "per_100_gram": {
           "calories": 90, 
           "price": 0, 
@@ -144,7 +144,7 @@
         }, 
         "label": "coconut water", 
         "name": "coconut_water", 
-        "note": "average amount research: 381g, 300g", 
+        "note": "average amount research: 381g, 300g, 243g", 
         "per_100_gram": {
           "calories": 40.5797101, 
           "price": 0, 
@@ -2605,6 +2605,31 @@
           "calories": 251, 
           "grams": 85, 
           "protein": 26, 
+          "unit": "oz"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "lb": 452.0, 
+          "oz": 28.25
+        }, 
+        "label": "beef chuck stew", 
+        "name": "beef_chuck_stew", 
+        "note": "\"Beef, chuck for stew, separable lean and fat, all grades, raw\"", 
+        "per_100_gram": {
+          "calories": 128.31858407079648, 
+          "price": 1.5464601769911506, 
+          "protein": 21.76991150442478
+        }, 
+        "price_per_unit": {
+          "price": 6.99, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 4, 
+          "calories": 145, 
+          "grams": 113, 
+          "protein": 24.6, 
           "unit": "oz"
         }
       }, 
@@ -5726,13 +5751,13 @@
         "name": "dried_seaweed_sheet", 
         "note": "wang Korea \"sushi nori\"", 
         "per_100_gram": {
-          "calories": 1481.25, 
+          "calories": 312.50000000000006, 
           "price": 0.0, 
           "protein": 41.66666666666667
         }, 
         "per_unit": {
           "avg_grams": 2.4, 
-          "calories": 35.55, 
+          "calories": 7.5, 
           "price": 0.0, 
           "protein": 1.0
         }, 
@@ -5742,7 +5767,7 @@
         }, 
         "serving_nutrition": {
           "amount": 2, 
-          "calories": 71.1, 
+          "calories": 15, 
           "grams": 4.8, 
           "protein": 2, 
           "unit": ""
@@ -5936,6 +5961,30 @@
           "grams": 40, 
           "protein": 1, 
           "unit": "cup"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "lb": 453.3333332527407, 
+          "oz": 28.333333328296295
+        }, 
+        "label": "sliced rice cake", 
+        "name": "rice_cake_sliced", 
+        "per_100_gram": {
+          "calories": 240.0, 
+          "price": 0.0, 
+          "protein": 3.333333333333333
+        }, 
+        "price_per_unit": {
+          "price": 0.0, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 0.330882353, 
+          "calories": 360, 
+          "grams": 150, 
+          "protein": 5, 
+          "unit": "lb"
         }
       }, 
       {

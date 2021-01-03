@@ -65,7 +65,7 @@
       {
         "name": "coconut_meat",
         "label": "coconut meat",
-        "note": "average amount research: 81g, 129g",
+        "note": "average amount research: 81g, 129g, 189g",
         "conversion_to_grams": {
           "cup": 200
         },
@@ -84,7 +84,7 @@
       {
         "name": "coconut_water",
         "label": "coconut water",
-        "note": "average amount research: 381g, 300g",
+        "note": "average amount research: 381g, 300g, 243g",
         "conversion_to_grams": {
           "cup": 240
         },
@@ -1411,6 +1411,22 @@
           "grams": 85,
           "calories": 251,
           "protein": 26
+        },
+        "price_per_unit": {
+          "price": 6.99,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "beef_chuck_stew",
+        "label": "beef chuck stew",
+        "note": "\"Beef, chuck for stew, separable lean and fat, all grades, raw\"",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 113,
+          "calories": 145,
+          "protein": 24.6
         },
         "price_per_unit": {
           "price": 6.99,
@@ -3225,7 +3241,7 @@
           "amount": 2,
           "unit": "",
           "grams": 4.8,
-          "calories": 71.1,
+          "calories": 15,
           "protein": 2
         },
         "price_per_unit": {
@@ -3336,6 +3352,21 @@
         },
         "price_per_unit": {
           "price": 0.49875,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "rice_cake_sliced",
+        "label": "sliced rice cake",
+        "serving_nutrition": {
+          "amount": 0.330882353,
+          "unit": "lb",
+          "grams": 150,
+          "calories": 360,
+          "protein": 5
+        },
+        "price_per_unit": {
+          "price": 0.0,
           "unit": "oz"
         }
       },

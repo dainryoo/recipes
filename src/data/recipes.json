@@ -952,7 +952,7 @@
               { "name": "milk_oat", "amount": 0.5, "unit": "cup" },
               { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
               { "name": "sugar", "amount": 0.1875, "unit": "cup" },
-              { "name": "cornstarch", "amount": 0.125, "unit": "cup" },
+              { "name": "cornstarch", "amount": 1, "unit": "tbsp" },
               { "name": "salt", "amount": 0.0625, "unit": "tsp" },
               { "name": "egg_yolk", "amount": 1 , "unit": "" },
               { "name": "butter", "note": "room temp", "amount": 1 , "unit": "tbsp" }
@@ -968,6 +968,7 @@
           }
         ],
         "directions": [
+          "Makes 4-5 eclairs",
           "Beat eggs together into measuring glass for easy pour.",
           "Med heat, cold water + salt + butter.  Stir occasionally. ",
           "When water start to boil (butter should be melted!), remove from stove (keep stove on) and add flour all at once.",
@@ -1695,7 +1696,7 @@
             "name": "soup",
             "label": "soup",
             "ingredients": [
-              { "name": "rice_cake_disc", "note": "amount unknown and unsure", "amount": 1, "unit": "lb" },
+              { "name": "rice_cake_sliced", "note": "or is it supposed to be 1lb???? unknown; do by eye", "amount": 0.5, "unit": "lb" },
               { "name": "fish_sauce_korean", "note": "to sub korean soup soy sauce", "amount": 1, "unit": "tbsp" },
               { "name": "salt", "note": "to taste", "amount": 0.25, "unit": "tsp" },
               { "name": "pepper_black", "note": "to taste", "amount": 0.5, "unit": "tsp" },
@@ -2328,6 +2329,8 @@
           { "name": "oil", "note": "to cook tomatoes", "amount": 1, "unit": "tbsp" }
         ],
         "directions": [
+          "(1) Whisked egg, salt, pepper, sesame oil, shaoxing, (2) Tomatoes and scallions, (3) Sugar, salt, water",
+          "",
           "Cut tomatoes into small wedges. Chop scallion.",
           "Whisk egg with salt, pepper, sesame oil, shaoxing.",
           "Wok on med heat til just smoking. ",
@@ -2335,7 +2338,7 @@
           "1 tbsp oil, wok to high heat, add tomatoes and scallions. Stir fry for a min.",
           "Add sugar, salt, water. Add more water if stove usually gets too hot and liquids get cook down.",
           "Add cooked eggs, mix everything, cover and cook 1-2 min til tomatoes soft.",
-          "Uncover, stir fry til sauce is thickened to liking."
+          "Uncover, stir fry til sauce is thickened/water is reduced to liking."
         ]
       },
       {
@@ -2802,12 +2805,12 @@
         "name": "pita",
         "label": "pita",
         "ingredients": [
-          { "name": "water", "note": "lukewarm", "amount": 0.3333333, "unit": "cup" },
+          { "name": "water", "note": "lukewarm", "amount": 0.3, "unit": "cup" },
           { "name": "yeast", "amount": 0.6666667, "unit": "tsp" },
           { "name": "sugar", "amount": 0.16666667, "unit": "tsp" },
           { "name": "flour", "amount": 1, "unit": "cup" },
           { "name": "salt", "amount": 0.5, "unit": "tsp" },
-          { "name": "oil_olive", "amount": 2, "unit": "tsp" },
+          { "name": "oil_olive", "amount": 1.5, "unit": "tsp" },
           { "name": "flour", "note": "approx, for extra dusting as needed", "amount": 40, "unit": "g" },
           { "name": "oil_olive", "note": "approx, to grease bowl", "amount": 0.5, "unit": "tsp" }
         ],
@@ -2820,8 +2823,8 @@
           "Add more flour. Knead on dusted surface for a couple min til smooth",
           "Cover and let dough rest 10 min. Knead again couple more min. (Dough should be lil moist, but dust a bit more if need.)",
           "Let dough rise in greased bowl til doubled (~1hr). After rising, can place dough in fridge til cooking time!",
-          "Divide into 3 pieces. Knead and flatten. ",
-          "Cook on lightly greased pan/skillet on med high heat. Should be ~30sec-1min on each side."
+          "Divide into 3 pieces. Knead and flatten. Doesn't have to be too thin!",
+          "Cook on stainless steel skillet on med high heat. Should be ~30sec-1min on each side."
         ]
       }
     ]
@@ -3013,7 +3016,8 @@
         "name": "arroz_congri",
         "label": "arroz congrí",
         "ingredients": [
-          { "name": "oil_olive", "note": "(if not using bacon)", "amount": 2, "unit": "tsp" },
+          { "name": "oil_olive", "note": "(2tsp if not using bacon)", "amount": 1, "unit": "tbsp" },
+          { "name": "pork_belly", "amount": 0.5, "unit": "lb" },
           { "name": "bell_pepper_green", "note": "chopped", "amount": 0.5, "unit": "" },
           { "name": "bell_pepper_red", "note": "chopped", "amount": 0.5, "unit": "" },
           { "name": "onion", "note": "chopped", "amount": 1, "unit": "" },
@@ -3021,15 +3025,16 @@
           { "name": "rice_white", "note": "should be long grained..", "amount": 1, "unit": "cup" },
           { "name": "canned_black_beans", "note": "don't drain", "amount": 15, "unit": "oz" },
           { "name": "water", "amount": 1.5, "unit": "cup" },
-          { "name": "cumin_ground", "amount": 0.5, "unit": "tsp" },
-          { "name": "oregano", "amount": 0.5, "unit": "tsp" },
+          { "name": "cumin_ground", "amount": 1, "unit": "tsp" },
+          { "name": "oregano", "amount": 1, "unit": "tsp" },
           { "name": "bay_leaf", "amount": 1, "unit": "" },
-          { "name": "salt", "amount": 0.125, "unit": "tsp" },
-          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.25, "unit": "tsp" }
         ],
         "directions": [
-          "If using bacon: in dutch oven, fry 3 thick slices of bacon til fully cooked and crispy. Set bacon aside but leave the grease in.",
-          "Just use olive oil if not using bacon.",
+          "(1) Bacon, (2) Diced veggies, (3) Rice, (4) Beans, (5) Water, (6) Spices",
+          "",
+          "If using bacon: in dutch oven, fry bacon on med high (7/10) for just a bit. Turn heat down to 4/10 for veg.",
           "Med heat dutch oven. Saute onion, garlic, peppers til soft (3-5 min).",
           "Add rice, beans with can liquid, water, and spices.",
           "Cover, reduce heat to low/med low, and cook 30-40 min. (keep covered, rice needs the steam to cook).",
@@ -3154,9 +3159,9 @@
           "Add chicken if using, cook til golden (~5 min)",
           "Add onion, bell pepper, celery, cook til tender (~5 min)",
           "Add sausage, garlic, cook for ~1 min.",
-          "Add crushed tomatoes + seasonings, cook for 10 min, stirring occasionally.",
+          "Add crushed tomatoes + seasonings, cook for 8 min, stirring occasionally.",
           "Add broth and rice.",
-          "Reduce heat to med low (4/10). Cover. Cook til rice is tender and liquid is almost absorbed (30 min)",
+          "Reduce heat to med low (4/10). Cover. Cook til rice is tender and liquid is almost absorbed (32 min)",
           "Add shrimp. Cook for 7 more min (uncovered if liquid needs to reduce)"
         ]
       },
@@ -3245,6 +3250,8 @@
           { "name": "gochugaru", "amount": 0.125, "unit": "tsp" }
         ],
         "directions": [
+          "(1) Meat, (2) Onion, bell pepper, garlic, spices, (3) Tomatoes, salt, pepper, (4) Eggs",
+          "",
           "Heat oil in a large skillet on med-low.",
           "If using meat, add to pan and break into chunks real quick. Also add onion, bell pepper, garlic, spices til soft (~5-10 min). Turn heat to med-high (7/10)",
           "Pour in tomatoes and season with salt, pepper, pepper flakes. Simmer til thickened (~15min but could be more)",
