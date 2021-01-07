@@ -370,9 +370,9 @@
         "serving_nutrition": {
           "amount": 1,
           "unit": "",
-          "grams": 72,
-          "calories": 29.5,
-          "protein": 0.67
+          "grams": 120,
+          "calories": 49.2,
+          "protein": 1.12
         },
         "price_per_unit": {
           "price": 0.99,
@@ -537,9 +537,9 @@
         "serving_nutrition": {
           "amount": 1,
           "unit": "",
-          "grams": 150,
-          "calories": 60,
-          "protein": 1.65
+          "grams": 225,
+          "calories": 90,
+          "protein": 2.475
         },
         "price_per_unit": {
           "price": 1.0,
@@ -1514,6 +1514,22 @@
         }
       },
       {
+        "name": "lamb_loin",
+        "label": "lamb loin",
+        "note": "(Lamb, loin, separable lean and fat, trimmed to 1/4\" fat, choice, raw)",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "oz",
+          "grams": 28.35,
+          "calories": 87.9,
+          "protein": 4.63
+        },
+        "price_per_unit": {
+          "price": 16.99,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "pork_belly",
         "label": "pork belly",
         "serving_nutrition": {
@@ -1531,7 +1547,7 @@
       {
         "name": "pork_neck_bone",
         "label": "pork neck bone",
-        "note": "each bone is about 85.5 cal? 3 bones is about 1 lb???. \nResearch: 26.12oz (5bones). 23oz (5 bones)",
+        "note": "each bone is about 85.5 cal? 3 bones is about 1 lb???. \nResearch: 26.12oz (5bones). 23oz (5 bones).",
         "serving_nutrition": {
           "amount": 1,
           "unit": "oz",
@@ -1650,6 +1666,22 @@
   {
     "category_name": "poultry",
     "items": [
+      {
+        "name": "chicken_drumstick",
+        "label": "chicken drumstick",
+        "note": "skin-on; research: 1.65lb total had 5.2oz of bone. unsure if nutrition info is with bone....",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 112,
+          "calories": 120,
+          "protein": 22
+        },
+        "price_per_unit": {
+          "price": 2.99,
+          "unit": "lb"
+        }
+      },
       {
         "name": "chicken_leg",
         "label": "chicken leg",
@@ -2051,26 +2083,28 @@
       {
         "name": "canned_black_beans",
         "label": "canned black beans",
+        "note": "365",
         "serving_nutrition": {
-          "amount": 0.5,
-          "unit": "cup",
+          "amount": 4.28571429,
+          "unit": "oz",
           "grams": 130,
-          "calories": 120,
-          "protein": 8
+          "calories": 110,
+          "protein": 7
         },
         "price_per_unit": {
-          "price": 0.07,
+          "price": 0.05,
           "unit": "oz"
         }
       },
       {
         "name": "canned_chickpeas",
         "label": "canned chickpeas",
+        "note": "Goya",
         "serving_nutrition": {
-          "amount": 0.5,
-          "unit": "cup",
+          "amount": 4.42857143,
+          "unit": "oz",
           "grams": 122,
-          "calories": 110,
+          "calories": 120,
           "protein": 6
         },
         "price_per_unit": {
@@ -2079,60 +2113,47 @@
         }
       },
       {
-        "name": "canned_pinto_beans",
-        "label": "canned pinto beans",
-        "serving_nutrition": {
-          "amount": 0.5,
-          "unit": "cup",
-          "grams": 130,
-          "calories": 110,
-          "protein": 7
-        },
-        "price_per_unit": {
-          "price": 0.07,
-          "unit": "oz"
-        }
-      },
-      {
         "name": "canned_tomato_crushed",
         "label": "canned crushed tomato",
+        "note": "365",
         "serving_nutrition": {
-          "amount": 0.25,
-          "unit": "cup",
+          "amount": 2.14285714,
+          "unit": "oz",
           "grams": 61,
-          "calories": 20,
-          "protein": 1
+          "calories": 15,
+          "protein": 0
         },
         "price_per_unit": {
-          "price": 0.16,
+          "price": 0.10,
           "unit": "oz"
         }
       },
       {
         "name": "canned_tomato_sauce",
         "label": "canned tomato sauce",
-        "note": "Muir Glen tomato sauce",
+        "note": "365",
         "serving_nutrition": {
-          "amount": 0.25,
-          "unit": "cup",
-          "grams": 62,
-          "calories": 25,
-          "protein": 1
+          "amount": 2.28571429,
+          "unit": "oz",
+          "grams": 63,
+          "calories": 15,
+          "protein": 0
         },
         "price_per_unit": {
-          "price": 0.16,
+          "price": 0.10,
           "unit": "oz"
         }
       },
       {
         "name": "canned_tomato_whole",
         "label": "canned whole tomato",
+        "note": "365",
         "serving_nutrition": {
-          "amount": 0.5,
-          "unit": "cup",
-          "grams": 121,
-          "calories": 25,
-          "protein": 1
+          "amount": 4,
+          "unit": "oz",
+          "grams": 120,
+          "calories": 20,
+          "protein": 0
         },
         "price_per_unit": {
           "price": 0.07,
@@ -2144,10 +2165,10 @@
         "label": "canned coconut milk",
         "note": "(light)",
         "serving_nutrition": {
-          "amount": 1,
-          "unit": "cup",
-          "grams": 240,
-          "calories": 135,
+          "amount": 2.7,
+          "unit": "oz",
+          "grams": 80,
+          "calories": 45,
           "protein": 0
         },
         "price_per_unit": {

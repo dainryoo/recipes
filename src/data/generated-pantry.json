@@ -672,15 +672,15 @@
         "label": "carrot", 
         "name": "carrot", 
         "per_100_gram": {
-          "calories": 40.97222222222222, 
+          "calories": 41.00000000000001, 
           "price": 0.2182576395630288, 
-          "protein": 0.9305555555555556
+          "protein": 0.9333333333333335
         }, 
         "per_unit": {
-          "avg_grams": 72.0, 
-          "calories": 29.5, 
-          "price": 0.15714550048538073, 
-          "protein": 0.67
+          "avg_grams": 120.0, 
+          "calories": 49.2, 
+          "price": 0.2619091674756346, 
+          "protein": 1.12
         }, 
         "price_per_unit": {
           "price": 0.99, 
@@ -688,9 +688,9 @@
         }, 
         "serving_nutrition": {
           "amount": 1, 
-          "calories": 29.5, 
-          "grams": 72, 
-          "protein": 0.67, 
+          "calories": 49.2, 
+          "grams": 120, 
+          "protein": 1.12, 
           "unit": ""
         }
       }, 
@@ -1000,13 +1000,13 @@
         "per_100_gram": {
           "calories": 40.0, 
           "price": 0.22046226218487758, 
-          "protein": 1.0999999999999999
+          "protein": 1.1
         }, 
         "per_unit": {
-          "avg_grams": 150.0, 
-          "calories": 60.0, 
-          "price": 0.33069339327731634, 
-          "protein": 1.65
+          "avg_grams": 225.0, 
+          "calories": 90.0, 
+          "price": 0.49604008991597454, 
+          "protein": 2.475
         }, 
         "price_per_unit": {
           "price": 1.0, 
@@ -1014,9 +1014,9 @@
         }, 
         "serving_nutrition": {
           "amount": 1, 
-          "calories": 60, 
-          "grams": 150, 
-          "protein": 1.65, 
+          "calories": 90, 
+          "grams": 225, 
+          "protein": 2.475, 
           "unit": ""
         }
       }, 
@@ -2760,6 +2760,31 @@
       }, 
       {
         "conversion_to_grams": {
+          "lb": 453.6, 
+          "oz": 28.35
+        }, 
+        "label": "lamb loin", 
+        "name": "lamb_loin", 
+        "note": "(Lamb, loin, separable lean and fat, trimmed to 1/4\" fat, choice, raw)", 
+        "per_100_gram": {
+          "calories": 310.0529100529101, 
+          "price": 3.7455908289241617, 
+          "protein": 16.331569664902997
+        }, 
+        "price_per_unit": {
+          "price": 16.99, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 87.9, 
+          "grams": 28.35, 
+          "protein": 4.63, 
+          "unit": "oz"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
           "lb": 452.0, 
           "oz": 28.25
         }, 
@@ -2789,7 +2814,7 @@
         }, 
         "label": "pork neck bone", 
         "name": "pork_neck_bone", 
-        "note": "each bone is about 85.5 cal? 3 bones is about 1 lb???. \nResearch: 26.12oz (5bones). 23oz (5 bones)", 
+        "note": "each bone is about 85.5 cal? 3 bones is about 1 lb???. \nResearch: 26.12oz (5bones). 23oz (5 bones).", 
         "per_100_gram": {
           "calories": 183.75, 
           "price": 1.1901041640625, 
@@ -2967,6 +2992,31 @@
   {
     "category_name": "poultry", 
     "items": [
+      {
+        "conversion_to_grams": {
+          "lb": 448.0, 
+          "oz": 28.0
+        }, 
+        "label": "chicken drumstick", 
+        "name": "chicken_drumstick", 
+        "note": "skin-on; research: 1.65lb total had 5.2oz of bone. unsure if nutrition info is with bone....", 
+        "per_100_gram": {
+          "calories": 107.14285714285715, 
+          "price": 0.6674107142857144, 
+          "protein": 19.642857142857142
+        }, 
+        "price_per_unit": {
+          "price": 2.99, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 4, 
+          "calories": 120, 
+          "grams": 112, 
+          "protein": 22, 
+          "unit": "oz"
+        }
+      }, 
       {
         "conversion_to_grams": {
           "lb": 452.0, 
@@ -3664,44 +3714,40 @@
     "items": [
       {
         "conversion_to_grams": {
-          "cup": 260.0, 
-          "lb": 453.59237, 
-          "oz": 28.34952, 
-          "tbsp": 16.25, 
-          "tsp": 5.416666666666667
+          "lb": 485.33333284800005, 
+          "oz": 30.333333303000003
         }, 
         "label": "canned black beans", 
         "name": "canned_black_beans", 
+        "note": "365", 
         "per_100_gram": {
-          "calories": 92.3076923076923, 
-          "price": 0.246917760865087, 
-          "protein": 6.153846153846154
+          "calories": 84.61538461538461, 
+          "price": 0.16483516499999998, 
+          "protein": 5.384615384615385
         }, 
         "price_per_unit": {
-          "price": 0.07, 
+          "price": 0.05, 
           "unit": "oz"
         }, 
         "serving_nutrition": {
-          "amount": 0.5, 
-          "calories": 120, 
+          "amount": 4.28571429, 
+          "calories": 110, 
           "grams": 130, 
-          "protein": 8, 
-          "unit": "cup"
+          "protein": 7, 
+          "unit": "oz"
         }
       }, 
       {
         "conversion_to_grams": {
-          "cup": 244.0, 
-          "lb": 453.59237, 
-          "oz": 28.34952, 
-          "tbsp": 15.25, 
-          "tsp": 5.083333333333333
+          "lb": 440.7741934062019, 
+          "oz": 27.54838708788762
         }, 
         "label": "canned chickpeas", 
         "name": "canned_chickpeas", 
+        "note": "Goya", 
         "per_100_gram": {
-          "calories": 90.16393442622952, 
-          "price": 0.2821917267029565, 
+          "calories": 98.36065573770492, 
+          "price": 0.290398126557377, 
           "protein": 4.918032786885246
         }, 
         "price_per_unit": {
@@ -3709,136 +3755,99 @@
           "unit": "oz"
         }, 
         "serving_nutrition": {
-          "amount": 0.5, 
-          "calories": 110, 
+          "amount": 4.42857143, 
+          "calories": 120, 
           "grams": 122, 
           "protein": 6, 
-          "unit": "cup"
-        }
-      }, 
-      {
-        "conversion_to_grams": {
-          "cup": 260.0, 
-          "lb": 453.59237, 
-          "oz": 28.34952, 
-          "tbsp": 16.25, 
-          "tsp": 5.416666666666667
-        }, 
-        "label": "canned pinto beans", 
-        "name": "canned_pinto_beans", 
-        "per_100_gram": {
-          "calories": 84.61538461538461, 
-          "price": 0.246917760865087, 
-          "protein": 5.384615384615385
-        }, 
-        "price_per_unit": {
-          "price": 0.07, 
           "unit": "oz"
-        }, 
-        "serving_nutrition": {
-          "amount": 0.5, 
-          "calories": 110, 
-          "grams": 130, 
-          "protein": 7, 
-          "unit": "cup"
         }
       }, 
       {
         "conversion_to_grams": {
-          "cup": 244.0, 
-          "lb": 453.59237, 
-          "oz": 28.34952, 
-          "tbsp": 15.25, 
-          "tsp": 5.083333333333333
+          "lb": 455.4666672739556, 
+          "oz": 28.466666704622224
         }, 
         "label": "canned crushed tomato", 
         "name": "canned_tomato_crushed", 
+        "note": "365", 
         "per_100_gram": {
-          "calories": 32.786885245901644, 
-          "price": 0.564383453405913, 
-          "protein": 1.639344262295082
+          "calories": 24.59016393442623, 
+          "price": 0.35128805573770494, 
+          "protein": 0.0
         }, 
         "price_per_unit": {
-          "price": 0.16, 
+          "price": 0.1, 
           "unit": "oz"
         }, 
         "serving_nutrition": {
-          "amount": 0.25, 
-          "calories": 20, 
+          "amount": 2.14285714, 
+          "calories": 15, 
           "grams": 61, 
-          "protein": 1, 
-          "unit": "cup"
+          "protein": 0, 
+          "unit": "oz"
         }
       }, 
       {
         "conversion_to_grams": {
-          "cup": 248.0, 
-          "lb": 453.59237, 
-          "oz": 28.34952, 
-          "tbsp": 15.5, 
-          "tsp": 5.166666666666667
+          "lb": 440.999999173125, 
+          "oz": 27.562499948320312
         }, 
         "label": "canned tomato sauce", 
         "name": "canned_tomato_sauce", 
-        "note": "Muir Glen tomato sauce", 
+        "note": "365", 
         "per_100_gram": {
-          "calories": 40.32258064516129, 
-          "price": 0.564383453405913, 
-          "protein": 1.6129032258064515
+          "calories": 23.809523809523807, 
+          "price": 0.3628117920634921, 
+          "protein": 0.0
         }, 
         "price_per_unit": {
-          "price": 0.16, 
+          "price": 0.1, 
           "unit": "oz"
         }, 
         "serving_nutrition": {
-          "amount": 0.25, 
-          "calories": 25, 
-          "grams": 62, 
-          "protein": 1, 
-          "unit": "cup"
+          "amount": 2.28571429, 
+          "calories": 15, 
+          "grams": 63, 
+          "protein": 0, 
+          "unit": "oz"
         }
       }, 
       {
         "conversion_to_grams": {
-          "cup": 242.0, 
-          "lb": 453.59237, 
-          "oz": 28.34952, 
-          "tbsp": 15.125, 
-          "tsp": 5.041666666666667
+          "lb": 480.0, 
+          "oz": 30.0
         }, 
         "label": "canned whole tomato", 
         "name": "canned_tomato_whole", 
+        "note": "365", 
         "per_100_gram": {
-          "calories": 20.66115702479339, 
-          "price": 0.246917760865087, 
-          "protein": 0.8264462809917356
+          "calories": 16.666666666666668, 
+          "price": 0.23333333333333336, 
+          "protein": 0.0
         }, 
         "price_per_unit": {
           "price": 0.07, 
           "unit": "oz"
         }, 
         "serving_nutrition": {
-          "amount": 0.5, 
-          "calories": 25, 
-          "grams": 121, 
-          "protein": 1, 
-          "unit": "cup"
+          "amount": 4, 
+          "calories": 20, 
+          "grams": 120, 
+          "protein": 0, 
+          "unit": "oz"
         }
       }, 
       {
         "conversion_to_grams": {
-          "cup": 240.0, 
-          "lb": 453.59237, 
-          "oz": 28.34952, 
-          "tbsp": 15.0, 
-          "tsp": 5.0
+          "lb": 474.074074074074, 
+          "oz": 29.629629629629626
         }, 
         "label": "canned coconut milk", 
         "name": "coconut_milk_canned", 
         "note": "(light)", 
         "per_100_gram": {
           "calories": 56.25, 
-          "price": 0.493835521730174, 
+          "price": 0.4725000000000001, 
           "protein": 0.0
         }, 
         "price_per_unit": {
@@ -3846,11 +3855,11 @@
           "unit": "oz"
         }, 
         "serving_nutrition": {
-          "amount": 1, 
-          "calories": 135, 
-          "grams": 240, 
+          "amount": 2.7, 
+          "calories": 45, 
+          "grams": 80, 
           "protein": 0, 
-          "unit": "cup"
+          "unit": "oz"
         }
       }, 
       {

@@ -938,7 +938,7 @@
             "ingredients": [
               { "name": "water", "amount": 2, "unit": "oz" },
               { "name": "butter", "amount": 1, "unit": "oz" },
-              { "name": "flour", "note": "1.25oz for firmer choux, like eclair", "amount": 1.175, "unit": "oz" },
+              { "name": "flour", "note": "1.175oz (1.25oz for firmer choux, like eclair) originally", "amount": 1, "unit": "oz" },
               { "name": "egg", "note": "2oz weight with shell; ideally 1 large egg", "amount": 1, "unit": "" },
               { "name": "salt", "amount": 0.0625, "unit": "tsp" },
               { "name": "sugar", "note": "optional", "amount": 0.25, "unit": "tsp" },
@@ -952,7 +952,7 @@
               { "name": "milk_oat", "amount": 0.5, "unit": "cup" },
               { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
               { "name": "sugar", "amount": 0.1875, "unit": "cup" },
-              { "name": "cornstarch", "amount": 1, "unit": "tbsp" },
+              { "name": "cornstarch", "amount": 2.25, "unit": "tsp" },
               { "name": "salt", "amount": 0.0625, "unit": "tsp" },
               { "name": "egg_yolk", "amount": 1 , "unit": "" },
               { "name": "butter", "note": "room temp", "amount": 1 , "unit": "tbsp" }
@@ -985,6 +985,56 @@
           "Gradually, to prevent curdle, add hot milk into egg mix and whisk constantly till all incorporated.",
           "Bring mix back to stove and bring to bowl while whisking constantly. Mix till thick and puddinglike.",
           "Whisk in vanillla if using. Quickly add in butter cubes and whisk into custard til fully incorporated. Cover with plastic and chill for 30+min."
+        ]
+      },
+      {
+        "name": "dampfnudel",
+        "label": "dampfnudel",
+        "ingredient_categories": [
+          {
+            "name": "dumplings",
+            "label": "dumplings",
+            "ingredients": [
+              { "name": "yeast", "amount": 1, "unit": "tsp" },
+              { "name": "milk_oat", "amount": 0.5, "unit": "cup" },
+              { "name": "sugar", "amount": 2, "unit": "tbsp" },
+              { "name": "salt", "amount": 0.25, "unit": "tsp" },
+              { "name": "butter", "amount": 2, "unit": "tbsp" },
+              { "name": "egg", "amount": 1, "unit": "" },
+              { "name": "flour", "amount": 245, "unit": "g" }
+            ]
+          },
+          {
+            "name": "poaching_liquid",
+            "label": "poaching liquid",
+            "ingredients": [
+              { "name": "milk_oat", "amount": 5, "unit": "tbsp" },
+              { "name": "butter", "amount": 1, "unit": "tbsp" },
+              { "name": "sugar", "amount": 1, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "vanilla_sauce",
+            "label": "vanilla sauce",
+            "ingredients": [
+              { "name": "egg_yolk", "amount": 1, "unit": "" },
+              { "name": "milk_oat", "amount": 0.33333333, "unit": "cup" },
+              { "name": "sugar", "amount": 1, "unit": "tbsp" },
+              { "name": "vanilla_extract", "amount": 0.333333, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Make 4-6 dumplings:",
+          "Warm milk and butter to lukewarm. Mix flour, yeast, salt, sugar. Add milk mix + egg. Mix to come together into ball of dough.",
+          "Knead on floured surface til smooth. Rise in bowl til doubled (1hr). Punch down and shape into 1 inch balls (8-10). Let rise 30 min-1hr.",
+          "In large saucepan/pot, med heat, warm poaching liquid ingredients, 5 min or til sugar dissolves. Remove from heat. Add dumplings. Let rise til doubled (~15min)",
+          "Low heat, cover, steam for 20-25, maybe 30 min (hopefully should hear butter sizzling). Finish without lid for 5-10 min, if needed to evaporate any remaining liquid.",
+          "",
+          "Vanilla sauce:",
+          "Beat yolk + sugar til thick and creamy.",
+          "In a small saucepan, milk+vanilla, bring to simmer medium heat, stirring constantly. ",
+          "Slowly pour into beaten egg mix while stirring. Pour everything back into the pot, stir constantly, over med low heat, til thickened (4-6min)"
         ]
       }
     ]
@@ -1542,7 +1592,7 @@
           { "name": "sesame_seed", "note": "optional garnish", "amount": 0.5, "unit": "tsp" }
         ],
         "directions": [
-          "(1) Prepped meat (2) sauce ingredients (3) ginger, garilc, onion, green onion",
+          "(1) Prepped meat. (2) Sauce. (3) Ginger, garilc, onion, green onion.",
           "",
           "Heat large skillet/pan med high heat.",
           "Add pork, gochujang, soy sauce, sugar, gochugaru, pepper, and sesame oil.",
@@ -1621,8 +1671,8 @@
             "ingredients": [
               { "name": "onion", "amount": 0.5, "unit": "" },
               { "name": "garlic", "amount": 5, "unit": "" },
-              { "name": "gochujang", "amount": 0.25, "unit": "cup" },
-              { "name": "gochugaru", "note": "originally 2 tbsp", "amount": 1, "unit": "tbsp" },
+              { "name": "gochujang", "amount": 0.2, "unit": "cup" },
+              { "name": "gochugaru", "note": "originally 2 tbsp", "amount": 3, "unit": "g" },
               { "name": "soy_sauce_dark", "amount": 0.25, "unit": "cup" },
               { "name": "sugar", "amount": 1, "unit": "tbsp" },
               { "name": "mirin", "amount": 1, "unit": "tbsp" },
@@ -1635,7 +1685,7 @@
             "label": "chicken",
             "ingredients": [
               { "name": "chicken_leg", "note": "bone-in good!", "amount": 2, "unit": "lb" },
-              { "name": "water", "amount": 240, "unit": "ml" }
+              { "name": "water", "amount": 180, "unit": "ml" }
             ]
           },
           {
@@ -1651,10 +1701,12 @@
           }
         ],
         "directions": [
+          "(1) Pulverized onion + garlic, sauce. (2) Chicken + water in pot. (3) Potato. (4) Other veg.",
+          "",
           "Make sauce: pulverize onion and garlic. Mix with rest of sauce ingredients.",
           "Add sauce to pot with chicken and water. Bring to boil med high.",
-          "When boiling, turn heat to med and add potatoes. Cover and cook for 20 min.",
-          "Add rest of vegetables. Cover and cook for 10 min until all soft.",
+          "When boiling, turn heat to med and add potatoes. Cover and cook for 15 min.",
+          "Add rest of vegetables. Cover and cook for 15 min until all soft.",
           "If using glass noodle, add either very soaked noodles or boiled and rinsed noodles at the end."
         ]
       },
@@ -1664,7 +1716,7 @@
         "ingredients": [
           { "name": "water", "amount": 5, "unit": "cup" },
           { "name": "dried_miyeok", "amount": 0.5, "unit": "oz" },
-          { "name": "beef_brisket", "note": "can also use stew, round, or chuck meat", "amount": 4, "unit": "oz" },
+          { "name": "beef_chuck_stew", "note": "can also use brisket, stew, or round", "amount": 4, "unit": "oz" },
           { "name": "sesame_oil", "amount": 1, "unit": "tbsp" },
           { "name": "garlic", "note": "minced, optional", "amount": 1, "unit": "" },
           { "name": "soy_sauce_dark", "note": "to sub korean soup soy sauce", "amount": 1.5, "unit": "tbsp" },
@@ -1688,7 +1740,7 @@
             "label": "broth",
             "ingredients": [
               { "name": "water", "note": "try making anchovy stock?", "amount": 7, "unit": "cup" },
-              { "name": "beef_brisket", "note": "can also use flank steak or brisket, chop into small pieces; up to 8oz ok", "amount": 4, "unit": "oz" },
+              { "name": "beef_chuck_stew", "note": "can also use flank steak or brisket, chop into small pieces", "amount": 4, "unit": "oz" },
               { "name": "garlic", "note": "minced", "amount": 3, "unit": "" }
             ]
           },
@@ -2329,7 +2381,7 @@
           { "name": "oil", "note": "to cook tomatoes", "amount": 1, "unit": "tbsp" }
         ],
         "directions": [
-          "(1) Whisked egg, salt, pepper, sesame oil, shaoxing, (2) Tomatoes and scallions, (3) Sugar, salt, water",
+          "(1) Whisked egg, salt, pepper, sesame oil, shaoxing. (2) Tomatoes, scallions. (3) Sugar, salt, water.",
           "",
           "Cut tomatoes into small wedges. Chop scallion.",
           "Whisk egg with salt, pepper, sesame oil, shaoxing.",
@@ -2484,7 +2536,7 @@
         "ingredients": [
           { "name": "oil", "amount": 1, "unit": "tbsp" },
           { "name": "curry_paste_thai_red", "amount": 55, "unit": "g" },
-          { "name": "coconut_milk_canned", "amount": 400, "unit": "ml" },
+          { "name": "coconut_milk_canned", "amount": 13.5, "unit": "oz" },
           { "name": "cornstarch", "amount": 1, "unit": "tsp" }
         ],
         "directions": [
@@ -2586,6 +2638,61 @@
         ]
       },
       {
+        "name": "banh_mi",
+        "label": "banh mi",
+        "ingredient_categories": [
+          {
+            "name": "pickled_carrot_and_radish",
+            "label": "pickled carrot and radish",
+            "ingredients": [
+              { "name": "carrot", "note": "julienned", "amount": 2, "unit": "" },
+              { "name": "radish_daikon", "note": "julienned", "amount": 2, "unit": "" },
+              { "name": "sugar", "amount": 1, "unit": "tbsp" },
+              { "name": "salt", "amount": 0.5, "unit": "tsp" },
+              { "name": "vinegar_rice", "amount": 3, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "chicken_marinade",
+            "label": "chicken_marinade",
+            "ingredients": [
+              { "name": "oil", "amount": 2, "unit": "tbsp" },
+              { "name": "chicken_thigh", "amount": 1.5, "unit": "lb" },
+              { "name": "fish_sauce", "amount": 2, "unit": "tbsp" },
+              { "name": "oyster_sauce_thai", "amount": 1, "unit": "tbsp" },
+              { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
+              { "name": "sugar", "amount": 2, "unit": "tsp" },
+              { "name": "garlic", "note": "minced", "amount": 4, "unit": "" },
+              { "name": "lemon_zest", "amount": 2, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "misc",
+            "label": "misc",
+            "ingredients": [
+              { "name": "oil", "note": "to cook chicken", "amount": 2, "unit": "tbsp" },
+              { "name": "baguette", "note": "enough for 4 sandwiches", "amount": 8, "unit": "oz" },
+              { "name": "mayo_light", "amount": 2, "unit": "tbsp" },
+              { "name": "sriracha", "amount": 1, "unit": "tsp" },
+              { "name": "cilantro_fresh", "amount": 1, "unit": "cup" },
+              { "name": "jalapeno", "amount": 1, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "Toss carrot and radish with sugar, salt, vinegar, sesame oil. Set aside 1 hr, stir occasionally.",
+          "Marinate chicken 1-4 hrs.",
+          "Heat 2 tbps oil in skilllet, med high heat. ",
+          "Sear chicken 5 min each side (or til cooked through)",
+          "Mix sauce, assemble sandwich."
+        ]
+      }
+    ]
+  },
+  {
+    "category_name": "experimental",
+    "recipes": [
+      {
         "name": "vague_peanut_butter_noodle",
         "label": "vague peanut butter noodle",
         "ingredient_categories": [
@@ -2636,53 +2743,22 @@
         ]
       },
       {
-        "name": "banh_mi",
-        "label": "banh mi",
-        "ingredient_categories": [
-          {
-            "name": "pickled_carrot_and_radish",
-            "label": "pickled carrot and radish",
-            "ingredients": [
-              { "name": "carrot", "note": "julienned", "amount": 2, "unit": "" },
-              { "name": "radish_daikon", "note": "julienned", "amount": 2, "unit": "" },
-              { "name": "sugar", "amount": 1, "unit": "tbsp" },
-              { "name": "salt", "amount": 0.5, "unit": "tsp" },
-              { "name": "vinegar_rice", "amount": 3, "unit": "tbsp" }
-            ]
-          },
-          {
-            "name": "chicken_marinade",
-            "label": "chicken_marinade",
-            "ingredients": [
-              { "name": "oil", "amount": 2, "unit": "tbsp" },
-              { "name": "chicken_thigh", "amount": 1.5, "unit": "lb" },
-              { "name": "fish_sauce", "amount": 2, "unit": "tbsp" },
-              { "name": "oyster_sauce_thai", "amount": 1, "unit": "tbsp" },
-              { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
-              { "name": "sugar", "amount": 2, "unit": "tsp" },
-              { "name": "garlic", "note": "minced", "amount": 4, "unit": "" },
-              { "name": "lemon_zest", "amount": 2, "unit": "tsp" }
-            ]
-          },
-          {
-            "name": "misc",
-            "label": "misc",
-            "ingredients": [
-              { "name": "oil", "note": "to cook chicken", "amount": 2, "unit": "tbsp" },
-              { "name": "baguette", "note": "enough for 4 sandwiches", "amount": 8, "unit": "oz" },
-              { "name": "mayo_light", "amount": 2, "unit": "tbsp" },
-              { "name": "sriracha", "amount": 1, "unit": "tsp" },
-              { "name": "cilantro_fresh", "amount": 1, "unit": "cup" },
-              { "name": "jalapeno", "amount": 1, "unit": "" }
-            ]
-          }
+        "name": "california_roll_noodle",
+        "label": "california roll noodle",
+        "ingredients": [
+          { "name": "imitation_crab", "amount": 8, "unit": "" },
+          { "name": "rice_vermicelli", "amount": 140, "unit": "g" },
+          { "name": "cucumber", "amount": 1, "unit": "" },
+          { "name": "avocado", "amount": 2, "unit": "" },
+          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "vinegar_rice", "amount": 2, "unit": "tbsp" },
+          { "name": "sesame_seed", "amount": 9, "unit": "g" },
+          { "name": "dried_seaweed_sheet", "amount": 2, "unit": "" }
         ],
         "directions": [
-          "Toss carrot and radish with sugar, salt, vinegar, sesame oil. Set aside 1 hr, stir occasionally.",
-          "Marinate chicken 1-4 hrs.",
-          "Heat 2 tbps oil in skilllet, med high heat. ",
-          "Sear chicken 5 min each side (or til cooked through)",
-          "Mix sauce, assemble sandwich."
+          "Cook noodle.",
+          "Cut vegetables.",
+          "Combine."
         ]
       }
     ]
@@ -2856,7 +2932,7 @@
         "name": "refried_beans",
         "label": "refried beans",
         "ingredients": [
-          { "name": "canned_pinto_beans", "amount": 15, "unit": "oz" },
+          { "name": "canned_black_beans", "amount": 15, "unit": "oz" },
           { "name": "oil_olive", "amount": 2, "unit": "tsp" },
           { "name": "garlic", "amount": 1, "unit": "" },
           { "name": "cumin_ground", "amount": 0.5, "unit": "tsp" },
@@ -3032,7 +3108,7 @@
           { "name": "pepper_black", "amount": 0.25, "unit": "tsp" }
         ],
         "directions": [
-          "(1) Bacon, (2) Diced veggies, (3) Rice, (4) Beans, (5) Water, (6) Spices",
+          "(1) Bacon. (2) Diced veg. (3) Rice. (4) Beans. (5) Water. (6) Spices.",
           "",
           "If using bacon: in dutch oven, fry bacon on med high (7/10) for just a bit. Turn heat down to 4/10 for veg.",
           "Med heat dutch oven. Saute onion, garlic, peppers til soft (3-5 min).",
@@ -3091,22 +3167,14 @@
           { "name": "coriander_ground", "note": "or 1tbsp of seed", "amount": 1, "unit": "tsp" }
         ],
         "directions": [
-          "(1) Cut lamb. (2) Cut onion + carrot. (3) Prep garlic + raisin. (4) Prep spices.",
+          "(1) Cut lamb. (2) Cut onion + carrot. (3) Cumin, coriander, salt, pepper. (4) Rice. (5) Prepped garlic, bay leaf. (6) Raisins.",
           "",
-          "Heat oil in dutch oven on high heat. ",
-          "Cook lamb til brown outside (~10min?)",
-          "Add onion and carrots and cook til softened (10 more min?)",
-          "Add cumin, coriander, salt, pepper and 2 c water. Bring to boil.",
-          "Peel some of skin off garlic head. Slice top off to expose the garlic cloves. Place garlic in pot. Add raisin if using.",
-          "Reduce heat to med-low, cover with lid and cook ~1 hr.",
-          "Wash rice thoroughly, add to pot by spreading it on top (don't mix!!) evenly.",
-          "Add 1 c water, or just enough to cover 1 inch above the rice. Cook with cover on med high for 15 min.",
-          "Reduce heat to med low, cover again and cook until water absorbed fully (~5min, maybe more).",
+          "Dutch oven, start heat on 4/10. Add oil. Cook meat till browned (~10min), slowly turning heat up to 6/10.",
+          "Cook veg with spices til soft (~10min)",
+          "After cooking veg, put rice in even layer on top. Place garlic clove + bay leaf in rice. Cover with just enough water to be 1 inch above rice (~2c).",
+          "Once simmering, turn heat to low (3/10). Cover and cook 20 min. Turn over top layer of rice so rice cooks all evenly, scatter raisins, then cook for 20-30 more min.",
           "",
-          "",
-          "Alternative:",
-          "After cooking the onions and carrots, put rice in even layer on top. Place garlic clove in rice. Cover with just enough water to be 1 inch above rice.",
-          "Add seasonings. Once it simmers, turn heat to very low. Cook 20 min, turn over top layer of rice so rice cooks all evenly, then cook for 20-30 more min."
+          "NEXT TIME: https://www.youtube.com/watch?v=fZYU5auIM_0&ab_channel=FabulousRecipes"
         ]
       },
       {
@@ -3213,7 +3281,7 @@
           { "name": "mussels", "note": "cleaned properly (beards off); use about 10-12", "amount": 0.5, "unit": "lb" }
         ],
         "directions": [
-          "(1) Diced onion, bell pepper, garlic (2) diced tomato, bayleaf, paprika, saffron, salt, pepper, chicken (3) white wine (4) parsley, rice (5) seafood and peas",
+          "(1) Diced onion, bell pepper, garlic. (2) Diced tomato, bayleaf, paprika, saffron, salt, pepper, chicken. (3) White wine. (4) Parsley, rice. (5) Seafood, peas.",
           "",
           "Don't wash rice before cooking.",
           "If using frozen seafood, defrost overnight.",
@@ -3250,7 +3318,7 @@
           { "name": "gochugaru", "amount": 0.125, "unit": "tsp" }
         ],
         "directions": [
-          "(1) Meat, (2) Onion, bell pepper, garlic, spices, (3) Tomatoes, salt, pepper, (4) Eggs",
+          "(1) Meat. (2) Onion, bell pepper, garlic, spices. (3) Tomatoes, salt, pepper. (4) Eggs.",
           "",
           "Heat oil in a large skillet on med-low.",
           "If using meat, add to pan and break into chunks real quick. Also add onion, bell pepper, garlic, spices til soft (~5-10 min). Turn heat to med-high (7/10)",
@@ -3338,7 +3406,7 @@
             "name": "misc",
             "label": "misc",
             "ingredients": [
-              { "name": "canned_tomato_sauce", "amount": 1, "unit": "cup" },
+              { "name": "canned_tomato_sauce", "amount": 8, "unit": "oz" },
               { "name": "water", "amount": 1.4, "unit": "cup" },
               { "name": "rice_long_grain", "note": "should be basmati", "amount": 1, "unit": "cup" },
               { "name": "frozen_peas", "amount": 0.6666667, "unit": "cup" }
@@ -3346,6 +3414,8 @@
           }
         ],
         "directions": [
+          "(1) Marinated chicken. (2) Sofrito veg. (3) Sazon seasoning. (4) Tomato sauce + water. (5) Rice + peas.",
+          "",
           "Chicken in large bowl. Add 1 tbsp oil and adobo seasoning. Toss chicken with hands. Cover and marinate 30 min, or skip and just cook",
           "Add 1 tbsp oil to deep skillet or Dutch oven, med high heat. Once oil is hot, add chicken. Cook til browned (4-5 min). Flip and cook til browned (another 4-5min). Remove, set aside on plate.",
           "Using leftover grease in pan, make sofrito. Add sofrito vegetables, saute for 2-3 min. Add sazon seasoning, cook for 30 sec.",
