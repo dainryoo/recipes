@@ -1036,6 +1036,28 @@
           "In a small saucepan, milk+vanilla, bring to simmer medium heat, stirring constantly. ",
           "Slowly pour into beaten egg mix while stirring. Pour everything back into the pot, stir constantly, over med low heat, til thickened (4-6min)"
         ]
+      },
+      {
+        "name": "oatmeal_raisin_cookies",
+        "label": "oatmeal raisin cookies",
+        "ingredients": [
+          { "name": "flour", "amount": 0.5, "unit": "cup" },
+          { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
+          { "name": "baking_soda", "amount": 0.125, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "butter", "amount": 2, "unit": "tbsp" },
+          { "name": "sugar", "amount": 0.125, "unit": "cup" },
+          { "name": "sugar_brown", "amount": 0.125, "unit": "cup" },
+          { "name": "egg", "amount": 1, "unit": "" },
+          { "name": "vanilla_extract", "amount": 0.25, "unit": "tsp" },
+          { "name": "rolled_oats", "amount": 0.5, "unit": "cup" },
+          { "name": "raisin", "amount": 0.5, "unit": "cup" }
+        ],
+        "directions": [
+          "Whisk flour, cinnamon, baking soda, salt. Cream butter and sugars.",
+          "Add egg and vanilla and mix well. Slowly add flour mix. Fold in oats and raisins gently.",
+          "Chill for 20 min. Makes ~8 cookies. Bake at 350F 10-12 min."
+        ]
       }
     ]
   },
@@ -3306,16 +3328,15 @@
           { "name": "onion", "note": "thinly sliced or chopped", "amount": 1, "unit": "" },
           { "name": "bell_pepper_green", "note": "up to 2; thinly sliced or chopped", "amount": 1, "unit": "" },
           { "name": "garlic", "note": "thinly sliced or chopped", "amount": 3, "unit": "" },
-          { "name": "cumin_ground", "note": "or 1/2 cumin 1/2 coriander", "amount": 1, "unit": "tsp" },
+          { "name": "cumin_ground", "amount": 0.5, "unit": "tsp" },
+          { "name": "coriander_ground", "amount": 0.5, "unit": "tsp" },
           { "name": "paprika", "amount": 1, "unit": "tsp" },
           { "name": "cayenne_pepper", "amount": 0.125, "unit": "tsp" },
           { "name": "canned_tomato_whole", "note": "chopped and with juices; alt. 6 chopped tomatoes + 1/2c tomato sauce", "amount": 28, "unit": "oz" },
           { "name": "salt", "amount": 0.75, "unit": "tsp" },
           { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
-          { "name": "cheese_feta", "note": "crumbled; optional", "amount": 5, "unit": "oz" },
-          { "name": "egg", "amount": 6, "unit": "" },
-          { "name": "cilantro_fresh", "note": "chopped; alt. mint or parsley", "amount": 0.25, "unit": "cup" },
-          { "name": "gochugaru", "amount": 0.125, "unit": "tsp" }
+          { "name": "gochugaru", "amount": 0.125, "unit": "tsp" },
+          { "name": "egg", "amount": 6, "unit": "" }
         ],
         "directions": [
           "(1) Meat. (2) Onion, bell pepper, garlic, spices. (3) Tomatoes, salt, pepper. (4) Eggs.",
@@ -3323,9 +3344,9 @@
           "Heat oil in a large skillet on med-low.",
           "If using meat, add to pan and break into chunks real quick. Also add onion, bell pepper, garlic, spices til soft (~5-10 min). Turn heat to med-high (7/10)",
           "Pour in tomatoes and season with salt, pepper, pepper flakes. Simmer til thickened (~15min but could be more)",
-          "Stir in crumbled feta. Make little wells/indentations for eggs. Gently crack eggs in.",
-          "Reduce heat to low (2/10), put lid on, cook til eggs are just set, ~6min.",
-          "Uncover and add garnish and pepper flakes if desired."
+          "Stir in crumbled feta (optional; 5oz). Make little wells/indentations for eggs. Gently crack eggs in.",
+          "Reduce heat to low (2/10), put lid on, cook til eggs are just set, ~5.5min.",
+          "Uncover and add fresh cilantro garnish and pepper flakes if desired."
         ]
       },
       {
@@ -3407,7 +3428,7 @@
             "label": "misc",
             "ingredients": [
               { "name": "canned_tomato_sauce", "amount": 8, "unit": "oz" },
-              { "name": "water", "amount": 1.4, "unit": "cup" },
+              { "name": "water", "amount": 1.5, "unit": "cup" },
               { "name": "rice_long_grain", "note": "should be basmati", "amount": 1, "unit": "cup" },
               { "name": "frozen_peas", "amount": 0.6666667, "unit": "cup" }
             ]
@@ -3421,8 +3442,56 @@
           "Using leftover grease in pan, make sofrito. Add sofrito vegetables, saute for 2-3 min. Add sazon seasoning, cook for 30 sec.",
           "Add tomato sauce and water. Stir well to combine.",
           "Bring to simmer. Fold in rice and peas, make sure evenly distributed. Add browned chicken on top.",
-          "Reduce heat to low (3/10), cover immediately, cook for 22min? (up to 25)",
+          "Reduce heat to low (3/10), cover immediately, cook for 25min? (at LEAST 22min)",
           "After 22min, most of liquid should be absorbed, rice cooked. Garnish with cilantro and squeeze fresh lime juice."
+        ]
+      },
+      {
+        "name": "curry_goat",
+        "label": "jamaican curry goat",
+        "ingredient_categories": [
+          {
+            "name": "curry_powder",
+            "label": "curry powder",
+            "ingredients": [
+              { "name": "turmeric", "amount": 2.5, "unit": "tsp" },
+              { "name": "coriander_ground", "amount": 1, "unit": "tsp" },
+              { "name": "cumin_ground", "amount": 0.75, "unit": "tsp" },
+              { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
+              { "name": "cloves_ground", "amount": 0.3333333333, "unit": "tsp" },
+              { "name": "nutmeg", "amount": 0.5, "unit": "tsp" },
+              { "name": "ginger_ground", "amount": 0.666666667, "unit": "tsp" },
+              { "name": "dry_yellow_mustard_seeds", "amount": 0.666666667, "unit": "tsp" },
+              { "name": "ground_fenugreek_seeds", "amount": 0.666666667, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
+              { "name": "cayenne_pepper", "amount": 0.0625, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "the_rest",
+            "label": "the rest",
+            "ingredients": [
+              { "name": "goat", "amount": 1.5, "unit": "lb" },
+              { "name": "oil", "note": "up to 4 tbsp if needed", "amount": 2, "unit": "tbsp" },
+              { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+              { "name": "ginger", "note": "minced", "amount": 1, "unit": "tsp" },
+              { "name": "onion", "note": "diced or chopped", "amount": 0.5, "unit": "" },
+              { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
+              { "name": "thyme_dried", "amount": 1, "unit": "tsp" },
+              { "name": "green_onion", "note": "sliced", "amount": 1, "unit": "" },
+              { "name": "tomato_paste", "note": "supposed to be 1/2 tbsp but we don't have that", "amount": 1, "unit": "tbsp" },
+              { "name": "potato", "note": "cut into 1 inch chunks", "amount": 1, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "(1) Goat, (2) Curry powder (either the mix above or 2.5 tbsp of curry powder), (3) Garlic, ginger, onions, pepper, thyme, tomato paste, greeen onions, (4) Potatoes",
+          "",
+          "In large pot/dutch oven, heat oil on med heat til hot. Add goat, season with salt + pepper, saute and stir frequently til goat brown.",
+          "Add curry powder, stir 1-2 min.",
+          "Add garlic, ginger, pepper, thyme, tomato paste, green onion. Stir 1 min.",
+          "Pour just enough water to cover goat. Bring to boil, simmer til tender (~2hr?). Stir occasionally, add more water as needed.",
+          "15-20 min before cooking ends, add potatoes. Cook til potatoes are tender."
         ]
       }
     ]

@@ -1482,6 +1482,22 @@
         }
       },
       {
+        "name": "goat",
+        "label": "goat",
+        "note": "For bone-in stew meat, research: 1.52 lb total has 6.2oz bone.",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "oz",
+          "grams": 28.35,
+          "calories": 30.9,
+          "protein": 5.84
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "lamb_shoulder",
         "label": "lamb shoulder",
         "note": "(choice)",
@@ -2136,7 +2152,7 @@
           "amount": 2.28571429,
           "unit": "oz",
           "grams": 63,
-          "calories": 15,
+          "calories": 25,
           "protein": 0
         },
         "price_per_unit": {
@@ -3127,7 +3143,7 @@
         "name": "curry_powder_korean",
         "label": "korean curry powder",
         "serving_nutrition": {
-          "amount": 1,
+          "amount": 2,
           "unit": "tbsp",
           "grams": 20,
           "calories": 80,

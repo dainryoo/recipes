@@ -2710,6 +2710,31 @@
       }, 
       {
         "conversion_to_grams": {
+          "lb": 453.6, 
+          "oz": 28.35
+        }, 
+        "label": "goat", 
+        "name": "goat", 
+        "note": "For bone-in stew meat, research: 1.52 lb total has ?oz bone.", 
+        "per_100_gram": {
+          "calories": 108.99470899470899, 
+          "price": 0.0, 
+          "protein": 20.59964726631393
+        }, 
+        "price_per_unit": {
+          "price": 0.0, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 30.9, 
+          "grams": 28.35, 
+          "protein": 5.84, 
+          "unit": "oz"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
           "lb": 452.0, 
           "oz": 28.25
         }, 
@@ -3796,7 +3821,7 @@
         "name": "canned_tomato_sauce", 
         "note": "365", 
         "per_100_gram": {
-          "calories": 23.809523809523807, 
+          "calories": 39.682539682539684, 
           "price": 0.3628117920634921, 
           "protein": 0.0
         }, 
@@ -3806,7 +3831,7 @@
         }, 
         "serving_nutrition": {
           "amount": 2.28571429, 
-          "calories": 15, 
+          "calories": 25, 
           "grams": 63, 
           "protein": 0, 
           "unit": "oz"
@@ -5532,11 +5557,11 @@
     "items": [
       {
         "conversion_to_grams": {
-          "cup": 320.0, 
+          "cup": 160.0, 
           "lb": 453.59237, 
           "oz": 28.34952, 
-          "tbsp": 20.0, 
-          "tsp": 6.666666666666667
+          "tbsp": 10.0, 
+          "tsp": 3.3333333333333335
         }, 
         "label": "korean curry powder", 
         "name": "curry_powder_korean", 
@@ -5550,7 +5575,7 @@
           "unit": "oz"
         }, 
         "serving_nutrition": {
-          "amount": 1, 
+          "amount": 2, 
           "calories": 80, 
           "grams": 20, 
           "protein": 1, 
