@@ -351,7 +351,7 @@
       {
         "name": "cabbage_napa",
         "label": "napa cabbage",
-        "note": "average ~3lb per head",
+        "note": "average ~3lb per head. Research: 2.458lb,",
         "serving_nutrition": {
           "amount": 1,
           "unit": "",
@@ -1662,18 +1662,18 @@
         }
       },
       {
-        "name": "pork_ground_96",
-        "label": "ground pork (96%)",
-        "note": "96% lean",
+        "name": "pork_ground",
+        "label": "ground pork",
+        "note": "Dubreton All Natural Ground Pork",
         "serving_nutrition": {
           "amount": 4,
           "unit": "oz",
-          "grams": 113,
-          "calories": 137,
-          "protein": 23.8
+          "grams": 112,
+          "calories": 150,
+          "protein": 23
         },
         "price_per_unit": {
-          "price": 6.99,
+          "price": 5.99,
           "unit": "lb"
         }
       }

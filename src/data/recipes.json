@@ -150,7 +150,7 @@
         "name": "breakfast_patties",
         "label": "breakfast patties",
         "ingredients": [
-          { "name": "pork_ground_84", "amount": 1, "unit": "lb" },
+          { "name": "pork_ground", "amount": 1, "unit": "lb" },
           { "name": "sage_ground", "amount": 2, "unit": "tsp" },
           { "name": "salt", "amount": 0.333333, "unit": "tsp" },
           { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
@@ -1299,7 +1299,7 @@
         "label": "jjajangmyeon [짜장면]",
         "ingredients": [
           { "name": "jjajang", "amount": 0.25, "unit": "cup" },
-          { "name": "pork_ground_84", "amount": 0.5, "unit": "lb" },
+          { "name": "pork_ground", "amount": 0.5, "unit": "lb" },
           { "name": "potato", "amount": 1, "unit": "" },
           { "name": "zucchini", "amount": 1, "unit": "" },
           { "name": "onion", "amount": 0.5, "unit": "" },
@@ -1312,11 +1312,13 @@
           { "name": "udon_noodle", "amount": 1, "unit": "" }
         ],
         "directions": [
+          "(1) Pork. (2) Potato, zucchini, onion. (3) Black bean paste. (4) Cornstarch + sugar + oyster sauce. (5) Noodles + cucumber.",
+          "",
           "Wok on med heat, 1 tbsp veg oil + pork. Cook 4-5 min til browned.",
           "Add potato, zucchini, onion. Cook 3-4 min til potato is translucent.",
           "Make well in center of wok. Add black bean paste. Stir and cook for 1 min.",
           "Add bit of water, stir, and put lid on wok. Cook covered for 10 min.",
-          "Uncover and stir in cornstarch + sugar + 1/4 cup water mix.",
+          "Uncover and stir in cornstarch + sugar + oyster sauce + 1/4 cup water mix.",
           "Serve over noodles!"
         ]
       },
@@ -1545,7 +1547,7 @@
               { "name": "gochugaru", "amount": 0.5, "unit": "tbsp" },
               { "name": "gochujang", "amount": 1, "unit": "tbsp" },
               { "name": "fish_sauce_korean", "amount": 3, "unit": "tbsp" },
-              { "name": "perilla_seed_powder", "note": "should be 60g 300cal", "amount": 0.25, "unit": "cup" },
+              { "name": "perilla_seed_powder", "amount": 0.25, "unit": "cup" },
               { "name": "pepper_black", "amount": 1, "unit": "tsp" }
             ]
           }
@@ -2180,7 +2182,7 @@
           { "name": "sichuan_peppercorn_ground", "amount": 2, "unit": "tsp" },
           { "name": "ginger", "note": "minced", "amount": 3, "unit": "tbsp" },
           { "name": "garlic", "amount": 3, "unit": "" },
-          { "name": "pork_ground_84", "amount": 8, "unit": "oz" },
+          { "name": "pork_ground", "amount": 8, "unit": "oz" },
           { "name": "doubanjiang", "amount": 1, "unit": "tbsp" },
           { "name": "douchi", "amount": 2, "unit": "tbsp" },
           { "name": "water", "amount": 0.67, "unit": "cup" },
@@ -2323,7 +2325,7 @@
             "ingredients": [
               { "name": "ginger", "amount": 1, "unit": "tsp" },
               { "name": "garlic", "amount": 3, "unit": "" },
-              { "name": "pork_ground_84", "amount": 0.25, "unit": "lb" },
+              { "name": "pork_ground", "amount": 0.25, "unit": "lb" },
               { "name": "oil", "note": "to cook fillings", "amount": 0.5, "unit": "tbsp" }
             ]
           }
@@ -2789,28 +2791,6 @@
     "category_name": "carbs",
     "recipes": [
       {
-        "name": "pizza_crust",
-        "label": "pizza crust",
-        "ingredients": [
-          { "name": "water", "note": "up to 200ml", "amount": 150, "unit": "ml" },
-          { "name": "flour", "amount": 306, "unit": "g" },
-          { "name": "salt", "amount": 8, "unit": "g" },
-          { "name": "yeast", "amount": 2, "unit": "g" },
-          { "name": "oil_olive", "amount": 4, "unit": "g" }
-        ],
-        "directions": [
-          "Combine flour + salt in big bowl",
-          "In small bowl, mix water + yeast + olive oil. Pour into flour.",
-          "Knead with hands until well combined (~3 min). Let mix rest for 15 min.",
-          "Knead dough again for 3 min. Cut into 2 pieces and shape each into a ball.",
-          "Place on heavily floured surface, cover with damp cloth. (Or covered in oiled bowl)",
-          "Let rest and rise 3-4 hrs at room temp or 8-24 hrs in fridge (if so, take out 30-45 min before shaping).",
-          "Can also rise for a bit room temp, then the rest in fridge. If 4+ hrs, just rise it in fridge.",
-          "Bake at 500F (?!) for 10-12 min? Scary. Maybe do 475F for 9-10 min.",
-          "Can freeze for a month; just punch down, roll into ball, tight wrap. Let thaw in fridge overnight and then roll out."
-        ]
-      },
-      {
         "name": "biscuits",
         "label": "biscuits",
         "ingredients": [
@@ -3052,6 +3032,41 @@
   {
     "category_name": "misc",
     "recipes": [
+      {
+        "name": "pizza",
+        "label": "pizza",
+        "ingredient_categories": [
+          {
+            "name": "pizza_dough",
+            "label": "pizza dough",
+            "ingredients": [
+              { "name": "flour", "amount": 160, "unit": "g" },
+              { "name": "salt", "amount": 4, "unit": "g" },
+              { "name": "water", "amount": 80, "unit": "ml" },
+              { "name": "yeast", "amount": 3, "unit": "g" }
+            ]
+          },
+          {
+            "name": "toppings",
+            "label": "toppings",
+            "ingredients": [
+              { "name": "cheese_mozzarella", "amount": 4, "unit": "oz" },
+              { "name": "tomato_paste", "amount": 2, "unit": "tbsp" },
+              { "name": "garlic_powder", "amount": 0.5, "unit": "tsp" },
+              { "name": "oregano", "amount": 0.5, "unit": "tsp" },
+              { "name": "gochugaru", "amount": 0.5, "unit": "tsp" },
+              { "name": "oil_olive", "amount": 1, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Mix flour + salt + yeast + water. Knead til well combined. Let dough rest for 15 min. Knead again to smooth ball.",
+          "Let rest and rise 3-4 hrs at room temp or 8-24 hrs in fridge (if so, take out 30-45 min before shaping).",
+          "Can also rise for a bit room temp, then the rest in fridge. If 4+ hrs, just rise it in fridge.",
+          "Can freeze for a month; just punch down, roll into ball, tight wrap. Let thaw in fridge overnight and then roll out.",
+          "475F 8 min."
+        ]
+      },
       {
         "name": "shepherds_pie",
         "label": "shepherd's pie",

@@ -662,11 +662,11 @@
         "ingredients": [
           {
             "amount": 1, 
-            "calories": 984.0, 
-            "label": "ground pork (84%)", 
-            "name": "pork_ground_84", 
-            "price": 6.99, 
-            "protein": 81.2, 
+            "calories": 600.0000000000001, 
+            "label": "ground pork", 
+            "name": "pork_ground", 
+            "price": 5.990000000000001, 
+            "protein": 92.00000000000001, 
             "unit": "lb"
           }, 
           {
@@ -746,9 +746,9 @@
         "label": "breakfast patties", 
         "name": "breakfast_patties", 
         "nutrition": {
-          "calories": 1008.4875000000001, 
-          "price": 7.526196609560468, 
-          "protein": 81.50016666666666
+          "calories": 624.4875000000002, 
+          "price": 6.526196609560468, 
+          "protein": 92.30016666666667
         }
       }, 
       {
@@ -5225,11 +5225,13 @@
       }, 
       {
         "directions": [
+          "(1) Pork. (2) Potato, zucchini, onion. (3) Black bean paste. (4) Cornstarch + sugar + oyster sauce. (5) Noodles + cucumber.", 
+          "", 
           "Wok on med heat, 1 tbsp veg oil + pork. Cook 4-5 min til browned.", 
           "Add potato, zucchini, onion. Cook 3-4 min til potato is translucent.", 
           "Make well in center of wok. Add black bean paste. Stir and cook for 1 min.", 
           "Add bit of water, stir, and put lid on wok. Cook covered for 10 min.", 
-          "Uncover and stir in cornstarch + sugar + 1/4 cup water mix.", 
+          "Uncover and stir in cornstarch + sugar + oyster sauce + 1/4 cup water mix.", 
           "Serve over noodles!"
         ], 
         "ingredients": [
@@ -5245,11 +5247,11 @@
           }, 
           {
             "amount": 0.5, 
-            "calories": 492.0, 
-            "label": "ground pork (84%)", 
-            "name": "pork_ground_84", 
-            "price": 3.495, 
-            "protein": 40.6, 
+            "calories": 300.00000000000006, 
+            "label": "ground pork", 
+            "name": "pork_ground", 
+            "price": 2.9950000000000006, 
+            "protein": 46.00000000000001, 
             "unit": "lb"
           }, 
           {
@@ -5351,9 +5353,9 @@
         "label": "jjajangmyeon [\uc9dc\uc7a5\uba74]", 
         "name": "jjajangmyeon", 
         "nutrition": {
-          "calories": 1672.566591666667, 
-          "price": 8.82762874286857, 
-          "protein": 76.4408295
+          "calories": 1480.5665916666667, 
+          "price": 8.327628742868571, 
+          "protein": 81.84082950000001
         }
       }, 
       {
@@ -6322,7 +6324,6 @@
                 "calories": 300.0, 
                 "label": "perilla seed powder", 
                 "name": "perilla_seed_powder", 
-                "note": "should be 60g 300cal", 
                 "price": 5.883697501756643, 
                 "protein": 0.0, 
                 "unit": "cup"
@@ -8946,11 +8947,11 @@
           }, 
           {
             "amount": 8, 
-            "calories": 492.0, 
-            "label": "ground pork (84%)", 
-            "name": "pork_ground_84", 
-            "price": 3.495, 
-            "protein": 40.6, 
+            "calories": 300.00000000000006, 
+            "label": "ground pork", 
+            "name": "pork_ground", 
+            "price": 2.9950000000000006, 
+            "protein": 46.00000000000001, 
             "unit": "oz"
           }, 
           {
@@ -9016,9 +9017,9 @@
         "label": "mapo tofu", 
         "name": "mapo_tofu", 
         "nutrition": {
-          "calories": 1264.1586666666667, 
-          "price": 11.358726720364913, 
-          "protein": 73.90299999999999
+          "calories": 1072.1586666666667, 
+          "price": 10.858726720364913, 
+          "protein": 79.303
         }
       }, 
       {
@@ -9549,11 +9550,11 @@
               }, 
               {
                 "amount": 0.25, 
-                "calories": 246.0, 
-                "label": "ground pork (84%)", 
-                "name": "pork_ground_84", 
-                "price": 1.7475, 
-                "protein": 20.3, 
+                "calories": 150.00000000000003, 
+                "label": "ground pork", 
+                "name": "pork_ground", 
+                "price": 1.4975000000000003, 
+                "protein": 23.000000000000004, 
                 "unit": "lb"
               }, 
               {
@@ -9575,9 +9576,9 @@
         "label": "eggplant with garlic sauce", 
         "name": "eggplant_with_garlic_sauce", 
         "nutrition": {
-          "calories": 752.6766666666667, 
-          "price": 5.344143463813047, 
-          "protein": 31.875666666666667
+          "calories": 656.6766666666667, 
+          "price": 5.094143463813047, 
+          "protein": 34.57566666666667
         }
       }, 
       {
@@ -11435,74 +11436,6 @@
     "recipes": [
       {
         "directions": [
-          "Combine flour + salt in big bowl", 
-          "In small bowl, mix water + yeast + olive oil. Pour into flour.", 
-          "Knead with hands until well combined (~3 min). Let mix rest for 15 min.", 
-          "Knead dough again for 3 min. Cut into 2 pieces and shape each into a ball.", 
-          "Place on heavily floured surface, cover with damp cloth. (Or covered in oiled bowl)", 
-          "Let rest and rise 3-4 hrs at room temp or 8-24 hrs in fridge (if so, take out 30-45 min before shaping).", 
-          "Can also rise for a bit room temp, then the rest in fridge. If 4+ hrs, just rise it in fridge.", 
-          "Bake at 500F (?!) for 10-12 min? Scary. Maybe do 475F for 9-10 min.", 
-          "Can freeze for a month; just punch down, roll into ball, tight wrap. Let thaw in fridge overnight and then roll out."
-        ], 
-        "ingredients": [
-          {
-            "amount": 150, 
-            "calories": 0.0, 
-            "label": "water", 
-            "name": "water", 
-            "note": "up to 200ml", 
-            "price": 0.0, 
-            "protein": 0.0, 
-            "unit": "ml"
-          }, 
-          {
-            "amount": 306, 
-            "calories": 1122.0, 
-            "label": "flour", 
-            "name": "flour", 
-            "price": 0.6476300127832852, 
-            "protein": 30.6, 
-            "unit": "g"
-          }, 
-          {
-            "amount": 8, 
-            "calories": 0.0, 
-            "label": "salt", 
-            "name": "salt", 
-            "price": 0.02257533813623652, 
-            "protein": 0.0, 
-            "unit": "g"
-          }, 
-          {
-            "amount": 2, 
-            "calories": 0.0, 
-            "label": "yeast", 
-            "name": "yeast", 
-            "price": 0.04021232105517131, 
-            "protein": 0.0, 
-            "unit": "g"
-          }, 
-          {
-            "amount": 4, 
-            "calories": 32.0, 
-            "label": "olive oil", 
-            "name": "oil_olive", 
-            "price": 0.04656163490598783, 
-            "protein": 0.0, 
-            "unit": "g"
-          }
-        ], 
-        "label": "pizza crust", 
-        "name": "pizza_crust", 
-        "nutrition": {
-          "calories": 1154.0, 
-          "price": 0.7569793068806809, 
-          "protein": 30.6
-        }
-      }, 
-      {
-        "directions": [
           "Make buttermilk by replacing 1tbsp w vinegar. So, 1/16 of liquid amount is vinegar, 15/16 of liquid amount is milk.", 
           "Stir dry together. Cut in the frozen fat (use a veg peeler!). Make well in center and stir in liquid.", 
           "Knead about 10 times. (Do the book fold thing ~3 times)", 
@@ -12540,6 +12473,131 @@
   {
     "category_name": "misc", 
     "recipes": [
+      {
+        "directions": [
+          "Mix flour + salt + yeast + water. Knead til well combined. Let dough rest for 15 min. Knead again to smooth ball.", 
+          "Let rest and rise 3-4 hrs at room temp or 8-24 hrs in fridge (if so, take out 30-45 min before shaping).", 
+          "Can also rise for a bit room temp, then the rest in fridge. If 4+ hrs, just rise it in fridge.", 
+          "Can freeze for a month; just punch down, roll into ball, tight wrap. Let thaw in fridge overnight and then roll out.", 
+          "475F 8 min."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 160, 
+                "calories": 586.6666666666667, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.33863007204354784, 
+                "protein": 16.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 4, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.01128766906811826, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 80, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "ml"
+              }, 
+              {
+                "amount": 3, 
+                "calories": 0.0, 
+                "label": "yeast", 
+                "name": "yeast", 
+                "price": 0.060318481582756954, 
+                "protein": 0.0, 
+                "unit": "g"
+              }
+            ], 
+            "label": "pizza dough", 
+            "name": "pizza_dough"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 4, 
+                "calories": 340.19424, 
+                "label": "mozzarella", 
+                "name": "cheese_mozzarella", 
+                "price": 1.7474998073710983, 
+                "protein": 25.140354336, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 33.0, 
+                "calories": 25.0, 
+                "label": "tomato paste", 
+                "name": "tomato_paste", 
+                "price": 0.15132531344446043, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 1.6166666666666665, 
+                "calories": 5.3500000000000005, 
+                "label": "garlic powder", 
+                "name": "garlic_powder", 
+                "price": 0.0, 
+                "protein": 0.26666666666666666, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 0.5, 
+                "calories": 1.325, 
+                "label": "dried oregano", 
+                "name": "oregano", 
+                "price": 0.15061983412770302, 
+                "protein": 0.045, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 1.25, 
+                "calories": 4.0, 
+                "label": "gochugaru", 
+                "name": "gochugaru", 
+                "price": 0.016314209200014675, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 5.0, 
+                "calories": 40.0, 
+                "label": "olive oil", 
+                "name": "oil_olive", 
+                "price": 0.058202043632484796, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "toppings", 
+            "name": "toppings"
+          }
+        ], 
+        "label": "pizza", 
+        "name": "pizza", 
+        "nutrition": {
+          "calories": 1002.5359066666668, 
+          "price": 2.5341974304701846, 
+          "protein": 41.45202100266667
+        }
+      }, 
       {
         "directions": [
           "For the potato filling: ", 

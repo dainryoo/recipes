@@ -640,7 +640,7 @@
         }, 
         "label": "napa cabbage", 
         "name": "cabbage_napa", 
-        "note": "average ~3lb per head", 
+        "note": "average ~3lb per head. Research: 2.458lb,", 
         "per_100_gram": {
           "calories": 13.0, 
           "price": 0.1741651871260533, 
@@ -2715,7 +2715,7 @@
         }, 
         "label": "goat", 
         "name": "goat", 
-        "note": "For bone-in stew meat, research: 1.52 lb total has ?oz bone.", 
+        "note": "For bone-in stew meat, research: 1.52 lb total has 6.2oz bone.", 
         "per_100_gram": {
           "calories": 108.99470899470899, 
           "price": 0.0, 
@@ -2989,26 +2989,26 @@
       }, 
       {
         "conversion_to_grams": {
-          "lb": 452.0, 
-          "oz": 28.25
+          "lb": 448.0, 
+          "oz": 28.0
         }, 
-        "label": "ground pork (96%)", 
-        "name": "pork_ground_96", 
-        "note": "96% lean", 
+        "label": "ground pork", 
+        "name": "pork_ground", 
+        "note": "Dubreton All Natural Ground Pork", 
         "per_100_gram": {
-          "calories": 121.23893805309736, 
-          "price": 1.5464601769911506, 
-          "protein": 21.06194690265487
+          "calories": 133.92857142857144, 
+          "price": 1.3370535714285716, 
+          "protein": 20.53571428571429
         }, 
         "price_per_unit": {
-          "price": 6.99, 
+          "price": 5.99, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
           "amount": 4, 
-          "calories": 137, 
-          "grams": 113, 
-          "protein": 23.8, 
+          "calories": 150, 
+          "grams": 112, 
+          "protein": 23, 
           "unit": "oz"
         }
       }
