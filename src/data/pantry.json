@@ -3271,6 +3271,22 @@
         }
       },
       {
+        "name": "dried_kelp",
+        "label": "dried kelp",
+        "note": "Ottogi Cut Sea Tangle (dashima)",
+        "serving_nutrition": {
+          "amount": 0.4,
+          "unit": "oz",
+          "grams": 10,
+          "calories": 30,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.00,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "dried_seaweed_sheet",
         "label": "dried seaweed sheet",
         "note": "wang Korea \"sushi nori\"",
@@ -3389,6 +3405,21 @@
         },
         "price_per_unit": {
           "price": 0.49875,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "rice_cake",
+        "label": "rice cake",
+        "serving_nutrition": {
+          "amount": 3.53,
+          "unit": "oz",
+          "grams": 100,
+          "calories": 240,
+          "protein": 4
+        },
+        "price_per_unit": {
+          "price": 0.0,
           "unit": "oz"
         }
       },

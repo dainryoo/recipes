@@ -5778,6 +5778,31 @@
       }, 
       {
         "conversion_to_grams": {
+          "lb": 400.0, 
+          "oz": 25.0
+        }, 
+        "label": "dried kelp", 
+        "name": "dried_kelp", 
+        "note": "Ottogi Cut Sea Tangle (dashima)", 
+        "per_100_gram": {
+          "calories": 300.0, 
+          "price": 0.0, 
+          "protein": 0.0
+        }, 
+        "price_per_unit": {
+          "price": 0.0, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 0.4, 
+          "calories": 30, 
+          "grams": 10, 
+          "protein": 0, 
+          "unit": "oz"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
           "lb": 453.59237, 
           "oz": 28.34952
         }, 
@@ -5995,6 +6020,30 @@
           "grams": 40, 
           "protein": 1, 
           "unit": "cup"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "lb": 453.25779036827197, 
+          "oz": 28.328611898016998
+        }, 
+        "label": "rice cake", 
+        "name": "rice_cake", 
+        "per_100_gram": {
+          "calories": 240.0, 
+          "price": 0.0, 
+          "protein": 4.0
+        }, 
+        "price_per_unit": {
+          "price": 0.0, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 3.53, 
+          "calories": 240, 
+          "grams": 100, 
+          "protein": 4, 
+          "unit": "oz"
         }
       }, 
       {

@@ -1253,7 +1253,9 @@
         "label": "tteokbokki [떡볶기]",
         "ingredients": [
           { "name": "rice_cake", "amount": 0.625, "unit": "lb" },
-          { "name": "water", "amount": 300, "unit": "ml" },
+          { "name": "water", "amount": 2.5, "unit": "cup" },
+          { "name": "dried_anchovy", "amount": 4, "unit": "" },
+          { "name": "dried_kelp", "amount": 3, "unit": "g" },
           { "name": "gochujang", "note": "try reducing?", "amount": 2, "unit": "tbsp" },
           { "name": "gochugaru", "note": "try reducing?", "amount": 0.75, "unit": "tbsp" },
           { "name": "sugar", "amount": 6, "unit": "g" },
@@ -1261,7 +1263,7 @@
           { "name": "fish_cake_sheet", "amount": 45, "unit": "g" }
         ],
         "directions": [
-          "Instead of water, can make anchovy stock: 2.5c water, 3-4 dried anchovies, dried kelp for 15min on med heat.",
+          "Make anchovy stock: 2.5c water, 3-4 dried anchovies, dried kelp for 15min on med heat. Or, instead of stock, use 300ml water.",
           "Mix gochujang, gochugaru, sugar in small bowl, then add to boiling water in pan. Mix, then add everything else.",
           "Once it starts to boil, stir with wooden spoon until rice cakes are soft and sauce is shiny (~10-15 min)."
         ]
@@ -2191,11 +2193,12 @@
           { "name": "tofu_silken", "amount": 18, "unit": "oz" }
         ],
         "directions": [
-          "Heat veg oil on wok, med heat.",
-          "Add ground peppercorns and stir occasionally for 30 sec.",
-          "Add ginger. After 1 min, add garlic. ",
+          "(1) Peppercorn, ginger, garlic. (2) Pork. (3) The beans. (4) Cornstarch. (5) Chili oil. (6) Tofu.",
+          "",
+          "Heat oil on wok, med heat.",
+          "Add ground peppercorns and stir occasionally for 30 sec. Add ginger. After 1 min, add garlic.",
           "After 1 min, turn heat to high and add ground pork. Fry til cooked thru.",
-          "Add spicy bean sauce, stir in well. Add beans and cook for 30 sec. ",
+          "Add spicy bean sauce, stir in well. Add beans and cook for 30 sec.",
           "Add 2/3 c water and stir. Simmer for 1 min.",
           "Mix cornstarch with 1/4 c water. Add mix to sauce and stir.",
           "Add chili oil, stir, and add tofu. Cook for 3-5 min."
@@ -2784,6 +2787,40 @@
           "Cut vegetables.",
           "Combine."
         ]
+      },
+      {
+        "name": "eggy_beef_bowl",
+        "label": "eggy beef bowl",
+        "ingredient_categories": [
+          {
+            "name": "sauce",
+            "label": "sauce",
+            "ingredients": [
+              { "name": "water", "note": "to sub stock", "amount": 2, "unit": "cup" },
+              { "name": "oyster_sauce", "amount": 2, "unit": "tbsp" },
+              { "name": "shaoxing_wine", "amount": 2, "unit": "tbsp" },
+              { "name": "soy_sauce_light", "amount": 2, "unit": "tbsp" },
+              { "name": "soy_sauce_dark", "amount": 1, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "filling",
+            "label": "filling",
+            "ingredients": [
+              { "name": "beef_ground_85", "amount": 1, "unit": "lb" },
+              { "name": "oil", "amount": 1, "unit": "tbsp" },
+              { "name": "onion", "note": "minced", "amount": 1, "unit": "" },
+              { "name": "ginger", "note": "minced", "amount": 2, "unit": "tsp" },
+              { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
+              { "name": "frozen_peas", "amount": 1, "unit": "cup" },
+              { "name": "egg", "amount": 6, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "https://omnivorescookbook.com/cantonese-ground-beef-rice-eggs/"
+        ]
       }
     ]
   },
@@ -3211,7 +3248,22 @@
           "After cooking veg, put rice in even layer on top. Place garlic clove + bay leaf in rice. Cover with just enough water to be 1 inch above rice (~2c).",
           "Once simmering, turn heat to low (3/10). Cover and cook 20 min. Turn over top layer of rice so rice cooks all evenly, scatter raisins, then cook for 20-30 more min.",
           "",
-          "NEXT TIME: https://www.youtube.com/watch?v=fZYU5auIM_0&ab_channel=FabulousRecipes"
+          "NEXT TIME: https://www.youtube.com/watch?v=fZYU5auIM_0&ab_channel=FabulousRecipes",
+          "https://www.youtube.com/watch?v=gLNFikMeoQ8&ab_channel=MyNameIsAndong",
+          "Chop onion; make one cut lengthwise (along grain), then chop into thin slices widthwise (against grain). Slice carrots howeveer. Peel most skin off garlic but leave intact. Cut lamb.",
+          "Oil on \"high heat\". Add lamb. Fry til golden brown.",
+          "Still high heat, add onion and cook till loose and golden colored. Then, place garlic in the center and add layer of carrots on top.",
+          "Sprinkle salt, cumin, pepper, coriander, (paprika?). Add enough warm water to cover meat (but not completely covering the whole thing)",
+          "Bring to boil and let simmer 20-30min on med-low.",
+          "Wash and rinse rice til water is clear.",
+          "Remove garlic and put aside. Don't touch anyone else.",
+          "Gently place and spread rice on top with spatula. Avoid mixing it. Don't drop it in to prevent rice sinking to bottom. ",
+          "Still on med heat. Add water gently, JUST above rice (~1cm/0.5inch above rice). Don't pour water in directly, use spatula to slow it down and \"spread\"/\"spray\" the water.",
+          "Make sure water is level on top evenly. Continue to boil and stir ONLY the rice--spread the rice evenly around.",
+          "Once water is almost boiling, add raisins.",
+          "Keep stirring/spreading around the rice til all water evaporated, making sure not to mix with bottom portion of other ingredients! (Must stir, don't just sit and leave it alone while water evaporates.) (Should take ~10min?)",
+          "Once water is evaporated, stick garlic in center. Make breathing holes around garlic in the rice. ",
+          "Cover, make sure seal is tight!!! Turn off heat. Let sit on stove with the tight seal for 30 min."
         ]
       },
       {

@@ -5056,28 +5056,47 @@
       }, 
       {
         "directions": [
-          "Instead of water, can make anchovy stock: 2.5c water, 3-4 dried anchovies, dried kelp for 15min on med heat.", 
+          "Make anchovy stock: 2.5c water, 3-4 dried anchovies, dried kelp for 15min on med heat. Or, instead of stock, use 300ml water.", 
           "Mix gochujang, gochugaru, sugar in small bowl, then add to boiling water in pan. Mix, then add everything else.", 
           "Once it starts to boil, stir with wooden spoon until rice cakes are soft and sauce is shiny (~10-15 min)."
         ], 
         "ingredients": [
           {
             "amount": 0.625, 
-            "calories": 0.0, 
-            "label": "rice_cake", 
+            "calories": 679.886685552408, 
+            "label": "rice cake", 
             "name": "rice_cake", 
             "price": 0.0, 
-            "protein": 0.0, 
+            "protein": 11.3314447592068, 
             "unit": "lb"
           }, 
           {
-            "amount": 300, 
+            "amount": 2.5, 
+            "amount_in_grams": 600.0, 
             "calories": 0.0, 
             "label": "water", 
             "name": "water", 
             "price": 0.0, 
             "protein": 0.0, 
-            "unit": "ml"
+            "unit": "cup"
+          }, 
+          {
+            "amount": 4, 
+            "calories": 0.0, 
+            "label": "dried_anchovy", 
+            "name": "dried_anchovy", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 3, 
+            "calories": 9.0, 
+            "label": "dried kelp", 
+            "name": "dried_kelp", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "g"
           }, 
           {
             "amount": 2, 
@@ -5133,9 +5152,9 @@
         "label": "tteokbokki [\ub5a1\ubcf6\uae30]", 
         "name": "tteokbokki", 
         "nutrition": {
-          "calories": 365.2058823529412, 
+          "calories": 1054.0925679053491, 
           "price": 1.353530260829813, 
-          "protein": 22.235294117647058
+          "protein": 33.56673887685386
         }
       }, 
       {
@@ -5810,8 +5829,8 @@
               }, 
               {
                 "amount": 3, 
-                "calories": 0.0, 
-                "label": "dried_kelp", 
+                "calories": 9.0, 
+                "label": "dried kelp", 
                 "name": "dried_kelp", 
                 "price": 0.0, 
                 "protein": 0.0, 
@@ -5913,7 +5932,7 @@
         "label": "bibim guksu [\ube44\ube54\uad6d\uc218]", 
         "name": "bibim_guksu", 
         "nutrition": {
-          "calories": 2206.828, 
+          "calories": 2215.828, 
           "price": 7.180282579709331, 
           "protein": 58.13425999999999
         }
@@ -8895,11 +8914,12 @@
       }, 
       {
         "directions": [
-          "Heat veg oil on wok, med heat.", 
-          "Add ground peppercorns and stir occasionally for 30 sec.", 
-          "Add ginger. After 1 min, add garlic. ", 
+          "(1) Peppercorn, ginger, garlic. (2) Pork. (3) The beans. (4) Cornstarch. (5) Chili oil. (6) Tofu.", 
+          "", 
+          "Heat oil on wok, med heat.", 
+          "Add ground peppercorns and stir occasionally for 30 sec. Add ginger. After 1 min, add garlic.", 
           "After 1 min, turn heat to high and add ground pork. Fry til cooked thru.", 
-          "Add spicy bean sauce, stir in well. Add beans and cook for 30 sec. ", 
+          "Add spicy bean sauce, stir in well. Add beans and cook for 30 sec.", 
           "Add 2/3 c water and stir. Simmer for 1 min.", 
           "Mix cornstarch with 1/4 c water. Add mix to sauce and stir.", 
           "Add chili oil, stir, and add tofu. Cook for 3-5 min."
@@ -11428,6 +11448,162 @@
           "price": 9.173474512947939, 
           "protein": 56.44
         }
+      }, 
+      {
+        "directions": [
+          "https://omnivorescookbook.com/cantonese-ground-beef-rice-eggs/"
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 2, 
+                "amount_in_grams": 480.0, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "note": "to sub stock", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 36.0, 
+                "calories": 69.99999999999999, 
+                "label": "oyster sauce", 
+                "name": "oyster_sauce", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 30.0, 
+                "calories": 40.5, 
+                "label": "shaoxing wine", 
+                "name": "shaoxing_wine", 
+                "price": 0.7830820416007043, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 30.0, 
+                "calories": 10.0, 
+                "label": "light soy sauce", 
+                "name": "soy_sauce_light", 
+                "price": 0.9523970776224782, 
+                "protein": 2.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 5.0, 
+                "calories": 3.333333333333334, 
+                "label": "dark soy sauce", 
+                "name": "soy_sauce_dark", 
+                "price": 0.058202043632484796, 
+                "protein": 0.33333333333333337, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.28750000000000003, 
+                "calories": 0.7208333333333334, 
+                "label": "black pepper", 
+                "name": "pepper_black", 
+                "price": 0.026570114767375252, 
+                "protein": 0.029875000000000002, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "sauce", 
+            "name": "sauce"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "calories": 960.0000000000002, 
+                "label": "ground beef (85%)", 
+                "name": "beef_ground_85", 
+                "price": 5.490000000000001, 
+                "protein": 84.00000000000001, 
+                "unit": "lb"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 14.0, 
+                "calories": 120.00000000000003, 
+                "label": "canola oil", 
+                "name": "oil", 
+                "price": 0.054321907390319134, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 90.0, 
+                "label": "onion", 
+                "name": "onion", 
+                "note": "minced", 
+                "price": 0.49604008991597454, 
+                "protein": 2.475, 
+                "unit": ""
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 4.0, 
+                "calories": 3.2, 
+                "label": "ginger", 
+                "name": "ginger", 
+                "note": "minced", 
+                "price": 0.03518577704470646, 
+                "protein": 0.072, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 16.0, 
+                "calories": 60.0, 
+                "label": "cornstarch", 
+                "name": "cornstarch", 
+                "price": 0.06772601440870957, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 170.0, 
+                "calories": 140.0, 
+                "label": "frozen peas", 
+                "name": "frozen_peas", 
+                "price": 0.7195889030925391, 
+                "protein": 8.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 6, 
+                "calories": 360.0, 
+                "label": "egg", 
+                "name": "egg", 
+                "price": 1.32, 
+                "protein": 36.0, 
+                "unit": ""
+              }
+            ], 
+            "label": "filling", 
+            "name": "filling"
+          }
+        ], 
+        "label": "eggy beef bowl", 
+        "name": "eggy_beef_bowl", 
+        "nutrition": {
+          "calories": 1857.7541666666668, 
+          "price": 10.003113969475292, 
+          "protein": 132.91020833333334
+        }
       }
     ]
   }, 
@@ -13208,7 +13384,22 @@
           "After cooking veg, put rice in even layer on top. Place garlic clove + bay leaf in rice. Cover with just enough water to be 1 inch above rice (~2c).", 
           "Once simmering, turn heat to low (3/10). Cover and cook 20 min. Turn over top layer of rice so rice cooks all evenly, scatter raisins, then cook for 20-30 more min.", 
           "", 
-          "NEXT TIME: https://www.youtube.com/watch?v=fZYU5auIM_0&ab_channel=FabulousRecipes"
+          "NEXT TIME: https://www.youtube.com/watch?v=fZYU5auIM_0&ab_channel=FabulousRecipes", 
+          "https://www.youtube.com/watch?v=gLNFikMeoQ8&ab_channel=MyNameIsAndong", 
+          "Chop onion; make one cut lengthwise (along grain), then chop into thin slices widthwise (against grain). Slice carrots howeveer. Peel most skin off garlic but leave intact. Cut lamb.", 
+          "Oil on \"high heat\". Add lamb. Fry til golden brown.", 
+          "Still high heat, add onion and cook till loose and golden colored. Then, place garlic in the center and add layer of carrots on top.", 
+          "Sprinkle salt, cumin, pepper, coriander, (paprika?). Add enough warm water to cover meat (but not completely covering the whole thing)", 
+          "Bring to boil and let simmer 20-30min on med-low.", 
+          "Wash and rinse rice til water is clear.", 
+          "Remove garlic and put aside. Don't touch anyone else.", 
+          "Gently place and spread rice on top with spatula. Avoid mixing it. Don't drop it in to prevent rice sinking to bottom. ", 
+          "Still on med heat. Add water gently, JUST above rice (~1cm/0.5inch above rice). Don't pour water in directly, use spatula to slow it down and \"spread\"/\"spray\" the water.", 
+          "Make sure water is level on top evenly. Continue to boil and stir ONLY the rice--spread the rice evenly around.", 
+          "Once water is almost boiling, add raisins.", 
+          "Keep stirring/spreading around the rice til all water evaporated, making sure not to mix with bottom portion of other ingredients! (Must stir, don't just sit and leave it alone while water evaporates.) (Should take ~10min?)", 
+          "Once water is evaporated, stick garlic in center. Make breathing holes around garlic in the rice. ", 
+          "Cover, make sure seal is tight!!! Turn off heat. Let sit on stove with the tight seal for 30 min."
         ], 
         "ingredients": [
           {
