@@ -2753,14 +2753,14 @@
       }, 
       {
         "directions": [
-          "Microwave milk and butter til 105-115F. Dissolve yeast in mix.", 
-          "Whisk flour, sugar, salt (and cardamom). Add egg, mix til incorporated. Add milk mix, mix til incorporated.", 
-          "Knead til dough is elastic and smooth, but still tacky.", 
-          "Rise in greased covered bowl for 30min-1hr (or til doubled).", 
-          "Roll dough out into rect, spread cinnamon butter mix on top.", 
-          "Roll dough up tight, cut into 5-6 rolls ", 
-          "Rise for 30min or 60-90 min or til doubled", 
-          "Bake 20-22min or 25-28 min 375F."
+          "Microwave milk + butter til ~95F. Mix in sugar + yeast and let sit til foamy.", 
+          "Add egg + salt (+ cardamom) and mix.", 
+          "Gradually add in flour. Mix til smooth dough.", 
+          "Knead into a ball and rest in greased covered bowl for 1-2hr (or til doubled).", 
+          "Roll dough out into 9x12 rect, spread cinnamon butter mix on top.", 
+          "Roll dough up tight into 12 inch log. Cut into 5-6 rolls.", 
+          "Cover tight and chill 8-12 hours. Before baking, remove from fridge and let rise til puffy (~1-2hr)", 
+          "Bake 25min 375F. Tent with foil hallfway through to prevent over browning. Cool for 10 min, then ice. Lasts 3 days room temp."
         ], 
         "ingredient_categories": [
           {
@@ -2776,23 +2776,22 @@
                 "unit": "cup"
               }, 
               {
-                "amount": 3, 
-                "amount_in_grams": 42.0, 
-                "calories": 300.0, 
+                "amount": 0.25, 
+                "amount_in_grams": 56.0, 
+                "calories": 400.00000000000006, 
                 "label": "butter", 
                 "name": "butter", 
-                "price": 0.548157429120493, 
+                "price": 0.7308765721606574, 
                 "protein": 0.0, 
-                "unit": "tbsp"
+                "unit": "cup"
               }, 
               {
-                "amount": 2.5, 
-                "amount_in_grams": 8.0, 
+                "amount": 2.25, 
+                "amount_in_grams": 7.2, 
                 "calories": 0.0, 
                 "label": "yeast", 
                 "name": "yeast", 
-                "note": "or 2.25 tsp", 
-                "price": 0.16084928422068523, 
+                "price": 0.1447643557986167, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }, 
@@ -2808,23 +2807,23 @@
                 "unit": "cup"
               }, 
               {
-                "amount": 0.25, 
-                "amount_in_grams": 48.0, 
-                "calories": 180.0, 
+                "amount": 0.333333333, 
+                "amount_in_grams": 63.999999936, 
+                "calories": 239.99999976000004, 
                 "label": "sugar", 
                 "name": "sugar", 
                 "note": "or 1.5 tsp for the less sweet danish version", 
-                "price": 0.08465751801088696, 
+                "price": 0.11287669056830595, 
                 "protein": 0.0, 
                 "unit": "cup"
               }, 
               {
-                "amount": 0.5, 
-                "amount_in_grams": 3.0, 
+                "amount": 0.25, 
+                "amount_in_grams": 1.5, 
                 "calories": 0.0, 
                 "label": "salt", 
                 "name": "salt", 
-                "price": 0.008465751801088694, 
+                "price": 0.004232875900544347, 
                 "protein": 0.0, 
                 "unit": "tsp"
               }, 
@@ -2921,8 +2920,8 @@
         "label": "cinnamon rolls", 
         "name": "cinnamon_rolls", 
         "nutrition": {
-          "calories": 2277.3, 
-          "price": 4.097455420761974, 
+          "calories": 2437.29999976, 
+          "price": 4.288075932036944, 
           "protein": 33.415
         }
       }, 
@@ -13377,29 +13376,21 @@
       }, 
       {
         "directions": [
-          "(1) Cut lamb. (2) Cut onion + carrot. (3) Cumin, coriander, salt, pepper. (4) Rice. (5) Prepped garlic, bay leaf. (6) Raisins.", 
+          "(1) Lamb. (2) Onion. (3) Carrot + garlic. (4) Cumin, coriander, salt, pepper, paprika. (5) Rice. (6) Raisins.", 
           "", 
-          "Dutch oven, start heat on 4/10. Add oil. Cook meat till browned (~10min), slowly turning heat up to 6/10.", 
-          "Cook veg with spices til soft (~10min)", 
-          "After cooking veg, put rice in even layer on top. Place garlic clove + bay leaf in rice. Cover with just enough water to be 1 inch above rice (~2c).", 
-          "Once simmering, turn heat to low (3/10). Cover and cook 20 min. Turn over top layer of rice so rice cooks all evenly, scatter raisins, then cook for 20-30 more min.", 
-          "", 
-          "NEXT TIME: https://www.youtube.com/watch?v=fZYU5auIM_0&ab_channel=FabulousRecipes", 
           "https://www.youtube.com/watch?v=gLNFikMeoQ8&ab_channel=MyNameIsAndong", 
           "Chop onion; make one cut lengthwise (along grain), then chop into thin slices widthwise (against grain). Slice carrots howeveer. Peel most skin off garlic but leave intact. Cut lamb.", 
           "Oil on \"high heat\". Add lamb. Fry til golden brown.", 
           "Still high heat, add onion and cook till loose and golden colored. Then, place garlic in the center and add layer of carrots on top.", 
           "Sprinkle salt, cumin, pepper, coriander, (paprika?). Add enough warm water to cover meat (but not completely covering the whole thing)", 
-          "Bring to boil and let simmer 20-30min on med-low.", 
+          "Bring to boil, then let simmer 20-30min on med-low.", 
           "Wash and rinse rice til water is clear.", 
           "Remove garlic and put aside. Don't touch anyone else.", 
           "Gently place and spread rice on top with spatula. Avoid mixing it. Don't drop it in to prevent rice sinking to bottom. ", 
-          "Still on med heat. Add water gently, JUST above rice (~1cm/0.5inch above rice). Don't pour water in directly, use spatula to slow it down and \"spread\"/\"spray\" the water.", 
-          "Make sure water is level on top evenly. Continue to boil and stir ONLY the rice--spread the rice evenly around.", 
-          "Once water is almost boiling, add raisins.", 
-          "Keep stirring/spreading around the rice til all water evaporated, making sure not to mix with bottom portion of other ingredients! (Must stir, don't just sit and leave it alone while water evaporates.) (Should take ~10min?)", 
-          "Once water is evaporated, stick garlic in center. Make breathing holes around garlic in the rice. ", 
-          "Cover, make sure seal is tight!!! Turn off heat. Let sit on stove with the tight seal for 30 min."
+          "Add water gently, JUST above rice (~1cm/0.5inch above rice). Don't pour water in directly, use spatula to slow it down and \"spread\"/\"spray\" the water. Make sure water is level on top evenly.", 
+          "Med heat. Boil and stir ONLY the rice--spread the rice evenly around. Keep spreading til all water evaporated. Don't mix with bottom portion of other ingredients! (Must stir, don't just sit and leave it alone while water evaporates.) Should take ~10-15min.", 
+          "Once water evaporated, stick garlic in center and add raisins. Make breathing holes around garlic in the rice.", 
+          "Cover, make sure seal is tight!!! Turn off heat. Let sit on hot stove with the tight seal for 30 min."
         ], 
         "ingredients": [
           {
