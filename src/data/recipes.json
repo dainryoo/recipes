@@ -1020,7 +1020,8 @@
               { "name": "egg_yolk", "amount": 1, "unit": "" },
               { "name": "milk_oat", "amount": 0.33333333, "unit": "cup" },
               { "name": "sugar", "amount": 1, "unit": "tbsp" },
-              { "name": "vanilla_extract", "amount": 0.333333, "unit": "tsp" }
+              { "name": "vanilla_extract", "amount": 0.333333, "unit": "tsp" },
+              { "name": "cornstarch", "amount": 0.5, "unit": "tsp" }
             ]
           }
         ],
@@ -1028,11 +1029,13 @@
           "Make 4-6 dumplings:",
           "Warm milk and butter to lukewarm. Mix flour, yeast, salt, sugar. Add milk mix + egg. Mix to come together into ball of dough.",
           "Knead on floured surface til smooth. Rise in bowl til doubled (1hr). Punch down and shape into 1 inch balls (8-10). Let rise 30 min-1hr.",
+          "In large saucepan/pot, med heat, warm poaching liquid ingredients, 5 min or til sugar dissolves. Add dumplings. Cover and steam on med low heat 20-25min.",
+          " OR ",
           "In large saucepan/pot, med heat, warm poaching liquid ingredients, 5 min or til sugar dissolves. Remove from heat. Add dumplings. Let rise til doubled (~15min)",
           "Low heat, cover, steam for 20-25, maybe 30 min (hopefully should hear butter sizzling). Finish without lid for 5-10 min, if needed to evaporate any remaining liquid.",
           "",
           "Vanilla sauce:",
-          "Beat yolk + sugar til thick and creamy.",
+          "Mix sugar + cornstarch. Beat yolk + sugar til thick and creamy.",
           "In a small saucepan, milk+vanilla, bring to simmer medium heat, stirring constantly. ",
           "Slowly pour into beaten egg mix while stirring. Pour everything back into the pot, stir constantly, over med low heat, til thickened (4-6min)"
         ]
@@ -1620,9 +1623,9 @@
         "directions": [
           "(1) Prepped meat. (2) Sauce. (3) Ginger, garilc, onion, green onion.",
           "",
-          "Heat large skillet/pan med high heat.",
+          "Heat large skillet/pan on 4/10.",
           "Add pork, gochujang, soy sauce, sugar, gochugaru, pepper, and sesame oil.",
-          "Stir to mix well. Cook for a few min, until pork is covered well with seasonings.",
+          "Stir to mix well. Cook for a few min, til pork is sauced well. Eventually get to ~7/10 heat.",
           "Add garlic, ginger, onion, green onion.",
           "Stir and cook for 12-15 min, til onion is all cooked or til pork is fully cooked and juicy and a little crispy."
         ]
