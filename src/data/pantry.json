@@ -1826,7 +1826,7 @@
         }
       },
       {
-        "name": "imitation_crab",
+        "name": "crab_imitation",
         "label": "imitation crab",
         "note": "365 Stick Style Imitation Crab",
         "serving_nutrition": {
@@ -1838,6 +1838,22 @@
         },
         "price_per_unit": {
           "price": 5.32,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "crab_meat_lump",
+        "label": "lump crab meat",
+        "note": "365 Stick Style Imitation Crab",
+        "serving_nutrition": {
+          "amount": 3,
+          "unit": "oz",
+          "grams": 84,
+          "calories": 100,
+          "protein": 20
+        },
+        "price_per_unit": {
+          "price": 35.98,
           "unit": "lb"
         }
       },
@@ -3235,6 +3251,21 @@
         }
       },
       {
+        "name": "soup_soy_sauce",
+        "label": "soup soy sauce",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tbsp",
+          "grams": 16,
+          "calories": 10,
+          "protein": 1
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "soybean_paste",
         "label": "soybean paste",
         "note": "[된장]",
@@ -3267,6 +3298,21 @@
         },
         "price_per_unit": {
           "price": 0.37375,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "ciabatta_roll",
+        "label": "ciabatta roll",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 113.5,
+          "calories": 250,
+          "protein": 10
+        },
+        "price_per_unit": {
+          "price": 0.21,
           "unit": "oz"
         }
       },

@@ -3719,7 +3719,7 @@
           "Whisk sugar, cornstarch, salt. Add yolk and whisk til smooth, pale, and creamy.", 
           "Gradually, to prevent curdle, add hot milk into egg mix and whisk constantly till all incorporated.", 
           "Bring mix back to stove and bring to bowl while whisking constantly. Mix till thick and puddinglike.", 
-          "Whisk in vanillla if using. Quickly add in butter cubes and whisk into custard til fully incorporated. Cover with plastic and chill for 30+min."
+          "Whisk in vanilla if using. Quickly add in butter cubes and whisk into custard til fully incorporated. Cover with plastic and chill for 30+min."
         ], 
         "ingredient_categories": [
           {
@@ -3910,13 +3910,10 @@
       }, 
       {
         "directions": [
-          "Make 4-6 dumplings:", 
+          "Make 12 dumplings:", 
           "Warm milk and butter to lukewarm. Mix flour, yeast, salt, sugar. Add milk mix + egg. Mix to come together into ball of dough.", 
-          "Knead on floured surface til smooth. Rise in bowl til doubled (1hr). Punch down and shape into 1 inch balls (8-10). Let rise 30 min-1hr.", 
-          "In large saucepan/pot, med heat, warm poaching liquid ingredients, 5 min or til sugar dissolves. Add dumplings. Cover and steam on med low heat 20-25min.", 
-          " OR ", 
-          "In large saucepan/pot, med heat, warm poaching liquid ingredients, 5 min or til sugar dissolves. Remove from heat. Add dumplings. Let rise til doubled (~15min)", 
-          "Low heat, cover, steam for 20-25, maybe 30 min (hopefully should hear butter sizzling). Finish without lid for 5-10 min, if needed to evaporate any remaining liquid.", 
+          "Knead on floured surface til smooth. Rise in bowl til doubled (1hr). Punch down and shape into 1 inch balls. Let rise 30 min-1hr.", 
+          "In large saucepan/pot, med heat, warm poaching liquid ingredients, 5 min or til sugar dissolves. Add dumplings. Cover and steam on med low heat (3/10) 20min.", 
           "", 
           "Vanilla sauce:", 
           "Mix sugar + cornstarch. Beat yolk + sugar til thick and creamy.", 
@@ -4221,6 +4218,57 @@
           "calories": 1054.775, 
           "price": 2.661699189263169, 
           "protein": 19.025916666666667
+        }
+      }, 
+      {
+        "directions": [
+          "Whisk all ingredients. Strain into pot and cook on med heat till real thick and smooth.", 
+          "Chill 3+ hrs with plastic wrap. Cut into desirable shape/size, brush with egg wash. Bake 390F-400F 20min"
+        ], 
+        "ingredients": [
+          {
+            "amount": 250, 
+            "calories": 125.0, 
+            "label": "oat milk", 
+            "name": "milk_oat", 
+            "price": 0.4409245729733696, 
+            "protein": 3.125, 
+            "unit": "ml"
+          }, 
+          {
+            "amount": 1, 
+            "calories": 55.0, 
+            "label": "egg yolk", 
+            "name": "egg_yolk", 
+            "price": 0.25, 
+            "protein": 2.7, 
+            "unit": ""
+          }, 
+          {
+            "amount": 25, 
+            "calories": 93.75, 
+            "label": "cornstarch", 
+            "name": "cornstarch", 
+            "price": 0.1058218975136087, 
+            "protein": 0.0, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 5, 
+            "calories": 18.75, 
+            "label": "sugar", 
+            "name": "sugar", 
+            "price": 0.008818491459467392, 
+            "protein": 0.0, 
+            "unit": "g"
+          }
+        ], 
+        "label": "baked milk custard", 
+        "name": "baked_milk_custard", 
+        "nutrition": {
+          "calories": 292.5, 
+          "price": 0.8055649619464458, 
+          "protein": 5.825
         }
       }
     ]
@@ -5051,7 +5099,7 @@
             "amount": 4, 
             "calories": 90.20301818181818, 
             "label": "imitation crab", 
-            "name": "imitation_crab", 
+            "name": "crab_imitation", 
             "price": 1.3299998533925956, 
             "protein": 11.59753090909091, 
             "unit": "oz"
@@ -5121,13 +5169,13 @@
             "unit": "tbsp"
           }, 
           {
-            "amount": 0.75, 
-            "amount_in_grams": 5.625, 
-            "calories": 18.0, 
+            "amount": 0.5, 
+            "amount_in_grams": 3.75, 
+            "calories": 12.0, 
             "label": "gochugaru", 
             "name": "gochugaru", 
-            "note": "try reducing?", 
-            "price": 0.07341394140006603, 
+            "note": "originally 0.75 tbsp", 
+            "price": 0.04894262760004402, 
             "protein": 0.0, 
             "unit": "tbsp"
           }, 
@@ -5163,8 +5211,8 @@
         "label": "tteokbokki [\ub5a1\ubcf6\uae30]", 
         "name": "tteokbokki", 
         "nutrition": {
-          "calories": 1054.0925679053491, 
-          "price": 1.353530260829813, 
+          "calories": 1048.0925679053491, 
+          "price": 1.3290589470297909, 
           "protein": 33.56673887685386
         }
       }, 
@@ -5649,15 +5697,7 @@
       {
         "directions": [
           "Cook noodles and rinse in cold water.", 
-          "Mix sauce. Put sauce, egg, cucumber on noodles.", 
-          "", 
-          "Knead dough til smooth (10-15min) and let rest at least 1 hr. The longer the better.", 
-          "Kelp, anchovy, green onion white part (opt), water, med high heat for 10 min. Remove and set aside kelp. Boil 10 more min, remove everyone.", 
-          "Add potato, onion, zucchini, carrot, garlic. Boil 10-15 min med high heat.", 
-          "Cut kelp into bite size pieces. Add kelp, fish sauce, soup soy sauce, salt if needed to taste.", 
-          "Tear dough thinly into boiling water.", 
-          "Close lid and cook for a couple min til dough floating.", 
-          "Add green onion green part and sesame oil at the end."
+          "Mix sauce. Put sauce, egg, cucumber on noodles."
         ], 
         "ingredient_categories": [
           {
@@ -5772,180 +5812,14 @@
             ], 
             "label": "filling", 
             "name": "filling"
-          }, 
-          {
-            "ingredients": [
-              {
-                "amount": 180, 
-                "calories": 660.0, 
-                "label": "flour", 
-                "name": "flour", 
-                "price": 0.3809588310489913, 
-                "protein": 18.0, 
-                "unit": "g"
-              }, 
-              {
-                "amount": 0.5, 
-                "amount_in_grams": 3.0, 
-                "calories": 0.0, 
-                "label": "salt", 
-                "name": "salt", 
-                "price": 0.008465751801088694, 
-                "protein": 0.0, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 90, 
-                "calories": 0.0, 
-                "label": "water", 
-                "name": "water", 
-                "price": 0.0, 
-                "protein": 0.0, 
-                "unit": "g"
-              }, 
-              {
-                "amount": 1, 
-                "amount_in_grams": 4.666666666666667, 
-                "calories": 40.00000000000001, 
-                "label": "canola oil", 
-                "name": "oil", 
-                "price": 0.018107302463439712, 
-                "protein": 0.0, 
-                "unit": "tsp"
-              }
-            ], 
-            "label": "dough", 
-            "name": "dough"
-          }, 
-          {
-            "ingredients": [
-              {
-                "amount": 10, 
-                "amount_in_grams": 2400.0, 
-                "calories": 0.0, 
-                "label": "water", 
-                "name": "water", 
-                "price": 0.0, 
-                "protein": 0.0, 
-                "unit": "cup"
-              }, 
-              {
-                "amount": 10, 
-                "calories": 0.0, 
-                "label": "dried_anchovy", 
-                "name": "dried_anchovy", 
-                "price": 0.0, 
-                "protein": 0.0, 
-                "unit": ""
-              }, 
-              {
-                "amount": 3, 
-                "calories": 9.0, 
-                "label": "dried kelp", 
-                "name": "dried_kelp", 
-                "price": 0.0, 
-                "protein": 0.0, 
-                "unit": "g"
-              }, 
-              {
-                "amount": 1, 
-                "calories": 4.8, 
-                "label": "green onion", 
-                "name": "green_onion", 
-                "note": "separate white and green part", 
-                "price": 0.184285714, 
-                "protein": 0.275, 
-                "unit": ""
-              }, 
-              {
-                "amount": 1, 
-                "calories": 284.0, 
-                "label": "potato", 
-                "name": "potato", 
-                "price": 1.2121235637186754, 
-                "protein": 7.56, 
-                "unit": ""
-              }, 
-              {
-                "amount": 0.5, 
-                "calories": 45.0, 
-                "label": "onion", 
-                "name": "onion", 
-                "price": 0.24802004495798727, 
-                "protein": 1.2375, 
-                "unit": ""
-              }, 
-              {
-                "amount": 1, 
-                "calories": 49.2, 
-                "label": "carrot", 
-                "name": "carrot", 
-                "price": 0.2619091674756346, 
-                "protein": 1.12, 
-                "unit": ""
-              }, 
-              {
-                "amount": 1, 
-                "calories": 54.9, 
-                "label": "zucchini", 
-                "name": "zucchini", 
-                "price": 2.129158389502892, 
-                "protein": 3.91, 
-                "unit": ""
-              }, 
-              {
-                "amount": 2, 
-                "calories": 8.94, 
-                "label": "garlic", 
-                "name": "garlic", 
-                "note": "minced; try 3 too?", 
-                "price": 0.05277866556705969, 
-                "protein": 0.382, 
-                "unit": ""
-              }, 
-              {
-                "amount": 1, 
-                "amount_in_grams": 15.0, 
-                "calories": 5.0, 
-                "label": "korean fish sauce", 
-                "name": "fish_sauce_korean", 
-                "price": 0.0, 
-                "protein": 1.0, 
-                "unit": "tbsp"
-              }, 
-              {
-                "amount": 1, 
-                "amount_in_grams": 6.0, 
-                "calories": 0.0, 
-                "label": "salt", 
-                "name": "salt", 
-                "note": "to sub korean soup soy sauce :(", 
-                "price": 0.01693150360217739, 
-                "protein": 0.0, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 1, 
-                "amount_in_grams": 5.0, 
-                "calories": 40.0, 
-                "label": "sesame oil", 
-                "name": "sesame_oil", 
-                "note": "optional", 
-                "price": 0.10934929409739565, 
-                "protein": 0.0, 
-                "unit": "tsp"
-              }
-            ], 
-            "label": "filling", 
-            "name": "filling"
           }
         ], 
         "label": "bibim guksu [\ube44\ube54\uad6d\uc218]", 
         "name": "bibim_guksu", 
         "nutrition": {
-          "calories": 2215.828, 
-          "price": 7.180282579709331, 
-          "protein": 58.13425999999999
+          "calories": 1014.988, 
+          "price": 2.5581943514739893, 
+          "protein": 24.64976
         }
       }, 
       {
@@ -7157,12 +7031,11 @@
           }, 
           {
             "amount": 1.5, 
-            "amount_in_grams": 22.5, 
-            "calories": 15.000000000000002, 
-            "label": "dark soy sauce", 
-            "name": "soy_sauce_dark", 
-            "note": "to sub korean soup soy sauce", 
-            "price": 0.26190919634618154, 
+            "amount_in_grams": 24.0, 
+            "calories": 15.0, 
+            "label": "soup soy sauce", 
+            "name": "soup_soy_sauce", 
+            "price": 0.0, 
             "protein": 1.5, 
             "unit": "tbsp"
           }, 
@@ -7182,7 +7055,7 @@
         "name": "seaweed_soup", 
         "nutrition": {
           "calories": 309.47, 
-          "price": 2.3723121632229875, 
+          "price": 2.110402966876806, 
           "protein": 26.290999999999997
         }
       }, 
@@ -7246,11 +7119,10 @@
               }, 
               {
                 "amount": 1, 
-                "amount_in_grams": 15.0, 
-                "calories": 5.0, 
-                "label": "korean fish sauce", 
-                "name": "fish_sauce_korean", 
-                "note": "to sub korean soup soy sauce", 
+                "amount_in_grams": 16.0, 
+                "calories": 10.0, 
+                "label": "soup soy sauce", 
+                "name": "soup_soy_sauce", 
                 "price": 0.0, 
                 "protein": 1.0, 
                 "unit": "tbsp"
@@ -7343,9 +7215,194 @@
         "label": "tteokguk [\ub5a1\uad6d]", 
         "name": "tteokguk", 
         "nutrition": {
-          "calories": 842.5933332366221, 
+          "calories": 847.5933332366221, 
           "price": 2.4142489968327725, 
           "protein": 41.12305555421234
+        }
+      }, 
+      {
+        "directions": [
+          "Knead dough til smooth (10-15min) and let rest at least 1 hr. The longer the better.", 
+          "Kelp, anchovy, green onion white part (opt), water, med high heat for 10 min. Remove and set aside kelp. Boil 10 more min, remove everyone.", 
+          "Add potato, onion, zucchini, carrot, garlic. Boil 10-15 min med high heat.", 
+          "Cut kelp into bite size pieces. Add kelp, fish sauce, soup soy sauce, salt if needed to taste.", 
+          "Tear dough thinly into boiling water.", 
+          "Close lid and cook for a couple min til dough floating.", 
+          "Add green onion green part and sesame oil at the end."
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 180, 
+                "calories": 660.0, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.3809588310489913, 
+                "protein": 18.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 3.0, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.008465751801088694, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 90, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 4.666666666666667, 
+                "calories": 40.00000000000001, 
+                "label": "canola oil", 
+                "name": "oil", 
+                "price": 0.018107302463439712, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "dough", 
+            "name": "dough"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 10, 
+                "amount_in_grams": 2400.0, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 10, 
+                "calories": 0.0, 
+                "label": "dried_anchovy", 
+                "name": "dried_anchovy", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 3, 
+                "calories": 9.0, 
+                "label": "dried kelp", 
+                "name": "dried_kelp", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 4.8, 
+                "label": "green onion", 
+                "name": "green_onion", 
+                "note": "separate white and green part", 
+                "price": 0.184285714, 
+                "protein": 0.275, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 284.0, 
+                "label": "potato", 
+                "name": "potato", 
+                "price": 1.2121235637186754, 
+                "protein": 7.56, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.5, 
+                "calories": 45.0, 
+                "label": "onion", 
+                "name": "onion", 
+                "price": 0.24802004495798727, 
+                "protein": 1.2375, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 49.2, 
+                "label": "carrot", 
+                "name": "carrot", 
+                "price": 0.2619091674756346, 
+                "protein": 1.12, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "calories": 54.9, 
+                "label": "zucchini", 
+                "name": "zucchini", 
+                "price": 2.129158389502892, 
+                "protein": 3.91, 
+                "unit": ""
+              }, 
+              {
+                "amount": 2, 
+                "calories": 8.94, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "note": "minced; try 3 too?", 
+                "price": 0.05277866556705969, 
+                "protein": 0.382, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15.0, 
+                "calories": 5.0, 
+                "label": "korean fish sauce", 
+                "name": "fish_sauce_korean", 
+                "price": 0.0, 
+                "protein": 1.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 16.0, 
+                "calories": 10.0, 
+                "label": "soup soy sauce", 
+                "name": "soup_soy_sauce", 
+                "price": 0.0, 
+                "protein": 1.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 5.0, 
+                "calories": 40.0, 
+                "label": "sesame oil", 
+                "name": "sesame_oil", 
+                "note": "optional", 
+                "price": 0.10934929409739565, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "filling", 
+            "name": "filling"
+          }
+        ], 
+        "label": "sujebi [\uc218\uc81c\ube44]", 
+        "name": "sujebi", 
+        "nutrition": {
+          "calories": 1210.8400000000001, 
+          "price": 4.605156724633164, 
+          "protein": 34.4845
         }
       }, 
       {
@@ -11381,7 +11438,7 @@
             "amount": 8, 
             "calories": 280.0, 
             "label": "imitation crab", 
-            "name": "imitation_crab", 
+            "name": "crab_imitation", 
             "price": 4.128464506578891, 
             "protein": 36.0, 
             "unit": ""
@@ -14261,6 +14318,116 @@
       }, 
       {
         "directions": [
+          "Spice amounts unknown, please double check. 7/10 heat. 3 min each side. Maybe a little more time or heat next time."
+        ], 
+        "ingredients": [
+          {
+            "amount": 1, 
+            "amount_in_grams": 15.0, 
+            "calories": 120.0, 
+            "label": "olive oil", 
+            "name": "oil_olive", 
+            "price": 0.17460613089745436, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.75, 
+            "calories": 720.0, 
+            "label": "ground lamb", 
+            "name": "lamb_ground", 
+            "price": 6.742500000000001, 
+            "protein": 60.000000000000014, 
+            "unit": "lb"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 3.0, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.008465751801088694, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 1.1500000000000001, 
+            "calories": 2.8833333333333337, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.10628045906950101, 
+            "protein": 0.11950000000000001, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 1.1333333333333333, 
+            "calories": 3.2, 
+            "label": "paprika", 
+            "name": "paprika", 
+            "price": 0.6648201921349403, 
+            "protein": 0.16033333333333333, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 45.0, 
+            "label": "onion", 
+            "name": "onion", 
+            "price": 0.24802004495798727, 
+            "protein": 1.2375, 
+            "unit": ""
+          }, 
+          {
+            "amount": 3, 
+            "amount_in_grams": 45.0, 
+            "calories": 150.00000000000003, 
+            "label": "light mayo", 
+            "name": "mayo_light", 
+            "price": 0.4603252541841978, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 3.0, 
+            "calories": 10.0, 
+            "label": "ground cumin", 
+            "name": "cumin_ground", 
+            "price": 0.2740787145602465, 
+            "protein": 0.4000000000000001, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 1.5, 
+            "calories": 112.689342, 
+            "label": "feta", 
+            "name": "cheese_feta", 
+            "price": 1.2178123657591506, 
+            "protein": 6.042700188, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 1.5, 
+            "calories": 375.0, 
+            "label": "ciabatta roll", 
+            "name": "ciabatta_roll", 
+            "price": 1.2611324636184318, 
+            "protein": 15.0, 
+            "unit": ""
+          }
+        ], 
+        "label": "lamb burger", 
+        "name": "lamb_burger", 
+        "nutrition": {
+          "calories": 1538.7726753333334, 
+          "price": 11.158041376983002, 
+          "protein": 82.96003352133334
+        }
+      }, 
+      {
+        "directions": [
           "With a pack of sausage, makes a good dinner + 1 lunch portion", 
           "Heat 2 tbsp olive oil over med heat in saucepan/skillet.", 
           "Saute onion, garlic, bell pepper for ~2 min (til onion translucent and garlic browned)", 
@@ -14948,6 +15115,88 @@
           "calories": 1397.9448611128469, 
           "price": 3.6098128754380285, 
           "protein": 151.48407638893647
+        }
+      }, 
+      {
+        "directions": [
+          "Blend cream cheese with milk. Add crab meat, onion, horseradish, salt, pepper (spice to taste).", 
+          "Bake 15 min at 375F. Serve with potato chips."
+        ], 
+        "ingredients": [
+          {
+            "amount": 8, 
+            "calories": 809.9862857142858, 
+            "label": "cream cheese", 
+            "name": "cream_cheese", 
+            "price": 2.72, 
+            "protein": 16.199725714285716, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 15.0, 
+            "calories": 7.5, 
+            "label": "oat milk", 
+            "name": "milk_oat", 
+            "price": 0.026455474378402177, 
+            "protein": 0.1875, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 6.5, 
+            "calories": 216.66666666666669, 
+            "label": "lump crab meat", 
+            "name": "crab_meat_lump", 
+            "price": 14.616875, 
+            "protein": 43.333333333333336, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 4, 
+            "calories": 1.6, 
+            "label": "onion", 
+            "name": "onion", 
+            "note": "grated; supposed to be 2 tbsp", 
+            "price": 0.008818490487395103, 
+            "protein": 0.044000000000000004, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 0.0, 
+            "label": "horseradish", 
+            "name": "horseradish", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.75, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0021164379502721735, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.28750000000000003, 
+            "calories": 0.7208333333333334, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.026570114767375252, 
+            "protein": 0.029875000000000002, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "crab dip", 
+        "name": "crab_dip", 
+        "nutrition": {
+          "calories": 1036.4737857142857, 
+          "price": 17.40083551758344, 
+          "protein": 59.79443404761904
         }
       }
     ]

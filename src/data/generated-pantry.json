@@ -3277,7 +3277,7 @@
           "oz": 28.34952
         }, 
         "label": "imitation crab", 
-        "name": "imitation_crab", 
+        "name": "crab_imitation", 
         "note": "365 Stick Style Imitation Crab", 
         "per_100_gram": {
           "calories": 79.54545454545455, 
@@ -3300,6 +3300,31 @@
           "grams": 88, 
           "protein": 9, 
           "unit": ""
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "lb": 448.0, 
+          "oz": 28.0
+        }, 
+        "label": "lump crab meat", 
+        "name": "crab_meat_lump", 
+        "note": "365 Stick Style Imitation Crab", 
+        "per_100_gram": {
+          "calories": 119.04761904761905, 
+          "price": 8.03125, 
+          "protein": 23.80952380952381
+        }, 
+        "price_per_unit": {
+          "price": 35.98, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 3, 
+          "calories": 100, 
+          "grams": 84, 
+          "protein": 20, 
+          "unit": "oz"
         }
       }, 
       {
@@ -5721,6 +5746,33 @@
       }, 
       {
         "conversion_to_grams": {
+          "cup": 256.0, 
+          "lb": 453.59237, 
+          "oz": 28.34952, 
+          "tbsp": 16.0, 
+          "tsp": 5.333333333333333
+        }, 
+        "label": "soup soy sauce", 
+        "name": "soup_soy_sauce", 
+        "per_100_gram": {
+          "calories": 62.5, 
+          "price": 0.0, 
+          "protein": 6.25
+        }, 
+        "price_per_unit": {
+          "price": 0.0, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 10, 
+          "grams": 16, 
+          "protein": 1, 
+          "unit": "tbsp"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
           "cup": 288.0, 
           "lb": 453.59237, 
           "oz": 28.34952, 
@@ -5774,6 +5826,36 @@
           "grams": 56.6990463, 
           "protein": 4, 
           "unit": "oz"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
+          "lb": 453.59237, 
+          "oz": 28.34952
+        }, 
+        "label": "ciabatta roll", 
+        "name": "ciabatta_roll", 
+        "per_100_gram": {
+          "calories": 220.26431718061673, 
+          "price": 0.7407532825952609, 
+          "protein": 8.810572687224669
+        }, 
+        "per_unit": {
+          "avg_grams": 113.5, 
+          "calories": 250.0, 
+          "price": 0.8407549757456212, 
+          "protein": 10.0
+        }, 
+        "price_per_unit": {
+          "price": 0.21, 
+          "unit": "oz"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 250, 
+          "grams": 113.5, 
+          "protein": 10, 
+          "unit": ""
         }
       }, 
       {

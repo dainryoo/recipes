@@ -984,7 +984,7 @@
           "Whisk sugar, cornstarch, salt. Add yolk and whisk til smooth, pale, and creamy.",
           "Gradually, to prevent curdle, add hot milk into egg mix and whisk constantly till all incorporated.",
           "Bring mix back to stove and bring to bowl while whisking constantly. Mix till thick and puddinglike.",
-          "Whisk in vanillla if using. Quickly add in butter cubes and whisk into custard til fully incorporated. Cover with plastic and chill for 30+min."
+          "Whisk in vanilla if using. Quickly add in butter cubes and whisk into custard til fully incorporated. Cover with plastic and chill for 30+min."
         ]
       },
       {
@@ -1026,13 +1026,10 @@
           }
         ],
         "directions": [
-          "Make 4-6 dumplings:",
+          "Make 12 dumplings:",
           "Warm milk and butter to lukewarm. Mix flour, yeast, salt, sugar. Add milk mix + egg. Mix to come together into ball of dough.",
-          "Knead on floured surface til smooth. Rise in bowl til doubled (1hr). Punch down and shape into 1 inch balls (8-10). Let rise 30 min-1hr.",
-          "In large saucepan/pot, med heat, warm poaching liquid ingredients, 5 min or til sugar dissolves. Add dumplings. Cover and steam on med low heat 20-25min.",
-          " OR ",
-          "In large saucepan/pot, med heat, warm poaching liquid ingredients, 5 min or til sugar dissolves. Remove from heat. Add dumplings. Let rise til doubled (~15min)",
-          "Low heat, cover, steam for 20-25, maybe 30 min (hopefully should hear butter sizzling). Finish without lid for 5-10 min, if needed to evaporate any remaining liquid.",
+          "Knead on floured surface til smooth. Rise in bowl til doubled (1hr). Punch down and shape into 1 inch balls. Let rise 30 min-1hr.",
+          "In large saucepan/pot, med heat, warm poaching liquid ingredients, 5 min or til sugar dissolves. Add dumplings. Cover and steam on med low heat (3/10) 20min.",
           "",
           "Vanilla sauce:",
           "Mix sugar + cornstarch. Beat yolk + sugar til thick and creamy.",
@@ -1060,6 +1057,20 @@
           "Whisk flour, cinnamon, baking soda, salt. Cream butter and sugars.",
           "Add egg and vanilla and mix well. Slowly add flour mix. Fold in oats and raisins gently.",
           "Chill for 20 min. Makes ~8 cookies. Bake at 350F 10-12 min."
+        ]
+      },
+      {
+        "name": "baked_milk_custard",
+        "label": "baked milk custard",
+        "ingredients": [
+          { "name": "milk_oat", "amount": 250, "unit": "ml" },
+          { "name": "egg_yolk", "amount": 1, "unit": "" },
+          { "name": "cornstarch", "amount": 25, "unit": "g" },
+          { "name": "sugar", "amount": 5, "unit": "g" }
+        ],
+        "directions": [
+          "Whisk all ingredients. Strain into pot and cook on med heat till real thick and smooth.",
+          "Chill 3+ hrs with plastic wrap. Cut into desirable shape/size, brush with egg wash. Bake 390F-400F 20min"
         ]
       }
     ]
@@ -1245,7 +1256,7 @@
           { "name": "cucumber", "amount": 1, "unit": "" },
           { "name": "carrot", "amount": 1, "unit": "" },
           { "name": "spinach", "amount": 100, "unit": "g" },
-          { "name": "imitation_crab", "amount": 4, "unit": "oz" }
+          { "name": "crab_imitation", "amount": 4, "unit": "oz" }
         ],
         "directions": [
           "Shiny side seaweed down!"
@@ -1260,7 +1271,7 @@
           { "name": "dried_anchovy", "amount": 4, "unit": "" },
           { "name": "dried_kelp", "amount": 3, "unit": "g" },
           { "name": "gochujang", "note": "try reducing?", "amount": 2, "unit": "tbsp" },
-          { "name": "gochugaru", "note": "try reducing?", "amount": 0.75, "unit": "tbsp" },
+          { "name": "gochugaru", "note": "originally 0.75 tbsp", "amount": 0.5, "unit": "tbsp" },
           { "name": "sugar", "amount": 6, "unit": "g" },
           { "name": "egg", "note": "boiled", "amount": 3, "unit": "" },
           { "name": "fish_cake_sheet", "amount": 45, "unit": "g" }
@@ -1426,47 +1437,11 @@
               { "name": "sesame_seed", "amount": 1, "unit": "tbsp" },
               { "name": "cucumber", "note": "matchstick", "amount": 0.5, "unit": "" }
             ]
-          },
-          {
-            "name": "dough",
-            "label": "dough",
-            "ingredients": [
-              { "name": "flour", "amount": 180, "unit": "g" },
-              { "name": "salt", "amount": 0.5, "unit": "tsp" },
-              { "name": "water", "amount": 90, "unit": "g" },
-              { "name": "oil", "amount": 1, "unit": "tsp" }
-            ]
-          },
-          {
-            "name": "filling",
-            "label": "filling",
-            "ingredients": [
-              { "name": "water", "amount": 10, "unit": "cup" },
-              { "name": "dried_anchovy", "amount": 10, "unit": "" },
-              { "name": "dried_kelp", "amount": 3, "unit": "g" },
-              { "name": "green_onion", "note": "separate white and green part",  "amount": 1, "unit": "" },
-              { "name": "potato", "amount": 1, "unit": "" },
-              { "name": "onion", "amount": 0.5, "unit": "" },
-              { "name": "carrot", "amount": 1, "unit": "" },
-              { "name": "zucchini", "amount": 1, "unit": "" },
-              { "name": "garlic", "note": "minced; try 3 too?", "amount": 2, "unit": "" },
-              { "name": "fish_sauce_korean", "amount": 1, "unit": "tbsp" },
-              { "name": "salt", "note": "to sub korean soup soy sauce :(", "amount": 1, "unit": "tsp" },
-              { "name": "sesame_oil", "note": "optional", "amount": 1, "unit": "tsp" }
-            ]
           }
         ],
         "directions": [
           "Cook noodles and rinse in cold water.",
-          "Mix sauce. Put sauce, egg, cucumber on noodles.",
-          "",
-          "Knead dough til smooth (10-15min) and let rest at least 1 hr. The longer the better.",
-          "Kelp, anchovy, green onion white part (opt), water, med high heat for 10 min. Remove and set aside kelp. Boil 10 more min, remove everyone.",
-          "Add potato, onion, zucchini, carrot, garlic. Boil 10-15 min med high heat.",
-          "Cut kelp into bite size pieces. Add kelp, fish sauce, soup soy sauce, salt if needed to taste.",
-          "Tear dough thinly into boiling water.",
-          "Close lid and cook for a couple min til dough floating.",
-          "Add green onion green part and sesame oil at the end."
+          "Mix sauce. Put sauce, egg, cucumber on noodles."
         ]
       },
       {
@@ -1748,7 +1723,7 @@
           { "name": "beef_chuck_stew", "note": "can also use brisket, stew, or round", "amount": 4, "unit": "oz" },
           { "name": "sesame_oil", "amount": 1, "unit": "tbsp" },
           { "name": "garlic", "note": "minced, optional", "amount": 1, "unit": "" },
-          { "name": "soy_sauce_dark", "note": "to sub korean soup soy sauce", "amount": 1.5, "unit": "tbsp" },
+          { "name": "soup_soy_sauce", "amount": 1.5, "unit": "tbsp" },
           { "name": "salt", "note": "adjust to taste", "amount": 0.5, "unit": "tsp" }
         ],
         "directions": [
@@ -1778,7 +1753,7 @@
             "label": "soup",
             "ingredients": [
               { "name": "rice_cake_sliced", "note": "or is it supposed to be 1lb???? unknown; do by eye", "amount": 0.5, "unit": "lb" },
-              { "name": "fish_sauce_korean", "note": "to sub korean soup soy sauce", "amount": 1, "unit": "tbsp" },
+              { "name": "soup_soy_sauce", "amount": 1, "unit": "tbsp" },
               { "name": "salt", "note": "to taste", "amount": 0.25, "unit": "tsp" },
               { "name": "pepper_black", "note": "to taste", "amount": 0.5, "unit": "tsp" },
               { "name": "sesame_oil", "note": "to taste; up to 1 tsp", "amount": 0.5, "unit": "tsp" }
@@ -1798,9 +1773,52 @@
         "directions": [
           "Bring water to a boil in a heavy pot over high heat. Add beef and garlic, cook 5 min.",
           "Turn heat down to med, cover, and cook for 20-25 min til beef is tender.",
-          "Add rice cakes, fish sauce, salt, pepper, sesame oil. Cook 7-8 min til rice cakes are soft.",
+          "Add rice cakes, soup soy sauce, salt, pepper, sesame oil. Cook 7-8 min til rice cakes are soft.",
           "Gently fry egg, slice into thin slices.",
           "Serve and add garnish."
+        ]
+      },
+      {
+        "name": "sujebi",
+        "label": "sujebi [수제비]",
+        "ingredient_categories": [
+          {
+            "name": "dough",
+            "label": "dough",
+            "ingredients": [
+              { "name": "flour", "amount": 180, "unit": "g" },
+              { "name": "salt", "amount": 0.5, "unit": "tsp" },
+              { "name": "water", "amount": 90, "unit": "g" },
+              { "name": "oil", "amount": 1, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "filling",
+            "label": "filling",
+            "ingredients": [
+              { "name": "water", "amount": 10, "unit": "cup" },
+              { "name": "dried_anchovy", "amount": 10, "unit": "" },
+              { "name": "dried_kelp", "amount": 3, "unit": "g" },
+              { "name": "green_onion", "note": "separate white and green part",  "amount": 1, "unit": "" },
+              { "name": "potato", "amount": 1, "unit": "" },
+              { "name": "onion", "amount": 0.5, "unit": "" },
+              { "name": "carrot", "amount": 1, "unit": "" },
+              { "name": "zucchini", "amount": 1, "unit": "" },
+              { "name": "garlic", "note": "minced; try 3 too?", "amount": 2, "unit": "" },
+              { "name": "fish_sauce_korean", "amount": 1, "unit": "tbsp" },
+              { "name": "soup_soy_sauce", "amount": 1, "unit": "tbsp" },
+              { "name": "sesame_oil", "note": "optional", "amount": 1, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Knead dough til smooth (10-15min) and let rest at least 1 hr. The longer the better.",
+          "Kelp, anchovy, green onion white part (opt), water, med high heat for 10 min. Remove and set aside kelp. Boil 10 more min, remove everyone.",
+          "Add potato, onion, zucchini, carrot, garlic. Boil 10-15 min med high heat.",
+          "Cut kelp into bite size pieces. Add kelp, fish sauce, soup soy sauce, salt if needed to taste.",
+          "Tear dough thinly into boiling water.",
+          "Close lid and cook for a couple min til dough floating.",
+          "Add green onion green part and sesame oil at the end."
         ]
       },
       {
@@ -2776,7 +2794,7 @@
         "name": "california_roll_noodle",
         "label": "california roll noodle",
         "ingredients": [
-          { "name": "imitation_crab", "amount": 8, "unit": "" },
+          { "name": "crab_imitation", "amount": 8, "unit": "" },
           { "name": "rice_vermicelli", "amount": 140, "unit": "g" },
           { "name": "cucumber", "amount": 1, "unit": "" },
           { "name": "avocado", "amount": 2, "unit": "" },
@@ -3412,6 +3430,25 @@
         ]
       },
       {
+        "name": "lamb_burger",
+        "label": "lamb burger",
+        "ingredients": [
+          { "name": "oil_olive", "amount": 1, "unit": "tbsp" },
+          { "name": "lamb_ground", "amount": 0.75, "unit": "lb" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
+          { "name": "paprika", "amount": 0.5, "unit": "tsp" },
+          { "name": "onion", "amount": 0.5, "unit": "" },
+          { "name": "mayo_light", "amount": 3, "unit": "tbsp" },
+          { "name": "cumin_ground", "amount": 1, "unit": "tsp" },
+          { "name": "cheese_feta", "amount": 1.5, "unit": "oz" },
+          { "name": "ciabatta_roll", "amount": 1.5, "unit": "" }
+        ],
+        "directions": [
+          "Spice amounts unknown, please double check. 7/10 heat. 3 min each side. Maybe a little more time or heat next time."
+        ]
+      },
+      {
         "name": "saucy_pasta",
         "label": "saucy pasta",
         "ingredients": [
@@ -3554,6 +3591,23 @@
           "Add garlic, ginger, pepper, thyme, tomato paste, green onion. Stir 1 min.",
           "Pour just enough water to cover goat. Bring to boil, simmer til tender (~2hr?). Stir occasionally, add more water as needed.",
           "15-20 min before cooking ends, add potatoes. Cook til potatoes are tender."
+        ]
+      },
+      {
+        "name": "crab_dip",
+        "label": "crab dip",
+        "ingredients": [
+          { "name": "cream_cheese", "amount": 8, "unit": "oz" },
+          { "name": "milk_oat", "amount": 1, "unit": "tbsp" },
+          { "name": "crab_meat_lump", "amount": 6.5, "unit": "oz" },
+          { "name": "onion", "note": "grated; supposed to be 2 tbsp", "amount": 4, "unit": "g" },
+          { "name": "horseradish", "amount": 0.5, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
+        ],
+        "directions": [
+          "Blend cream cheese with milk. Add crab meat, onion, horseradish, salt, pepper (spice to taste).",
+          "Bake 15 min at 375F. Serve with potato chips."
         ]
       }
     ]
