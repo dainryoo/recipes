@@ -7063,7 +7063,7 @@
         "directions": [
           "Bring water to a boil in a heavy pot over high heat. Add beef and garlic, cook 5 min.", 
           "Turn heat down to med, cover, and cook for 20-25 min til beef is tender.", 
-          "Add rice cakes, fish sauce, salt, pepper, sesame oil. Cook 7-8 min til rice cakes are soft.", 
+          "Add rice cakes, soup soy sauce, salt, pepper, sesame oil. Cook 7-8 min til rice cakes are soft.", 
           "Gently fry egg, slice into thin slices.", 
           "Serve and add garnish."
         ], 
@@ -12115,122 +12115,230 @@
     "recipes": [
       {
         "directions": [
-          "Cook pasta. Blend everything til smooth. Combine."
+          "Cashew version: Cook pasta. Blend everything til smooth. Combine.", 
+          "", 
+          "Non-Cashew version:", 
+          "In small saucepan, heat oil over med. Add flour, whisk to incorporate.", 
+          "Continue whisking, cook for 2 min (mixture will be bubbly). Add milk slowly, whisking constantly.", 
+          "Add spices. Turn heat to low, cook til thick (~8min) stirring frequently.", 
+          "Remove from heat, add yeast, stir til everything is incorporated and smooth. Taste for flavor."
         ], 
-        "ingredients": [
+        "ingredient_categories": [
           {
-            "amount": 126, 
-            "calories": 720.0, 
-            "label": "cashew", 
-            "name": "cashew", 
-            "price": 3.555615756457253, 
-            "protein": 22.5, 
-            "unit": "g"
+            "ingredients": [
+              {
+                "amount": 126, 
+                "calories": 720.0, 
+                "label": "cashew", 
+                "name": "cashew", 
+                "price": 3.555615756457253, 
+                "protein": 22.5, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 0.75, 
+                "amount_in_grams": 180.0, 
+                "calories": 0.0, 
+                "label": "water", 
+                "name": "water", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.75, 
+                "amount_in_grams": 4.5, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.012698627701633042, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 3, 
+                "amount_in_grams": 27.0, 
+                "calories": 105.0, 
+                "label": "nutritional yeast", 
+                "name": "nutritional_yeast", 
+                "price": 1.9047941552449565, 
+                "protein": 15.000000000000002, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.75, 
+                "amount_in_grams": 1.875, 
+                "calories": 6.0, 
+                "label": "gochugaru", 
+                "name": "gochugaru", 
+                "price": 0.02447131380002201, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 4.47, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "price": 0.026389332783529847, 
+                "protein": 0.191, 
+                "unit": ""
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.39166666666666666, 
+                "calories": 1.2208333333333332, 
+                "label": "turmeric", 
+                "name": "turmeric", 
+                "price": 0.024868145915698043, 
+                "protein": 0.03791666666666667, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.75, 
+                "amount_in_grams": 3.75, 
+                "calories": 0.0, 
+                "label": "dijon mustard", 
+                "name": "mustard_dijon", 
+                "price": 0.033069342973002715, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 16, 
+                "calories": 1619.9725714285717, 
+                "label": "pasta", 
+                "name": "pasta", 
+                "price": 1.44, 
+                "protein": 48.59917714285715, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.28750000000000003, 
+                "calories": 0.7208333333333334, 
+                "label": "black pepper", 
+                "name": "pepper_black", 
+                "price": 0.026570114767375252, 
+                "protein": 0.029875000000000002, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 180, 
+                "calories": 61.2, 
+                "label": "broccoli", 
+                "name": "broccoli", 
+                "price": 1.3174824788168285, 
+                "protein": 5.08, 
+                "unit": "g"
+              }
+            ], 
+            "label": "cashew version", 
+            "name": "cashew_version"
           }, 
           {
-            "amount": 0.75, 
-            "amount_in_grams": 180.0, 
-            "calories": 0.0, 
-            "label": "water", 
-            "name": "water", 
-            "price": 0.0, 
-            "protein": 0.0, 
-            "unit": "cup"
-          }, 
-          {
-            "amount": 0.75, 
-            "amount_in_grams": 4.5, 
-            "calories": 0.0, 
-            "label": "salt", 
-            "name": "salt", 
-            "price": 0.012698627701633042, 
-            "protein": 0.0, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 3, 
-            "amount_in_grams": 27.0, 
-            "calories": 105.0, 
-            "label": "nutritional yeast", 
-            "name": "nutritional_yeast", 
-            "price": 1.9047941552449565, 
-            "protein": 15.000000000000002, 
-            "unit": "tbsp"
-          }, 
-          {
-            "amount": 0.75, 
-            "amount_in_grams": 1.875, 
-            "calories": 6.0, 
-            "label": "gochugaru", 
-            "name": "gochugaru", 
-            "price": 0.02447131380002201, 
-            "protein": 0.0, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 1, 
-            "calories": 4.47, 
-            "label": "garlic", 
-            "name": "garlic", 
-            "price": 0.026389332783529847, 
-            "protein": 0.191, 
-            "unit": ""
-          }, 
-          {
-            "amount": 0.125, 
-            "amount_in_grams": 0.39166666666666666, 
-            "calories": 1.2208333333333332, 
-            "label": "turmeric", 
-            "name": "turmeric", 
-            "price": 0.024868145915698043, 
-            "protein": 0.03791666666666667, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 0.75, 
-            "amount_in_grams": 3.75, 
-            "calories": 0.0, 
-            "label": "dijon mustard", 
-            "name": "mustard_dijon", 
-            "price": 0.033069342973002715, 
-            "protein": 0.0, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 16, 
-            "calories": 1619.9725714285717, 
-            "label": "pasta", 
-            "name": "pasta", 
-            "price": 1.44, 
-            "protein": 48.59917714285715, 
-            "unit": "oz"
-          }, 
-          {
-            "amount": 0.125, 
-            "amount_in_grams": 0.28750000000000003, 
-            "calories": 0.7208333333333334, 
-            "label": "black pepper", 
-            "name": "pepper_black", 
-            "price": 0.026570114767375252, 
-            "protein": 0.029875000000000002, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 180, 
-            "calories": 61.2, 
-            "label": "broccoli", 
-            "name": "broccoli", 
-            "price": 1.3174824788168285, 
-            "protein": 5.08, 
-            "unit": "g"
+            "ingredients": [
+              {
+                "amount": 8, 
+                "calories": 809.9862857142858, 
+                "label": "pasta", 
+                "name": "pasta", 
+                "price": 0.72, 
+                "protein": 24.299588571428576, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 1.25, 
+                "amount_in_grams": 300.0, 
+                "calories": 150.0, 
+                "label": "oat milk", 
+                "name": "milk_oat", 
+                "note": "room temp", 
+                "price": 0.5291094875680435, 
+                "protein": 3.75, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 30.0, 
+                "calories": 240.0, 
+                "label": "olive oil", 
+                "name": "oil_olive", 
+                "price": 0.3492122617949087, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 3, 
+                "amount_in_grams": 22.5, 
+                "calories": 82.5, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.047619853881123914, 
+                "protein": 2.25, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 36.0, 
+                "calories": 139.99999999999997, 
+                "label": "nutritional yeast", 
+                "name": "nutritional_yeast", 
+                "note": "up to 1/2 c", 
+                "price": 2.5397255403266086, 
+                "protein": 20.0, 
+                "unit": "cup"
+              }, 
+              {
+                "amount": 0.5, 
+                "amount_in_grams": 1.6166666666666665, 
+                "calories": 5.3500000000000005, 
+                "label": "garlic powder", 
+                "name": "garlic_powder", 
+                "price": 0.0, 
+                "protein": 0.26666666666666666, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 0.625, 
+                "calories": 2.0, 
+                "label": "gochugaru", 
+                "name": "gochugaru", 
+                "price": 0.008157104600007337, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "amount_in_grams": 0.75, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.0021164379502721735, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.125, 
+                "calories": 0.0, 
+                "label": "pepper", 
+                "name": "pepper", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "non cashew version", 
+            "name": "non_cashew_versionn"
           }
         ], 
         "label": "vegan mac & cheese", 
         "name": "vegan_mac_n_cheese", 
         "nutrition": {
-          "calories": 2518.584238095238, 
-          "price": 8.365959268460298, 
-          "protein": 91.43796880952382
+          "calories": 3948.4205238095237, 
+          "price": 12.561899954581262, 
+          "protein": 142.0042240476191
         }
       }, 
       {
@@ -12710,6 +12818,89 @@
           "calories": 248.18750000000003, 
           "price": 1.1106278530759368, 
           "protein": 18.069958333333332
+        }
+      }, 
+      {
+        "directions": [
+          "Mix. add chopped pickles if you want"
+        ], 
+        "ingredients": [
+          {
+            "amount": 9, 
+            "calories": 300.0, 
+            "label": "lump crab meat", 
+            "name": "crab_meat_lump", 
+            "price": 20.23875, 
+            "protein": 60.0, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 4, 
+            "amount_in_grams": 60.0, 
+            "calories": 200.00000000000003, 
+            "label": "light mayo", 
+            "name": "mayo_light", 
+            "price": 0.6137670055789304, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 7.5, 
+            "calories": 0.0, 
+            "label": "dijon mustard", 
+            "name": "mustard_dijon", 
+            "price": 0.06613868594600543, 
+            "protein": 0.0, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.75, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0021164379502721735, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.28750000000000003, 
+            "calories": 0.7208333333333334, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.026570114767375252, 
+            "protein": 0.029875000000000002, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.06666666666666667, 
+            "calories": 0.19458333333333333, 
+            "label": "dried parsley", 
+            "name": "parsley_dried", 
+            "price": 0.039107070125584724, 
+            "protein": 0.01775, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.2833333333333333, 
+            "calories": 0.8, 
+            "label": "paprika", 
+            "name": "paprika", 
+            "price": 0.16620504803373506, 
+            "protein": 0.04008333333333333, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "crab salad", 
+        "name": "crab_salad", 
+        "nutrition": {
+          "calories": 501.7154166666667, 
+          "price": 21.1526543624019, 
+          "protein": 60.08770833333333
         }
       }
     ]
@@ -13451,7 +13642,7 @@
           "Chop onion; make one cut lengthwise (along grain), then chop into thin slices widthwise (against grain). Slice carrots howeveer. Peel most skin off garlic but leave intact. Cut lamb.", 
           "Oil on \"high heat\". Add lamb. Fry til golden brown.", 
           "Still high heat, add onion and cook till loose and golden colored. Then, place garlic in the center and add layer of carrots on top.", 
-          "Sprinkle salt, cumin, pepper, coriander, (paprika?). Add enough warm water to cover meat (but not completely covering the whole thing)", 
+          "Sprinkle the spice mix. Add enough warm water to cover meat (but not completely covering the whole thing)", 
           "Bring to boil, then let simmer 20-30min on med-low.", 
           "Wash and rinse rice til water is clear.", 
           "Remove garlic and put aside. Don't touch anyone else.", 
@@ -13531,7 +13722,7 @@
             "name": "raisin", 
             "price": 0.7037156184654979, 
             "protein": 1.0, 
-            "unit": "c"
+            "unit": "cup"
           }, 
           {
             "amount": 1, 
@@ -13551,6 +13742,16 @@
             "name": "pepper_black", 
             "price": 0.21256091813900202, 
             "protein": 0.23900000000000002, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 1.1333333333333333, 
+            "calories": 3.2, 
+            "label": "paprika", 
+            "name": "paprika", 
+            "price": 0.6648201921349403, 
+            "protein": 0.16033333333333333, 
             "unit": "tsp"
           }, 
           {
@@ -13579,9 +13780,9 @@
         "label": "lamb palov", 
         "name": "lamb_palov", 
         "nutrition": {
-          "calories": 2643.4666666666667, 
-          "price": 12.71674665990146, 
-          "protein": 88.48400000000001
+          "calories": 2646.6666666666665, 
+          "price": 13.3815668520364, 
+          "protein": 88.64433333333334
         }
       }, 
       {
@@ -14139,21 +14340,21 @@
           }, 
           {
             "amount": 0.5, 
-            "calories": 220.0, 
+            "calories": 239.99999999999997, 
             "label": "mussels", 
             "name": "mussels", 
             "note": "cleaned properly (beards off); use about 10-12", 
             "price": 3.2449999999999997, 
-            "protein": 34.0, 
+            "protein": 38.0, 
             "unit": "lb"
           }
         ], 
         "label": "paella", 
         "name": "paella", 
         "nutrition": {
-          "calories": 2306.7047403921574, 
+          "calories": 2326.7047403921574, 
           "price": 28.397813324141854, 
-          "protein": 171.33601319607845
+          "protein": 175.33601319607845
         }
       }, 
       {
@@ -14164,7 +14365,7 @@
           "If using meat, add to pan and break into chunks real quick. Also add onion, bell pepper, garlic, spices til soft (~5-10 min). Turn heat to med-high (7/10)", 
           "Pour in tomatoes and season with salt, pepper, pepper flakes. Simmer til thickened (~15min but could be more)", 
           "Stir in crumbled feta (optional; 5oz). Make little wells/indentations for eggs. Gently crack eggs in.", 
-          "Reduce heat to low (2/10), put lid on, cook til eggs are just set, ~5.5min.", 
+          "Reduce heat to low (2/10), put lid on, cook til eggs are just set, ~6min.", 
           "Uncover and add fresh cilantro garnish and pepper flakes if desired."
         ], 
         "ingredients": [

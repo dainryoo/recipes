@@ -2735,6 +2735,31 @@
       }, 
       {
         "conversion_to_grams": {
+          "lb": 453.6, 
+          "oz": 28.35
+        }, 
+        "label": "lamb shank", 
+        "name": "lamb_shank", 
+        "note": "(Lamb, leg, shank half, separable lean and fat, trimmed to 1/4\" fat, choice, raw)", 
+        "per_100_gram": {
+          "calories": 201.05820105820104, 
+          "price": 1.761463844797178, 
+          "protein": 18.584656084656082
+        }, 
+        "price_per_unit": {
+          "price": 7.99, 
+          "unit": "lb"
+        }, 
+        "serving_nutrition": {
+          "amount": 1, 
+          "calories": 912, 
+          "grams": 453.6, 
+          "protein": 84.3, 
+          "unit": "lb"
+        }
+      }, 
+      {
+        "conversion_to_grams": {
           "lb": 452.0, 
           "oz": 28.25
         }, 
@@ -3360,9 +3385,9 @@
         "label": "mussels", 
         "name": "mussels", 
         "per_100_gram": {
-          "calories": 97.34513274336284, 
+          "calories": 106.19469026548673, 
           "price": 1.4358407079646018, 
-          "protein": 15.04424778761062
+          "protein": 16.8141592920354
         }, 
         "price_per_unit": {
           "price": 6.49, 
@@ -3370,9 +3395,9 @@
         }, 
         "serving_nutrition": {
           "amount": 4, 
-          "calories": 110, 
+          "calories": 120, 
           "grams": 113, 
-          "protein": 17, 
+          "protein": 19, 
           "unit": "oz"
         }
       }, 

@@ -1498,6 +1498,22 @@
         }
       },
       {
+        "name": "lamb_shank",
+        "label": "lamb shank",
+        "note": "(Lamb, leg, shank half, separable lean and fat, trimmed to 1/4\" fat, choice, raw)",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "lb",
+          "grams": 453.6,
+          "calories": 912,
+          "protein": 84.3
+        },
+        "price_per_unit": {
+          "price": 7.99,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "lamb_shoulder",
         "label": "lamb shoulder",
         "note": "(choice)",
@@ -1880,8 +1896,8 @@
           "amount": 4,
           "unit": "oz",
           "grams": 113,
-          "calories": 110,
-          "protein": 17
+          "calories": 120,
+          "protein": 19
         },
         "price_per_unit": {
           "price": 6.49,

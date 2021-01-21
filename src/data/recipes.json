@@ -2971,21 +2971,48 @@
       {
         "name": "vegan_mac_n_cheese",
         "label": "vegan mac & cheese",
-        "ingredients": [
-          { "name": "cashew", "amount": 126, "unit": "g" },
-          { "name": "water", "amount": 0.75, "unit": "cup" },
-          { "name": "salt", "amount": 0.75, "unit": "tsp" },
-          { "name": "nutritional_yeast", "amount": 3, "unit": "tbsp" },
-          { "name": "gochugaru", "amount": 0.75, "unit": "tsp" },
-          { "name": "garlic", "amount": 1, "unit": "" },
-          { "name": "turmeric", "amount": 0.125, "unit": "tsp" },
-          { "name": "mustard_dijon", "amount": 0.75, "unit": "tsp" },
-          { "name": "pasta", "amount": 16, "unit": "oz" },
-          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
-          { "name": "broccoli", "amount": 180, "unit": "g" }
+        "ingredient_categories": [
+          {
+            "name": "cashew_version",
+            "label": "cashew version",
+            "ingredients": [
+              { "name": "cashew", "amount": 126, "unit": "g" },
+              { "name": "water", "amount": 0.75, "unit": "cup" },
+              { "name": "salt", "amount": 0.75, "unit": "tsp" },
+              { "name": "nutritional_yeast", "amount": 3, "unit": "tbsp" },
+              { "name": "gochugaru", "amount": 0.75, "unit": "tsp" },
+              { "name": "garlic", "amount": 1, "unit": "" },
+              { "name": "turmeric", "amount": 0.125, "unit": "tsp" },
+              { "name": "mustard_dijon", "amount": 0.75, "unit": "tsp" },
+              { "name": "pasta", "amount": 16, "unit": "oz" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+              { "name": "broccoli", "amount": 180, "unit": "g" }
+            ]
+          },
+          {
+            "name": "non_cashew_versionn",
+            "label": "non cashew version",
+            "ingredients": [
+              { "name": "pasta", "amount": 8, "unit": "oz" },
+              { "name": "milk_oat", "note": "room temp", "amount": 1.25, "unit": "cup" },
+              { "name": "oil_olive", "amount": 2, "unit": "tbsp" },
+              { "name": "flour", "amount": 3, "unit": "tbsp" },
+              { "name": "nutritional_yeast", "note": "up to 1/2 c", "amount": 0.25, "unit": "cup" },
+              { "name": "garlic_powder", "amount": 0.5, "unit": "tsp" },
+              { "name": "gochugaru", "amount": 0.25, "unit": "tsp" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" },
+              { "name": "pepper", "amount": 0.125, "unit": "tsp" }
+            ]
+          }
         ],
         "directions": [
-          "Cook pasta. Blend everything til smooth. Combine."
+          "Cashew version: Cook pasta. Blend everything til smooth. Combine.",
+          "",
+          "Non-Cashew version:",
+          "In small saucepan, heat oil over med. Add flour, whisk to incorporate.",
+          "Continue whisking, cook for 2 min (mixture will be bubbly). Add milk slowly, whisking constantly.",
+          "Add spices. Turn heat to low, cook til thick (~8min) stirring frequently.",
+          "Remove from heat, add yeast, stir til everything is incorporated and smooth. Taste for flavor."
         ]
       },
       {
@@ -3083,6 +3110,22 @@
           "Put pot on stove, high heat. Once water starts boiling, turn off heat and keep pot on hot stove, with cover on. Let sit for 10 min.",
           "Place eggs in ice water bath for 14 min. Peel.",
           "Cut eggs in half. Scoop out yolk. Mash yolk, add other filling ingredients, and mix well."
+        ]
+      },
+      {
+        "name": "crab_salad",
+        "label": "crab salad",
+        "ingredients": [
+          { "name": "crab_meat_lump", "amount": 9, "unit": "oz" },
+          { "name": "mayo_light", "amount": 4, "unit": "tbsp" },
+          { "name": "mustard_dijon", "amount": 0.5, "unit": "tbsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "parsley_dried", "amount": 0.125, "unit": "tsp" },
+          { "name": "paprika", "amount": 0.125, "unit": "tsp" }
+        ],
+        "directions": [
+          "Mix. add chopped pickles if you want"
         ]
       }
     ]
@@ -3255,9 +3298,10 @@
           { "name": "onion", "note": "diced or thinly sliced", "amount": 1, "unit": "" },
           { "name": "carrot", "note": "cut into thick 2 in. sticks", "amount": 3, "unit": "" },
           { "name": "garlic", "note": "(a whole head)", "amount": 10, "unit": "" },
-          { "name": "raisin", "amount": 0.25, "unit": "c" },
+          { "name": "raisin", "amount": 0.25, "unit": "cup" },
           { "name": "salt", "amount": 1, "unit": "tsp" },
           { "name": "pepper_black", "amount": 1, "unit": "tsp" },
+          { "name": "paprika", "amount": 0.5, "unit": "tsp" },
           { "name": "cumin_ground", "note": "or 1 tbsp toasted seed", "amount": 1, "unit": "tsp" },
           { "name": "coriander_ground", "note": "or 1tbsp of seed", "amount": 1, "unit": "tsp" }
         ],
@@ -3268,7 +3312,7 @@
           "Chop onion; make one cut lengthwise (along grain), then chop into thin slices widthwise (against grain). Slice carrots howeveer. Peel most skin off garlic but leave intact. Cut lamb.",
           "Oil on \"high heat\". Add lamb. Fry til golden brown.",
           "Still high heat, add onion and cook till loose and golden colored. Then, place garlic in the center and add layer of carrots on top.",
-          "Sprinkle salt, cumin, pepper, coriander, (paprika?). Add enough warm water to cover meat (but not completely covering the whole thing)",
+          "Sprinkle the spice mix. Add enough warm water to cover meat (but not completely covering the whole thing)",
           "Bring to boil, then let simmer 20-30min on med-low.",
           "Wash and rinse rice til water is clear.",
           "Remove garlic and put aside. Don't touch anyone else.",
@@ -3425,7 +3469,7 @@
           "If using meat, add to pan and break into chunks real quick. Also add onion, bell pepper, garlic, spices til soft (~5-10 min). Turn heat to med-high (7/10)",
           "Pour in tomatoes and season with salt, pepper, pepper flakes. Simmer til thickened (~15min but could be more)",
           "Stir in crumbled feta (optional; 5oz). Make little wells/indentations for eggs. Gently crack eggs in.",
-          "Reduce heat to low (2/10), put lid on, cook til eggs are just set, ~5.5min.",
+          "Reduce heat to low (2/10), put lid on, cook til eggs are just set, ~6min.",
           "Uncover and add fresh cilantro garnish and pepper flakes if desired."
         ]
       },
