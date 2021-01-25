@@ -3137,9 +3137,7 @@
       {
         "directions": [
           "Pair with 1 9-inch pie crust.", 
-          "Put sweet potatoes in pot, covered with water. Bring water to boil on high heat.", 
-          "Once boiling, reduce to med heat. Boil til tender but not falling apart (~30min?)", 
-          "Peel and slice sweet potatoes (1/4 in thick). Let cool.", 
+          "Peel and slice sweet potatoes (1/4 in thick). Boil on high heat til tender", 
           "Mix sugar, flour, salt, spices together. Toss sweet potatoes in spices.", 
           "Place sweet potatoes in crust. Dot butter on top of sweet potatoes.", 
           "Bake 350F for 1hr. Let cool completely."
@@ -3156,11 +3154,11 @@
             "unit": ""
           }, 
           {
-            "amount": 120, 
-            "calories": 450.0, 
+            "amount": 60, 
+            "calories": 225.0, 
             "label": "brown sugar", 
             "name": "sugar_brown", 
-            "price": 0.6772601440870956, 
+            "price": 0.3386300720435478, 
             "protein": 0.0, 
             "unit": "g"
           }, 
@@ -3234,20 +3232,21 @@
             "unit": "tsp"
           }, 
           {
-            "amount": 20, 
-            "calories": 142.85714285714286, 
+            "amount": 1, 
+            "amount_in_grams": 14.0, 
+            "calories": 100.00000000000001, 
             "label": "butter", 
             "name": "butter", 
-            "price": 0.2610273472002348, 
+            "price": 0.18271914304016434, 
             "protein": 0.0, 
-            "unit": "g"
+            "unit": "tbsp"
           }
         ], 
         "label": "sliced sweet potato pie", 
         "name": "sliced_sweet_potato_pie", 
         "nutrition": {
-          "calories": 962.1113095238096, 
-          "price": 2.841139920056301, 
+          "calories": 694.2541666666667, 
+          "price": 2.424201643852683, 
           "protein": 6.964958333333333
         }
       }, 
@@ -11471,12 +11470,12 @@
             "unit": ""
           }, 
           {
-            "amount": 1, 
-            "amount_in_grams": 12.0, 
-            "calories": 45.0, 
+            "amount": 0.5, 
+            "amount_in_grams": 6.0, 
+            "calories": 22.5, 
             "label": "sugar", 
             "name": "sugar", 
-            "price": 0.02116437950272174, 
+            "price": 0.01058218975136087, 
             "protein": 0.0, 
             "unit": "tbsp"
           }, 
@@ -11491,12 +11490,12 @@
             "unit": "tbsp"
           }, 
           {
-            "amount": 9, 
-            "calories": 63.0, 
+            "amount": 6, 
+            "calories": 42.0, 
             "label": "sesame seed", 
             "name": "sesame_seed", 
-            "price": 0.23809926940561957, 
-            "protein": 1.7999999999999998, 
+            "price": 0.15873284627041304, 
+            "protein": 1.2, 
             "unit": "g"
           }, 
           {
@@ -11512,9 +11511,9 @@
         "label": "california roll noodle", 
         "name": "california_roll_noodle", 
         "nutrition": {
-          "calories": 1387.0, 
-          "price": 9.173474512947939, 
-          "protein": 56.44
+          "calories": 1343.5, 
+          "price": 9.083525900061371, 
+          "protein": 55.84
         }
       }, 
       {
@@ -11525,12 +11524,12 @@
           {
             "ingredients": [
               {
-                "amount": 2, 
-                "amount_in_grams": 480.0, 
+                "amount": 1, 
+                "amount_in_grams": 240.0, 
                 "calories": 0.0, 
                 "label": "water", 
                 "name": "water", 
-                "note": "to sub stock", 
+                "note": "to sub stock; originally 2 cup", 
                 "price": 0.0, 
                 "protein": 0.0, 
                 "unit": "cup"
@@ -11556,13 +11555,13 @@
                 "unit": "tbsp"
               }, 
               {
-                "amount": 2, 
-                "amount_in_grams": 30.0, 
-                "calories": 10.0, 
+                "amount": 1.5, 
+                "amount_in_grams": 22.5, 
+                "calories": 7.500000000000001, 
                 "label": "light soy sauce", 
                 "name": "soy_sauce_light", 
-                "price": 0.9523970776224782, 
-                "protein": 2.0, 
+                "price": 0.7142978082168587, 
+                "protein": 1.5, 
                 "unit": "tbsp"
               }, 
               {
@@ -11668,9 +11667,9 @@
         "label": "eggy beef bowl", 
         "name": "eggy_beef_bowl", 
         "nutrition": {
-          "calories": 1857.7541666666668, 
-          "price": 10.003113969475292, 
-          "protein": 132.91020833333334
+          "calories": 1855.2541666666668, 
+          "price": 9.765014700069672, 
+          "protein": 132.41020833333334
         }
       }
     ]
@@ -12321,11 +12320,12 @@
               }, 
               {
                 "amount": 0.125, 
-                "calories": 0.0, 
-                "label": "pepper", 
-                "name": "pepper", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "amount_in_grams": 0.28750000000000003, 
+                "calories": 0.7208333333333334, 
+                "label": "black pepper", 
+                "name": "pepper_black", 
+                "price": 0.026570114767375252, 
+                "protein": 0.029875000000000002, 
                 "unit": "tsp"
               }
             ], 
@@ -12336,9 +12336,9 @@
         "label": "vegan mac & cheese", 
         "name": "vegan_mac_n_cheese", 
         "nutrition": {
-          "calories": 3948.4205238095237, 
-          "price": 12.561899954581262, 
-          "protein": 142.0042240476191
+          "calories": 3949.141357142857, 
+          "price": 12.588470069348638, 
+          "protein": 142.0340990476191
         }
       }, 
       {
@@ -15353,21 +15353,22 @@
             "unit": "oz"
           }, 
           {
-            "amount": 4, 
-            "calories": 1.6, 
+            "amount": 30, 
+            "calories": 12.0, 
             "label": "onion", 
             "name": "onion", 
             "note": "grated; supposed to be 2 tbsp", 
-            "price": 0.008818490487395103, 
-            "protein": 0.044000000000000004, 
+            "price": 0.06613867865546327, 
+            "protein": 0.33, 
             "unit": "g"
           }, 
           {
             "amount": 0.5, 
+            "amount_in_grams": 2.5, 
             "calories": 0.0, 
             "label": "horseradish", 
             "name": "horseradish", 
-            "price": 0.0, 
+            "price": 0.03791951327570978, 
             "protein": 0.0, 
             "unit": "tsp"
           }, 
@@ -15395,9 +15396,9 @@
         "label": "crab dip", 
         "name": "crab_dip", 
         "nutrition": {
-          "calories": 1036.4737857142857, 
-          "price": 17.40083551758344, 
-          "protein": 59.79443404761904
+          "calories": 1046.8737857142858, 
+          "price": 17.49607521902722, 
+          "protein": 60.08043404761904
         }
       }
     ]

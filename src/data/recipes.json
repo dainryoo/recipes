@@ -761,7 +761,7 @@
         "label": "sliced sweet potato pie",
         "ingredients": [
           { "name": "sweet_potato", "note": "about 2 lb", "amount": 3, "unit": "" },
-          { "name": "sugar_brown", "amount": 120, "unit": "g" },
+          { "name": "sugar_brown", "amount": 60, "unit": "g" },
           { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
           { "name": "ginger_ground", "amount": 0.25, "unit": "tsp" },
           { "name": "nutmeg", "amount": 0.25, "unit": "tsp" },
@@ -769,13 +769,11 @@
           { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
           { "name": "flour", "amount": 7, "unit": "g" },
           { "name": "salt", "amount": 0.25, "unit": "tsp" },
-          { "name": "butter", "amount": 20, "unit": "g" }
+          { "name": "butter", "amount": 1, "unit": "tbsp" }
         ],
         "directions": [
           "Pair with 1 9-inch pie crust.",
-          "Put sweet potatoes in pot, covered with water. Bring water to boil on high heat.",
-          "Once boiling, reduce to med heat. Boil til tender but not falling apart (~30min?)",
-          "Peel and slice sweet potatoes (1/4 in thick). Let cool.",
+          "Peel and slice sweet potatoes (1/4 in thick). Boil on high heat til tender",
           "Mix sugar, flour, salt, spices together. Toss sweet potatoes in spices.",
           "Place sweet potatoes in crust. Dot butter on top of sweet potatoes.",
           "Bake 350F for 1hr. Let cool completely."
@@ -2798,9 +2796,9 @@
           { "name": "rice_vermicelli", "amount": 140, "unit": "g" },
           { "name": "cucumber", "amount": 1, "unit": "" },
           { "name": "avocado", "amount": 2, "unit": "" },
-          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "sugar", "amount": 0.5, "unit": "tbsp" },
           { "name": "vinegar_rice", "amount": 2, "unit": "tbsp" },
-          { "name": "sesame_seed", "amount": 9, "unit": "g" },
+          { "name": "sesame_seed", "amount": 6, "unit": "g" },
           { "name": "dried_seaweed_sheet", "amount": 2, "unit": "" }
         ],
         "directions": [
@@ -2817,10 +2815,10 @@
             "name": "sauce",
             "label": "sauce",
             "ingredients": [
-              { "name": "water", "note": "to sub stock", "amount": 2, "unit": "cup" },
+              { "name": "water", "note": "to sub stock; originally 2 cup", "amount": 1, "unit": "cup" },
               { "name": "oyster_sauce", "amount": 2, "unit": "tbsp" },
               { "name": "shaoxing_wine", "amount": 2, "unit": "tbsp" },
-              { "name": "soy_sauce_light", "amount": 2, "unit": "tbsp" },
+              { "name": "soy_sauce_light", "amount": 1.5, "unit": "tbsp" },
               { "name": "soy_sauce_dark", "amount": 1, "unit": "tsp" },
               { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
             ]
@@ -3001,7 +2999,7 @@
               { "name": "garlic_powder", "amount": 0.5, "unit": "tsp" },
               { "name": "gochugaru", "amount": 0.25, "unit": "tsp" },
               { "name": "salt", "amount": 0.125, "unit": "tsp" },
-              { "name": "pepper", "amount": 0.125, "unit": "tsp" }
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
             ]
           }
         ],
@@ -3644,7 +3642,7 @@
           { "name": "cream_cheese", "amount": 8, "unit": "oz" },
           { "name": "milk_oat", "amount": 1, "unit": "tbsp" },
           { "name": "crab_meat_lump", "amount": 6.5, "unit": "oz" },
-          { "name": "onion", "note": "grated; supposed to be 2 tbsp", "amount": 4, "unit": "g" },
+          { "name": "onion", "note": "grated; supposed to be 2 tbsp", "amount": 30, "unit": "g" },
           { "name": "horseradish", "amount": 0.5, "unit": "tsp" },
           { "name": "salt", "amount": 0.125, "unit": "tsp" },
           { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }

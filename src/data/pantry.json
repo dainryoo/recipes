@@ -1500,7 +1500,7 @@
       {
         "name": "lamb_shank",
         "label": "lamb shank",
-        "note": "(Lamb, leg, shank half, separable lean and fat, trimmed to 1/4\" fat, choice, raw)",
+        "note": "(Lamb, leg, shank half, separable lean and fat, trimmed to 1/4\" fat, choice, raw).\nBone research: 2.24lb total has 9.8oz bone.",
         "serving_nutrition": {
           "amount": 1,
           "unit": "lb",
@@ -2808,6 +2808,21 @@
         },
         "price_per_unit": {
           "price": 0.46,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "horseradish",
+        "label": "horseradish",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "tsp",
+          "grams": 5,
+          "calories": 0,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.43,
           "unit": "oz"
         }
       },
