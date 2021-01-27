@@ -2747,13 +2747,11 @@
             "label": "sauce",
             "ingredients": [
               { "name": "peanut_butter", "amount": 0.25, "unit": "cup" },
-              { "name": "fish_sauce", "amount": 1.5, "unit": "tbsp" },
-              { "name": "soy_sauce_dark", "amount": 1.5, "unit": "tbsp" },
+              { "name": "fish_sauce", "amount": 1.25, "unit": "tbsp" },
+              { "name": "oyster_sauce", "note": "to sub 1.5 tbsp dark soy sauce", "amount": 1.25, "unit": "tbsp" },
               { "name": "sugar", "amount": 2, "unit": "tsp" },
-              { "name": "cornstarch", "amount": 2, "unit": "tsp" },
-              { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+              { "name": "garlic_powder", "note": "to sub 2 cloves minced", "amount": 0.5, "unit": "tsp" },
               { "name": "ginger_ground", "note": "or 2 tsp fresh grated", "amount": 0.25, "unit": "tsp" },
-              { "name": "curry_powder_korean", "amount": 1.5, "unit": "tsp" },
               { "name": "water", "amount": 0.25, "unit": "cup" }
             ]
           },
@@ -2763,9 +2761,10 @@
             "ingredients": [
               { "name": "oil", "note": "originally 2 tbsp", "amount": 1, "unit": "tbsp" },
               { "name": "rice_vermicelli",  "amount": 3.5, "unit": "oz" },
-              { "name": "garlic", "note": "finely chopped", "amount": 1, "unit": "" },
-              { "name": "onion", "note": "sliced. originally 1/2 onion", "amount": 1, "unit": "" },
-              { "name": "chicken_thigh", "note": "thinly sliced", "amount": 6, "unit": "oz" }
+              { "name": "garlic", "note": "optional. finely chopped", "amount": 1, "unit": "" },
+              { "name": "bell_pepper_red", "note": "sliced. originally 1 onion", "amount": 1, "unit": "" },
+              { "name": "egg", "amount": 1, "unit": "" },
+              { "name": "crab_imitation", "amount": 12, "unit": "oz" }
             ]
           },
           {
@@ -2780,17 +2779,16 @@
         "directions": [
           "Mix sauce ingredients. Heat up in microwave if needed.",
           "Cook noodle.",
-          "Heat oil in skillet, high heat. Stir fry garlic and onion 30 sec.",
-          "Add chicken til outside turns pink to white. ",
-          "Add carrot and cabbage. cook til wilted.",
-          "Add noodle and sauce. Stir fry 1-2 min. Garnish with cilantro and crushed peanut."
+          "Heat oil in skillet, high heat. Stir fry garlic and bell pepper til softer.",
+          "Add noodle and sauce. Stir fry for a bit. Crack in egg and whisk.",
+          "Add crab and peanut, quick cook, and serve."
         ]
       },
       {
         "name": "california_roll_noodle",
         "label": "california roll noodle",
         "ingredients": [
-          { "name": "crab_imitation", "amount": 8, "unit": "" },
+          { "name": "crab_imitation", "amount": 12, "unit": "oz" },
           { "name": "rice_vermicelli", "amount": 110, "unit": "g" },
           { "name": "cucumber", "amount": 1, "unit": "" },
           { "name": "avocado", "amount": 2, "unit": "" },

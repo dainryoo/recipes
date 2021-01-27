@@ -5096,20 +5096,20 @@
           }, 
           {
             "amount": 4, 
-            "calories": 90.20301818181818, 
+            "calories": 93.33333333333333, 
             "label": "imitation crab", 
             "name": "crab_imitation", 
-            "price": 1.3299998533925956, 
-            "protein": 11.59753090909091, 
+            "price": 1.33, 
+            "protein": 12.000000000000002, 
             "unit": "oz"
           }
         ], 
         "label": "kimbap [\uae40\ubc25]", 
         "name": "kimbap", 
         "nutrition": {
-          "calories": 1629.9030181818184, 
-          "price": 5.790202846249255, 
-          "protein": 57.87753090909091
+          "calories": 1633.0333333333335, 
+          "price": 5.79020299285666, 
+          "protein": 58.279999999999994
         }
       }, 
       {
@@ -11213,10 +11213,9 @@
         "directions": [
           "Mix sauce ingredients. Heat up in microwave if needed.", 
           "Cook noodle.", 
-          "Heat oil in skillet, high heat. Stir fry garlic and onion 30 sec.", 
-          "Add chicken til outside turns pink to white. ", 
-          "Add carrot and cabbage. cook til wilted.", 
-          "Add noodle and sauce. Stir fry 1-2 min. Garnish with cilantro and crushed peanut."
+          "Heat oil in skillet, high heat. Stir fry garlic and bell pepper til softer.", 
+          "Add noodle and sauce. Stir fry for a bit. Crack in egg and whisk.", 
+          "Add crab and peanut, quick cook, and serve."
         ], 
         "ingredient_categories": [
           {
@@ -11232,23 +11231,24 @@
                 "unit": "cup"
               }, 
               {
-                "amount": 1.5, 
-                "amount_in_grams": 22.5, 
-                "calories": 15.000000000000002, 
+                "amount": 1.25, 
+                "amount_in_grams": 18.75, 
+                "calories": 12.5, 
                 "label": "fish sauce", 
                 "name": "fish_sauce", 
-                "price": 1.484152112628362, 
-                "protein": 3.0, 
+                "price": 1.2367934271903016, 
+                "protein": 2.5, 
                 "unit": "tbsp"
               }, 
               {
-                "amount": 1.5, 
+                "amount": 1.25, 
                 "amount_in_grams": 22.5, 
-                "calories": 15.000000000000002, 
-                "label": "dark soy sauce", 
-                "name": "soy_sauce_dark", 
-                "price": 0.26190919634618154, 
-                "protein": 1.5, 
+                "calories": 43.75, 
+                "label": "oyster sauce", 
+                "name": "oyster_sauce", 
+                "note": "to sub 1.5 tbsp dark soy sauce", 
+                "price": 0.0, 
+                "protein": 0.0, 
                 "unit": "tbsp"
               }, 
               {
@@ -11262,24 +11262,15 @@
                 "unit": "tsp"
               }, 
               {
-                "amount": 2, 
-                "amount_in_grams": 5.333333333333333, 
-                "calories": 20.0, 
-                "label": "cornstarch", 
-                "name": "cornstarch", 
-                "price": 0.02257533813623652, 
-                "protein": 0.0, 
+                "amount": 0.5, 
+                "amount_in_grams": 1.6166666666666665, 
+                "calories": 5.3500000000000005, 
+                "label": "garlic powder", 
+                "name": "garlic_powder", 
+                "note": "to sub 2 cloves minced", 
+                "price": 0.0, 
+                "protein": 0.26666666666666666, 
                 "unit": "tsp"
-              }, 
-              {
-                "amount": 2, 
-                "calories": 8.94, 
-                "label": "garlic", 
-                "name": "garlic", 
-                "note": "minced", 
-                "price": 0.05277866556705969, 
-                "protein": 0.382, 
-                "unit": ""
               }, 
               {
                 "amount": 0.25, 
@@ -11290,16 +11281,6 @@
                 "note": "or 2 tsp fresh grated", 
                 "price": 0.03408640898799462, 
                 "protein": 0.03891666666666667, 
-                "unit": "tsp"
-              }, 
-              {
-                "amount": 1.5, 
-                "amount_in_grams": 5.0, 
-                "calories": 20.0, 
-                "label": "korean curry powder", 
-                "name": "curry_powder_korean", 
-                "price": 0.0987671043460348, 
-                "protein": 0.25, 
                 "unit": "tsp"
               }, 
               {
@@ -11343,29 +11324,37 @@
                 "calories": 4.47, 
                 "label": "garlic", 
                 "name": "garlic", 
-                "note": "finely chopped", 
+                "note": "optional. finely chopped", 
                 "price": 0.026389332783529847, 
                 "protein": 0.191, 
                 "unit": ""
               }, 
               {
                 "amount": 1, 
-                "calories": 90.0, 
-                "label": "onion", 
-                "name": "onion", 
-                "note": "sliced. originally 1/2 onion", 
-                "price": 0.49604008991597454, 
-                "protein": 2.475, 
+                "calories": 31.2, 
+                "label": "red bell pepper", 
+                "name": "bell_pepper_red", 
+                "note": "sliced. originally 1 onion", 
+                "price": 0.7910185967193408, 
+                "protein": 1.19, 
                 "unit": ""
               }, 
               {
-                "amount": 6, 
-                "calories": 225.00000000000003, 
-                "label": "chicken thigh", 
-                "name": "chicken_thigh", 
-                "note": "thinly sliced", 
-                "price": 1.87125, 
-                "protein": 30.0, 
+                "amount": 1, 
+                "calories": 60.0, 
+                "label": "egg", 
+                "name": "egg", 
+                "price": 0.22, 
+                "protein": 6.0, 
+                "unit": ""
+              }, 
+              {
+                "amount": 12, 
+                "calories": 280.0, 
+                "label": "imitation crab", 
+                "name": "crab_imitation", 
+                "price": 3.99, 
+                "protein": 36.00000000000001, 
                 "unit": "oz"
               }
             ], 
@@ -11402,9 +11391,9 @@
         "label": "vague peanut butter noodle", 
         "name": "vague_peanut_butter_noodle", 
         "nutrition": {
-          "calories": 1495.1490000000001, 
-          "price": 5.537798290910287, 
-          "protein": 67.00954666666667
+          "calories": 1534.0090000000002, 
+          "price": 7.488137807880081, 
+          "protein": 75.35921333333334
         }
       }, 
       {
@@ -11415,13 +11404,13 @@
         ], 
         "ingredients": [
           {
-            "amount": 8, 
+            "amount": 12, 
             "calories": 280.0, 
             "label": "imitation crab", 
             "name": "crab_imitation", 
-            "price": 4.128464506578891, 
-            "protein": 36.0, 
-            "unit": ""
+            "price": 3.99, 
+            "protein": 36.00000000000001, 
+            "unit": "oz"
           }, 
           {
             "amount": 110, 
@@ -11503,7 +11492,7 @@
         "name": "california_roll_noodle", 
         "nutrition": {
           "calories": 1236.357142857143, 
-          "price": 9.002103165073265, 
+          "price": 8.863638658494375, 
           "protein": 53.697142857142865
         }
       }, 

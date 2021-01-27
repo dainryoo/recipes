@@ -3298,33 +3298,27 @@
       }, 
       {
         "conversion_to_grams": {
-          "lb": 453.59237, 
-          "oz": 28.34952
+          "lb": 469.3333333333333, 
+          "oz": 29.333333333333332
         }, 
         "label": "imitation crab", 
         "name": "crab_imitation", 
         "note": "365 Stick Style Imitation Crab", 
         "per_100_gram": {
           "calories": 79.54545454545455, 
-          "price": 1.1728592348235487, 
+          "price": 1.1335227272727273, 
           "protein": 10.227272727272728
-        }, 
-        "per_unit": {
-          "avg_grams": 44.0, 
-          "calories": 35.0, 
-          "price": 0.5160580633223614, 
-          "protein": 4.5
         }, 
         "price_per_unit": {
           "price": 5.32, 
           "unit": "lb"
         }, 
         "serving_nutrition": {
-          "amount": 2, 
+          "amount": 3, 
           "calories": 70, 
           "grams": 88, 
           "protein": 9, 
-          "unit": ""
+          "unit": "oz"
         }
       }, 
       {
@@ -3334,7 +3328,6 @@
         }, 
         "label": "lump crab meat", 
         "name": "crab_meat_lump", 
-        "note": "365 Stick Style Imitation Crab", 
         "per_100_gram": {
           "calories": 119.04761904761905, 
           "price": 8.03125, 

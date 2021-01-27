@@ -1846,8 +1846,8 @@
         "label": "imitation crab",
         "note": "365 Stick Style Imitation Crab",
         "serving_nutrition": {
-          "amount": 2,
-          "unit": "",
+          "amount": 3,
+          "unit": "oz",
           "grams": 88,
           "calories": 70,
           "protein": 9
@@ -1860,7 +1860,6 @@
       {
         "name": "crab_meat_lump",
         "label": "lump crab meat",
-        "note": "365 Stick Style Imitation Crab",
         "serving_nutrition": {
           "amount": 3,
           "unit": "oz",
