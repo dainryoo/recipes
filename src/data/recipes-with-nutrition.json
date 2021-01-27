@@ -11319,12 +11319,13 @@
           {
             "ingredients": [
               {
-                "amount": 2, 
-                "amount_in_grams": 28.0, 
-                "calories": 240.00000000000006, 
+                "amount": 1, 
+                "amount_in_grams": 14.0, 
+                "calories": 120.00000000000003, 
                 "label": "canola oil", 
                 "name": "oil", 
-                "price": 0.10864381478063827, 
+                "note": "originally 2 tbsp", 
+                "price": 0.054321907390319134, 
                 "protein": 0.0, 
                 "unit": "tbsp"
               }, 
@@ -11348,33 +11349,13 @@
                 "unit": ""
               }, 
               {
-                "amount": 0.5, 
-                "calories": 45.0, 
+                "amount": 1, 
+                "calories": 90.0, 
                 "label": "onion", 
                 "name": "onion", 
-                "note": "sliced", 
-                "price": 0.24802004495798727, 
-                "protein": 1.2375, 
-                "unit": ""
-              }, 
-              {
-                "amount": 1, 
-                "calories": 49.2, 
-                "label": "carrot", 
-                "name": "carrot", 
-                "note": "shredded", 
-                "price": 0.2619091674756346, 
-                "protein": 1.12, 
-                "unit": ""
-              }, 
-              {
-                "amount": 0.25, 
-                "calories": 56.25, 
-                "label": "cabbage", 
-                "name": "cabbage", 
-                "note": "shredded", 
-                "price": 0.4910796890168148, 
-                "protein": 2.875, 
+                "note": "sliced. originally 1/2 onion", 
+                "price": 0.49604008991597454, 
+                "protein": 2.475, 
                 "unit": ""
               }, 
               {
@@ -11421,14 +11402,14 @@
         "label": "vague peanut butter noodle", 
         "name": "vague_peanut_butter_noodle", 
         "nutrition": {
-          "calories": 1675.5990000000002, 
-          "price": 6.097089009835069, 
-          "protein": 69.76704666666667
+          "calories": 1495.1490000000001, 
+          "price": 5.537798290910287, 
+          "protein": 67.00954666666667
         }
       }, 
       {
         "directions": [
-          "Cook noodle.", 
+          "Cook noodle. Drain. Toss in sugar, salt, and a splash of rice vinegar.", 
           "Cut vegetables.", 
           "Combine."
         ], 
@@ -11443,12 +11424,12 @@
             "unit": ""
           }, 
           {
-            "amount": 140, 
-            "calories": 500.0, 
+            "amount": 110, 
+            "calories": 392.8571428571429, 
             "label": "rice vermicelli noodles", 
             "name": "rice_vermicelli", 
-            "price": 0.4194796050162401, 
-            "protein": 10.0, 
+            "price": 0.32959111822704584, 
+            "protein": 7.8571428571428585, 
             "unit": "g"
           }, 
           {
@@ -11478,6 +11459,16 @@
             "price": 0.01058218975136087, 
             "protein": 0.0, 
             "unit": "tbsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 3.0, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.008465751801088694, 
+            "protein": 0.0, 
+            "unit": "tsp"
           }, 
           {
             "amount": 2, 
@@ -11511,9 +11502,9 @@
         "label": "california roll noodle", 
         "name": "california_roll_noodle", 
         "nutrition": {
-          "calories": 1343.5, 
-          "price": 9.083525900061371, 
-          "protein": 55.84
+          "calories": 1236.357142857143, 
+          "price": 9.002103165073265, 
+          "protein": 53.697142857142865
         }
       }, 
       {
@@ -12901,6 +12892,89 @@
           "calories": 501.7154166666667, 
           "price": 21.1526543624019, 
           "protein": 60.08770833333333
+        }
+      }, 
+      {
+        "directions": [
+          "Blend cream cheese with milk. Add crab meat, onion, horseradish, salt, pepper (spice to taste).", 
+          "Bake 15 min at 375F. Serve with potato chips."
+        ], 
+        "ingredients": [
+          {
+            "amount": 8, 
+            "calories": 809.9862857142858, 
+            "label": "cream cheese", 
+            "name": "cream_cheese", 
+            "price": 2.72, 
+            "protein": 16.199725714285716, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 15.0, 
+            "calories": 7.5, 
+            "label": "oat milk", 
+            "name": "milk_oat", 
+            "price": 0.026455474378402177, 
+            "protein": 0.1875, 
+            "unit": "tbsp"
+          }, 
+          {
+            "amount": 6.5, 
+            "calories": 216.66666666666669, 
+            "label": "lump crab meat", 
+            "name": "crab_meat_lump", 
+            "price": 14.616875, 
+            "protein": 43.333333333333336, 
+            "unit": "oz"
+          }, 
+          {
+            "amount": 30, 
+            "calories": 12.0, 
+            "label": "onion", 
+            "name": "onion", 
+            "note": "grated; supposed to be 2 tbsp", 
+            "price": 0.06613867865546327, 
+            "protein": 0.33, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 2.5, 
+            "calories": 0.0, 
+            "label": "horseradish", 
+            "name": "horseradish", 
+            "price": 0.03791951327570978, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.75, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.0021164379502721735, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.28750000000000003, 
+            "calories": 0.7208333333333334, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.026570114767375252, 
+            "protein": 0.029875000000000002, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "crab dip", 
+        "name": "crab_dip", 
+        "nutrition": {
+          "calories": 1046.8737857142858, 
+          "price": 17.49607521902722, 
+          "protein": 60.08043404761904
         }
       }
     ]
@@ -15316,89 +15390,6 @@
           "calories": 1397.9448611128469, 
           "price": 3.6098128754380285, 
           "protein": 151.48407638893647
-        }
-      }, 
-      {
-        "directions": [
-          "Blend cream cheese with milk. Add crab meat, onion, horseradish, salt, pepper (spice to taste).", 
-          "Bake 15 min at 375F. Serve with potato chips."
-        ], 
-        "ingredients": [
-          {
-            "amount": 8, 
-            "calories": 809.9862857142858, 
-            "label": "cream cheese", 
-            "name": "cream_cheese", 
-            "price": 2.72, 
-            "protein": 16.199725714285716, 
-            "unit": "oz"
-          }, 
-          {
-            "amount": 1, 
-            "amount_in_grams": 15.0, 
-            "calories": 7.5, 
-            "label": "oat milk", 
-            "name": "milk_oat", 
-            "price": 0.026455474378402177, 
-            "protein": 0.1875, 
-            "unit": "tbsp"
-          }, 
-          {
-            "amount": 6.5, 
-            "calories": 216.66666666666669, 
-            "label": "lump crab meat", 
-            "name": "crab_meat_lump", 
-            "price": 14.616875, 
-            "protein": 43.333333333333336, 
-            "unit": "oz"
-          }, 
-          {
-            "amount": 30, 
-            "calories": 12.0, 
-            "label": "onion", 
-            "name": "onion", 
-            "note": "grated; supposed to be 2 tbsp", 
-            "price": 0.06613867865546327, 
-            "protein": 0.33, 
-            "unit": "g"
-          }, 
-          {
-            "amount": 0.5, 
-            "amount_in_grams": 2.5, 
-            "calories": 0.0, 
-            "label": "horseradish", 
-            "name": "horseradish", 
-            "price": 0.03791951327570978, 
-            "protein": 0.0, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 0.125, 
-            "amount_in_grams": 0.75, 
-            "calories": 0.0, 
-            "label": "salt", 
-            "name": "salt", 
-            "price": 0.0021164379502721735, 
-            "protein": 0.0, 
-            "unit": "tsp"
-          }, 
-          {
-            "amount": 0.125, 
-            "amount_in_grams": 0.28750000000000003, 
-            "calories": 0.7208333333333334, 
-            "label": "black pepper", 
-            "name": "pepper_black", 
-            "price": 0.026570114767375252, 
-            "protein": 0.029875000000000002, 
-            "unit": "tsp"
-          }
-        ], 
-        "label": "crab dip", 
-        "name": "crab_dip", 
-        "nutrition": {
-          "calories": 1046.8737857142858, 
-          "price": 17.49607521902722, 
-          "protein": 60.08043404761904
         }
       }
     ]

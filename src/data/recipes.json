@@ -2761,12 +2761,10 @@
             "name": "filling",
             "label": "filling",
             "ingredients": [
-              { "name": "oil", "amount": 2, "unit": "tbsp" },
+              { "name": "oil", "note": "originally 2 tbsp", "amount": 1, "unit": "tbsp" },
               { "name": "rice_vermicelli",  "amount": 3.5, "unit": "oz" },
               { "name": "garlic", "note": "finely chopped", "amount": 1, "unit": "" },
-              { "name": "onion", "note": "sliced", "amount": 0.5, "unit": "" },
-              { "name": "carrot", "note": "shredded", "amount": 1, "unit": "" },
-              { "name": "cabbage", "note": "shredded", "amount": 0.25, "unit": "" },
+              { "name": "onion", "note": "sliced. originally 1/2 onion", "amount": 1, "unit": "" },
               { "name": "chicken_thigh", "note": "thinly sliced", "amount": 6, "unit": "oz" }
             ]
           },
@@ -2793,16 +2791,17 @@
         "label": "california roll noodle",
         "ingredients": [
           { "name": "crab_imitation", "amount": 8, "unit": "" },
-          { "name": "rice_vermicelli", "amount": 140, "unit": "g" },
+          { "name": "rice_vermicelli", "amount": 110, "unit": "g" },
           { "name": "cucumber", "amount": 1, "unit": "" },
           { "name": "avocado", "amount": 2, "unit": "" },
           { "name": "sugar", "amount": 0.5, "unit": "tbsp" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
           { "name": "vinegar_rice", "amount": 2, "unit": "tbsp" },
           { "name": "sesame_seed", "amount": 6, "unit": "g" },
           { "name": "dried_seaweed_sheet", "amount": 2, "unit": "" }
         ],
         "directions": [
-          "Cook noodle.",
+          "Cook noodle. Drain. Toss in sugar, salt, and a splash of rice vinegar.",
           "Cut vegetables.",
           "Combine."
         ]
@@ -3124,6 +3123,23 @@
         ],
         "directions": [
           "Mix. add chopped pickles if you want"
+        ]
+      },
+      {
+        "name": "crab_dip",
+        "label": "crab dip",
+        "ingredients": [
+          { "name": "cream_cheese", "amount": 8, "unit": "oz" },
+          { "name": "milk_oat", "amount": 1, "unit": "tbsp" },
+          { "name": "crab_meat_lump", "amount": 6.5, "unit": "oz" },
+          { "name": "onion", "note": "grated; supposed to be 2 tbsp", "amount": 30, "unit": "g" },
+          { "name": "horseradish", "amount": 0.5, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
+        ],
+        "directions": [
+          "Blend cream cheese with milk. Add crab meat, onion, horseradish, salt, pepper (spice to taste).",
+          "Bake 15 min at 375F. Serve with potato chips."
         ]
       }
     ]
@@ -3633,23 +3649,6 @@
           "Add garlic, ginger, pepper, thyme, tomato paste, green onion. Stir 1 min.",
           "Pour just enough water to cover goat. Bring to boil, simmer til tender (~2hr?). Stir occasionally, add more water as needed.",
           "15-20 min before cooking ends, add potatoes. Cook til potatoes are tender."
-        ]
-      },
-      {
-        "name": "crab_dip",
-        "label": "crab dip",
-        "ingredients": [
-          { "name": "cream_cheese", "amount": 8, "unit": "oz" },
-          { "name": "milk_oat", "amount": 1, "unit": "tbsp" },
-          { "name": "crab_meat_lump", "amount": 6.5, "unit": "oz" },
-          { "name": "onion", "note": "grated; supposed to be 2 tbsp", "amount": 30, "unit": "g" },
-          { "name": "horseradish", "amount": 0.5, "unit": "tsp" },
-          { "name": "salt", "amount": 0.125, "unit": "tsp" },
-          { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
-        ],
-        "directions": [
-          "Blend cream cheese with milk. Add crab meat, onion, horseradish, salt, pepper (spice to taste).",
-          "Bake 15 min at 375F. Serve with potato chips."
         ]
       }
     ]
