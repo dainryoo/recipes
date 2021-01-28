@@ -3343,7 +3343,7 @@
             "name": "fillings",
             "label": "fillings",
             "ingredients": [
-              { "name": "oil", "note": "or olive oil", "amount": 2, "unit": "tbsp" },
+              { "name": "oil_olive", "note": "or canola oil", "amount": 2, "unit": "tbsp" },
               { "name": "chicken_thigh", "note": "cut into 1\" pieces", "amount": 1, "unit": "lb" },
               { "name": "shrimp", "note": "cut into pieces", "amount": 8, "unit": "" },
               { "name": "onion", "note": "diced", "amount": 1, "unit": "" },
@@ -3381,6 +3381,8 @@
           }
         ],
         "directions": [
+          "(1) Chicken. (2) Onion, bell pepper, celery. (3) Sausage, garlic. (4) Tomato, spices, ketchup, soy sauce. (5) Broth, rice. (6) Shrimp.",
+          "",
           "Heat oil over med heat in large pot or Dutch oven.",
           "Add chicken if using, cook til golden (~5 min)",
           "Add onion, bell pepper, celery, cook til tender (~5 min)",
