@@ -7,9 +7,9 @@
         "label": "syrniki",
         "ingredients": [
           { "name": "egg", "amount": 1, "unit": "" },
-          { "name": "sugar", "amount": 3, "unit": "tbsp" },
+          { "name": "sugar", "amount": 2, "unit": "tbsp" },
           { "name": "farmers_cheese", "amount": 1, "unit": "cup" },
-          { "name": "flour", "amount": 5, "unit": "tbsp" },
+          { "name": "flour", "amount": 6, "unit": "tbsp" },
           { "name": "salt", "amount": 0.25, "unit": "tsp" },
           { "name": "oil", "amount": 1, "unit": "tsp" }
         ],
@@ -469,7 +469,7 @@
             "label": "filling",
             "ingredients": [
               { "name": "sugar", "amount": 0.25, "unit": "cup" },
-              { "name": "apple_granny_smith", "noted": "thinly sliced, 2\" length pieces", "amount": 2, "unit": "" },
+              { "name": "apple", "noted": "thinly sliced, 2\" length pieces", "amount": 2, "unit": "" },
               { "name": "lemon_zest", "amount": 0.75, "unit": "tsp" },
               { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
               { "name": "nutmeg", "amount": 0.125, "unit": "tsp" },
@@ -1033,6 +1033,37 @@
           "Mix sugar + cornstarch. Beat yolk + sugar til thick and creamy.",
           "In a small saucepan, milk+vanilla, bring to simmer medium heat, stirring constantly. ",
           "Slowly pour into beaten egg mix while stirring. Pour everything back into the pot, stir constantly, over med low heat, til thickened (4-6min)"
+        ]
+      },
+      {
+        "name": "tofu_cheesecake",
+        "label": "tofu cheesecake",
+        "ingredient_categories": [
+          {
+            "name": "filling",
+            "label": "filling",
+            "ingredients": [
+              { "name": "tofu_silken", "amount": 16, "unit": "oz" },
+              { "name": "tahini", "amount": 10, "unit": "g" },
+              { "name": "soy_sauce_dark", "amount": 2, "unit": "g" },
+              { "name": "shaoxing_wine", "amount": 1, "unit": "g" },
+              { "name": "maple_syrup", "amount": 60, "unit": "g" },
+              { "name": "flour", "amount": 23, "unit": "g" },
+              { "name": "lemon_juice", "amount": 2, "unit": "tbsp" },
+              { "name": "vanilla_extract", "amount": 2, "unit": "tsp" }
+            ]
+          },
+          {
+            "name": "crust_and_topping",
+            "label": "crust and topping",
+            "ingredients": [
+              { "name": "cookie_crumbs", "note": "15 rock n rolls", "amount": 50, "unit": "g" },
+              { "name": "butter", "note": "melted", "amount": 21 , "unit": "g" }
+            ]
+          }
+        ],
+        "directions": [
+          "Blend all. Pour into pressed crust. Bake at 350F for 1 hr, let cool and sit overnight"
         ]
       },
       {
@@ -2555,7 +2586,7 @@
         "name": "pad_thai",
         "label": "pad thai",
         "ingredients": [
-          { "name": "noodle", "amount": 4, "unit": "oz" },
+          { "name": "rice_flakes", "amount": 4, "unit": "oz" },
           { "name": "garlic", "amount": 1, "unit": "" },
           { "name": "oil", "amount": 1, "unit": "tbsp" },
           { "name": "egg", "amount": 1, "unit": "" },
@@ -3052,14 +3083,14 @@
           { "name": "basil_fresh", "note": "1.6oz ok...", "amount": 3, "unit": "oz" },
           { "name": "cheese_parmesan", "note": "grated", "amount": 0.25, "unit": "cup" },
           { "name": "lemon_juice", "amount": 1, "unit": "tbsp" },
-          { "name": "garlic", "amount": 2, "unit": "" },
+          { "name": "garlic", "amount": 1, "unit": "" },
           { "name": "salt", "amount": 0.5, "unit": "tsp" },
-          { "name": "oil_olive", "amount": 0.5, "unit": "cup" }
+          { "name": "oil_olive", "note": "originally 1/2 c...", "amount": 0.35, "unit": "cup" }
         ],
         "directions": [
-          "Makes 1 cup pesto (good for use with 12oz pasta)",
+          "Makes 1 cup (good for use with 12oz pasta)",
           "Blend. Store covered in fridge up to a week.",
-          "For pesto pasta: Cook pasta. Cook chicken. Combine."
+          "Cook pasta. Cook chicken. Combine."
         ]
       },
       {
@@ -3177,7 +3208,7 @@
           "Let rest and rise 3-4 hrs at room temp or 8-24 hrs in fridge (if so, take out 30-45 min before shaping).",
           "Can also rise for a bit room temp, then the rest in fridge. If 4+ hrs, just rise it in fridge.",
           "Can freeze for a month; just punch down, roll into ball, tight wrap. Let thaw in fridge overnight and then roll out.",
-          "475F 8 min."
+          "475F 10-15 min."
         ]
       },
       {
@@ -3349,7 +3380,7 @@
               { "name": "onion", "note": "diced", "amount": 1, "unit": "" },
               { "name": "bell_pepper_green", "note": "diced; up to 2", "amount": 1, "unit": "" },
               { "name": "celery", "note": "diced", "amount": 2, "unit": "" },
-              { "name": "andouille_sausage", "note": "sliced; up to 14 oz", "amount": 6, "unit": "oz" },
+              { "name": "chicken_sausage", "note": "sliced", "amount": 12, "unit": "oz" },
               { "name": "garlic", "note": "minced", "amount": 3, "unit": "" },
               { "name": "canned_tomato_crushed", "amount": 16, "unit": "oz" }
             ]
@@ -3426,11 +3457,12 @@
           { "name": "bell_pepper_green", "note": "diced", "amount": 1, "unit": "" },
           { "name": "garlic", "amount": 4, "unit": "" },
           { "name": "tomato_plum", "note": "very finely diced (or sub 8oz tomato sauce)", "amount": 3, "unit": "" },
-          { "name": "bay_leaf", "amount": 1, "unit": "" },
+          { "name": "bay_leaf", "note": "optional?", "amount": 1, "unit": "" },
           { "name": "paprika", "amount": 1, "unit": "tsp" },
           { "name": "saffron_thread", "note": "1 pinch; or use 1 tsp saffron powder if really needed", "amount": 0.25, "unit": "tsp" },
           { "name": "salt", "amount": 0.125, "unit": "tsp" },
           { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+          { "name": "thyme_dried", "amount": 0.125, "unit": "tsp" },
           { "name": "vinegar_white_wine", "note": "to sub for original white wine", "amount": 0.25, "unit": "cup" },
           { "name": "chicken_thigh", "note": "cut into pieces; up to 1.5lb", "amount": 1, "unit": "lb" },
           { "name": "parsley_dried", "note": "to sub for original 4 tbsp fresh chopped parsley", "amount": 1, "unit": "tbsp" },
@@ -3441,6 +3473,21 @@
           { "name": "mussels", "note": "cleaned properly (beards off); use about 10-12", "amount": 0.5, "unit": "lb" }
         ],
         "directions": [
+          "(1) Diced onion, bell pepper, garlic. (2) Chicken, rice. (3) Water, wine, spices. (4) Tomato, peas. (5) Seafood. (6) Parsley.",
+          "",
+          "Heat oil in skillet med heat. Add onion, garlic, pepper, cook for a few min.",
+          "Add chicken + rice, cook 2-3 min.",
+          "Stir in water, wine, thyme, saffron, salt, pepper. Bring to boil. Simmer 15 min, stirring occassionally.",
+          "At this point, taste rice and see if cooked. If uncooked, stir in 1/2c more water, continue cooking while stirring occasionally. Use up to 2c additional water if necessary.",
+          "Cook till rice is done.",
+          "Stir in tomatoes and peas (and raw squid, if using). Cook for 2 min. ",
+          "Arrange seafood (i.e. shrimp, mussels) on top. Cover, leave for 3-5 min.",
+          "Serve with parsely garnish.",
+          "",
+          "",
+          "",
+          "OLD STEPS:::",
+          "",
           "(1) Diced onion, bell pepper, garlic. (2) Diced tomato, bayleaf, paprika, saffron, salt, pepper, chicken. (3) White wine. (4) Parsley, rice. (5) Seafood, peas.",
           "",
           "Don't wash rice before cooking.",
@@ -3470,7 +3517,7 @@
           { "name": "coriander_ground", "amount": 0.5, "unit": "tsp" },
           { "name": "paprika", "amount": 1, "unit": "tsp" },
           { "name": "cayenne_pepper", "amount": 0.125, "unit": "tsp" },
-          { "name": "canned_tomato_whole", "note": "chopped and with juices; alt. 6 chopped tomatoes + 1/2c tomato sauce", "amount": 28, "unit": "oz" },
+          { "name": "canned_tomato_crushed", "note": "alt. 6 chopped tomatoes + 1/2c tomato sauce", "amount": 28, "unit": "oz" },
           { "name": "salt", "amount": 0.75, "unit": "tsp" },
           { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
           { "name": "gochugaru", "amount": 0.125, "unit": "tsp" },
@@ -3649,6 +3696,72 @@
           "Add garlic, ginger, pepper, thyme, tomato paste, green onion. Stir 1 min.",
           "Pour just enough water to cover goat. Bring to boil, simmer til tender (~2hr?). Stir occasionally, add more water as needed.",
           "15-20 min before cooking ends, add potatoes. Cook til potatoes are tender."
+        ]
+      },
+      {
+        "name": "arroz_de_tamboril",
+        "label": "arroz de tamboril",
+        "ingredients": [
+          { "name": "monkfish", "amount": 1, "unit": "lb" },
+          { "name": "onion", "amount": 0.5, "unit": "" },
+          { "name": "tomato_plum", "amount": 2, "unit": "" },
+          { "name": "bell_pepper_green", "amount": 1, "unit": "" },
+          { "name": "garlic", "amount": 1, "unit": "" },
+          { "name": "bay_leaf", "amount": 2, "unit": "" },
+          { "name": "oil_olive", "amount": 0.25, "unit": "cup" },
+          { "name": "vinegar_white_wine", "amount": 50, "unit": "g" },
+          { "name": "clam", "amount": 0.5, "unit": "lb" },
+          { "name": "shrimp", "amount": 6, "unit": "" },
+          { "name": "rice_white", "amount": 190, "unit": "g" },
+          { "name": "water", "amount": 500, "unit": "ml" },
+          { "name": "salt", "amount": 1, "unit": "tsp" },
+          { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
+          { "name": "paprika", "amount": 0.5, "unit": "tsp" },
+          { "name": "cayenne_pepper", "amount": 0.5, "unit": "tsp" }
+        ],
+        "directions": [
+          "(1) Onion, garlic, peppers, bay leaf. (2) Tomato. (3) Fish, spices, wine. (4) Water. (5) Rice. (6) Seafoods.",
+          "",
+          "Large pot (dutch oven), oil + onion, garlic, peppers, bay leaf. Stir and cook 5 min. Med heat.",
+          "Add tomato. Cook another 5 min.",
+          "Add fish, season with the spices, pour in wine. Bring to boil.",
+          "When starting to boil, turn fish pieces over, and let cook another 5 min.",
+          "Add water, and bring to boil.",
+          "Once boiling, stir in rice. Cook for 10 min.",
+          "Add (raw..) seafoods and cook for another 7 min, til everything is cooked."
+        ]
+      },
+      {
+        "name": "salmon_boats",
+        "label": "salmon boats",
+        "ingredient_categories": [
+          {
+            "name": "marinade",
+            "label": "marinade",
+            "ingredients": [
+              { "name": "salt", "amount": 0.25, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
+              { "name": "garlic", "amount": 2, "unit": "" },
+              { "name": "lemon_juice", "amount": 1, "unit": "tbsp" },
+              { "name": "oil_olive", "amount": 2, "unit": "tbsp" }
+            ]
+          },
+          {
+            "name": "boat",
+            "label": "boat",
+            "ingredients": [
+              { "name": "salmon_king", "amount": 1, "unit": "lb" },
+              { "name": "butter", "amount": 1, "unit": "tbsp" },
+              { "name": "green_onion", "amount": 1, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "Make marinade, brush a little on foil.",
+          "Place salmon on foil. Brush salmon with marinade.",
+          "Place slices of butter, then 2 slices lemon, then scallion cut lengthwise on top.",
+          "Wrap salmon with foil (allow for space, should be loose tight on edges)",
+          "Bake 385F 20 min (check middle before serving, may need extra time depending on size; skin at bottom should come off easy)"
         ]
       }
     ]

@@ -19,12 +19,12 @@
             "unit": ""
           }, 
           {
-            "amount": 3, 
-            "amount_in_grams": 36.0, 
-            "calories": 135.0, 
+            "amount": 2, 
+            "amount_in_grams": 24.0, 
+            "calories": 90.0, 
             "label": "sugar", 
             "name": "sugar", 
-            "price": 0.06349313850816522, 
+            "price": 0.04232875900544348, 
             "protein": 0.0, 
             "unit": "tbsp"
           }, 
@@ -39,13 +39,13 @@
             "unit": "cup"
           }, 
           {
-            "amount": 5, 
-            "amount_in_grams": 37.5, 
-            "calories": 137.5, 
+            "amount": 6, 
+            "amount_in_grams": 45.0, 
+            "calories": 165.0, 
             "label": "flour", 
             "name": "flour", 
-            "price": 0.07936642313520652, 
-            "protein": 3.75, 
+            "price": 0.09523970776224783, 
+            "protein": 4.5, 
             "unit": "tbsp"
           }, 
           {
@@ -72,9 +72,9 @@
         "label": "syrniki", 
         "name": "syrniki", 
         "nutrition": {
-          "calories": 692.5, 
-          "price": 3.0236923846800003, 
-          "protein": 33.75
+          "calories": 675.0, 
+          "price": 3.0184012898043195, 
+          "protein": 34.5
         }
       }, 
       {
@@ -1934,12 +1934,12 @@
               }, 
               {
                 "amount": 2, 
-                "calories": 236.0, 
-                "label": "granny smith apple", 
-                "name": "apple_granny_smith", 
+                "calories": 252.0, 
+                "label": "apple", 
+                "name": "apple", 
                 "noted": "thinly sliced, 2\" length pieces", 
-                "price": 2.1958041313613808, 
-                "protein": 1.08, 
+                "price": 3.7239603479220786, 
+                "protein": 1.258, 
                 "unit": ""
               }, 
               {
@@ -2010,9 +2010,9 @@
         "label": "apple pie", 
         "name": "apple_pie", 
         "nutrition": {
-          "calories": 1342.3453666666665, 
-          "price": 3.656014434745706, 
-          "protein": 15.385426666666666
+          "calories": 1358.3453666666665, 
+          "price": 5.184170651306404, 
+          "protein": 15.563426666666667
         }
       }, 
       {
@@ -4092,6 +4092,126 @@
           "calories": 1640.0555509333335, 
           "price": 2.3716428218185004, 
           "protein": 36.63749999
+        }
+      }, 
+      {
+        "directions": [
+          "Blend all. Pour into pressed crust. Bake at 350F for 1 hr, let cool and sit overnight"
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 16, 
+                "calories": 186.66666666666669, 
+                "label": "silken tofu", 
+                "name": "tofu_silken", 
+                "price": 2.72, 
+                "protein": 21.333333333333332, 
+                "unit": "oz"
+              }, 
+              {
+                "amount": 10, 
+                "calories": 70.0, 
+                "label": "tahini", 
+                "name": "tahini", 
+                "price": 0.21517119161100437, 
+                "protein": 2.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 2, 
+                "calories": 1.3333333333333335, 
+                "label": "dark soy sauce", 
+                "name": "soy_sauce_dark", 
+                "price": 0.023280817452993915, 
+                "protein": 0.13333333333333333, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 1.35, 
+                "label": "shaoxing wine", 
+                "name": "shaoxing_wine", 
+                "price": 0.026102734720023477, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 60, 
+                "calories": 220.0, 
+                "label": "maple syrup", 
+                "name": "maple_syrup", 
+                "price": 1.2486983906605826, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 23, 
+                "calories": 84.33333333333334, 
+                "label": "flour", 
+                "name": "flour", 
+                "price": 0.04867807285626, 
+                "protein": 2.3000000000000003, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 30.5, 
+                "calories": 6.625, 
+                "label": "lemon juice", 
+                "name": "lemon_juice", 
+                "price": 0.395, 
+                "protein": 0.1125, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 8.666666666666666, 
+                "calories": 25.333333333333332, 
+                "label": "vanilla extract", 
+                "name": "vanilla_extract", 
+                "price": 1.1464038897307607, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }
+            ], 
+            "label": "filling", 
+            "name": "filling"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 50, 
+                "calories": 0.0, 
+                "label": "cookie_crumbs", 
+                "name": "cookie_crumbs", 
+                "note": "15 rock n rolls", 
+                "price": 0.0, 
+                "protein": 0.0, 
+                "unit": "g"
+              }, 
+              {
+                "amount": 21, 
+                "calories": 150.0, 
+                "label": "butter", 
+                "name": "butter", 
+                "note": "melted", 
+                "price": 0.2740787145602465, 
+                "protein": 0.0, 
+                "unit": "g"
+              }
+            ], 
+            "label": "crust and topping", 
+            "name": "crust_and_topping"
+          }
+        ], 
+        "label": "tofu cheesecake", 
+        "name": "tofu_cheesecake", 
+        "nutrition": {
+          "calories": 745.6416666666668, 
+          "price": 6.0974138115918715, 
+          "protein": 25.879166666666666
         }
       }, 
       {
@@ -9054,11 +9174,11 @@
           {
             "amount": 2, 
             "amount_in_grams": 30.0, 
-            "calories": 68.0, 
+            "calories": 80.0, 
             "label": "douchi", 
             "name": "douchi", 
             "price": 0.5079451080653217, 
-            "protein": 8.4, 
+            "protein": 8.0, 
             "unit": "tbsp"
           }, 
           {
@@ -9104,9 +9224,9 @@
         "label": "mapo tofu", 
         "name": "mapo_tofu", 
         "nutrition": {
-          "calories": 1072.1586666666667, 
+          "calories": 1084.1586666666667, 
           "price": 10.858726720364913, 
-          "protein": 79.303
+          "protein": 78.903
         }
       }, 
       {
@@ -9219,11 +9339,11 @@
               {
                 "amount": 3, 
                 "amount_in_grams": 45.0, 
-                "calories": 102.00000000000001, 
+                "calories": 120.00000000000001, 
                 "label": "douchi", 
                 "name": "douchi", 
                 "price": 0.7619176620979826, 
-                "protein": 12.600000000000001, 
+                "protein": 12.0, 
                 "unit": "tbsp"
               }
             ], 
@@ -9331,9 +9451,9 @@
         "label": "chicken black bean stirfry", 
         "name": "chicken_black_bean_stirfry", 
         "nutrition": {
-          "calories": 1219.8733333333334, 
+          "calories": 1237.8733333333334, 
           "price": 9.317318748521295, 
-          "protein": 87.74436231884057
+          "protein": 87.14436231884056
         }
       }, 
       {
@@ -10438,11 +10558,11 @@
         "ingredients": [
           {
             "amount": 4, 
-            "calories": 0.0, 
-            "label": "noodle", 
-            "name": "noodle", 
-            "price": 0.0, 
-            "protein": 0.0, 
+            "calories": 391.7388218181818, 
+            "label": "thai rice flakes", 
+            "name": "rice_flakes", 
+            "price": 1.945, 
+            "protein": 8.24713309090909, 
             "unit": "oz"
           }, 
           {
@@ -10545,9 +10665,9 @@
         "label": "pad thai", 
         "name": "pad_thai", 
         "nutrition": {
-          "calories": 777.7557142857142, 
-          "price": 5.058961736125809, 
-          "protein": 56.33385714285714
+          "calories": 1169.4945361038963, 
+          "price": 7.0039617361258095, 
+          "protein": 64.58099023376623
         }
       }, 
       {
@@ -12481,9 +12601,9 @@
       }, 
       {
         "directions": [
-          "Makes 1 cup pesto (good for use with 12oz pasta)", 
+          "Makes 1 cup (good for use with 12oz pasta)", 
           "Blend. Store covered in fridge up to a week.", 
-          "For pesto pasta: Cook pasta. Cook chicken. Combine."
+          "Cook pasta. Cook chicken. Combine."
         ], 
         "ingredients": [
           {
@@ -12528,12 +12648,12 @@
             "unit": "tbsp"
           }, 
           {
-            "amount": 2, 
-            "calories": 8.94, 
+            "amount": 1, 
+            "calories": 4.47, 
             "label": "garlic", 
             "name": "garlic", 
-            "price": 0.05277866556705969, 
-            "protein": 0.382, 
+            "price": 0.026389332783529847, 
+            "protein": 0.191, 
             "unit": ""
           }, 
           {
@@ -12547,12 +12667,13 @@
             "unit": "tsp"
           }, 
           {
-            "amount": 0.5, 
-            "amount_in_grams": 120.0, 
-            "calories": 960.0, 
+            "amount": 0.35, 
+            "amount_in_grams": 84.0, 
+            "calories": 672.0, 
             "label": "olive oil", 
             "name": "oil_olive", 
-            "price": 1.3968490471796349, 
+            "note": "originally 1/2 c...", 
+            "price": 0.9777943330257445, 
             "protein": 0.0, 
             "unit": "cup"
           }
@@ -12560,9 +12681,9 @@
         "label": "pesto", 
         "name": "pesto", 
         "nutrition": {
-          "calories": 1330.6136688, 
-          "price": 19.63312980053551, 
-          "protein": 15.997279640000002
+          "calories": 1038.1436688, 
+          "price": 19.18768575359809, 
+          "protein": 15.806279640000003
         }
       }, 
       {
@@ -13887,12 +14008,12 @@
               }, 
               {
                 "amount": 8, 
-                "calories": 120.0, 
+                "calories": 160.0, 
                 "label": "shrimp", 
                 "name": "shrimp", 
                 "note": "cut into pieces", 
-                "price": 7.495716914285837, 
-                "protein": 26.0, 
+                "price": 9.994289219047783, 
+                "protein": 34.666666666666664, 
                 "unit": ""
               }, 
               {
@@ -13926,13 +14047,13 @@
                 "unit": ""
               }, 
               {
-                "amount": 6, 
-                "calories": 0.0, 
-                "label": "andouille_sausage", 
-                "name": "andouille_sausage", 
-                "note": "sliced; up to 14 oz", 
-                "price": 0.0, 
-                "protein": 0.0, 
+                "amount": 12, 
+                "calories": 600.0, 
+                "label": "chicken sausage", 
+                "name": "chicken_sausage", 
+                "note": "sliced", 
+                "price": 3.9318750000000002, 
+                "protein": 60.0, 
                 "unit": "oz"
               }, 
               {
@@ -14106,9 +14227,9 @@
         "label": "jambalaya", 
         "name": "jambalaya", 
         "nutrition": {
-          "calories": 1879.0266668160002, 
-          "price": 17.25485187207568, 
-          "protein": 123.66574999999999
+          "calories": 2519.026666816, 
+          "price": 23.685299176837624, 
+          "protein": 192.33241666666672
         }
       }, 
       {
@@ -14215,6 +14336,21 @@
       }, 
       {
         "directions": [
+          "(1) Diced onion, bell pepper, garlic. (2) Chicken, rice. (3) Water, wine, spices. (4) Tomato, peas. (5) Seafood. (6) Parsley.", 
+          "", 
+          "Heat oil in skillet med heat. Add onion, garlic, pepper, cook for a few min.", 
+          "Add chicken + rice, cook 2-3 min.", 
+          "Stir in water, wine, thyme, saffron, salt, pepper. Bring to boil. Simmer 15 min, stirring occassionally.", 
+          "At this point, taste rice and see if cooked. If uncooked, stir in 1/2c more water, continue cooking while stirring occasionally. Use up to 2c additional water if necessary.", 
+          "Cook till rice is done.", 
+          "Stir in tomatoes and peas (and raw squid, if using). Cook for 2 min. ", 
+          "Arrange seafood (i.e. shrimp, mussels) on top. Cover, leave for 3-5 min.", 
+          "Serve with parsely garnish.", 
+          "", 
+          "", 
+          "", 
+          "OLD STEPS:::", 
+          "", 
           "(1) Diced onion, bell pepper, garlic. (2) Diced tomato, bayleaf, paprika, saffron, salt, pepper, chicken. (3) White wine. (4) Parsley, rice. (5) Seafood, peas.", 
           "", 
           "Don't wash rice before cooking.", 
@@ -14285,6 +14421,7 @@
             "calories": 0.0, 
             "label": "bay leaf", 
             "name": "bay_leaf", 
+            "note": "optional?", 
             "price": 0.3515050695743703, 
             "protein": 0.0, 
             "unit": ""
@@ -14328,6 +14465,16 @@
             "name": "pepper_black", 
             "price": 0.026570114767375252, 
             "protein": 0.029875000000000002, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.125, 
+            "amount_in_grams": 0.1125, 
+            "calories": 0.3104166666666667, 
+            "label": "dried thyme", 
+            "name": "thyme_dried", 
+            "price": 0.027936980943592697, 
+            "protein": 0.01025, 
             "unit": "tsp"
           }, 
           {
@@ -14417,9 +14564,9 @@
         "label": "paella", 
         "name": "paella", 
         "nutrition": {
-          "calories": 2326.7047403921574, 
-          "price": 28.397813324141854, 
-          "protein": 175.33601319607845
+          "calories": 2327.015157058824, 
+          "price": 28.42575030508544, 
+          "protein": 175.34626319607844
         }
       }, 
       {
@@ -14526,11 +14673,11 @@
           }, 
           {
             "amount": 28, 
-            "calories": 140.00000000000003, 
-            "label": "canned whole tomato", 
-            "name": "canned_tomato_whole", 
-            "note": "chopped and with juices; alt. 6 chopped tomatoes + 1/2c tomato sauce", 
-            "price": 1.9600000000000004, 
+            "calories": 196.00000026133335, 
+            "label": "canned crushed tomato", 
+            "name": "canned_tomato_crushed", 
+            "note": "alt. 6 chopped tomatoes + 1/2c tomato sauce", 
+            "price": 2.8000000000000003, 
             "protein": 0.0, 
             "unit": "oz"
           }, 
@@ -14577,8 +14724,8 @@
         "label": "shakshuka", 
         "name": "shakshuka", 
         "nutrition": {
-          "calories": 1484.6558333333332, 
-          "price": 11.029455339018856, 
+          "calories": 1540.6558335946665, 
+          "price": 11.869455339018856, 
           "protein": 80.78495833333335
         }
       }, 
@@ -15381,6 +15528,284 @@
           "calories": 1397.9448611128469, 
           "price": 3.6098128754380285, 
           "protein": 151.48407638893647
+        }
+      }, 
+      {
+        "directions": [
+          "(1) Onion, garlic, peppers, bay leaf. (2) Tomato. (3) Fish, spices, wine. (4) Water. (5) Rice. (6) Seafoods.", 
+          "", 
+          "Large pot (dutch oven), oil + onion, garlic, peppers, bay leaf. Stir and cook 5 min. Med heat.", 
+          "Add tomato. Cook another 5 min.", 
+          "Add fish, season with the spices, pour in wine. Bring to boil.", 
+          "When starting to boil, turn fish pieces over, and let cook another 5 min.", 
+          "Add water, and bring to boil.", 
+          "Once boiling, stir in rice. Cook for 10 min.", 
+          "Add (raw..) seafoods and cook for another 7 min, til everything is cooked."
+        ], 
+        "ingredients": [
+          {
+            "amount": 1, 
+            "calories": 344.5333333333333, 
+            "label": "monkfish", 
+            "name": "monkfish", 
+            "price": 17.99, 
+            "protein": 65.60000000000001, 
+            "unit": "lb"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 45.0, 
+            "label": "onion", 
+            "name": "onion", 
+            "price": 0.24802004495798727, 
+            "protein": 1.2375, 
+            "unit": ""
+          }, 
+          {
+            "amount": 2, 
+            "calories": 21.6, 
+            "label": "plum (roma) tomato", 
+            "name": "tomato_plum", 
+            "price": 0.5264638820974876, 
+            "protein": 1.056, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 24.0, 
+            "label": "green bell pepper", 
+            "name": "bell_pepper_green", 
+            "price": 0.473552939173117, 
+            "protein": 1.03, 
+            "unit": ""
+          }, 
+          {
+            "amount": 1, 
+            "calories": 4.47, 
+            "label": "garlic", 
+            "name": "garlic", 
+            "price": 0.026389332783529847, 
+            "protein": 0.191, 
+            "unit": ""
+          }, 
+          {
+            "amount": 2, 
+            "calories": 0.0, 
+            "label": "bay leaf", 
+            "name": "bay_leaf", 
+            "price": 0.7030101391487406, 
+            "protein": 0.0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 0.25, 
+            "amount_in_grams": 60.0, 
+            "calories": 480.0, 
+            "label": "olive oil", 
+            "name": "oil_olive", 
+            "price": 0.6984245235898174, 
+            "protein": 0.0, 
+            "unit": "cup"
+          }, 
+          {
+            "amount": 50, 
+            "calories": 0.0, 
+            "label": "white wine vinegar", 
+            "name": "vinegar_white_wine", 
+            "price": 0.2645547437840217, 
+            "protein": 0.0, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 0.5, 
+            "calories": 29.250000000000004, 
+            "label": "clam", 
+            "name": "clam", 
+            "price": 4.995000000000001, 
+            "protein": 4.990000000000001, 
+            "unit": "lb"
+          }, 
+          {
+            "amount": 6, 
+            "calories": 120.0, 
+            "label": "shrimp", 
+            "name": "shrimp", 
+            "price": 7.495716914285837, 
+            "protein": 26.0, 
+            "unit": ""
+          }, 
+          {
+            "amount": 190, 
+            "calories": 633.3333333333334, 
+            "label": "white rice", 
+            "name": "rice_white", 
+            "price": 0.6702053509195218, 
+            "protein": 12.666666666666666, 
+            "unit": "g"
+          }, 
+          {
+            "amount": 500, 
+            "calories": 0.0, 
+            "label": "water", 
+            "name": "water", 
+            "price": 0.0, 
+            "protein": 0.0, 
+            "unit": "ml"
+          }, 
+          {
+            "amount": 1, 
+            "amount_in_grams": 6.0, 
+            "calories": 0.0, 
+            "label": "salt", 
+            "name": "salt", 
+            "price": 0.01693150360217739, 
+            "protein": 0.0, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 1.1500000000000001, 
+            "calories": 2.8833333333333337, 
+            "label": "black pepper", 
+            "name": "pepper_black", 
+            "price": 0.10628045906950101, 
+            "protein": 0.11950000000000001, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 1.1333333333333333, 
+            "calories": 3.2, 
+            "label": "paprika", 
+            "name": "paprika", 
+            "price": 0.6648201921349403, 
+            "protein": 0.16033333333333333, 
+            "unit": "tsp"
+          }, 
+          {
+            "amount": 0.5, 
+            "amount_in_grams": 0.8833333333333333, 
+            "calories": 2.816666666666667, 
+            "label": "cayenne pepper", 
+            "name": "cayenne_pepper", 
+            "price": 0.059201472664557754, 
+            "protein": 0.10616666666666669, 
+            "unit": "tsp"
+          }
+        ], 
+        "label": "arroz de tamboril", 
+        "name": "arroz_de_tamboril", 
+        "nutrition": {
+          "calories": 1711.086666666667, 
+          "price": 34.93857149821124, 
+          "protein": 113.15716666666667
+        }
+      }, 
+      {
+        "directions": [
+          "Make marinade, brush a little on foil.", 
+          "Place salmon on foil. Brush salmon with marinade.", 
+          "Place slices of butter, then 2 slices lemon, then scallion cut lengthwise on top.", 
+          "Wrap salmon with foil (allow for space, should be loose tight on edges)", 
+          "Bake 385F 20 min (check middle before serving, may need extra time depending on size; skin at bottom should come off easy)"
+        ], 
+        "ingredient_categories": [
+          {
+            "ingredients": [
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 1.5, 
+                "calories": 0.0, 
+                "label": "salt", 
+                "name": "salt", 
+                "price": 0.004232875900544347, 
+                "protein": 0.0, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 0.25, 
+                "amount_in_grams": 0.5750000000000001, 
+                "calories": 1.4416666666666669, 
+                "label": "black pepper", 
+                "name": "pepper_black", 
+                "price": 0.053140229534750505, 
+                "protein": 0.059750000000000004, 
+                "unit": "tsp"
+              }, 
+              {
+                "amount": 2, 
+                "calories": 8.94, 
+                "label": "garlic", 
+                "name": "garlic", 
+                "price": 0.05277866556705969, 
+                "protein": 0.382, 
+                "unit": ""
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 15.25, 
+                "calories": 3.3125, 
+                "label": "lemon juice", 
+                "name": "lemon_juice", 
+                "price": 0.1975, 
+                "protein": 0.05625, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 2, 
+                "amount_in_grams": 30.0, 
+                "calories": 240.0, 
+                "label": "olive oil", 
+                "name": "oil_olive", 
+                "price": 0.3492122617949087, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }
+            ], 
+            "label": "marinade", 
+            "name": "marinade"
+          }, 
+          {
+            "ingredients": [
+              {
+                "amount": 1, 
+                "calories": 645.3333333333333, 
+                "label": "king salmon", 
+                "name": "salmon_king", 
+                "price": 27.990000000000002, 
+                "protein": 90.66666666666666, 
+                "unit": "lb"
+              }, 
+              {
+                "amount": 1, 
+                "amount_in_grams": 14.0, 
+                "calories": 100.00000000000001, 
+                "label": "butter", 
+                "name": "butter", 
+                "price": 0.18271914304016434, 
+                "protein": 0.0, 
+                "unit": "tbsp"
+              }, 
+              {
+                "amount": 1, 
+                "calories": 4.8, 
+                "label": "green onion", 
+                "name": "green_onion", 
+                "price": 0.184285714, 
+                "protein": 0.275, 
+                "unit": ""
+              }
+            ], 
+            "label": "boat", 
+            "name": "boat"
+          }
+        ], 
+        "label": "salmon boats", 
+        "name": "salmon_boats", 
+        "nutrition": {
+          "calories": 1003.8274999999999, 
+          "price": 29.01386888983743, 
+          "protein": 91.43966666666667
         }
       }
     ]

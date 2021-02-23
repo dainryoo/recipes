@@ -3,17 +3,17 @@
     "category_name": "fruits",
     "items": [
       {
-        "name": "apple_granny_smith",
-        "label": "granny smith apple",
+        "name": "apple",
+        "label": "apple",
         "serving_nutrition": {
           "amount": 1,
           "unit": "",
-          "grams": 200,
-          "calories": 118,
-          "protein": 0.54
+          "grams": 242,
+          "calories": 126,
+          "protein": 0.629
         },
         "price_per_unit": {
-          "price": 2.49,
+          "price": 3.49,
           "unit": "lb"
         }
       },
@@ -158,6 +158,21 @@
         "price_per_unit": {
           "price": 0.25,
           "unit": "tbsp"
+        }
+      },
+      {
+        "name": "orange",
+        "label": "orange",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 154,
+          "calories": 72.4,
+          "protein": 1.45
+        },
+        "price_per_unit": {
+          "price": 1.99,
+          "unit": "lb"
         }
       },
       {
@@ -330,6 +345,22 @@
         },
         "price_per_unit": {
           "price": 3.32,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "brussel_sprouts",
+        "label": "brussel sprouts",
+        "note": "400F for 35-40 min. Use 24g olive oil + 1/2 tsp of salt and pepper each with 16oz brussel sprouts.",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 88,
+          "calories": 38,
+          "protein": 2.97
+        },
+        "price_per_unit": {
+          "price": 4.99,
           "unit": "lb"
         }
       },
@@ -1823,22 +1854,37 @@
     ]
   },
   {
-    "category_name": "misc_protein",
+    "category_name": "seafood",
     "items": [
       {
-        "name": "burger_amys_california",
-        "label": "amy's burgers",
-        "note": "Amy's California burgers; Cook for 4 min on each side",
+        "name": "clam",
+        "label": "clam",
+        "note": "1lb SHELLED. 1lb shelled yields about 68g",
         "serving_nutrition": {
           "amount": 1,
-          "unit": "",
-          "grams": 71,
-          "calories": 150,
-          "protein": 6
+          "unit": "lb",
+          "grams": 453.59237,
+          "calories": 58.5,
+          "protein": 9.98
         },
         "price_per_unit": {
-          "price": 0.56,
-          "unit": "oz"
+          "price": 9.99,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "cod",
+        "label": "cod",
+        "serving_nutrition": {
+          "amount": 3,
+          "unit": "oz",
+          "grams": 85,
+          "calories": 69.7,
+          "protein": 15.1
+        },
+        "price_per_unit": {
+          "price": 12.99,
+          "unit": "lb"
         }
       },
       {
@@ -1889,6 +1935,21 @@
         }
       },
       {
+        "name": "monkfish",
+        "label": "monkfish",
+        "serving_nutrition": {
+          "amount": 3,
+          "unit": "oz",
+          "grams": 85,
+          "calories": 64.6,
+          "protein": 12.3
+        },
+        "price_per_unit": {
+          "price": 17.99,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "mussels",
         "label": "mussels",
         "serving_nutrition": {
@@ -1904,10 +1965,41 @@
         }
       },
       {
+        "name": "salmon_king",
+        "label": "king salmon",
+        "note": "Whole Foods King Salmon",
+        "serving_nutrition": {
+          "amount": 3,
+          "unit": "oz",
+          "grams": 85,
+          "calories": 121,
+          "protein": 17
+        },
+        "price_per_unit": {
+          "price": 27.99,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "scallop",
+        "label": "scallop",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 113,
+          "calories": 99.44,
+          "protein": 18.984
+        },
+        "price_per_unit": {
+          "price": 22.99,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "shrimp",
         "label": "shrimp",
         "serving_nutrition": {
-          "amount": 4,
+          "amount": 3,
           "unit": "",
           "grams": 85,
           "calories": 60,
@@ -1915,6 +2007,27 @@
         },
         "price_per_unit": {
           "price": 20.00,
+          "unit": "lb"
+        }
+      }
+    ]
+  },
+  {
+    "category_name": "misc_protein",
+    "items": [
+      {
+        "name": "chicken_sausage",
+        "label": "chicken sausage",
+        "note": "365 Andouille",
+        "serving_nutrition": {
+          "amount": 3,
+          "unit": "oz",
+          "grams": 85,
+          "calories": 150,
+          "protein": 15
+        },
+        "price_per_unit": {
+          "price": 5.2425,
           "unit": "lb"
         }
       },
@@ -3005,8 +3118,8 @@
           "amount": 1,
           "unit": "tbsp",
           "grams": 15,
-          "calories": 34,
-          "protein": 4.2
+          "calories": 40,
+          "protein": 4
         },
         "price_per_unit": {
           "price": 0.48,
