@@ -1,0 +1,89 @@
+html,
+body,
+#root,
+#root > div {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  font-family: monospace;
+}
+
+button,
+input {
+  font-family: monospace !important;
+}
+
+/* The entire app; made up of .app-header and .app-body */
+.App {
+  display: flex;
+  flex-direction: column;
+
+  /* Header with the app's title and, if applicable, the mobile view toggle */
+  .app-header {
+    padding: 3rem 2rem;
+    display: flex;
+    font-size: 2.25rem;
+    font-weight: 100 !important;
+    cursor: default;
+    justify-content: space-between;
+
+    /* Title text and app content (Recipe/Pantry) toggle */
+    .title {
+      display: flex;
+      align-self: start;
+      color: grey;
+
+      /* The (Recipe/Pantry) toggle button */
+      button {
+        cursor: pointer;
+        box-shadow: inset 0 -3px white, inset 0 -4px #de8c8c;
+        transition: 0.15s;
+        color: #de8c8c;
+      }
+    }
+  }
+
+  /* Everything below header */
+  .app-body {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    padding: 0 2rem 2rem 2rem;
+
+    /* List of items for navigation */
+    .sidebar {
+      overflow-y: scroll;
+      display: block;
+
+      /* The clickable text of the nav items */
+      .item {
+        cursor: pointer;
+      }
+    }
+
+    /* The main content of the page; either shows recipe or pantry info  */
+    .content {
+      flex: 1;
+      padding-left: 3rem !important;
+      overflow-y: scroll;
+      color: #4e4e4e;
+
+      .ingredients {
+        background-color: aliceblue;
+
+        .list {
+          list-style-type: none;
+
+          .ingredient {
+            display: flex;
+
+            & > * {
+              padding-right: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
