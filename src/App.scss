@@ -69,18 +69,37 @@ input {
       overflow-y: scroll;
       color: #4e4e4e;
 
-      .ingredients {
-        background-color: aliceblue;
+      /* Recipe page */
+      &.recipe {
+        .subcontent {
+          /* Ingredients area */
+          &.ingredients {
+            background-color: aliceblue;
 
-        .list {
-          list-style-type: none;
-
-          .ingredient {
-            display: flex;
-
-            & > * {
-              padding-right: 2rem;
+            /* Dummy textarea used for copying to clipboard; make sure it's hidden */
+            #clipboard-data {
+              opacity: 0.01;
+              height: 0;
+              position: absolute;
+              z-index: -1;
             }
+
+            .list {
+              list-style-type: none;
+
+              .ingredient {
+                display: flex;
+
+                & > * {
+                  padding-right: 2rem;
+                }
+              }
+            }
+          }
+
+          /* Directions area */
+          &.directions {
+            background-color: rgb(237, 248, 242);
           }
         }
       }

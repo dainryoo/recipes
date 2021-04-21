@@ -8,7 +8,7 @@ import useRecipeHook from "./hooks/recipeHook.js";
 import usePantryHook from "./hooks/pantryHook.js";
 
 const App = () => {
-  const [view, setView] = useState("pantry"); // flag to toggle between recipe and pantry view
+  const [view, setView] = useState("recipe"); // flag to toggle between recipe and pantry view
   const [currRecipeId, setCurrRecipeId] = useState("");
   const [currPantryId, setCurrPantryId] = useState("");
 
@@ -59,7 +59,7 @@ const Header = ({ buttonClick }) => {
 // depending on the view, either show Recipe Page or Pantry Page
 const Body = ({ view, navClick, currRecipeId, currPantryId }) => {
   const pantryInfo = usePantryHook();
-  const recipeInfo = useRecipeHook(pantryInfo);
+  const { recipeInfo } = useRecipeHook(pantryInfo);
 
   let currRecipe;
   if (view === "recipe" && currRecipeId) {
@@ -86,7 +86,11 @@ const Body = ({ view, navClick, currRecipeId, currPantryId }) => {
   return (
     <div className="app-body">
       <Sidebar recipeInfo={recipeInfo} pantryInfo={pantryInfo} view={view} navClick={navClick} />
-      {view === "recipe" ? <RecipePage currRecipe={currRecipe} /> : <PantryPage currPantry={currPantry} />}
+      {view === "recipe" ? (
+        <RecipePage currRecipe={currRecipe} pantryInfo={pantryInfo} />
+      ) : (
+        <PantryPage currPantry={currPantry} />
+      )}
     </div>
   );
 };

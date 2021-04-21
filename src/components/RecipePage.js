@@ -1,16 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import useRecipeHook from "../hooks/recipeHook.js";
 
 // view of app when on recipe page
-const RecipePage = ({ currRecipe }) => {
-  return <div className="recipe content">{currRecipe ? <Recipe currRecipe={currRecipe} /> : <Message />}</div>;
+const RecipePage = ({ currRecipe, pantryInfo }) => {
+  return (
+    <div className="recipe content">
+      {currRecipe ? <Recipe currRecipe={currRecipe} pantryInfo={pantryInfo} /> : <Message />}
+    </div>
+  );
 };
 
 // all the info about the currently selected recipe id
-const Recipe = ({ currRecipe }) => {
+const Recipe = ({ currRecipe, pantryInfo }) => {
   return (
     <>
       <p className="title">{currRecipe.label}:</p>
-      <Ingredients list={currRecipe.ingredients} totalValues={currRecipe.totalValues} />
+      <Ingredients list={currRecipe.ingredients} totalValues={currRecipe.totalValues} pantryInfo={pantryInfo} />
       <Directions list={currRecipe.directions} />
     </>
   );
@@ -22,10 +27,40 @@ const Message = () => {
 };
 
 // shows ingredients list
-const Ingredients = ({ list, totalValues }) => {
+const Ingredients = ({ list, totalValues, pantryInfo }) => {
+  // clipboard obj holds all ingredient info to copy when user presses Copy to Clipboard button
+  const [clipboard, setClipboard] = useState("");
+
+  const { getPantryItemJson } = useRecipeHook(pantryInfo);
+
+  // reset the clipboard data if the recipe (i.e. list of ingredients) changes
+  useEffect(() => {
+    let clipboardText = "";
+    list.forEach((category) => {
+      category.ingredients.forEach((item) => {
+        const calorieCalculation = `=${num(item.grams) || 0}/100*${
+          getPantryItemJson(item.name) ? num(getPantryItemJson(item.name).per100g.calories) : 0
+        }`;
+        const amount = item.amount + (item.unit != null && item.unit !== "" ? " " + item.unit : "") + " ";
+
+        clipboardText += calorieCalculation + "\t" + amount + (item.label || item.name) + "\n";
+      });
+      clipboardText += "\n";
+    });
+    setClipboard(clipboardText);
+  }, [list, getPantryItemJson]);
+
+  const copyToClipboard = (event) => {
+    const clipboardData = document.getElementById("clipboard-data");
+    clipboardData.select();
+    document.execCommand("copy");
+  };
+
   return (
     <div className="ingredients subcontent">
       <p className="title">Ingredients:</p>
+      <button onClick={copyToClipboard}>copy</button>
+      <textarea readOnly id="clipboard-data" value={clipboard} />
       {list && (
         <table className="table">
           <tbody>
@@ -60,15 +95,14 @@ const IngredientCategory = ({ category }) => {
 // a single ingredient
 const Ingredient = ({ item }) => {
   const { label, amount, unit, grams, calories, protein, price } = item;
+  const shownGramsValue = !["", "g", "ml", "oz", "lb"].includes(unit) ? `(${num(grams)} g)` : "";
 
   return (
     <tr>
-      <td>
-        {`${amount} ` + (unit ? unit : "") + (unit && grams ? ` (${grams} g)` : "")} {label}{" "}
-      </td>
-      <td>{parseFloat(calories).toFixed(2) + " cal"}</td>
-      <td>{parseFloat(protein).toFixed(2) + " g protein"}</td>
-      <td>{"$" + parseFloat(price).toFixed(2)}</td>
+      <td>{`${amount} ${unit} ${shownGramsValue} ${label}`}</td>
+      <td>{num(calories) + " cal"}</td>
+      <td>{num(protein) + " g protein"}</td>
+      <td>{"$" + num(price)}</td>
     </tr>
   );
 };
@@ -78,9 +112,9 @@ const TotalValues = ({ values }) => {
   return (
     <tr>
       <td></td>
-      <td>{`${parseFloat(values.calories).toFixed(2)} total cal`}</td>
-      <td>{`${parseFloat(values.protein).toFixed(2)} total g protein`}</td>
-      <td>{`$${parseFloat(values.price).toFixed(2)} total`}</td>
+      <td>{`${num(values.calories)} total cal`}</td>
+      <td>{`${num(values.protein)} total g protein`}</td>
+      <td>{`$${num(values.price)} total`}</td>
     </tr>
   );
 };
@@ -107,6 +141,11 @@ const Directions = ({ list }) => {
       )}
     </div>
   );
+};
+
+// take in a numerical value and return it with no decimals, or two decimal points if needed
+const num = (value) => {
+  return value ? +(Math.round(value + "e+2") + "e-2") : value;
 };
 
 export default RecipePage;

@@ -172,7 +172,7 @@ const useRecipeHook = (pantryInfo) => {
     setRecipeInfo(processedRecipes);
   }, [calculateRecipeValues]);
 
-  return recipeInfo;
+  return { recipeInfo, getPantryItemJson };
 };
 
 export default useRecipeHook;

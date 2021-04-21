@@ -11,6 +11,7 @@ const Pantry = ({ currPantry }) => {
       <p>{currPantry.label}</p>
       <p>{currPantry.note && `Note: ${currPantry.note}`}</p>
       <p>Nutrition facts:</p>
+      <CalculatorInput key={currPantry.name + "grams"} unit={"g"} item={currPantry} />
       {Object.keys(currPantry.conversionToGrams).map((unit) => {
         return <CalculatorInput key={currPantry.name + unit} unit={unit} item={currPantry} />;
       })}
@@ -31,7 +32,7 @@ const CalculatorInput = ({ item, unit }) => {
 
   // every time the input value changes, recalculate everything
   useEffect(() => {
-    const grams = inputValue * item.conversionToGrams[unit];
+    const grams = unit === "g" ? inputValue : inputValue * item.conversionToGrams[unit];
     setConversions({
       grams: grams,
       calories: (grams / 100.0) * item.per100g.calories,
@@ -56,12 +57,22 @@ const CalculatorInput = ({ item, unit }) => {
     }
   };
 
+  const gramsConversion = unit !== "g" ? ` = ${num(conversions.grams)} g` : "";
+  const caloriesConversion = ` = ${num(conversions.calories)} cal`;
+  const proteinConversion = ` = ${num(conversions.protein)} g protein`;
+  const priceConversion = ` = $${num(conversions.price)}`;
+
   return (
     <div className="calculator">
       <input value={inputValue} onChange={handleChange} />
-      {`${unit} = ${conversions.grams} grams = ${conversions.calories} cal,  ${conversions.protein} g protein, $${conversions.price}`}
+      {unit + gramsConversion + caloriesConversion + proteinConversion + priceConversion}
     </div>
   );
+};
+
+// take in a numerical value and return it with no decimals, or two decimal points if needed
+const num = (value) => {
+  return value ? +(Math.round(value + "e+2") + "e-2") : value;
 };
 
 export default PantryPage;
