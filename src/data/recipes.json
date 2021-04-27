@@ -383,6 +383,13 @@
         ],
         "directions": [
           "Makes 8 tarts.",
+          "For pastry:",
+          "Combine flour, salt, sugar. Add butter and break up roughly with fingers. Make sure butter chunks are visible in dough.",
+          "Add water and bring dough together. Cover dough and refrigerate for 20 min.",
+          "Knead dough into a rectangle on floured surface. Roll dough away from body (not back and forth) into a 8x20 inch rectangle. Don't overwork! Butter should still be visible.",
+          "Fold top third of dough down to center, then the bottom third up and over that. Give the dough a 90deg turn and roll out to 3x the length. Do the same folding.",
+          "Cover and chill for 30 min.",
+          "",
           "For custard:",
           "Microwave water + sugar til dissolved.",
           "Whisk egg, milk, vanilla. Mix water in little bits at a time. Strain.",
@@ -2376,41 +2383,42 @@
           {
             "category": "eggplant",
             "items": [
-              { "name": "eggplant", "note": "should be 300g", "amount": 2, "unit": "" },
-              { "name": "salt", "amount": 1, "unit": "tsp" },
-              { "name": "cornstarch", "amount": 1, "unit": "tbsp" },
-              { "name": "oil", "note": "to cook eggplant", "amount": 1, "unit": "tbsp" }
+              { "name": "eggplant", "note": "should be 600g", "amount": 4, "unit": "" },
+              { "name": "salt", "amount": 2, "unit": "tsp" },
+              { "name": "cornstarch", "amount": 2, "unit": "tbsp" },
+              { "name": "oil", "note": "to cook eggplant", "amount": 2, "unit": "tbsp" }
             ]
           },
           {
             "category": "sauce",
             "items": [
-              { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
-              { "name": "water", "amount": 1, "unit": "tbsp" },
-              { "name": "soy_sauce_dark", "amount": 0.5, "unit": "tsp" },
-              { "name": "sugar", "note": "originally 2 tsp", "amount": 1, "unit": "tsp" },
-              { "name": "cornstarch", "amount": 1, "unit": "tsp" }
+              { "name": "soy_sauce_light", "amount": 2, "unit": "tbsp" },
+              { "name": "water", "amount": 2, "unit": "tbsp" },
+              { "name": "soy_sauce_dark", "amount": 1, "unit": "tsp" },
+              { "name": "sugar", "amount": 2, "unit": "tsp" },
+              { "name": "cornstarch", "amount": 2, "unit": "tsp" }
             ]
           },
           {
             "category": "fillings",
             "items": [
-              { "name": "ginger", "amount": 1, "unit": "tsp" },
-              { "name": "garlic", "amount": 3, "unit": "" },
-              { "name": "pork_ground", "amount": 0.25, "unit": "lb" },
-              { "name": "oil", "note": "to cook fillings", "amount": 0.5, "unit": "tbsp" }
+              { "name": "ginger", "amount": 2, "unit": "tsp" },
+              { "name": "garlic", "amount": 6, "unit": "" },
+              { "name": "pork_ground", "amount": 0.5, "unit": "lb" },
+              { "name": "oil", "note": "to cook fillings", "amount": 1, "unit": "tbsp" }
             ]
           }
         ],
         "directions": [
-          "(1) Eggplants. (2) Pork, ginger, garlic. (3) Sauce.",
-          "Use ~8 eggplants for dinner + 2 lunch portions",
-          "cut eggplants. soak fully submerged in salt water for 15 min.drain and pat dry.",
-          "coat eggplants in cornstarch by hand.",
-          "1 tbsp oil in nonstick skillet med high heat. spread eggplants without overlap. (if at any point, too smokey, turn to med heat)",
-          "cook eggplants one side at a time til charred and soft (~8-10min total). transfer eggplants to plate.",
-          "remaining oil, add pork with the ginger and garlic. stir fry until pork changes color",
-          "add all eggplants back, pour sauce over, quickly stir a few times til all coated and sauce is thick."
+          "(4 eggplant, ginger, 6 garlic, 1/2lb pork)",
+          "",
+          "(1) Eggplants. (2) Pork. (3) Ginger, garlic. (4) Sauce.",
+          "Cut eggplants. Soak fully submerged in salt water for 15 min. Drain and pat dry.",
+          "Coat eggplants in cornstarch by hand.",
+          "1 tbsp oil in nonstick skillet med high heat. Spread eggplants without overlap. (if at any point, too smokey, turn to med heat)",
+          "Cook eggplants one side at a time til charred and soft (~8-10min total). Transfer eggplants to plate.",
+          "Remaining oil, cook pork for til MOSTLY not pink. Add garlic and ginger and cook til soft.",
+          "Add all eggplants back, pour sauce over, quickly stir a few times til all coated and sauce is thick."
         ]
       },
       {
@@ -2888,6 +2896,89 @@
           }
         ],
         "directions": ["https://omnivorescookbook.com/cantonese-ground-beef-rice-eggs/"]
+      },
+      {
+        "name": "one_pot_thai_curry",
+        "label": "one pot thai curry",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "oil_olive", "note": "to cook veg", "amount": 2, "unit": "tbsp" },
+              { "name": "onion", "note": "diced", "amount": 1, "unit": "" },
+              { "name": "bell_pepper_green", "note": "julienned", "amount": 1, "unit": "" },
+              { "name": "chicken_thigh", "note": "1\" pieces", "amount": 1.3333, "unit": "lb" },
+              { "name": "garlic", "note": "minced", "amount": 3, "unit": "" },
+              { "name": "oil_olive", "note": "to cook rice and spice", "amount": 2, "unit": "tbsp" },
+              { "name": "curry_paste_thai_green", "amount": 4, "unit": "tsp" },
+              { "name": "rice_long_grain", "amount": 1, "unit": "cup" },
+              { "name": "water", "note": "to sub chicken broth", "amount": 1, "unit": "cup" },
+              { "name": "coconut_milk_canned", "amount": 13.5, "unit": "oz" },
+              { "name": "ginger", "note": "minced", "amount": 1, "unit": "tsp" },
+              { "name": "basil_fresh", "note": "chopped", "amount": 2, "unit": "tbsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "(1 onion, 1 green bell, 1.5lb chicken breast, 3 garlic, 1 can coconut milk, ginger, basil)",
+          "",
+          "Large skillet (dutch oven), heat 2 tbsp oil over med high heat. Saute onion + optional jalapeno for couple min.",
+          "Add chicken and cook for 5-6 or til no longer pink. (Use more oil if needed). Add garlic about halfway thru chicken cooking.",
+          "Push mixture to side of pan. Add 1 tbsp oil, curry paste, and rice. Saute for 30 sec (this is to help spices bloom!)",
+          "Quickly add broth/water and coconut milk.",
+          "Simmer covered on low heat for 15-20 min or til rice is tender. Stir in ginger in the last few minutes of cooking. Stir in basil and serve."
+        ]
+      },
+      {
+        "name": "steamed_meat_buns",
+        "label": "steamed meat buns",
+        "ingredients": [
+          {
+            "category": "dough",
+            "items": [
+              { "name": "flour", "amount": 300, "unit": "g" },
+              { "name": "cornstarch", "amount": 60, "unit": "g" },
+              { "name": "yeast", "amount": 1.25, "unit": "tsp" },
+              { "name": "sugar", "note": "originally 60g", "amount": 30, "unit": "g" },
+              { "name": "oil", "amount": 1, "unit": "tbsp" },
+              { "name": "salt", "amount": 0.5, "unit": "tsp" },
+              { "name": "water", "note": "room temp; to sub cold milk", "amount": 150, "unit": "ml" }
+            ]
+          },
+          {
+            "category": "filling",
+            "items": [
+              { "name": "bison_ground", "amount": 12, "unit": "oz" },
+              { "name": "ginger", "note": "minced", "amount": 1, "unit": "tbsp" },
+              { "name": "shaoxing_wine", "amount": 1, "unit": "tbsp" },
+              { "name": "soy_sauce_light", "amount": 1, "unit": "tbsp" },
+              { "name": "soy_sauce_dark", "amount": 2, "unit": "tsp" },
+              { "name": "sichuan_peppercorn_ground", "amount": 0.25, "unit": "tsp" },
+              { "name": "onion", "note": "finely chopped", "amount": 1, "unit": "" },
+              { "name": "carrot", "note": "minced", "amount": 1, "unit": "" },
+              { "name": "sugar", "amount": 1, "unit": "tsp" },
+              { "name": "salt", "amount": 1.5, "unit": "tsp" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tbsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "(1 bison meat, ginger, 1 sm onion, 1 sm carrot)",
+          "",
+          "Makes 10 big or 20 small buns.",
+          "To make dough:",
+          "Mix flour, yeast, sugar, salt, oil. Add toom temp water. (slowly add more water if too dry. probably more like 180ml but up to  200ml). Mix til rough dough. ",
+          "Cover and let rest 15 min. Knead 10-15min more. If hard to knead, just give it a rest. ",
+          "Do one more 15min rest before shaping. Divide dough into smaller pieces, rolling into very smooth tall balls (smooth top with milk/water if desired).",
+          "Place each ball on parchment paper. Let rise only once, to 50% larger (don't let double in size!) Done proving when poking dough leaves indent that bounces back slowly (not enough if bounce back fast). (very roughly 30min-1hr room temp)",
+          "Bring steamer water to boil, lower the heat to MEDIUM. Place buns 1 inch apart, close lid and crack open about a 1/4 inch gap.",
+          "Steam 15 min for no filling, 18 min for filling. ",
+          "After steaming, turn off heat. Do NOT open lid and let sit for 5 min.",
+          "",
+          "To make filling:",
+          "Combine meat, ginger, Shaoxing, soy sauces, peppercorn and mix well.",
+          "Prepare and cut veg but DO NOT ADD to meat yet. Add veg, salt, sugar, sesame oil to meat right before assembly."
+        ]
       }
     ]
   },
@@ -3158,6 +3249,40 @@
           "If making red bean brioche, use 6 tbsp of paste.",
           "Place into parchment lined 8x4 loaf pan. Cover, let rise 1.5-2hrs or til doubled.",
           "Bake at 350F for 30-40 min."
+        ]
+      },
+      {
+        "name": "crusty_bread_rolls",
+        "label": "crusty bread rolls",
+        "ingredients": [
+          {
+            "category": "starter",
+            "items": [
+              { "name": "water", "note": "cool", "amount": 113, "unit": "g" },
+              { "name": "flour", "amount": 120, "unit": "g" },
+              { "name": "yeast", "amount": 0.125, "unit": "tsp" }
+            ]
+          },
+          {
+            "category": "dough",
+            "items": [
+              { "name": "flour", "amount": 418, "unit": "g" },
+              { "name": "water", "note": "lukewarm", "amount": 227, "unit": "g" },
+              { "name": "salt", "amount": 1.5, "unit": "tsp" },
+              { "name": "yeast", "amount": 0.25, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Makes 12 rolls.",
+          "Make starter by mixing starter ingredients together til smooth, covering, and letting rest room temp overnight.",
+          "Combine all dough ingredients + starter. Mix and knead til soft, somewhat smooth dough--cohesive but surface may be bit rough and dough may stick to bowl tiny bit.",
+          "Cover, let dough rise for 3 hours. (1 hr into rise, gently deflate it and turn it over, and let rest the remaining 2 hrs).",
+          "Divide dough into 12 pieces, shape into balls, place on parchment lined baking sheet. Cover and let rise 1-2 hrs (puffy but not doubled!--will flatten as rise, dont worry)",
+          "Cover and chill for 2-3 hrs. Don't worry if flat, they will puff in oven. Optional egg wash of frothy whisked egg white + water.",
+          "Slash 1/4\" deep cut across tops. Immediately put into oven.",
+          "Bake at 425F 20-25min til deep golden brown. Remove from oven and let cool, or for better crunch, open oven door and let rolls cool in turned-off open-door oven.",
+          "(For larger rolls, divide the dough into 8 pieces, rather than 12. Bake for a minute or two longer.)"
         ]
       }
     ]
@@ -3543,10 +3668,12 @@
           }
         ],
         "directions": [
+          "(1 lb chicken thigh, 1 onion, 1 green bell, celery, 1 chicken sausage, 3 garlic, 16oz crush tomato)",
+          "",
           "(1) Chicken. (2) Onion, bell pepper, celery. (3) Sausage, garlic. (4) Tomato, spices, ketchup, soy sauce. (5) Broth, rice. (6) Shrimp.",
           "",
           "Heat oil over med heat in large pot or Dutch oven.",
-          "Add chicken if using, cook til golden (~5 min)",
+          "Add chicken if using, cook til no longer pink (~3 min) [originally cook til golden ~5min]",
           "Add onion, bell pepper, celery, cook til tender (~5 min)",
           "Add sausage, garlic, cook for ~1 min.",
           "Add crushed tomatoes + seasonings, cook for 8 min, stirring occasionally.",
@@ -3839,6 +3966,8 @@
           }
         ],
         "directions": [
+          "(1.5lb goat, 2 garlic, ginger, 1/2 onion, 1 potato)",
+          "",
           "(1) Goat, (2) Curry powder (either the mix above or 2.5 tbsp of curry powder), (3) Garlic, ginger, onions, pepper, thyme, tomato paste, greeen onions, (4) Potatoes",
           "",
           "In large pot/dutch oven, heat oil on med heat til hot. Add goat, season with salt + pepper, saute and stir frequently til goat brown.",
@@ -4045,7 +4174,7 @@
           }
         ],
         "directions": [
-          "(1) Onion, celery, bell pepper, garlic. (2) Sausage. (3) Rice, beans, tomato paste, broth.",
+          "(1) Onion, celery, bell pepper, garlic. (2) Sausage. (3) Rice, beans, tomato paste, broth, spices.",
           "",
           "Dutch oven med heat. Cook onion, celery, bell pepper, garlic 5+ min.",
           "Add and cook sausage 3+ min.",

@@ -1718,6 +1718,22 @@
         }
       },
       {
+        "name": "bison_ground",
+        "label": "ground bison",
+        "note": "Force of Nature",
+        "serving_nutrition": {
+          "amount": 4,
+          "unit": "oz",
+          "grams": 112,
+          "calories": 150,
+          "protein": 24
+        },
+        "price_per_unit": {
+          "price": 15.99,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "lamb_ground",
         "label": "ground lamb",
         "note": "atkins ranch?",

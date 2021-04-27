@@ -23,7 +23,7 @@ const useRecipeHook = (pantryInfo) => {
   // take in ingredient from recipe and its data from pantry
   // return its weight in grams
   const getIngredientGrams = useCallback((ingredient, itemData) => {
-    if (ingredient.unit === "g") {
+    if (ingredient.unit === "g" || ingredient.unit === "ml") {
       return ingredient.amount;
     } else if (ingredient.unit === "") {
       return ingredient.amount * itemData.perUnit.avgGrams;
