@@ -142,6 +142,7 @@ const useRecipeHook = (pantryInfo) => {
       const processedRecipe = {
         name: recipe.name,
         label: recipe.label || recipe.name,
+        ...(recipe.groceryList && { groceryList: recipe.groceryList }),
         ingredients: allIngredientCategories,
         directions: recipe.directions,
         totalValues: totalRecipeValues

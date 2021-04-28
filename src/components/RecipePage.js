@@ -15,6 +15,7 @@ const Recipe = ({ currRecipe, pantryInfo }) => {
   return (
     <>
       <p className="title">{currRecipe.label}:</p>
+      {currRecipe.groceryList && <p className="grocery-list">{currRecipe.groceryList}</p>}
       <Ingredients list={currRecipe.ingredients} totalValues={currRecipe.totalValues} pantryInfo={pantryInfo} />
       <Directions list={currRecipe.directions} />
     </>

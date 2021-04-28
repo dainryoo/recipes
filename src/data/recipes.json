@@ -2379,6 +2379,7 @@
       {
         "name": "eggplant_with_garlic_sauce",
         "label": "eggplant with garlic sauce",
+        "groceryList": "(4 eggplant, ginger, 6 garlic, 1/2lb pork)",
         "ingredients": [
           {
             "category": "eggplant",
@@ -2410,8 +2411,6 @@
           }
         ],
         "directions": [
-          "(4 eggplant, ginger, 6 garlic, 1/2lb pork)",
-          "",
           "(1) Eggplants. (2) Pork. (3) Ginger, garlic. (4) Sauce.",
           "Cut eggplants. Soak fully submerged in salt water for 15 min. Drain and pat dry.",
           "Coat eggplants in cornstarch by hand.",
@@ -2793,6 +2792,37 @@
           "Sear chicken 5 min each side (or til cooked through)",
           "Mix sauce, assemble sandwich."
         ]
+      },
+      {
+        "name": "one_pot_thai_curry",
+        "label": "one pot thai curry",
+        "groceryList": "(1 onion, 1 jalapeno?, 2 green bell, 1.5lb chicken breast, 1 can coconut milk, basil)",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "oil_olive", "note": "to cook veg", "amount": 2, "unit": "tbsp" },
+              { "name": "onion", "note": "diced", "amount": 1, "unit": "" },
+              { "name": "bell_pepper_green", "note": "julienned", "amount": 2, "unit": "" },
+              { "name": "chicken_thigh", "note": "1\" pieces", "amount": 1.3333, "unit": "lb" },
+              { "name": "oil_olive", "note": "to cook rice and spice", "amount": 1, "unit": "tbsp" },
+              { "name": "curry_paste_thai_red", "amount": 3, "unit": "tbsp" },
+              { "name": "rice_long_grain", "amount": 1, "unit": "cup" },
+              { "name": "water", "note": "to sub chicken broth", "amount": 1, "unit": "cup" },
+              { "name": "coconut_milk_canned", "amount": 13.5, "unit": "oz" },
+              { "name": "basil_fresh", "note": "chopped", "amount": 2, "unit": "tbsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "(1) Onion and veggies. (2) Chicken. (3) Curry paste, rice. (4) Broth, coconut milk. (5) Basil.",
+          "",
+          "Large skillet (dutch oven), heat 2 tbsp oil (don't decrease next time) over med high heat. Saute onion + veggies for couple min.",
+          "Add chicken and cook for 5-6 or til no longer pink. Add garlic about halfway thru chicken cooking.",
+          "Push mixture to side of pan. Add 1 tbsp oil, curry paste, and rice. Saute for 30 sec (this is to help spices bloom!)",
+          "Quickly add broth/water (don't decrease next time) and coconut milk.",
+          "Simmer covered on low heat (3/10) for 30 min. Stir in basil during last few min, and serve."
+        ]
       }
     ]
   },
@@ -2898,40 +2928,9 @@
         "directions": ["https://omnivorescookbook.com/cantonese-ground-beef-rice-eggs/"]
       },
       {
-        "name": "one_pot_thai_curry",
-        "label": "one pot thai curry",
-        "ingredients": [
-          {
-            "category": "",
-            "items": [
-              { "name": "oil_olive", "note": "to cook veg", "amount": 2, "unit": "tbsp" },
-              { "name": "onion", "note": "diced", "amount": 1, "unit": "" },
-              { "name": "bell_pepper_green", "note": "julienned", "amount": 1, "unit": "" },
-              { "name": "chicken_thigh", "note": "1\" pieces", "amount": 1.3333, "unit": "lb" },
-              { "name": "garlic", "note": "minced", "amount": 3, "unit": "" },
-              { "name": "oil_olive", "note": "to cook rice and spice", "amount": 2, "unit": "tbsp" },
-              { "name": "curry_paste_thai_green", "amount": 4, "unit": "tsp" },
-              { "name": "rice_long_grain", "amount": 1, "unit": "cup" },
-              { "name": "water", "note": "to sub chicken broth", "amount": 1, "unit": "cup" },
-              { "name": "coconut_milk_canned", "amount": 13.5, "unit": "oz" },
-              { "name": "ginger", "note": "minced", "amount": 1, "unit": "tsp" },
-              { "name": "basil_fresh", "note": "chopped", "amount": 2, "unit": "tbsp" }
-            ]
-          }
-        ],
-        "directions": [
-          "(1 onion, 1 green bell, 1.5lb chicken breast, 3 garlic, 1 can coconut milk, ginger, basil)",
-          "",
-          "Large skillet (dutch oven), heat 2 tbsp oil over med high heat. Saute onion + optional jalapeno for couple min.",
-          "Add chicken and cook for 5-6 or til no longer pink. (Use more oil if needed). Add garlic about halfway thru chicken cooking.",
-          "Push mixture to side of pan. Add 1 tbsp oil, curry paste, and rice. Saute for 30 sec (this is to help spices bloom!)",
-          "Quickly add broth/water and coconut milk.",
-          "Simmer covered on low heat for 15-20 min or til rice is tender. Stir in ginger in the last few minutes of cooking. Stir in basil and serve."
-        ]
-      },
-      {
         "name": "steamed_meat_buns",
         "label": "steamed meat buns",
+        "groceryList": "(1 bison meat, ginger, 1 sm onion, 1 sm carrot)",
         "ingredients": [
           {
             "category": "dough",
@@ -2963,8 +2962,6 @@
           }
         ],
         "directions": [
-          "(1 bison meat, ginger, 1 sm onion, 1 sm carrot)",
-          "",
           "Makes 10 big or 20 small buns.",
           "To make dough:",
           "Mix flour, yeast, sugar, salt, oil. Add toom temp water. (slowly add more water if too dry. probably more like 180ml but up to  200ml). Mix til rough dough. ",
@@ -3283,6 +3280,26 @@
           "Slash 1/4\" deep cut across tops. Immediately put into oven.",
           "Bake at 425F 20-25min til deep golden brown. Remove from oven and let cool, or for better crunch, open oven door and let rolls cool in turned-off open-door oven.",
           "(For larger rolls, divide the dough into 8 pieces, rather than 12. Bake for a minute or two longer.)"
+        ]
+      },
+      {
+        "name": "rice_flour_roti",
+        "label": "rice flour roti",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "flour_brown_rice", "amount": 100, "unit": "g" },
+              { "name": "water", "amount": 150, "unit": "g" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Makes 6 rotis.",
+          "Boil water in a covered pot. Once boiling, mix in flour and salt and stir until crumbly mass.",
+          "Take off heat, leave pot covered for 10 min.",
+          "Knead together and roll into 6 balls. Flatten each ball and fry on med-med high heat non-stick skillet."
         ]
       }
     ]
@@ -3623,6 +3640,7 @@
       {
         "name": "jambalaya",
         "label": "jambalaya",
+        "groceryList": "(1 lb chicken thigh, 1 onion, 1 green bell, celery, 1 chicken sausage, 3 garlic, 16oz crush tomato)",
         "ingredients": [
           {
             "category": "fillings",
@@ -3668,8 +3686,6 @@
           }
         ],
         "directions": [
-          "(1 lb chicken thigh, 1 onion, 1 green bell, celery, 1 chicken sausage, 3 garlic, 16oz crush tomato)",
-          "",
           "(1) Chicken. (2) Onion, bell pepper, celery. (3) Sausage, garlic. (4) Tomato, spices, ketchup, soy sauce. (5) Broth, rice. (6) Shrimp.",
           "",
           "Heat oil over med heat in large pot or Dutch oven.",
@@ -3766,6 +3782,7 @@
       {
         "name": "shakshuka",
         "label": "shakshuka",
+        "groceryList": "(1lb ground lamb or 1 eggplant, 1 onion, 1 bell pepper, 3 garlic, 28oz crush tomato, 6 egg)",
         "ingredients": [
           {
             "category": "",
@@ -3927,6 +3944,7 @@
       {
         "name": "curry_goat",
         "label": "jamaican curry goat",
+        "groceryList": "(1.5lb goat, 2 garlic, ginger, 1/2 onion, 1 potato)",
         "ingredients": [
           {
             "category": "curry_powder",
@@ -3966,8 +3984,6 @@
           }
         ],
         "directions": [
-          "(1.5lb goat, 2 garlic, ginger, 1/2 onion, 1 potato)",
-          "",
           "(1) Goat, (2) Curry powder (either the mix above or 2.5 tbsp of curry powder), (3) Garlic, ginger, onions, pepper, thyme, tomato paste, greeen onions, (4) Potatoes",
           "",
           "In large pot/dutch oven, heat oil on med heat til hot. Add goat, season with salt + pepper, saute and stir frequently til goat brown.",
