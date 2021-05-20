@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import useRecipeHook from "../hooks/recipeHook.js";
 
 // view of app when on recipe page
-const RecipePage = ({ currRecipe, pantryInfo }) => {
+const RecipePage = ({ currRecipe, pantryInfo, mobileView }) => {
   return (
-    <div className="recipe content">
+    <div className={"recipe content " + (mobileView === "content" ? "mobile-show" : "mobile-hide")}>
       {currRecipe ? <Recipe currRecipe={currRecipe} pantryInfo={pantryInfo} /> : <Message />}
     </div>
   );
@@ -14,10 +14,10 @@ const RecipePage = ({ currRecipe, pantryInfo }) => {
 const Recipe = ({ currRecipe, pantryInfo }) => {
   return (
     <>
-      <p className="title">{currRecipe.label}:</p>
-      {currRecipe.groceryList && <p className="grocery-list">{currRecipe.groceryList}</p>}
+      <div className="title">{currRecipe.label}:</div>
       <Ingredients list={currRecipe.ingredients} totalValues={currRecipe.totalValues} pantryInfo={pantryInfo} />
       <Directions list={currRecipe.directions} />
+      <GroceryList list={currRecipe.groceryList} />
     </>
   );
 };
@@ -43,7 +43,6 @@ const Ingredients = ({ list, totalValues, pantryInfo }) => {
           getPantryItemJson(item.name) ? num(getPantryItemJson(item.name).per100g.calories) : 0
         }`;
         const amount = item.amount + (item.unit != null && item.unit !== "" ? " " + item.unit : "") + " ";
-
         clipboardText += calorieCalculation + "\t" + amount + (item.label || item.name) + "\n";
       });
       clipboardText += "\n";
@@ -55,15 +54,33 @@ const Ingredients = ({ list, totalValues, pantryInfo }) => {
     const clipboardData = document.getElementById("clipboard-data");
     clipboardData.select();
     document.execCommand("copy");
+
+    // Highlight the text on the table to show that we've copied it
+    const table = document.getElementById("ingredients-table");
+    if (document.body.createTextRange) {
+      const range = document.body.createTextRange();
+      range.moveToElementText(table);
+      range.select();
+    } else if (window.getSelection) {
+      const selection = window.getSelection();
+      const range = document.createRange();
+      range.selectNodeContents(table);
+      selection.removeAllRanges();
+      selection.addRange(range);
+    }
   };
 
   return (
     <div className="ingredients subcontent">
-      <p className="title">Ingredients:</p>
-      <button onClick={copyToClipboard}>copy</button>
+      <div className="title">
+        Ingredients:{" "}
+        <button className="copy-button" onClick={copyToClipboard}>
+          copy
+        </button>
+      </div>
       <textarea readOnly id="clipboard-data" value={clipboard} />
       {list && (
-        <table className="table">
+        <table className="table" id="ingredients-table">
           <tbody>
             {list.map((currentCategory, index) => (
               <IngredientCategory key={index} category={currentCategory} />
@@ -81,13 +98,13 @@ const IngredientCategory = ({ category }) => {
   return (
     <>
       <tr>
-        <td>{category.category}</td>
+        <td>{category.category ? category.category + ":" : ""}</td>
       </tr>
       {category.ingredients.map((item, index) => (
         <Ingredient key={index} item={item} />
       ))}
       <tr>
-        <td> ...</td>
+        <td className="empty-cell">...</td>
       </tr>
     </>
   );
@@ -95,15 +112,16 @@ const IngredientCategory = ({ category }) => {
 
 // a single ingredient
 const Ingredient = ({ item }) => {
-  const { label, amount, unit, grams, calories, protein, price } = item;
+  const { label, amount, unit, note, grams, calories, protein, price } = item;
+  const optionalNote = note ? `, ${note}` : "";
   const shownGramsValue = !["", "g", "ml", "oz", "lb"].includes(unit) ? `(${num(grams)} g)` : "";
 
   return (
     <tr>
-      <td>{`${amount} ${unit} ${shownGramsValue} ${label}`}</td>
+      <td>{`${num(amount)} ${unit} ${shownGramsValue} ${label}${optionalNote}`}</td>
       <td>{num(calories) + " cal"}</td>
       <td>{num(protein) + " g protein"}</td>
-      <td>{"$" + num(price)}</td>
+      <td>{"$" + numPrice(price)}</td>
     </tr>
   );
 };
@@ -112,10 +130,10 @@ const Ingredient = ({ item }) => {
 const TotalValues = ({ values }) => {
   return (
     <tr>
-      <td></td>
-      <td>{`${num(values.calories)} total cal`}</td>
-      <td>{`${num(values.protein)} total g protein`}</td>
-      <td>{`$${num(values.price)} total`}</td>
+      <td>Total:</td>
+      <td>{`${num(values.calories)} cal`}</td>
+      <td>{`${num(values.protein)} g protein`}</td>
+      <td>{`$${numPrice(values.price)}`}</td>
     </tr>
   );
 };
@@ -125,28 +143,39 @@ const Directions = ({ list }) => {
   return (
     <div className="directions subcontent">
       <p className="title">Directions:</p>
-      {list ? (
-        <ul className="list">
-          {list.map((step, index) =>
-            step.length > 0 ? (
-              <li className="step" key={index}>
-                {step}
-              </li>
-            ) : (
-              <p key={index}></p>
-            )
-          )}
-        </ul>
-      ) : (
-        <div className="error">Error with directions list for this recipe</div>
-      )}
+      <ul className="list">
+        {list.map((step, index) =>
+          step.length > 0 ? (
+            <li className="step" key={index}>
+              {step}
+            </li>
+          ) : (
+            <br key={index} />
+          )
+        )}
+      </ul>
     </div>
+  );
+};
+
+const GroceryList = ({ list }) => {
+  return list ? (
+    <div className="grocery-list subcontent">
+      <div className="title">Grocery list:</div>
+      <p>{list}</p>
+    </div>
+  ) : (
+    <></>
   );
 };
 
 // take in a numerical value and return it with no decimals, or two decimal points if needed
 const num = (value) => {
   return value ? +(Math.round(value + "e+2") + "e-2") : value;
+};
+// take in a numerical value and return it with two decimal points; use for prices
+const numPrice = (value) => {
+  return value ? value.toFixed(2) : Number(0).toFixed(2);
 };
 
 export default RecipePage;

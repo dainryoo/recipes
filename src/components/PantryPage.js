@@ -1,27 +1,54 @@
 import React, { useEffect, useState } from "react";
 
 // view of app when on pantry page
-const PantryPage = ({ currPantry }) => {
-  return <div className="pantry content">{currPantry ? <Pantry currPantry={currPantry} /> : <Message />}</div>;
+const PantryPage = ({ currPantry, mobileView }) => {
+  return (
+    <div className={"pantry content " + (mobileView === "content" ? "mobile-show" : "mobile-hide")}>
+      {currPantry ? <Pantry currPantry={currPantry} /> : <Message />}
+    </div>
+  );
 };
 
 const Pantry = ({ currPantry }) => {
   return (
-    <div>
-      <p>{currPantry.label}</p>
-      <p>{currPantry.note && `Note: ${currPantry.note}`}</p>
-      <p>Nutrition facts:</p>
-      <CalculatorInput key={currPantry.name + "grams"} unit={"g"} item={currPantry} />
-      {Object.keys(currPantry.conversionToGrams).map((unit) => {
-        return <CalculatorInput key={currPantry.name + unit} unit={unit} item={currPantry} />;
-      })}
-    </div>
+    <>
+      <div className="title">{currPantry.label}</div>
+      <Note text={currPantry.note} />
+      <Calculators currPantry={currPantry} />
+    </>
   );
 };
 
 // shown when no pantry item is selected
 const Message = () => {
   return "Choose a pantry item to begin";
+};
+
+const Note = ({ text }) => {
+  return text ? (
+    <div className="note subcontent">
+      <div className="title">Note:</div>
+      <p>{text}</p>
+    </div>
+  ) : (
+    <></>
+  );
+};
+
+const Calculators = ({ currPantry }) => {
+  return (
+    <div className="calculators subcontent">
+      <div className="title">Nutrition facts:</div>
+      <table>
+        <tbody>
+          <CalculatorInput key={currPantry.name + "grams"} unit={"g"} item={currPantry} />
+          {Object.keys(currPantry.conversionToGrams).map((unit) => {
+            return <CalculatorInput key={currPantry.name + unit} unit={unit} item={currPantry} />;
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
 };
 
 const CalculatorInput = ({ item, unit }) => {
@@ -57,22 +84,31 @@ const CalculatorInput = ({ item, unit }) => {
     }
   };
 
-  const gramsConversion = unit !== "g" ? ` = ${num(conversions.grams)} g` : "";
-  const caloriesConversion = ` = ${num(conversions.calories)} cal`;
-  const proteinConversion = ` = ${num(conversions.protein)} g protein`;
-  const priceConversion = ` = $${num(conversions.price)}`;
+  const gramsConversion = unit !== "g" ? `${num(conversions.grams)} g` : "";
+  const caloriesConversion = `${num(conversions.calories)} cal`;
+  const proteinConversion = `${num(conversions.protein)} g protein`;
+  const priceConversion = `$${numPrice(conversions.price)}`;
 
   return (
-    <div className="calculator">
-      <input value={inputValue} onChange={handleChange} />
-      {unit + gramsConversion + caloriesConversion + proteinConversion + priceConversion}
-    </div>
+    <tr className="calculator">
+      <td>
+        <input value={inputValue} onChange={handleChange} /> {unit}
+      </td>
+      <td>{gramsConversion}</td>
+      <td>{caloriesConversion}</td>
+      <td>{proteinConversion}</td>
+      <td>{priceConversion}</td>
+    </tr>
   );
 };
 
 // take in a numerical value and return it with no decimals, or two decimal points if needed
 const num = (value) => {
   return value ? +(Math.round(value + "e+2") + "e-2") : value;
+};
+// take in a numerical value and return it with two decimal points; use for prices
+const numPrice = (value) => {
+  return value ? value.toFixed(2) : Number(0).toFixed(2);
 };
 
 export default PantryPage;

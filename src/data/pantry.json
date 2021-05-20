@@ -48,6 +48,21 @@
         }
       },
       {
+        "name": "cherry_pitted",
+        "label": "pitted cherry",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 154,
+          "calories": 97,
+          "protein": 2
+        },
+        "price_per_unit": {
+          "price": 7.99,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "coconut_shredded",
         "label": "shredded coconut",
         "serving_nutrition": {
@@ -567,7 +582,22 @@
           "protein": 2.475
         },
         "price_per_unit": {
-          "price": 1.0,
+          "price": 1.49,
+          "unit": "lb"
+        }
+      },
+      {
+        "name": "onion_red",
+        "label": "red onion",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 197,
+          "calories": 86.7,
+          "protein": 1.85
+        },
+        "price_per_unit": {
+          "price": 1.69,
           "unit": "lb"
         }
       },
@@ -1063,6 +1093,21 @@
         }
       },
       {
+        "name": "dill_fresh",
+        "label": "fresh dill",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 8.9,
+          "calories": 3.83,
+          "protein": 0.308
+        },
+        "price_per_unit": {
+          "price": 0.498,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "garlic",
         "label": "garlic",
         "serving_nutrition": {
@@ -1119,6 +1164,21 @@
         },
         "price_per_unit": {
           "price": 2.23,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "mint_fresh",
+        "label": "fresh mint",
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "tbsp",
+          "grams": 11,
+          "calories": 5,
+          "protein": 0.4
+        },
+        "price_per_unit": {
+          "price": 4.98,
           "unit": "oz"
         }
       },
@@ -1509,7 +1569,7 @@
       {
         "name": "goat",
         "label": "goat",
-        "note": "For bone-in stew meat, research: 1.52 lb total has 6.2oz bone.",
+        "note": "For bone-in stew meat, research: 1.52lb total has 6.2oz bone. 1.91lb total has 7.7oz bone.",
         "serving_nutrition": {
           "amount": 1,
           "unit": "oz",
@@ -1991,6 +2051,21 @@
         }
       },
       {
+        "name": "halibut",
+        "label": "halibut",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "oz",
+          "grams": 28.35,
+          "calories": 25.8,
+          "protein": 5.26
+        },
+        "price_per_unit": {
+          "price": 24.99,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "monkfish",
         "label": "monkfish",
         "serving_nutrition": {
@@ -2354,6 +2429,22 @@
           "price": 0.05,
           "unit": "oz"
         }
+      },
+      {
+        "name": "milk_soy",
+        "label": "soy milk",
+        "note": "365 unsweeted soy milk",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "cup",
+          "grams": 240,
+          "calories": 70,
+          "protein": 7
+        },
+        "price_per_unit": {
+          "price": 0.04671875,
+          "unit": "oz"
+        }
       }
     ]
   },
@@ -2389,6 +2480,22 @@
         },
         "price_per_unit": {
           "price": 0.05,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "canned_butter_beans",
+        "label": "canned butter beans",
+        "note": "Eden",
+        "serving_nutrition": {
+          "amount": 4.28571429,
+          "unit": "oz",
+          "grams": 130,
+          "calories": 100,
+          "protein": 6
+        },
+        "price_per_unit": {
+          "price": 0.166,
           "unit": "oz"
         }
       },
@@ -2567,6 +2674,22 @@
         "price_per_unit": {
           "price": 11.72,
           "unit": "lb"
+        }
+      },
+      {
+        "name": "chickpeas_dry",
+        "label": "dry chickpeas",
+        "note": "365",
+        "serving_nutrition": {
+          "amount": 0.25,
+          "unit": "cup",
+          "grams": 50,
+          "calories": 180,
+          "protein": 10
+        },
+        "price_per_unit": {
+          "price": 0.17,
+          "unit": "oz"
         }
       },
       {
@@ -3679,6 +3802,21 @@
         }
       },
       {
+        "name": "frozen_corn",
+        "label": "frozen corn",
+        "serving_nutrition": {
+          "amount": 0.5,
+          "unit": "cup",
+          "grams": 85,
+          "calories": 90,
+          "protein": 3
+        },
+        "price_per_unit": {
+          "price": 0.136875,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "frozen_dinner_roll",
         "label": "frozen dinner roll",
         "serving_nutrition": {
@@ -3750,6 +3888,22 @@
         },
         "price_per_unit": {
           "price": 0.0,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "protein_powder",
+        "label": "protein powder",
+        "note": "365 Vanilla Soy",
+        "serving_nutrition": {
+          "amount": 27.7,
+          "unit": "g",
+          "grams": 27.7,
+          "calories": 110,
+          "protein": 24
+        },
+        "price_per_unit": {
+          "price": 0.89679487179,
           "unit": "oz"
         }
       },

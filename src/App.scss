@@ -1,3 +1,24 @@
+/* Color variables */
+$color-black: #131313;
+$color-gray-dark: #5c5c5c;
+$color-gray-light: #999999;
+$color-gray-lightest: #eeeeee;
+$color-white: #f9f9f9;
+$color-highlight: #7872d1;
+
+/* Mobile/desktop view settings */
+$mobile-breakpoint: 768px;
+@mixin mobile {
+  @media (max-width: #{$mobile-breakpoint}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$mobile-breakpoint}) {
+    @content;
+  }
+}
+
 html,
 body,
 #root,
@@ -5,7 +26,7 @@ body,
   height: 100%;
   width: 100%;
   overflow: hidden;
-  background-color: #f9f9f9;
+  background-color: $color-white;
   font-family: monospace;
 }
 
@@ -16,12 +37,14 @@ input {
 
 /* The entire app; made up of .app-header and .app-body */
 .App {
+  max-width: 1366px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 
   /* Header with the app's title and, if applicable, the mobile view toggle */
   .app-header {
-    padding: 3rem 2rem;
+    padding: 4rem 2rem 3rem 2rem;
     display: flex;
     font-size: 2.25rem;
     font-weight: 100 !important;
@@ -31,15 +54,53 @@ input {
     /* Title text and app content (Recipe/Pantry) toggle */
     .title {
       display: flex;
-      align-self: start;
-      color: grey;
+      align-items: center;
+      color: $color-gray-light;
 
       /* The (Recipe/Pantry) toggle button */
       button {
         cursor: pointer;
-        box-shadow: inset 0 -3px white, inset 0 -4px #de8c8c;
-        transition: 0.15s;
-        color: #de8c8c;
+        padding: 0;
+        font-size: 2.25rem;
+        background-color: $color-white;
+        color: $color-gray-light;
+        border: none;
+        transition: 0.2s;
+
+        &:first-of-type {
+          margin-right: 1rem;
+        }
+        &:last-of-type {
+          margin-left: 1rem;
+        }
+
+        &:hover {
+          color: $color-highlight;
+          text-decoration: underline;
+        }
+        &.selected {
+          color: $color-highlight;
+        }
+      }
+    }
+
+    /* Mobile toggle button */
+    .mobile-button {
+      cursor: pointer;
+      padding: 0.75rem 1rem;
+      background-color: $color-white;
+      border: 1px solid $color-gray-light;
+      border-radius: 10%;
+      display: flex;
+      align-items: center;
+
+      svg {
+        fill: $color-gray-light;
+      }
+
+      /* Hide on desktop view */
+      @include desktop {
+        display: none;
       }
     }
   }
@@ -50,32 +111,133 @@ input {
     flex: 1;
     overflow: hidden;
     padding: 0 2rem 2rem 2rem;
+    font-size: 1.2rem;
+
+    & > .mobile-hide {
+      @include mobile {
+        display: none;
+      }
+    }
+    & > .mobile-show {
+      @include mobile {
+        display: block;
+      }
+    }
 
     /* List of items for navigation */
     .sidebar {
+      width: 25%;
       overflow-y: scroll;
-      display: block;
+      color: $color-gray-light;
 
-      /* The clickable text of the nav items */
-      .item {
-        cursor: pointer;
+      & > ul {
+        margin: 0;
+        padding: 0;
+
+        .category {
+          text-transform: uppercase;
+          margin-top: 0.5rem;
+          margin-bottom: 2rem;
+          padding-right: 1.5rem;
+          cursor: pointer;
+
+          /* Clickable category name */
+          & > .category-label {
+            display: flex;
+            & > .icon {
+              margin-right: 1rem;
+            }
+
+            &:hover {
+              font-weight: 800;
+              background-color: $color-gray-lightest;
+            }
+          }
+
+          & > ul {
+            margin-top: 0.5rem;
+            padding-left: 1.5rem;
+
+            /* Each clickable link */
+            .item {
+              text-transform: lowercase;
+              padding-bottom: 0.05rem;
+
+              &.selected {
+                font-weight: 800;
+                color: $color-highlight;
+              }
+
+              &:hover {
+                text-decoration: underline;
+                font-weight: 800;
+                color: $color-highlight;
+                transition: 0.05s;
+              }
+            }
+          }
+        }
       }
     }
 
     /* The main content of the page; either shows recipe or pantry info  */
     .content {
-      flex: 1;
-      padding-left: 3rem !important;
+      width: 75%;
+      padding: 0rem 1.5rem 6rem 4rem;
       overflow-y: scroll;
-      color: #4e4e4e;
+      color: $color-black;
+
+      @include mobile {
+        padding: 0rem 0rem 6rem 0rem;
+      }
+
+      /* Title of recipe/pantry item */
+      & > .title {
+        margin: 0 0 1rem 0;
+        font-size: 2rem;
+        font-weight: 800;
+        color: $color-highlight;
+      }
+
+      /* Everything under the title */
+      & > .subcontent {
+        margin: 2.5rem 0;
+        & > .title {
+          margin: 0 0 1rem 0;
+          text-transform: uppercase;
+          display: flex;
+          align-items: center;
+          color: $color-gray-dark;
+
+          /* Copy button (for ingredients) */
+          & > button {
+            margin-left: 1rem;
+            cursor: pointer;
+            font-size: 0.8rem;
+          }
+        }
+      }
 
       /* Recipe page */
       &.recipe {
         .subcontent {
+          .copy-button {
+            border: 1px solid $color-gray-light;
+            color: $color-gray-light;
+            border-radius: 8px;
+            background-color: transparent;
+            padding: 0.2rem 0.6rem;
+            transition: 0.2s;
+
+            &:hover {
+              border-radius: 0;
+              border-color: $color-highlight;
+              color: $color-highlight;
+            }
+          }
+
           /* Ingredients area */
           &.ingredients {
-            background-color: aliceblue;
-
             /* Dummy textarea used for copying to clipboard; make sure it's hidden */
             #clipboard-data {
               opacity: 0.01;
@@ -84,22 +246,61 @@ input {
               z-index: -1;
             }
 
-            .list {
-              list-style-type: none;
+            td {
+              padding-right: 1.5rem;
 
-              .ingredient {
-                display: flex;
-
-                & > * {
-                  padding-right: 2rem;
-                }
+              &:not(:first-child) {
+                color: $color-gray-light;
               }
+
+              &.empty-cell {
+                visibility: hidden;
+              }
+            }
+
+            tr:last-child {
+              color: $color-gray-light;
             }
           }
 
           /* Directions area */
           &.directions {
-            background-color: rgb(237, 248, 242);
+            .list {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+
+              li {
+                margin-bottom: 0.25rem;
+              }
+            }
+          }
+        }
+      }
+
+      /* Pantry page */
+      &.pantry {
+        /* Each calculator row */
+        .calculator {
+          input {
+            border: none;
+            padding: 0.75rem 1rem;
+            width: 100px;
+
+            @include mobile {
+              width: 36px;
+            }
+
+            &:focus {
+              outline: none;
+              border-bottom: 3px solid $color-highlight;
+              margin-bottom: -3px;
+            }
+          }
+
+          & > td {
+            padding-right: 3rem;
+            padding-bottom: 1rem;
           }
         }
       }

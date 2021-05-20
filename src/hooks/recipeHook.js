@@ -94,6 +94,7 @@ const useRecipeHook = (pantryInfo) => {
           label: itemData.label,
           amount: ingredient.amount,
           unit: ingredient.unit,
+          ...(ingredient.note && { note: ingredient.note }),
           grams: calculatedItemData.grams,
           calories: calculatedItemData.calories,
           protein: calculatedItemData.protein,
