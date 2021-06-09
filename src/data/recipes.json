@@ -368,8 +368,8 @@
           "",
           "Dutch oven med heat. Cook onion, celery, bell pepper, garlic 5+ min.",
           "Add and cook sausage 3+ min.",
-          "Add rest of ingredients. Lower heat to 3/10. Cover and cook 30 min.",
-          "Uncover to stir every 10 min."
+          "Add rest of ingredients. Lower heat to 4/10. Cover and cook 35 min.",
+          "Uncover to stir halfway."
         ]
       },
       {
@@ -1045,9 +1045,9 @@
               { "name": "water", "amount": 2.5, "unit": "cup" },
               { "name": "dried_anchovy", "amount": 4, "unit": "" },
               { "name": "dried_kelp", "amount": 3, "unit": "g" },
-              { "name": "gochujang", "note": "try reducing?", "amount": 2, "unit": "tbsp" },
-              { "name": "gochugaru", "note": "originally 0.75 tbsp", "amount": 0.5, "unit": "tbsp" },
-              { "name": "sugar", "amount": 6, "unit": "g" },
+              { "name": "gochujang", "note": "originally 2 tbsp", "amount": 30, "unit": "g" },
+              { "name": "gochugaru", "note": "originally 0.75 tbsp", "amount": 1, "unit": "tsp" },
+              { "name": "sugar", "amount": 8, "unit": "g" },
               { "name": "egg", "note": "boiled", "amount": 3, "unit": "" },
               { "name": "fish_cake_sheet", "amount": 45, "unit": "g" }
             ]
@@ -1078,7 +1078,7 @@
               { "name": "sugar", "amount": 2, "unit": "tsp" },
               { "name": "cucumber", "amount": 1, "unit": "" },
               { "name": "cabbage", "amount": 0.333333, "unit": "" },
-              { "name": "udon_noodle", "amount": 1, "unit": "" }
+              { "name": "udon_noodle_korean", "amount": 1, "unit": "" }
             ]
           }
         ],
@@ -1328,6 +1328,7 @@
       {
         "name": "galbitang",
         "label": "galbitang [갈비탕]",
+        "groceryList": "(1.5lb beef short rib, 1 daikon, 1 onion, 1 garlic head, ginger, 1 jalapeno, 2 green onion)",
         "ingredients": [
           {
             "category": "",
@@ -1447,7 +1448,7 @@
               { "name": "beef_chuck_stew", "note": "can also use brisket, stew, or round", "amount": 4, "unit": "oz" },
               { "name": "sesame_oil", "amount": 1, "unit": "tbsp" },
               { "name": "garlic", "note": "minced, optional", "amount": 1, "unit": "" },
-              { "name": "soup_soy_sauce", "amount": 1.5, "unit": "tbsp" },
+              { "name": "soy_sauce_soup", "amount": 1.5, "unit": "tbsp" },
               { "name": "salt", "note": "adjust to taste", "amount": 0.5, "unit": "tsp" }
             ]
           }
@@ -1487,7 +1488,7 @@
                 "amount": 0.5,
                 "unit": "lb"
               },
-              { "name": "soup_soy_sauce", "amount": 1, "unit": "tbsp" },
+              { "name": "soy_sauce_soup", "amount": 1, "unit": "tbsp" },
               { "name": "salt", "note": "to taste", "amount": 0.25, "unit": "tsp" },
               { "name": "pepper_black", "note": "to taste", "amount": 0.5, "unit": "tsp" },
               { "name": "sesame_oil", "note": "to taste; up to 1 tsp", "amount": 0.5, "unit": "tsp" }
@@ -1538,7 +1539,7 @@
               { "name": "zucchini", "amount": 1, "unit": "" },
               { "name": "garlic", "note": "minced; try 3 too?", "amount": 2, "unit": "" },
               { "name": "fish_sauce_korean", "amount": 1, "unit": "tbsp" },
-              { "name": "soup_soy_sauce", "amount": 1, "unit": "tbsp" },
+              { "name": "soy_sauce_soup", "amount": 1, "unit": "tbsp" },
               { "name": "sesame_oil", "note": "optional", "amount": 1, "unit": "tsp" }
             ]
           }
@@ -1559,19 +1560,29 @@
     "category_name": "banchan",
     "recipes": [
       {
-        "name": "kimchi_pancakes",
-        "label": "kimchi pancakes [김치 부침개]",
+        "name": "korean_pancakes",
+        "label": "korean pancakes [부침개]",
         "ingredients": [
           {
-            "category": "",
+            "category": "kimchi pancakes",
             "items": [
               { "name": "kimchi", "amount": 280, "unit": "g" },
               { "name": "flour", "amount": 200, "unit": "g" },
               { "name": "oil", "amount": 5, "unit": "tsp" }
             ]
+          },
+          {
+            "category": "chive pancakes",
+            "items": [
+              { "name": "garlic_chive", "amount": 50, "unit": "g" },
+              { "name": "flour", "amount": 0.5, "unit": "cup" },
+              { "name": "cornstarch", "amount": 0.125, "unit": "cup" },
+              { "name": "oil", "amount": 1, "unit": "tbsp" }
+            ]
           }
         ],
         "directions": [
+          "Kimchi pancakes:",
           "Makes ~5 pancakes.",
           "Med to med high heat, 1/2 generous cup of batter + 1 tsp oil per pancake."
         ]
@@ -1722,6 +1733,366 @@
           "Add sweetener and stir. Cover and simmer for another 20 min.",
           "Open and turn heat to med high. Carefully stir and turn over roots, braise for 10-12min, til almost all liquid evaporated and roots are jelly like.",
           "Remove from heat, stir in sesame oil, sprinkle with sesame seeds. Can store in fridge for up to 2 weeks."
+        ]
+      },
+      {
+        "name": "soybean_sprout_muchim",
+        "label": "soybean sprout muchim [콩나물무침]",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "soybean_sprout", "amount": 1, "unit": "lb" },
+              { "name": "green_onion", "note": "finely chopped", "amount": 1, "unit": "" },
+              { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tbsp" },
+              { "name": "sesame_seed", "amount": 1, "unit": "tsp" },
+              { "name": "gochugaru", "note": "optional", "amount": 2, "unit": "tsp" },
+              { "name": "salt", "note": "1 tsp if omitting gochugaru", "amount": 0.5, "unit": "tsp" },
+              { "name": "soy_sauce_dark", "note": "use if using gochugaru", "amount": 1, "unit": "tbsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Rinse sprouts in cold water, remove rotten beans or floating skins.",
+          "Place 1 cup water + bean sprouts in medium pot. Cover, bring to boil over high heat, cook for 3-4 min and DO NOT open lid.",
+          "Drain quickly, cool. Shock sprouts in cold water. Toss with remaining ingredients."
+        ]
+      },
+      {
+        "name": "seaweed_muchim",
+        "label": "seaweed muchim [미역무침]",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "dried_miyeok", "amount": 1, "unit": "oz" },
+              { "name": "cucumber", "note": "optional, thinly sliced. can also do radish", "amount": 1, "unit": "" },
+              { "name": "sesame_seed", "amount": 1, "unit": "tsp" },
+              { "name": "vinegar_white", "amount": 4, "unit": "tbsp" },
+              { "name": "sugar", "amount": 1, "unit": "tbsp" },
+              { "name": "salt", "amount": 0.5, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Soak miyeok in cold water (prob 10-12 min, check package) or just til soft. Rinse, drain, and cut. Blanch miyeok in boiling water, drain and rinse and cool and squeeze out water.",
+          "Mix all sauce ingredients. Toss all ingredients."
+        ]
+      },
+      {
+        "name": "cucumber_kimchi",
+        "label": "cucumber kimchi [오이김치]",
+        "ingredients": [
+          {
+            "category": "seasoning",
+            "items": [
+              { "name": "gochugaru", "amount": 2, "unit": "tbsp" },
+              { "name": "salted_shrimp", "amount": 1, "unit": "tbsp" },
+              { "name": "fish_sauce_korean", "amount": 1, "unit": "tbsp" },
+              { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+              { "name": "ginger", "note": "grated", "amount": 0.5, "unit": "tsp" },
+              { "name": "sugar", "amount": 1, "unit": "tbsp" },
+              { "name": "sesame_seed", "amount": 1, "unit": "tsp" }
+            ]
+          },
+          {
+            "category": "veg",
+            "items": [
+              { "name": "cucumber", "amount": 1.5, "unit": "lb" },
+              { "name": "salt", "note": "coarse salt; use less if table salt", "amount": 1, "unit": "tbsp" },
+              { "name": "chive", "note": "cut to 1.5\" length", "amount": 2, "unit": "oz" },
+              { "name": "onion", "note": "thinly sliced", "amount": 0.25, "unit": "" }
+            ]
+          }
+        ],
+        "directions": [
+          "Quarter cucumber and cut to 1.5\" long pieces. Salt evenly and let sit ~30min.",
+          "Drain cucumbers but do not rinse. Add onion and chives. Toss well in seasoning."
+        ]
+      },
+      {
+        "name": "cucumber_muchim",
+        "label": "cucumber muchim [오이무침]",
+        "groceryList": "(0.5lb cucumber (~1 avg), 1 green onion, 1 garlic)",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "cucumber", "note": "sliced 1/4-1/8\" thick", "amount": 0.5, "unit": "lb" },
+              { "name": "salt", "amount": 1, "unit": "tsp" },
+              { "name": "gochugaru", "amount": 2, "unit": "tsp" },
+              { "name": "green_onion", "note": "chopped", "amount": 1, "unit": "" },
+              { "name": "garlic", "note": "minced", "amount": 0.5, "unit": "" },
+              { "name": "vinegar_white", "amount": 1, "unit": "tsp" },
+              { "name": "sugar", "amount": 0.5, "unit": "tsp" },
+              { "name": "sesame_seed", "amount": 1, "unit": "tsp" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Toss cucumbers gently in salt. Let sit 15 min.",
+          "Drain excess water but don't squeeze hard. Mix well with all remaining ingredients."
+        ]
+      },
+      {
+        "name": "sweet_potato_stem_namul",
+        "label": "sweet potato stem namul [건고구마순나물]",
+        "groceryList": "(dried sweet potato stem, 1 garlic, 1 green onion)",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "dried_sweet_potato_stem", "amount": 100, "unit": "g" },
+              { "name": "oil", "amount": 1, "unit": "tbsp" },
+              { "name": "soy_sauce_dark", "amount": 1, "unit": "tbsp" },
+              { "name": "water", "amount": 5, "unit": "tbsp" },
+              { "name": "salt", "amount": 0.25, "unit": "tsp" },
+              { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+              { "name": "green_onion", "note": "roughly chopped", "amount": 1, "unit": "" },
+              { "name": "sesame_oil", "amount": 2, "unit": "tbsp" },
+              { "name": "perilla_seed_powder", "amount": 3, "unit": "tbsp" },
+              { "name": "sesame_seed", "amount": 0.5, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Soak stems til soft (6hrs?). Cut into bite size length. Heat up on greased pan.",
+          "Add soy sauce, salt, saute a bit. Add water a little and let boil.",
+          "Add garlic, green onions, sesame oil, saute. Add perilla powder at end."
+        ]
+      },
+      {
+        "name": "gosari_namul",
+        "label": "gosari namul [고사리나물]",
+        "groceryList": "(gosari, 1 garlic, 1 green onion)",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "dried_gosari", "amount": 1, "unit": "oz" },
+              { "name": "soy_sauce_soup", "amount": 1, "unit": "tbsp" },
+              { "name": "sugar", "amount": 0.25, "unit": "tsp" },
+              { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+              { "name": "pepper_black", "note": "to taste", "amount": 0.125, "unit": "tsp" },
+              { "name": "oil", "amount": 1, "unit": "tbsp" },
+              { "name": "water", "note": "or dashima broth", "amount": 0.25, "unit": "cup" },
+              { "name": "green_onion", "note": "roughly chopped", "amount": 1, "unit": "" },
+              { "name": "sesame_oil", "amount": 0.5, "unit": "tbsp" },
+              { "name": "sesame_seed", "amount": 0.5, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "In medium pot, gosari and 4-5 cup water. Boil covered over med heat til tender (~30-40min). Turn heat off and let cool in cooking water. Rinse in cold water and drain.",
+          "Cut into 3-4\" pieces. Remove tough stem ends if needed.",
+          "Mix gosari with soy sauce, sugar, garlic. Let sit 10 min.",
+          "Saute in skillet with 1 tbsp oil for 4-5 min med heat. Pour in water/broth, cook for few more min stirring occasionally til water mostly gone.",
+          "Add rest of ingredients. Stir well. Take off heat."
+        ]
+      },
+      {
+        "name": "spinach_namul",
+        "label": "spinach namul [시금치나물]",
+        "groceryList": "(1 bunch spinach, 1 green onion, 1 garlic)",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "spinach", "note": "~1 bunch", "amount": 10, "unit": "oz" },
+              { "name": "green_onion", "note": "chopped", "amount": 1, "unit": "" },
+              { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+              { "name": "sugar", "amount": 0.5, "unit": "tsp" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
+              { "name": "sesame_seed", "amount": 1, "unit": "tsp" },
+              { "name": "soy_sauce_soup", "note": "or 2 tsp gochujang + 2 tsp soy sauce", "amount": 2, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Rinse spinach. Blanch in salted boiling water til wilted (20-30sec). Quickly remove and shock in icy cold water.",
+          "Drain and squeeze excess water gently. Cut into 3\" length",
+          "Toss and mix well with rest of ingredients.",
+          "Store 3-4 days in fridge."
+        ]
+      },
+      {
+        "name": "peanut_jorim",
+        "label": "peanut jorim [땅콩조림]",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "peanut", "note": "raw, but roasted ok", "amount": 1, "unit": "cup" },
+              { "name": "soy_sauce_dark", "amount": 2, "unit": "tbsp" },
+              { "name": "mirin", "amount": 2, "unit": "tbsp" },
+              { "name": "sugar", "amount": 1, "unit": "tbsp" },
+              { "name": "honey", "note": "try more, up to 2 tbsp?", "amount": 1, "unit": "tbsp" },
+              { "name": "water", "note": "or dashima broth", "amount": 1, "unit": "cup" },
+              { "name": "sesame_seed", "amount": 0.25, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Bring peanuts + 2 cup water to a boil. Boil for 5 min. Drain.",
+          "Return peanuts to pot. Add soy sauce, mirin, sugar, corn syrup, water/broth.",
+          "Bring to boil. Reduce meat to med and gently boil uncovered til most sauce evaporated (~20-25min).",
+          "Stir occasionally but monitor to prevent burning. Sprinkle with sesame seeds.",
+          "Keep in fridge up to 2-3 weeks."
+        ]
+      },
+      {
+        "name": "potato_jorim",
+        "label": "potato jorim [감자조림]",
+        "groceryList": "(1.5 lb (~3 med) potato, 1 carrot?, 1/2 any bell pepper, 1/4 onion)",
+        "ingredients": [
+          {
+            "category": "veg",
+            "items": [
+              { "name": "potato", "note": "~3 medium", "amount": 1.5, "unit": "lb" },
+              { "name": "carrot", "note": "optional", "amount": 1, "unit": "" },
+              { "name": "bell_pepper_green", "note": "or any other pepper", "amount": 0.5, "unit": "" },
+              { "name": "onion", "amount": 0.25, "unit": "" },
+              { "name": "oil", "amount": 1, "unit": "tbsp" }
+            ]
+          },
+          {
+            "category": "braising_liquid",
+            "items": [
+              { "name": "soy_sauce_dark", "note": "or 2 tbsp with 1 tbsp gochujang", "amount": 3, "unit": "tbsp" },
+              { "name": "sugar", "amount": 1, "unit": "tbsp" },
+              { "name": "mirin", "amount": 1, "unit": "tbsp" },
+              { "name": "honey", "note": "or just 1 tbsp more sugar", "amount": 1, "unit": "tbsp" },
+              { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+              { "name": "water", "amount": 0.75, "unit": "cup" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
+              { "name": "sesame_seed", "amount": 0.5, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Cut potatoes into 1\" cubes. Cut other veg into big chunks.",
+          "Mix all braising ingredients except sesame oil and sesame seeds, stir well",
+          "In non-stick pan/pot, saute potatoes over med heat 4-5 min, stir occasionally.",
+          "Add sauce and bring to boil over high heat. Add carrots.",
+          "Cover, reduce heat to med, cook till potatoes almost cooked thru (~5-6 min), firm but not mushy.",
+          "Stir in peppers and onion. Boil uncovered til sauce reduced and thick (~3min). Stir in sesame oil and seeds.",
+          "Keeps in fridge 2-3 days."
+        ]
+      },
+      {
+        "name": "eomuk_bokkeum",
+        "label": "eomuk bokkeum [어묵 볶음]",
+        "groceryList": "(1/2 carrot or 1/4 red bell, 1/4 green bell, 1/4 onion, 1 garlic)",
+        "ingredients": [
+          {
+            "category": "filling",
+            "items": [
+              { "name": "fish_cake_sheet", "note": "(4 sheets)", "amount": 180, "unit": "g" },
+              { "name": "carrot", "note": "or 1/4 red bell pepper", "amount": 0.5, "unit": "" },
+              { "name": "bell_pepper_green", "amount": 0.25, "unit": "" },
+              { "name": "onion", "amount": 0.25, "unit": "" },
+              { "name": "oil", "note": "to cook", "amount": 1, "unit": "tbsp" }
+            ]
+          },
+          {
+            "category": "sauce",
+            "items": [
+              { "name": "soy_sauce_dark", "amount": 2, "unit": "tbsp" },
+              { "name": "mirin", "amount": 1, "unit": "tbsp" },
+              { "name": "sugar", "amount": 2, "unit": "tsp" },
+              { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" },
+              { "name": "gochugaru", "note": "optional", "amount": 2, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Optionally cook fish cakes in boiling water for 30 sec then drain if you want to remove excess oil.",
+          "Thinly slice veg. Combine and mix all sauce ingredients well.",
+          "Non stick pan on med high heat, cook veg for 1-2 min or til silghtly soft.",
+          "Reduce heat to med, cook fish cake ~2 min. Stir in sauce well, cook ~2 min.",
+          "Veg options are to liking--can do green onions, chili peppers, etc",
+          "Keep 4-5 days in fridge."
+        ]
+      },
+      {
+        "name": "steamed_shishito",
+        "label": "steamed shishito [꽈리고추찜]",
+        "groceryList": "(10oz shishito, 2 garlic, 2 green onion)",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "shishito", "note": "destemmed and washed", "amount": 10, "unit": "oz" },
+              { "name": "flour", "note": "use 1 tbsp per 100g shishito", "amount": 3, "unit": "tbsp" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
+              { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+              { "name": "dried_anchovy", "note": "heat and guts removed", "amount": 6, "unit": "" },
+              { "name": "water", "amount": 0.25, "unit": "cup" },
+              { "name": "soy_sauce_dark", "amount": 3, "unit": "tbsp" },
+              { "name": "honey", "note": "or sugar", "amount": 1, "unit": "tbsp" },
+              { "name": "gochugaru", "note": "0-3 tsp", "amount": 3, "unit": "tsp" },
+              { "name": "green_onion", "note": "chopped", "amount": 2, "unit": "" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
+              { "name": "sesame_seed", "amount": 0.25, "unit": "tsp" }
+            ]
+          },
+          {
+            "category": "v2",
+            "items": [
+              { "name": "shishito", "note": "destemmed and washed", "amount": 8, "unit": "oz" },
+              { "name": "green_onion", "note": "chopped", "amount": 2, "unit": "" },
+              { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+              { "name": "soy_sauce_dark", "amount": 2, "unit": "tbsp" },
+              { "name": "sugar", "amount": 0.5, "unit": "tsp" },
+              { "name": "sesame_seed", "amount": 0.5, "unit": "tsp" },
+              { "name": "gochugaru", "amount": 1, "unit": "tsp" },
+              { "name": "flour", "amount": 0.25, "unit": "cup" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Trim, rinse, and drain peppers. Toss peppers in flour to coat.",
+          "Bring water in steamer to \"high simmer.\" Add peppers, cover, and steam for ~5 min or til tender. Don't overcook or will get mushy!",
+          "Toss peppers in sauce.",
+          "Keeps for few days in fridge."
+        ]
+      },
+      {
+        "name": "myulchi_bokkeum",
+        "label": "myulchi bokkeum [멸치]",
+        "ingredients": [
+          {
+            "category": "filling",
+            "items": [
+              { "name": "dried_anchovy_small", "amount": 1, "unit": "cup" },
+              { "name": "oil", "note": "to cook", "amount": 2, "unit": "tsp" },
+              { "name": "jalapeno", "note": "cut into small pieces; optional", "amount": 1, "unit": "" }
+            ]
+          },
+          {
+            "category": "sauce",
+            "items": [
+              { "name": "soy_sauce_dark", "note": "or 1 tbsp gochujang", "amount": 2, "unit": "tsp" },
+              { "name": "mirin", "amount": 3, "unit": "tbsp" },
+              { "name": "water", "amount": 3, "unit": "tbsp" },
+              { "name": "sugar", "amount": 2, "unit": "tsp" },
+              { "name": "honey", "note": "or corn syrup", "amount": 2, "unit": "tsp" },
+              { "name": "garlic", "note": "thinly sliced", "amount": 2, "unit": "" },
+              { "name": "sesame_oil", "amount": 1, "unit": "tsp" },
+              { "name": "sesame_seed", "amount": 1, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Cook anchovies 2-3 min over med heat in pan with oil. Turn off heat. Set anchovies aside on plate.",
+          "Mix well all sauce ingredients except sesame oil and seeds. Pour into pan you were using, and boil over med heat til bubbly and silghtly thick (~2-3min).",
+          "Add anchovies back in and optional jalapeno. Stir well til anchovies coated well. Garnish with sesame oil and sesame seeds.",
+          "Keeps in fridge up to a week."
         ]
       }
     ]
@@ -2241,6 +2612,7 @@
       {
         "name": "tomato_egg",
         "label": "tomato egg",
+        "groceryList": "(green onion, 500g cherry tomato or 4 roma?)",
         "ingredients": [
           {
             "category": "",
@@ -2628,7 +3000,7 @@
             "category": "filling",
             "items": [
               { "name": "oil", "note": "originally 2 tbsp", "amount": 1, "unit": "tbsp" },
-              { "name": "rice_vermicelli", "amount": 3.5, "unit": "oz" },
+              { "name": "udon_noodle_dry", "amount": 1, "unit": "" },
               { "name": "garlic", "note": "optional. finely chopped", "amount": 1, "unit": "" },
               { "name": "bell_pepper_red", "note": "sliced. originally 1 onion", "amount": 1, "unit": "" },
               { "name": "egg", "amount": 1, "unit": "" },
@@ -2660,7 +3032,7 @@
             "category": "",
             "items": [
               { "name": "crab_imitation", "amount": 12, "unit": "oz" },
-              { "name": "rice_vermicelli", "amount": 110, "unit": "g" },
+              { "name": "udon_noodle_dry", "amount": 1, "unit": "" },
               { "name": "cucumber", "amount": 1, "unit": "" },
               { "name": "avocado", "amount": 2, "unit": "" },
               { "name": "sugar", "amount": 0.5, "unit": "tbsp" },
@@ -2672,9 +3044,8 @@
           }
         ],
         "directions": [
-          "Cook noodle. Drain. Toss in sugar, salt, and a splash of rice vinegar.",
-          "Cut vegetables.",
-          "Combine."
+          "Cook noodle. (If using dry udon, boil water on high? or any heat? Add noodle and cook in boiling water for 4 min, then drain.)",
+          "Cut vegetables. Add noodles. Toss in sugar, salt, and a splash of rice vinegar. Combine"
         ]
       },
       {
@@ -2879,13 +3250,14 @@
       {
         "name": "stuffing",
         "label": "stuffing",
+        "groceryList": "(baguette, 3 celery, 2 carrot, 5 mushroom, 1 onion, 2 garlic)",
         "ingredients": [
           {
             "category": "",
             "items": [
               { "name": "baguette", "amount": 12, "unit": "oz" },
               { "name": "oil_olive", "amount": 2, "unit": "tbsp" },
-              { "name": "parsley_dried", "amount": 0.5, "unit": "tsp" },
+              { "name": "parsley_dried", "amount": 0.25, "unit": "tsp" },
               { "name": "pepper_black", "amount": 0.25, "unit": "tsp" },
               { "name": "salt", "amount": 0.25, "unit": "tsp" },
               { "name": "celery", "amount": 3, "unit": "" },
@@ -2896,7 +3268,8 @@
               { "name": "soy_sauce_light", "amount": 1.5, "unit": "tbsp" },
               { "name": "sage_ground", "amount": 0.5, "unit": "tsp" },
               { "name": "thyme_dried", "amount": 0.5, "unit": "tsp" },
-              { "name": "rosemary_dried", "amount": 0.5, "unit": "tsp" }
+              { "name": "rosemary_dried", "amount": 0.5, "unit": "tsp" },
+              { "name": "parsley_dried", "amount": 0.5, "unit": "tsp" }
             ]
           }
         ],
@@ -3153,10 +3526,13 @@
             "items": [
               { "name": "pork_ground", "amount": 1, "unit": "lb" },
               { "name": "sage_ground", "amount": 2, "unit": "tsp" },
-              { "name": "salt", "amount": 0.333333, "unit": "tsp" },
-              { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
-              { "name": "oregano", "note": "or thyme or rosemary", "amount": 0.25, "unit": "tsp" },
+              { "name": "fennel_seeds", "amount": 1, "unit": "tsp" },
               { "name": "sugar_brown", "amount": 1, "unit": "tsp" },
+              { "name": "salt", "amount": 0.5, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.5, "unit": "tsp" },
+              { "name": "oregano", "amount": 0.25, "unit": "tsp" },
+              { "name": "thyme", "amount": 0.25, "unit": "tsp" },
+              { "name": "paprika", "amount": 0.125, "unit": "tsp" },
               { "name": "gochugaru", "note": "or cayenne", "amount": 0.125, "unit": "tsp" },
               { "name": "cloves_ground", "note": "or nutmeg. just a pinch", "amount": 0.125, "unit": "tsp" }
             ]
@@ -4103,53 +4479,43 @@
           {
             "category": "dough",
             "items": [
-              { "name": "flour", "amount": 300, "unit": "g" },
-              { "name": "cornstarch", "amount": 60, "unit": "g" },
-              { "name": "yeast", "amount": 1.25, "unit": "tsp" },
-              { "name": "sugar", "note": "originally 60g", "amount": 30, "unit": "g" },
-              { "name": "oil", "amount": 1, "unit": "tbsp" },
-              { "name": "salt", "amount": 0.5, "unit": "tsp" },
-              { "name": "water", "note": "room temp; to sub cold milk", "amount": 150, "unit": "ml" }
+              { "name": "flour", "amount": 150, "unit": "g" },
+              { "name": "cornstarch", "amount": 30, "unit": "g" },
+              { "name": "yeast", "note": "1/2 tsp + 1/8 tsp", "amount": 0.625, "unit": "tsp" },
+              { "name": "sugar", "note": "originally 30g", "amount": 15, "unit": "g" },
+              { "name": "oil", "amount": 0.5, "unit": "tbsp" },
+              { "name": "salt", "amount": 0.25, "unit": "tsp" },
+              { "name": "water", "note": "room temp; to sub cold milk", "amount": 80, "unit": "ml" }
             ]
           },
           {
             "category": "custard",
             "items": [
-              { "name": "egg", "amount": 2, "unit": "" },
-              { "name": "milk_soy", "amount": 100, "unit": "ml" },
-              { "name": "sugar", "amount": 50, "unit": "g" },
-              { "name": "butter", "amount": 40, "unit": "g" },
+              { "name": "egg", "amount": 1, "unit": "" },
+              { "name": "milk_soy", "amount": 50, "unit": "ml" },
+              { "name": "sugar", "amount": 25, "unit": "g" },
+              { "name": "butter", "amount": 20, "unit": "g" },
               { "name": "salt", "amount": 0.125, "unit": "tsp" },
-              { "name": "flour", "amount": 30, "unit": "g" }
+              { "name": "cornstarch", "amount": 12, "unit": "g" }
             ]
           }
         ],
         "directions": [
-          "Makes 12 buns.",
-          "Mix flour, yeast, sugar, salt, oil. Add toom temp water. (slowly add more water if too dry. probably more like 180ml but up to  200ml). Mix til rough dough. ",
-          "Cover and let rest 15 min. Knead 10-15min more. If hard to knead, just give it a rest. ",
-          "Do one more 15min rest before shaping. Divide dough into smaller pieces, rolling into very smooth tall balls (smooth top with milk/water if desired).",
-          "Place each ball on parchment paper. Let rise only once, to 50% larger (don't let double in size!) Done proving when poking dough leaves indent that bounces back slowly (not enough if bounce back fast). (very roughly 30min-1hr room temp)",
+          "Makes 6 buns.",
+          "Mix flour, yeast, sugar, salt, oil. Add room temp water (slowly add more if too dry. potentially up to 90ml). Mix til rough dough.",
+          "Cover, let rest 30min. Then, knead 10min more. If hard to knead, just let rest. Do one more 15min rest before shaping.",
+          "Divide dough into smaller pieces, rolling into very smooth tall balls (smooth top with milk/water if desired).",
+          "Place each ball on parchment paper. Let rise only once, to 50% larger (don't let double in size!) Done proving when poking dough leaves indent that bounces back slowly (not enough if bounce back fast). (very roughly 30min room temp)",
           "Bring steamer water to boil, lower the heat to MEDIUM. Place buns 1 inch apart, close lid and crack open about a 1/4 inch gap.",
           "Steam 15 min for no filling, 18 min for filling. ",
           "After steaming, turn off heat. Do NOT open lid and let sit for 5 min.",
           "",
-          "Alt dough steps:",
-          "Let dough ball rest for 1-2 hr til doubled.",
-          "Punch all air out and knead for 6-8min to break up all air pockets. (Use palm against surface to 'drag' the dough open, smearing/tearing it open, then bring back together again, and repeat.)",
-          "Make 4 buns (56-57g each). Shape into balls and rest 10 min. Flatten each ball and fill with custard.",
-          "Let rise in steamer filled with room temp water 20 min.",
-          "20 min later, turn on the stove, heat to high. When you see steam coming out, turn to med low and let steam for 8-10 min.",
-          "Turn off heat after 8-10 min and do not open lid for 5 min",
-          "",
-          "Good filling is 2 small sweet potatos (350g raw), steamed and mashed, or 400g red bean,...",
+          "Good filling is 1 small sweet potato (175g raw) steamed and mashed, or 200g red bean,...",
           "",
           "Custard steps:",
-          "",
           "Mix egg + sugar + cornstarch/flour well.",
-          "Melt butter + milk on low/med heat.",
-          "Pour milk into egg. Pour all into pot.",
-          "Heat over low heat, stir frequently.",
+          "Put pot with butter + milk on low/med heat, heat up til just melted.",
+          "Pour milk into egg. Pour all into pot. Heat over low heat, stir frequently, and take off just when thickened.",
           "Freeze for 20 min. Shape, then freeze for 3+hr."
         ]
       },
@@ -4472,33 +4838,6 @@
         ]
       },
       {
-        "name": "oatmeal_raisin_cookies",
-        "label": "oatmeal raisin cookies",
-        "ingredients": [
-          {
-            "category": "",
-            "items": [
-              { "name": "flour", "amount": 0.5, "unit": "cup" },
-              { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
-              { "name": "baking_soda", "amount": 0.125, "unit": "tsp" },
-              { "name": "salt", "amount": 0.125, "unit": "tsp" },
-              { "name": "butter", "amount": 2, "unit": "tbsp" },
-              { "name": "sugar", "amount": 0.125, "unit": "cup" },
-              { "name": "sugar_brown", "amount": 0.125, "unit": "cup" },
-              { "name": "egg", "amount": 1, "unit": "" },
-              { "name": "vanilla_extract", "amount": 0.25, "unit": "tsp" },
-              { "name": "rolled_oats", "amount": 0.5, "unit": "cup" },
-              { "name": "raisin", "amount": 0.5, "unit": "cup" }
-            ]
-          }
-        ],
-        "directions": [
-          "Whisk flour, cinnamon, baking soda, salt. Cream butter and sugars.",
-          "Add egg and vanilla and mix well. Slowly add flour mix. Fold in oats and raisins gently.",
-          "Chill for 20 min. Makes ~8 cookies. Bake at 350F 10-12 min."
-        ]
-      },
-      {
         "name": "chocolate_cake",
         "label": "chocolate cake",
         "ingredients": [
@@ -4525,6 +4864,100 @@
           "Add eggs, buttermilk, coffee, oil, vanilla; beat on med speed with mixer 2 min. Pour batter evenly into prepared pan.",
           "Bake 30-40 min or til tester comes out clean. Cool 10 min, remove from pan, then cool completely.",
           "If muffins, makes 12: 350F 18-20 min or til tester clean, then cool in pan for 20 min, remove and cool completely."
+        ]
+      },
+      {
+        "name": "taiwanese_castella",
+        "label": "taiwanese_castella",
+        "ingredients": [
+          {
+            "category": "v1--fits in 6.5x2x3 pan",
+            "items": [
+              { "name": "milk_soy", "amount": 3, "unit": "tbsp" },
+              { "name": "oil", "amount": 2, "unit": "tbsp" },
+              { "name": "flour", "amount": 46, "unit": "g" },
+              { "name": "cornstarch", "amount": 8, "unit": "g" },
+              { "name": "egg", "amount": 3, "unit": "" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" },
+              { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
+              { "name": "sugar", "amount": 40, "unit": "g" }
+            ]
+          },
+          {
+            "category": "v2--fits in 8.5x4 loaf pan?",
+            "items": [
+              { "name": "milk_soy", "amount": 30, "unit": "g" },
+              { "name": "butter", "amount": 35, "unit": "g" },
+              { "name": "flour", "amount": 34, "unit": "g" },
+              { "name": "cornstarch", "amount": 6, "unit": "g" },
+              { "name": "egg", "amount": 2, "unit": "" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" },
+              { "name": "vanilla_extract", "amount": 0.5, "unit": "tsp" },
+              { "name": "sugar", "amount": 30, "unit": "g" }
+            ]
+          }
+        ],
+        "directions": [
+          "Heat milk + butter/oil til just melted.",
+          "Sift cake flour into bowl, pour hot milk in and mix well til sticky. Add yolks, salt, vanilla and whisk til smooth (careful not to make too big air bubbles)",
+          "Start preheating oven at this point (300F), and heating up hot water (176F, not boiling!!) for water bath.",
+          "Beat egg whites til foamy. Gently add sugar onto sides and beat on low speed. Once all sugar in, beat on high speed til SOFT peaks.",
+          "Add 1/3 of meringue into batter, whisk thoroughly. Gently fold in another 1/3 til no white streaks. Fold last 1/3 in very gently til just combined.",
+          "Pour batter into parchment lined pan. Shake pan to spread evenly and tap on counter twice to release big bubbles.",
+          "Place pan in 1-inch water bath. Bake on a lower rack, 45-55min or til top is brown, spongy, and dry.",
+          "Remove immediately from pan and peel off paper to prevent shrinkage."
+        ]
+      },
+      {
+        "name": "baci_di_dama",
+        "label": "baci di dama",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "hazelnut", "amount": 100, "unit": "g" },
+              { "name": "flour", "note": "can also try rice flour", "amount": 100, "unit": "g" },
+              { "name": "butter", "note": "cubed, room temp", "amount": 100, "unit": "g" },
+              { "name": "sugar", "amount": 85, "unit": "g" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" },
+              { "name": "chocolate_dark_70", "amount": 50, "unit": "g" }
+            ]
+          }
+        ],
+        "directions": [
+          "Toast hazelnuts at 320F for 20min til golden and fragrant. Rub to get loose skins off (don't worry about skins that stay). Cool completely and food process til like sand.",
+          "Mix hazelnuts, sifted flour, butter, sugar well til dough is smooth.",
+          "Divide dough into 4 pieces, roll into log, and chill for 1hr.",
+          "Working on one log at a time to keep cold, cut off small pieces (~5-8g) and roll into tiny balls. Place balls onto lined baking sheet, slightly spaced apart, and chill for 1hr.",
+          "Bake at 320F 15 min til set and golden. Cool completely. Sandwich with melted chocolate.",
+          "Stores for 1 week at room temp."
+        ]
+      },
+      {
+        "name": "oatmeal_raisin_cookies",
+        "label": "oatmeal raisin cookies",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "flour", "amount": 0.5, "unit": "cup" },
+              { "name": "cinnamon_ground", "amount": 0.25, "unit": "tsp" },
+              { "name": "baking_soda", "amount": 0.125, "unit": "tsp" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" },
+              { "name": "butter", "amount": 2, "unit": "tbsp" },
+              { "name": "sugar", "amount": 0.125, "unit": "cup" },
+              { "name": "sugar_brown", "amount": 0.125, "unit": "cup" },
+              { "name": "egg", "amount": 1, "unit": "" },
+              { "name": "vanilla_extract", "amount": 0.25, "unit": "tsp" },
+              { "name": "rolled_oats", "amount": 0.5, "unit": "cup" },
+              { "name": "raisin", "amount": 0.5, "unit": "cup" }
+            ]
+          }
+        ],
+        "directions": [
+          "Whisk flour, cinnamon, baking soda, salt. Cream butter and sugars.",
+          "Add egg and vanilla and mix well. Slowly add flour mix. Fold in oats and raisins gently.",
+          "Chill for 20 min. Makes ~8 cookies. Bake at 350F 10-12 min."
         ]
       },
       {

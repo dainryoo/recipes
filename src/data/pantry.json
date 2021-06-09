@@ -512,6 +512,22 @@
         }
       },
       {
+        "name": "garlic_chive",
+        "label": "garlic chive",
+        "note": "1 bundle from hmart ~50g",
+        "serving_nutrition": {
+          "amount": 100,
+          "unit": "g",
+          "grams": 100,
+          "calories": 30,
+          "protein": 3.27
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "lb"
+        }
+      },
+      {
         "name": "green_onion",
         "label": "green onion",
         "serving_nutrition": {
@@ -677,6 +693,22 @@
         }
       },
       {
+        "name": "shishito",
+        "label": "shishito",
+        "note": "Ark Foods Shishito Peppers Party Pack",
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "oz",
+          "grams": 56,
+          "calories": 20,
+          "protein": 1
+        },
+        "price_per_unit": {
+          "price": 0.41583333333,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "soybean_sprout",
         "label": "soybean_sprout",
         "serving_nutrition": {
@@ -799,6 +831,21 @@
         },
         "price_per_unit": {
           "price": 0.8,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "hazelnut",
+        "label": "hazelnut",
+        "serving_nutrition": {
+          "amount": 0.25,
+          "unit": "cup",
+          "grams": 30,
+          "calories": 190,
+          "protein": 4
+        },
+        "price_per_unit": {
+          "price": 0.22,
           "unit": "oz"
         }
       },
@@ -1537,7 +1584,7 @@
       {
         "name": "beef_short_rib",
         "label": "beef short rib",
-        "note": "(choice); Research: 6oz bone per 25.12oz total raw meat. 4.6oz bone per 22.72oz total raw meat (2 ribs)",
+        "note": "(choice); Research: \n6oz bone per 25.12oz total raw meat. \n4.6oz bone per 22.72oz total raw meat (2 ribs)\n 7.9oz bone per 24.8oz total raw meat.",
         "serving_nutrition": {
           "amount": 4,
           "unit": "oz",
@@ -2867,7 +2914,7 @@
       {
         "name": "rice_vermicelli",
         "label": "rice vermicelli noodles",
-        "note": "Jiangxi noodles",
+        "note": "Jiangxi noodles (Dragonfly brand). wrapper nutrition? 2 oz 56g 83.2cal 0.4g protein",
         "serving_nutrition": {
           "amount": 1,
           "unit": "cup",
@@ -2881,8 +2928,24 @@
         }
       },
       {
-        "name": "udon_noodle",
-        "label": "udon noodles",
+        "name": "udon_noodle_dry",
+        "label": "dry udon bundle",
+        "note": "Hakubaku from Whole Foods",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 90,
+          "calories": 310,
+          "protein": 10
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "udon_noodle_korean",
+        "label": "korean udon",
         "note": "ChoripDong",
         "serving_nutrition": {
           "amount": 1,
@@ -3688,7 +3751,7 @@
         }
       },
       {
-        "name": "soup_soy_sauce",
+        "name": "soy_sauce_soup",
         "label": "soup soy sauce",
         "serving_nutrition": {
           "amount": 1,
@@ -3739,6 +3802,21 @@
         }
       },
       {
+        "name": "baguette_easy_tiger",
+        "label": "easy_tiger_baguette",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "oz",
+          "grams": 28,
+          "calories": 80,
+          "protein": 2
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "ciabatta_roll",
         "label": "ciabatta roll",
         "serving_nutrition": {
@@ -3750,6 +3828,22 @@
         },
         "price_per_unit": {
           "price": 0.21,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "dried_gosari",
+        "label": "dried gosari",
+        "note": "",
+        "serving_nutrition": {
+          "amount": 0.9,
+          "unit": "oz",
+          "grams": 28,
+          "calories": 80,
+          "protein": 0
+        },
+        "price_per_unit": {
+          "price": 1.6,
           "unit": "oz"
         }
       },
@@ -3795,6 +3889,22 @@
           "grams": 2.5,
           "calories": 5,
           "protein": 0
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "oz"
+        }
+      },
+      {
+        "name": "dried_sweet_potato_stem",
+        "label": "dried sweet potato stem",
+        "note": "Nature Story brand (gogumasun)",
+        "serving_nutrition": {
+          "amount": 3.52,
+          "unit": "oz",
+          "grams": 100,
+          "calories": 292,
+          "protein": 6
         },
         "price_per_unit": {
           "price": 0.0,
