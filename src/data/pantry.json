@@ -96,7 +96,7 @@
       {
         "name": "coconut_water",
         "label": "coconut water",
-        "note": "average amount research: 381g, 300g, 243g, 297g",
+        "note": "average amount research: 381g, 300g, 243g, 297g, 431g",
         "serving_nutrition": {
           "amount": 1,
           "unit": "",
@@ -2159,6 +2159,22 @@
         }
       },
       {
+        "name": "salmon_smoked",
+        "label": "smoked salmon",
+        "note": "Ducktrap Sockeye Smoked Wild Salmon",
+        "serving_nutrition": {
+          "amount": 2,
+          "unit": "oz",
+          "grams": 57,
+          "calories": 80,
+          "protein": 13
+        },
+        "price_per_unit": {
+          "price": 2.12375,
+          "unit": "oz"
+        }
+      },
+      {
         "name": "salmon_sockeye",
         "label": "sockeye salmon",
         "note": "Whole Foods Frozen Wild Sockeye Salmon Fillets. Bake at 400F 15min with 2 tbsp melted butter for 1lb salmon?",
@@ -2202,6 +2218,21 @@
         "price_per_unit": {
           "price": 20.0,
           "unit": "lb"
+        }
+      },
+      {
+        "name": "squid",
+        "label": "squid",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "oz",
+          "grams": 28.35,
+          "calories": 26.1,
+          "protein": 4.42
+        },
+        "price_per_unit": {
+          "price": 0.0,
+          "unit": "oz"
         }
       },
       {
@@ -2254,6 +2285,21 @@
         "price_per_unit": {
           "price": 0.24,
           "unit": "oz"
+        }
+      },
+      {
+        "name": "tempeh",
+        "label": "tempeh",
+        "serving_nutrition": {
+          "amount": 1,
+          "unit": "",
+          "grams": 11.5,
+          "calories": 35,
+          "protein": 13
+        },
+        "price_per_unit": {
+          "price": 0.66125,
+          "unit": ""
         }
       },
       {

@@ -1334,22 +1334,28 @@
             "category": "",
             "items": [
               { "name": "beef_short_rib", "amount": 1.5, "unit": "lb" },
-              { "name": "radish_daikon", "note": "cut into small pieces", "amount": 1, "unit": "" },
-              { "name": "onion", "note": "whole", "amount": 1, "unit": "" },
-              { "name": "garlic", "note": "(1 whole bulb)", "amount": 8, "unit": "" },
+              { "name": "radish_daikon", "note": "chopped in huge chunks", "amount": 1, "unit": "" },
+              { "name": "onion", "note": "whole, peeled", "amount": 1, "unit": "" },
+              { "name": "garlic", "note": "(1 whole bulb, peeled)", "amount": 8, "unit": "" },
               { "name": "ginger", "note": "peeled and whole", "amount": 1.5, "unit": "tbsp" },
               { "name": "peppercorn", "note": "unsure about amount", "amount": 1, "unit": "tbsp" },
               { "name": "bay_leaf", "note": "unsure about amount", "amount": 2, "unit": "" },
-              { "name": "jalapeno", "note": "optional", "amount": 1, "unit": "" },
-              { "name": "green_onion", "note": "including white part", "amount": 2, "unit": "" }
+              {
+                "name": "jalapeno",
+                "note": "optional; just cut stem barely off (to prevent seeds falling out)",
+                "amount": 1,
+                "unit": ""
+              },
+              { "name": "green_onion", "note": "white part for soup, chop green for garnish", "amount": 2, "unit": "" }
             ]
           }
         ],
         "directions": [
           "In cold water, soak meat for 30 min to let blood out. Rinse with cold water.",
-          "In a pot, cover the meat with water just enough to cover, turn heat on, and stop just when water boils.",
+          "In a pot, cover the meat with water just enough to cover, turn heat on to high, and stop just when water boils.",
           "Throw the gross water away and rinse.",
-          "Put all ingredients in a big pot, add water, and boil everything on high heat. Check occasionally to prevent overflow.",
+          "Put all ingredients in a big pot, add water, and boil everything on high heat 2+hr. Check occasionally to prevent overflow.",
+          "(Heat doesn't ultimately matter once it's boiling though; can set down to med heat after water starts boiling, probably after ~30min)",
           "After 2+ hours (or whenever color looks right), remove onion and green onion, season with salt, add optional cooked glass noodles."
         ]
       },
@@ -3349,6 +3355,57 @@
           "Blend cream cheese with milk. Add crab meat, onion, horseradish, salt, pepper (spice to taste).",
           "Bake 15 min at 375F. Serve with potato chips."
         ]
+      },
+      {
+        "name": "salmon_rillette",
+        "label": "salmon rillette",
+        "groceryList": "(1 shallot, 1lb king salmon, 3oz smoked salmon, chives)",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "vinegar_white_wine", "note": "sub white wine", "amount": 2, "unit": "cup" },
+              { "name": "shallot", "note": "minced", "amount": 1, "unit": "" },
+              { "name": "salmon_king", "note": "fresh, skinned, 1\" pieces", "amount": 1, "unit": "lb" },
+              { "name": "salmon_smoked", "note": "diced", "amount": 3, "unit": "oz" },
+              { "name": "garlic_chive", "note": "(~2tbsp), thinly sliced", "amount": 6, "unit": "g" },
+              { "name": "mayo_light", "amount": 6, "unit": "tbsp" },
+              { "name": "lemon_juice", "amount": 2, "unit": "tbsp" },
+              { "name": "salt", "amount": 0.125, "unit": "tsp" },
+              { "name": "pepper_black", "amount": 0.125, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Combine wine + shallots in large saucepan, bring to a boil. Simmer on med-low heat til shallots are tender (~2min)",
+          "Add fresh salmon pieces and poach til just barely opaque (~2-3min). Remove salmon from wine and immediately drain them on a paper towel. Strain the wine, reserving the shallots. Place salmon and shallots in fridge to cool completely.",
+          "Combine poached salmon pieces, cooked shallots, smoked salmon, chives, mayo, lemon juice in a stainless steel bowl. Gently stir til well mixed, don't overmix, season with salt pepper.",
+          "Can be made 1 day ahead and covered and chilled."
+        ]
+      },
+      {
+        "name": "squid_luau",
+        "label": "squid luau",
+        "groceryList": "(1lb spinach, squid, 1 can coconut milk)",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "spinach", "note": "sub fresh luau leaves--should be about 1lb", "amount": 12, "unit": "cup" },
+              { "name": "squid", "note": "sub tako/octopus", "amount": 1, "unit": "lb" },
+              { "name": "coconut_milk_canned",  "amount": 13.5, "unit": "oz" },
+              { "name": "salt", "amount": 0.5, "unit": "tsp" },
+              { "name": "sugar", "note": "or brown sugar; up to 1tbsp", "amount": 2, "unit": "tsp" }
+            ]
+          }
+        ],
+        "directions": [
+          "Rinse leaves, remove stems, cut into 1 inch pieces.",
+          "Bring 2 cup water to boil.",
+          "Add leaves and cook til tender, reducing heat to simmer. (If squid is raw, cook now with leaves, simmering for 1 hr)",
+          "Drain leaves. Stir in coconut milk, salt, squid bits (if cooked separately).",
+          "Add sugar and continue to cook over low to medium heat, stirring constantly until the leaves have absorbed most of the liquid."
+        ]
       }
     ]
   },
@@ -3569,6 +3626,23 @@
           "Mix all dry, then add curdled wet ingredients. Mix gently (don't overmix!) Let sit 5 min.",
           "Med heat non stick few min each side til golden."
         ]
+      },
+      {
+        "name": "tempeh_egg_baguette",
+        "label": "tempeh egg baguette",
+        "ingredients": [
+          {
+            "category": "",
+            "items": [
+              { "name": "baguette", "amount": 9, "unit": "oz" },
+              { "name": "tempeh", "amount": 8, "unit": "" },
+              { "name": "butter", "note": "to cook tempeh", "amount": 1, "unit": "tbsp" },
+              { "name": "egg", "amount": 4, "unit": "" },
+              { "name": "butter", "note": "to cook egg", "amount": 1, "unit": "tbsp" }
+            ]
+          }
+        ],
+        "directions": ["Enjoy :)"]
       }
     ]
   },
