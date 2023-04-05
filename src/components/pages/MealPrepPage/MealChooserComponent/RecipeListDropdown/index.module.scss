@@ -1,0 +1,84 @@
+@use "../../../../App.scss" as app;
+
+$container-border-color: app.$color-blue-dark;
+$search-border-color: app.$color-yellow;
+$search-bg-color: app.$color-background;
+
+$dropdown-option-bg-color: app.$color-white;
+$dropdown-option-hover-bg-color: app.$color-yellow;
+$dropdown-text-color: app.$color-blue-dark;
+$selected-dropdown-text-color: app.$color-green;
+
+$divider-color: app.$color-background;
+
+.recipeListContainer {
+  width: 300px;
+  border: 1px solid $container-border-color;
+
+  .dropdownSearchBarContainer {
+    width: 100%;
+    border-bottom: 2px solid $search-border-color;
+
+    .dropdownSearchBar {
+      margin: 0;
+      box-sizing: border-box;
+      width: 100%;
+      padding: 0.5rem 1.5rem;
+      border: 0;
+      background-color: $search-bg-color;
+
+      &:focus {
+        border-color: $search-border-color;
+      }
+
+      &::placeholder {
+        font-size: 1rem;
+        font-style: italic;
+      }
+    }
+  }
+
+  .recipeListDropdown {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 100%;
+    overflow-y: scroll;
+    background-color: $dropdown-option-bg-color;
+
+    .divider {
+      margin: 1.25rem 1.75rem 1rem 1.75rem;
+      border-bottom: 2px solid $divider-color;
+    }
+
+    .recipeListDropdownOption {
+      width: 100%;
+      text-align: left;
+      padding: 0.5rem;
+      font-size: 1rem;
+      border: none;
+      cursor: pointer;
+      background-color: $dropdown-option-bg-color;
+      color: $dropdown-text-color;
+      display: flex;
+
+      > .selectedIcon {
+        visibility: hidden;
+        margin-right: 0.5rem;
+      }
+
+      &.selected {
+        color: $selected-dropdown-text-color;
+
+        > .selectedIcon {
+          visibility: visible;
+        }
+      }
+
+      &:hover {
+        background-color: $dropdown-option-hover-bg-color;
+        color: $dropdown-text-color;
+      }
+    }
+  }
+}

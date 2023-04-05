@@ -1,0 +1,134 @@
+/* Color variables */
+$color-background: #ecedf7;
+$color-foreground: white;
+
+$color-white: white;
+$color-black: rgb(65, 65, 65);
+
+$color-blue:  #4573c8;
+$color-green: #7ec845;
+$color-yellow: #ecb44e;
+$color-red: #fa8b8b;
+
+$color-blue-dark: #344078;
+$color-blue-light: #778ade;
+
+/* Mobile/desktop view settings */
+$mobile-breakpoint: 1024px;
+@mixin mobile {
+  @media (max-width: #{$mobile-breakpoint}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$mobile-breakpoint}) {
+    @content;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+$font-family-body: 'Lato', sans-serif;
+$font-size-body: 17px;
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+$font-family-display: 'Work Sans', sans-serif;
+
+
+
+html,
+body,
+body > * {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow: hidden !important;
+  background-color: $color-background;
+  font-family: $font-family-display;
+
+  @include mobile { 
+    font-size: 1.25rem;
+  }
+
+  h1 {
+    color: $color-blue-dark;
+
+    @include mobile { 
+      font-size: 2.5rem;
+    }
+  }
+
+  h2 {
+    color: $color-blue-light;
+    font-size: 1.15rem;
+    margin-top: 2rem;
+
+    @include mobile { 
+      font-weight: 400;
+      font-size: 2.25rem;
+    }
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 0;
+
+    @include mobile { 
+      font-size: 1.75rem;
+    }
+  }
+
+  p {
+    color: $color-black;
+    margin: 6px 0;
+    font-weight: 300;
+    font-family: $font-family-body;
+    font-size: $font-size-body;
+
+    @include mobile { 
+      font-size: 2rem;
+      margin: 8px 0;
+    }
+  }
+
+  button {
+    font-family: $font-family-display;
+
+    @include mobile { 
+      font-size: 1.75rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+
+    @include mobile { 
+      font-size: 1.75rem;
+    }
+  }
+
+  input:not([type='checkbox']):not([type='text']) {
+    width: 100px;
+    padding: 0.35rem 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+    border: 2px solid transparent;
+    border-bottom: 2px solid $color-green;
+    font-size: 18px;
+    color: $color-blue;
+    background-color: $color-background;
+    transition: all 0.07s linear;
+
+    @include mobile { 
+      font-size: 36px;
+      padding: 0.5rem 1rem;
+    }
+
+    &:focus {
+      outline: none;
+      color: $color-blue-dark;
+      border-bottom: 2px solid $color-red;
+      background-color: $color-white;
+      box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    }
+  }
+}

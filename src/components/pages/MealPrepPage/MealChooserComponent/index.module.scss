@@ -1,0 +1,63 @@
+@use "../../../App.scss" as app;
+
+$cancel-button-color: app.$color-blue-dark;
+$cancel-button-border-color: app.$color-red;
+$cancel-button-bg-color: app.$color-red;
+$cancel-button-hover-bg-color: app.$color-background;
+$cancel-button-hover-text-color: app.$color-red;
+
+$save-button-color: app.$color-blue-dark;
+$save-button-border-color: app.$color-green;
+$save-button-bg-color: app.$color-green;
+$save-button-hover-bg-color: app.$color-background;
+$save-button-hover-text-color: app.$color-green;
+
+.mealChooserContainer {
+  display: flex;
+  flex-direction: column;
+
+  .actionButton {
+    font-weight: 800;
+    padding: 0.25rem 1.1rem;
+    font-size: 16px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: all 0.05s ease-out;
+
+    &:hover {
+      padding: 0.25rem 1.25rem;
+    }
+  }
+
+  .cancelAndResetButtonsContainer {
+    display: flex;
+    margin-bottom: 1rem;
+
+    .actionButton {
+      margin-right: 1rem;
+      border: 1px solid $cancel-button-border-color;
+      color: $cancel-button-color;
+      background-color: $cancel-button-bg-color;
+
+      &:hover {
+        background-color: $cancel-button-hover-bg-color;
+        color: $cancel-button-hover-text-color;
+        border-color: $cancel-button-hover-text-color;
+      }
+    }
+  }
+
+  .saveButton {
+    align-self: flex-end;
+    margin-top: 0.25rem;
+    border: 1px solid $save-button-border-color;
+    color: $save-button-color;
+    background-color: $save-button-bg-color;
+
+    &:hover {
+      background-color: $save-button-hover-bg-color;
+      color: $save-button-hover-text-color;
+      border-color: $save-button-hover-text-color;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+@use "../../App.scss" as app;
+
+$color-button-bg: app.$color-background;
+$color-button-text: app.$color-blue;
+$color-button-border: app.$color-blue;
+$color-button-hover-bg: app.$color-yellow;
+$color-button-clicked-text: app.$color-yellow;
+$color-button-clicked-border: app.$color-yellow;
+
+.copyButton {
+  cursor: pointer;
+  margin-left: 1rem;
+  padding: 0.25rem 0.5rem;
+  background-color: $color-button-bg;
+  border: 1px solid $color-button-border;
+  border-radius: 18px;
+  transition: all 0.02s ease-in-out;
+  color: $color-button-text;
+
+  &:focus {
+    color: $color-button-clicked-text;
+    border-color: $color-button-clicked-border;
+    padding: 0.25rem 0.75rem;
+  }
+
+  &:hover {
+    background-color: $color-button-hover-bg;
+    border-color: $color-button-border;
+    color: $color-button-text;
+  }
+
+  &:active {
+    color: $color-button-text;
+    border-color: $color-button-border;
+    transform: scale(1.1);
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+.copiedText {
+  display: none;
+  .copyButton:focus > & {
+    display: inline;
+  }
+  .copyButton:active > & {
+    display: none;
+  }
+}
+
+.uncopiedText {
+  display: inline;
+  .copyButton:focus > & {
+    display: none;
+  }
+  .copyButton:active > & {
+    display: inline;
+  }
+}

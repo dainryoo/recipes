@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Vitamix E310",
+    "tags": ["bowl"],
+    "note": "bottom container only, no lids",
+    "weightInGrams": 746
+  },
+  {
+    "name": "Largest Bowl",
+    "tags": ["bowl"],
+    "note": "10th smallest bowl",
+    "weightInGrams": 1280
+  },
+  {
+    "name": "2nd Largest Bowl",
+    "tags": ["bowl"],
+    "note": "9th smallest bowl",
+    "weightInGrams": 926
+  },
+  {
+    "name": "3rd Largest Bowl",
+    "tags": ["bowl"],
+    "note": "8th smallest bowl",
+    "weightInGrams": 607
+  },
+  {
+    "name": "4th Largest Bowl",
+    "tags": ["bowl"],
+    "note": "7th smallest bowl",
+    "weightInGrams": 440
+  },
+  {
+    "name": "5th Largest Bowl",
+    "tags": ["bowl"],
+    "note": "6th smallest bowl",
+    "weightInGrams": 292
+  },
+  {
+    "name": "6th Largest Bowl",
+    "tags": ["bowl"],
+    "note": "5th smallest bowl",
+    "weightInGrams": 211
+  },
+  {
+    "name": "7th Largest Bowl",
+    "tags": ["bowl"],
+    "note": "4th smallest bowl",
+    "weightInGrams": 150
+  },
+  {
+    "name": "8th Largest Bowl",
+    "tags": ["bowl"],
+    "note": "3rd smallest bowl",
+    "weightInGrams": 96
+  },
+  {
+    "name": "9th Largest Bowl",
+    "tags": ["bowl"],
+    "note": "2nd smallest bowl",
+    "weightInGrams": 72
+  },
+  {
+    "name": "10th Largest Bowl",
+    "tags": ["bowl"],
+    "note": "Smallest bowl",
+    "weightInGrams": 34
+  },
+  {
+    "name": "Stand Mixer Bowl",
+    "tags": ["bowl"],
+    "weightInGrams": 782
+  },
+  {
+    "name": "Stainless Steel Bowl",
+    "tags": ["bowl"],
+    "weightInGrams": 300
+  },
+  {
+    "name": "Pink Heart Pyrex",
+    "tags": ["bowl"],
+    "note": "glass bowl only",
+    "weightInGrams": 496
+  },
+  {
+    "name": "Little square pan",
+    "tags": ["baking"],
+    "dimensions": [ "10 cm (3.94in)", "10 cm (3.94in)", "4 cm (1.57in)" ],
+    "volume": [ "350 ml", "1.5 cup" ]
+  },
+  {
+    "name": "Little pullman",
+    "tags": ["baking"],
+    "note": "290-330g dough weight?",
+    "dimensions": [ "16.5 cm (6.5in)", "8 cm (3.15in)", "7 cm (2.76in)" ],
+    "volume": [ "924 ml", "4 cup" ]
+  },
+  {
+    "name": "Springform pan",
+    "tags": ["baking"],
+    "note": "about 1/6 of a 9x5 loaf pan? or 1/3 of 6\" cake pan",
+    "dimensions": [ "12 cm (4.72in)", "3 cm (1.18in)" ],
+    "volume": [ "360 ml", "1.5 cup" ]
+  },
+  {
+    "name": "Tiny loaf pan",
+    "tags": ["baking"],
+    "note": "USA Pan. 1/4 of a 9x5 loaf pan. ~3 cupcakes",
+    "dimensions": [ "5.62 inch (14.27cm)", "3 inch (7.62cm)", "2.25 inch (5.72cm)" ],
+    "volume": [ "620 ml", "2.6 cup" ]
+  },
+  {
+    "name": "Cake pan",
+    "tags": ["baking"],
+    "note": "Nordicware. 1/2 of 9x5 loaf pan. 5-6 cupcakes.",
+    "dimensions": [ "6 inch (15.24cm)", "2.5 inch (6.35cm)" ],
+    "volume": [ "1160 ml", "5 cup" ]
+  },
+  {
+    "name": "Pullman",
+    "tags": ["baking"],
+    "note": "USA Pan. 750-850g dough weight.",
+    "dimensions": [ "9 inch (22.86cm)", "4 inch (10.16cm)", "4 inch (10.16cm)" ],
+    "volume": [ "2360 ml", "10 cup" ]
+  },
+  {
+    "name": "Pie tin",
+    "tags": ["baking"],
+    "note": "USA Pan",
+    "dimensions": [ "9 inch (22.86cm)", "1.5 inch (3.81cm)" ],
+    "volume": [ "950 ml", "4 cup" ]
+  },
+  {
+    "name": "Twilight Square Baker",
+    "tags": ["baking"],
+    "note": "Emile Henry",
+    "dimensions": [ "8 inch (20.32cm)", "8 inch (20.32cm)", "2 inch (5.08cm)" ],
+    "volume": [ "1892.71 ml", "8 cup" ]
+  },
+  {
+    "name": "Heart Ramekin",
+    "tags": ["baking"],
+    "note": "Le Creuset",
+    "volume": [ "300 ml", "1.27 cup", "10.2 oz" ]
+  }
+]

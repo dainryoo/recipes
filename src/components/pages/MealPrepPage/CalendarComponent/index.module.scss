@@ -1,0 +1,96 @@
+@use "../../../App.scss" as app;
+
+$clear-button-bg-color: app.$color-background;
+$clear-button-bg-hover-color: app.$color-red;
+$clear-button-text-color: app.$color-red;
+$clear-button-text-hover-color: app.$color-white;
+
+$meal-entry-hover-bg-color: app.$color-blue-light;
+$meal-entry-hover-text-color: app.$color-white;
+$meal-entry-text-color: app.$color-black;
+$meal-entry-text-color-selected: app.$color-blue;
+$meal-entry-bg-color-selected: app.$color-yellow;
+
+.calendarContainer {
+  width: 40vw;
+  min-width: 400px;
+
+  .calendarDayLabelsContainer {
+    margin-bottom: 2rem;
+
+    .calendarDay {
+      display: flex;
+      align-items: baseline;
+
+      .calendarDayLabel {
+        width: 50px;
+        margin-right: 1rem;
+      }
+
+      .calendarDayMealTypes {
+        .calendarSingleEntryContainer {
+          padding: 0.25rem 1.5rem 0.25rem 0.5rem;
+          width: fit-content;
+          cursor: pointer;
+          transition: all 0.05s linear;
+          border-radius: 24px;
+
+          input {
+            margin-right: 0.5rem;
+          }
+
+          .entryRecipeLabel {
+            color: $meal-entry-text-color;
+          }
+
+          &.selected {
+            background-color: $meal-entry-bg-color-selected;
+
+            .entryRecipeLabel {
+              color: $meal-entry-text-color-selected;
+            }
+          }
+
+          &:hover {
+            background-color: $meal-entry-hover-bg-color;
+            
+            .entryRecipeLabel {
+              color: $meal-entry-hover-text-color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .clearButton {
+    cursor: pointer;
+    background-color: $clear-button-bg-color;
+    border-radius: 24px;
+    padding: 0.5rem 0rem;
+    color: $clear-button-text-color;
+    border: 1px solid $clear-button-text-color;
+    transition: all 0.05s ease-out;
+
+    .dangerIcon {
+      visibility: hidden;
+      font-size: 0.65rem;
+      padding: 0 0.45rem;
+    }
+
+    &:active,
+    &:hover {
+      background-color: $clear-button-bg-hover-color;
+      color: $clear-button-text-hover-color;
+      padding: 0.5rem 0.5rem;
+
+      .dangerIcon {
+        visibility: visible;
+      }
+    }
+
+    &.hidden {
+      visibility: hidden;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+@use "../../App.scss" as app;
+
+$bowl-content-weight-text-color: app.$color-blue-dark;
+$pan-note-text-color: app.$color-blue;
+
+.bowlCalculatorContainer {
+  margin-bottom: 1rem;
+
+  .bowlInfo {
+    margin-bottom: 0rem;
+  }
+
+  .weightCalculator {
+    .arrowIcon {
+      margin: 0 1rem;
+    }
+
+    .contentsWeight {
+      font-weight: 800;
+      font-size: 18px;
+      color: $bowl-content-weight-text-color;
+
+      @include app.mobile { 
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+.panNote {
+  margin-left: 1rem;
+  font-weight: 400;
+  color: $pan-note-text-color;
+}

@@ -1,0 +1,266 @@
+@use "../../../App.scss" as app;
+
+$color-sidenav-bg: app.$color-white;
+$color-sidenav-link-text: app.$color-black;
+$color-sidenav-link-selected-text: app.$color-white;
+$color-sidenav-link-hover-bg: app.$color-yellow;
+$color-sidenav-link-selected-bg: app.$color-blue-light;
+
+$color-no-matches-text: app.$color-background;
+$divider-color: app.$color-background;
+
+$color-sidenav-button-icon: app.$color-blue-dark;
+$color-sidenav-button-hover-bg: app.$color-green;
+
+.sidenav {
+  height: 0;
+  text-align: right;
+  position: relative;
+
+  .sidenavButton {
+    align-self: flex-end;
+    margin: 1rem 1.5rem;
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    z-index: 999;
+
+    @include app.mobile { 
+      width: 60px;
+      height: 60px;
+    }
+
+    .buttonBackground {
+      // from https://jsfiddle.net/2zkofa0x/18/
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      transform: scale(0);
+      transition: all 0.3s ease 0s;
+    }
+
+    @include app.desktop { 
+      &:hover .buttonBackground {
+        background: $color-sidenav-button-hover-bg;
+        border-radius: 50%;
+        transform: scale(0.65);
+        transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+      }
+    }
+    
+    // from https://codepen.io/designcouch/pen/ExvwPY
+    .navIcon {
+      width: 45px;
+      height: 45px;
+      position: relative;
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-transition: .5s ease-in-out;
+      -moz-transition: .5s ease-in-out;
+      -o-transition: .5s ease-in-out;
+      transition: .5s ease-in-out;
+      cursor: pointer;
+
+      @include app.mobile { 
+        width: 60px;
+        height: 60px;
+      }
+
+      span {
+        display: block;
+        position: absolute;
+        height: 6px;
+        width: 82%;
+        background: $color-sidenav-button-icon;
+        border-radius: 6px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+
+        @include app.mobile { 
+          height: 9px;
+          width: 100%;
+        }
+
+        &:nth-child(1) {
+          top: 5px;
+        }
+        &:nth-child(2),
+        &:nth-child(3) {
+          top: 18px;
+
+          @include app.mobile { 
+            top: 24px;
+          }
+        }
+        &:nth-child(4) {
+          top: 31px;
+
+          @include app.mobile { 
+            top: 43px;
+          }
+        }
+      }
+      &.open span {
+        &:nth-child(1) {
+          top: 18px;
+          width: 0%;
+          left: 50%;
+
+          @include app.mobile { 
+            top: 24px;
+          }
+        }
+        &:nth-child(2) {
+          -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+          -o-transform: rotate(45deg);
+          transform: rotate(45deg);
+        }
+        &:nth-child(3) {
+          -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+          -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+        }
+        &:nth-child(4) {
+          top: 18px;
+          width: 0%;
+          left: 50%;
+
+          @include app.mobile { 
+            top: 24px;
+          }
+        }
+      }
+    }
+  }
+
+  .popoutMenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $color-sidenav-bg;
+    height: 100vh;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 1rem 0;
+    transform: none;
+    transition: transform 0.3s cubic-bezier(0.77,0.2,0.05,1.0);
+    display: flex;
+    flex-direction: column;
+
+    @include app.mobile { 
+      // On mobile, stretch popoutMenu to fit the whole screen
+      width: 100vw;
+    }
+
+    &.hidden {
+      transform: translateX(100%); // when hidden, move popoutMenu out of the screen
+    }
+
+    // Search bar for filtering sidenav items
+    .sidenavSearchbar {
+      width: 70%;
+      margin: 0.5rem 1.25rem;
+      text-align: left;
+
+      input {
+        margin: 0;
+        width: 100%;
+
+        &:focus {
+          background-color: app.$color-background;
+        }
+      }
+    }
+
+    // The scrollable list of links
+    .linksContainer {
+      overflow-y: scroll;
+      overflow-x: hidden;
+      display: flex;
+      flex-direction: column;
+
+      .noLinkMatches {
+        text-align: left;
+        padding: 1.25rem;
+        color: $color-no-matches-text;
+      }
+
+      .divider {
+        margin: 1.5rem;
+        margin-top: 1.75rem;
+        border-bottom: 2px solid $divider-color;
+      }
+
+      // Each individual link
+      .linkContainer {
+        text-align: left;
+        cursor: pointer;
+        width: 100%;
+        height: fit-content;
+        box-sizing: border-box;
+        position: relative;
+        padding: 0.5rem 0.25rem 0.5rem 1.5rem;
+        
+        & > div {
+          color: $color-sidenav-link-text;
+          mix-blend-mode: darken;
+
+          @include app.mobile { 
+            font-size: 2rem;
+          }
+        }
+
+        &:last-of-type {
+          margin-bottom: 10rem;
+        }
+  
+        &::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: -20px;
+          width: 0%;
+          height: 100%;
+          border-radius: 50px;
+          transition: all 0.1s ease-out;
+          background-color: $color-sidenav-link-hover-bg;
+        }
+  
+        &.selected {
+          & > div {
+            mix-blend-mode: screen;
+            color: $color-sidenav-link-selected-text;
+          }
+
+          &::before {
+            background-color: $color-sidenav-link-selected-bg;
+          }
+        }
+    
+        &:hover,
+        &.selected {
+          &::before {
+            width: 80%;
+          }
+        }
+      }
+    }
+  }
+}
