@@ -4,6 +4,7 @@ $color-header-button-bg-1: app.$color-blue;
 $color-header-button-bg-2: app.$color-green;
 $color-header-button-bg-3: app.$color-yellow;
 $color-header-button-bg-4: app.$color-red;
+$color-header-button-bg-5: app.$color-blue-light;
 $color-header-button-text: app.$color-blue-dark;
 
 .pageComponent {
@@ -67,6 +68,9 @@ $color-header-button-text: app.$color-blue-dark;
         }
         &:nth-child(4)::before {
           background: $color-header-button-bg-4;
+        }
+        &:nth-child(5)::before {
+          background: $color-header-button-bg-5;
         }
 
         &:hover{

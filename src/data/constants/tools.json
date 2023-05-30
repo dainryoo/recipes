@@ -76,6 +76,21 @@
     "weightInGrams": 300
   },
   {
+    "name": "Cuisinart Stainless Steel Bowl (5 Qt)",
+    "tags": ["bowl"],
+    "weightInGrams": 556
+  },
+  {
+    "name": "Cuisinart Stainless Steel Bowl (3 Qt)",
+    "tags": ["bowl"],
+    "weightInGrams": 404
+  },
+  {
+    "name": "Cuisinart Stainless Steel Bowl (1.5 Qt)",
+    "tags": ["bowl"],
+    "weightInGrams": 262
+  },
+  {
     "name": "Pink Heart Pyrex",
     "tags": ["bowl"],
     "note": "glass bowl only",

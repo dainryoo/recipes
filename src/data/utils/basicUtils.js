@@ -6,6 +6,23 @@ const isPosInt = (value) => {
   return typeof value === 'number' && Math.sign(value) === 1;
 }
 
+const convertStringToInt = (str) => {
+  if (!!str && (typeof str === 'string' || str instanceof String)) {
+    const trimmedStr = str.trim();
+    if (trimmedStr.match(/^\d+[.]\d+$/) || trimmedStr.match(/^\d+$/)) {
+      return parseFloat(trimmedStr);
+    } else if (trimmedStr.match(/^\d+\/\d+$/)) {
+      const fractionParts = trimmedStr.split("/");
+      const numerator = parseFloat(fractionParts[0]);
+      const denominator = parseFloat(fractionParts[1]);
+      return 1.0 * numerator / denominator;
+    } else {
+      return null;
+    }
+  }
+  return null;
+}
+
 // Return a rounded version of the passed in number
 const round = (num) => {
   return typeof num === 'number' ? Math.round(num) : num;
@@ -91,6 +108,7 @@ const filterListBy = (list, rawInputValue) => {
 
 module.exports = {
   isPosInt,
+  convertStringToInt,
   round,
   cleanNum, 
   filterListBy,

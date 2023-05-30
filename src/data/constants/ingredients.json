@@ -111,10 +111,27 @@
     "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 271, "protein": 19.5 }
   },
   {
+    "name": "beef shank",
+    "tags": ["protein", "meat", "beef"],
+    "serving": { "amount": 1, "unit": "lb", "grams": 453.6, "calories": 581, "protein": 98.9 }
+  },
+  {
     "name": "beef short rib",
     "tags": ["protein", "meat", "beef"],
     "note": "(choice); Research: \n6oz bone per 25.12oz total raw meat. \n4.6oz bone per 22.72oz total raw meat (2 ribs)\n 7.9oz bone per 24.8oz total raw meat.",
     "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 271, "protein": 19.5 }
+  },
+  {
+    "name": "beef bottom sirloin flap steak",
+    "tags": ["protein", "meat", "beef"],
+    "note": "\"Beef, bottom sirloin (flap), tri-tip roast, separable lean and fat, trim to 0\" fat, all grades, raw\"",
+    "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 186, "protein": 23.3 }
+  },
+  {
+    "name": "beef top sirloin steak",
+    "tags": ["protein", "meat", "beef"],
+    "note": "\"Beef, top sirloin, separable lean and fat, trim to 1\/8\" fat, all grades, raw\"",
+    "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 227, "protein": 22.9 }
   },
   {
     "name": "black pepper",
@@ -130,6 +147,12 @@
     "name": "blueberry",
     "tags": ["produce", "fruit"],
     "serving": { "amount": 1, "unit": "cup", "grams": 148, "calories": 84.4, "protein": 1.1 }
+  },
+  {
+    "name": "bok choy",
+    "tags": ["produce", "vegetable"],
+    "note": "for 1 head/1 bunch",
+    "serving": { "amount": 1, "unit": "", "grams": 840, "calories": 109, "protein": 12.6 }
   },
   {
     "name": "boquerones",
@@ -188,8 +211,8 @@
   {
     "name": "cacao nibs",
     "tags": ["baking"],
-    "note": "Alovitox cacao nibs",
-    "serving": { "amount": 1, "unit": "tsp", "grams": 5, "calories": 35, "protein": 1 }
+    "note": "Navitas cacao nibs",
+    "serving": { "amount": 1, "unit": "tsp", "grams": 3, "calories": 20, "protein": 0 }
   },
   {
     "name": "candied ginger",
@@ -238,6 +261,11 @@
     "tags": ["canned", "milk"],
     "note": "(light)",
     "serving": { "amount": 2.7, "unit": "oz", "grams": 80, "calories": 45, "protein": 0 }
+  },
+  {
+    "name": "canned coconut milk full fat",
+    "tags": ["canned", "milk"],
+    "serving": { "amount": 2.7, "unit": "oz", "grams": 80, "calories": 140, "protein": 0 }
   },
   {
     "name": "canned crushed pineapple",
@@ -386,6 +414,12 @@
     "tags": ["protein", "meat", "poultry"],
     "note": "365 Andouille",
     "serving": { "amount": 3, "unit": "oz", "grams": 85, "calories": 150, "protein": 15 }
+  },
+  {
+    "name": "chicken stock",
+    "tags": ["canned"],
+    "note": "Pacific Chicken Stock Unsalted",
+    "serving": { "amount": 1, "unit": "cup", "grams": 240, "calories": 30, "protein": 6 }
   },
   {
     "name": "chicken thigh",
@@ -882,6 +916,11 @@
     "serving": { "amount": 1, "unit": "tbsp", "grams": 7.4, "calories": 23, "protein": 0.8 }
   },
   {
+    "name": "green bean",
+    "tags": ["produce", "vegetable"],
+    "serving": { "amount": 1, "unit": "", "grams": 5.5, "calories": 1.7, "protein": 0.101 }
+  },
+  {
     "name": "green onion",
     "tags": ["produce", "vegetable"],
     "serving": { "amount": 1, "unit": "", "grams": 15, "calories": 4.8, "protein": 0.275 }
@@ -1032,6 +1071,12 @@
     "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 35, "protein": 2 }
   },
   {
+    "name": "jwipo",
+    "tags": ["protein", "seafood"],
+    "note": "tong tong bay",
+    "serving": { "amount": 1, "unit": "", "grams": 28, "calories": 90, "protein": 20 }
+  },
+  {
     "name": "kabocha squash",
     "tags": ["produce", "vegetable"],
     "note": "bake at 400F for 30-35min; can eat skin!; avg weight research: 1349g, 800g",
@@ -1051,6 +1096,12 @@
     "name": "kimchi",
     "tags": [],
     "serving": { "amount": 1, "unit": "cup", "grams": 150, "calories": 22.5, "protein": 1.65 }
+  },
+  {
+    "name": "king oyster mushroom",
+    "tags": ["produce", "vegetable"],
+    "note": "For 6-8 baby king or 2 giant king: slice in half lengthwise, lightly score on the cut side. 1T olive oil high heat til almost smoking. Turn down to med high, place mushrooms cut side down. 3 min til golden (be quick!) each side. Add 1T of butter, let melt, season butter with salt and pepper, and baste for 1 min.",
+    "serving": { "amount": 1, "unit": "", "grams": 23, "calories": 5.06, "protein": 0.711 }
   },
   {
     "name": "kiwi",
@@ -1149,7 +1200,7 @@
   },
   {
     "name": "lemon zest",
-    "tags": ["baking"],
+    "tags": ["produce", "fruit"],
     "serving": { "amount": 1, "unit": "tbsp", "grams": 6, "calories": 3, "protein": 0 }
   },
   {
@@ -1167,6 +1218,11 @@
     "name": "lime juice",
     "tags": ["produce", "fruit"],
     "serving": { "amount": 1, "unit": "cup", "grams": 242, "calories": 60.5, "protein": 1.02 }
+  },
+  {
+    "name": "lime zest",
+    "tags": ["produce", "fruit"],
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 6, "calories": 3, "protein": 0 }
   },
   {
     "name": "lobster meat",
@@ -1245,6 +1301,12 @@
     "serving": { "amount": 100, "unit": "g", "grams": 100, "calories": 300, "protein": 22.17 }
   },
   {
+    "name": "mozzarella low moisture",
+    "tags": ["dairy", "cheese"],
+    "note": "365 Low Moisture Part Skim Mozzarella Bar",
+    "serving": { "amount": 1, "unit": "oz", "grams": 28, "calories": 80, "protein": 8 }
+  },
+  {
     "name": "mushroom",
     "tags": ["produce", "vegetable"],
     "serving": { "amount": 1, "unit": "", "grams": 23, "calories": 5.06, "protein": 0.711 }
@@ -1301,6 +1363,11 @@
     "name": "orange peel",
     "tags": ["produce", "fruit"],
     "serving": { "amount": 1, "unit": "tbsp", "grams": 6, "calories": 5.8, "protein": 0.1 }
+  },
+  {
+    "name": "oxtail",
+    "tags": ["protein", "meat", "beef"],
+    "serving": { "amount": 1, "unit": "oz", "grams": 28.4, "calories": 191, "protein": 2.3 }
   },
   {
     "name": "oyster sauce",
@@ -1441,8 +1508,8 @@
   {
     "name": "protein powder",
     "tags": ["baking"],
-    "note": "365 Vanilla Soy",
-    "serving": { "amount": 27.7, "unit": "g", "grams": 27.7, "calories": 110, "protein": 24 }
+    "note": "Orgain Vanilla (365 Vanilla Soy was good)",
+    "serving": { "amount": 46, "unit": "g", "grams": 46, "calories": 150, "protein": 21 }
   },
   {
     "name": "pumpkin puree",
@@ -1452,7 +1519,7 @@
   {
     "name": "pumpkin seed",
     "tags": ["nut"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 64, "calories": 285, "protein": 12 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 170, "protein": 9 }
   },
   {
     "name": "radish",
@@ -1586,7 +1653,7 @@
   {
     "name": "shredded coconut",
     "tags": ["baking"],
-    "serving": { "amount": 3, "unit": "tbsp", "grams": 15, "calories": 100, "protein": 1 }
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 15, "calories": 110, "protein": 1 }
   },
   {
     "name": "shredded zucchini",
@@ -1722,14 +1789,26 @@
     "serving": { "amount": 1, "unit": "", "grams": 130, "calories": 113, "protein": 2 }
   },
   {
+    "name": "sweet white corn",
+    "tags": ["produce", "vegetable"],
+    "serving": { "amount": 1, "unit": "", "grams": 143, "calories": 123, "protein": 4.6 }
+  },
+  {
     "name": "sweet soy sauce",
     "tags": ["sauce"],
     "serving": { "amount": 1, "unit": "tbsp", "grams": 20, "calories": 60, "protein": 0 }
   },
   {
+    "name": "swiss cheese",
+    "tags": ["dairy", "cheese"],
+    "note": "Organic Valley Baby Swiss",
+    "serving": { "amount": 1, "unit": "oz", "grams": 28, "calories": 110, "protein": 7 }
+  },
+  {
     "name": "tahini",
     "tags": ["baking"],
-    "serving": { "amount": 2, "unit": "tbsp", "grams": 30, "calories": 210, "protein": 6 }
+    "note": "Soom",
+    "serving": { "amount": 2, "unit": "tbsp", "grams": 28, "calories": 190, "protein": 6 }
   },
   {
     "name": "tapioca flour",
@@ -1765,6 +1844,12 @@
     "name": "tomatillo",
     "tags": ["produce", "fruit"],
     "serving": { "amount": 1, "unit": "", "grams": 34, "calories": 10.9, "protein": 0.3 }
+  },
+  {
+    "name": "tomato passata",
+    "tags": ["sauce"],
+    "note": "Pomi Strained Tomatoes",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 61, "calories": 20, "protein": 0 }
   },
   {
     "name": "tomato paste",

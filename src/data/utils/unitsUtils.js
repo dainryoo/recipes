@@ -61,10 +61,105 @@ const convertUnits = (amount, initUnit, targetUnit) => {
   return amount;
 }
 
+// For some unit name, get the "universal" name for it (that is recognized by the app)
+const getUniversalUnit = (unit) => {
+  let universalUnit = null;
+  switch (unit?.trim()?.replace('.', "") || "") {
+    case "":
+      universalUnit = "";
+      break;
+    case "t":
+    case "tsp":
+    case "tsps":
+    case "Tsp":
+    case "Tsps":
+    case "TSP":
+    case "TSPS":
+    case "teaspoon":
+    case "teaspoons":
+    case "Teaspoon":
+    case "Teaspoons":
+      universalUnit = "tsp";
+      break;
+    case "T":
+    case "tbsp":
+    case "tbsps":
+    case "Tbsp":
+    case "Tbsps":
+    case "TBSP":
+    case "TBSPS":
+    case "tablespoon":
+    case "tablespoons":
+    case "Tablespoon":
+    case "Tablespoons":
+      universalUnit = "tbsp";
+      break;
+    case "c":
+    case "C":
+    case "cp":
+    case "cps":
+    case "cup":
+    case "Cup":
+    case "Cups":
+      universalUnit = "cup";
+      break;
+    case "lb":
+    case "lbs":
+    case "Lb":
+    case "Lbs":
+    case "LB":
+    case "LBS":
+    case "pound":
+    case "pounds":
+    case "Pound":
+    case "Pounds":
+      universalUnit = "lb";
+      break;
+    case "oz":
+    case "ozs":
+    case "Oz":
+    case "Ozs":
+    case "OZ":
+    case "OZS":
+    case "ounce":
+    case "ounces":
+    case "Ounce":
+    case "Ounces":
+      universalUnit = "oz";
+      break;
+    case "g":
+    case "G":
+    case "gs":
+    case "Gs":
+    case "GS":
+    case "gram":
+    case "grams":
+    case "Gram":
+    case "Grams":
+      universalUnit = "g";
+      break;
+    case "ml":
+    case "mls":
+    case "Ml":
+    case "Mls":
+    case "ML":
+    case "MLS":
+    case "milliliter":
+    case "milliliters":
+    case "Milliliter":
+    case "Milliliters":
+      universalUnit = "ml";
+      break;
+  }
+
+  return universalUnit;
+}
+
 module.exports = { 
   convertUnits,
   getGrams,
   isMassUnit,
   isVolumeUnit,
-  isWeightUnit
+  isWeightUnit,
+  getUniversalUnit
 };

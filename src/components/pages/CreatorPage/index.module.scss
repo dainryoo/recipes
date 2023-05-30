@@ -1,0 +1,53 @@
+@use "../../App.scss" as app;
+
+$process-button-bg-color: app.$color-background;
+$process-button-bg-hover-color: app.$color-red;
+$process-button-text-color: app.$color-red;
+$process-button-text-hover-color: app.$color-white;
+
+.creatorInput {
+  .inputBox {
+    resize: none;
+    width: 80%;
+    max-width: 800px;
+    height: 30vh;
+    padding: 1rem;
+  }
+
+  .processButton {
+    cursor: pointer;
+    background-color: $process-button-bg-color;
+    border-radius: 24px;
+    padding: 0.5rem 0rem;
+    color: $process-button-text-color;
+    border: 1px solid $process-button-text-color;
+    transition: all 0.05s ease-out;
+
+    .dangerIcon {
+      visibility: hidden;
+      font-size: 0.65rem;
+      padding: 0 0.45rem;
+    }
+
+    &:active,
+    &:hover {
+      background-color: $process-button-bg-hover-color;
+      color: $process-button-text-hover-color;
+      padding: 0.5rem 0.5rem;
+
+      .dangerIcon {
+        visibility: visible;
+      }
+    }
+
+    &.hidden {
+      visibility: hidden;
+    }
+  }
+}
+
+.creatorOutput {
+  .recipeOutputText {
+    white-space: pre-wrap;
+  }
+}

@@ -111,7 +111,7 @@ const getGroceryListString = (groceries) => {
     const rawCurrAmountUnit = Object.keys(currAmountEntry)[0]; // get the amount's raw unit data first
     const currAmountUnit = rawCurrAmountUnit === UNIT.ITEM ? "" : rawCurrAmountUnit; // then, massage raw unit into prettier string
     
-    const currAmountString = `${currAmountValue}${isVolumeUnit(currAmountUnit) ? " " : ""}${currAmountUnit}`;
+    const currAmountString = `${cleanNum(currAmountValue)}${isVolumeUnit(currAmountUnit) ? " " : ""}${currAmountUnit}`;
     return `${currAmountString} ${currItem}`
   });
   return groceryList.length > 0 ? `(${groceryList.join(", ")})` : "";
@@ -131,6 +131,20 @@ const getIngredientListString = (ingredients) => {
   return finalString;
 }
 
+// For the passed in recipe, add a kebab-case ID, nutrition info about every ingredient, and entire recipe nutrition info
+const processSingleRecipe = (recipe, processedIngredients) => {
+  const recipeWithNutrition = getRecipeWithNutrition(recipe.ingredients, processedIngredients);
+  return {
+    id: generateId(recipe.name),
+    ...recipe,
+    nutrition: recipeWithNutrition.recipeNutrition,
+    groceries: recipeWithNutrition.groceries,
+    groceryList: getGroceryListString(recipeWithNutrition.groceries),
+    ingredients: recipeWithNutrition.ingredientsNutrition,
+    ingredientList: getIngredientListString(recipeWithNutrition.ingredientsNutrition)
+  };
+}
+
 // Process raw recipes data
 const processRecipes = (data, processedIngredients) => {
   // Exit if we are missing necessary data
@@ -140,22 +154,15 @@ const processRecipes = (data, processedIngredients) => {
 
   const allProcessedRecipes = data.map((recipe) => {
     // For each recipe, add a kebab-case ID, nutrition info about every ingredient, and entire recipe nutrition info
-    const recipeWithNutrition = getRecipeWithNutrition(recipe.ingredients, processedIngredients);
-    const processedRecipe = {
-      id: generateId(recipe.name),
-      ...recipe,
-      nutrition: recipeWithNutrition.recipeNutrition,
-      groceries: recipeWithNutrition.groceries,
-      groceryList: getGroceryListString(recipeWithNutrition.groceries),
-      ingredients: recipeWithNutrition.ingredientsNutrition,
-      ingredientList: getIngredientListString(recipeWithNutrition.ingredientsNutrition)
-    };
-    return processedRecipe;
+    return processSingleRecipe(recipe, processedIngredients);
   });
   return allProcessedRecipes;
 }
 
-module.exports = { processRecipes };
+module.exports = { 
+  processSingleRecipe,
+  processRecipes
+};
 
 // const processRecipesData = (data, ingredientsData) => {
 

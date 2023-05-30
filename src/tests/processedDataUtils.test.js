@@ -4,6 +4,7 @@ const ingredientsData = require("../data/processedIngredients.json");
 const { 
     getRecipeData,
     getIngredientData,
+    getFirstIngredientMatchData,
     getAllRecipeNames,
     getAllIngredientNames
 } = require("../data/utils/processedDataUtils");
@@ -55,6 +56,37 @@ test('getIngredientData should return the correct ingredient', () => {
 
     // If an invalid recipe name is passed in, we should get no results
     expect(getIngredientData("asdfkjlasjdfasdfkljasdf")).toBe(null);
+});
+
+test('getFirstIngredientMatchData should return the first successfully matched ingredient', () => {
+    const testIngredient1 = Object.values(ingredientsData)[0];
+    const testIngredient2 = Object.values(ingredientsData)[1];
+    const incorrectIngredientName1 = "sdfsdafb";
+    const incorrectIngredientName2 = `${testIngredient1.name}s`;
+
+    // Make sure the ingredientsData entries are valid first
+    expect(testIngredient1.name).toBeTruthy();
+    expect(testIngredient2.name).toBeTruthy();
+
+    // If an array with one valid recipe is passed in, we should get that one recipe as the result
+    expect(getFirstIngredientMatchData([ testIngredient1.name ]).name).toEqual(testIngredient1.name);
+    
+    // If an array with one valid recipe and any number of invalid recipe names is passed in, we should get that one recipe as the result
+    expect(getFirstIngredientMatchData([ testIngredient1.name, incorrectIngredientName1 ]).name).toEqual(testIngredient1.name);
+    expect(getFirstIngredientMatchData([ incorrectIngredientName1, testIngredient1.name ]).name).toEqual(testIngredient1.name);
+    expect(getFirstIngredientMatchData([ incorrectIngredientName1, incorrectIngredientName2, incorrectIngredientName1, testIngredient1.name ]).name).toEqual(testIngredient1.name);
+
+    // If an array with multiple valid recipes and any number of invalid recipe names is passed in, we should get the first valid recipe as the result
+    expect(getFirstIngredientMatchData([ testIngredient1.name, testIngredient2.name ]).name).toEqual(testIngredient1.name);
+    expect(getFirstIngredientMatchData([ testIngredient1.name, testIngredient2.name, incorrectIngredientName1 ]).name).toEqual(testIngredient1.name);
+    expect(getFirstIngredientMatchData([ testIngredient2.name, testIngredient1.name, incorrectIngredientName1 ]).name).toEqual(testIngredient2.name);
+    expect(getFirstIngredientMatchData([ incorrectIngredientName1, testIngredient1.name, testIngredient2.name ]).name).toEqual(testIngredient1.name);
+    expect(getFirstIngredientMatchData([ incorrectIngredientName1, testIngredient2.name, testIngredient1.name ]).name).toEqual(testIngredient2.name);
+
+    // If an array with no valid recipe names is passed in, we should get no results
+    expect(getFirstIngredientMatchData([ incorrectIngredientName1 ])).toBe(null);
+    expect(getFirstIngredientMatchData([ incorrectIngredientName2 ])).toBe(null);
+    expect(getFirstIngredientMatchData([ incorrectIngredientName1, incorrectIngredientName2 ])).toBe(null);
 });
 
 test('getAllRecipeNames should return an array of valid strings of all the recipes\' names', () => {

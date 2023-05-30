@@ -5,7 +5,8 @@ const {
     getGrams, 
     isMassUnit,
     isVolumeUnit, 
-    isWeightUnit 
+    isWeightUnit,
+    getUniversalUnit
 } = require("../data/utils/unitsUtils");
 
 test('isMassUnit should correctly verify mass units', () => {
@@ -59,4 +60,20 @@ test('convertUnits should correctly calculate unit conversions', () => {
     Object.values(UNIT).forEach((currUnit) => {
         expect(convertUnits(1, currUnit, currUnit)).toEqual(1);
     })
+});
+
+test('getUniversalUnit should correctly return the expected "univeral" unit name', () => {
+    expect(getUniversalUnit("")).toEqual("");
+    expect(getUniversalUnit(" ")).toEqual("");
+    expect(getUniversalUnit(undefined)).toEqual("");
+    expect(getUniversalUnit(null)).toEqual("");
+
+    expect(getUniversalUnit("grams")).toEqual("g");
+    expect(getUniversalUnit("grams ")).toEqual("g");
+    expect(getUniversalUnit("grams.")).toEqual("g");
+
+    expect(getUniversalUnit("t")).toEqual("tsp");
+    expect(getUniversalUnit("t.")).toEqual("tsp");
+    expect(getUniversalUnit("TSP")).toEqual("tsp");
+    expect(getUniversalUnit("T")).toEqual("tbsp");
 });

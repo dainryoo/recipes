@@ -4,6 +4,7 @@ import RecipePage from "./pages/RecipePage";
 import IngredientPage from "./pages/IngredientPage";
 import MealPrepPage from "./pages/MealPrepPage";
 import ToolsPage from "./pages/ToolsPage";
+import CreatorPage from "./pages/CreatorPage";
 import ErrorPage from "./pages/ErrorPage";
 import "./App.scss";
 
@@ -18,6 +19,7 @@ const App = () => {
       <Route exact path="/pantry" element={<IngredientPage />} />
       <Route exact path="/meal-prep" element={<MealPrepPage />} />
       <Route exact path="/tools" element={<ToolsPage />} />
+      <Route exact path="/create" element={<CreatorPage />} />
       <Route path="*" element={<ErrorPage />} />
     </Routes>
   </Router>

@@ -77,7 +77,7 @@
         "category": "misc",
         "items": [
           { "name": "long grain rice", "note": "originally 1c", "amount": 0.85, "unit": "cup" },
-          { "name": "water", "note": "sub for chicken stock. originally 2c", "amount": 1.7, "unit": "cup" }
+          { "name": "chicken stock", "note": "originally 2c", "amount": 1.7, "unit": "cup" }
         ]
       }
     ],
@@ -190,7 +190,7 @@
       {
         "category": "base",
         "items": [
-          { "name": "chicken broth", "note": "should be stock", "amount": 4, "unit": "cup" },
+          { "name": "chicken stock", "amount": 4, "unit": "cup" },
           { "name": "olive oil", "amount": 1, "unit": "tbsp" },
           { "name": "shallot", "note": "diced", "amount": 3, "unit": "" },
           { "name": "arborio rice", "amount": 150, "unit": "g" },
@@ -211,7 +211,7 @@
       "Add in uncooked rice, saute for 1 min.",
       "Add wine to deglaze, then cook down.",
       "Cook rice, slowly adding simmering stock from the small pot one ladle at a time.",
-      "Taste while cooking. When al dente (likely when most of stock is out), add chives + parmesan + seasoning + butter."
+      "Taste while cooking. When al dente (likely when most of stock is out), add chives + parmesan + seasoning + butter."    
     ]
   },
   {
@@ -777,15 +777,13 @@
       {
         "category": "8 pita",
         "items": [
-          { "name": "water", "note": "lukewarm", "amount": 1, "unit": "cup" },
+          { "name": "water", "note": "lukewarm 105-110F", "amount": 1, "unit": "cup" },
           { "name": "yeast", "amount": 2, "unit": "tsp" },
           { "name": "sugar", "amount": 0.5, "unit": "tsp" },
           { "name": "flour", "amount": 0.5, "unit": "cup" },
-          { "name": "flour", "amount": 2, "unit": "cup" },
+          { "name": "flour", "amount": 2.5, "unit": "cup" },
           { "name": "salt", "amount": 1, "unit": "tsp" },
-          { "name": "olive oil", "amount": 1.5, "unit": "tbsp" },
-          { "name": "flour", "note": "approx, for extra dusting as needed", "amount": 0.5, "unit": "cup" },
-          { "name": "olive oil", "note": "approx, to grease bowl", "amount": 0.5, "unit": "tbsp" }
+          { "name": "olive oil", "amount": 2, "unit": "tbsp" }
         ]
       },
       {
@@ -853,6 +851,93 @@
       "Knead again couple more min. Let dough rise in greased bowl til doubled (~1hr). After rising, can place dough in fridge til cooking time!",
       "Divide into balls, then let rest 10 min. Flatten to about 8-9 inches (1/4inch thick)",
       "Cook on carbon steel pan med high heat ~30sec-1min on each side."
+    ]
+  },
+  {
+    "name": "sabich sandwich",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "8 pita",
+        "items": [
+          { "name": "water", "note": "lukewarm 105-110F", "amount": 1, "unit": "cup" },
+          { "name": "yeast", "amount": 2, "unit": "tsp" },
+          { "name": "sugar", "amount": 0.5, "unit": "tsp" },
+          { "name": "flour", "amount": 0.5, "unit": "cup" },
+          { "name": "flour", "amount": 2.5, "unit": "cup" },
+          { "name": "salt", "amount": 1, "unit": "tsp" },
+          { "name": "olive oil", "amount": 2, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "eggplant",
+        "items": [
+          { "name": "olive oil", "amount": 3, "unit": "tbsp" },
+          { "name": "eggplant", "note": "sliced into 1/2 inch", "amount": 2, "unit": "" }
+        ]
+      },
+      {
+        "category": "~1.5c hummus",
+        "items": [
+          { "name": "canned chickpeas", "amount": 15.5, "unit": "oz" },
+          { "name": "lemon juice", "amount": 3, "unit": "tbsp" },
+          { "name": "tahini", "amount": 2, "unit": "tbsp" },
+          { "name": "garlic", "note": "dry roasted", "amount": 1, "unit": "" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "olive oil", "amount": 1, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "israeli salad",
+        "items": [
+          { "name": "roma tomato", "note": "diced", "amount": 4, "unit": "" },
+          { "name": "cucumber", "amount": 1, "unit": "" },
+          { "name": "lemon juice", "amount": 2, "unit": "tbsp" },
+          { "name": "fresh parsley", "amount": 2, "unit": "tbsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "1c tahini sauce",
+        "items": [
+          { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "tahini", "amount": 0.5, "unit": "cup" },
+          { "name": "lemon juice", "note": "1 lemon", "amount": 0.3333333, "unit": "cup" },
+          { "name": "water", "note": "up to 3T. cold", "amount": 2, "unit": "tbsp" },
+          { "name": "fresh parsley", "note": "chopped", "amount": 0.5, "unit": "cup" }
+        ]
+      },
+      {
+        "category": "misc",
+        "items": [
+          { "name": "egg", "note": "hard-boiled 11 min", "amount": 9, "unit": "" }
+        ]
+      }
+    ],
+    "directions": [
+      "Israeli Salad:",
+      "Place tomatoes in fine strainer over bowl. Toss with generous pinch of salt. Let stand 30min.",
+      "Discard drained liquid. Toss tomatoes with rest of salad ingredients, season with salt as needed.",
+      "",
+      "Tahini Sauce:",
+      "Mince garlic, season with salt. Blend with tahini and lemon juice til emulsified. Add water while blending to get desired loose consistency.",
+      "Stir in parsley.",
+      "",
+      "Eggplants:",
+      "Slice eggplants into 1-inch slices. In large bowl, massage with olive oil, making sure to coat very well.",
+      "Sprinkle salt and pepper.",
+      "Bake at 400F/200C for 30 min, turning them halfway.",
+      "",
+      "Pitas:",
+      "In lukewarm water, stir yeast and sugar til dissolved. Add 1/2c flour and whisk together. Let sit uncovered in warm place and get bubbly, turning into a loose sponge (~15min).",
+      "Add salt, olive oil, and remaining flour. Stir til shaggy mass. Knead for about 1 min. Cover and let dough rest 10 min.",
+      "Knead again couple more min. Let dough rise in greased bowl til doubled (~1hr). After rising, can place dough in fridge til cooking time!",
+      "Divide into balls, then let rest 10 min. Flatten to about 8-9 inches (1/4inch thick)",
+      "Cook on carbon steel pan med high heat ~30sec-1min on each side.",
+      "",
+      "Assembly:",
+      "In each pita, spread hummus, add eggplant, drizzle with some tahini sauce. Add salad, sliced egg, more tahini sauce, and optional Israeli pickles and Amba sauce."
     ]
   },
   {
@@ -1034,6 +1119,45 @@
     ]
   },
   {
+    "name": "cheesesteak",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "3 crusty buns",
+        "items": [
+          { "name": "water", "note": "cool; for starter", "amount": 28, "unit": "g" },
+          { "name": "flour", "note": "for starter", "amount": 30, "unit": "g" },
+          { "name": "yeast", "note": "(1/4 of 1/8 tsp) for starter", "amount": 0.03125, "unit": "tsp" },
+          { "name": "flour", "amount": 104, "unit": "g" },
+          { "name": "water", "note": "lukewarm", "amount": 56, "unit": "g" },
+          { "name": "salt", "note": "(3/8 tsp)", "amount": 0.375, "unit": "tsp" },
+          { "name": "yeast", "note": "(1/2 of 1/8 tsp)", "amount": 0.0625, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "fillings",
+        "items": [
+          { "name": "beef bottom sirloin flap steak",  "note": "VERY thinly sliced", "amount": 0.5, "unit": "lb" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "onion", "note": "thinly sliced pizza style", "amount": 1, "unit": "" },
+          { "name": "butter", "amount": 1, "unit": "tbsp" },
+          { "name": "swiss cheese",  "note": "thinly sliced", "amount": 4, "unit": "oz" }
+        ]
+      }
+    ],
+    "directions": [
+      "For buns:",
+      "Mix starter ingredients. Let rest room temp overnight.",
+      "Mix all dough ingredients with starter. Knead til smooth. Let rise in fridge overnight.",
+      "Shape into 3 buns. Let rise 1-2 hours. Bake at 425F for 20 min.",
+      "",
+      "Caramelize onions in big nonstick pan with butter on med heat.",
+      "Add meat onto pan and cook.",
+      "When meat is cooked, portion onion and meat into piles. Top each with cheese and spoon on hot butter in pan to melt."
+    ]
+  },
+  {
     "name": "simple garlic pasta",
     "tags": ["meal"],
     "ingredients": [
@@ -1081,6 +1205,33 @@
       "Heat 2 tbsp olive oil over med heat in saucepan/skillet.",
       "Saute onion, garlic, bell pepper for ~2 min (til onion translucent and garlic browned)",
       "Pour in tomatoes and spices. Stir, cover, simmer for 20 min or til thickened. Pour over pasta"
+    ]
+  },
+  {
+    "name": "baked pasta pie",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "olive oil", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+          { "name": "canned crushed tomato", "amount": 16, "unit": "oz" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "dried oregano", "amount": 0.125, "unit": "tsp" },
+          { "name": "fresh basil", "amount": 0.25, "unit": "cup" },
+          { "name": "pasta", "amount": 9, "unit": "oz" },
+          { "name": "mozzarella low moisture", "amount": 8, "unit": "oz" },
+          { "name": "parmesan", "note": "grated", "amount": 3, "unit": "tbsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "Heat olive oil over med heat in saucepan/skillet.",
+      "Saute garlic til almost browned. Pour in tomatoes and spices. Stir, cover, simmer for 20 min or til thickened.",
+      "Pour some of sauce into lined 6-inch cake pan. Place cooked pasta in pan, standing up. Pour rest of sauce on top. Top with shredded cheese.",
+      "Bake at 370F/188C for 30 min."
     ]
   },
   {
@@ -2198,51 +2349,49 @@
     "tags": ["meal"],
     "ingredients": [
       {
-        "category": "egg",
+        "category": "fillings",
         "items": [
-          { "name": "egg", "amount": 1, "unit": "" },
-          { "name": "oil", "amount": 0.5, "unit": "tsp" }
-        ]
-      },
-      {
-        "category": "vegetables",
-        "items": [
-          { "name": "onion", "note": "cut long", "amount": 1, "unit": "" },
+          { "name": "pork shoulder", "amount": 8, "unit": "oz" },
           { "name": "carrot", "note": "cut long", "amount": 1, "unit": "" },
-          { "name": "spinach", "amount": 145, "unit": "g" },
+          { "name": "onion", "note": "cut long", "amount": 1, "unit": "" },
           { "name": "dried shiitake mushroom", "note": "soaked 2hr-overnight in hot water", "amount": 2, "unit": "" },
-          { "name": "sesame oil", "note": "for drizzle", "amount": 0.5, "unit": "tsp" },
-          { "name": "oil", "note": "to cook vegetables", "amount": 1, "unit": "tsp" }
-        ]
-      },
-      {
-        "category": "meat",
-        "items": [
-          { "name": "beef flank steak", "amount": 4, "unit": "oz" },
-          { "name": "dark soy sauce", "amount": 1, "unit": "tsp" },
-          { "name": "sesame oil", "amount": 0.5, "unit": "tsp" },
-          { "name": "oil", "note": "to cook vegetables", "amount": 1, "unit": "tsp" }
+          { "name": "wood ear", "note": "7g dried. soaked in hot water", "amount": 100, "unit": "g" },
+          { "name": "spinach", "note": "rinsed", "amount": 200, "unit": "g" },
+          { "name": "oil", "note": "to cook fillings", "amount": 3, "unit": "tbsp" }
         ]
       },
       {
         "category": "noodles",
         "items": [
-          { "name": "korean vermicelli", "amount": 250, "unit": "g" },
-          { "name": "dark soy sauce", "amount": 1, "unit": "tbsp" },
-          { "name": "sesame oil", "amount": 1, "unit": "tsp" },
-          { "name": "sugar", "amount": 0.25, "unit": "tsp" },
-          { "name": "black pepper", "amount": 0.125, "unit": "tsp" }
+          { "name": "oil", "note": "to cook noodles", "amount": 2, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 3, "unit": "" },
+          { "name": "dark soy sauce", "amount": 5, "unit": "tbsp" },
+          { "name": "mirin", "amount": 2, "unit": "tbsp" },
+          { "name": "brown sugar", "note": "originally 2T", "amount": 1, "unit": "tbsp" },
+          { "name": "honey", "note": "to sub 2T mul yeot", "amount": 1, "unit": "tbsp" },
+          { "name": "korean vermicelli",  "note": "originally 300g", "amount": 250, "unit": "g" },
+          { "name": "sesame oil", "amount": 1, "unit": "tbsp" },
+          { "name": "sesame seed", "amount": 1, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "for 5 japchae bap servings",
+        "items": [
+          { "name": "white rice", "amount": 500, "unit": "g" }
         ]
       }
     ],
     "directions": [
       "잡채",
-      "Cook vermicelli in boiling water 6 min. rinse in cold water, drain. Set to side",
-      "Stir fry onion, carrot, spinach, mushroom and drizzle with a bit of sesame oil. Set to side",
-      "Cook beef with sauce. Set to side",
-      "Vermicelli in pan with its seasonings.",
-      "Add vegetables and meat and mix.",
-      "Can store in fridge for a few days. Reheat by stir frying in a little oil over med-low heat."
+      "(1) Vermicelli. (2) Meat. (3) Vegetables. (4) Sauce.",
+      "",
+      "Soak vermicelli in warm water for 20+min.",
+      "Very big non-stick pan, (med heat?) stir fry meat, then carrot (for 20sec), then onion, then mushroom. Season with a bit of salt and pepper.",
+      "Add spinach, cover for 1 min. Uncover, mix everything til spinach gently wilted, then set everything aside onto a big sheet pan.",
+      "In the same pan, med-low heat, stir fry garlic, soy sauce, mirin, sugar, honey. Bring to boil, then add drained noodles. Cover and cook 2min. (Not actually cooking in water helps prevents noodles from getting bloated!).",
+      "Vermicelli should be soft and transparent. Add the fillings, drizzle with sesame oil and sesame seeds, and mix.",
+      "If stored in fridge, reheat by stir frying with a little water over med-low heat.",
+      "Better to freeze: let thaw overnight, then reheat by stir frying."
     ]
   },
   {
@@ -2334,8 +2483,9 @@
       {
         "category": "filling",
         "items": [
-          { "name": "rice vermicelli", "note": "should be the chewy korean buckwheat noodles", "amount": 6, "unit": "oz" },
+          { "name": "dry wheat noodle", "note": "should be the chewy korean buckwheat noodles", "amount": 100, "unit": "g" },
           { "name": "egg", "note": "boiled", "amount": 2, "unit": "" },
+          { "name": "jwipo", "amount": 1, "unit": "" },
           { "name": "sesame seed", "amount": 1, "unit": "tbsp" },
           { "name": "apple", "note": "matchstick. to sub korean pear", "amount": 0.5, "unit": "" },
           { "name": "cucumber", "note": "matchstick", "amount": 0.5, "unit": "" }
@@ -2494,6 +2644,41 @@
       "Cook in pot with 2.5c more water on med high heat 5 min, stirring til thick.",
       "Add salt and stir another min til semi-translucent.",
       "Serve immediately while hot."
+    ]
+  },
+  {
+    "name": "pat juk",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "canned adzuki beans", "note": "should be dried!!! 4 cans = 2 cups dried.", "amount": 60, "unit": "oz" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "sugar", "amount": 2, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "bird eggs",
+        "items": [
+          { "name": "glutinous rice flour", "amount": 2, "unit": "cup" },
+          { "name": "water", "note": "boiling", "amount": 0.25, "unit": "cup" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "Wash dried beans and strain. Boil beans in water for 1 min to reduce bitterness. Strain, then pour in 10 cups of new water, sugar, and salt.",
+      "Once boiling, turn heat to med and cook for 1 hr.",
+      "",
+      "For bird eggs:",
+      "Pour boiling water gradually into rice flour while kneading, until one very stiff lump.",
+      "Make little balls (about 1/2 inch?)",
+      "Place each ball into boiling water on the stove, removing and placing in a bowl of cold water once it floats to the top.",
+      "Once cooled, remove and make sure not to let stick to each other.",
+      "",
+      "Finely blend beans with 7 cups of water. Cook the puree while stirring to prevent burning on the bottom of the pan.",
+      "Keeps in fridge 3 days."
     ]
   },
   {
@@ -2916,6 +3101,40 @@
     ]
   },
   {
+    "name": "pork kimchi jjigae",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "doenjang", "amount": 1, "unit": "tbsp" },
+          { "name": "sesame oil", "amount": 1, "unit": "tbsp" },
+          { "name": "pork shoulder", "note": "bite-sized", "amount": 1, "unit": "lb" },
+          { "name": "sugar", "amount": 0.5, "unit": "tbsp" },
+          { "name": "kimchi", "note": "bite-sized", "amount": 1, "unit": "lb" },
+          { "name": "water", "note": "or broth", "amount": 4, "unit": "cup" },
+          { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "firm tofu block", "amount": 1, "unit": "" },
+          { "name": "green onion", "note": "chopped", "amount": 1, "unit": "" },
+          { "name": "jalapeno", "note": "sliced. to sub Korean pepper", "amount": 2, "unit": "" },
+          { "name": "white rice", "amount": 250, "unit": "g" }
+        ]
+      }
+    ],
+    "directions": [
+      "돼지고기 김치찌개",
+      "(1) Doenjang, sesame oil. (2) Pork, sugar. (3) Kimchi. (4) Water/broth. (5) Garlic, black pepper. (6) Green onion, jalapeno.",
+      "",
+      "In pot, mix doenjang and sesame oil on low heat til browned.",
+      "Add pork and sugar and cook on med heat til just the outside of the pork is cooked.",
+      "Add kimchi and stir fry til most of moisture is cooked off.",
+      "Add water/broth and increase heat to high. Once boiling, cover and cook on low for 20 min.",
+      "After 20 min, add garlic + black pepper and bring to a boil again on med heat (add tofu at this point if using).",
+      "Once boiling, add green onion and jalapeno. Cook on med heat for at least 5 more min (the longer the better for kimchi jjigae)."
+    ]
+  },
+  {
     "name": "budae jjigae",
     "tags": ["meal"],
     "ingredients": [
@@ -3125,17 +3344,18 @@
         "items": [
           { "name": "dried shiitake mushroom", "amount": 4, "unit": "" },
           { "name": "dried kelp", "amount": 6, "unit": "g" },
-          { "name": "water", "amount": 2, "unit": "cup" }
+          { "name": "water", "amount": 5, "unit": "cup" }
         ]
       },
       {
         "category": "fillings",
         "items": [
+          { "name": "mochiko", "amount": 3, "unit": "tbsp" },
           { "name": "silken tofu block", "amount": 2, "unit": "" },
           { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
-          { "name": "soup soy sauce", "amount": 2, "unit": "tsp" },
+          { "name": "soup soy sauce", "amount": 1, "unit": "tbsp" },
           { "name": "black pepper", "amount": 0.25, "unit": "tsp" },
-          { "name": "perilla seed powder", "amount": 4, "unit": "tbsp" },
+          { "name": "perilla seed powder", "amount": 6.5, "unit": "tbsp" },
           { "name": "sesame oil", "note": "to sub perilla oil", "amount": 2, "unit": "tsp" },
           { "name": "green onion", "note": "chopped", "amount": 3, "unit": "" },
           { "name": "white rice", "amount": 300, "unit": "g" }
@@ -3144,10 +3364,10 @@
     ],
     "directions": [
       "들께 순두부찌개",
-      "(1) Soup base. (2) Tofu, garlic, soup soy sauce, black pepper. (3) Deulkkae. (4) Perilla oil, green onion.",
+      "(1) Soup base. (2) Glutinous rice flour slurry. (3) Tofu, garlic, soup soy sauce, black pepper. (4) Deulkkae. (5) Perilla oil, green onion.",
       "",
       "In pot, water, mushroom, dashima. Let sit for 10 min. Bring pot to boil, reduce meat to med, then boil for 5-7min.",
-      "Remove dashima + mushroom. Slice mushroom and return to pot.",
+      "Remove dashima + mushroom. Slice mushroom and return to pot. Add glutinous rice mixed with water and stir in.",
       "Add tofu, garlic, soup soy sauce, pepper to pot. Bring to boil over med heat, then cook for 4 min.",
       "Stir in perilla seeds, then boil for another min.",
       "Drizzle sesame/perilla oil over stew, then garnish with green onion."
@@ -4128,6 +4348,183 @@
     ]
   },
   {
+    "name": "banchan week",
+    "tags": ["side"],
+    "ingredients": [
+      {
+        "category": "universal namul",
+        "items": [
+          { "name": "dried sweet potato stem", "amount": 300, "unit": "g" },
+          { "name": "oil", "note": "to cook", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+          { "name": "green onion", "note": "roughly chopped", "amount": 1, "unit": "" },
+          { "name": "sesame seed", "amount": 0.5, "unit": "tsp" },
+          { "name": "dark soy sauce", "amount": 2, "unit": "tbsp" },
+          { "name": "sesame oil", "amount": 2, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "eomuk bokkeum",
+        "items": [
+          { "name": "fish cake sheet", "amount": 8, "unit": "" },
+          { "name": "carrot", "note": "or 1/2 red bell pepper", "amount": 1, "unit": "" },
+          { "name": "green bell pepper", "amount": 0.5, "unit": "" },
+          { "name": "onion", "amount": 0.5, "unit": "" },
+          { "name": "oil", "note": "to cook", "amount": 1, "unit": "tbsp" },
+          { "name": "dark soy sauce", "amount": 3, "unit": "tbsp" },
+          { "name": "mirin", "amount": 2, "unit": "tbsp" },
+          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "gochugaru", "note": "optional", "amount": 4, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "potato jorim",
+        "items": [
+          { "name": "potato", "amount": 3, "unit": "" },
+          { "name": "carrot", "amount": 1, "unit": "" },
+          { "name": "onion", "amount": 0.5, "unit": "" },
+          { "name": "green bell pepper", "amount": 0.5, "unit": "" },
+          { "name": "oil", "note": "to cook", "amount": 1, "unit": "tbsp" },
+          { "name": "dark soy sauce", "amount": 3, "unit": "tbsp" },
+          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "mirin", "amount": 1, "unit": "tbsp" },
+          { "name": "honey", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "water", "amount": 0.75, "unit": "cup" },
+          { "name": "sesame seed", "amount": 0.5, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "lunch rice",
+        "items": [
+          { "name": "white rice", "amount": 300, "unit": "g" }
+        ]
+      },
+      {
+        "category": "bibimbap",
+        "items": [
+          { "name": "white rice", "amount": 200, "unit": "g" },
+          { "name": "gochujang", "amount": 1, "unit": "tbsp" },
+          { "name": "sesame oil", "amount": 1, "unit": "tbsp" },
+          { "name": "egg", "amount": 3, "unit": "" },
+          { "name": "oil", "amount": 1, "unit": "tbsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "Makes 4 lunches of rice + banchan and 1 dinner bibimbap.",
+      "",
+      "Universal namul recipe:",
+      "Soak stems til soft (6hrs-overnight). Cut into bite size length, strain.",
+      "Fry up on med heat. Add garlic, cook til garlic soft.",
+      "Add sauce, saute a bit. Add water a little and let boil.",
+      "Add green onions, saute. Add sesame seeds at end.",
+      "",
+      "",
+      "Eomuk Bokkeum (어묵 볶음):",
+      "(1) Sliced veg. (2) Fish cake. (3) Sauce.",
+      "Thinly slice veg. Combine and mix all sauce ingredients well.",
+      "Non stick pan on med high heat, cook veg for 1-2 min or til silghtly soft.",
+      "Reduce heat to med, cook fish cake ~2 min. Stir in sauce well, cook ~2 min.",
+      "",
+      "",
+      "Potato Jorim (감자조림):",
+      "(1) Potatoes + carrots. (2) Sauce. (3) Onion. (4) Peppers.",
+      "Cut potatoes into 1\" cubes. Cut other veg into big chunks.",
+      "Mix all braising ingredients except sesame seeds, stir well",
+      "In non-stick pan/pot, saute potatoes + carrots over med heat 4-5 min, stir occasionally.",
+      "Add sauce and bring to boil over high heat. Add onion.",
+      "Cover, reduce heat to med, cook till potatoes almost cooked thru (~5 min), firm but not mushy.",
+      "Stir in peppers. Boil uncovered til sauce reduced and thick (~3min). Garnish with sesame seeds."
+    ]
+  },
+  {
+    "name": "banchan week 2",
+    "tags": ["side"],
+    "ingredients": [
+      {
+        "category": "spinach namul",
+        "items": [
+          { "name": "spinach", "note": "~1 bunch", "amount": 10, "unit": "oz" },
+          { "name": "green onion", "note": "chopped", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+          { "name": "sugar", "amount": 0.5, "unit": "tsp" },
+          { "name": "sesame oil", "amount": 1, "unit": "tsp" },
+          { "name": "sesame seed", "amount": 1, "unit": "tsp" },
+          { "name": "soup soy sauce", "note": "or 2 tsp gochujang + 2 tsp soy sauce", "amount": 2, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "eomuk bokkeum",
+        "items": [
+          { "name": "fish cake sheet", "amount": 8, "unit": "" },
+          { "name": "carrot", "note": "or 1/2 red bell pepper", "amount": 1, "unit": "" },
+          { "name": "green bell pepper", "amount": 0.5, "unit": "" },
+          { "name": "onion", "amount": 0.5, "unit": "" },
+          { "name": "oil", "note": "to cook", "amount": 1, "unit": "tbsp" },
+          { "name": "dark soy sauce", "amount": 3, "unit": "tbsp" },
+          { "name": "mirin", "amount": 2, "unit": "tbsp" },
+          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "gochugaru", "note": "optional", "amount": 4, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "parsnip jorim",
+        "items": [
+          { "name": "parsnip", "note": "~700g? peeled", "amount": 4, "unit": "" },
+          { "name": "sesame oil", "note": "to cook", "amount": 2, "unit": "tsp" },
+          { "name": "gochujang", "amount": 4, "unit": "tbsp" },
+          { "name": "gochugaru", "amount": 2, "unit": "tbsp" },
+          { "name": "honey", "amount": 2, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+          { "name": "sesame seed", "amount": 1, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "lunch rice",
+        "items": [
+          { "name": "white rice", "amount": 300, "unit": "g" }
+        ]
+      },
+      {
+        "category": "bibimbap",
+        "items": [
+          { "name": "white rice", "amount": 200, "unit": "g" },
+          { "name": "gochujang", "amount": 1, "unit": "tbsp" },
+          { "name": "sesame oil", "amount": 1, "unit": "tbsp" },
+          { "name": "egg", "amount": 3, "unit": "" },
+          { "name": "oil", "amount": 1, "unit": "tbsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "Makes 4 lunches of rice + banchan and 1 dinner bibimbap.",
+      "",
+      "Spinach Namul (시금치나물):",
+      "Rinse spinach. Blanch in salted boiling water til wilted (20-30sec). Quickly remove and shock in icy cold water.",
+      "Drain and squeeze excess water gently. Cut into 3\" length",
+      "Toss and mix well with rest of ingredients.",
+      "",
+      "",
+      "Eomuk Bokkeum (어묵 볶음):",
+      "(1) Sliced veg. (2) Fish cake. (3) Sauce.",
+      "Thinly slice veg. Combine and mix all sauce ingredients well.",
+      "Non stick pan on med high heat, cook veg for 1-2 min or til silghtly soft.",
+      "Reduce heat to med, cook fish cake ~2 min. Stir in sauce well, cook ~2 min.",
+      "",
+      "",
+      "Parsnip Jorim:",
+      "Slice parsnips into thick flat slices, then pound flat (being careful not to break them apart)",
+      "Fry on nonstick pan low heat lightly with sesame oil til golden.",
+      "Pour in sauce and cook for a few more min on low heat."
+    ]
+  },
+  {
     "name": "kung pao",
     "tags": ["meal"],
     "ingredients": [
@@ -4236,6 +4633,45 @@
       "Keep at 225-250F for 30 min. Pour over gochugaru.",
       "Makes 1.5 cups of oil? Store in fridge for 6 months.",
       "Makes 393g of oil (7-8g per tbsp. ~50 tbsp total)"
+    ]
+  },
+  {
+    "name": "2 day congee",
+    "tags": ["side"],
+    "ingredients": [
+      {
+        "category": "congee",
+        "items": [
+          { "name": "long grain rice", "amount": 0.9, "unit": "cup" },
+          { "name": "water", "amount": 9, "unit": "cup" }
+        ]
+      },
+      {
+        "category": "6 soy sauce eggs",
+        "items": [
+          { "name": "egg", "amount": 6, "unit": "" },
+          { "name": "dark soy sauce", "amount": 0.5, "unit": "cup" },
+          { "name": "water", "amount": 0.5, "unit": "cup" },
+          { "name": "sugar", "amount": 0.5, "unit": "tbsp" },
+          { "name": "jalapeno", "amount": 1, "unit": "" },
+          { "name": "garlic", "amount": 1, "unit": "" }
+        ]
+      },
+      {
+        "category": "misc toppings",
+        "items": [
+          { "name": "spam lite", "amount": 6, "unit": "oz" },
+          { "name": "green onion", "amount": 2, "unit": "" },
+          { "name": "doubanjiang", "amount": 2, "unit": "tbsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "Rinse rice and drain.",
+      "Bring water to a boil, then add rice. Bring back to a boil and simmer on med heat for 1 hr til thick.",      
+      "",
+      "Soft boil eggs. (Place in boiling water for 7-8ish min).",
+      "Put eggs in sauce, try to get all covered. Soak overnight. Eat within 5 days."
     ]
   },
   {
@@ -4504,39 +4940,6 @@
     ]
   },
   {
-    "name": "lunch tomato egg",
-    "tags": ["meal"],
-    "ingredients": [
-      {
-        "category": "",
-        "items": [
-          { "name": "egg", "amount": 4, "unit": "" },
-          { "name": "salt", "note": "for eggs", "amount": 0.25, "unit": "tsp" },
-          { "name": "black pepper", "amount": 0.25, "unit": "tsp" },
-          { "name": "sesame oil", "amount": 0.5, "unit": "tsp" },
-          { "name": "shaoxing wine", "amount": 2, "unit": "tsp" },
-          { "name": "oil", "note": "to cook eggs", "amount": 2, "unit": "tbsp" },
-          { "name": "cherry tomato", "note": "cut into wedges", "amount": 500, "unit": "g" },
-          { "name": "green onion", "note": "chopped", "amount": 1, "unit": "" },
-          { "name": "sugar", "amount": 1, "unit": "tsp" },
-          { "name": "salt", "note": "for tomatoes", "amount": 0.5, "unit": "tsp" },
-          { "name": "water", "note": "1/2 c, if needed", "amount": 0.25, "unit": "cup" },
-          { "name": "oil", "note": "to cook tomatoes", "amount": 1, "unit": "tbsp" },
-          { "name": "white rice", "amount": 0.2, "unit": "cup" }
-        ]
-      }
-    ],
-    "directions": [
-      "(1) Whisked egg, salt, pepper, sesame oil, shaoxing. (2) Cut tomatoes, chopped scallions. (3) Sugar, salt, water.",
-      "",
-      "Wok on med high heat (7/10) til just smoking.",
-      "2 tbsp oil and immediately add egg. Scramble and immediately remove. Set aside.",
-      "1 tbsp oil, wok to high heat (8/10), add tomatoes and scallions. Stir fry for a min.",
-      "Add sugar, salt, water. Add cooked eggs. Mix everything, cover and cook 1-2 min til tomatoes soft.",
-      "Uncover. Stir fry til sauce is thickened/water is reduced to liking."
-    ]
-  },
-  {
     "name": "mongolian beef",
     "tags": ["meal"],
     "ingredients": [
@@ -4759,47 +5162,6 @@
       "When boiling, carefully lower meatballs in using spoon.",
       "Add pepper and sesame oil. Bring to boil again.",
       "Add noodles, stir. Salt to taste. Boil for another 3-4 min, garnish with cilantro."
-    ]
-  },
-  {
-    "name": "vegetable stirfry with white sauce",
-    "tags": ["meal"],
-    "ingredients": [
-      {
-        "category": "sauce",
-        "items": [
-          { "name": "water", "amount": 1.5, "unit": "cup" },
-          { "name": "cornstarch", "amount": 1.5, "unit": "tbsp" },
-          { "name": "sesame oil", "amount": 0.5, "unit": "tbsp" },
-          { "name": "shaoxing wine", "amount": 1, "unit": "tbsp" },
-          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
-          { "name": "ginger", "note": "minced", "amount": 0.5, "unit": "tsp" },
-          { "name": "sugar", "amount": 0.25, "unit": "tsp" },
-          { "name": "salt", "amount": 0.5, "unit": "tsp" }
-        ]
-      },
-      {
-        "category": "vegetables",
-        "items": [
-          { "name": "oil", "amount": 2, "unit": "tbsp" },
-          { "name": "wood ear", "note": "(14g dried)", "amount": 200, "unit": "g" },
-          { "name": "red bell pepper", "note": "curry style", "amount": 1, "unit": "" },
-          { "name": "green bell pepper", "note": "curry style", "amount": 1, "unit": "" },
-          { "name": "lotus root", "note": "sliced", "amount": 1, "unit": "" },
-          { "name": "snow peas", "amount": 0.5, "unit": "lb" },
-          { "name": "white rice", "amount": 1, "unit": "cup" }
-        ]
-      }
-    ],
-    "directions": [
-      "(1) Sauce. (2) All vegetables but peas. (3) Peas",
-      "",
-      "Blanch sliced lotus root in boiling water for 45 sec. Drain and set aside.",
-      "Mix all sauce ingredients. Set aside.",
-      "Heat wok on med heat. Add oil. (When hot, cook 1lb chicken breast sliced thin 2-3min. Set aside.)",
-      "Add all vegetables but peas, stir fry 2-3 min, while gradually increasing heat to med high.",
-      "Add peas, cook another minute. (Add chicken back in now, and water chestnuts if using)",
-      "Add sauce to pan. Toss to combine, cook til sauce thick and clear. (Should take 1-2 min)"
     ]
   },
   {
@@ -5248,6 +5610,152 @@
     ]
   },
   {
+    "name": "thai red curry",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "the curry",
+        "items": [
+          { "name": "thai red curry paste", "note": "up to 6T", "amount": 4, "unit": "tbsp" },
+          { "name": "fish sauce", "note": "up to 2T", "amount": 1, "unit": "tbsp" },
+          { "name": "brown sugar", "note": "to sub 2T palm sugar", "amount": 2, "unit": "tsp" },
+          { "name": "canned coconut milk full fat", "amount": 13.5, "unit": "oz" },
+          { "name": "chicken stock", "amount": 1, "unit": "cup" },
+          { "name": "white rice", "amount": 1.25, "unit": "cup" }
+        ]
+      },
+      {
+        "category": "fillings",
+        "items": [
+          { "name": "kabocha squash", "note": "bite-size pieces. ~2c", "amount": 1, "unit": "" },
+          { "name": "chicken thigh", "note": "1.5 inch cubes", "amount": 1.4, "unit": "lb" },
+          { "name": "red bell pepper", "note": "julienned", "amount": 1, "unit": "" },
+          { "name": "fresh basil", "note": "to sub Thai basil", "amount": 1, "unit": "cup" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Kabocha. (2) Coconut milk. (3) Curry paste. (4) Chicken. (5) Chicken stock, fish sauce, sugar. (6) Basil, red pepper.",
+      "Wash kabocha and slice any blemishes from skin, but leave skin on. Scrape out seeds and cut into bite-size cubes.",
+      "Bring 1/2 c of coconut milk to a boil on med-heat (5/10) Dutch oven. Add curry paste and stir to break up lumps. Continue cooking and reducing over med high heat til very thick and (ideally but not necessarily) coconut oil starts to separate from the curry paste.",
+      "Add chicken, toss to mix.",
+      "Add rest of coconut milk and chicken stock, season with fish sauce and sugar. Stir and simmer ~8min (4/10). Cook for 30-40 min if whole chicken.",
+      "Stir in kabocha and simmer ~5-13 min or til kabocha is fully cooked.",
+      "Remove from heat. Adjust seasoning as needed with fish sauce. Stir in basil and red pepper."
+    ]
+  },
+  {
+    "name": "thai green curry",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "the curry",
+        "items": [
+          { "name": "thai green curry paste", "amount": 3, "unit": "tbsp" },
+          { "name": "fish sauce", "note": "up to 2T", "amount": 1, "unit": "tbsp" },
+          { "name": "brown sugar", "note": "to sub 2T palm sugar", "amount": 2, "unit": "tsp" },
+          { "name": "lime zest", "note": "to sub 4 kaffir lime leaves", "amount": 0.5, "unit": "tsp" },
+          { "name": "canned coconut milk full fat", "note": "1.75c", "amount": 13.5, "unit": "oz" },
+          { "name": "chicken stock", "amount": 1, "unit": "cup" },
+          { "name": "white rice", "amount": 1.5, "unit": "cup" }
+        ]
+      },
+      {
+        "category": "fillings",
+        "items": [
+          { "name": "chicken thigh", "note": "1 inch cubes", "amount": 1.6, "unit": "lb" },
+          { "name": "red bell pepper", "note": "julienned", "amount": 1, "unit": "" },
+          { "name": "fresh basil", "note": "to sub Thai basil", "amount": 1, "unit": "cup" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Coconut milk. (2) Curry paste. (3) Chicken thigh. (4) Kaffir lime leaves, chicken stock, sugar, fish sauce. (5) Bell pepper, basil.",
+      "",
+      "In Dutch oven, med heat (5/10), reduce 3/4c of the coconut milk til thick and coconut oil starts to separate from the milk. (If no separation but thick, fine to proceed)",
+      "Add curry paste and saute, stirring constantly over med heat 2min til aromatic. If paste sticks, deglaze with a little bit of the remaining coconut milk.",
+      "Add chicken thigh, stir to mix.",
+      "Add lime, chicken stock, remaining coconut milk, sugar, fish sauce. Bring to simmer, gently simmer 10-15min or til chicken is fork tender (4/10). Cook for 45 min if whole chicken.",
+      "Add bell pepper and basil. Taste and add more fish sauce as needed."
+    ]
+  },
+  {
+    "name": "thai yellow curry",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "the curry",
+        "items": [
+          { "name": "canned coconut milk full fat", "note": "1.75c", "amount": 13.5, "unit": "oz" },
+          { "name": "thai yellow curry paste", "note": "originally 5-6T", "amount": 4, "unit": "tbsp" },
+          { "name": "water", "amount": 1, "unit": "cup" },
+          { "name": "fish sauce", "note": "up to 2T", "amount": 1, "unit": "tbsp" },
+          { "name": "brown sugar", "note": "reduced from the original 1.5t (to sub 1.5T palm sugar) because of no tamarind paste", "amount": 1, "unit": "tsp" },
+          { "name": "lime juice", "note": "to sub 1-2T tamarind paste", "amount": 0.5, "unit": "tsp" },
+          { "name": "white rice", "amount": 1.5, "unit": "cup" }
+        ]
+      },
+      {
+        "category": "fillings",
+        "items": [
+          { "name": "chicken thigh", "note": "not cut. 4-5 bone-in also good", "amount": 1.5, "unit": "lb" },
+          { "name": "potato", "note": "cut in chunks", "amount": 2, "unit": "" },
+          { "name": "onion", "note": "julienned", "amount": 1, "unit": "" },
+          { "name": "cherry tomato", "note": "pierced so they don't explode", "amount": 150, "unit": "g" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Coconut milk. (2) Curry paste. (3) Chicken thigh. (4) Water, sugar, fish sauce, tamarind. (5) Potato, onion. (6) Cherry tomato.",
+      "",
+      "In Dutch oven, med heat (5/10), reduce 3/4c of the coconut milk til thick and coconut oil starts to separate from the milk. (If no separation but thick, fine to proceed)",
+      "Add curry paste and saute, stirring constantly over med-low heat 2-3min til aromatic, til oil starts to separate from the paste.",
+      "Add chicken, stir to mix.",
+      "Add remaining coconut milk, water sugar, fish sauce, tamarind. Bring to simmer, gently simmer for 30 min (4/10).",
+      "Add potato, onion, more water if needed to mostly submerge potatoes. Simmer 15-20 more min, or til chicken fork tender and potatoes fully cooked.",
+      "Turn off heat, stir in tomatoes, let sit for a few min to let tomatoes gently cook."
+    ]
+  },
+  {
+    "name": "easy laksa",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "oil", "amount": 2, "unit": "tbsp" },
+          { "name": "thai red curry paste", "amount": 2, "unit": "tbsp" },
+          { "name": "korean curry powder", "amount": 2, "unit": "tbsp" },
+          { "name": "chicken thigh", "note": "sliced", "amount": 0.5, "unit": "lb" },
+          { "name": "canned coconut milk full fat", "amount": 13.5, "unit": "oz" },
+          { "name": "chicken stock", "amount": 4, "unit": "cup" },
+          { "name": "fish sauce", "amount": 2, "unit": "tbsp" },
+          { "name": "sugar", "amount": 1, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "fillings",
+        "items": [
+          { "name": "egg", "note": "hardboiled", "amount": 3, "unit": "" },
+          { "name": "shrimp", "note": "to sub peeled prawns", "amount": 1, "unit": "lb" },
+          { "name": "firm tofu block", "note": "to sub fried tofu puffs", "amount": 1, "unit": "" },
+          { "name": "fish cake sheet", "note": "to sub 7oz fish balls", "amount": 2, "unit": "" },
+          { "name": "dry wheat noodle", "note": "should total 800g COOKED noodles", "amount": 200, "unit": "g" },
+          { "name": "fresh cilantro", "note": "to sub coriander leaves", "amount": 0.5, "unit": "cup" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Oil, curry paste. (2) Chicken. (3) Coconut milk, chicken stock. (4) Proteins. (5) Fish sauce, sugar.",
+      "",
+      "Heat oil on wok/saucepan over med-high heat. Add curry paste and cook, stirring and cooking for 30 sec or til fragrant.",
+      "Add chicken and stir-fry for 1 min.",
+      "Add coconut milk and chicken stock, simmer 5 min.",
+      "Add prawns, fish balls, tofu puffs if using. Simmer another few min or til prawns cooked.",
+      "Stir through fish sauce and sugar. Ladle laksa over noodles, top with bean shoots, egg, and coriander leaves."
+    ]
+  },
+  {
     "name": "chicken adobo",
     "tags": ["meal"],
     "ingredients": [
@@ -5284,6 +5792,41 @@
       "Add marinade, water, sugar, black pepper. Bring it to simmer then turn heat down to med high. Simmer 5 min.",
       "Add chicken smooth side down.",
       "Simmer uncovered for 20~25 min (no need to stir), turning chicken at ~15 min, until sauce reduces down to thick jam-like syrup."
+    ]
+  },
+  {
+    "name": "nilagang baka",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "beef shank", "amount": 3, "unit": "lb" },
+          { "name": "water", "amount": 8, "unit": "cup" },
+          { "name": "onion", "note": "peeled", "amount": 1, "unit": "" },
+          { "name": "peppercorn", "amount": 1, "unit": "tsp" },
+          { "name": "fish sauce", "amount": 2, "unit": "tbsp" },
+          { "name": "sweet white corn", "note": "husked and cut into thirds", "amount": 2, "unit": "" },
+          { "name": "potato", "note": "peeled and quartered", "amount": 2, "unit": "" },
+          { "name": "cabbage", "note": "cut into wedges/quarters", "amount": 1, "unit": "" },
+          { "name": "green bean", "note": "ends trimmed", "amount": 12, "unit": "" },
+          { "name": "salt", "note": "to taste", "amount": 0.25, "unit": "tsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Meat. (2) Onion, peppercorn, fish sauce. (3) Corn. (4) Potato. (5) Green beans, cabbage.",
+      "",
+      "Blanch meat (optional): Place beef in pot with enough cold water to cover. Bring to boil over med heat, skimming skum that floats on top.",
+      "Drain the meat, discard the liquid, rinse meat and pot well.",
+      "Return rinsed meat to pot, cover with cold water. Over med heat, bring to boil, skimming skum on top again.",
+      "When clear of froth, add onions, peppercorns, and fish sauce.",
+      "Lower heat, cover and cook at no more than a simmer for 2.5 hrs or til shanks tender. Add more water as needed during cooking to maintain about 6-7 cups.",
+      "Add corn and cook for 5-7 min.",
+      "Add potatoes and cook for 5 min or til almost tender.",
+      "Add green beans and cabbage and cook another 2-4 min or til vegetables are tender yet crisp.",
+      "Season with salt to taste. Garnish with optional green onions.",
+      "Keeps in fridge 3 days. Reheat on med heat til 165F."
     ]
   },
   {
@@ -5690,19 +6233,20 @@
         "items": [
           { "name": "egg", "amount": 12, "unit": "" },
           { "name": "heavy cream", "amount": 0.5, "unit": "cup" },
+          { "name": "water", "amount": 0.5, "unit": "cup" },
           { "name": "salt", "amount": 0.5, "unit": "tsp" },
           { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
           { "name": "butter", "note": "to grease dish", "amount": 1, "unit": "tsp" }
         ]
       },
       {
-        "category": "",
+        "category": "rolls",
         "items": [
-          { "name": "bread flour", "amount": 200, "unit": "g" },
-          { "name": "sugar", "amount": 24, "unit": "g" },
+          { "name": "bread flour", "amount": 206, "unit": "g" },
+          { "name": "sugar", "amount": 18, "unit": "g" },
           { "name": "yeast", "amount": 1, "unit": "tsp" },
           { "name": "salt", "amount": 0.25, "unit": "tsp" },
-          { "name": "milk", "note": "warm; can dilute with water", "amount": 144, "unit": "ml" },
+          { "name": "water", "note": "warm", "amount": 144, "unit": "ml" },
           { "name": "butter", "note": "originally 34g", "amount": 24, "unit": "g" }
         ]
       }
@@ -5714,14 +6258,12 @@
       "Add softened butter, knead til smooth and windowpane test.",
       "Let double (~40min). Divide into pieces, let rest 15 min at room temp.",
       "Deflate, knead, shape into 9 balls. Let rise ~30min.",
-      "Bake in buttered 8x8 dish at 355F 20-30 min or til lightly browned.",
+      "Bake in buttered lined 8x8 dish at 355F 30-35 min or til lightly browned.",
       "",
-      "Mix milk, butter, water, sugar, salt til all blended.",
-      "Mix in flour and yeast. Let sit 5 min. Knead til silky (5min). Let rise.",
       "Grease 8x8 baking dish.",
-      "Whisk eggs til just combined. Whisk in rest of ingredients til just combined.",
-      "Pour into dish. Cover tight with foil. Place dish inside 9x13 baking dish, pour water in big pan til just to top of the egg mix.",
-      "Bake at 325F til just set 35-40 min."
+      "Whisk eggs til just combined. Whisk in rest of ingredients til just combined. Try blending everything.",
+      "Pour into dish through a sieve. Cover tight with foil. Place dish inside 9x13 baking dish, pour water in big pan til just to top of the egg mix.",
+      "Bake at 325F til just set 40 min-1hr 20 min."
     ]
   },
   {
@@ -5781,7 +6323,7 @@
     "(Freeze now if you want)",
     "On nonstick med heat, grease with butter. Fry blintzes seam side down til golden (few min per side).",
     "Serve with compote or honey.",
-    "To cook from frozen, put frozen onto buttered pan. Cover for a few min to steam, then cook uncovered."
+    "To cook from frozen, put frozen onto buttered pan med heat. Cook each side til golden, then turn down heat to 3/10 and cover for a few min to steam (5-10 min)."
   ]
 },
   {
@@ -5882,10 +6424,10 @@
       {
         "category": "",
         "items": [
-          { "name": "champagne mango", "amount": 3, "unit": "" },
+          { "name": "champagne mango", "amount": 2, "unit": "" },
           { "name": "greek yogurt", "note": "1 fage cup", "amount": 0.6666666666667, "unit": "cup" },
           { "name": "sugar", "amount": 4, "unit": "tsp" },
-          { "name": "soy milk", "amount": 90, "unit": "ml" },
+          { "name": "water", "note": "or soy milk", "amount": 160, "unit": "ml" },
           { "name": "ground cardamom", "amount": 0.125, "unit": "tsp" }
         ]
       }
@@ -6111,22 +6653,6 @@
     "directions": ["Prepare to be transported back to California"]
   },
   {
-    "name": "mango chia pudding",
-    "tags": ["side"],
-    "ingredients": [
-      {
-        "category": "",
-        "items": [
-          { "name": "chia seed", "amount": 54, "unit": "g" },
-          { "name": "soy milk", "amount": 1.5, "unit": "cup" },
-          { "name": "champagne mango", "amount": 1, "unit": "" },
-          { "name": "salt", "amount": 0.125, "unit": "tsp" }
-        ]
-      }
-    ],
-    "directions": ["Blend milk + mango. Stir with chia."]
-  },
-  {
     "name": "yogurt chia pudding",
     "tags": ["side"],
     "ingredients": [
@@ -6198,35 +6724,6 @@
     "directions": ["Mix all. Let sit in fridge overnight. Keeps in fridge up to 5 days."]
   },
   {
-    "name": "perilla overnight oats",
-    "tags": ["side"],
-    "ingredients": [
-      {
-        "category": "dain serving",
-        "items": [
-          { "name": "water", "amount": 32, "unit": "g" },
-          { "name": "soy milk", "amount": 66, "unit": "g" },
-          { "name": "rolled oats", "amount": 30, "unit": "g" },
-          { "name": "honey", "amount": 0.5, "unit": "tsp" },
-          { "name": "perilla seed powder", "amount": 10, "unit": "g" },
-          { "name": "sesame seed", "amount": 1, "unit": "g" }
-        ]
-      },
-      {
-        "category": "dune serving",
-        "items": [
-          { "name": "water", "amount": 35, "unit": "g" },
-          { "name": "soy milk", "amount": 160, "unit": "g" },
-          { "name": "rolled oats", "amount": 60, "unit": "g" },
-          { "name": "honey", "amount": 1, "unit": "tsp" },
-          { "name": "perilla seed powder", "amount": 20, "unit": "g" },
-          { "name": "sesame seed", "amount": 2, "unit": "g" }
-        ]
-      }
-    ],
-    "directions": ["Mix all. Let sit in fridge overnight. Keeps in fridge up to 5 days."]
-  },
-  {
     "name": "bircher muesli",
     "tags": ["side"],
     "ingredients": [
@@ -6245,6 +6742,30 @@
     "directions": [
       "Mix all. Optionally mix in grated/chopped apple.",
       "Let sit in fridge overnight. Keeps in fridge up to 4 days."
+    ]
+  },
+  {
+    "name": "french toast",
+    "tags": ["side"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "egg", "amount": 3, "unit": "" },
+          { "name": "sugar", "amount": 2, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "milk", "amount": 0.6, "unit": "cup" },
+          { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+          { "name": "ground cinnamon", "amount": 0.25, "unit": "tsp" },
+          { "name": "ground nutmeg", "amount": 0.25, "unit": "tsp" },
+          { "name": "butter", "note": "to fry", "amount": 2, "unit": "tbsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "For 6 slices of bread.",
+      "Whisk custard ingredients. Soak bread for 15-20 min.",
+      "Fry on med heat for 3-5 min each side, in 2 batches."
     ]
   },
   {
@@ -6296,6 +6817,33 @@
       "Sift dry ingredients. Whisk egg and butter into the buttermilk.",
       "Make well in center of dry ingredients, pour in the wet. Mix gently, lumps are ok.",
       "Lightly oiled pan on med heat (5/10), 1/4 c batter each pancake."
+    ]
+  },
+  {
+    "name": "rye pancakes",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "butter", "note": "melted and cooled a little", "amount": 2, "unit": "tbsp" },
+          { "name": "maple syrup", "amount": 1, "unit": "tbsp" },
+          { "name": "flour", "note": "rye flour", "amount": 0.5, "unit": "cup" },
+          { "name": "flour", "amount": 0.5, "unit": "cup" },
+          { "name": "baking powder", "amount": 1, "unit": "tsp" },
+          { "name": "baking soda", "amount": 0.25, "unit": "tsp" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "milk", "amount": 0.75, "unit": "cup" },
+          { "name": "egg", "note": "room temp", "amount": 2, "unit": "" },
+          { "name": "butter", "note": "for frying", "amount": 1, "unit": "tbsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "Combine butter and maple syrup, let cool slightly.",
+      "Stir dry ingredients. Whisk together egg, milk, butter mix. Stir wet into dry, til just combined. Let batter sit while skillet heats.",
+      "Heat skillet over low to med-low. Grease with butter if needed. When skillet is hot (flicked water should sizzle), melt a bit of butter and take a scant 1/4c of batter, pour onto skilet.",
+      "Let cook 1-2 min or til pancake begins to bubble slightly. Flip and let cook another 1-2 min til pancake cooked through."
     ]
   },
   {
@@ -6870,7 +7418,8 @@
       "Divide into 2 balls. For each ball, stretch at both ends, fold back into itself, then repeat with other two ends. Pull ends of dough into the middle, turn over, and pull into itself to make smooth ball.",
       "Place ball seam side down into lightly oiled bowl. Cover and rise 45min-1hr while preheating oven.",
       "On a floured surface, sprinkle top with flour. Use fingers to gently press surface, leaving the crust alone. Lift and use knuckles to stretch into circle.",
-      "Bake as hot as you can til browned, 6-12min. Remove and top with parmesan."
+      "Bake as hot as you can til browned, 6-12min. Remove and top with parmesan.",
+      "If doing egg pizza: 480F, cook pizza for 5 min, remove and top with egg, and cook for another 9 min."
     ]
   },
   {
@@ -7234,6 +7783,41 @@
       "Drizzle toppings on with spoon, if any. Top with some flaky salt on top.",
       "Bake at 450F on very bottom rack (for crispy bottom!) 20-25min. Should have a golden top and pulling a bit from the sides. Then, move to top rack and bake for 5-10 more min (this will create more browning on top.)",
       "Let cool 10 min in pan, then remove from pan onto cooling rack."
+    ]
+  },
+  {
+    "name": "rye loaf bread",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "preferment",
+        "items": [
+          { "name": "flour", "note": "rye flour", "amount": 150, "unit": "g" },
+          { "name": "water", "note": "lukewarm.", "amount": 150, "unit": "g" },
+          { "name": "yeast", "note": "a large pinch. ~1/4 of 1/8t? (should be 0.1g)", "amount": 0.1, "unit": "g" }
+        ]
+      },
+      {
+        "category": "dough",
+        "items": [
+          { "name": "water", "note": "68F/20C", "amount": 90, "unit": "g" },
+          { "name": "yeast", "note": "2/3t? (should be 2g)", "amount": 2, "unit": "g" },
+          { "name": "honey", "note": "any syrup", "amount": 30, "unit": "g" },
+          { "name": "salt", "amount": 5, "unit": "g" },
+          { "name": "pumpkin seed", "note": "any seeds", "amount": 60, "unit": "g" },
+          { "name": "flour", "note": "rye flour", "amount": 150, "unit": "g" }
+        ]
+      }
+    ],
+    "directions": [
+      "Make preferment by mixing all ingredients til smooth. Ferment at room temp 10hrs or til visibly puffed up and bubbly.",
+      "Mix remaining water, yeast, syrup, salt. Add to preferment, then add seeds. Mix til well combined and smooth.",
+      "Add remaining flour and mix til smooth.",
+      "Tip dough onto well-floured surface. Gently shape into brick shape and coat in flour (careful not to fold raw flour into the brick).",
+      "Place dough in tin and ferment 2hr or til well puffed and cracked all over.",
+      "Ideal loaf temp is 77-78F/25-26C. If warmer, reduce proofing time; if cooler, increase proofing time.",
+      "Bake at 320F/160C for 50min or til center is 200F/94C.",
+      "Cool in tin 10 min, then cool completely on rack for 24 hrs."
     ]
   },
   {
@@ -8310,44 +8894,51 @@
     "tags": ["snack"],
     "ingredients": [
       {
-        "category": "hopefully 300g of dough, milk mantou recipe scaled up",
+        "category": "dough",
         "items": [
-          { "name": "flour", "amount": 225, "unit": "g" },
-          { "name": "milk", "note": "105-112g water to sub also fine", "amount": 120, "unit": "g" },
-          { "name": "yeast", "note": "2.25g", "amount": 0.75, "unit": "tsp" },
-          { "name": "sugar", "note": "can omit", "amount": 22, "unit": "g" },
-          { "name": "oil", "amount": 5, "unit": "g" }
+          { "name": "flour", "amount": 350, "unit": "g" },
+          { "name": "milk", "note": "cold!", "amount": 190, "unit": "g" },
+          { "name": "milk powder", "amount": 10, "unit": "g" },
+          { "name": "yeast", "amount": 6, "unit": "g" },
+          { "name": "sugar", "amount": 60, "unit": "g" },
+          { "name": "butter", "note": "softened", "amount": 15, "unit": "g" }
         ]
       },
       {
         "category": "custard",
         "items": [
-          { "name": "egg", "amount": 3, "unit": "" },
-          { "name": "milk", "amount": 100, "unit": "ml" },
-          { "name": "sugar", "amount": 80, "unit": "g" },
-          { "name": "butter", "amount": 40, "unit": "g" },
-          { "name": "salt", "amount": 1, "unit": "g" },
-          { "name": "cornstarch", "amount": 20, "unit": "g" },
-          { "name": "flour", "amount": 35, "unit": "g" },
-          { "name": "milk powder", "amount": 15, "unit": "g" }
+          { "name": "egg", "amount": 1, "unit": "" },
+          { "name": "egg yolk", "note": "or also just 1 more whole egg", "amount": 3, "unit": "" },
+          { "name": "milk", "note": "warm", "amount": 160, "unit": "g" },
+          { "name": "sugar", "amount": 100, "unit": "g" },
+          { "name": "butter", "note": "melted", "amount": 65, "unit": "g" },
+          { "name": "cornstarch", "note": "to sub 40g cake flour", "amount": 5, "unit": "g" },
+          { "name": "flour", "note": "to sub 40g cake flour", "amount": 35, "unit": "g" },
+          { "name": "milk powder", "amount": 25, "unit": "g" }
         ]
       }
     ],
     "directions": [
-      "Makes 6 buns.",
-      "In a big bowl, pour milk. Sprinkle yeast on top. Add sugar. Stir.",
-      "Add flour to milk, then oil. Use spatula to stir into a shaggy stiff dough.",
-      "Start kneading with hands til smooth (~10 min vigorous or ~15min slower kneading).",
-      "Roll into log, and slice off ~50g pieces (6 total?).",
-      "For each piece, remove bubbles. Press with body weight and roll into a long log, bring the two ends into the center to ball back up, then press and roll into log again 3 times. At the end of the process, dough will be very stiff. Press and close up into a tight smooth ball.",
-      "Prepare steamer. Add 3cm of water to a pot, heat it up to 45C (warm if you stick your hands in, but not hot). Turn off the heat, place steamer with buns on top to rise for ~1hr (1.5x size, or gently bounces back).",
-      "Steam on med heat for 18 min with lid cracked open. After steaming, turn off heat and let sit max 5 min before removing lid.",
+      "Makes 12 buns.",
       "",
       "Custard steps:",
-      "Mix egg + sugar + cornstarch/flour well.",
-      "Put pot with butter + milk on low/med heat, heat up til just melted.",
-      "Pour milk into egg. Pour all into pot. Heat over low heat, stir frequently, and take off just when thickened.",
-      "Divide custard into 6 balls of 20g each."
+      "Mix whisked egg, butter, milk. In separate big bowl, mix cake flour, sugar, milk powder.",
+      "Mix wet into dry. Sieve to remove lumps.",
+      "Heat over low heat and stir constantly for 12-15min or til thick paste that lifts from the bottom of pan (be patient! even after 6 min will be not noticeable). Cover and chill overnight.",
+      "The next day, divide and shape into 12 balls (each ~30g). Cover and place back in fridge.",
+      "",
+      "Dough steps:",
+      "In medium bowl, mix milk, sugar, and yeast.",
+      "In large mixing bowl, mix flour, milk powder. Add in yeast milk mix and stir.",
+      "Knead on med-low speed for a few min until one cohesive rough piece.",
+      "Add soft butter in 3 batches and knead until absorbed. Knead for 8 more min.",
+      "Shape into a round, smooth ball. Cover and let rise 1-1.5 hr or til doubled.",
+      "Punch dough for 1 min to remove all air. Knead for 6-8 min on flat surface.",
+      "Divide into 12 pieces (~50g each), shape each into smooth, tight ball by rolling and folding. Cover and let rest 10 min.",
+      "For each ball, dust lightly with flour to prevent stickiness. Roll flat to about 5-inch diameter (first roll flat to 4-inch diameter, then work around the edges to make thinner). Press in the filling compactly into the center, lightly wet edges, and pinch and close.",
+      "Let buns proof for 20 min in steamer that's been filled with room temp water.",
+      "After 20 min, turn heat on steamer to high. Once steam starts to come up, turn heat to med-low and let steam for 8-10 min. Then, turn off heat and let sit for at least 3 min.",
+      "Freeze after steamed for 3 months. Re-steam for 15 min from frozen."
     ]
   },
   {
@@ -8396,7 +8987,8 @@
       "Mix egg + sugar + cornstarch/flour well.",
       "Put pot with butter + milk on low/med heat, heat up til just melted.",
       "Pour milk into egg. Pour all into pot. Heat over low heat, stir frequently, and take off just when thickened.",
-      "Freeze for 20 min. Shape, then freeze for 3+hr."
+      "Freeze for 20 min. Shape, then freeze for 3+hr.",
+      "To freeze, let cool completely then freeze. Reheat straight from frozen in steamer on medium heat lid cracked open for 17 min, then let sit in steamer 5 min."
     ]
   },
   {
@@ -8651,28 +9243,32 @@
     ]
   },
   {
-    "name": "basic genoise cake",
+    "name": "genoise cake",
     "tags": ["snack"],
     "ingredients": [
       {
         "category": "",
         "items": [
-          { "name": "butter", "amount": 14, "unit": "g" },
-          { "name": "egg", "note": "room temp", "amount": 2, "unit": "" },
-          { "name": "sugar", "amount": 64, "unit": "g" },
-          { "name": "flour", "amount": 64, "unit": "g" },
-          { "name": "salt", "amount": 0.125, "unit": "tsp" }
+          { "name": "egg", "amount": 2, "unit": "" },
+          { "name": "sugar", "amount": 50, "unit": "g" },
+          { "name": "vanilla extract", "amount": 1.5, "unit": "g" },
+          { "name": "butter", "amount": 12.5, "unit": "g" },
+          { "name": "milk", "amount": 15, "unit": "g" },
+          { "name": "flour", "note": "combine with cornstarch to sub cake flour 55g", "amount": 48, "unit": "g" },
+          { "name": "cornstarch", "note": "combine with flour to sub cake flour 55g", "amount": 67, "unit": "g" }
         ]
       }
     ],
     "directions": [
-      "Gently melt butter, then set aside to cool slightly.",
-      "Whisk egg + sugar in large bowl for 10 min. Should be foamy and ribbony.",
-      "Combine flour + salt. Sift in half of dry mix into egg + sugar mix.",
-      "Fold in using a figure-8 motion. Dig into bottom of bowl to prevent clumps. Gently sift and fold in rest of dry mix.",
-      "Drizzle melted butter around edges of bowl (this prevents it from sinking straight thru the light batter) and gently stir in.",
-      "Carefully pour in batter into lined 6-inch round pan. Hold bowl close to pan to prevent air bubble loss.",
-      "Bake at 350F for 20-25min or til sponge is golden brown. Let cool in tin before unmolding. Slice in half horizontally to get 2 layers."
+      "Cake (2 layer 6-inch cake):",
+      "",
+      "Over a pot with hot water, whisk egg, sugar, vanilla til 104F/40C.",
+      "Gently melt butter and milk over the pot also.",
+      "Beat the egg mix well until thick, fluffy, and ribbon stage (10min?).",
+      "Sift in half the flour, mix gently. Fold in using a figure-8 motion. Dig into bottom of bowl to prevent clumps. Gently sift and fold in rest of flour, and repeat.",
+      "Mix a bit of batter into butter and milk mix, then pour that back into batter.",
+      "Fold gently. Pour into buttered and lined 6-inch pan, pouring close to pan to prevent bubble loss.",
+      "Bake at 338F/170C for 37 min. Let cool, then cut into 2 layers."
     ]
   },
   {
@@ -8744,59 +9340,51 @@
     ]
   },
   {
-    "name": "fruit cake",
+    "name": "strawberry cake",
     "tags": ["snack"],
     "ingredients": [
       {
         "category": "cake",
         "items": [
-          { "name": "butter", "amount": 20, "unit": "g" },
-          { "name": "milk", "amount": 20, "unit": "g" },
-          { "name": "vanilla extract", "amount": 4, "unit": "ml" },
-          { "name": "egg", "note": "separated whites and yolks", "amount": 2, "unit": "" },
-          { "name": "sugar", "note": "for yolk", "amount": 30, "unit": "g" },
-          { "name": "sugar", "note": "for egg white", "amount": 48, "unit": "g" },
-          { "name": "flour", "note": "combine with cornstarch to sub cake flour", "amount": 58, "unit": "g" },
-          { "name": "cornstarch", "note": "combine with flour to sub cake flour", "amount": 8, "unit": "g" }
+          { "name": "egg", "amount": 4, "unit": "" },
+          { "name": "sugar", "amount": 100, "unit": "g" },
+          { "name": "vanilla extract", "amount": 3, "unit": "g" },
+          { "name": "butter", "amount": 25, "unit": "g" },
+          { "name": "milk", "amount": 30, "unit": "g" },
+          { "name": "flour", "note": "combine with cornstarch to sub cake flour 110g", "amount": 97, "unit": "g" },
+          { "name": "cornstarch", "note": "combine with flour to sub cake flour 110g", "amount": 13, "unit": "g" }
         ]
       },
       {
         "category": "frosting",
         "items": [
-          { "name": "heavy cream", "amount": 1, "unit": "cup" },
-          { "name": "powdered sugar", "amount": 2, "unit": "tbsp" },
-          { "name": "milk powder", "amount": 1, "unit": "tbsp" }
+          { "name": "heavy cream", "amount": 400, "unit": "g" },
+          { "name": "sugar", "amount": 40, "unit": "g" }
         ]
       },
       {
-        "category": "sugary fruit",
+        "category": "filling",
         "items": [
-          { "name": "water", "amount": 60, "unit": "ml" },
-          { "name": "sugar", "amount": 20, "unit": "g" },
-          { "name": "peach", "note": "peach weight should be ~double water weight", "amount": 1, "unit": "" }
+          { "name": "milk", "note": "to brush Genoise slices", "amount": 0.25, "unit": "cup" },
+          { "name": "strawberry", "amount": 400, "unit": "g" }
         ]
       }
     ],
     "directions": [
-      "Cake (2 layer 6-inch cake):",
-      "Melt butter, milk, vanilla gently (ideally over hot water bath)",
-      "Separate egg white + yolk.",
-      "Add sugar to yolk. Mix well, til pale ribbons.",
-      "Whip egg whites + sugar (add sugar in 3 batches) til soft peaks.",
-      "Carefully fold meringue into yolk mix, gradually.",
-      "Sift in flour. Fold gently.",
-      "Gently mix butter mix into batter. (Either add bit of batter into butter, mix, then combine with rest of batter; or pour butter carefully around edge of batter and fold inwards carefully)",
-      "Bake in 6-inch pan 340-350F for 20-30 min. Cool cake in pan for 5 min, then remove and cool completely on wire rack.",
+      "Cake (3 layer 6-inch cake):",
       "",
-      "Frosting:",
-      "Important to start with cold cream! Can even chill the bowl if you want.",
-      "In a large bowl, whip the whipping cream. When thicker, add powdered sugar + milk powder. Whip til medium peaks.",
-      "",
-      "Sugary fruit:",
-      "Cook chopped/sliced fruit in sugar water med low heat til sugar melted. Cover and keep on low heat 2-3 min. Drain and cool. Remember to set aside the leftover syrup!",
+      "Over a pot with hot water, whisk egg, sugar, vanilla til 104F/40C.",
+      "Gently melt butter and milk over the pot also.",
+      "Beat the egg mix well until thick, fluffy, and ribbon stage (10min?).",
+      "Sift in half the flour, mix gently. Fold in using a figure-8 motion. Dig into bottom of bowl to prevent clumps. Gently sift and fold in rest of flour, and repeat.",
+      "Mix a bit of batter into butter and milk mix, then pour that back into batter.",
+      "Fold gently. Pour into buttered and lined 6-inch pan, pouring close to pan to prevent bubble loss.",
+      "Bake at 338F/170C for 37 min. Let cool, then cut into 3 layers.",
       "",
       "Assembly:",
-      "Place Genoise slice, brush with syrup, spread filling, repeat."
+      "Cut strawberries into even thickness slices, brush with glaze (can use strawberry jam microwaved and thinned out with a bit of water). Also brush topping strawberries with same glaze.",
+      "For each Genoise slice: brush with milk, spread a bit of cream, place strawberries, another bit of cream, one more layer of strawberries, then top with more cream.",
+      "Keeps in fridge 3-4 days."
     ]
   },
   {
@@ -9471,7 +10059,7 @@
         "items": [
           { "name": "egg", "amount": 3, "unit": "" },
           { "name": "milk", "amount": 30, "unit": "g" },
-          { "name": "butter", "note": "or 35g oil", "amount": 47, "unit": "g" },
+          { "name": "oil", "note": "or 47g butter", "amount": 35, "unit": "g" },
           { "name": "vanilla extract", "amount": 3, "unit": "g" },
           { "name": "salt", "amount": 1, "unit": "g" },
           { "name": "flour", "amount": 39, "unit": "g" },
@@ -9483,40 +10071,11 @@
     "directions": [
       "Sift flour. Heat up oil/butter on low heat to 158-185F. Mix oil into flour. Should be fluid and like paste.",
       "Add in cold milk and stir. Batter will be rough and clumpy but it's ok. Mix in yolk one at a time and stir well til smooth.",
-      "Whisk egg whites (with a few drops of lemon juice maybe) til foamy on med/high speed. Add sugar in three times. Beat til soft peaks (fairly firm but head kind of folds down into a hook shape). ",
-      "Mix egg whites into yolk mix in three parts. Gently combine. ",
-      "Line 6-inch pan. Shake and bang pan to get rid of bubbles. ",
-      "Cold water bath, lower rack. 285F 50mins, then 320F 10min or until top is browned.",
+      "Whisk egg whites (with a few drops of lemon juice maybe) til foamy on med/high speed. Add sugar in three times. Beat til soft peaks (fairly firm but head kind of folds down into a hook shape).",
+      "Mix egg whites into yolk mix in three parts. Gently combine.",
+      "Line 6-inch pan. Shake and bang pan to get rid of bubbles.",
+      "Cold water bath, lower rack. 285F 50mins, then 320F 8-10min or until top is browned.",
       "Remove from pan immediately and peel paper."
-    ]
-  },
-  {
-    "name": "castella 2",
-    "tags": ["snack"],
-    "ingredients": [
-      {
-        "category": "",
-        "items": [
-          { "name": "flour", "note": "for 50g cake flour", "amount": 43, "unit": "g" },
-          { "name": "cornstarch", "note": "for 50g cake flour", "amount": 7, "unit": "g" },
-          { "name": "milk", "amount": 40, "unit": "g" },
-          { "name": "oil", "amount": 30, "unit": "g" },
-          { "name": "egg", "amount": 3, "unit": "" },
-          { "name": "vanilla extract", "amount": 0.5, "unit": "tsp" },
-          { "name": "salt", "amount": 0.5, "unit": "tsp" },
-          { "name": "sugar", "amount": 45, "unit": "g" }
-        ]
-      }
-    ],
-    "directions": [
-      "Sift flour. Heat up oil + milk on med low heat til milk boils and moves towards center of pot. Mix hot oil+milk into flour and whisk.",
-      "Mix in yolk+vanilla into batter in 2 batches and stir well til smooth.",
-      "Whisk egg whites til foamy on med/high speed. Add sugar in three times. Beat til soft peaks (fairly firm but head kind of folds down into a hook shape). ",
-      "Mix 1/3 of egg whites into yolk mix. Then, mix batter into rest of meringue. Gently combine.",
-      "Line a 6-inch cake pan. Shake and bang pan to get rid of bubbles.",
-      "Cold water bath, lower rack. 302F/150C for 45-50min.",
-      "Remove from pan immediately and peel paper. Slice and separate slices to prevent shrinkage.",
-      "When completely cool, store in air tight container."
     ]
   },
   {

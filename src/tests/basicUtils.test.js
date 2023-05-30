@@ -1,5 +1,6 @@
 const { 
 	isPosInt,
+	convertStringToInt,
 	generateId,
 	cleanNum,
 	isEmpty,
@@ -17,6 +18,24 @@ test('isPosInt should recognize only positive integers', () => {
 	expect(isPosInt(null)).toBe(false);
 	expect(isPosInt(undefined)).toBe(false);
 	expect(isPosInt()).toBe(false);
+});
+
+test('convertStringToInt should correctly convert strings of numbers into Integers', () => {
+	expect(convertStringToInt(1)).toEqual(null);
+	expect(convertStringToInt(0)).toEqual(null);
+	expect(convertStringToInt(undefined)).toEqual(null);
+	expect(convertStringToInt(null)).toEqual(null);
+	expect(convertStringToInt("test")).toEqual(null);
+	expect(convertStringToInt("-1")).toEqual(null);
+
+	expect(convertStringToInt("1")).toEqual(1);
+	expect(convertStringToInt("100.0")).toEqual(100);
+	expect(convertStringToInt("1.5")).toEqual(1.5);
+	expect(convertStringToInt("0.333333333333")).toEqual(0.333333333333);
+	expect(convertStringToInt("1/2")).toEqual(0.5);
+	expect(convertStringToInt("1/8")).toEqual(0.125);
+	expect(convertStringToInt("1/3")).toEqual(1.0 / 3);
+	expect(convertStringToInt("1/6")).toEqual(1.0 / 6);
 });
 
 test('generateId should generate a valid ID', () => {

@@ -52,6 +52,70 @@
     ]
   },
   {
+    "name": "moussaka",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "red sauce",
+        "items": [
+          { "name": "olive oil", "amount": 2.5, "unit": "tbsp" },
+          { "name": "red onion", "note": "diced", "amount": 2, "unit": "" },
+          { "name": "garlic", "note": "diced", "amount": 3, "unit": "" },
+          { "name": "ground lamb", "amount": 2, "unit": "lb" },
+          { "name": "salt", "note": "to taste", "amount": 0.25, "unit": "tsp" },
+          { "name": "black pepper", "note": "to taste", "amount": 0.125, "unit": "tsp" },
+          { "name": "cinnamon stick", "amount": 1, "unit": "" },
+          { "name": "bay leaf", "amount": 2, "unit": "" },
+          { "name": "dried thyme", "amount": 1, "unit": "tsp" },
+          { "name": "tomato paste", "amount": 2, "unit": "tbsp" },
+          { "name": "water", "note": "red wine!", "amount": 200, "unit": "ml" },
+          { "name": "tomato passata", "note": "next time: try 14oz crushed tomatoes!", "amount": 700, "unit": "g" }
+        ]
+      },
+      {
+        "category": "white sauce (all except nutmeg reduced by 20%)",
+        "items": [
+          { "name": "butter", "amount": 96, "unit": "g" },
+          { "name": "flour", "amount": 96, "unit": "g" },
+          { "name": "milk", "amount": 800, "unit": "ml" },
+          { "name": "parmesan", "note": "grated. subbing Kefalotyri", "amount": 80, "unit": "g" },
+          { "name": "ground nutmeg", "amount": 0.25, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "other layers",
+        "items": [
+          { "name": "parmesan", "note": "grated. for topping. subbing Kefalotyri", "amount": 50, "unit": "g" },
+          { "name": "olive oil", "note": "to drizzle onto eggplant and potato", "amount": 2, "unit": "tbsp" },
+          { "name": "eggplant", "note": "sliced 2cm thick", "amount": 3, "unit": "" },
+          { "name": "potato", "note": "sliced 1cm thick", "amount": 5, "unit": "" }
+        ]
+      }
+    ],
+    "directions": [
+      "Season eggplant on both sides and drizzle with oil. Bake at 356F/180C 25-30min.",
+      "Season potato and drizzle with oil. Bake at 180C 30-35min or til cooked thru.",
+      "Cool eggplant and potato on wire rack to prevent soggyness.",
+      "",
+      "Red sauce:",
+      "(1) Oil, onions. (2) Garlic. (3) Lamb, salt, pepper, thyme, bay leaf, cinnamon stick. (4) Red wine. (5) Tomato paste, tomato passata.",
+      "Heat 3T oil in large pot med high heat. Add onions, pinch of salt, cook 5 min or til translucent. Add garlic, cook 3-4 min.",
+      "Add lamb, salt, pepper, thyme, bay leaf, cinnamon stick. Break up and cook 6-7 min, stirring.",
+      "Add red wine, stir well. Once wine reduced completely (important to avoid soggy sauce), add tomato paste and passata and stir in well.",
+      "Cover and cook for 25-30 min on low, stirring occasionally.",
+      "",
+      "White sauce:",
+      "(1) Butter. (2) Flour. (3) Milk. (4) Nutmeg, grated cheese.",
+      "Melt butter in med pot over med heat. Once melted, whisk in flour and cook 2-3 min.",
+      "Pour in milk and whisk til smooth and silky. Once simmering, add nutmeg and 2/3 of the grated cheese. Stir til smooth.",
+      "",
+      "Assembly:",
+      "Lay potatoes on bottom, then eggplant, then red meat sauce, then white cheese sauce. Sprinkle with remaining cheese.",
+      "Bake at 356F/180C for 40-45 min or til golden on top.",
+      "Let rest 1 hour at room temp to stablize."
+    ]
+  },
+  {
     "name": "party jollof rice",
     "tags": ["meal"],
     "ingredients": [
@@ -424,6 +488,58 @@
     ]
   },
   {
+    "name": "old japchae recipe",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "egg",
+        "items": [
+          { "name": "egg", "amount": 1, "unit": "" },
+          { "name": "oil", "amount": 0.5, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "vegetables",
+        "items": [
+          { "name": "onion", "note": "cut long", "amount": 1, "unit": "" },
+          { "name": "carrot", "note": "cut long", "amount": 1, "unit": "" },
+          { "name": "spinach", "amount": 145, "unit": "g" },
+          { "name": "dried shiitake mushroom", "note": "soaked 2hr-overnight in hot water", "amount": 2, "unit": "" },
+          { "name": "sesame oil", "note": "for drizzle", "amount": 0.5, "unit": "tsp" },
+          { "name": "oil", "note": "to cook vegetables", "amount": 1, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "meat",
+        "items": [
+          { "name": "beef flank steak", "amount": 4, "unit": "oz" },
+          { "name": "dark soy sauce", "amount": 1, "unit": "tsp" },
+          { "name": "sesame oil", "amount": 0.5, "unit": "tsp" },
+          { "name": "oil", "note": "to cook vegetables", "amount": 1, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "noodles",
+        "items": [
+          { "name": "korean vermicelli", "amount": 250, "unit": "g" },
+          { "name": "dark soy sauce", "amount": 1, "unit": "tbsp" },
+          { "name": "sesame oil", "amount": 1, "unit": "tsp" },
+          { "name": "sugar", "amount": 0.25, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "잡채",
+      "Cook vermicelli in boiling water 6 min. rinse in cold water, drain. Set to side",
+      "Stir fry onion, carrot, spinach, mushroom and drizzle with a bit of sesame oil. Set to side",
+      "Cook beef with sauce. Set to side",
+      "Vermicelli in pan with its seasonings.",
+      "Add vegetables and meat and mix.",
+      "Can store in fridge for a few days. Reheat by stir frying in a little oil over med-low heat."
+    ]
+  },
+  {
     "name": "jjajangmyeon with ground pork",
     "tags": ["meal"],
     "ingredients": [
@@ -644,35 +760,117 @@
     "directions": ["Make sauce. Shred chicken. Slice green onion. Toss. Good with 100g rice :)"]
   },
   {
-    "name": "thai curry with chicken thigh",
+    "name": "vegetable stirfry with white sauce",
     "tags": ["meal"],
     "ingredients": [
       {
-        "category": "the curry",
+        "category": "sauce",
         "items": [
-          { "name": "oil", "amount": 1, "unit": "tbsp" },
-          { "name": "thai yellow curry paste", "amount": 55, "unit": "g" },
-          { "name": "canned coconut milk", "amount": 13.5, "unit": "oz" },
-          { "name": "cornstarch", "amount": 1, "unit": "tsp" },
-          { "name": "white rice", "amount": 1.5, "unit": "cup" }
+          { "name": "water", "amount": 1.5, "unit": "cup" },
+          { "name": "cornstarch", "amount": 1.5, "unit": "tbsp" },
+          { "name": "sesame oil", "amount": 0.5, "unit": "tbsp" },
+          { "name": "shaoxing wine", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+          { "name": "ginger", "note": "minced", "amount": 0.5, "unit": "tsp" },
+          { "name": "sugar", "amount": 0.25, "unit": "tsp" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" }
         ]
       },
       {
-        "category": "possible fillings",
+        "category": "vegetables",
         "items": [
-          { "name": "green bell pepper", "amount": 1, "unit": "" },
-          { "name": "red bell pepper", "amount": 1, "unit": "" },
-          { "name": "onion", "amount": 1, "unit": "" },
-          { "name": "chicken thigh", "amount": 1.5, "unit": "lb" },
-          { "name": "fresh basil", "amount": 1, "unit": "cup" }
+          { "name": "oil", "amount": 2, "unit": "tbsp" },
+          { "name": "wood ear", "note": "(14g dried)", "amount": 200, "unit": "g" },
+          { "name": "red bell pepper", "note": "curry style", "amount": 1, "unit": "" },
+          { "name": "green bell pepper", "note": "curry style", "amount": 1, "unit": "" },
+          { "name": "lotus root", "note": "sliced", "amount": 1, "unit": "" },
+          { "name": "snow peas", "amount": 0.5, "unit": "lb" },
+          { "name": "white rice", "amount": 1, "unit": "cup" }
         ]
       }
     ],
     "directions": [
-      "Stir fry paste in oil. Add 2/3rds of can of coconut milk.",
-      "Add meat and cook. Add rest of coconut milk.",
-      "Add vegetables, wait until cooked.",
-      "Add cornstarch to thicken and serve over rice."
+      "(1) Sauce. (2) All vegetables but peas. (3) Peas",
+      "",
+      "Blanch sliced lotus root in boiling water for 45 sec. Drain and set aside.",
+      "Mix all sauce ingredients. Set aside.",
+      "Heat wok on med heat. Add oil. (When hot, cook 1lb chicken breast sliced thin 2-3min. Set aside.)",
+      "Add all vegetables but peas, stir fry 2-3 min, while gradually increasing heat to med high.",
+      "Add peas, cook another minute. (Add chicken back in now, and water chestnuts if using)",
+      "Add sauce to pan. Toss to combine, cook til sauce thick and clear. (Should take 1-2 min)"
+    ]
+  },
+  {
+    "name": "lunch tomato egg",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "egg", "amount": 4, "unit": "" },
+          { "name": "salt", "note": "for eggs", "amount": 0.25, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.25, "unit": "tsp" },
+          { "name": "sesame oil", "amount": 0.5, "unit": "tsp" },
+          { "name": "shaoxing wine", "amount": 2, "unit": "tsp" },
+          { "name": "oil", "note": "to cook eggs", "amount": 2, "unit": "tbsp" },
+          { "name": "cherry tomato", "note": "cut into wedges", "amount": 500, "unit": "g" },
+          { "name": "green onion", "note": "chopped", "amount": 1, "unit": "" },
+          { "name": "sugar", "amount": 1, "unit": "tsp" },
+          { "name": "salt", "note": "for tomatoes", "amount": 0.5, "unit": "tsp" },
+          { "name": "water", "note": "1/2 c, if needed", "amount": 0.25, "unit": "cup" },
+          { "name": "oil", "note": "to cook tomatoes", "amount": 1, "unit": "tbsp" },
+          { "name": "white rice", "amount": 0.2, "unit": "cup" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Whisked egg, salt, pepper, sesame oil, shaoxing. (2) Cut tomatoes, chopped scallions. (3) Sugar, salt, water.",
+      "",
+      "Wok on med high heat (7/10) til just smoking.",
+      "2 tbsp oil and immediately add egg. Scramble and immediately remove. Set aside.",
+      "1 tbsp oil, wok to high heat (8/10), add tomatoes and scallions. Stir fry for a min.",
+      "Add sugar, salt, water. Add cooked eggs. Mix everything, cover and cook 1-2 min til tomatoes soft.",
+      "Uncover. Stir fry til sauce is thickened/water is reduced to liking."
+    ]
+  },
+  {
+    "name": "kare kare",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "oxtail", "note": "2 in slices", "amount": 3, "unit": "lb" },
+          { "name": "peanut", "note": "ground", "amount": 1, "unit": "cup" },
+          { "name": "peanut butter", "amount": 0.5, "unit": "cup" },
+          { "name": "water", "note": "to sub shrimp paste", "amount": 0.5, "unit": "cup" },
+          { "name": "water", "amount": 1000, "unit": "ml" },
+          { "name": "water", "note": "annatto seeds soaked in a cup of water", "amount": 0.5, "unit": "cup" },
+          { "name": "white rice", "note": "toasted ground rice", "amount": 0.5, "unit": "cup" },
+          { "name": "onion", "note": "chopped", "amount": 1, "unit": "" },
+          { "name": "salt", "note": "to taste", "amount": 0.25, "unit": "tsp" },
+          { "name": "black pepper", "note": "to taste", "amount": 0.25, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "",
+        "items": [
+          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+          { "name": "bok choy", "amount": 1, "unit": "" },
+          { "name": "green bean", "note": "string beans. 2-in slices", "amount": 12, "unit": "" },
+          { "name": "eggplant", "note": "sliced", "amount": 4, "unit": "" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Oxtail, onion. (2) Ground peanut, PB, annatto seed. (3) Toasted ground rice. (4) Garlic, banana flower, eggplant, string bean. (5) Salt, pepper, shrimp paste.",
+      "",
+      "Large pot, bring water to boil. Place oxtail and onion, simmer for 2.5-3hr or til tender.",
+      "Once tender, add ground peanuts, PB, and coloring (from annatto seed mix) and simmer 5-7min.",
+      "Add toasted ground rice, simmer 5 min.",
+      "In separate pan, sautee garlic and then add banana flower, eggplant, string beans. Cook 5 min.",
+      "Transfer cooked veg to pot. Add salt and pepper to taste.",
+      "Serve hot with shrimp paste."
     ]
   },
   {
@@ -2199,6 +2397,62 @@
       "To remove cake from pan, lightly press from top of cake to release from sides, then run a thin knife all around the edges. Reach in between the cake and the pan edges and pull upwards toward the center all around the cake.",
       "Optionally gently rub the bottom of cake to clean up visually.",
       "For cream, whip cream and sugar and salt til soft peaks. Add yogurt and beat til med firm peaks. If making ahead of time, whip til just before med firm, then re-beat before serving."
+    ]
+  },
+  {
+    "name": "peach fruit cake",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "cake",
+        "items": [
+          { "name": "butter", "amount": 20, "unit": "g" },
+          { "name": "milk", "amount": 20, "unit": "g" },
+          { "name": "vanilla extract", "amount": 4, "unit": "ml" },
+          { "name": "egg", "note": "separated whites and yolks", "amount": 2, "unit": "" },
+          { "name": "sugar", "note": "for yolk", "amount": 30, "unit": "g" },
+          { "name": "sugar", "note": "for egg white", "amount": 48, "unit": "g" },
+          { "name": "flour", "note": "combine with cornstarch to sub cake flour", "amount": 58, "unit": "g" },
+          { "name": "cornstarch", "note": "combine with flour to sub cake flour", "amount": 8, "unit": "g" }
+        ]
+      },
+      {
+        "category": "frosting",
+        "items": [
+          { "name": "heavy cream", "amount": 1, "unit": "cup" },
+          { "name": "powdered sugar", "amount": 2, "unit": "tbsp" },
+          { "name": "milk powder", "amount": 1, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "sugary fruit",
+        "items": [
+          { "name": "water", "amount": 60, "unit": "ml" },
+          { "name": "sugar", "amount": 20, "unit": "g" },
+          { "name": "peach", "note": "peach weight should be ~double water weight", "amount": 1, "unit": "" }
+        ]
+      }
+    ],
+    "directions": [
+      "Cake (2 layer 6-inch cake):",
+      "Melt butter, milk, vanilla gently (ideally over hot water bath)",
+      "Separate egg white + yolk.",
+      "Add sugar to yolk. Mix well, til pale ribbons.",
+      "Whip egg whites + sugar (add sugar in 3 batches) til soft peaks.",
+      "Carefully fold meringue into yolk mix, gradually.",
+      "Sift in flour. Fold gently.",
+      "Gently mix butter mix into batter. (Either add bit of batter into butter, mix, then combine with rest of batter; or pour butter carefully around edge of batter and fold inwards carefully)",
+      "Bake in 6-inch pan 340-350F for 20-30 min. Cool cake in pan for 5 min, then remove and cool completely on wire rack.",
+      "",
+      "Frosting:",
+      "Important to start with cold cream! Can even chill the bowl if you want.",
+      "In a large bowl, whip the whipping cream. When thicker, add powdered sugar + milk powder. Whip til medium peaks.",
+      "",
+      "Sugary fruit:",
+      "Cook chopped/sliced fruit in sugar water med low heat til sugar melted. Cover and keep on low heat 2-3 min. Drain and cool. Remember to set aside the leftover syrup!",
+      "",
+      "Assembly:",
+      "Place Genoise slice, brush with syrup, spread filling, repeat."
     ]
   },
   {

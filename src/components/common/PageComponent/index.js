@@ -24,6 +24,11 @@ const PageComponent = (props) => {
               <h2>Tools</h2>
             </div>
           </Link>
+          <Link className={styles.linkButton} to="/create">
+            <div className={styles.buttonText}>
+              <h2>Create</h2>
+            </div>
+          </Link>
           <Link className={styles.linkButton} to="/meal-prep">
             <div className={styles.buttonText}>
               <h2>Meals</h2>

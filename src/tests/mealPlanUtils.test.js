@@ -168,7 +168,7 @@ test("MealPlan's getShoppingListUiString should generate the correct expected si
         }
     };
 
-    const meal1GroceryList = "1 potato, 1 green onion, 0.5 lb ground pork";
+    const meal1GroceryList = "1 green onion, 1 potato, 0.5 lb ground pork";
 
     const meal2Groceries = {
         "ground pork": {
@@ -201,7 +201,7 @@ test("MealPlan's getShoppingListUiString should generate the correct expected si
         }
     };
 
-    const meal1And2GroceryList = "1 potato, 2 green onion, 0.5 lb + 16 oz ground pork";
+    const meal1And2GroceryList = "2 green onion, 1 potato, 0.5 lb + 16 oz ground pork";
 
     const meal1And2And3Groceries = {
         "ground pork": {
@@ -219,7 +219,7 @@ test("MealPlan's getShoppingListUiString should generate the correct expected si
         }
     };
 
-    const meal1And2And3GroceryList = "1 potato, 1 sweet potato, 2 green onion, 1 lb + 16 oz ground pork";
+    const meal1And2And3GroceryList = "2 green onion, 1 potato, 1 sweet potato, 1 lb + 16 oz ground pork";
 
     mealPlan.addMealToAllMeals("1", "meal1Recipe", [ { [MEAL_PLAN_ENTRY.DAY]: 1, [MEAL_PLAN_ENTRY.MEAL_TYPE]: 1 } ], meal1Groceries);
     expect(mealPlan.getGroceryList()).toEqual(meal1Groceries);
