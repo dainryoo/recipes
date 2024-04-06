@@ -403,6 +403,90 @@
     ]
   },
   {
+    "name": "bison burger",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "3 crusty buns",
+        "items": [
+          { "name": "water", "note": "cool; for starter", "amount": 28, "unit": "g" },
+          { "name": "flour", "note": "for starter", "amount": 30, "unit": "g" },
+          { "name": "yeast", "note": "(1/4 of 1/8 tsp) for starter", "amount": 0.03125, "unit": "tsp" },
+          { "name": "flour", "amount": 104, "unit": "g" },
+          { "name": "water", "note": "lukewarm", "amount": 56, "unit": "g" },
+          { "name": "salt", "note": "(3/8 tsp)", "amount": 0.375, "unit": "tsp" },
+          { "name": "yeast", "note": "(1/2 of 1/8 tsp)", "amount": 0.0625, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "3 patties",
+        "items": [
+          { "name": "ground bison", "amount": 1, "unit": "lb" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.5, "unit": "tsp" },
+          { "name": "onion", "amount": 0.5, "unit": "" },
+          { "name": "butter", "note": "to cook onion", "amount": 1, "unit": "tbsp" },
+          { "name": "ketchup", "amount": 3, "unit": "tbsp" },
+          { "name": "roma tomato", "amount": 1, "unit": "" }
+        ]
+      }
+    ],
+    "directions": [
+      "For buns:",
+      "Mix starter ingredients. Let rest room temp overnight.",
+      "Mix all dough ingredients with starter. Knead til smooth. Let rise in fridge overnight.",
+      "Shape into 3 buns. Let rise 1-2 hours. Bake at 425F for 20 min.",
+      "",
+      "For patties:",
+      "Stainless steel 7/10 heat, no oil. 3 min on each side. Cover for a few min afterwards."
+    ]
+  },
+  {
+    "name": "lamb burger",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "3 crusty buns",
+        "items": [
+          { "name": "water", "note": "cool; for starter", "amount": 28, "unit": "g" },
+          { "name": "flour", "note": "for starter", "amount": 30, "unit": "g" },
+          { "name": "yeast", "note": "(1/4 of 1/8 tsp) for starter", "amount": 0.03125, "unit": "tsp" },
+          { "name": "flour", "amount": 104, "unit": "g" },
+          { "name": "water", "note": "lukewarm", "amount": 56, "unit": "g" },
+          { "name": "salt", "note": "(3/8 tsp)", "amount": 0.375, "unit": "tsp" },
+          { "name": "yeast", "note": "(1/2 of 1/8 tsp)", "amount": 0.0625, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "3 patties or 6 mini",
+        "items": [
+          { "name": "ground lamb", "amount": 0.75, "unit": "lb" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.25, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "toppings",
+        "items": [
+          { "name": "ground cumin", "amount": 0.5, "unit": "tsp" },
+          { "name": "light mayo", "amount": 2, "unit": "tbsp" },
+          { "name": "onion", "amount": 0.5, "unit": "" },
+          { "name": "butter", "note": "to cook onion", "amount": 2, "unit": "tsp" },
+          { "name": "feta", "amount": 3, "unit": "oz" }
+        ]
+      }
+    ],
+    "directions": [
+      "For buns:",
+      "Mix starter ingredients. Let rest room temp overnight.",
+      "Mix all dough ingredients with starter. Knead til smooth. Let rise in fridge overnight.",
+      "Shape into 3 buns. Let rise 1-2 hours. Bake at 425F for 20 min.",
+      "",
+      "For patties:",
+      "Stainless steel 7/10 heat, no oil. 3 min on each side. Cover for a few min afterwards."
+    ]
+  },
+  {
     "name": "cheddar pasta",
     "tags": ["meal"],
     "ingredients": [
@@ -466,6 +550,26 @@
     ]
   },
   {
+    "name": "chickpea tuna salad",
+    "tags": ["side"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "canned chickpeas", "amount": 15.5, "unit": "oz" },
+          { "name": "celery", "note": "diced", "amount": 2, "unit": "" },
+          { "name": "light mayo", "amount": 4, "unit": "tbsp" },
+          { "name": "fresh parsley", "amount": 1, "unit": "tbsp" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "cayenne", "amount": 0.25, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "gim", "note": "crushed", "amount": 1, "unit": "" }
+        ]
+      }
+    ],
+    "directions": ["Drain, rinse, and mash chickpeas.", "Mix with everything."]
+  },
+  {
     "name": "tuna steak",
     "tags": ["meal"],
     "ingredients": [
@@ -485,58 +589,6 @@
       "Marinate for at LEAST 10 min in the fridge.",
       "Let nonstick pan or cast iron skillet heat up for 1-2 min.",
       "Cook on 6/10 (try 7/10?) heat for 2 min each side."
-    ]
-  },
-  {
-    "name": "old japchae recipe",
-    "tags": ["meal"],
-    "ingredients": [
-      {
-        "category": "egg",
-        "items": [
-          { "name": "egg", "amount": 1, "unit": "" },
-          { "name": "oil", "amount": 0.5, "unit": "tsp" }
-        ]
-      },
-      {
-        "category": "vegetables",
-        "items": [
-          { "name": "onion", "note": "cut long", "amount": 1, "unit": "" },
-          { "name": "carrot", "note": "cut long", "amount": 1, "unit": "" },
-          { "name": "spinach", "amount": 145, "unit": "g" },
-          { "name": "dried shiitake mushroom", "note": "soaked 2hr-overnight in hot water", "amount": 2, "unit": "" },
-          { "name": "sesame oil", "note": "for drizzle", "amount": 0.5, "unit": "tsp" },
-          { "name": "oil", "note": "to cook vegetables", "amount": 1, "unit": "tsp" }
-        ]
-      },
-      {
-        "category": "meat",
-        "items": [
-          { "name": "beef flank steak", "amount": 4, "unit": "oz" },
-          { "name": "dark soy sauce", "amount": 1, "unit": "tsp" },
-          { "name": "sesame oil", "amount": 0.5, "unit": "tsp" },
-          { "name": "oil", "note": "to cook vegetables", "amount": 1, "unit": "tsp" }
-        ]
-      },
-      {
-        "category": "noodles",
-        "items": [
-          { "name": "korean vermicelli", "amount": 250, "unit": "g" },
-          { "name": "dark soy sauce", "amount": 1, "unit": "tbsp" },
-          { "name": "sesame oil", "amount": 1, "unit": "tsp" },
-          { "name": "sugar", "amount": 0.25, "unit": "tsp" },
-          { "name": "black pepper", "amount": 0.125, "unit": "tsp" }
-        ]
-      }
-    ],
-    "directions": [
-      "잡채",
-      "Cook vermicelli in boiling water 6 min. rinse in cold water, drain. Set to side",
-      "Stir fry onion, carrot, spinach, mushroom and drizzle with a bit of sesame oil. Set to side",
-      "Cook beef with sauce. Set to side",
-      "Vermicelli in pan with its seasonings.",
-      "Add vegetables and meat and mix.",
-      "Can store in fridge for a few days. Reheat by stir frying in a little oil over med-low heat."
     ]
   },
   {
@@ -595,6 +647,34 @@
       "Rinse in cold water, peel off skins (?), and squeeze out water. Cut into small bite-size pieces.",
       "Place in bowl and mix with sauce ingredients.",
       "Bring anchovy stock or water to boil, add leaves, and let boil (30 min on low or whatever you want...?)"
+    ]
+  },
+  {
+    "name": "one serving miyeokguk",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "water", "amount": 5, "unit": "cup" },
+          { "name": "dried miyeok", "amount": 0.5, "unit": "oz" },
+          { "name": "beef chuck stew", "note": "can also use brisket, stew, or round", "amount": 4, "unit": "oz" },
+          { "name": "sesame oil", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced, optional", "amount": 1, "unit": "" },
+          { "name": "soup soy sauce", "amount": 1.5, "unit": "tbsp" },
+          { "name": "salt", "note": "adjust to taste", "amount": 0.5, "unit": "tsp" },
+          { "name": "perilla seed powder", "amount": 2, "unit": "tbsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "미역국",
+      "Soak miyeok 30-40min (til soft and hydrated). Drain and cut to bite-size.",
+      "Cut beef into bite-size pieces.",
+      "Heat sesame oil on pot, med high heat. Saute beef and miyeok, 3-5min.",
+      "Add water, salt, soy sauce, garlic/perilla powder if using. Stir and bring to boil.",
+      "Once boiling, lower heat to med or med low. Cook covered 20-30 min.",
+      "The longer you cook the better. Add water/seasoning to taste as you cook."
     ]
   },
   {
@@ -699,47 +779,6 @@
     ]
   },
   {
-    "name": "cantonese steamed chicken with chinese sausage",
-    "tags": ["meal"],
-    "ingredients": [
-      {
-        "category": "chicken marinade",
-        "items": [
-          { "name": "dried shiitake mushroom", "note": "soaked 2hr-overnight in hot water", "amount": 10, "unit": "" },
-          { "name": "chicken thigh", "note": "bite size chunks", "amount": 1, "unit": "lb" },
-          { "name": "water", "amount": 80, "unit": "ml" },
-          { "name": "sesame oil", "amount": 0.25, "unit": "tsp" },
-          { "name": "shaoxing wine", "amount": 1, "unit": "tsp" },
-          { "name": "oyster sauce", "amount": 1, "unit": "tbsp" },
-          { "name": "sugar", "amount": 0.25, "unit": "tsp" },
-          { "name": "salt", "amount": 1, "unit": "tsp" },
-          { "name": "black pepper", "amount": 0.25, "unit": "tsp" },
-          { "name": "ginger", "note": "grated", "amount": 0.5, "unit": "tsp" },
-          { "name": "green onion", "note": "white part, chopped", "amount": 1, "unit": "" }
-        ]
-      },
-      {
-        "category": "the rest",
-        "items": [
-          { "name": "green onion", "note": "green part, chopped", "amount": 1, "unit": "" },
-          { "name": "tapioca flour", "note": "or cornstarch", "amount": 1, "unit": "tbsp" },
-          { "name": "lap cheung", "note": "thinly slice at angle", "amount": 2, "unit": "" },
-          { "name": "white rice", "amount": 0.5, "unit": "cup" }
-        ]
-      }
-    ],
-    "directions": [
-      "(1) Shiitake, chicken, marinade. (2) Chinese sausage. (3) Green part of green onion.",
-      "",
-      "Rinse soaked shiitake. Thinly slice. Mix with chicken and all sauce ingredients. Cover and marinate 2hr-overnight.",
-      "Before cooking, let chicken come to room temp.",
-      "Add tapioca starch and mix well. (At this point, should be very little liquid)",
-      "Fill steamer with ~3 inch water, bring to boil.",
-      "Place chicken mix in deep plate/pie dish. Scatter sausages on top of chicken.",
-      "Place dish in steamer. Steam over med high 10 min. Turn off heat, and leave chicken in steamer for another 2 min. Sprinkle with green onions and serve."
-    ]
-  },
-  {
     "name": "bon bon chicken",
     "tags": ["meal"],
     "ingredients": [
@@ -760,77 +799,49 @@
     "directions": ["Make sauce. Shred chicken. Slice green onion. Toss. Good with 100g rice :)"]
   },
   {
-    "name": "vegetable stirfry with white sauce",
+    "name": "broccoli tofu stirfry",
     "tags": ["meal"],
     "ingredients": [
       {
         "category": "sauce",
         "items": [
-          { "name": "water", "amount": 1.5, "unit": "cup" },
-          { "name": "cornstarch", "amount": 1.5, "unit": "tbsp" },
-          { "name": "sesame oil", "amount": 0.5, "unit": "tbsp" },
-          { "name": "shaoxing wine", "amount": 1, "unit": "tbsp" },
-          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
-          { "name": "ginger", "note": "minced", "amount": 0.5, "unit": "tsp" },
-          { "name": "sugar", "amount": 0.25, "unit": "tsp" },
-          { "name": "salt", "amount": 0.5, "unit": "tsp" }
+          { "name": "light soy sauce", "amount": 3, "unit": "tbsp" },
+          { "name": "dark soy sauce", "amount": 2, "unit": "tsp" },
+          { "name": "rice vinegar", "amount": 1, "unit": "tbsp" },
+          { "name": "sugar", "amount": 4, "unit": "tsp" },
+          { "name": "water", "amount": 0.333333333, "unit": "cup" },
+          { "name": "sesame oil", "amount": 1, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.25, "unit": "tsp" }
         ]
       },
       {
-        "category": "vegetables",
+        "category": "tofu marinade",
         "items": [
-          { "name": "oil", "amount": 2, "unit": "tbsp" },
-          { "name": "wood ear", "note": "(14g dried)", "amount": 200, "unit": "g" },
-          { "name": "red bell pepper", "note": "curry style", "amount": 1, "unit": "" },
-          { "name": "green bell pepper", "note": "curry style", "amount": 1, "unit": "" },
-          { "name": "lotus root", "note": "sliced", "amount": 1, "unit": "" },
-          { "name": "snow peas", "amount": 0.5, "unit": "lb" },
-          { "name": "white rice", "amount": 1, "unit": "cup" }
+          { "name": "light soy sauce", "amount": 2, "unit": "tsp" },
+          { "name": "cornstarch", "amount": 2, "unit": "tsp" },
+          { "name": "oil", "amount": 2, "unit": "tsp" },
+          { "name": "firm tofu block", "amount": 1, "unit": "" },
+          { "name": "oil", "note": "to cook", "amount": 1, "unit": "tbsp" }
         ]
-      }
-    ],
-    "directions": [
-      "(1) Sauce. (2) All vegetables but peas. (3) Peas",
-      "",
-      "Blanch sliced lotus root in boiling water for 45 sec. Drain and set aside.",
-      "Mix all sauce ingredients. Set aside.",
-      "Heat wok on med heat. Add oil. (When hot, cook 1lb chicken breast sliced thin 2-3min. Set aside.)",
-      "Add all vegetables but peas, stir fry 2-3 min, while gradually increasing heat to med high.",
-      "Add peas, cook another minute. (Add chicken back in now, and water chestnuts if using)",
-      "Add sauce to pan. Toss to combine, cook til sauce thick and clear. (Should take 1-2 min)"
-    ]
-  },
-  {
-    "name": "lunch tomato egg",
-    "tags": ["meal"],
-    "ingredients": [
+      },
       {
-        "category": "",
+        "category": "rest of dish",
         "items": [
-          { "name": "egg", "amount": 4, "unit": "" },
-          { "name": "salt", "note": "for eggs", "amount": 0.25, "unit": "tsp" },
-          { "name": "black pepper", "amount": 0.25, "unit": "tsp" },
-          { "name": "sesame oil", "amount": 0.5, "unit": "tsp" },
-          { "name": "shaoxing wine", "amount": 2, "unit": "tsp" },
-          { "name": "oil", "note": "to cook eggs", "amount": 2, "unit": "tbsp" },
-          { "name": "cherry tomato", "note": "cut into wedges", "amount": 500, "unit": "g" },
-          { "name": "green onion", "note": "chopped", "amount": 1, "unit": "" },
-          { "name": "sugar", "amount": 1, "unit": "tsp" },
-          { "name": "salt", "note": "for tomatoes", "amount": 0.5, "unit": "tsp" },
-          { "name": "water", "note": "1/2 c, if needed", "amount": 0.25, "unit": "cup" },
-          { "name": "oil", "note": "to cook tomatoes", "amount": 1, "unit": "tbsp" },
-          { "name": "white rice", "amount": 0.2, "unit": "cup" }
+          { "name": "broccoli", "amount": 300, "unit": "g" },
+          { "name": "oil", "amount": 1, "unit": "tsp" },
+          { "name": "shaoxing wine", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "amount": 3, "unit": "" },
+          { "name": "walnut", "amount": 50, "unit": "g" },
+          { "name": "cornstarch", "note": "mixed with water", "amount": 1, "unit": "tbsp" }
         ]
       }
     ],
     "directions": [
-      "(1) Whisked egg, salt, pepper, sesame oil, shaoxing. (2) Cut tomatoes, chopped scallions. (3) Sugar, salt, water.",
-      "",
-      "Wok on med high heat (7/10) til just smoking.",
-      "2 tbsp oil and immediately add egg. Scramble and immediately remove. Set aside.",
-      "1 tbsp oil, wok to high heat (8/10), add tomatoes and scallions. Stir fry for a min.",
-      "Add sugar, salt, water. Add cooked eggs. Mix everything, cover and cook 1-2 min til tomatoes soft.",
-      "Uncover. Stir fry til sauce is thickened/water is reduced to liking."
+      "Marinate protein.",
+      "Fry tofu if using: Med heat, 1 tbsp oil, about 5 min per side. Set aside. (Don't really need to make too crispy.. it'll get soaked in sauce anyway)",
+      "Wok med heat, cook garlic in 1 tsp oil for 30 sec.",
+      "Add broccoli, cook for 30 sec. Add wine around edge of wok.",
+      "Add tofu and sauce and walnuts. "
     ]
   },
   {
@@ -1207,33 +1218,6 @@
     ]
   },
   {
-    "name": "buttermilk pancakes",
-    "tags": ["meal"],
-    "ingredients": [
-      {
-        "category": "",
-        "items": [
-          { "name": "milk", "amount": 0.75, "unit": "cup" },
-          { "name": "white vinegar", "amount": 2, "unit": "tbsp" },
-          { "name": "vanilla extract", "amount": 0.5, "unit": "tsp" },
-          { "name": "flour", "amount": 1, "unit": "cup" },
-          { "name": "sugar", "amount": 1.5, "unit": "tbsp" },
-          { "name": "baking powder", "amount": 1, "unit": "tsp" },
-          { "name": "baking soda", "amount": 0.5, "unit": "tsp" },
-          { "name": "salt", "amount": 0.5, "unit": "tsp" },
-          { "name": "egg", "note": "room temp", "amount": 1, "unit": "" },
-          { "name": "butter", "note": "melted and cooled a little", "amount": 2, "unit": "tbsp" }
-        ]
-      }
-    ],
-    "directions": [
-      "Mix milk and vinegar and vanilla if using. Let curdle 5 min.",
-      "Sift dry ingredients. Whisk egg and butter into the buttermilk.",
-      "Make well in center of dry ingredients, pour in the wet. Mix gently, lumps are ok.",
-      "Lightly oiled pan on med heat, 1/4 c batter each pancake."
-    ]
-  },
-  {
     "name": "banana pancakes",
     "tags": ["meal"],
     "ingredients": [
@@ -1342,7 +1326,7 @@
           { "name": "instant coffee powder", "amount": 5, "unit": "g" },
           { "name": "sugar", "amount": 4, "unit": "tsp" },
           { "name": "cocoa powder", "amount": 2, "unit": "tbsp" },
-          { "name": "cacao nibs", "amount": 1.5, "unit": "tsp" },
+          { "name": "cacao nib", "amount": 1.5, "unit": "tsp" },
           { "name": "peanut butter", "amount": 1, "unit": "tsp" }
         ]
       }
@@ -1367,6 +1351,150 @@
       }
     ],
     "directions": ["Mix chia, water, sugar, salt, peanut butter. Stir in coconut + oats."]
+  },
+  {
+    "name": "protein cocoa puffs",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "v1",
+        "items": [
+          { "name": "flour", "amount": 0.5, "unit": "cup" },
+          { "name": "cocoa powder", "amount": 2, "unit": "tbsp" },
+          { "name": "banana", "note": "mashed", "amount": 0.5, "unit": "" },
+          { "name": "honey", "amount": 2, "unit": "tsp" },
+          { "name": "protein powder", "note": "opt", "amount": 15, "unit": "g" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "v2",
+        "items": [
+          { "name": "flour", "amount": 1, "unit": "cup" },
+          { "name": "cocoa powder", "amount": 4, "unit": "tbsp" },
+          { "name": "egg white", "amount": 0.5, "unit": "" },
+          { "name": "soy milk", "amount": 2, "unit": "tbsp" },
+          { "name": "honey", "amount": 2, "unit": "tbsp" },
+          { "name": "butter", "note": "melted", "amount": 2, "unit": "tbsp" },
+          { "name": "vanilla extract", "amount": 0.5, "unit": "tsp" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "V1:",
+      "Mix all. Roll into tiny balls. Bake at 350F 15-20 min, then cool.",
+      "",
+      "V2:",
+      "Mix dry, mix wet, combine. Bake 350F 15 min, cool, store air tight up to a week"
+    ]
+  },
+  {
+    "name": "other smoothies",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "perilla banana",
+        "items": [
+          { "name": "soy milk", "amount": 360, "unit": "g" },
+          { "name": "banana", "amount": 2, "unit": "" },
+          { "name": "perilla seed powder", "amount": 50, "unit": "g" },
+          { "name": "chia seed", "amount": 25, "unit": "g" }
+        ]
+      },
+      {
+        "category": "seedy",
+        "items": [
+          { "name": "soy milk", "amount": 360, "unit": "g" },
+          { "name": "banana", "amount": 1, "unit": "" },
+          { "name": "sesame seed", "amount": 15, "unit": "g" },
+          { "name": "protein powder", "note": "(1/2 scoop)", "amount": 14, "unit": "g" },
+          { "name": "peanut butter", "amount": 1.5, "unit": "tbsp" },
+          { "name": "chia seed", "amount": 28, "unit": "g" }
+        ]
+      },
+      {
+        "category": "chocolate milk",
+        "items": [
+          { "name": "soy milk", "amount": 360, "unit": "g" },
+          { "name": "water", "amount": 120, "unit": "g" },
+          { "name": "banana", "amount": 2, "unit": "" },
+          { "name": "protein powder", "amount": 28, "unit": "g" },
+          { "name": "cocoa powder", "amount": 6, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "apple pie",
+        "items": [
+          { "name": "soy milk", "amount": 120, "unit": "g" },
+          { "name": "water", "amount": 40, "unit": "g" },
+          { "name": "rolled oats", "amount": 40, "unit": "g" },
+          { "name": "peanut butter", "amount": 1, "unit": "tbsp" },
+          { "name": "apple", "amount": 3, "unit": "" },
+          { "name": "protein powder", "note": "(1 scoop)", "amount": 28, "unit": "g" },
+          { "name": "ground cinnamon", "amount": 2, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "pb banana with yogurt",
+        "items": [
+          { "name": "water", "amount": 160, "unit": "g" },
+          { "name": "rolled oats", "amount": 40, "unit": "g" },
+          { "name": "greek yogurt", "amount": 50, "unit": "g" },
+          { "name": "banana", "amount": 2, "unit": "" },
+          { "name": "protein powder", "note": "(1/2 scoop)", "amount": 14, "unit": "g" },
+          { "name": "peanut butter", "amount": 4, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "apple pie with yogurt",
+        "items": [
+          { "name": "water", "amount": 240, "unit": "g" },
+          { "name": "rolled oats", "amount": 55, "unit": "g" },
+          { "name": "greek yogurt", "amount": 85, "unit": "g" },
+          { "name": "banana", "amount": 1, "unit": "" },
+          { "name": "apple", "amount": 3, "unit": "" },
+          { "name": "protein powder", "note": "(1/2 scoop)", "amount": 14, "unit": "g" },
+          { "name": "ground cinnamon", "amount": 2, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "kale and pear",
+        "items": [
+          { "name": "water", "amount": 0.5, "unit": "cup" },
+          { "name": "grape", "amount": 1, "unit": "cup" },
+          { "name": "orange", "amount": 1, "unit": "" },
+          { "name": "banana", "amount": 1, "unit": "" },
+          { "name": "apple", "note": "to sub Bartlett pear", "amount": 0.5, "unit": "" },
+          { "name": "kale", "amount": 1, "unit": "cup" },
+          { "name": "water", "note": "(should be 2c ice)", "amount": 1, "unit": "cup" }
+        ]
+      },
+      {
+        "category": "kale and avocado",
+        "items": [
+          { "name": "water", "amount": 0.5, "unit": "cup" },
+          { "name": "grape", "amount": 1, "unit": "cup" },
+          { "name": "banana", "amount": 1, "unit": "" },
+          { "name": "avocado", "amount": 1, "unit": "" },
+          { "name": "apple", "note": "to sub Bartlett pear", "amount": 0.5, "unit": "" },
+          { "name": "kale", "amount": 1, "unit": "cup" }
+        ]
+      },
+      {
+        "category": "kale pb",
+        "items": [
+          { "name": "soy milk", "amount": 0.5, "unit": "cup" },
+          { "name": "protein powder", "note": "(1/2 scoop)", "amount": 14, "unit": "g" },
+          { "name": "peanut butter", "amount": 3, "unit": "tbsp" },
+          { "name": "banana", "amount": 2, "unit": "" },
+          { "name": "kale", "amount": 1, "unit": "cup" }
+        ]
+      }
+    ],
+    "directions": [
+      "Blend and enjoy."
+    ]
   },
   {
     "name": "ciabatta",
@@ -1395,31 +1523,6 @@
       "Shape VERY gently (no pressure to top of dough, just sides). Cover and let rise another 30 min at room temp.",
       "450F for 25-35 min (deep golden crust, internal temp 210-215F). Ideally bake with steam.",
       "Cool completely before slicing. Keeps 2 days room temp, 3 months frozen."
-    ]
-  },
-  {
-    "name": "fake yogurt sourdough without biga",
-    "tags": ["snack"],
-    "ingredients": [
-      {
-        "category": "",
-        "items": [
-          { "name": "bread flour", "amount": 435, "unit": "g" },
-          { "name": "salt", "amount": 8, "unit": "g" },
-          { "name": "yeast", "amount": 0.75, "unit": "tsp" },
-          { "name": "greek yogurt", "amount": 1, "unit": "cup" },
-          { "name": "water", "note": "room temp", "amount": 1, "unit": "cup" }
-        ]
-      }
-    ],
-    "directions": [
-      "Mix flour, yeast, salt, yogurt, water in mixer. Med low speed 2 min til dough comes together.",
-      "Cover and ferment dough at room temp 2hr. Then, keep in fridge overnight (~15h), then 2hr rom temp.",
-      "Dough onto floured surface. Gently (dont crush the air bubbles!) fold onto itself like a letter.",
-      "Turn 90deg, fold again, then shape into ball. Place on parchment paper. Place large bowl over, and proof again 1-2 hr til double and doesnt spring back when poked.",
-      "45min before dough is ready, preheat oven to 450F with dutch oven inside.",
-      "Carefully place dough into hot dutch oven. Bake 30 min with lid on, then remove lid and bake til golden brown.",
-      "Cool on rack 20min."
     ]
   },
   {
@@ -1459,65 +1562,6 @@
       "Remove dough from bowl. Punch down gas on floured surface. Knead into ball, place back in bowl and cover. Let rise til doubled (~1hr) again.",
       "Remove dough from bowl, punch gas out on floured surface. Shape and place into buttered pan.",
       "Bake at 375F 20-25min, then 10-15 more min at 260F. Internal temp should be 194F. Cool down in pan for 1hr."
-    ]
-  },
-  {
-    "name": "yogurt brioche without sponge",
-    "tags": ["snack"],
-    "ingredients": [
-      {
-        "category": "",
-        "items": [
-          { "name": "bread flour", "amount": 500, "unit": "g" },
-          { "name": "sugar", "note": "originally 80g", "amount": 70, "unit": "g" },
-          { "name": "greek yogurt full fat", "amount": 160, "unit": "g" },
-          { "name": "water", "note": "room temp", "amount": 160, "unit": "g" },
-          { "name": "egg", "note": "room temp; can also try 3 egg yolk + 1 whole egg?", "amount": 2, "unit": "" },
-          { "name": "butter", "note": "room temp", "amount": 50, "unit": "g" },
-          { "name": "salt", "amount": 3, "unit": "g" },
-          { "name": "yeast", "amount": 7, "unit": "g" }
-        ]
-      }
-    ],
-    "directions": [
-      "Sugar, water, yeast, let sit til foamy (~5min)",
-      "Mix flour, sugar, salt in mixer bowl. Add yeasty water, mix for 1-2 min. Let rest 10 min.",
-      "Add eggs, mix slow speed til combined (~10min)",
-      "Add yogurt and butter, mix slow speed 20-30min.",
-      "Form dough into ball, cover in buttered bowl. Let rise til doubled (~1hr)",
-      "Remove dough from bowl. Punch down gas on floured surface. Knead into ball, place back in bowl and cover. Let rise til doubled (~1hr) again.",
-      "Remove dough from bowl, punch gas out on floured surface. Shape and place into buttered pan.",
-      "Bake at 375F 20-25min, then 10-15 more min at 260F. Internal temp should be 194F. Cool down in pan for 1hr."
-    ]
-  },
-  {
-    "name": "easy milk bread",
-    "tags": ["side"],
-    "ingredients": [
-      {
-        "category": "",
-        "items": [
-          { "name": "water", "note": "boiling", "amount": 80, "unit": "g" },
-          { "name": "milk", "note": "warm (~95F)", "amount": 40, "unit": "g" },
-          { "name": "egg", "amount": 1, "unit": "" },
-          { "name": "yeast", "amount": 6, "unit": "g" },
-          { "name": "sugar", "amount": 24, "unit": "g" },
-          { "name": "butter", "note": "room temp", "amount": 20, "unit": "g" },
-          { "name": "bread flour", "amount": 270, "unit": "g" },
-          { "name": "salt", "amount": 5, "unit": "g" }
-        ]
-      }
-    ],
-    "directions": [
-      "Melt butter and mix with milk. Into room temp mix, add yeast and let rest.",
-      "In large bowl, mix flour, sugar, salt. Stir in boiling water. Add in egg and milk mix.",
-      "Mix til shaggy mass. Start kneading in bowl. Will be messy at first, but will get smoother as you knead.",
-      "Knead til windowpane test passes (take piece about size of golf ball, stretch it out between fingers and thumbs. if stretches without breaking, good)",
-      "Shape into ball, place in lightly floured bowl, cover, rest til tripled in size (~1hr)",
-      "Punch down and divide into three pieces.",
-      "On a floured surface, roll each piece into a tall oval. Fold the oval sides into the middle (kind of looks like a cannoli). Roll up (from top to bottom)",
-      "Place in nonstick pan (9x5). Cover and let proof til doubled (40 min~1hr)",
-      "Bake at 355F 20 min, up to 25min if needed"
     ]
   },
   {
@@ -1918,79 +1962,6 @@
     ]
   },
   {
-    "name": "easy milk pie",
-    "tags": ["snack"],
-    "ingredients": [
-      {
-        "category": "crust",
-        "items": [
-          { "name": "flour", "amount": 1.25, "unit": "cup" },
-          { "name": "salt", "amount": 0.25, "unit": "tsp" },
-          { "name": "sugar", "note": "optional", "amount": 0.5, "unit": "tsp" },
-          { "name": "butter", "note": "chilled, cubed", "amount": 8, "unit": "tbsp" },
-          { "name": "water", "note": "ice cold. up to 3.5 tbsp", "amount": 3, "unit": "tbsp" },
-          { "name": "apple cider vinegar", "amount": 0.5, "unit": "tbsp" }
-        ]
-      },
-      {
-        "category": "filling",
-        "items": [
-          { "name": "milk", "amount": 2.5, "unit": "cup" },
-          { "name": "egg", "amount": 4, "unit": "" },
-          { "name": "sugar", "amount": 0.5, "unit": "cup" },
-          { "name": "salt", "amount": 0.25, "unit": "tsp" },
-          { "name": "vanilla extract", "amount": 1, "unit": "tsp" }
-        ]
-      }
-    ],
-    "directions": [
-      "Scald milk (boil to 180F) and then set aside to let it cool down (to 110F).",
-      "Whisk eggs, then mix in sugar, salt, vanilla. Slowly pour in milk while whisking",
-      "When well combined, pour into unbaked pie shell.",
-      "Bake at 400F 40-50 min. Remove and cool on rack."
-    ]
-  },
-  {
-    "name": "milk pie",
-    "tags": ["snack"],
-    "ingredients": [
-      {
-        "category": "crust",
-        "items": [
-          { "name": "flour", "amount": 1.25, "unit": "cup" },
-          { "name": "salt", "amount": 0.25, "unit": "tsp" },
-          { "name": "sugar", "note": "optional", "amount": 0.5, "unit": "tsp" },
-          { "name": "butter", "note": "chilled, cubed", "amount": 8, "unit": "tbsp" },
-          { "name": "water", "note": "ice cold. up to 3.5 tbsp", "amount": 3, "unit": "tbsp" },
-          { "name": "apple cider vinegar", "amount": 0.5, "unit": "tbsp" }
-        ]
-      },
-      {
-        "category": "filling",
-        "items": [
-          { "name": "milk", "amount": 0.5, "unit": "cup" },
-          { "name": "flour", "amount": 0.333333333, "unit": "cup" },
-          { "name": "cornstarch", "amount": 0.333333333, "unit": "cup" },
-          { "name": "salt", "amount": 0.125, "unit": "tsp" },
-          { "name": "sugar", "amount": 0.5, "unit": "cup" },
-          { "name": "egg", "amount": 1, "unit": "" },
-          { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
-          { "name": "milk", "amount": 3, "unit": "cup" },
-          { "name": "butter", "note": "chilled, cubed", "amount": 7, "unit": "tbsp" },
-          { "name": "milk", "amount": 0.25, "unit": "cup" }
-        ]
-      }
-    ],
-    "directions": [
-      "Mix flour, cornstarch, salt, sugar, 1/2 c milk, egg, vanilla. Blend til well combined.",
-      "Med heat pot, 3c milk + butter. Bring to boil, whisk constantly to avoid burning.",
-      "Once boiling, turn heat to low. Slowly in a thin stream add flour mix while whiksing CONSTANTLY til mixture is thick and completely cooked (15min)",
-      "Custard is ready when starts pulling away from sides and if spoon thru the bottom leaves a line.",
-      "Add 1/4c milk and whisk completely till smooth, thick, velvety.",
-      "Pour custard into crust. Let cool to room temp 30 min. Chill in fridge 1hr+."
-    ]
-  },
-  {
     "name": "ube butter mochi",
     "tags": ["snack"],
     "ingredients": [
@@ -2192,31 +2163,6 @@
     ]
   },
   {
-    "name": "chocolate mayo cake",
-    "tags": ["snack"],
-    "ingredients": [
-      {
-        "category": "",
-        "items": [
-          { "name": "water", "note": "lukewarm, with 1 tsp instant coffee", "amount": 0.5, "unit": "cup" },
-          { "name": "light mayo", "amount": 0.5, "unit": "cup" },
-          { "name": "vanilla extract", "amount": 0.5, "unit": "tsp" },
-          { "name": "egg yolk", "amount": 1, "unit": "" },
-          { "name": "sugar", "amount": 0.5, "unit": "cup" },
-          { "name": "flour", "amount": 1, "unit": "cup" },
-          { "name": "cocoa powder", "amount": 2, "unit": "tbsp" },
-          { "name": "baking soda", "amount": 1, "unit": "tsp" },
-          { "name": "salt", "amount": 0.125, "unit": "tsp" }
-        ]
-      }
-    ],
-    "directions": [
-      "Grease a 8x8 pan.",
-      "Mix wets. Mix in dry in batches. Pour batter evenly into prepared pan.",
-      "Bake 20-25 min at 350F or til tester comes out clean."
-    ]
-  },
-  {
     "name": "ube cake",
     "tags": ["snack"],
     "ingredients": [
@@ -2268,6 +2214,79 @@
     ]
   },
   {
+    "name": "white swiss roll cake",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "cake",
+        "items": [
+          { "name": "oil", "amount": 15, "unit": "ml" },
+          { "name": "milk", "amount": 60, "unit": "ml" },
+          { "name": "sugar", "note": "for batter", "amount": 20, "unit": "g" },
+          { "name": "vanilla extract", "amount": 0.25, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "flour", "amount": 40, "unit": "g" },
+          { "name": "cornstarch", "amount": 10, "unit": "g" },
+          { "name": "egg white", "amount": 4, "unit": "" },
+          { "name": "white vinegar", "amount": 0.25, "unit": "tsp" },
+          { "name": "sugar", "note": "for egg white", "amount": 35, "unit": "g" }
+        ]
+      },
+      {
+        "category": "standard filling",
+        "items": [
+          { "name": "heavy cream", "amount": 125, "unit": "ml" },
+          { "name": "sugar", "amount": 15, "unit": "g" },
+          { "name": "vanilla extract", "amount": 0.25, "unit": "tsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "Whisk oil, milk, 20g sugar, vanilla. Sift flour + cornstarch into batter.",
+      "Beat egg whites on med speed til foamy. Add vinegar and beat again. Gradually add in sugar and beat til firm peaks.",
+      "Mix in some of meringue into batter to incorporate, then mix in rest of meringue carefully folding.",
+      "Pour into lined 9x13 baking pan. Bang pan a couple times to remove bubbles.",
+      "Bake at 325F/163C for 12-15 min.",
+      "Remove cake and drop from a height of a foot to shock.",
+      "Fill and chill for at least 4 hours"
+    ]
+  },
+  {
+    "name": "milky swiss roll cake",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "cake",
+        "items": [
+          { "name": "oil", "amount": 20, "unit": "g" },
+          { "name": "milk", "amount": 50, "unit": "g" },
+          { "name": "condensed milk", "amount": 10, "unit": "g" },
+          { "name": "egg white", "amount": 4, "unit": "" },
+          { "name": "sugar", "note": "for egg white", "amount": 50, "unit": "g" },
+          { "name": "cornstarch", "note": "to stabilize meringue", "amount": 5, "unit": "g" },
+          { "name": "flour", "note": "to sub cake flour", "amount": 52, "unit": "g" },
+          { "name": "cornstarch", "note": "to sub cake flour", "amount": 8, "unit": "g" }
+        ]
+      },
+      {
+        "category": "standard filling",
+        "items": [
+          { "name": "heavy cream", "amount": 100, "unit": "g" },
+          { "name": "condensed milk", "amount": 20, "unit": "g" }
+        ]
+      }
+    ],
+    "directions": [
+      "Whisk oil, milk, condensed milk. Sift flour + cornstarch into batter.",
+      "Beat egg whites on med speed til foamy. Gradually add in sugar in 3 parts and beat til soft medium peaks. Sift in cornstarch and beat again til soft medium peaks.",
+      "Mix in some of meringue into milk batter to incorporate. Sift in flour and cornstarch, mix. Mix in rest of meringue carefully folding.",
+      "Pour into lined 9x13 baking pan. Bang pan a couple times to remove bubbles.",
+      "Bake at 320F/160C for 15 min.",
+      "Remove cake and drop from a height of a foot to shock.",
+      "Fill and chill for at least 2-3 hours"
+    ]
+  },
+  {
     "name": "olive oil pound cake",
     "tags": ["snack"],
     "ingredients": [
@@ -2291,36 +2310,6 @@
       "Pour in milk and mix again. Sprinkle in rest of flour and mix oon low speed til just combined. Finish with spatula.",
       "350F lined mini loaf pan (2 cup volume), 55-60min or til tester mostly clean.",
       "Cool completely before slicing. Keeps at room temp 3 days tightly wrapped."
-    ]
-  },
-  {
-    "name": "steamed condensed milk cake",
-    "tags": ["snack"],
-    "ingredients": [
-      {
-        "category": "",
-        "items": [
-          { "name": "egg", "note": "separated", "amount": 3, "unit": "" },
-          { "name": "condensed milk", "amount": 200, "unit": "g" },
-          { "name": "butter", "note": "room temp", "amount": 30, "unit": "g" },
-          { "name": "vanilla extract", "amount": 6, "unit": "g" },
-          { "name": "flour", "note": "to sub 140g cake flour", "amount": 121, "unit": "g" },
-          { "name": "cornstarch", "note": "to sub 140g cake flour", "amount": 19, "unit": "g" },
-          { "name": "baking powder", "amount": 7, "unit": "g" },
-          { "name": "salt", "amount": 2, "unit": "g" },
-          { "name": "milk", "amount": 60, "unit": "g" },
-          { "name": "sugar", "amount": 50, "unit": "g" }
-        ]
-      }
-    ],
-    "directions": [
-      "Line 6-inch round pan (just the bottom?).",
-      "Whisk egg yolks and condensed milk. Mix in butter and vanilla.",
-      "Sift in cake flour, baking powder. Add salt, mix. Add milk, mix til ribbony batter.",
-      "Whisk egg whites with sugar and make meringue til medium peaks.",
-      "Add meringue into batter in 3 batches. Fold gently.",
-      "Steam over med heat for 30-35 min, with cloth on lid or lid slightly cracked open.",
-      "Let cake cool lightly, then remove from pan."
     ]
   },
   {
@@ -2356,103 +2345,6 @@
       "Put pan in hot water bath. Bake at 300F for 30 min, then reduce temp to 285F and bake for 30 more min.",
       "Don't open the oven to prevent drastic temperature changes while baking.",
       "After baking, let sit in turned off oven with door propped open for 10-15min. Remove, then let cool, and chill for a few hours before eating."
-    ]
-  },
-  {
-    "name": "advanced chiffon cake",
-    "tags": ["snack"],
-    "ingredients": [
-      {
-        "category": "",
-        "items": [
-          { "name": "oil", "amount": 35, "unit": "g" },
-          { "name": "flour", "note": "to sub 50g cake flour", "amount": 43.5, "unit": "g" },
-          { "name": "cornstarch", "note": "to sub 50g cake flour", "amount": 6.5, "unit": "g" },
-          { "name": "milk", "amount": 50, "unit": "g" },
-          { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
-          { "name": "egg", "note": "separated", "amount": 3, "unit": "" },
-          { "name": "sugar", "amount": 50, "unit": "g" },
-          { "name": "white vinegar", "note": "to sub 1/8tsp cream of tartar", "amount": 0.25, "unit": "tsp" }
-        ]
-      },
-      {
-        "category": "whipped cream",
-        "items": [
-          { "name": "heavy cream", "note": "cold", "amount": 2, "unit": "cup" },
-          { "name": "sugar", "amount": 2, "unit": "tbsp" },
-          { "name": "salt", "amount": 0.25, "unit": "tsp" },
-          { "name": "greek yogurt", "amount": 0.5, "unit": "cup" },
-          { "name": "strawberry", "amount": 900, "unit": "g" }
-        ]
-      }
-    ],
-    "directions": [
-      "Large bowl, whisk cake flour and oil. Add milk + vanilla, whisk in side to side motion til mostly combined (lumps ok).",
-      "Add egg yolks to batter and whisk in side to side motion til just lump free and ribbon stage. (If too thick, add up to 2tsp more milk)",
-      "Make meringue. Beat egg whites + lemon juice/vinegar til foamy. Make med stiff peaks with sugar, adding sugar in 3 batches (whip on high speed til very very soft peak for 1st batch, then on MED speed til soft floppy peak, then on MED-LOW speed til med stiff peak).",
-      "Fold 1/3 whites into batter, then pour batter into rest of whites til no streaks of white.",
-      "Pour all into (lightly oiled/floured JUST on the bottom) not nonstick 6-in round pan, tap a few times to get rid of bubbles, and run a chopstick thru as well.",
-      "Bake at 300F for 40-55 min center rack, til top cracked and golden (once top cracks, ~5min til done) (cracking is expected! top should not be wet and should lightly spring back almost all the way, tester mostly clean).",
-      "Drop cake on counter twice. Quickly invert pan and cool upside down 90+min or overnight room temp.",
-      "To remove cake from pan, lightly press from top of cake to release from sides, then run a thin knife all around the edges. Reach in between the cake and the pan edges and pull upwards toward the center all around the cake.",
-      "Optionally gently rub the bottom of cake to clean up visually.",
-      "For cream, whip cream and sugar and salt til soft peaks. Add yogurt and beat til med firm peaks. If making ahead of time, whip til just before med firm, then re-beat before serving."
-    ]
-  },
-  {
-    "name": "peach fruit cake",
-    "tags": ["snack"],
-    "ingredients": [
-      {
-        "category": "cake",
-        "items": [
-          { "name": "butter", "amount": 20, "unit": "g" },
-          { "name": "milk", "amount": 20, "unit": "g" },
-          { "name": "vanilla extract", "amount": 4, "unit": "ml" },
-          { "name": "egg", "note": "separated whites and yolks", "amount": 2, "unit": "" },
-          { "name": "sugar", "note": "for yolk", "amount": 30, "unit": "g" },
-          { "name": "sugar", "note": "for egg white", "amount": 48, "unit": "g" },
-          { "name": "flour", "note": "combine with cornstarch to sub cake flour", "amount": 58, "unit": "g" },
-          { "name": "cornstarch", "note": "combine with flour to sub cake flour", "amount": 8, "unit": "g" }
-        ]
-      },
-      {
-        "category": "frosting",
-        "items": [
-          { "name": "heavy cream", "amount": 1, "unit": "cup" },
-          { "name": "powdered sugar", "amount": 2, "unit": "tbsp" },
-          { "name": "milk powder", "amount": 1, "unit": "tbsp" }
-        ]
-      },
-      {
-        "category": "sugary fruit",
-        "items": [
-          { "name": "water", "amount": 60, "unit": "ml" },
-          { "name": "sugar", "amount": 20, "unit": "g" },
-          { "name": "peach", "note": "peach weight should be ~double water weight", "amount": 1, "unit": "" }
-        ]
-      }
-    ],
-    "directions": [
-      "Cake (2 layer 6-inch cake):",
-      "Melt butter, milk, vanilla gently (ideally over hot water bath)",
-      "Separate egg white + yolk.",
-      "Add sugar to yolk. Mix well, til pale ribbons.",
-      "Whip egg whites + sugar (add sugar in 3 batches) til soft peaks.",
-      "Carefully fold meringue into yolk mix, gradually.",
-      "Sift in flour. Fold gently.",
-      "Gently mix butter mix into batter. (Either add bit of batter into butter, mix, then combine with rest of batter; or pour butter carefully around edge of batter and fold inwards carefully)",
-      "Bake in 6-inch pan 340-350F for 20-30 min. Cool cake in pan for 5 min, then remove and cool completely on wire rack.",
-      "",
-      "Frosting:",
-      "Important to start with cold cream! Can even chill the bowl if you want.",
-      "In a large bowl, whip the whipping cream. When thicker, add powdered sugar + milk powder. Whip til medium peaks.",
-      "",
-      "Sugary fruit:",
-      "Cook chopped/sliced fruit in sugar water med low heat til sugar melted. Cover and keep on low heat 2-3 min. Drain and cool. Remember to set aside the leftover syrup!",
-      "",
-      "Assembly:",
-      "Place Genoise slice, brush with syrup, spread filling, repeat."
     ]
   },
   {
@@ -2501,6 +2393,26 @@
     ]
   },
   {
+    "name": "bananencreme",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "heavy cream", "amount": 0.5, "unit": "cup" },
+          { "name": "sugar", "amount": 1, "unit": "tbsp" },
+          { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+          { "name": "banana", "amount": 1, "unit": "" }
+        ]
+      }
+    ],
+    "directions": [
+      "Banana cream.",
+      "Mash ripe banana and vanilla well with fork.",
+      "Whip cream to stiff peaks. Fold in banana. Chill 30+min or til serving."
+    ]
+  },
+  {
     "name": "pudding",
     "tags": ["snack"],
     "ingredients": [
@@ -2526,6 +2438,26 @@
       "Slowly add yolk mixture back to the pot, then add cornstarch mix. Continue to cook over med heat, whisking constantly, til mixture simmering and has thickened",
       "Remove from heat and whisk in butter + vanilla.",
       "Serve warm, or cling wrap the top to prevent skin + chill a few hours before serving."
+    ]
+  },
+  {
+    "name": "greek yogurt choco pudding",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "greek yogurt", "amount": 0.75, "unit": "cup" },
+          { "name": "heavy cream", "amount": 3, "unit": "tbsp" },
+          { "name": "cocoa powder", "amount": 3, "unit": "tbsp" },
+          { "name": "maple syrup", "amount": 1.5, "unit": "tbsp" },
+          { "name": "vanilla extract", "amount": 1.5, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "Whip all ingredients 3-5min til fluffy and glossy. Eat immediately or chill for few min if desired."
     ]
   },
   {

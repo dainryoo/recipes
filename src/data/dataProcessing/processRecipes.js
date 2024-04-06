@@ -117,8 +117,21 @@ const getGroceryListString = (groceries) => {
   return groceryList.length > 0 ? `(${groceryList.join(", ")})` : "";
 }
 
-// Take an obj that represents a recipe's ingredients, and turn it into a string
-const getIngredientListString = (ingredients) => {
+// Take an obj that represents a recipe's ingredients, and turn it into a simple string
+const getIngredientListSimple = (ingredients) => {
+  let finalString = "";
+  ingredients.forEach((category) => {
+    category.items.forEach((item) => {
+      const amountText = item.amount + (item.unit != null && item.unit !== "" ? " " + item.unit : "");
+      finalString += `${amountText} ${item.name}\n`;
+    });
+    finalString += "\n";
+  });
+  return finalString;
+}
+
+// Take an obj that represents a recipe's ingredients, and turn it into a string specifically formatted for spreadsheets
+const getIngredientListStringFormattedForSpreadsheet = (ingredients) => {
   let finalString = "";
   ingredients.forEach((category) => {
     category.items.forEach((item) => {
@@ -141,7 +154,8 @@ const processSingleRecipe = (recipe, processedIngredients) => {
     groceries: recipeWithNutrition.groceries,
     groceryList: getGroceryListString(recipeWithNutrition.groceries),
     ingredients: recipeWithNutrition.ingredientsNutrition,
-    ingredientList: getIngredientListString(recipeWithNutrition.ingredientsNutrition)
+    ingredientListSimple: getIngredientListSimple(recipeWithNutrition.ingredientsNutrition),
+    ingredientListFormattedForSpreadsheet: getIngredientListStringFormattedForSpreadsheet(recipeWithNutrition.ingredientsNutrition)
   };
 }
 

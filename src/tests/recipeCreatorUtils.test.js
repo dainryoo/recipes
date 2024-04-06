@@ -1,4 +1,6 @@
 const { RecipeCreator } = require("../data/utils/recipeCreatorUtils");
+const { getIngredientData } = require("../data/utils/processedDataUtils");
+const { cleanNum } = require("../data/utils/basicUtils");
 
 
 // Remove the nutrition key from each ingredient item in a recipe's ingredients array
@@ -45,6 +47,8 @@ test('RecipeCreator setUserInput should set the correct cleaned/formatted user i
 
 test('RecipeCreator setUserInput should set the correct ingredients array in the recipe object', () => {
   const recipeCreator = new RecipeCreator();
+  const milkCalFor100g = getIngredientData("milk")?.nutrition?.hundredGrams?.calories;
+  expect(milkCalFor100g).toBeTruthy();
 
   let userInputValue = "1T sugar.1,";
   let expectedArrValue = [
@@ -65,13 +69,13 @@ test('RecipeCreator setUserInput should set the correct ingredients array in the
     { amount: 100, unit: "g", name: "milk" }
   ];
   expectedStringValue = "0.5 cup water, 100 ml milk, 90 g water, 100 g milk";
-  expectedNutritionValue = "93.22 cal";
+  expectedNutritionValue = `${cleanNum(milkCalFor100g * 2)} cal`;
   recipeCreator.setUserInput(userInputValue);
   expect(removeNutrition(recipeCreator.getRecipeIngredientsArray())).toEqual(expectedArrValue);
   expect(recipeCreator.getRecipeIngredientsString()).toEqual(expectedStringValue);
   expect(recipeCreator.getRecipeNutritionCaloriesString()).toEqual(expectedNutritionValue);
 
-  userInputValue = "1/2 C water, 1 apple, 1 onion";
+  userInputValue = "1/2 C water, 1 Apple, 1 onion";
   expectedArrValue  = [
     { amount: 0.5, unit: "cup", name: "water" },
     { amount: 1, unit: "", name: "apple" },
