@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./index.module.scss";
 
-const CopyButton = ({ clipboardText }) => {
+const CopyButton = ({ clipboardText, copyButtonText = 'Copy' }) => {
   const handleClick = (e) => {
     e.target.focus();
     navigator.clipboard.writeText(clipboardText);
@@ -14,7 +14,7 @@ const CopyButton = ({ clipboardText }) => {
       onClick={(e) => handleClick(e)}
     >
       <div className={styles.copiedText}>Copied ✓</div>
-      <div className={styles.uncopiedText}>Copy</div>
+      <div className={styles.uncopiedText}>{copyButtonText}</div>
     </button>
   );
 };

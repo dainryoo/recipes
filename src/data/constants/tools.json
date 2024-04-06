@@ -97,6 +97,18 @@
     "weightInGrams": 496
   },
   {
+    "name": "Largest Pyrex",
+    "tags": ["bowl"],
+    "note": "glass bowl only",
+    "weightInGrams": 882
+  },
+  {
+    "name": "Cold Brew Jar",
+    "tags": ["bowl"],
+    "note": "glass jar only",
+    "weightInGrams": 801
+  },
+  {
     "name": "Little square pan",
     "tags": ["baking"],
     "dimensions": [ "10 cm (3.94in)", "10 cm (3.94in)", "4 cm (1.57in)" ],

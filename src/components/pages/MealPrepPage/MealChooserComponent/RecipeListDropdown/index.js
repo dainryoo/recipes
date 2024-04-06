@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import allRecipes from "Data/processedRecipes.json";
-import { filterListBy } from "Data/utils/basicUtils";
+import { filterListBy, cleanNum } from "Data/utils/basicUtils";
 import styles from "./index.module.scss";
 
 const RecipeListDropdown = ({ chosenRecipe, chooseRecipe }) => {
@@ -32,7 +32,8 @@ const RecipeListDropdown = ({ chosenRecipe, chooseRecipe }) => {
                   onClick={() => chooseRecipe(recipe.name)}
                 >
                   <span className={styles.selectedIcon}>✓ </span>
-                  <span>{recipe.name}</span>
+                  <span className={styles.recipeName}>{recipe.name}</span>
+                  {recipe?.nutrition?.totalCalories ? <span className={styles.calorieInfo}>{`(${cleanNum(recipe.nutrition.totalCalories)} cal)`}</span> : null}
                 </button>
             );
           })

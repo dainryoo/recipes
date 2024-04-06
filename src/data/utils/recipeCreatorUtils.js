@@ -62,7 +62,7 @@ class RecipeCreator {
           }
 
           // Build out the full ingredient name
-          const ingredientName = ingredientNameParts.join(" ");
+          const ingredientName = ingredientNameParts.join(" ").toLowerCase();
 
           // check that the input's ingredient name is one we have in the ingredients data
           const potentialNameMatches = [ ingredientName, `${ingredientName}s`, `${ingredientName}es` ]; // (check both singular and potential plural names)

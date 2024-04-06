@@ -1,6 +1,7 @@
 const INGREDIENT_TAGS = {
   PRODUCE: "produce",
   VEGETABLE: "vegetable",
+  MUSHROOM: "mushroom",
   FRUIT: "fruit",
   NUT: "nut",
   BAKING: "baking",

@@ -28,7 +28,8 @@ const RecipePage = () => {
           <div>
             <h2>
               Ingredients
-              <CopyButton clipboardText={recipe.ingredientList} />
+              <CopyButton clipboardText={recipe.ingredientListSimple} />
+              <CopyButton clipboardText={recipe.ingredientListFormattedForSpreadsheet} copyButtonText='Copy for Spreadsheet' />
             </h2>
             {recipe?.ingredients?.map((category, categoryIndex) => (
               <div key={categoryIndex}>

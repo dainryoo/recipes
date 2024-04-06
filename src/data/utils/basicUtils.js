@@ -92,7 +92,7 @@ const filterListBy = (list, rawInputValue) => {
     const isRecipe = !!currListItem?.directions; // determine whether we are looking at an ingredient or a recipe
     const currListItemData = findIdMatch(currListItem.id, isRecipe ? recipesData : ingredientsData);
     // check if input matches any ingredients (if this is a recipe we are checking against)
-    const hasIngredientMatches = isRecipe && inputValue.length > 2 ? currListItemData?.ingredientList?.includes(inputValue) : false;
+    const hasIngredientMatches = isRecipe && inputValue.length > 2 ? currListItemData?.ingredientListSimple?.includes(inputValue) : false;
     // check if input matches any tags
     const hasTagMatches = currListItemData?.tags?.some(tag => tag === strippedInputValue);
     return hasTagMatches || hasIngredientMatches;
