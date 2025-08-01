@@ -14,6 +14,7 @@ const getRecipeWithNutrition = (ingredients, processedIngredients) => {
   // Keep running total counts for entire recipe nutrition
   let caloriesSum = 0;
   let proteinSum = 0;
+  let fiberSum = 0;
   // Keep running total of this recipe's groceries
   const groceries = {};
 
@@ -34,11 +35,13 @@ const getRecipeWithNutrition = (ingredients, processedIngredients) => {
         const currAmountToGrams = nutritionData[currItemUnit].grams * currItemAmount;
         const currItemCal = currAmountToGrams * nutritionData[UNIT.GRAM].calories;
         const currItemProtein = currAmountToGrams * nutritionData[UNIT.GRAM].protein;
+        const currItemFiber = currAmountToGrams * (nutritionData[UNIT.GRAM]?.fiber ?? 0);
 
         // Use processed ingredient file entry to calculate recipe ingredient values
         currItemNutrition.grams = currAmountToGrams;
         currItemNutrition.calories = currItemCal;
         currItemNutrition.protein = currItemProtein;
+        currItemNutrition.fiber = currItemFiber;
 
         // Write out the calculation for this ingredient's calories as a string
         const roundedCurrAmountToGrams = cleanNum(currAmountToGrams);
@@ -64,6 +67,7 @@ const getRecipeWithNutrition = (ingredients, processedIngredients) => {
         // Add to running total counts for entire recipe nutrition
         caloriesSum += currItemCal;
         proteinSum += currItemProtein;
+        fiberSum += currItemFiber;
         
         // Add this ingredient to the recipe's groceries, if it has a grocery tag
         if (ingredientData?.tags?.some((tag) => tagsToAddToGrocery.includes(tag))) {
@@ -95,7 +99,8 @@ const getRecipeWithNutrition = (ingredients, processedIngredients) => {
   return {
     recipeNutrition: {
       totalCalories: caloriesSum,
-      totalProtein: proteinSum
+      totalProtein: proteinSum,
+      totalFiber: fiberSum,
     },
     groceries: groceries,
     ingredientsNutrition: allIngredientsWithNutrition

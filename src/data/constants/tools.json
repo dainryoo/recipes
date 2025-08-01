@@ -103,10 +103,22 @@
     "weightInGrams": 882
   },
   {
+    "name": "Rice Cooker Pot",
+    "tags": ["bowl"],
+    "note": "the bottom non stick pot",
+    "weightInGrams": 557
+  },
+  {
     "name": "Cold Brew Jar",
     "tags": ["bowl"],
     "note": "glass jar only",
     "weightInGrams": 801
+  },
+  {
+    "name": "Mini Food Processor Bowl",
+    "tags": ["bowl"],
+    "note": "207g with blade",
+    "weightInGrams": 177
   },
   {
     "name": "Little square pan",

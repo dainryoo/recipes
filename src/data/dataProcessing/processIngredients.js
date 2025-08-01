@@ -12,6 +12,7 @@ const getProcessedIngredientData = (ingredient) => {
   const servingGrams = servingInfo?.grams ? 1.0 * servingInfo.grams : null;
   const servingCalories = (!!servingInfo?.calories || servingInfo?.calories === 0) ? 1.0 * servingInfo.calories : null;
   const servingProtein = (!!servingInfo?.protein || servingInfo?.protein == 0) ? 1.0 * servingInfo.protein : null;
+  const servingFiber = (!!servingInfo?.fiber || servingInfo?.fiber == 0) ? 1.0 * servingInfo.fiber : 0;
 
   // In case of any missing servingInfo data, return an empty object
   if (!servingInfo || isEmpty(servingInfo) || !servingGrams || !servingAmount || servingCalories == null || servingProtein == null) {
@@ -34,13 +35,15 @@ const getProcessedIngredientData = (ingredient) => {
   const gramNutrition = { 
     grams: 1.0,
     calories: servingCalories / servingGrams, 
-    protein: servingProtein / servingGrams
+    protein: servingProtein / servingGrams,
+    fiber: servingFiber / servingGrams,
   };
   // Calculate nutrition for 100 grams of this ingredient
   const hundredGramsNutrition = { 
     grams: 100.0,
     calories: gramNutrition.calories * 100.0, 
-    protein: gramNutrition.protein * 100.0
+    protein: gramNutrition.protein * 100.0,
+    fiber: gramNutrition.fiber * 100.0
   };
 
   // Calculate nutrition for 1 oz and 1 lb of this ingredient
@@ -61,12 +64,14 @@ const getProcessedIngredientData = (ingredient) => {
     [UNIT.OZ]: {
       grams: weightUnitsToGrams.oz,
       calories: servingCalories / servingGrams * weightUnitsToGrams.oz,
-      protein: servingProtein / servingGrams * weightUnitsToGrams.oz
+      protein: servingProtein / servingGrams * weightUnitsToGrams.oz,
+      fiber: servingFiber / servingGrams * weightUnitsToGrams.oz
     },
     [UNIT.LB]: {
       grams: weightUnitsToGrams.lb,
       calories: servingCalories / servingGrams * weightUnitsToGrams.lb,
-      protein: servingProtein / servingGrams * weightUnitsToGrams.lb
+      protein: servingProtein / servingGrams * weightUnitsToGrams.lb,
+      fiber: servingFiber / servingGrams * weightUnitsToGrams.lb
     }
   };
 
@@ -76,6 +81,7 @@ const getProcessedIngredientData = (ingredient) => {
     itemNutrition.grams = servingGrams / servingAmount;
     itemNutrition.calories = servingCalories / servingAmount;
     itemNutrition.protein = servingProtein / servingAmount;
+    itemNutrition.fiber = servingFiber / servingAmount;
   }
 
   // Calculate nutrition for 1 tsp, 1 tbsp, and 1 cup of this ingredient, if valid (i.e. it makes sense for the ingredient)
@@ -92,17 +98,20 @@ const getProcessedIngredientData = (ingredient) => {
     volumeData[UNIT.TSP] = {
       grams: tspToGrams,
       calories: servingCalories / servingGrams * tspToGrams,
-      protein: servingProtein / servingGrams * tspToGrams
+      protein: servingProtein / servingGrams * tspToGrams,
+      fiber: servingFiber / servingGrams * tspToGrams
     };
     volumeData[UNIT.TBSP] = {
       grams: tbspToGrams,
       calories: servingCalories / servingGrams * tbspToGrams,
-      protein: servingProtein / servingGrams * tbspToGrams
+      protein: servingProtein / servingGrams * tbspToGrams,
+      fiber: servingFiber / servingGrams * tbspToGrams
     };
     volumeData[UNIT.CUP] = {
       grams: cupToGrams,
       calories: servingCalories / servingGrams * cupToGrams,
-      protein: servingProtein / servingGrams * cupToGrams
+      protein: servingProtein / servingGrams * cupToGrams,
+      fiber: servingFiber / servingGrams * cupToGrams
     };
   }
 

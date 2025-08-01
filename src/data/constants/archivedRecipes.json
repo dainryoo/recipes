@@ -1,5 +1,81 @@
 [
   {
+    "name": "tuna carnitas",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "beans",
+        "items": [
+          { "name": "dried pinto bean", "amount": 1, "unit": "lb" },
+          { "name": "dried morita chile", "note": "stems removed", "amount": 3, "unit": "" },
+          { "name": "roma tomato", "note": "halved", "amount": 1, "unit": "" },
+          { "name": "onion", "note": "halved", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "smashed", "amount": 10, "unit": "" },
+          { "name": "bay leaf", "note": "to sub 1 avocado leaf", "amount": 1, "unit": "" },
+          { "name": "salt", "note": "5t Diamond crystal or 2.75t Morton kosher salt", "amount": 2.75, "unit": "tsp" },
+          { "name": "water", "amount": 1, "unit": "cup" }
+        ]
+      },
+      {
+        "category": "bean spice mix",
+        "items": [
+          { "name": "dried oregano", "amount": 1, "unit": "tsp" },
+          { "name": "garlic powder", "amount": 1, "unit": "tsp" },
+          { "name": "ground coriander", "amount": 1, "unit": "tsp" },
+          { "name": "paprika", "amount": 1, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "9 4\" corn tortillas",
+        "items": [
+          { "name": "masa harina", "amount": 1.5, "unit": "cup" },
+          { "name": "water", "note": "warm", "amount": 1.125, "unit": "cup" },
+          { "name": "salt", "amount": 0.375, "unit": "tsp" }
+        ]
+      },
+      
+      {
+        "category": "tuna",
+        "items": [
+          { "name": "tuna", "note": "steaks, patted dry, 1\" pieces", "amount": 1, "unit": "lb" },
+          { "name": "cornstarch", "note": "to sub rice flour", "amount": 0.25, "unit": "cup" },
+          { "name": "oil", "amount": 3, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "sides",
+        "items": [
+          { "name": "lime", "amount": 1, "unit": "" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Chiles. (2) Tomato, onion, garlic, beans, avocado leaf. (3) Salt. (4) Bean spice mix, bean liquid, vinegar.",
+      "",
+      "Beans:",
+      "Toast chiles (stems removed) in med Dutch oven over med heat, turning occasionally til fragrant (~2min).",
+      "Add tomato, onion, garlic, beans, avocado leaf (if using). Pour in enough water to cover beans by at least 2\".",
+      "Increase heat to high and bring to boil. Once boiling, reduce heat and simmer gently, continuing to add water as needed to keep beans submerged (1.5hrs).",
+      "Add salt to beans. Continue to cook til beans are tender (60 min). Discard avocado leaf and drain all solids, keeping the bean liquid aside for use later.",
+      "Add bean spice mix, reserved bean liquid, and vinegar into blender with beans. Will take a couple batches, but blend all til smooth. Add more salt if needed. Store with cling wrap pressed onto surface.",
+      "(Optionally can refry in med Dutch oven over med-high heat. Cook beans in 1c veg oil, stirring and scraping bottom with rubber spatula til homogenous and emulsified (3min).",
+      "(Optionally can cook 8 oz coarsely chopped bacon in large cast iron skillet med heat, stirring occasionally til brown and very crisp (20 min), then add to blender with the bean solids.)",
+      "",
+      "Tuna:",
+      "Cut tuna into 1\" pieces. Pat dry, season with salt, and toss with rice flour/cornstarch.",
+      "Cook with oil (can use along with bacon grease if we added bacon!) on 400F (med high heat 6/10 for pan frying?) for 30 seconds per batch (lightly crisp outside, still a bit pink inside).",
+      "Transfer tuna to wire rack and season with salt.",
+      "",
+      "Corn tortillas (9):",
+      "Mix masa harina and salt. Add 3/4 (!) cup of warm water and stir til all absorbed. Will look sandy and clumpy.",
+      "Add the rest of the water slowly, tbsps at a time, and stir regularly. Key is to keep adding water til flour bits meld into a dough. At that point, pick up and knead.",
+      "Separate dough into golf-ball sized chunks, rolling between hands to form smooth ball.",
+      "Flatten between two plastic wrap or parchment paper sheets, and flatten with a glass casserole dish. If not peeling off effortlessly, too much water in dough.",
+      "Heat cast iron to med-med high heat. Add tortilla, flip after 10 sec, then cook each side for 1 min til brown spots.",
+      "Tortillas last in fridge a few days, just need reheating over dry med-heat 30-60 sec per side."
+    ]
+  },
+  {
     "name": "overwhelming eggplant shakshuka",
     "tags": ["meal"],
     "ingredients": [
@@ -373,6 +449,36 @@
     ]
   },
   {
+    "name": "jager kohl",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "oil", "amount": 1, "unit": "tbsp" },
+          { "name": "pork belly", "note": "sliced. originally 4 bacon", "amount": 0.25, "unit": "lb" },
+          { "name": "onion", "note": "coarsely diced", "amount": 1, "unit": "" },
+          { "name": "ground pork", "note": "originally 1lb beef. can also be game", "amount": 0.5, "unit": "lb" },
+          { "name": "cabbage", "note": "coarsely chopped squares", "amount": 1, "unit": "" },
+          { "name": "potato", "note": "1-inch cubes", "amount": 1, "unit": "lb" },
+          { "name": "andouille sausage pork", "note": "sliced. should be 1/2lb kielbasa!!!", "amount": 2, "unit": "" },
+          { "name": "fennel seed", "note": "caraway seeds", "amount": 1, "unit": "tsp" },
+          { "name": "salt", "note": "to taste", "amount": 0.5, "unit": "tsp" },
+          { "name": "black pepper", "note": "to taste", "amount": 0.25, "unit": "tsp" },
+          { "name": "water", "note": "or beef/veg stock", "amount": 1.5, "unit": "cup" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Oil, bacon, onion. (2) Ground beef. (3) Cabbage, potato, sausage, salt, pepper, caraway. (4) Water/stock.",
+      "",
+      "In Dutch oven, heat oil over med heat. Cook bacon, onion, (and sausage now if raw!). Saute til lightly brown (4-5min)",
+      "Add ground beef, cook til no longer pink.",
+      "Add cabbage, potato, sausage, salt, pepper, caraway. Stir to combine. Add stock, cover, let simmer til cabbage tender (30-40min).",
+      "Enjoy with crusty bread."
+    ]
+  },
+  {
     "name": "fischbrotchen",
     "tags": ["meal"],
     "ingredients": [
@@ -487,6 +593,383 @@
     ]
   },
   {
+    "name": "2 grilled cheese and toast lunch",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "biga",
+        "items": [
+          { "name": "bread flour", "amount": 87, "unit": "g" },
+          { "name": "yeast", "amount": 0.75, "unit": "tsp" },
+          { "name": "water", "note": "room temp", "amount": 48, "unit": "g" }
+        ]
+      },
+      {
+        "category": "dough",
+        "items": [
+          { "name": "bread flour", "amount": 348, "unit": "g" },
+          { "name": "salt", "amount": 8, "unit": "g" },
+          { "name": "yeast", "amount": 0.0625, "unit": "tsp" },
+          { "name": "greek yogurt", "amount": 1, "unit": "cup" },
+          { "name": "water", "note": "room temp", "amount": 120, "unit": "g" },
+          { "name": "water", "note": "additional water if needed", "amount": 85, "unit": "g" }
+        ]
+      },
+      {
+        "category": "2 grilled cheese and 1 bean toast",
+        "items": [
+          { "name": "neals yard dairy montgomerys cheddar", "amount": 4, "unit": "oz" },
+          { "name": "canned jellied cranberry sauce", "amount": 0.25, "unit": "cup" },
+          { "name": "dried pinto bean", "amount": 88, "unit": "g" }
+        ]
+      }
+    ],
+    "directions": [
+      "Day 1: Mix biga ingredients (yeast is a VERY scant 3/4 tsp). Let ferment 15-18hr room temp.",
+      "",
+      "Day 2: Mix flour, yeast (1/2 of 1/8 tsp), salt, yogurt, water, and biga in mixer. Med low speed 2 min til dough comes together.",
+      "Use up to 85g more water if needed to make soft dough?",
+      "Cover and ferment dough at room temp 2hr. Then, keep in fridge overnight (~15h).",
+      "",
+      "Day 3: Take dough out of fridge, rest for 2hr at rom temp.",
+      "Dough onto floured surface. Gently (dont crush the air bubbles!) fold onto itself like a letter.",
+      "Turn 90deg, fold again, then shape into ball. Place on parchment paper. Place large bowl over, and proof again 1-2 hr til double and doesnt spring back when poked.",
+      "45min before dough is ready, preheat oven to 450F with Dutch oven inside.",
+      "Carefully place dough into hot Dutch oven. Bake 30 min with lid on, then remove lid and bake til golden brown.",
+      "Cool on rack 20min."
+    ]
+  },
+  {
+    "name": "albondigas",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "meatballs",
+        "items": [
+          { "name": "olive oil", "note": "for onion", "amount": 0.5, "unit": "tbsp" },
+          { "name": "onion", "note": "minced", "amount": 0.5, "unit": "" },
+          { "name": "garlic", "note": "crushed", "amount": 2, "unit": "" },
+          { "name": "white bread", "note": "torn into small pieces", "amount": 1, "unit": "cup" },
+          { "name": "chicken stock", "note": "to sub beef stock!", "amount": 0.25, "unit": "cup" },
+          { "name": "ground pork", "amount": 0.5, "unit": "lb" },
+          { "name": "ground beef", "amount": 0.5, "unit": "lb" },
+          { "name": "egg", "amount": 1, "unit": "" },
+          { "name": "manchego", "note": "grated. parmesan fine", "amount": 2, "unit": "tbsp" },
+          { "name": "fresh parsley", "amount": 1, "unit": "tbsp" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.25, "unit": "tsp" },
+          { "name": "olive oil", "note": "to cook meatballs", "amount": 1, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "sauce",
+        "items": [
+          { "name": "olive oil", "amount": 1, "unit": "tsp" },
+          { "name": "onion", "note": "minced. originally just 1 onion", "amount": 1.5, "unit": "" },
+          { "name": "canned crushed tomato", "amount": 16, "unit": "oz" },
+          { "name": "red wine", "note": "pinot noir, cabernet sauvignon, merlot", "amount": 0.5, "unit": "cup" },
+          { "name": "chicken stock", "note": "to sub beef stock!", "amount": 0.25, "unit": "cup" },
+          { "name": "paprika", "amount": 1, "unit": "tsp" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "Meatballs: (makes about 60)",
+      "(1) Oil, onion, garlic. (2) Bread, stock. (3) Meats, egg, cheese, parsley, salt, pepper.",
+      "In small saute pan, heat 1/2 T oil over med heat. Add onion and garlic, saute til soft 3-5 min. Set aside to cool.",
+      "In small bowl, pour stock over torn bread. Let bread soak 2-3 min.",
+      "In medium bowl, mix ground meats, egg, grated cheese, parsley, salt, pepper. Add cooled onion and soaked bread.",
+      "Mix everything with large fork or hands, til all evenly combined. Roll into 1 inch balls.",
+      "In large saute pan, heat 1T oil over med high heat. Add meatballs to hot pan, careful not to overcrowd.",
+      "Brown meatballs on all sides, 5-7 min. Transfer to paper towel lined plate. (Do not have to cook all the way through, as they will keep cooking in sauce.)",
+      "",
+      "Sauce:",
+      "(1) Oil if needed, onion. (2) Tomato, stock, wine, paprika, salt.",
+      "Add 1t oil to the large saute pan, if needed. Saute onion til soft, 3-5 min.",
+      "Add crushed tomato, stock, wine, paprika, salt. Mix well and bring to simmer.",
+      "Add meatballs. Reduce heat to med low. Simmer for 20 min, til meatballs cooked and sauce thick."
+    ]
+  },
+  {
+    "name": "currywurst",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "curry ketchup",
+        "items": [
+          { "name": "olive oil", "amount": 0.5, "unit": "tbsp" },
+          { "name": "onion", "note": "diced", "amount": 0.25, "unit": "" },
+          { "name": "garlic", "note": "minced", "amount": 1, "unit": "" },
+          { "name": "korean curry powder", "note": "to sub real curry powder", "amount": 5, "unit": "g" },
+          { "name": "paprika", "note": "SWEET paprika", "amount": 0.5, "unit": "tbsp" },
+          { "name": "ground cloves", "amount": 0.125, "unit": "tsp" },
+          { "name": "ground cinnamon", "amount": 0.125, "unit": "tsp" },
+          { "name": "ketchup", "amount": 0.5, "unit": "cup" },
+          { "name": "tomato paste", "amount": 1, "unit": "tbsp" },
+          { "name": "chicken broth", "amount": 2, "unit": "tbsp" },
+          { "name": "apple cider vinegar", "amount": 0.5, "unit": "tbsp" },
+          { "name": "honey", "amount": 0.5, "unit": "tbsp" },
+          { "name": "light soy sauce", "amount": 0.5, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "cayenne", "amount": 0.125, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "the goods",
+        "items": [
+          { "name": "chicken sausage", "note": "bratwursts please", "amount": 12, "unit": "oz" },
+          { "name": "frozen fries", "amount": 9, "unit": "oz" },
+          { "name": "korean curry powder", "note": "to sub real curry powder", "amount": 5, "unit": "g" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Onion, olive oil. (2) Garlic. (3) Curry powder, paprika, cloves, cinnamon. (4) Tomato paste, chicken broth, vinegar, honey, soy sauce, pepper, cayenne.",
+      "",
+      "Saute onion in olive oil at 4/10 heat in small saucepan til translucent. Do NOT brown it.",
+      "Add garlic. Saute for 1 min.",
+      "Add curry powder, paprika, cloves, cinnamon. Mix and cook for 30 sec.",
+      "Add rest of sauce ingredients. Cover and cook for 15 min.",
+      "Cool. Transfer to blender, blend til smooth. Can store for up to 1 month in fridge."
+    ]
+  },
+  {
+    "name": "mushroom leek pie",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "1 9\" crust (or 1 sheet puff pastry)",
+        "items": [
+          { "name": "flour", "amount": 1.25, "unit": "cup" },
+          { "name": "salt", "amount": 1, "unit": "tsp" },
+          { "name": "butter", "note": "chilled, cubed", "amount": 8, "unit": "tbsp" },
+          { "name": "water", "note": "ice cold", "amount": 3.5, "unit": "tbsp" },
+          { "name": "apple cider vinegar", "amount": 0.5, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "filling",
+        "items": [
+          { "name": "butter", "amount": 50, "unit": "g" },
+          { "name": "carrot", "note": "diced", "amount": 2, "unit": "" },
+          { "name": "mushroom", "note": "big ones halved", "amount": 400, "unit": "g" },
+          { "name": "leek", "note": "whites roughly sliced in 2cm sections, greens shredded", "amount": 6, "unit": "" },
+          { "name": "flour", "amount": 30, "unit": "g" },
+          { "name": "water", "note": "hot", "amount": 400, "unit": "ml" },
+          { "name": "bay leaf", "amount": 2, "unit": "" },
+          { "name": "dried thyme", "note": "figure out sub for 2 fresh thyme sprigs. leaves picked and chopped", "amount": 0.125, "unit": "tsp" },
+          { "name": "dijon mustard", "amount": 1, "unit": "tbsp" },
+          { "name": "egg", "note": "beaten with 1T water or milk", "amount": 1, "unit": "" }
+        ]
+      }
+    ],
+    "directions": [
+      "Make crust. Wrap smooth disc in fridge for 2hrs+, overnight good too.",
+      "https://www.greatbritishfoodawards.com/recipes/leek-button-mushroom-pie"
+    ]
+  },
+  {
+    "name": "easy steak pie",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "1 9\" crust (or 1 sheet puff pastry)",
+        "items": [
+          { "name": "flour", "amount": 1.25, "unit": "cup" },
+          { "name": "salt", "amount": 1, "unit": "tsp" },
+          { "name": "butter", "note": "chilled, cubed", "amount": 8, "unit": "tbsp" },
+          { "name": "water", "note": "ice cold", "amount": 3.5, "unit": "tbsp" },
+          { "name": "apple cider vinegar", "amount": 0.5, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "filling",
+        "items": [
+          { "name": "oil", "note": "for meat", "amount": 1, "unit": "tbsp" },
+          { "name": "beef chuck stew", "note": "diced", "amount": 2, "unit": "lb" },
+          { "name": "oil", "note": "for onion", "amount": 1, "unit": "tbsp" },
+          { "name": "onion", "note": "roughly chopped", "amount": 2, "unit": "" },
+          { "name": "flour", "amount": 3, "unit": "tbsp" },
+          { "name": "ketchup", "amount": 1, "unit": "tbsp" },
+          { "name": "chicken stock", "note": "instead of beef stock", "amount": 2.5, "unit": "cup" },
+          { "name": "egg", "note": "beaten", "amount": 1, "unit": "" }
+        ]
+      }
+    ],
+    "directions": [
+      "Make crust. Wrap smooth disc in fridge for 2hrs+, overnight good too.",
+      "https://www.bbcgoodfood.com/recipes/easy-steak-pie",
+      "https://culinaryginger.com/british-steak-and-ale-pie/"
+    ]
+  },
+  {
+    "name": "bean and hogao tacos",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "bean",
+        "items": [
+          { "name": "dried pinto bean", "note": "soaked and drained", "amount": 1, "unit": "cup" },
+          { "name": "garlic", "amount": 2, "unit": "" },
+          { "name": "ground cumin", "amount": 1, "unit": "tsp" },
+          { "name": "gochugaru", "amount": 1, "unit": "tsp" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "lime juice", "amount": 2, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "hogao",
+        "items": [
+          { "name": "oil", "note": "originally 4T", "amount": 3, "unit": "tbsp" },
+          { "name": "roma tomato", "note": "chopped", "amount": 3, "unit": "" },
+          { "name": "green onion", "note": "chopped", "amount": 2, "unit": "" },
+          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+          { "name": "red bell pepper", "note": "diced", "amount": 2, "unit": "" },
+          { "name": "ground cumin", "amount": 0.5, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.5, "unit": "tsp" },
+          { "name": "fresh cilantro", "note": "chopped", "amount": 4, "unit": "tbsp" }
+        ]
+      },
+      {
+        "category": "2 tbsp Sazon goya con azafran",
+        "items": [
+          { "name": "ground coriander", "amount": 1, "unit": "tsp" },
+          { "name": "ground cumin", "amount": 1, "unit": "tsp" },
+          { "name": "garlic powder", "amount": 1, "unit": "tsp" },
+          { "name": "dried oregano", "amount": 1, "unit": "tsp" },
+          { "name": "paprika", "note": "or turmeric/saffron. to sub ground annatto", "amount": 0.5, "unit": "tsp" },
+          { "name": "salt", "amount": 1, "unit": "tsp" },
+          { "name": "black pepper", "amount": 1, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "9 tortillas",
+        "items": [
+          { "name": "flour", "amount": 1.5, "unit": "cup" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "baking powder", "amount": 0.5, "unit": "tsp" },
+          { "name": "oil", "amount": 37, "unit": "g" },
+          { "name": "water", "note": "hot", "amount": 0.5, "unit": "cup" }
+        ]
+      }
+    ],
+    "directions": [
+      "Hogao:",
+      "In small saucepan, cook all hogao ingredients plus the Sazon over med-low heat 10-15min stirring often. Remove from heat, set aside.",
+      "",
+      "Tortillas:",
+      "Mix dry in a bowl. Stir in wet. Mix, then knead til smooth.",
+      "Separate into 9 balls, lightly flatten with palm. Cover and let rest 15min to up to 2 hrs.",
+      "Stainless steel pan on med heat.",
+      "Flatten each ball with rolling pin. Should be pretty thin and translucent!",
+      "Heat each tortilla. First side for 1 min (should have lightly browned spots. if not, heat is too low. if it takes less than 1 min, heat is too high). Other side for 15-30 sec. ",
+      "Keep warm til ready to serve. Store room temp for 24hrs or fridge for up to 1 week."
+    ]
+  },
+  {
+    "name": "bean and cheese quesadillas",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "bean and cheese",
+        "items": [
+          { "name": "dried pinto bean", "note": "soaked then cooked to make 1c cooked", "amount": 110, "unit": "g" },
+          { "name": "mozzarella", "amount": 4, "unit": "oz" },
+          { "name": "olive oil", "amount": 1, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "6 tortillas",
+        "items": [
+          { "name": "flour", "amount": 1, "unit": "cup" },
+          { "name": "salt", "amount": 0.3333333333, "unit": "tsp" },
+          { "name": "baking powder", "amount": 0.333333333333, "unit": "tsp" },
+          { "name": "oil", "amount": 24.6666667, "unit": "g" },
+          { "name": "water", "note": "hot", "amount": 0.3333333333, "unit": "cup" }
+        ]
+      }
+    ],
+    "directions": [
+      "Mash beans, and mix in shredded mozzarella.",
+      "",
+      "Tortillas:",
+      "Mix dry in a bowl. Stir in wet. Mix, then knead til smooth.",
+      "Separate into 6 balls, lightly flatten with palm. Cover and let rest 15min to up to 2 hrs.",
+      "Stainless steel pan on med heat.",
+      "Flatten each ball with rolling pin. Should be pretty thin and translucent!",
+      "Heat each tortilla. First side for 1 min (should have lightly browned spots. if not, heat is too low. if it takes less than 1 min, heat is too high). Other side for 15-30 sec. ",
+      "",
+      "Heat up skillet over med heat and add olive oil. Once hot, add tortilla and heat on each side for about 30 sec or until pliable. Spread bean cheese mix, fold tortilla and cook 2 min each side til golden."
+    ]
+  },
+  {
+    "name": "short rib ragu pasta",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "ragu",
+        "items": [
+          { "name": "beef short rib", "amount": 2, "unit": "lb" },
+          { "name": "olive oil", "amount": 1.5, "unit": "tbsp" },
+          { "name": "carrot", "note": "diced", "amount": 2, "unit": "" },
+          { "name": "onion", "note": "diced", "amount": 1, "unit": "" },
+          { "name": "celery", "note": "one single stalk. diced", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "minced", "amount": 4, "unit": "" },
+          { "name": "tomato paste", "amount": 3, "unit": "oz" },
+          { "name": "red wine", "note": "chianti", "amount": 0.5, "unit": "cup" },
+          { "name": "fresh rosemary", "note": "1 sprig", "amount": 1, "unit": "tbsp" },
+          { "name": "fresh sage", "note": "2 sprigs", "amount": 2, "unit": "tbsp" },
+          { "name": "fresh thyme", "note": "6 sprigs", "amount": 3, "unit": "tbsp" },
+          { "name": "bay leaf", "amount": 1, "unit": "" },
+          { "name": "canned crushed tomato", "amount": 7, "unit": "oz" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "pasta",
+        "items": [
+          { "name": "heavy cream", "amount": 0.25, "unit": "cup" },
+          { "name": "parmesan", "amount": 0.25, "unit": "cup" },
+          { "name": "pasta", "amount": 12, "unit": "oz" }
+        ]
+      }
+    ],
+    "directions": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "name": "pecorino pasta",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "olive oil", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "amount": 3, "unit": "" },
+          { "name": "canned crushed tomato", "amount": 16, "unit": "oz" },
+          { "name": "pecorino romano", "amount": 3, "unit": "oz" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" },
+          { "name": "pasta", "amount": 6, "unit": "oz" },
+          { "name": "fresh basil", "amount": 0.25, "unit": "cup" }
+        ]
+      }
+    ],
+    "directions": [
+      "On large stainless skillet, med-low heat (4/10), cook garlic with olive oil.",
+      "Add crushed tomato and cook til thickened. Stir in grated pecorino.",
+      "Use blender to blend tomato sauce.",
+      "Pour puree back into skillet. Add in cooked pasta, toss to combine, and stir in basil."
+    ]
+  },
+  {
     "name": "cheddar pasta",
     "tags": ["meal"],
     "ingredients": [
@@ -519,6 +1002,33 @@
       "Bring to boil over med heat, stir frequently.",
       "Reduce to low, simmer 2 min or til thick, stir constantly.",
       "Stir in cheese and pepper."
+    ]
+  },
+  {
+    "name": "baked pasta pie",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "olive oil", "amount": 1, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 2, "unit": "" },
+          { "name": "canned crushed tomato", "amount": 28, "unit": "oz" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "dried oregano", "amount": 0.125, "unit": "tsp" },
+          { "name": "fresh basil", "amount": 0.25, "unit": "cup" },
+          { "name": "pasta", "amount": 16, "unit": "oz" },
+          { "name": "mozzarella low moisture", "amount": 8, "unit": "oz" },
+          { "name": "parmesan", "note": "grated", "amount": 3, "unit": "tbsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "Heat olive oil over med heat in saucepan/skillet.",
+      "Saute garlic til almost browned. Pour in tomatoes and spices. Stir, cover, simmer for 20 min or til thickened.",
+      "Pour some of sauce into lined 6-inch cake pan. Place cooked pasta in pan, standing up. Pour some of cheese into the pasta. Pour rest of sauce on top. Top with shredded cheese.",
+      "Bake at 370F/188C for 30 min."
     ]
   },
   {
@@ -589,6 +1099,70 @@
       "Marinate for at LEAST 10 min in the fridge.",
       "Let nonstick pan or cast iron skillet heat up for 1-2 min.",
       "Cook on 6/10 (try 7/10?) heat for 2 min each side."
+    ]
+  },
+  {
+    "name": "creamy tomato bean soup",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "olive oil", "amount": 2, "unit": "tbsp" },
+          { "name": "onion", "note": "finely chopped", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "minced", "amount": 8, "unit": "" },
+          { "name": "canned diced tomato", "amount": 28, "unit": "oz" },
+          { "name": "roma tomato", "note": "diced", "amount": 6, "unit": "" },
+          { "name": "dried thyme", "note": "to sub 2t dried basil", "amount": 4, "unit": "tsp" },
+          { "name": "dried oregano", "note": "to sub 2t dried basil", "amount": 4, "unit": "tsp" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.25, "unit": "tsp" },
+          { "name": "dried pinto bean", "note": "cooked. to sub 2 cans, rinsed and drained", "amount": 1, "unit": "cup" },
+          { "name": "chicken broth", "amount": 2, "unit": "cup" },
+          { "name": "butter", "amount": 2, "unit": "tbsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Olive oil, onion, garlic. (2) Canned tomato, tomato, seasonings. (3) Cooked beans, broth. (4) Butter.",
+      "",
+      "Heat olive oil in Dutch oven over med heat. Saute onion and garlic ~1min til soft.",
+      "Add canned tomato, tomatoes, and seasonings and stir. Cover, bring to boil. Once boiling, lower heat and simmer covered for 20 min.",
+      "Blend all in pot with beans and chicken broth, in batches as needed.",
+      "Return all to pot. Simmer on med low heat covered for 5-10 min.",
+      "Stir in butter at the end."
+    ]
+  },
+  {
+    "name": "butternut squash soup",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "butternut squash", "note": "halved, deseeded", "amount": 2, "unit": "lb" },
+          { "name": "olive oil", "amount": 1, "unit": "tbsp" },
+          { "name": "onion", "note": "diced", "amount": 1, "unit": "" },
+          { "name": "garlic", "note": "minced", "amount": 4, "unit": "" },
+          { "name": "dried pinto bean", "note": "cooked. to sub 1 can, rinsed and drained", "amount": 0.5, "unit": "cup" },
+          { "name": "chicken broth", "amount": 2.5, "unit": "cup" },
+          { "name": "canned coconut milk", "amount": 13.5, "unit": "oz" },
+          { "name": "salt", "amount": 1, "unit": "tsp" },
+          { "name": "black pepper", "amount": 0.125, "unit": "tsp" },
+          { "name": "ground nutmeg", "amount": 0.125, "unit": "tsp" },
+          { "name": "cayenne", "amount": 0.125, "unit": "tsp" },
+          { "name": "ground sage", "amount": 0.25, "unit": "tsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Squash. (2) Oil, onion. (3) Garlic. (4) Half of the broth, cooked beans. (5) Other half of broth. (6) Coconut milk, seasonings.",
+      "",
+      "Bake squash cut side down on a lined and then oiled pan, 400F for 1hr+ or til VERY fork tender. Cool 20 min, peel and discard skin.",
+      "Add oil to Dutch oven med heat. Saute onion 6-8 min or til translucent. Add garlic, saute for 1 min til fragrant.",
+      "Blend onion, garlic, half of the broth, and beans til smooth.",
+      "Blend squash and other half of broth til smooth.",
+      "Return all to pot with coconut milk and seasonings. Cook at simmer on med low heat for 10-15min."
     ]
   },
   {
@@ -929,6 +1503,81 @@
     ]
   },
   {
+    "name": "newari woh",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "batter",
+        "items": [
+          { "name": "urad dal", "note": "soaked overnight and rinsed", "amount": 1, "unit": "cup" },
+          { "name": "water", "amount": 2, "unit": "tbsp" },
+          { "name": "jalapeno", "note": "diced", "amount": 1, "unit": "" },
+          { "name": "fresh cilantro", "note": "chopped", "amount": 2, "unit": "tbsp" },
+          { "name": "garlic", "note": "minced", "amount": 3, "unit": "" },
+          { "name": "turmeric", "amount": 2, "unit": "tsp" },
+          { "name": "ground cumin", "amount": 1, "unit": "tsp" },
+          { "name": "salt", "note": "to taste", "amount": 1, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "to cook",
+        "items": [
+          { "name": "oil", "amount": 1, "unit": "tbsp" },
+          { "name": "egg", "amount": 2, "unit": "" }
+        ]
+      }
+    ],
+    "directions": [
+      "Soak dal overnight, rinse, and blend with 2-4T water til a thick batter.",
+      "Mix with rest of batter ingredients and set aside 1-2 hrs in fridge.",
+      "Fry on med heat til both sides brown."
+    ]
+  },
+  {
+    "name": "breakfast poha",
+    "tags": ["meal"],
+    "ingredients": [
+      {
+        "category": "seasoned poha",
+        "items": [
+          { "name": "poha", "note": "thick poha", "amount": 2, "unit": "cup" },
+          { "name": "turmeric", "amount": 0.333333333, "unit": "tsp" },
+          { "name": "paprika", "note": "to sub chili powder", "amount": 0.333333333, "unit": "tsp" },
+          { "name": "salt", "note": "to taste", "amount": 0.125, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "to cook",
+        "items": [
+          { "name": "oil", "amount": 1, "unit": "tbsp" },
+          { "name": "urad dal", "amount": 0.57, "unit": "tsp" },
+          { "name": "peanut", "amount": 2.6666666667, "unit": "tbsp" },
+          { "name": "jalapeno", "note": "sliced", "amount": 1, "unit": "" },
+          { "name": "ginger", "note": "finely chopped", "amount": 0.5, "unit": "tsp" },
+          { "name": "onion", "note": "finely chopped", "amount": 0.5, "unit": "" },
+          { "name": "salt", "note": "to taste", "amount": 0.125, "unit": "tsp" },
+          { "name": "frozen corn", "amount": 0.333333333, "unit": "cup" },
+          { "name": "frozen peas", "amount": 0.333333333, "unit": "cup" },
+          { "name": "turmeric", "amount": 0.333333333, "unit": "tsp" },
+          { "name": "paprika", "note": "to sub chili powder", "amount": 0.333333333, "unit": "tsp" },
+          { "name": "fresh cilantro", "note": "chopped", "amount": 0.125, "unit": "cup" },
+          { "name": "lemon", "amount": 1, "unit": "" }
+        ]
+      }
+    ],
+    "directions": [
+      "(1) Seasoned poha. (2) Oil, urad dal, peanuts. (3) Jalapeno, ginger. (4) Onion, salt. (5) Corn, peas, turmeric, paprika. (6) Cilantro, lemon juice.",
+      "",
+      "Soak poha completely submerged in water. Rinse thoroughly for 30 seconds, then let sit 2 min til softened. Drain all water. Add spices, mix, and set aside.",
+      "Heat wide pan on med heat. Add oil, urad dal, peanuts, stirring til browned.",
+      "Add jalapeno, chopped ginger. Saute for 1 min.",
+      "Add onion, salt. Saute til translucent.",
+      "Add corn and peas and seasoning. Saute 2 min.",
+      "Add chopped cilantro and mix. Add seasoned poha and mix.",
+      "Turn off heat. Cover pan and leave for 2 min, then serve with lemon juice on top."
+    ]
+  },
+  {
     "name": "nicoise salad",
     "tags": ["meal"],
     "ingredients": [
@@ -1034,7 +1683,7 @@
     ]
   },
   {
-    "name": "hummus",
+    "name": "easy hummus",
     "tags": ["side"],
     "ingredients": [
       {
@@ -1109,6 +1758,48 @@
       "475F 10 min.",
       "For bianca pizza: use 1/2 c ricotta",
       "Can freeze dough for a month; just punch down, roll into ball, tight wrap. Let thaw in fridge overnight and then roll out."
+    ]
+  },
+  {
+    "name": "healthy yogurt boule",
+    "tags": [""],
+    "ingredients": [
+      {
+        "category": "biga with 20% of flour",
+        "items": [
+          { "name": "bread flour", "amount": 100, "unit": "g" },
+          { "name": "yeast", "amount": 0.1, "unit": "g" },
+          { "name": "water", "note": "room temp. up to 100g if want to make poolish", "amount": 60, "unit": "g" }
+        ]
+      },
+      {
+        "category": "dough",
+        "items": [
+          { "name": "bread flour", "note": "450g if skipping biga", "amount": 350, "unit": "g" },
+          { "name": "bread flour", "note": "should be whole wheat flour", "amount": 50, "unit": "g" },
+          { "name": "salt", "amount": 10, "unit": "g" },
+          { "name": "yeast", "note": "IDY. 5.9g if active. 5g IDY if skipping biga", "amount": 4.9, "unit": "g" },
+          { "name": "greek yogurt", "amount": 460, "unit": "g" },
+          { "name": "water", "note": "just boiled. 120g if skipping biga", "amount": 60, "unit": "g" },
+          { "name": "pumpkin seed", "note": "any seed", "amount": 60, "unit": "g" }
+        ]
+      }
+    ],
+    "directions": [
+      "Day 1: Mix poolish ingredients. Let ferment 15-18hr room temp.",
+      "",
+      "Dy 2: Bring yogurt to room temp by mixing with just boiled water.",
+      "Combine poolish, water, yogurt, yeast, salt, seeds, and whole wheat flour. Mix well to dissolve salt.",
+      "Mix in bread flour. Knead dough, ideally keeping dough temp 77F/25C",
+      "Cover and place in fridge for 30 min. Do a single fold (take one part flap of dough, fold towards center. Rotate dough and repeat until you end up where you started)",
+      "Shape loaf into a ball by dragging and tucking on counter.",
+      "Cover and place back in fridge for 18-24 hrs.",
+      "",
+      "Day 3: Do a single fold again. Shape loaf into a ball. Place on parchment paper and prove for 2.5-3 hours.",
+      "One hour before baking, turn the oven onto 480F/250C, placing Dutch oven with lid on inside to heat.",
+      "Place loaf in preheated Dutch oven. Socre, cover, and bake at 390F/200C for 35 minutes.",
+      "Remove lid and bake for 15 more min.",
+      "Cool completely."
     ]
   },
   {
@@ -1526,6 +2217,45 @@
     ]
   },
   {
+    "name": "the jersey bagels",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "dough",
+        "items": [
+          { "name": "bread flour", "amount": 480, "unit": "g" },
+          { "name": "water", "amount": 240, "unit": "g" },
+          { "name": "salt", "amount": 12, "unit": "g" },
+          { "name": "yeast", "note": "~3/4t", "amount": 2.4, "unit": "g" },
+          { "name": "oil", "amount": 14.4, "unit": "g" },
+          { "name": "brown sugar", "amount": 24, "unit": "g" },
+          { "name": "barley malt powder", "note": "~1.2t", "amount": 1.2, "unit": "g" }
+        ]
+      }
+    ],
+    "directions": [
+      "Stir dry ingredients together. Add wet ingredients and knead in mixer for 10 min.",
+      "Rest dough covered for 20 min~1 hour, til dough looks a lot smoother than before.",
+      "Divide into pieces (~140g each)",
+      "Roll into snakes on unfloured counter, wrap around hand, roll firmly against counter to seal.",
+      "Place rings on parchment paper squares.",
+      "Rest covered at room temp ~ 1hr, then transfer to fridge to rest overnight.",
+      "16~24 hrs later, get oven as hot as possible. Take bagels out of fridge.",
+      "Boil bagels in syrup water, at a gentle rolling boil. 10-15 seconds on each side.",
+      "Bake for 5-10 min and rest cool for 15 min on racks.",
+      "",
+      "",
+      "Baker's percentages:",
+      "100% high gluten flour",
+      "50% water",
+      "0.5% yeast",
+      "2.5% salt",
+      "3% oil",
+      "5% sugar",
+      "0.25% diastatic malt"
+    ]
+  },
+  {
     "name": "yogurt brioche",
     "tags": ["snack"],
     "ingredients": [
@@ -1823,6 +2553,109 @@
       "Cool hanging upside down. Lasts 1 week, best flavor after 48hr?"
     ]
   },
+    {
+    "name": "cardamom buns",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "flour", "amount": 275, "unit": "g" },
+          { "name": "water", "amount": 125, "unit": "g" },
+          { "name": "yeast", "amount": 4.25, "unit": "g" },
+          { "name": "butter", "amount": 50, "unit": "g" },
+          { "name": "sugar", "amount": 50, "unit": "g" },
+          { "name": "milk powder", "amount": 6.25, "unit": "g" },
+          { "name": "salt", "amount": 2.5, "unit": "g" },
+          { "name": "ground cardamom", "amount": 5.75, "unit": "g" },
+          { "name": "saffron", "amount": 0.25, "unit": "g" }
+        ]
+      },
+      {
+        "category": "",
+        "items": [
+          { "name": "butter", "amount": 75, "unit": "g" },
+          { "name": "sugar", "amount": 62.5, "unit": "g" },
+          { "name": "salt", "amount": 0.75, "unit": "g" }
+        ]
+      }
+    ],
+    "directions": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "name": "milk mantou",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "",
+        "items": [
+          { "name": "flour", "amount": 150, "unit": "g" },
+          { "name": "milk", "note": "70-75g water to sub also fine", "amount": 80, "unit": "g" },
+          { "name": "yeast", "note": "1.5g", "amount": 0.5, "unit": "tsp" },
+          { "name": "sugar", "note": "can omit", "amount": 15, "unit": "g" },
+          { "name": "oil", "amount": 3, "unit": "g" }
+        ]
+      }
+    ],
+    "directions": [
+      "In a big bowl, pour milk. Sprinkle yeast on top. Add sugar. Stir.",
+      "Add flour to milk, then oil. Use spatula to stir into a shaggy stiff dough.",
+      "Start kneading with hands til smooth (~10 min vigorous or ~15min slower kneading).",
+      "Roll into log, and slice off ~50g pieces (5 total?).",
+      "For each piece, remove bubbles. Press with body weight and roll into a long log, bring the two ends into the center to ball back up, then press and roll into log again 3 times. At the end of the process, dough will be very stiff. Press and close up into a tight smooth ball.",
+      "Prepare steamer. Add 3cm of water to a pot, heat it up to 45C (warm if you stick your hands in, but not hot). Turn off the heat, place steamer with buns on top to rise for ~1hr (1.5x size, or gently bounces back).",
+      "Steam on med heat for 18 min with lid cracked open. After steaming, turn off heat and let sit max 5 min before removing lid."
+    ]
+  },
+    {
+    "name": "liu sha bao",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "less runny custard",
+        "items": [
+          { "name": "salted duck egg yolk", "amount": 2, "unit": "" },
+          { "name": "butter", "note": "softened", "amount": 17, "unit": "g" },
+          { "name": "powdered sugar", "amount": 20, "unit": "g" },
+          { "name": "milk powder", "amount": 10, "unit": "g" }
+        ]
+      },
+      {
+        "category": "dough",
+        "items": [
+          { "name": "water", "amount": 45, "unit": "ml" },
+          { "name": "yeast", "note": "should be 0.75g", "amount": 0.25, "unit": "tsp" },
+          { "name": "powdered sugar", "amount": 3, "unit": "g" },
+          { "name": "flour", "amount": 73, "unit": "g" },
+          { "name": "cornstarch", "amount": 10, "unit": "g" },
+          { "name": "baking powder", "note": "should be 0.75g", "amount": 0.125, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" }
+        ]
+      }
+    ],
+    "directions": [
+      "Makes 3-4 buns.",
+      "Steam yolks for 5 min.",
+      "Mash yolk with knife. Mix very well to smooth paste. Chill in fridge (not freezer!) 30min-1hr. Divide filling (~15-17g each).",
+      "Note: removed 2g of custard powder/cornstarch from custard recipe.",
+      "",
+      "Dissolve yeast + sugar in water. Add in dry ingredients. Mix til dough.",
+      "Knead til smooth dough. Divide into parts (~35g each). For each piece, knead for about 10 sec, then let rest.",
+      "For each piece, roll out, fold, roll out, fold, and roll out again. Flatten into wrapper (9cm diameter) with rolling pin.",
+      "Let relax 5 min. Place spoonful of filling into wrapper and seal. Let rest 10-15 min. (15min max)",
+      "",
+      "Bring water to full boil. Place buns in steamer with cracked open lid, and cook over med heat 10 min. Serve immediately."
+    ]
+  },
   {
     "name": "runny liu sha bao",
     "tags": ["snack"],
@@ -1909,7 +2742,7 @@
     ]
   },
   {
-    "name": "banana bread",
+    "name": "old banana bread",
     "tags": ["snack"],
     "ingredients": [
       {
@@ -2310,6 +3143,104 @@
       "Pour in milk and mix again. Sprinkle in rest of flour and mix oon low speed til just combined. Finish with spatula.",
       "350F lined mini loaf pan (2 cup volume), 55-60min or til tester mostly clean.",
       "Cool completely before slicing. Keeps at room temp 3 days tightly wrapped."
+    ]
+  },
+  {
+    "name": "huge heavy cream tres leches cake",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "cake",
+        "items": [
+          { "name": "heavy cream", "note": "chilled", "amount": 300, "unit": "g" },
+          { "name": "vanilla extract", "amount": 2, "unit": "tsp" },
+          { "name": "flour", "amount": 270, "unit": "g" },
+          { "name": "baking powder", "amount": 2, "unit": "tsp" },
+          { "name": "salt", "amount": 0.5, "unit": "tsp" },
+          { "name": "ground cinnamon", "amount": 0.75, "unit": "tsp" },
+          { "name": "egg", "note": "room temp", "amount": 7, "unit": "" },
+          { "name": "sugar", "amount": 200, "unit": "g" }
+        ]
+      },
+      {
+        "category": "soak",
+        "items": [
+          { "name": "milk", "amount": 2, "unit": "cup" },
+          { "name": "condensed milk", "note": "298g", "amount": 1, "unit": "cup" },
+          { "name": "heavy cream", "amount": 2, "unit": "cup" },
+          { "name": "vanilla extract", "amount": 1, "unit": "tbsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "frosting",
+        "items": [
+          { "name": "heavy cream", "amount": 2, "unit": "cup" }
+        ]
+      }
+    ],
+    "directions": [
+      "For a 13x9 pan. Halve for 8x8 cake. Line and grease only the bottom of pan.",
+      "Whisk flour, salt, baking powder, cinnamon.",
+      "Whip cold cream and vanilla for sponge in large bowl til medium peaks not too stiff (start at low speed to reduce splatter). Keep in fridge til use.",
+      "Whip eggs and sugar til tripled in volume and mousse like (7min).",
+      "Sift in dry ingredients in 3 parts. Mix on lowest speed, very quickly just to incorporate each time.",
+      "Fold in the whipped cream into the batter til no streaks.",
+      "Pour into pan. Bake 350F 28-35min (rotating pan after 20 min) til top risen. Little cracks ok! Let cool upside down above rack to preserve volume.",
+      "To make soak, mix all ingredients together,",
+      "Without removing cake from pan, poke holes all over cake. Pour soak all over. Pooling on top is expected. Let sit in fridge covered at least 3 hours.",
+      "Whip the heavy cream for frosting til very soft droopy peaks.",
+      "Invert cake to remove from pan. Cover the top with the whipped cream.",
+      "Frosted cake will keep in fridge covered for 3 days."
+    ]
+  },
+  {
+    "name": "heavy cream tres leches cake",
+    "tags": ["snack"],
+    "ingredients": [
+      {
+        "category": "cake",
+        "items": [
+          { "name": "heavy cream", "note": "chilled", "amount": 129, "unit": "g" },
+          { "name": "vanilla extract", "note": "3/4+1/8tsp", "amount": 0.875, "unit": "tsp" },
+          { "name": "flour", "amount": 116, "unit": "g" },
+          { "name": "baking powder", "note": "3/4+1/8tsp", "amount": 0.875, "unit": "tsp" },
+          { "name": "salt", "amount": 0.25, "unit": "tsp" },
+          { "name": "ground cinnamon", "amount": 0.333333333333, "unit": "tsp" },
+          { "name": "egg", "note": "room temp", "amount": 3, "unit": "" },
+          { "name": "sugar", "amount": 86, "unit": "g" }
+        ]
+      },
+      {
+        "category": "soak",
+        "items": [
+          { "name": "milk", "amount": 206, "unit": "g" },
+          { "name": "condensed milk", "amount": 128, "unit": "g" },
+          { "name": "heavy cream", "amount": 206, "unit": "g" },
+          { "name": "vanilla extract", "amount": 1.25, "unit": "tsp" },
+          { "name": "salt", "amount": 0.125, "unit": "tsp" }
+        ]
+      },
+      {
+        "category": "frosting",
+        "items": [
+          { "name": "heavy cream", "amount": 206, "unit": "g" }
+        ]
+      }
+    ],
+    "directions": [
+      "Halved for 8x8 cake. Line and grease only the bottom of pan.",
+      "Whisk flour, salt, baking powder, cinnamon.",
+      "Whip cold cream and vanilla for sponge in large bowl til medium peaks not too stiff (start at low speed to reduce splatter). Keep in fridge til use.",
+      "Whip eggs and sugar til tripled in volume and mousse like (7min).",
+      "Sift in dry ingredients in 3 parts. Mix on lowest speed, very quickly just to incorporate each time.",
+      "Fold in the whipped cream into the batter til no streaks.",
+      "Pour into pan. Bake 350F 28-35min (rotating pan after 20 min) til top risen. Little cracks ok! Let cool upside down above rack to preserve volume.",
+      "To make soak, mix all ingredients together,",
+      "Without removing cake from pan, poke holes all over cake. Pour soak all over. Pooling on top is expected. Let sit in fridge covered at least 3 hours.",
+      "Whip the heavy cream for frosting til very soft droopy peaks.",
+      "Invert cake to remove from pan. Cover the top with the whipped cream.",
+      "Frosted cake will keep in fridge covered for 3 days."
     ]
   },
   {

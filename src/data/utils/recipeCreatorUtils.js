@@ -96,7 +96,7 @@ class RecipeCreator {
     getRecipeObjAsPrettyText = () => {
       return this.getRecipeIngredientsArray().map((item) => {
         const itemAmountText = `${item.amount}${item.unit ? ` ${item.unit}` : ""}${item.unit !== UNIT.GRAM && !(isWeightUnit(item.unit)) ? ` (${item.nutrition.grams}g)` : ""}`;
-        const itemNutritionText = `${cleanNum(item.nutrition.calories)} cal, ${cleanNum(item.nutrition.protein)}g protein`;
+        const itemNutritionText = `${cleanNum(item.nutrition.calories)} cal, ${cleanNum(item.nutrition.protein)}g protein, ${cleanNum(item.nutrition?.fiber ?? 0)}g fiber`;
         return `${itemAmountText} ${item.name}: ${itemNutritionText}`;
       }).join("\n");
     }
@@ -112,7 +112,7 @@ class RecipeCreator {
     }
 
     getRecipeNutritionString = () => {
-      return this.recipeObj.nutrition.totalCalories ? `${cleanNum(this.recipeObj.nutrition.totalCalories)} cal, ${cleanNum(this.recipeObj.nutrition.totalProtein)} g protein` : "";
+      return this.recipeObj.nutrition.totalCalories ? `${cleanNum(this.recipeObj.nutrition.totalCalories)} cal, ${cleanNum(this.recipeObj.nutrition.totalProtein)} g protein, ${cleanNum(this.recipeObj.nutrition?.totalFiber ?? 0)} g fiber` : "";
     }
 
     getRecipeNutritionCaloriesString = () => {

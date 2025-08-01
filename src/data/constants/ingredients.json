@@ -8,12 +8,14 @@
     "name": "acorn squash",
     "tags": ["produce", "vegetable"],
     "note": "Bake halves at 400F 30-45 min.",
-    "serving": { "amount": 1, "unit": "", "grams": 431, "calories": 172, "protein": 3.4 }
+    "source": "https://fdc.nal.usda.gov/food-details/2685571/nutrients",
+    "serving": { "amount": 1, "unit": "", "grams": 431, "calories": 181.02, "protein": 5.38875, "fiber": 11.206 }
   },
   {
     "name": "almond",
     "tags": ["nut"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 28, "calories": 160, "protein": 6 }
+    "source": "https://fdc.nal.usda.gov/food-details/2346393/nutrients",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 28, "calories": 163, "protein": 5.992, "fiber": 3.024 }
   },
   {
     "name": "almond extract",
@@ -21,66 +23,87 @@
     "serving": { "amount": 1, "unit": "tsp", "grams": 5, "calories": 12, "protein": 0 }
   },
   {
-    "name": "almond milk",
-    "tags": ["dairy", "milk"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 240, "calories": 30, "protein": 1 }
+    "name": "andouille sausage beef",
+    "tags": ["protein", "meat", "beef"],
+    "note": "Charcutnuvo Paleo Beef Andouille",
+    "serving": { "amount": 1, "unit": "", "grams": 71, "calories": 170, "protein": 11, "fiber": 0 }
   },
   {
-    "name": "andouille sausage",
+    "name": "andouille sausage pork",
     "tags": ["protein", "meat", "pork"],
     "note": "North Country Smokehouse Andouille Sausage",
-    "serving": { "amount": 1, "unit": "", "grams": 84, "calories": 265, "protein": 11 }
+    "serving": { "amount": 1, "unit": "", "grams": 84, "calories": 265, "protein": 11, "fiber": 0 }
   },
   {
     "name": "apple",
+    "note": "honeycrisp",
+    "source": "https://fdc.nal.usda.gov/food-details/1750343/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 242, "calories": 126, "protein": 0.629 }
+    "serving": { "amount": 1, "unit": "", "grams": 242, "calories": 130.68, "protein": 0.242, "fiber": 4.114 }
   },
   {
     "name": "apple cider vinegar",
+    "note": "Natural Grocers Organic Apple Cider Vinegar",
     "tags": ["sauce"],
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 0, "protein": 0 }
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 0, "protein": 0, "fiber": 0 }
   },
   {
     "name": "arborio rice",
-    "note": "365",
+    "note": "LUNDBERG FAMILY FARMS Organic White Arborio Rice",
     "tags": ["grain"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 45, "calories": 160, "protein": 3 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 45, "calories": 160, "protein": 5, "fiber": 1 }
   },
   {
     "name": "arugula",
+    "source": "https://fdc.nal.usda.gov/food-details/2710822/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 20, "calories": 5, "protein": 0.52 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 20, "calories": 5.2, "protein": 0.33, "fiber": 0.46 }
+  },
+  {
+    "name": "asafoetida",
+    "source": "https://www.nutritionix.com/i/nutritionix/asafoetida-powder-1-tsp/58de7de5d30e0e1e7521bbd2",
+    "tags": ["spice"],
+    "serving": { "amount": 1, "unit": "tsp", "grams": 3.1, "calories": 9.8, "protein": 0.3, "fiber": 0.7 }
   },
   {
     "name": "avocado",
+    "source": "https://fdc.nal.usda.gov/food-details/2710824/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 136, "calories": 227, "protein": 2.67 }
+    "serving": { "amount": 1, "unit": "", "grams": 136, "calories": 280.16, "protein": 2.4616, "fiber": 9.2 }
+  },
+  {
+    "name": "bacon slice",
+    "note": "Nature's Rancher - Steakhouse Smoked Uncured Bacon",
+    "tags": ["protein", "meat", "pork"],
+    "serving": { "amount": 1, "unit": "", "grams": 42.5, "calories": 50, "protein": 4, "fiber": 0 }
   },
   {
     "name": "baguette",
     "tags": ["misc"],
-    "serving": { "amount": 2, "unit": "oz", "grams": 56.6990463, "calories": 160, "protein": 4 }
+    "serving": { "amount": 2, "unit": "oz", "grams": 56.6990463, "calories": 162, "protein": 4, "fiber": 2 }
   },
   {
     "name": "baking powder",
+    "note": "Clabber Girl Baking Powder",
     "tags": ["baking"],
-    "serving": { "amount": 0.125, "unit": "tsp", "grams": 0.6, "calories": 0, "protein": 0 }
+    "serving": { "amount": 0.125, "unit": "tsp", "grams": 0.6, "calories": 0, "protein": 0, "fiber": 0 }
   },
   {
     "name": "baking soda",
     "tags": ["baking"],
-    "serving": { "amount": 0.125, "unit": "tsp", "grams": 0.6, "calories": 0, "protein": 0 }
+    "serving": { "amount": 0.125, "unit": "tsp", "grams": 0.6, "calories": 0, "protein": 0, "fiber": 0 }
   },
   {
     "name": "balsamic vinegar",
+    "note": "Giuseppe Giusti 3 Star Balsamic Vinegar of Modena IGP",
     "tags": ["sauce"],
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 15, "protein": 0 }
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 45, "protein": 0, "fiber": 0 }
   },
   {
     "name": "banana",
+    "source": "https://fdc.nal.usda.gov/food-details/1105314/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 126, "calories": 112, "protein": 1.37 }
+    "serving": { "amount": 1, "unit": "", "grams": 200, "calories": 176, "protein": 1.48, "fiber": 3.4 }
   },
   {
     "name": "barley malt powder",
@@ -89,14 +112,22 @@
     "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 170, "protein": 6, "fiber": 0 }
   },
   {
+    "name": "barley malt syrup",
+    "tags": ["grain", "baking"],
+    "note": "Eden Barley Malt Syrup",
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 21, "calories": 60, "protein": 1, "fiber": 0 }
+  },
+  {
     "name": "bay leaf",
     "tags": ["herb"],
-    "serving": { "amount": 1, "unit": "", "grams": 0.5, "calories": 0, "protein": 0 }
+    "serving": { "amount": 1, "unit": "", "grams": 0.5, "calories": 0, "protein": 0, "fiber": 0 }
   },
   {
     "name": "beef chuck roast",
+    "note": "Beef, chuck, roast, boneless, choice, raw",
+    "source": "https://fdc.nal.usda.gov/food-details/2646174/nutrients",
     "tags": ["protein", "meat", "beef"],
-    "serving": { "amount": 3, "unit": "oz", "grams": 85, "calories": 251, "protein": 26 }
+    "serving": { "amount": 3, "unit": "oz", "grams": 84, "calories": 199.08, "protein": 15.456, "fiber": 0 }
   },
   {
     "name": "beef chuck stew",
@@ -107,8 +138,9 @@
   {
     "name": "beef flank steak",
     "tags": ["protein", "meat", "beef"],
-    "note": "(choice)",
-    "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 165, "protein": 21.22 }
+    "note": "Beef, flank, steak, boneless, choice, raw",
+    "source": "https://fdc.nal.usda.gov/food-details/2646175/nutrients",
+    "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 192.1, "protein": 22.713 }
   },
   {
     "name": "beef lateral rib",
@@ -128,6 +160,12 @@
     "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 271, "protein": 19.5 }
   },
   {
+    "name": "beef stock",
+    "tags": ["canned"],
+    "note": "Kettle & Fire Beef Bone Broth",
+    "serving": { "amount": 1, "unit": "cup", "grams": 240, "calories": 40, "protein": 9.5, "fiber": 0 }
+  },
+  {
     "name": "beef bottom sirloin flap steak",
     "tags": ["protein", "meat", "beef"],
     "note": "\"Beef, bottom sirloin (flap), tri-tip roast, separable lean and fat, trim to 0\" fat, all grades, raw\"",
@@ -136,45 +174,63 @@
   {
     "name": "beef top sirloin steak",
     "tags": ["protein", "meat", "beef"],
-    "note": "\"Beef, top sirloin, separable lean and fat, trim to 1\/8\" fat, all grades, raw\"",
-    "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 227, "protein": 22.9 }
+    "source": "https://fdc.nal.usda.gov/food-details/2727574/nutrients",
+    "note": "Beef, top sirloin steak, raw",
+    "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 164.98, "protein": 24.86 }
+  },
+  {
+    "name": "beer",
+    "tags": ["misc"],
+    "note": "for dark beer",
+    "serving": { "amount": 1.5, "unit": "cup", "grams": 360, "calories": 191, "protein": 1.2, "fiber": 0 }
   },
   {
     "name": "black pepper",
     "tags": ["spice"],
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 6.9, "calories": 17.3, "protein": 0.717 }
+    "source": "https://www.nutritionix.com/food/black-pepper",
+    "serving": { "amount": 1, "unit": "tsp", "grams": 2.3, "calories": 5.8, "protein": 0.2, "fiber": 0.6 }
   },
   {
     "name": "black sesame seed",
     "tags": ["grain"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 128, "calories": 808, "protein": 26.2 }
+    "serving": { "amount": 2, "unit": "tbsp", "grams": 18, "calories": 103, "protein": 3, "fiber": 2 }
   },
   {
     "name": "blueberry",
+    "source": "https://fdc.nal.usda.gov/food-details/2346411/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 148, "calories": 84.4, "protein": 1.1 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 148, "calories": 84.36, "protein": 1.036, "fiber": 3.552 }
   },
   {
     "name": "bok choy",
     "tags": ["produce", "vegetable"],
     "note": "for 1 head/1 bunch",
-    "serving": { "amount": 1, "unit": "", "grams": 840, "calories": 109, "protein": 12.6 }
+    "source": "https://fdc.nal.usda.gov/food-details/2685572/nutrients",
+    "serving": { "amount": 1, "unit": "", "grams": 840, "calories": 142.8, "protein": 8.568, "fiber": 10.92 }
   },
   {
     "name": "boquerones",
     "tags": ["protein", "seafood", "fish"],
     "note": "Matiz White Anchovies (~28 fish per package)",
-    "serving": { "amount": 4, "unit": "", "grams": 15, "calories": 20, "protein": 4 }
+    "serving": { "amount": 4, "unit": "", "grams": 15, "calories": 20, "protein": 4, "fiber": 0 }
   },
   {
     "name": "bread flour",
     "tags": ["grain", "baking"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 110, "protein": 4 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 110, "protein": 4, "fiber": 0 }
   },
   {
     "name": "broccoli",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 90, "calories": 30.6, "protein": 2.54 }
+    "source": "https://fdc.nal.usda.gov/food-details/747447/nutrients",
+    "serving": { "amount": 1, "unit": "cup", "grams": 76, "calories": 24.3, "protein": 1.95, "fiber": 1.82 }
+  },
+  {
+    "name": "brown mustard seed",
+    "tags": ["spice"],
+    "note": "this is nutrition for just general mustard seeds",
+    "source": "https://fdc.nal.usda.gov/food-details/170929/nutrients",
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 6.3, "calories": 32, "protein": 1.64, "fiber": 0.769 }
   },
   {
     "name": "brown rice",
@@ -184,244 +240,261 @@
   },
   {
     "name": "brown sugar",
+    "note": "Wholesome Organic Dark Brown Sugar",
     "tags": ["baking"],
-    "serving": { "amount": 2, "unit": "tsp", "grams": 8, "calories": 30, "protein": 0 }
+    "serving": { "amount": 2, "unit": "tsp", "grams": 8, "calories": 30, "protein": 0, "fiber": 0 }
   },
   {
     "name": "brussel sprouts",
     "tags": ["produce", "vegetable"],
     "note": "400F for 35-40 min. Use 24g olive oil + 1/2 tsp of salt and pepper each with 16oz brussel sprouts. Or 1lb sprouts + 3T olive oil, 425F for 25 min.",
-    "serving": { "amount": 1, "unit": "cup", "grams": 88, "calories": 38, "protein": 2.97 }
+    "source": "https://fdc.nal.usda.gov/food-details/2685575/nutrients",
+    "serving": { "amount": 1, "unit": "cup", "grams": 88, "calories": 43.12, "protein": 3.5024, "fiber": 4.224 }
   },
   {
     "name": "buckwheat flour",
     "tags": ["grain", "baking"],
-    "note": "Arrowhead Mills",
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 100, "protein": 4 }
+    "note": "Bob's Red Mill Organic Buckwheat Flour",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 37, "calories": 140, "protein": 4, "fiber": 9 }
   },
   {
     "name": "butter",
     "tags": ["dairy"],
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 14, "calories": 110, "protein": 0 }
+    "note": "Kerrygold Unsalted",
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 14, "calories": 100, "protein": 0, "fiber": 0 }
   },
   {
     "name": "buttermilk",
     "tags": ["dairy"],
-    "note": "(made from almond milk)",
-    "serving": { "amount": 1, "unit": "cup", "grams": 240, "calories": 30, "protein": 1 }
+    "note": "1c/240g made from 225g West Life soy milk + 15g vinegar",
+    "serving": { "amount": 1, "unit": "cup", "grams": 240, "calories": 93.75, "protein": 8.4375, "fiber": 0.9375 }
   },
   {
     "name": "butternut squash",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 420, "calories": 189, "protein": 4.2 }
+    "source": "https://fdc.nal.usda.gov/food-details/2685570/nutrients",
+    "serving": { "amount": 1, "unit": "", "grams": 420, "calories": 176.4, "protein": 4.83, "fiber": 8.4 }
   },
   {
     "name": "cabbage",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 900, "calories": 225, "protein": 11.5 }
+    "note": "1c shredded is about 97g",
+    "source": "https://fdc.nal.usda.gov/food-details/2346407/nutrients",
+    "serving": { "amount": 1, "unit": "", "grams": 900, "calories": 279, "protein": 22.5 }
   },
   {
     "name": "cacao nib",
     "tags": ["baking"],
-    "note": "Navitas cacao nibs",
-    "serving": { "amount": 1, "unit": "tsp", "grams": 3, "calories": 20, "protein": 0 }
+    "note": "Navitas cacao nibs. Our favorite brand is Natierra!",
+    "serving": { "amount": 1, "unit": "tsp", "grams": 3, "calories": 20, "protein": 0, "fiber": 1 }
   },
   {
     "name": "candied ginger",
     "tags": ["baking"],
     "note": "Aurora Australian Crystallized Ginger Chunks",
-    "serving": { "amount": 10, "unit": "", "grams": 40, "calories": 140, "protein": 0 }
+    "serving": { "amount": 6, "unit": "", "grams": 40, "calories": 130, "protein": 0, "fiber": 0 }
   },
   {
     "name": "canned adzuki beans",
     "tags": ["canned", "bean"],
     "note": "eden",
-    "serving": { "amount": 4.28571429, "unit": "oz", "grams": 130, "calories": 110, "protein": 7 }
+    "serving": { "amount": 4.28571429, "unit": "oz", "grams": 130, "calories": 100, "protein": 6, "fiber": 5 }
   },
   {
     "name": "canned anchovies",
     "tags": ["protein", "seafood", "fish"],
     "note": "Rustichella d'abruzzo Jar of Anchovies (~19 in jar)",
-    "serving": { "amount": 3, "unit": "", "grams": 7, "calories": 11.66666666667, "protein": 1.86666666667 },
+    "serving": { "amount": 6, "unit": "", "grams": 15, "calories": 25, "protein": 4, "fiber": 0 },
     "servingOrtizAnchoviesInOliveOil": { "amount": 4, "unit": "", "grams": 15, "calories": 35, "protein": 4 }
   },
   {
     "name": "canned black beans",
     "tags": ["canned", "bean"],
     "note": "365",
-    "serving": { "amount": 4.28571429, "unit": "oz", "grams": 130, "calories": 110, "protein": 7 }
+    "serving": { "amount": 4.28571429, "unit": "oz", "grams": 130, "calories": 110, "protein": 7, "fiber": 9 }
   },
   {
     "name": "canned butter beans",
     "tags": ["canned", "bean"],
     "note": "Eden",
-    "serving": { "amount": 4.28571429, "unit": "oz", "grams": 130, "calories": 100, "protein": 6 }
+    "serving": { "amount": 4.28571429, "unit": "oz", "grams": 130, "calories": 100, "protein": 6, "fiber": 4 }
   },
   {
     "name": "canned chickpeas",
     "tags": ["canned", "bean"],
-    "note": "Goya",
-    "serving": { "amount": 4.42857143, "unit": "oz", "grams": 122, "calories": 120, "protein": 6 }
+    "note": "Eden",
+    "serving": { "amount": 4.42857143, "unit": "oz", "grams": 130, "calories": 120, "protein": 6, "fiber": 5 }
   },
   {
     "name": "canned cockle",
     "tags": ["protein", "seafood", "fish"],
     "note": "유동 왕꼬막 ",
-    "serving": { "amount": 9.87, "unit": "oz", "grams": 279.65, "calories": 148.05, "protein": 16.45 }
+    "serving": { "amount": 9.87, "unit": "oz", "grams": 279.65, "calories": 154, "protein": 16.8 }
   },
   {
     "name": "canned coconut cream",
     "tags": ["canned", "milk"],
-    "note": "365. For whip: beat 3/4c cream for 3 min til fluffy, then beat in 2.5t powder sugar + 1t extract.",
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 30, "protein": 0 }
+    "note": "Thai Kitchen. For whip: beat 3/4c cream for 3 min til fluffy, then beat in 2.5t powder sugar + 1t extract.",
+    "serving": { "amount": 2, "unit": "tbsp", "grams": 30, "calories": 60, "protein": 0, "fiber": 0 }
   },
   {
     "name": "canned coconut milk",
     "tags": ["canned", "milk"],
     "note": "(light)",
-    "serving": { "amount": 2.7, "unit": "oz", "grams": 80, "calories": 45, "protein": 0 }
+    "serving": { "amount": 2.7, "unit": "oz", "grams": 80, "calories": 45, "protein": 0, "fiber": 0 }
   },
   {
     "name": "canned coconut milk full fat",
     "note": "Thai Kitchen Unsweetened",
     "tags": ["canned", "milk"],
-    "serving": { "amount": 0.333333333333, "unit": "cup", "grams": 80, "calories": 140, "protein": 0 }
+    "serving": { "amount": 0.333333333333, "unit": "cup", "grams": 80, "calories": 140, "protein": 0, "fiber": 0 }
   },
   {
     "name": "canned crushed pineapple",
     "tags": ["canned"],
     "note": "365",
-    "serving": { "amount": 5, "unit": "oz", "grams": 140, "calories": 80, "protein": 0 }
+    "serving": { "amount": 5, "unit": "oz", "grams": 140, "calories": 80, "protein": 0.99, "fiber": 0.99 }
   },
   {
     "name": "canned crushed tomato",
     "tags": ["canned"],
     "note": "365",
-    "serving": { "amount": 2.14285714, "unit": "oz", "grams": 61, "calories": 15, "protein": 0 }
+    "serving": { "amount": 2.14285714, "unit": "oz", "grams": 61, "calories": 15, "protein": 0, "fiber": 0 }
   },
   {
     "name": "canned diced tomato",
     "tags": ["canned"],
     "note": "365",
-    "serving": { "amount": 4.14285714, "unit": "oz", "grams": 120, "calories": 25, "protein": 0 }
+    "serving": { "amount": 4.14285714, "unit": "oz", "grams": 120, "calories": 25, "protein": 0, "fiber": 0 }
   },
   {
     "name": "canned jellied cranberry sauce",
     "tags": ["canned"],
     "note": "365",
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 70, "calories": 116.372796, "protein": 0 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 70, "calories": 110, "protein": 0, "fiber": 0 }
   },
   {
     "name": "canned kidney beans",
     "tags": ["canned", "bean"],
     "note": "365 Organic",
-    "serving": { "amount": 4.42857142857, "unit": "oz", "grams": 130, "calories": 110, "protein": 7 }
+    "serving": { "amount": 4.42857142857, "unit": "oz", "grams": 130, "calories": 100, "protein": 7, "fiber": 8 }
   },
   {
     "name": "canned black olives",
     "tags": ["canned"],
-    "note": "365 black pitted",
-    "serving": { "amount": 0.54545454545, "unit": "oz", "grams": 15, "calories": 20, "protein": 0 }
+    "note": "Natural Grocers Extra Large Non GMO Pitted Olives",
+    "serving": { "amount": 3, "unit": "", "grams": 14, "calories": 15, "protein": 0, "fiber": 0 }
   },
   {
     "name": "canned kalamata olives",
     "tags": ["canned"],
     "note": "365 kalamata pitted AND Divina kalamata pitted",
-    "serving": { "amount": 4, "unit": "", "grams": 15, "calories": 45, "protein": 0 }
+    "serving": { "amount": 4, "unit": "", "grams": 15, "calories": 45, "protein": 0, "fiber": 1 }
   },
   {
     "name": "canned pigeon peas",
     "tags": ["canned", "bean"],
     "note": "Goya",
-    "serving": { "amount": 4.28571429, "unit": "oz", "grams": 125, "calories": 100, "protein": 4 }
+    "serving": { "amount": 4.28571429, "unit": "oz", "grams": 125, "calories": 100, "protein": 5, "fiber": 4 }
   },
   {
     "name": "canned tomato sauce",
     "tags": ["canned"],
     "note": "365",
-    "serving": { "amount": 2.28571429, "unit": "oz", "grams": 63, "calories": 25, "protein": 0 }
+    "serving": { "amount": 2.28571429, "unit": "oz", "grams": 63, "calories": 25, "protein": 1, "fiber": 1 }
   },
   {
     "name": "canned tuna",
     "tags": ["protein", "seafood", "fish"],
     "note": "Dong Won Tuna Light Standard",
-    "serving": { "amount": 3, "unit": "oz", "grams": 85, "calories": 180, "protein": 18 }
+    "serving": { "amount": 3, "unit": "oz", "grams": 85, "calories": 180, "protein": 18, "fiber": 0 }
   },
   {
     "name": "canned whelk",
     "tags": ["protein", "seafood", "fish"],
     "note": "유동 자연산 골뱅이",
-    "serving": { "amount": 14.1, "unit": "oz", "grams": 400, "calories": 300, "protein": 50 }
+    "serving": { "amount": 14.1, "unit": "oz", "grams": 400, "calories": 300, "protein": 50, "fiber": 0 }
   },
   {
     "name": "canned whole tomato",
     "tags": ["canned"],
     "note": "365",
-    "serving": { "amount": 4, "unit": "oz", "grams": 120, "calories": 20, "protein": 0 }
+    "serving": { "amount": 4, "unit": "oz", "grams": 120, "calories": 20, "protein": 0, "fiber": 0 }
   },
   {
     "name": "capers",
     "tags": ["canned"],
-    "note": "365",
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 5, "protein": 0 }
+    "note": "Jeff's Garden",
+    "serving": { "amount": 2, "unit": "tbsp", "grams": 30, "calories": 5, "protein": 1, "fiber": 0 }
   },
   {
     "name": "carrot",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 120, "calories": 49.2, "protein": 1.12 }
+    "source": "https://fdc.nal.usda.gov/food-details/2258586/nutrients",
+    "serving": { "amount": 1, "unit": "", "grams": 120, "calories": 57.6, "protein": 1.128, "fiber": 3.72 }
   },
   {
     "name": "cashew",
     "tags": ["nut"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 170, "protein": 5 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 170, "protein": 5, "fiber": 1 }
   },
   {
     "name": "cayenne",
     "tags": ["spice"],
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 5.3, "calories": 16.9, "protein": 0.637 }
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 5.3, "calories": 16.9, "protein": 0.637, "fiber": 0 }
   },
   {
     "name": "celery",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 40, "calories": 5.6, "protein": 0.276 }
+    "source": "https://fdc.nal.usda.gov/food-details/2346405/nutrients",
+    "serving": { "amount": 1, "unit": "", "grams": 40, "calories": 6.8, "protein": 0.196, "fiber": 0.64 }
   },
   {
     "name": "champagne mango",
+    "source": "https://fdc.nal.usda.gov/food-details/2710834/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 240, "calories": 192, "protein": 2.4 }
+    "serving": { "amount": 1, "unit": "", "grams": 240, "calories": 187.2, "protein": 1.656, "fiber": 3.12 }
   },
   {
     "name": "cheddar",
-    "note": "specifically for Appleby Cheshire",
+    "note": "Appleby Cheshire",
     "tags": ["dairy", "cheese"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 113, "calories": 485.9, "protein": 26.442 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 113, "calories": 485.9, "protein": 26.442, "fiber": 0 }
   },
   {
     "name": "neals yard dairy montgomerys cheddar",
     "tags": ["dairy", "cheese"],
-    "serving": { "amount": 1, "unit": "oz", "grams": 28, "calories": 120, "protein": 6 }
+    "serving": { "amount": 1, "unit": "oz", "grams": 28, "calories": 120, "protein": 7, "fiber": 0 }
   },
   {
     "name": "cheongyang chili pepper",
     "tags": ["produce", "vegetable"],
-    "note": "please croscheck if 1 actually = 8.77g. 100g definitely - 57cal. the grams per unit was a backwards calculation",
-    "serving": { "amount": 1, "unit": "", "grams": 8.77, "calories": 5, "protein": 0.26 }
+    "serving": { "amount": 1, "unit": "", "grams": 45, "calories": 18, "protein": 0.8, "fiber": 0.7 }
+  },
+  {
+    "name": "cherry",
+    "tags": ["produce", "fruit"],
+    "note": "1c = 20-21 cherries",
+    "source": "https://fdc.nal.usda.gov/food-details/2346399/nutrients",
+    "serving": { "amount": 1, "unit": "", "grams": 7, "calories": 4.97, "protein": 0.073, "fiber": 0.147 }
   },
   {
     "name": "cherry tomato",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 17, "calories": 3.06, "protein": 0.15 }
+    "source": "https://fdc.nal.usda.gov/food-details/321360/nutrients",
+    "serving": { "amount": 5, "unit": "", "grams": 49.7, "calories": 15.4, "protein": 0.413, "fiber": 1.04 }
   },
   {
     "name": "chestnut mushroom",
     "tags": ["produce", "vegetable", "mushroom"],
     "note": "Trim stems to even length (large caps ok to thickly slice if needed).\nToss 8oz mushroom with 2T oil, 1/4tsp salt, pinch pepper and thyme, 3 crushed garlic.\nLay out on single layer in lined baking sheet. Roast at 425F for 20-25min or til lightly brown, rotating the pan 15 min in.",
-    "serving": { "amount": 3.5, "unit": "oz", "grams": 100, "calories": 15, "protein": 0 }
+    "serving": { "amount": 3.5, "unit": "oz", "grams": 100, "calories": 37, "protein": 2.6, "fiber": 1.7 }
   },
   {
     "name": "chia seed",
+    "note": "Volupta chia seeds",
     "tags": ["grain"],
-    "serving": { "amount": 3, "unit": "tbsp", "grams": 30, "calories": 160, "protein": 6 }
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 30, "calories": 160, "protein": 6, "fiber": 10 }
   },
   {
     "name": "chicken breast",
@@ -432,7 +505,7 @@
     "name": "chicken broth",
     "tags": ["canned"],
     "note": "Imagine Foods Low Sodium Free Ranch Chicken Broth",
-    "serving": { "amount": 1, "unit": "cup", "grams": 240, "calories": 20, "protein": 1 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 240, "calories": 20, "protein": 1, "fiber": 0 }
   },
   {
     "name": "chicken drumstick",
@@ -455,19 +528,19 @@
     "name": "chicken breakfast sausage",
     "tags": ["protein", "meat", "poultry"],
     "note": "Bilinski's Classic Sage Breakfast",
-    "serving": { "amount": 2, "unit": "", "grams": 48, "calories": 60, "protein": 10 }
+    "serving": { "amount": 2, "unit": "", "grams": 48, "calories": 60, "protein": 10, "fiber": 0 }
   },
   {
     "name": "chicken sausage",
     "tags": ["protein", "meat", "poultry"],
     "note": "365 Andouille",
-    "serving": { "amount": 3, "unit": "oz", "grams": 85, "calories": 150, "protein": 15 }
+    "serving": { "amount": 3, "unit": "oz", "grams": 85, "calories": 150, "protein": 15, "fiber": 0 }
   },
   {
     "name": "chicken stock",
     "tags": ["canned"],
     "note": "Pacific Chicken Stock Unsalted",
-    "serving": { "amount": 1, "unit": "cup", "grams": 240, "calories": 30, "protein": 6 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 240, "calories": 30, "protein": 6, "fiber": 0 }
   },
   {
     "name": "chicken thigh",
@@ -477,31 +550,33 @@
   {
     "name": "chili oil",
     "tags": ["sauce", "oil"],
-    "serving": { "amount": 50, "unit": "tbsp", "grams": 393, "calories": 3144.7, "protein": 0.1 }
+    "serving": { "amount": 50, "unit": "tbsp", "grams": 393, "calories": 3144.7, "protein": 0.1, "fiber": 0 }
   },
   {
     "name": "chinese broccoli",
     "tags": ["produce", "vegetable"],
     "note": "1 bunch from hmart was ~1lb",
-    "serving": { "amount": 100, "unit": "g", "grams": 100, "calories": 26, "protein": 1.2 }
+    "source": "https://fdc.nal.usda.gov/food-details/169404/nutrients",
+    "serving": { "amount": 100, "unit": "g", "grams": 100, "calories": 26, "protein": 1.2, "fiber": 2.6 }
   },
   {
     "name": "chive",
     "tags": ["produce", "vegetable"],
     "note": "garlic chive. 1 bundle from hmart ~50g",
-    "serving": { "amount": 100, "unit": "g", "grams": 100, "calories": 30, "protein": 3.27 }
+    "source": "https://fdc.nal.usda.gov/food-details/169994/nutrients",
+    "serving": { "amount": 100, "unit": "g", "grams": 100, "calories": 30, "protein": 3.27, "fiber": 2.5 }
   },
   {
     "name": "chocolate chips",
     "tags": ["baking"],
-    "note": "365 dark chocolate baking chunks",
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 70, "protein": 1 }
+    "note": "Enjoy Life Baking Dark Chocolate Morsels",
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 70, "protein": 1, "fiber": 2 }
   },
   {
     "name": "chunjang",
     "tags": ["sauce"],
     "note": "Mr Jin Firey chunjang (black bean paste)",
-    "serving": { "amount": 100, "unit": "g", "grams": 100, "calories": 260, "protein": 11 }
+    "serving": { "amount": 100, "unit": "g", "grams": 100, "calories": 260, "protein": 11, "fiber": 0 }
   },
   {
     "name": "cinnamon stick",
@@ -512,74 +587,80 @@
     "name": "clam",
     "tags": ["protein", "seafood", "shellfish"],
     "note": "1lb SHELLED. 1lb shelled yields about 68g",
-    "serving": { "amount": 1, "unit": "lb", "grams": 453.59237, "calories": 58.5, "protein": 9.98 }
+    "source": "https://fdc.nal.usda.gov/food-details/174214/nutrients",
+    "serving": { "amount": 1, "unit": "lb", "grams": 453.59237, "calories": 58.5, "protein": 9.98, "fiber": 0 }
   },
   {
     "name": "coarse salt",
     "tags": ["spice"],
-    "note": "these measurements are rough estimates... 1/4c measured at 44-45g",
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 45, "calories": 0, "protein": 0 }
+    "note": "these measurements are rough estimates... 1/4c measured at 44-45g, 52g, 53g",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 45, "calories": 0, "protein": 0, "fiber": 0 }
   },
   {
     "name": "cocoa powder",
     "tags": ["baking"],
     "note": "365",
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 6, "calories": 10, "protein": 1 }
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 6, "calories": 10, "protein": 1, "fiber": 2 }
   },
   {
     "name": "coconut meat",
     "tags": ["produce", "fruit"],
     "note": "average amount research: 81g, 129g, 189g, 144g",
-    "serving": { "amount": 1, "unit": "", "grams": 150, "calories": 135, "protein": 3 }
+    "serving": { "amount": 1, "unit": "", "grams": 150, "calories": 531, "protein": 4.5, "fiber": 13.5 }
   },
   {
     "name": "coconut water",
     "tags": ["produce", "fruit"],
     "note": "average amount research: 381g, 300g, 243g, 297g, 431g",
-    "serving": { "amount": 1, "unit": "", "grams": 300, "calories": 121.73913, "protein": 0.869565216 }
+    "serving": { "amount": 1, "unit": "", "grams": 300, "calories": 54, "protein": 0, "fiber": 0 }
   },
   {
     "name": "cod",
+    "source": "https://fdc.nal.usda.gov/food-details/2684444/nutrients",
     "tags": ["protein", "seafood", "fish"],
-    "serving": { "amount": 3, "unit": "oz", "grams": 85, "calories": 69.7, "protein": 15.1 }
+    "serving": { "amount": 3, "unit": "oz", "grams": 85, "calories": 56.1, "protein": 13.685 }
   },
   {
     "name": "collard greens bunch",
     "tags": ["produce", "vegetable"],
+    "source": "https://fdc.nal.usda.gov/food-details/2685574/nutrients",
     "note": "1 bunch = 8-9 leaves = 2/3 lbs = 4.5 cups",
-    "serving": { "amount": 1, "unit": "", "grams": 302.3949, "calories": 96.766368, "protein": 9.13232598, "fiber": 12.095796 }
+    "serving": { "amount": 1, "unit": "", "grams": 302.3949, "calories": 142.125603, "protein": 8.98112853, "fiber": 11.491 }
   },
   {
     "name": "collard greens chopped",
+    "source": "https://fdc.nal.usda.gov/food-details/2685574/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 36, "calories": 11.5, "protein": 1.09, "fiber": 1.44 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 36, "calories": 16.92, "protein": 1.0692, "fiber": 1.368 }
   },
   {
     "name": "condensed milk",
+    "note": "California Farms Sweetened Condensed Milk Full Cream",
     "tags": ["canned", "dairy", "milk"],
-    "serving": { "amount": 2, "unit": "tbsp", "grams": 39, "calories": 130, "protein": 3 }
+    "serving": { "amount": 2, "unit": "tbsp", "grams": 39, "calories": 130, "protein": 3, "fiber": 0 }
   },
   {
     "name": "cooked beets",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 0.5, "unit": "cup", "grams": 95, "calories": 45, "protein": 1 }
+    "serving": { "amount": 0.5, "unit": "cup", "grams": 95, "calories": 45, "protein": 1, "fiber": 2 }
   },
   {
     "name": "cornstarch",
     "tags": ["baking"],
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 8, "calories": 30, "protein": 0 }
+    "note": "Let's Do Organics Organic Cornstarch",
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 8, "calories": 30, "protein": 0, "fiber": 0 }
   },
   {
     "name": "corn flour",
     "tags": ["grain", "baking"],
     "note": "Bob's Red Mill",
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 31, "calories": 120, "protein": 2 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 31, "calories": 120, "protein": 2, "fiber": 2 }
   },
   {
     "name": "cottage cheese",
     "tags": ["dairy", "cheese"],
     "note": "Good Culture 2% Low-Fat Cottage Cheese",
-    "serving": { "amount": 0.5, "unit": "cup", "grams": 110, "calories": 80, "protein": 14 }
+    "serving": { "amount": 0.5, "unit": "cup", "grams": 110, "calories": 80, "protein": 14, "fiber": 0 }
   },
   {
     "name": "cottage cheese full fat",
@@ -590,69 +671,86 @@
   {
     "name": "cream cheese",
     "tags": ["dairy", "cheese"],
-    "serving": { "amount": 2, "unit": "tbsp", "grams": 30, "calories": 110, "protein": 2 }
+    "serving": { "amount": 2, "unit": "tbsp", "grams": 30, "calories": 110, "protein": 2, "fiber": 0 }
+  },
+  {
+    "name": "creme fraiche",
+    "tags": ["dairy"],
+    "note": "Creme Fraiche Creme D'isigny A.O.P",
+    "serving": { "amount": 1.86666667, "unit": "tbsp", "grams": 28, "calories": 110, "protein": 0, "fiber": 0 }
   },
   {
     "name": "cucumber",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 200, "calories": 30, "protein": 1.3 }
+    "source": "https://fdc.nal.usda.gov/food-details/2346406/nutrients",
+    "serving": { "amount": 1, "unit": "", "grams": 200, "calories": 32, "protein": 1.24, "fiber": 1 }
   },
   {
     "name": "cumin seed",
     "tags": ["spice"],
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 6, "calories": 22.5, "protein": 1.07 }
+    "source": "https://fdc.nal.usda.gov/food-details/170923/nutrients",
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 6, "calories": 22.5, "protein": 1.07, "fiber": 0.63 }
   },
   {
     "name": "daikon",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 338, "calories": 60.8, "protein": 2.03 }
+    "source": "https://fdc.nal.usda.gov/food-details/2709803/nutrients",
+    "serving": { "amount": 1, "unit": "", "grams": 338, "calories": 54.08, "protein": 2.2984, "fiber": 5.408 }
   },
   {
     "name": "dark chocolate",
     "tags": ["baking"],
-    "note": "Dar dark chocolate (70%)",
-    "serving": { "amount": 0.125, "unit": "cup", "grams": 17, "calories": 80, "protein": 2 }
+    "note": "Theo Pure 70%",
+    "serving": { "amount": 0.125, "unit": "cup", "grams": 17, "calories": 103.2142, "protein": 1.214, "fiber": 1.82142 }
   },
   {
     "name": "dark soy sauce",
     "tags": ["sauce"],
     "note": "sempio brand",
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 10, "protein": 1 }
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 10, "protein": 17, "fiber": 0 }
   },
   {
     "name": "date",
     "tags": ["produce", "fruit"],
-    "note": "Natural Delights medjool dates",
-    "serving": { "amount": 2, "unit": "", "grams": 40, "calories": 110, "protein": 1, "fiber": 3 }
+    "note": "pitted weight",
+    "serving": { "amount": 2, "unit": "", "grams": 16, "calories": 110, "protein": 1, "fiber": 3 }
   },
   {
     "name": "delicata squash",
     "tags": ["produce", "vegetable"],
+    "source": "https://fdc.nal.usda.gov/food-details/2413851/nutrients",
     "note": "bake at 350F for 45min (for 1/2\" slices) or 1hr (for halves); can eat skin!",
-    "serving": { "amount": 1, "unit": "", "grams": 205, "calories": 76, "protein": 1.8 }
+    "serving": { "amount": 1, "unit": "", "grams": 205, "calories": 73.8, "protein": 1.4555, "fiber": 2.87 }
   },
   {
     "name": "dijon mustard",
+    "note": "Bornier Wholegrain Dijon Mustard",
     "tags": ["sauce"],
-    "serving": { "amount": 1, "unit": "tsp", "grams": 5, "calories": 0, "protein": 0 }
+    "serving": { "amount": 1, "unit": "tsp", "grams": 10, "calories": 0, "protein": 0, "fiber": 0 }
   },
   {
     "name": "doenjang",
     "tags": ["sauce"],
     "note": "[된장]; buy CJ or 청정원",
-    "serving": { "amount": 1, "unit": "tsp", "grams": 6, "calories": 5, "protein": 0 }
+    "serving": { "amount": 1, "unit": "tsp", "grams": 6, "calories": 5, "protein": 0, "fiber": 0 }
   },
   {
     "name": "doubanjiang",
     "tags": ["sauce"],
-    "note": "(chili bean sauce)",
-    "serving": { "amount": 2, "unit": "tsp", "grams": 12, "calories": 10, "protein": 0 }
+    "note": "lee kum kee chili bean sauce",
+    "serving": { "amount": 1.5, "unit": "tsp", "grams": 9, "calories": 8, "protein": 0.3 }
   },
   {
     "name": "douchi",
     "tags": ["bean"],
-    "note": "(fermented black beans)",
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 40, "protein": 4 }
+    "note": "Mee Chun Salted Black Bean",
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 48.21428, "protein": 0, "fiber": 0 }
+  },
+  {
+    "name": "dried adzuki bean",
+    "tags": ["bean"],
+    "note": "1 15oz can = 1/2 cups dried. Food to Live Adzuki Beans",
+    "serving": { "amount": 0.5, "unit": "cup", "grams": 35, "calories": 115, "protein": 6.9, "fiber": 4.4 }
   },
   {
     "name": "dried ancho chile",
@@ -671,10 +769,43 @@
     "serving": { "amount": 1, "unit": "tbsp", "grams": 2.1, "calories": 4.89, "protein": 0.483 }
   },
   {
+    "name": "dried black bean",
+    "tags": ["bean"],
+    "note": "~3/4c dried = 1 15oz can. includes Buckeye, Black Turtle, Midnight Black",
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 35, "calories": 120, "protein": 7, "fiber": 5 },
+    "servingBuckeye": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 130, "protein": 10, "fiber": 12 },
+    "servingBlackTurtle": { "amount": 3, "unit": "tbsp", "grams": 35, "calories": 120, "protein": 7, "fiber": 5 },
+    "servingMidnightBlack": { "amount": 3, "unit": "tbsp", "grams": 36, "calories": 120, "protein": 8, "fiber": 16 }
+  },
+  {
     "name": "dried chili pepper",
     "tags": ["produce", "vegetable"],
     "note": "???? check facts",
     "serving": { "amount": 1, "unit": "cup", "grams": 37, "calories": 120, "protein": 3.9 }
+  },
+  {
+    "name": "dried coconut flakes",
+    "tags": ["baking"],
+    "note": "Bob's Red Mill Unsweetened Coconut Flakes",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 15, "calories": 100, "protein": 1, "fiber": 3 }
+  },
+  {
+    "name": "dried curry leaves",
+    "tags": ["spice"],
+    "note": "???? check facts",
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 1, "calories": 1, "protein": 0.12 }
+  },
+    {
+    "name": "dried fig",
+    "note": "Sunny Fruit Organic Sun-Dried Figs",
+    "tags": ["produce", "fruit"],
+    "serving": { "amount": 2, "unit": "", "grams": 40, "calories": 110, "protein": 1, "fiber": 4 }
+  },
+  {
+    "name": "dried garbanzo bean",
+    "tags": ["bean"],
+    "note": "~3/4c dried = 1 15oz can. 1c dried beans = 3c cooked beans",
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 35, "calories": 130, "protein": 7, "fiber": 4 }
   },
   {
     "name": "dried gosari",
@@ -689,22 +820,64 @@
     "serving": { "amount": 1, "unit": "", "grams": 6, "calories": 19, "protein": 0.7 }
   },
   {
+    "name": "dried heirloom bean",
+    "tags": ["bean"],
+    "note": "1c dried beans = 3c cooked beans. includes Ayocote Morado, Cranberry, King City Pink, Mayocoba, Moro, Occhio della Capra, Vaquero, Yellow Eye",
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 36, "calories": 130, "protein": 7, "fiber": 13 },
+    "servingAyocoteMorado": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 130, "protein": 7, "fiber": 13 },
+    "servingCranberry": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 120, "protein": 8, "fiber": 13 },
+    "servingKingCityPink": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 130, "protein": 9, "fiber": 14 },
+    "servingMayocoba": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 130, "protein": 7, "fiber": 11 },
+    "servingMoro": { "amount": 3, "unit": "tbsp", "grams": 36, "calories": 130, "protein": 8, "fiber": 13 },
+    "servingOcchioDellaCapra": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 130, "protein": 7, "fiber": 13 },
+    "servingVaquero": { "amount": 3, "unit": "tbsp", "grams": 33, "calories": 120, "protein": 7, "fiber": 6 },
+    "servingYellowEye": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 130, "protein": 9, "fiber": 12 }
+  },
+  {
     "name": "dried kelp",
     "tags": [],
     "note": "Ottogi Cut Sea Tangle (dashima)",
-    "serving": { "amount": 0.4, "unit": "oz", "grams": 10, "calories": 30, "protein": 0 }
+    "serving": { "amount": 0.4, "unit": "oz", "grams": 10, "calories": 30, "protein": 0, "fiber": 0 }
+  },
+  {
+    "name": "dried kidney bean",
+    "tags": ["bean"],
+    "note": "~3/4c dried = 1 15oz can. 1c dried beans = 3c cooked beans.",
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 35, "calories": 120, "protein": 8, "fiber": 5 }
+  },
+  {
+    "name": "dried lentil",
+    "tags": ["bean"],
+    "note": "includes French Style Green Lentil",
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 140, "protein": 9, "fiber": 9 },
+    "servingFrenchStyleGreenLentil": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 140, "protein": 9, "fiber": 9 }
+  },
+  {
+    "name": "dried lima bean",
+    "tags": ["bean"],
+    "note": "1c dried beans = 3c cooked beans. includes Christmas Lima, Large White Lima",
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 130, "protein": 7, "fiber": 11 },
+    "servingChristmasLima": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 130, "protein": 7, "fiber": 11 },
+    "servingLargeWhiteLima": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 120, "protein": 9, "fiber": 12 }
+  },
+  {
+    "name": "dried red bean",
+    "tags": ["bean"],
+    "note": "~3/4c dried = 1 15oz can. 1c dried beans = 3c cooked beans. includes Domingo Rojo",
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 130, "protein": 8, "fiber": 14 },
+    "servingDomingoRojo": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 130, "protein": 8, "fiber": 14 }
+  },
+  {
+    "name": "dried miyeok",
+    "tags": [],
+    "note": "Ottogi Seaweed",
+    "serving": { "amount": 0.1, "unit": "oz", "grams": 2.5, "calories": 5, "protein": 0, "fiber": 0 }
   },
   {
     "name": "dried morita chile",
     "tags": ["produce", "vegetable"],
     "note": "the grams for 1 chile is just an estimate...",
     "serving": { "amount": 1, "unit": "", "grams": 5, "calories": 15, "protein": 0.6 }
-  },
-  {
-    "name": "dried miyeok",
-    "tags": [],
-    "note": "Ottogi Seaweed",
-    "serving": { "amount": 0.1, "unit": "oz", "grams": 2.5, "calories": 5, "protein": 0 }
   },
   {
     "name": "dried oregano",
@@ -724,15 +897,17 @@
   },
   {
     "name": "dried prune",
+    "note": "Amazon Sunsweet",
     "tags": ["produce", "fruit"],
-    "note": "???? check facts",
-    "serving": { "amount": 1, "unit": "", "grams": 9.5, "calories": 23, "protein": 0.2, "fiber": 0.7 }
+    "serving": { "amount": 5, "unit": "", "grams": 40, "calories": 100, "protein": 1, "fiber": 3 }
   },
   {
     "name": "dried pinto bean",
     "tags": ["bean"],
-    "note": "1c dried beans = 3c cooked beans. ~1/2c dried baens = 1 15oz canned beans",
-    "serving": { "amount": 2, "unit": "cup", "grams": 448, "calories": 1568, "protein": 96 }
+    "note": "1c dried beans = 3c cooked beans. ~1/2c dried beans = 1 15oz canned beans. includes Rio Zape",
+    "serving": { "amount": 2, "unit": "cup", "grams": 448, "calories": 1568, "protein": 96 },
+    "servingPinto": { "amount": 2, "unit": "cup", "grams": 448, "calories": 1568, "protein": 96 },
+    "servingRioZape": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 130, "protein": 9, "fiber": 12 }
   },
   {
     "name": "dried radish leaves",
@@ -744,6 +919,19 @@
     "name": "dried rosemary",
     "tags": ["herb"],
     "serving": { "amount": 1, "unit": "tbsp", "grams": 3.3, "calories": 10.9, "protein": 0.161 }
+  },
+  {
+    "name": "dried royal corona bean",
+    "tags": ["bean"],
+    "note": "1c dried beans = 3c cooked beans",
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 120, "protein": 9, "fiber": 8 }
+  },
+  {
+    "name": "dried runner bean",
+    "tags": ["bean"],
+    "note": "1c dried beans = 3c cooked beans. includes Scarlet Runner",
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 120, "protein": 7, "fiber": 12 },
+    "servingScarletRunner": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 120, "protein": 7, "fiber": 12 }
   },
   {
     "name": "dried shiitake mushroom",
@@ -759,7 +947,13 @@
     "name": "dried soy bean",
     "tags": ["bean"],
     "note": "Raw Nature brand",
-    "serving": { "amount": 0.5, "unit": "cup", "grams": 80, "calories": 347.2, "protein": 33.6 }
+    "serving": { "amount": 0.5, "unit": "cup", "grams": 80, "calories": 347.2, "protein": 33.6, "fiber": 2 }
+  },
+  {
+    "name": "dried split mung bean",
+    "tags": ["bean"],
+    "note": "ROM america brand. Important to use split (deskinned) yellow mung bean, not whole (green) mung bean",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 40, "calories": 45, "protein": 1, "fiber": 0 }
   },
   {
     "name": "dried sweet potato stem",
@@ -768,9 +962,23 @@
     "serving": { "amount": 3.52, "unit": "oz", "grams": 100, "calories": 292, "protein": 6 }
   },
   {
+    "name": "dried taro stem",
+    "tags": ["produce"],
+    "note": "??? 토란대. unknown nutrition",
+    "serving": { "amount": 0.9, "unit": "oz", "grams": 28, "calories": 80, "protein": 0 }
+  },
+  {
     "name": "dried thyme",
     "tags": ["herb"],
     "serving": { "amount": 1, "unit": "tbsp", "grams": 2.7, "calories": 7.45, "protein": 0.246 }
+  },
+  {
+    "name": "dried white bean",
+    "tags": ["bean"],
+    "note": "1c dried beans = 3c cooked beans. includes Alubia Blanca, Marcella",
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 38, "calories": 140, "protein": 7, "fiber": 12 },
+    "servingAlubiaBlanca": { "amount": 3, "unit": "tbsp", "grams": 37, "calories": 120, "protein": 8, "fiber": 6 },
+    "servingMarcella": { "amount": 3, "unit": "tbsp", "grams": 38, "calories": 140, "protein": 7, "fiber": 12 }
   },
   {
     "name": "dried wood ear",
@@ -779,22 +987,10 @@
     "serving": { "amount": 7, "unit": "g", "grams": 7, "calories": 25, "protein": 10 }
   },
   {
-    "name": "dry chickpeas",
-    "tags": ["bean"],
-    "note": "365",
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 50, "calories": 180, "protein": 10 }
-  },
-  {
     "name": "dry wheat noodle",
     "tags": ["noodle"],
     "note": "Baeksul Somen - cook for 3:30-4:30 and rinse. (Ottogi wide round wheat noodles also good!!)",
     "serving": { "amount": 2, "unit": "oz", "grams": 56, "calories": 190, "protein": 5 }
-  },
-  {
-    "name": "dry yellow mustard seed",
-    "tags": ["spice"],
-    "note": "calories for just mustard seeds",
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 6.3, "calories": 32, "protein": 1.6 }
   },
   {
     "name": "duck breast",
@@ -806,66 +1002,72 @@
     "name": "egg",
     "tags": ["protein", "poultry"],
     "note": "For Korean sauna baked eggs: Wrap eggs in foil and bake at 200F/93C for 4hr or 9-10hr.",
-    "serving": { "amount": 1, "unit": "", "grams": 50, "calories": 70, "protein": 6 }
+    "serving": { "amount": 1, "unit": "", "grams": 50, "calories": 70, "protein": 6, "fiber": 0 }
   },
   {
     "name": "egg white",
     "tags": ["protein", "poultry"],
-    "serving": { "amount": 1, "unit": "", "grams": 33, "calories": 17, "protein": 3.5 }
+    "serving": { "amount": 1, "unit": "", "grams": 33, "calories": 17, "protein": 3.5, "fiber": 0 }
   },
   {
     "name": "egg yolk",
     "tags": ["protein", "poultry"],
-    "serving": { "amount": 1, "unit": "", "grams": 17, "calories": 55, "protein": 2.7 }
+    "serving": { "amount": 1, "unit": "", "grams": 17, "calories": 55, "protein": 2.7, "fiber": 0 }
   },
   {
     "name": "eggplant",
+    "source": "https://fdc.nal.usda.gov/food-details/2685577/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 500, "calories": 125, "protein": 4.9 }
+    "serving": { "amount": 1, "unit": "", "grams": 500, "calories": 130, "protein": 4.25, "fiber": 12 }
   },
   {
     "name": "farmers cheese",
+    "note": "365 farmers cheese",
     "tags": ["dairy", "cheese"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 55, "calories": 80, "protein": 6 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 55, "calories": 80, "protein": 6, "fiber": 0 }
   },
   {
     "name": "farro",
     "tags": ["grain"],
     "note": "Bob's Red Mill",
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 52, "calories": 190, "protein": 6 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 52, "calories": 190, "protein": 6, "fiber": 5 }
   },
   {
     "name": "fennel seed",
+    "source": "https://fdc.nal.usda.gov/food-details/171323/nutrients",
     "tags": ["spice"],
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 5.8, "calories": 20, "protein": 0.916 }
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 5.8, "calories": 20, "protein": 0.916, "fiber": 2.31 }
+  },
+  {
+    "name": "fenugreek seed",
+    "source": "https://fdc.nal.usda.gov/food-details/171324/nutrients",
+    "tags": ["spice"],
+    "serving": { "amount": 1, "unit": "tsp", "grams": 3.7, "calories": 12, "protein": 0.85, "fiber": 0.91 }
   },
   {
     "name": "feta",
+    "note": "Kourellas Organic Barrel Aged Feta",
     "tags": ["dairy", "cheese"],
-    "serving": { "amount": 1, "unit": "oz", "grams": 28, "calories": 80, "protein": 5 }
+    "serving": { "amount": 1, "unit": "oz", "grams": 28, "calories": 80, "protein": 5, "fiber": 0 }
   },
   {
     "name": "fig",
+    "source": "https://fdc.nal.usda.gov/food-details/173021/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 64, "calories": 47.4, "protein": 0.48 }
+    "serving": { "amount": 1, "unit": "", "grams": 64, "calories": 47.4, "protein": 0.48, "fiber": 1.86 }
   },
   {
     "name": "firm tofu block",
     "tags": ["protein"],
     "note": "Pulmuone Organic Firm Tofu",
-    "serving": { "amount": 1, "unit": "", "grams": 397, "calories": 400, "protein": 40 },
-    "serving (inorganic)": { "amount": 1, "unit": "", "grams": 454, "calories": 400, "protein": 40 }
-  },
-  {
-    "name": "firm tofu american",
-    "tags": ["protein"],
-    "serving": { "amount": 3, "unit": "oz", "grams": 85, "calories": 70, "protein": 7 }
+    "serving": { "amount": 1, "unit": "", "grams": 397, "calories": 400, "protein": 40, "fiber": 5 },
+    "serving (inorganic)": { "amount": 1, "unit": "", "grams": 454, "calories": 400, "protein": 40, "fiber": 5 }
   },
   {
     "name": "fish balls",
     "tags": ["protein", "seafood"],
     "note": "wei-chuan Fish Balls",
-    "serving": { "amount": 6, "unit": "", "grams": 76, "calories": 90, "protein": 9 }
+    "serving": { "amount": 7, "unit": "", "grams": 89, "calories": 110, "protein": 9, "fiber": 0 }
   },
   {
     "name": "fish cake sheet",
@@ -880,45 +1082,81 @@
     "serving": { "amount": 1, "unit": "tbsp", "grams": 15, "calories": 15, "protein": 2 }
   },
   {
+    "name": "flax seed",
+    "tags": ["grain", "baking"],
+    "note": "Natural Grocers Bulk Brown Flax Seeds",
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 30, "calories": 160, "protein": 7, "fiber": 8 }
+  },
+  {
     "name": "flour",
     "tags": ["grain", "baking"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 110, "protein": 3 }
+    "note": "King Arthur All-Purpose Flour Organic",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 110, "protein": 4, "fiber": 0 }
   },
   {
     "name": "fresh basil",
+    "source": "https://fdc.nal.usda.gov/food-details/172232/nutrients",
     "tags": ["produce", "herb"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 6, "calories": 1.38, "protein": 0.189 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 6, "calories": 1.38, "protein": 0.189, "fiber": 0.096 }
   },
   {
     "name": "fresh cilantro",
+    "source": "https://fdc.nal.usda.gov/food-details/169997/nutrients",
     "tags": ["produce", "herb"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 16, "calories": 3.68, "protein": 0.341 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 4, "calories": 0.92, "protein": 0.085, "fiber": 0.112 }
   },
   {
     "name": "fresh dill",
     "tags": ["produce", "herb"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 8.9, "calories": 3.83, "protein": 0.308 }
+    "source": "https://fdc.nal.usda.gov/food-details/172233/nutrients",
+    "serving": { "amount": 1, "unit": "cup", "grams": 8.9, "calories": 3.83, "protein": 0.308, "fiber": 0.187 }
+  },
+  {
+    "name": "fresh holy basil",
+    "tags": ["produce", "herb"],
+    "source": "https://fdc.nal.usda.gov/food-details/172232/nutrients",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 6, "calories": 1.38, "protein": 0.189, "fiber": 0.096 }
   },
   {
     "name": "fresh mint",
+    "source": "https://fdc.nal.usda.gov/food-details/173474/nutrients",
     "tags": ["produce", "herb"],
-    "serving": { "amount": 2, "unit": "tbsp", "grams": 11, "calories": 5, "protein": 0.4 }
+    "serving": { "amount": 2, "unit": "tbsp", "grams": 3.2, "calories": 2.24, "protein": 0.12, "fiber": 0.256 }
   },
   {
     "name": "fresh parsley",
     "tags": ["produce", "herb"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 60, "calories": 21.6, "protein": 1.78 }
+    "source": "https://fdc.nal.usda.gov/food-details/170416/nutrients",
+    "serving": { "amount": 1, "unit": "cup", "grams": 60, "calories": 21.6, "protein": 1.78, "fiber": 1.98 }
   },
   {
     "name": "fresh rosemary",
     "tags": ["produce", "herb"],
-    "serving": { "amount": 1, "unit": "tbsp", "grams": 1.7, "calories": 2.23, "protein": 0.056 }
+    "source": "https://fdc.nal.usda.gov/food-details/173473/nutrients",
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 1.7, "calories": 2.23, "protein": 0.056, "fiber": 0.24 }
+  },
+  {
+    "name": "fresh sage",
+    "tags": ["produce", "herb"],
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 2, "calories": 6, "protein": 0, "fiber": 1 }
+  },
+  {
+    "name": "fresh thai basil",
+    "tags": ["produce", "herb"],
+    "source": "https://fdc.nal.usda.gov/food-details/172232/nutrients",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 6, "calories": 1.38, "protein": 0.189, "fiber": 0.096 }
+  },
+  {
+    "name": "fresh thyme",
+    "tags": ["produce", "herb"],
+    "source": "https://fdc.nal.usda.gov/food-details/173470/nutrients",
+    "serving": { "amount": 1, "unit": "tsp", "grams": 0.8, "calories": 0.808, "protein": 0.044, "fiber": 0.112 }
   },
   {
     "name": "fried tofu puffs",
     "tags": ["protein"],
     "note": "Nature's Soy Soy Puffs",
-    "serving": { "amount": 2, "unit": "oz", "grams": 57, "calories": 120, "protein": 13 }
+    "serving": { "amount": 2, "unit": "oz", "grams": 57, "calories": 120, "protein": 13, "fiber": 3 }
   },
   {
     "name": "frozen berry mix",
@@ -928,8 +1166,9 @@
   },
   {
     "name": "frozen corn",
+    "note": "Cascadian Farm Organic Frozen Sweet Corn",
     "tags": ["produce"],
-    "serving": { "amount": 0.5, "unit": "cup", "grams": 85, "calories": 90, "protein": 3 }
+    "serving": { "amount": 0.666666666667, "unit": "cup", "grams": 95, "calories": 100, "protein": 3, "fiber": 2 }
   },
   {
     "name": "frozen dinner roll",
@@ -938,34 +1177,38 @@
   },
   {
     "name": "frozen fries",
-    "note": "Alexia",
+    "note": "Alexia Organic Yukon Gold",
     "tags": ["misc"],
-    "serving": { "amount": 3, "unit": "oz", "grams": 84, "calories": 124, "protein": 2 }
-  },
-  {
-    "name": "frozen mixed vegetables",
-    "tags": ["produce"],
-    "serving": { "amount": 0.6666667, "unit": "cup", "grams": 85, "calories": 60, "protein": 3 }
+    "serving": { "amount": 3, "unit": "oz", "grams": 84, "calories": 100, "protein": 2, "fiber": 2 }
   },
   {
     "name": "frozen peas",
     "tags": ["produce"],
-    "serving": { "amount": 0.5, "unit": "cup", "grams": 85, "calories": 70, "protein": 4 }
+    "note": "Cascadian Farm Organic Frozen Sweet Peas",
+    "serving": { "amount": 0.666666666667, "unit": "cup", "grams": 91, "calories": 70, "protein": 5, "fiber": 4 }
   },
   {
     "name": "frozen shrimp",
     "tags": ["protein", "seafood", "shellfish"],
-    "serving": { "amount": 3, "unit": "", "grams": 85, "calories": 60, "protein": 13 }
+    "serving": { "amount": 3, "unit": "", "grams": 85, "calories": 60, "protein": 13, "fiber": 0 }
   },
   {
     "name": "gai lan",
+    "source": "https://fdc.nal.usda.gov/food-details/169404/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 100, "unit": "g", "grams": 100, "calories": 23, "protein": 1 }
+    "serving": { "amount": 100, "unit": "g", "grams": 100, "calories": 26, "protein": 1.2, "fiber": 2.6 }
+  },
+  {
+    "name": "garbanzo flour",
+    "note": "Natural Grocers Organic Garbanzo Flour",
+    "tags": ["baking"],
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 120, "protein": 7, "fiber": 3 }
   },
   {
     "name": "garlic",
+    "source": "https://fdc.nal.usda.gov/food-details/1104647/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 3, "calories": 4.47, "protein": 0.191 }
+    "serving": { "amount": 1, "unit": "", "grams": 3, "calories": 4.29, "protein": 0.1986, "fiber": 0.0681 }
   },
   {
     "name": "garlic powder",
@@ -980,14 +1223,15 @@
   },
   {
     "name": "ginger",
+    "source": "https://fdc.nal.usda.gov/food-details/169231/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "tsp", "grams": 2, "calories": 1.6, "protein": 0.036 }
+    "serving": { "amount": 1, "unit": "tsp", "grams": 2, "calories": 1.6, "protein": 0.036, "fiber": 0.04 }
   },
   {
     "name": "glutinous rice flour",
     "note": "3 ladies",
     "tags": ["baking"],
-    "serving": { "amount": 0.333333333333333, "unit": "cup", "grams": 30, "calories": 110, "protein": 2 }
+    "serving": { "amount": 2.5, "unit": "tbsp", "grams": 30, "calories": 110, "protein": 2 }
   },
   {
     "name": "goat",
@@ -1009,13 +1253,9 @@
   },
   {
     "name": "grape",
+    "source": "https://fdc.nal.usda.gov/food-details/174683/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 151, "calories": 104, "protein": 1.09 }
-  },
-  {
-    "name": "grape tomato",
-    "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 8, "calories": 1.44, "protein": 0.07 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 151, "calories": 104, "protein": 1.09, "fiber": 1.36 }
   },
   {
     "name": "greek yogurt",
@@ -1031,8 +1271,9 @@
   },
   {
     "name": "green bell pepper",
+    "source": "https://fdc.nal.usda.gov/food-details/2258588/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 120, "calories": 24, "protein": 1.03 }
+    "serving": { "amount": 1, "unit": "", "grams": 120, "calories": 27.6, "protein": 0.864, "fiber": 1.08 }
   },
   {
     "name": "green cardamom pod",
@@ -1048,6 +1289,12 @@
     "name": "green onion",
     "tags": ["produce", "vegetable"],
     "serving": { "amount": 1, "unit": "", "grams": 15, "calories": 4.8, "protein": 0.275 }
+  },
+  {
+    "name": "grits",
+    "tags": ["grain"],
+    "note": "Any standard stone-ground grits",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 35, "calories": 130, "protein": 3, "fiber": 1.02 }
   },
   {
     "name": "ground basil",
@@ -1071,6 +1318,12 @@
     "tags": ["spice"],
     "serving": { "amount": 1, "unit": "tbsp", "grams": 5.8, "calories": 18, "protein": 0.624 }
   },
+    {
+    "name": "ground chicken",
+    "note": "assuming roughly 85% lean 15% fat (most common)",
+    "tags": ["protein", "meat", "poultry"],
+    "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 230, "protein": 20 }
+  },
   {
     "name": "ground cinnamon",
     "tags": ["spice"],
@@ -1092,9 +1345,9 @@
     "serving": { "amount": 1, "unit": "tsp", "grams": 3, "calories": 10, "protein": 0.4 }
   },
   {
-    "name": "ground fenugreek seeds",
+    "name": "ground fenugreek seed",
     "tags": ["spice"],
-    "serving": { "amount": 0.5, "unit": "tsp", "grams": 3.7, "calories": 12, "protein": 0.85 }
+    "serving": { "amount": 0.5, "unit": "tsp", "grams": 1.7, "calories": 5.49, "protein": 0.39, "fiber": 0.43 }
   },
   {
     "name": "ground ginger",
@@ -1114,6 +1367,12 @@
   },
   {
     "name": "ground pork",
+    "note": "assuming roughly 75% lean 25% fat (most common)",
+    "tags": ["protein", "meat", "pork"],
+    "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 300, "protein": 17 }
+  },
+  {
+    "name": "ground pork lean",
     "tags": ["protein", "meat", "pork"],
     "note": "Dubreton All Natural Ground Pork",
     "serving": { "amount": 4, "unit": "oz", "grams": 112, "calories": 210, "protein": 23 }
@@ -1139,6 +1398,12 @@
     "serving": { "amount": 1, "unit": "oz", "grams": 28.35, "calories": 25.8, "protein": 5.26 }
   },
   {
+    "name": "ham hock",
+    "note": "Jamestown Brand Fully Cooked Boneless Smoked Pork Hocks",
+    "tags": ["protein", "meat", "pork"],
+    "serving": { "amount": 3, "unit": "oz", "grams": 84, "calories": 180, "protein": 12, "fiber": 0 }
+  },
+  {
     "name": "hazelnut",
     "tags": ["nut"],
     "note": "Bake at 350F for 10-15min, but keep a very close eye to prevent burning!",
@@ -1152,14 +1417,21 @@
   },
   {
     "name": "hemp hearts",
+    "note": "Kirkland Organic Hemp Hearts",
     "tags": ["grain"],
-    "serving": { "amount": 2, "unit": "tbsp", "grams": 30, "calories": 180, "protein": 10, "fiber": 1 }
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 30, "calories": 180, "protein": 10, "fiber": 1 }
   },
   {
     "name": "hoisin sauce",
     "tags": ["sauce"],
     "note": "Lee Kum Kee Gluten-Free Hoisin Sauce",
     "serving": { "amount": 2, "unit": "tbsp", "grams": 39, "calories": 90, "protein": 0 }
+  },
+  {
+    "name": "homemade yogurt bread",
+    "tags": ["misc"],
+    "note": "Fake Sourdough recipe",
+    "serving": { "amount": 1, "unit": "", "grams": 100, "calories": 2141, "protein": 102.4 }
   },
   {
     "name": "honey",
@@ -1191,8 +1463,15 @@
   },
   {
     "name": "jalapeno",
+    "source": "https://fdc.nal.usda.gov/food-details/168576/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 35, "calories": 10.15, "protein": 0.3175 }
+    "serving": { "amount": 1, "unit": "", "grams": 14, "calories": 4.06, "protein": 0.127, "fiber": 0.392 }
+  },
+  {
+    "name": "jasmine rice",
+    "tags": ["grain"],
+    "note": "Lundberg. For 1c jasmine rice, use 1.25c (300ml) cold tap water. Place rice + water in saucepan, bring to rapid simmer UNCOVERED on med high. Turn down to low/med low so it simmers gently, then place lid TIGHTLY on. Cook 12min or til water absorbed. Remove from heat LID ON, stand 10 min. Fluff, then serve.",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 45, "calories": 160, "protein": 3, "fiber": 1 }
   },
   {
     "name": "jjajang",
@@ -1209,13 +1488,14 @@
   {
     "name": "kabocha squash",
     "tags": ["produce", "vegetable"],
-    "note": "bake at 400F for 30-35min; can eat skin!; avg weight research: 1349g, 800g",
-    "serving": { "amount": 1, "unit": "", "grams": 850, "calories": 390, "protein": 10 }
+    "note": "bake at 400F for 30-35min; can eat skin!; avg weight research: 1349g, 800g, 1112g",
+    "serving": { "amount": 1, "unit": "", "grams": 1000, "calories": 1280.4, "protein": 39.9 }
   },
   {
     "name": "kale",
+    "source": "https://fdc.nal.usda.gov/food-details/323505/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 60, "calories": 21, "protein": 1.75142 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 20.6, "calories": 8.86, "protein": 0.602, "fiber": 0.845 }
   },
   {
     "name": "ketchup",
@@ -1235,8 +1515,9 @@
   },
   {
     "name": "kiwi",
+    "source": "https://fdc.nal.usda.gov/food-details/2710831/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 75, "calories": 58, "protein": 1.06 }
+    "serving": { "amount": 1, "unit": "", "grams": 75, "calories": 48.75, "protein": 0.7575, "fiber": 1.575 }
   },
   {
     "name": "korean curry powder",
@@ -1378,7 +1659,8 @@
   {
     "name": "long grain rice",
     "tags": ["grain"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 45, "calories": 160, "protein": 3 }
+    "note": "Lundberg. For 1c jasmine rice, use 1.5c (360ml) cold tap water. Place rice + water in saucepan, bring to rapid simmer UNCOVERED on med high. Turn down to low/med low so it simmers gently, then place lid TIGHTLY on. Cook 13min or til water absorbed. Remove from heat LID ON, stand 10 min. Fluff, then serve.",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 45, "calories": 160, "protein": 3, "fiber": 1 }
   },
   {
     "name": "lotus root",
@@ -1409,9 +1691,16 @@
   {
     "name": "masa harina",
     "tags": ["grain", "baking"],
-    "note": "Bob's Red Mill",
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 29, "calories": 110, "protein": 2 },
+    "note": "Masienda White Corn Masa Harina",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 97, "protein": 3, "fiber": 3.5 },
+    "servingBobsRedMill": { "amount": 0.25, "unit": "cup", "grams": 29, "calories": 110, "protein": 2 },
     "servingKingArthur": { "amount": 0.33333333, "unit": "cup", "grams": 30, "calories": 110, "protein": 3 }
+  },
+  {
+    "name": "mascarpone",
+    "tags": ["dairy", "cheese"],
+    "note": "Ambrosi Mascarpone",
+    "serving": { "amount": 0.125, "unit": "cup", "grams": 28, "calories": 120, "protein": 0, "fiber": 0 }
   },
   {
     "name": "matzo",
@@ -1452,7 +1741,7 @@
     "name": "mochiko",
     "note": "Koda Farms",
     "tags": ["baking"],
-    "serving": { "amount": 3, "unit": "tbsp", "grams": 30, "calories": 110, "protein": 2 }
+    "serving": { "amount": 2.5, "unit": "tbsp", "grams": 30, "calories": 110, "protein": 2 }
   },
   {
     "name": "monkfish",
@@ -1472,6 +1761,11 @@
     "serving": { "amount": 1, "unit": "oz", "grams": 28, "calories": 80, "protein": 8 }
   },
   {
+    "name": "mung bean sprout",
+    "tags": ["produce", "vegetable"],
+    "serving": { "amount": 1, "unit": "cup", "grams": 104, "calories": 31, "protein": 3, "fiber": 2 }
+  },
+  {
     "name": "mushroom",
     "tags": ["produce", "vegetable", "mushroom"],
     "serving": { "amount": 1, "unit": "", "grams": 23, "calories": 5.06, "protein": 0.711 }
@@ -1482,6 +1776,12 @@
     "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 120, "protein": 19 }
   },
   {
+    "name": "naengmyeon noodle",
+    "tags": ["noodle"],
+    "note": "The 칠갑농산 비빔냉면 (red package) has 590g dried noodle total, supposed to be 4 servings (so 147g per serving), but 5 servings is a bit better for us (so 118g per serving)",
+    "serving": { "amount": 1, "unit": "oz", "grams": 25, "calories": 90, "protein": 0 }
+  },
+  {
     "name": "napa",
     "tags": ["produce", "vegetable"],
     "note": "average ~3lb per head. Research: 2.458lb, 3.65lb",
@@ -1489,8 +1789,9 @@
   },
   {
     "name": "nectarine",
+    "source": "https://fdc.nal.usda.gov/food-details/327357/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 142, "calories": 63, "protein": 1.5, "fiber": 2.4 }
+    "serving": { "amount": 1, "unit": "", "grams": 142, "calories": 61.1, "protein": 1.5, "fiber": 2.13 }
   },
   {
     "name": "nutritional yeast",
@@ -1516,9 +1817,10 @@
   },
   {
     "name": "okra",
+    "source": "https://fdc.nal.usda.gov/food-details/169260/nutrients",
     "tags": ["produce", "vegetable"],
     "note": "1lb (rinsed, dried, cut into 1/2\" pieces) okra, 1 tsp paprika, 1/2 tsp salt, 1T olive oil. 450F for 15 min.",
-    "serving": { "amount": 100, "unit": "g", "grams": 100, "calories": 33, "protein": 1.9, "fiber": 3.2 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 100, "calories": 33, "protein": 1.9, "fiber": 3.2 }
   },
   {
     "name": "olive oil",
@@ -1527,8 +1829,9 @@
   },
   {
     "name": "onion",
+    "source": "https://fdc.nal.usda.gov/food-details/790646/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 225, "calories": 90, "protein": 2.475 }
+    "serving": { "amount": 1, "unit": "", "grams": 225, "calories": 85.5, "protein": 1.8675, "fiber": 4.275 }
   },
   {
     "name": "onion powder",
@@ -1537,8 +1840,9 @@
   },
   {
     "name": "orange",
+    "source": "https://fdc.nal.usda.gov/food-details/746771/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 154, "calories": 72.4, "protein": 1.45 }
+    "serving": { "amount": 1, "unit": "", "grams": 140, "calories": 72.8, "protein": 1.27, "fiber": 2.8 }
   },
   {
     "name": "orange peel",
@@ -1580,40 +1884,47 @@
   },
   {
     "name": "parsnip",
+    "source": "https://fdc.nal.usda.gov/food-details/170417/nutrients",
     "tags": ["produce", "vegetable"],
     "note": "1lb parsnip (1/3 in. thick rounds or sticks), 1T olive oil, 1/4t salt. 425F for 30min, rotate pan halfway",
-    "serving": { "amount": 1, "unit": "", "grams": 100, "calories": 75, "protein": 1.2 }
+    "serving": { "amount": 1, "unit": "", "grams": 100, "calories": 75, "protein": 1.2, "fiber": 4.9 }
   },
   {
     "name": "pasta",
     "tags": ["noodle"],
     "note": "Seggiano Fusili (11-13min cooking time)",
-    "serving": { "amount": 0.75, "unit": "cup", "grams": 57, "calories": 190, "protein": 7 }
+    "serving": { "amount": 0.75, "unit": "cup", "grams": 57, "calories": 200.64, "protein": 6.84, "fiber": 1.71 }
   },
   {
     "name": "peach",
+    "source": "https://fdc.nal.usda.gov/food-details/325430/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 150, "calories": 63, "protein": 1.36 }
+    "serving": { "amount": 1, "unit": "", "grams": 147, "calories": 67.6, "protein": 1.34, "fiber": 2.2 }
   },
   {
     "name": "peanut",
+    "note": "Natural Grocers peanut splits",
     "tags": ["nut"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 28, "calories": 170, "protein": 8 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 180, "protein": 7, "fiber": 3 }
   },
   {
     "name": "peanut butter",
     "tags": ["sauce"],
-    "serving": { "amount": 2, "unit": "tbsp", "grams": 30, "calories": 190, "protein": 8 }
+    "note": "Kirkland Signature Organic Peanut Butter",
+    "serving": { "amount": 2, "unit": "tbsp", "grams": 32, "calories": 180, "protein": 8, "fiber": 3 }
   },
   {
     "name": "pear",
+    "source": "http://fdc.nal.usda.gov/food-details/2710836/nutrients",
+    "note": "Anjou green pear with skin",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 178, "calories": 102, "protein": 0.6 }
+    "serving": { "amount": 1, "unit": "", "grams": 178, "calories": 113.92, "protein": 0.5518, "fiber": 4.628 }
   },
   {
     "name": "pecan",
+    "note": "Natural Grocers pecan halves",
     "tags": ["nut"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 28, "calories": 190, "protein": 3 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 210, "protein": 3, "fiber": 3 }
   },
   {
     "name": "pecorino romano",
@@ -1648,13 +1959,15 @@
   },
   {
     "name": "pineapple",
+    "source": "https://fdc.nal.usda.gov/food-details/2346398/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 165, "calories": 82.5, "protein": 0.891 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 165, "calories": 99, "protein": 0.759, "fiber": 1.485 }
   },
   {
     "name": "pistachio",
+    "note": "Wonderful Roasted & Salted",
     "tags": ["nut"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 128, "calories": 744, "protein": 26.1 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 28, "calories": 160, "protein": 6, "fiber": 3 }
   },
   {
     "name": "pizza flour",
@@ -1664,13 +1977,13 @@
   {
     "name": "poblano",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 65, "calories": 13, "protein": 0.559 }
+    "serving": { "amount": 1, "unit": "", "grams": 65, "calories": 13, "protein": 0.559, "fiber": 1.1 }
   },
   {
     "name": "poha",
     "note": "Poha thick flattened rice (Best Taste Swad in Town brand)",
     "tags": ["grain"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 5, "calories": 55, "protein": 2, "fiber": 1 }
+    "serving": { "amount": 0.5, "unit": "cup", "grams": 40, "calories": 133.3333333333, "protein": 2.6666666667, "fiber": 2.6666666667 }
   },
   {
     "name": "poppy seed",
@@ -1714,8 +2027,9 @@
   },
   {
     "name": "potato",
+    "source": "https://fdc.nal.usda.gov/food-details/170026/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 170, "calories": 134, "protein": 3.64 }
+    "serving": { "amount": 1, "unit": "", "grams": 213, "calories": 164, "protein": 4.37, "fiber": 4.47 }
   },
   {
     "name": "powdered sugar",
@@ -1735,38 +2049,62 @@
   },
   {
     "name": "pumpkin seed",
+    "note": "Natural Grocers Organic Pumpkin Seeds",
     "tags": ["nut"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 170, "protein": 9 }
+    "serving": { "amount": 3, "unit": "tbsp", "grams": 30, "calories": 170, "protein": 9, "fiber": 2 }
   },
   {
     "name": "queso cotija",
     "tags": ["dairy", "cheese"],
-    "serving": { "amount": 1, "unit": "oz", "grams": 28, "calories": 90, "protein": 8 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 28, "calories": 90, "protein": 8 }
+  },
+  {
+    "name": "queso fresco",
+    "tags": ["dairy", "cheese"],
+    "note": "365 Queso Fresco",
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 28, "calories": 90, "protein": 6, "fiber": 0 }
   },
   {
     "name": "radish",
+    "source": "https://fdc.nal.usda.gov/food-details/169276/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 5, "calories": 0.8, "protein": 0.034 }
+    "serving": { "amount": 1, "unit": "", "grams": 4.5, "calories": 0.72, "protein": 0.031, "fiber": 0.072 }
   },
   {
     "name": "raisin",
+    "note": "Natural Grocers Seedless Raisins",
     "tags": ["baking"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 40, "calories": 120, "protein": 1 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 40, "calories": 120, "protein": 1, "fiber": 2 }
   },
   {
     "name": "raspberry",
+    "source": "https://fdc.nal.usda.gov/food-details/167755/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 10, "unit": "", "grams": 20, "calories": 10, "protein": 0.2 }
+    "serving": { "amount": 10, "unit": "", "grams": 20, "calories": 11.4, "protein": 0.202, "fiber": 1.3 }
+  },
+  {
+    "name": "redfish",
+    "tags": ["protein", "seafood", "fish"],
+    "note": "Drum freshwater fish from USDA",
+    "serving": { "amount": 3, "unit": "oz", "grams": 85, "calories": 101, "protein": 14.9, "fiber": 0 }
   },
   {
     "name": "red bell pepper",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 120, "calories": 31.2, "protein": 1.19 }
+    "source": "https://fdc.nal.usda.gov/food-details/2258590/nutrients",
+    "serving": { "amount": 1, "unit": "", "grams": 120, "calories": 37.2, "protein": 1.08, "fiber": 1.44 }
   },
   {
     "name": "red onion",
+    "source": "https://fdc.nal.usda.gov/food-details/790577/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 197, "calories": 86.7, "protein": 1.85 }
+    "serving": { "amount": 1, "unit": "", "grams": 197, "calories": 86.7, "protein": 1.85, "fiber": 4.33 }
+  },
+  {
+    "name": "red potato",
+    "source": "https://fdc.nal.usda.gov/food-details/170029/nutrients",
+    "tags": ["produce", "vegetable"],
+    "serving": { "amount": 1, "unit": "", "grams": 213, "calories": 149, "protein": 4.03, "fiber": 3.62 }
   },
   {
     "name": "red wine",
@@ -1806,13 +2144,14 @@
   {
     "name": "rolled oats",
     "tags": ["grain"],
-    "note": "(365)",
-    "serving": { "amount": 0.5, "unit": "cup", "grams": 40, "calories": 150, "protein": 5 }
+    "note": "Natural Grocers Bulk Rolled Oats",
+    "serving": { "amount": 0.5, "unit": "cup", "grams": 40, "calories": 170, "protein": 6, "fiber": 5 }
   },
   {
     "name": "roma tomato",
+    "source": "https://fdc.nal.usda.gov/food-details/170457/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 60, "calories": 10.8, "protein": 0.528 }
+    "serving": { "amount": 1, "unit": "", "grams": 62, "calories": 11.2, "protein": 0.546, "fiber": 0.744 }
   },
   {
     "name": "romaine pack",
@@ -1846,6 +2185,12 @@
     "serving": { "amount": 2, "unit": "", "grams": 30, "calories": 20.7, "protein": 3.63 }
   },
   {
+    "name": "serrano",
+    "source": "https://fdc.nal.usda.gov/food-details/169395/nutrients",
+    "tags": ["produce", "vegetable"],
+    "serving": { "amount": 1, "unit": "", "grams": 6.1, "calories": 1.95, "protein": 0.106, "fiber": 0.226 }
+  },
+  {
     "name": "sesame oil",
     "tags": ["oil"],
     "note": "buy 오뚜기 or 백설",
@@ -1858,8 +2203,9 @@
   },
   {
     "name": "shallot",
+    "source": "https://fdc.nal.usda.gov/food-details/170499/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 20, "calories": 14.4, "protein": 0.5 }
+    "serving": { "amount": 1, "unit": "", "grams": 20, "calories": 14.4, "protein": 0.5, "fiber": 0.64 }
   },
   {
     "name": "shaoxing wine",
@@ -1908,18 +2254,13 @@
     "name": "silken tofu block",
     "tags": ["protein"],
     "note": "Pulmuone Organic Silken Block",
-    "serving": { "amount": 1, "unit": "", "grams": 397, "calories": 300, "protein": 30 },
-    "serving (inorganic)": { "amount": 1, "unit": "", "grams": 454, "calories": 300, "protein": 50 }
+    "serving": { "amount": 1, "unit": "", "grams": 397, "calories": 300, "protein": 30, "fiber": 0 },
+    "serving (inorganic)": { "amount": 1, "unit": "", "grams": 454, "calories": 300, "protein": 50, "fiber": 0 }
   },
   {
     "name": "silken tofu tube",
     "tags": ["protein"],
     "serving": { "amount": 1, "unit": "", "grams": 297.5, "calories": 140, "protein": 14 }
-  },
-  {
-    "name": "silken tofu american",
-    "tags": ["protein"],
-    "serving": { "amount": 3, "unit": "oz", "grams": 85, "calories": 35, "protein": 4 }
   },
   {
     "name": "sliced rice cake",
@@ -1930,6 +2271,12 @@
     "name": "small egg",
     "tags": ["protein", "poultry"],
     "serving": { "amount": 1, "unit": "", "grams": 44, "calories": 60, "protein": 6 }
+  },
+  {
+    "name": "smoked paprika",
+    "tags": ["spice"],
+    "note": "just used paprika nutrition facts",
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 6.8, "calories": 19.2, "protein": 0.962 }
   },
   {
     "name": "smoked salmon pack wild",
@@ -1968,7 +2315,7 @@
     "name": "soy milk",
     "tags": ["dairy", "milk"],
     "note": "West Life unsweetened",
-    "serving": { "amount": 1, "unit": "cup", "grams": 240, "calories": 100, "protein": 9 },
+    "serving": { "amount": 1, "unit": "cup", "grams": 240, "calories": 100, "protein": 9, "fiber": 1 },
     "servingForEdensoyUnsweet": { "amount": 1, "unit": "cup", "grams": 240, "calories": 120, "protein": 12 }
   },
   {
@@ -1989,8 +2336,9 @@
   },
   {
     "name": "spinach",
+    "source": "https://fdc.nal.usda.gov/food-details/1999633/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 25, "calories": 5.75, "protein": 0.715 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 25, "calories": 7, "protein": 0.7275, "fiber": 0.4 }
   },
   {
     "name": "squid",
@@ -2010,12 +2358,18 @@
   {
     "name": "strawberry",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "", "grams": 18, "calories": 5.8, "protein": 0.1 }
+    "source": "https://fdc.nal.usda.gov/food-details/2346409/nutrients",
+    "serving": { "amount": 1, "unit": "", "grams": 18, "calories": 6.48, "protein": 0.1152, "fiber": 0.36 }
   },
   {
     "name": "sugar",
     "tags": ["baking"],
     "serving": { "amount": 2, "unit": "tsp", "grams": 8, "calories": 30, "protein": 0 }
+  },
+  {
+    "name": "sumac",
+    "tags": ["spice"],
+    "serving": { "amount": 1, "unit": "tsp", "grams": 2.7, "calories": 4, "protein": 0.2 }
   },
   {
     "name": "sun dried tomato",
@@ -2024,16 +2378,30 @@
     "serving": { "amount": 1, "unit": "", "grams": 9, "calories": 18, "protein": 0.6, "fiber": 0.6 }
   },
   {
+    "name": "sushi grade salmon",
+    "tags": ["protein", "seafood", "fish"],
+    "note": "Wester Ross Sushi Grade Salmon Saku Block",
+    "serving": { "amount": 4, "unit": "oz", "grams": 114, "calories": 140, "protein": 11, "fiber": 0 }
+  },
+  {
+    "name": "sushi grade tuna",
+    "tags": ["protein", "seafood", "fish"],
+    "note": "Frozen Saku Blocks (Big Eye Tuna)",
+    "serving": { "amount": 4, "unit": "oz", "grams": 113, "calories": 120, "protein": 26, "fiber": 0 }
+  },
+  {
     "name": "sweet potato",
     "tags": ["produce", "vegetable"],
+    "source": "https://fdc.nal.usda.gov/food-details/168482/nutrients",
     "note": "45-55 min at 430F on baking pan. Turn halfway. Same nutrition as american sweet potato.",
-    "serving": { "amount": 1, "unit": "", "grams": 130, "calories": 113, "protein": 2 }
+    "serving": { "amount": 1, "unit": "", "grams": 130, "calories": 113, "protein": 2, "fiber": 3.9 }
   },
   {
     "name": "sweet white corn",
     "tags": ["produce", "vegetable"],
-    "note": "To steam: Husk, place in steamer with boiling water, steam cover on for 10-15 min. Remove from steamer and let cool.",
-    "serving": { "amount": 1, "unit": "", "grams": 143, "calories": 123, "protein": 4.6 }
+    "source": "https://fdc.nal.usda.gov/food-details/168538/nutrients",
+    "note": "1 ear = 3/4c of kernels. To steam: Husk, place in steamer with boiling water, steam cover on for 10-15 min. Remove from steamer and let cool.",
+    "serving": { "amount": 1, "unit": "", "grams": 143, "calories": 123, "protein": 4.6, "fiber": 3.86 }
   },
   {
     "name": "sweet soy sauce",
@@ -2058,7 +2426,12 @@
     "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 110, "protein": 0 }
   },
   {
-    "name": "tempeh",
+    "name": "tempeh pack",
+    "tags": ["protein"],
+    "serving": { "amount": 0.4, "unit": "", "grams": 84, "calories": 160, "protein": 18, "fiber": 6 }
+  },
+  {
+    "name": "tempeh smoky flavor",
     "tags": ["protein"],
     "serving": { "amount": 1, "unit": "", "grams": 11.5, "calories": 35, "protein": 13 }
   },
@@ -2111,6 +2484,12 @@
     "serving": { "amount": 1, "unit": "", "grams": 76, "calories": 200, "protein": 5 }
   },
   {
+    "name": "tortilla chips",
+    "tags": ["misc"],
+    "note": "Natural Grocers Yellow Corn Tortilla Chips",
+    "serving": { "amount": 14, "unit": "", "grams": 28, "calories": 150, "protein": 3, "fiber": 2 }
+  },
+  {
     "name": "tteokbokki rice cake",
     "tags": [],
     "note": "Jinga",
@@ -2135,7 +2514,7 @@
   {
     "name": "urad dal",
     "tags": ["grain"],
-    "note": "Urad Gota (Khazana brand. Urad whole white)",
+    "note": "Urad Gota (Khazana brand. Urad whole white).\nTo cook: rinse lentils (don't need to soak these), combine 1c lentils + 4c hot water in pot, simmer gently with lid tilted til desired tenderness (20~22 min for salads, 25~35 min for main dishes)",
     "serving": { "amount": 0.5, "unit": "cup", "grams": 100, "calories": 350, "protein": 18, "fiber": 8 }
   },
   {
@@ -2145,8 +2524,9 @@
   },
   {
     "name": "walnut",
+    "note": "Natural Grocers",
     "tags": ["nut"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 28, "calories": 190, "protein": 4 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 200, "protein": 5, "fiber": 2 }
   },
   {
     "name": "water",
@@ -2155,8 +2535,9 @@
   },
   {
     "name": "watermelon",
+    "source": "https://fdc.nal.usda.gov/food-details/167765/nutrients",
     "tags": ["produce", "fruit"],
-    "serving": { "amount": 1, "unit": "cup", "grams": 155, "calories": 46.5, "protein": 0.946 }
+    "serving": { "amount": 1, "unit": "cup", "grams": 154, "calories": 46.2, "protein": 0.939, "fiber": 0.616 }
   },
   {
     "name": "white bread",
@@ -2166,9 +2547,9 @@
   },
   {
     "name": "white rice",
-    "note": "short grain white rice. Kyong Ki Mi",
+    "note": "medium grain white rice. Kyong Ki Mi",
     "tags": ["grain"],
-    "serving": { "amount": 0.25, "unit": "cup", "grams": 54, "calories": 190, "protein": 3 }
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 45, "calories": 160, "protein": 2, "fiber": 2 }
   },
   {
     "name": "white vinegar",
@@ -2197,6 +2578,11 @@
     "serving": { "amount": 1, "unit": "tsp", "grams": 2.1, "calories": 6.01, "protein": 0.1 }
   },
   {
+    "name": "whole wheat flour",
+    "tags": ["grain", "baking"],
+    "serving": { "amount": 0.25, "unit": "cup", "grams": 30, "calories": 110, "protein": 4, "fiber": 3 }
+  },
+  {
     "name": "wood ear",
     "tags": ["produce", "vegetable", "mushroom"],
     "note": "Guan's mushrooms",
@@ -2209,8 +2595,21 @@
   },
   {
     "name": "yellow bell pepper",
+    "source": "https://fdc.nal.usda.gov/food-details/2258589/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 186, "calories": 50.2, "protein": 1.86 }
+    "serving": { "amount": 1, "unit": "", "grams": 186, "calories": 57.66, "protein": 1.5252, "fiber": 2.046 }
+  },
+  {
+    "name": "yellow mustard seed",
+    "tags": ["spice"],
+    "note": "this is nutrition for just general mustard seeds",
+    "serving": { "amount": 1, "unit": "tbsp", "grams": 6.3, "calories": 32, "protein": 1.6 }
+  },
+  {
+    "name": "white onion",
+    "source": "https://fdc.nal.usda.gov/food-details/1104962/nutrients",
+    "tags": ["produce", "vegetable"],
+    "serving": { "amount": 1, "unit": "", "grams": 225, "calories": 81, "protein": 2.0025, "fiber": 2.7 }
   },
   {
     "name": "winter melon",
@@ -2219,7 +2618,8 @@
   },
   {
     "name": "zucchini",
+    "source": "https://fdc.nal.usda.gov/food-details/2685568/nutrients",
     "tags": ["produce", "vegetable"],
-    "serving": { "amount": 1, "unit": "", "grams": 323, "calories": 54.9, "protein": 3.91 }
+    "serving": { "amount": 1, "unit": "", "grams": 323, "calories": 61.37, "protein": 3.1654, "fiber": 2.584 }
   }
 ]

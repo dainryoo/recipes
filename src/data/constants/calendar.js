@@ -1,11 +1,11 @@
 const DAYS_OF_WEEK = {
+    SAT: "Sat",
     SUN: "Sun",
     MON: "Mon",
     TUE: "Tue",
     WED: "Wed",
     THU: "Thu",
     FRI: "Fri",
-    SAT: "Sat",
 };
 
 const ORDER_TYPE = {
@@ -13,7 +13,7 @@ const ORDER_TYPE = {
     NO_WEEKEND: "No Weekend",
     TWO_WEEKS: "Two Weeks",
     FRI_FIRST: "Friday First",
-    SAT_FIRST: "Saturday First",
+    SUN_FIRST: "Sunday First",
     MON_FIRST: "Monday First"
 };
 
@@ -24,7 +24,7 @@ const WEEK_ORDER = {
     [ORDER_TYPE.NO_WEEKEND]: [],
     [ORDER_TYPE.TWO_WEEKS]: [ ...defaultWeekOrder, ...defaultWeekOrder ],
     [ORDER_TYPE.FRI_FIRST]: [],
-    [ORDER_TYPE.SAT_FIRST]: [],
+    [ORDER_TYPE.SUN_FIRST]: [],
     [ORDER_TYPE.MON_FIRST]: [],
 };
 

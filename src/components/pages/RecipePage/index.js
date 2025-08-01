@@ -53,6 +53,7 @@ const RecipePage = () => {
             </h2>
             <p>{cleanNum(recipe?.nutrition?.totalCalories)} calories</p>
             <p>{cleanNum(recipe?.nutrition?.totalProtein)} g protein</p>
+            <p>{cleanNum(recipe?.nutrition?.totalFiber)} g fiber</p>
           </div>
         </div>
         :
@@ -72,6 +73,7 @@ const Ingredient = ({ item }) => {
       {note && `, ${note}`}
       {`, ${cleanNum(nutrition.calories)} cal`}
       {`, ${cleanNum(nutrition.protein)}g protein`}
+      {`, ${cleanNum(nutrition?.fiber)}g fiber`}
     </p>
   );
 };
